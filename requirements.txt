@@ -1,0 +1,44 @@
+venvs are in /usr/local/py-utils/venvs
+apps are exposed on your $PATH at /usr/local/py-utils/bin
+manual pages are exposed at /home/codespace/.local/share/man
+   package autopep8 2.1.0, installed using Python 3.10.13
+    - autopep8
+   package bandit 1.7.8, installed using Python 3.10.13
+    - bandit
+    - bandit-baseline
+    - bandit-config-generator
+   package black 24.3.0, installed using Python 3.10.13
+    - black
+    - blackd
+   package flake8 7.0.0, installed using Python 3.10.13
+    - flake8
+   package flask 3.0.3, installed using Python 3.10.13
+    - flask
+   package mypy 1.9.0, installed using Python 3.10.13
+    - dmypy
+    - mypy
+    - mypyc
+    - stubgen
+    - stubtest
+   package pipenv 2023.12.1, installed using Python 3.10.13
+    - pipenv
+    - pipenv-resolver
+   package pipx 1.5.0, installed using Python 3.10.13
+    - pipx
+   package pycodestyle 2.11.1, installed using Python 3.10.13
+    - pycodestyle
+   package pydocstyle 6.3.0, installed using Python 3.10.13
+    - pydocstyle
+   package pylint 3.1.0, installed using Python 3.10.13
+    - pylint
+    - pylint-config
+    - pyreverse
+    - symilar
+   package pytest 8.1.1, installed using Python 3.10.13
+    - py.test
+    - pytest
+   package virtualenv 20.25.1, installed using Python 3.10.13
+    - virtualenv
+   package yapf 0.40.2, installed using Python 3.10.13
+    - yapf
+    - yapf-diff
