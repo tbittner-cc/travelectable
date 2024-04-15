@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Travel Site</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
 </head>
 <body>
 <div class="container">
-<!-- Header Section -->
 <header>
-    <div class="logo">
-        <a href="index.html"><img src="logo.png" alt="Your Travel Site"></a>
-    </div>
+    <section class="hero">
+        <div class="hero-body">
+          <p class="title logo-text logo-header">travelicious</p>
+          <p class="subtitle logo-text">Go anywhere your travel appetite desires!</p>
+          <img src="{{ url_for('static',filename='global-ring.png')}}" alt="travelicious logo" />
+        </div>
+      </section>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -31,7 +36,7 @@
 </header>
 
 <!-- Hero Section -->
-<section class="hero">
+<section class="hero-or-not">
     <div class="hero-content">
         <h1>Discover Your Dream Getaway</h1>
         <p>Explore the world's most amazing destinations with us. Start your adventure today!</p>

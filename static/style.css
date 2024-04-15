@@ -1,0 +1,32 @@
+:root {
+    --main-color: #0074D9;
+}
+
+.hero {
+    background-color: var(--main-color);
+    border-radius: .75em;
+}
+
+.hero-body {
+    position: relative;
+}
+
+.hero-body img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.logo-text {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    margin-left: 8rem;
+}
+
+.logo-header {
+    font-size: 6em;
+}
