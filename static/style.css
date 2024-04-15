@@ -4,14 +4,15 @@
 
 .hero {
     background-color: var(--main-color);
-    border-radius: .75em;
+    border-bottom-right-radius: .75em;
+    border-bottom-left-radius: .75em;
 }
 
 .hero-body {
     position: relative;
 }
 
-.hero-body img {
+.hero-body figure {
     position: absolute;
     top: 0;
     left: 0;
@@ -29,4 +30,14 @@
 
 .logo-header {
     font-size: 6em;
+}
+
+@media (max-width:768px) {
+    .logo-text {
+        margin-left: 1rem;
+    }
+    
+    .logo-header {
+        font-size: 2em;
+    }
 }
