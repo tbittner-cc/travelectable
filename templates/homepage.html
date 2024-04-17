@@ -4,32 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>travelectable</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        travelblue: '#0074D9',
+                        travelgold: '#FFD700',
+                        travelnavy: '#001f3f',
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
 </head>
 <body>
-<div class="container">
+<div class="container mx-auto md:px-8">
 <header>
-    <section class="hero">
-        <div class="hero-body">
-          <p class="title logo-text logo-header">travelectable</p>
-          <p class="subtitle logo-text">Go anywhere your travel appetite desires!</p>
-          <figure class="image is-square">
-            <img src="{{ url_for('static',filename='global-ring.png')}}" alt="travelectable logo" />
-          </figure>
-        </div>
+    <section class="bg-travelblue h-32 md:h-48 relative">
+
+          <p class="logo-text text-4xl md:text-9xl ml-20 md:ml-32 pt-4">travelectable</p>
+          <p class="logo-text ml-20 md:ml-32">Go anywhere your travel appetite desires!</p>
+            <img src="{{ url_for('static',filename='global-ring.png')}}" alt="travelectable logo"  
+                class="absolute top-0 left-0 h-full"/>
     </section>
+    <div class="bg-travelgold h-1 w-full rounded-sm mt-1"></div>
     <div class="horizontal-line"></div>
-    <nav class="level is-mobile">
-        <div class="level-item"><a href="#">Home</a></div>
-        <div class="level-item"><a href="destinations.html">Destinations</a></div>
-        <div class="level-item"><a href="deals.html">Deals</a></div>
-        <div class="level-item"><a href="about.html">About Us</a></div>
-        <div class="level-item"><a href="contact.html">Contact</a></div>
+    <nav class="flex flex-row justify-around mt-1">
+        <a href="#" class="underline text-travelblue hover:text-travelnavy">Home</a>
+        <a href="destinations.html" class="underline text-travelblue hover:text-travelnavy">Destinations</a>
+        <a href="deals.html" class="underline text-travelblue hover:text-travelnavy">Deals</a>
+        <a href="about.html" class="underline text-travelblue hover:text-travelnavy">About Us</a>
+        <a href="contact.html" class="underline text-travelblue hover:text-travelnavy">Contact</a>
     </nav>
+    <div class="bg-travelgold h-1 w-full rounded-sm mt-1"></div>
     <div class="search-bar">
         <input type="text" placeholder="Search...">
         <button type="submit">Search</button>
@@ -37,12 +50,14 @@
 </header>
 
 <!-- Hero Section -->
-<section class="hero-or-not">
-    <div class="hero-content">
-        <h1>Discover Your Dream Getaway</h1>
-        <p>Explore the world's most amazing destinations with us. Start your adventure today!</p>
-        <a href="destinations.html" class="btn">Explore Destinations</a>
-    </div>
+<section class="deals-scroller">
+    <figure class="image is-128x128">
+    <img src="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+    </figure>   
+    <img src="img2.jpg" />
+    <img src="img3.jpg" />
+    <img src="img4.jpg" />
+    <img src="img5.jpg" />
 </section>
 
 <!-- Featured Destinations/Deals Section -->
