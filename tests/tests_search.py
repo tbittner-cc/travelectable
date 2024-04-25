@@ -2,7 +2,7 @@ import unittest
 
 import dateutil.parser as parser
 
-from main import search
+from main import utilities
 
 class TestGetDates(unittest.TestCase):
     def test_get_dates(self):
@@ -10,9 +10,9 @@ class TestGetDates(unittest.TestCase):
         end_date = parser.parse("May 7")
         
         dates = "May 1-7"
-        result = search.parse_dates(dates)
+        result = utilities.parse_dates(dates)
         self.assertEqual(result, (start_date, end_date))
 
         dates = "May 1st-7th"
-        result = search.parse_dates(dates)
+        result = utilities.parse_dates(dates)
         self.assertEqual(result, (start_date, end_date))

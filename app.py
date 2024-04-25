@@ -1,11 +1,12 @@
-from flask import Flask,request,redirect
+from flask import Flask,request,redirect, session
 from flask import render_template
 
 import spacy
 
-from main import search
+from main import utilities
 
 app = Flask(__name__)
+app.secret_key = "super secret key"
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -15,12 +16,12 @@ def homepage():
 
 @app.route("/hotels")
 def hotels():
-    return render_template('hotel_search_results.html')
+    return render_template('hotel_search_results.html',hotel_location = session['hotel_location'])
 
-@app.route("/search")
+@app.route("/search", methods=['GET','POST'])
 def search():
     # Get the input text from the form
-    query = request.args.get('query')
+    query = request.form['query']
 
     doc = nlp(query)
     
@@ -37,7 +38,7 @@ def search():
     if not date_string:
         return "Error: No dates found"
 
-    dates = search.parse_dates(date_string)
+    dates = utilities.parse_dates(date_string)
 
     #If no location is found, return error
     if len(locations) == 0:
@@ -45,8 +46,9 @@ def search():
         pass
     #If location contains only one value, go to hotels page
     elif len(locations) == 1:
-        #return redirect("/hotels?location=" + location[0] + "&dates=" + dates)
-        return render_template('hotel_search_results.html')
+        session['hotel_location'] = locations[0]
+        session['dates'] = dates
+        return redirect("/hotels")
     #If location contains more than one value, go to flights page
     elif len(locations) > 1:
         #return redirect("/flights?location=" + "+".join(location))
