@@ -3,7 +3,7 @@ from flask import render_template
 
 import spacy
 
-from app import search
+from main import search
 
 app = Flask(__name__)
 
@@ -13,6 +13,10 @@ nlp = spacy.load("en_core_web_sm")
 def homepage():
     return render_template('homepage.html')
 
+@app.route("/hotels")
+def hotels():
+    return render_template('hotel_search_results.html')
+
 @app.route("/search")
 def search():
     # Get the input text from the form
@@ -20,35 +24,35 @@ def search():
 
     doc = nlp(query)
     
-    location = []
-    dates = None
+    locations = []
+    date_string = None
     
     for ent in doc.ents:
         if ent.label_ == "GPE": 
-            location.append(ent.text)
+            locations.append(ent.text)
         elif ent.label_ == "DATE":
-            dates = ent.text
+            date_string = ent.text
 
     #If no dates are found, return error
-    if not dates:
+    if not date_string:
         return "Error: No dates found"
 
-    search.get_dates(dates)
+    dates = search.parse_dates(date_string)
 
     #If no location is found, return error
-    if len(location) == 0:
+    if len(locations) == 0:
         #return "Error: No location found"   
         pass
     #If location contains only one value, go to hotels page
-    elif len(location) == 1:
+    elif len(locations) == 1:
         #return redirect("/hotels?location=" + location[0] + "&dates=" + dates)
-        pass
+        return render_template('hotel_search_results.html')
     #If location contains more than one value, go to flights page
-    elif len(location) > 1:
+    elif len(locations) > 1:
         #return redirect("/flights?location=" + "+".join(location))
         pass
     
-    print("Location:", location)
+    print("Location:", locations)
     print("Dates:", dates)
 
     return "nlp"
