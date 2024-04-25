@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Search Results - Online Travel Agency</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+<div class="container mx-auto py-8">
+
+    <h1 class="text-2xl font-semibold mb-4">Hotel Search Results</h1>
+
+    <!-- Search Filters -->
+    <div class="mb-4">
+        <!-- Your search filter inputs here -->
+        <!-- Example: Location, Check-in Date, Check-out Date, Number of Guests, Price Range -->
+    </div>
+
+    <!-- Sort By -->
+    <div class="mb-4">
+        <label for="sort-by" class="block mb-2">Sort By:</label>
+        <select id="sort-by" class="border rounded-md px-4 py-2">
+            <option value="price-low">Price (Low to High)</option>
+            <option value="price-high">Price (High to Low)</option>
+            <option value="rating-high">Guest Rating (High to Low)</option>
+        </select>
+    </div>
+
+    <!-- Search Results -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Hotel Cards -->
+        <!-- Example Hotel Card -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-xl font-semibold mb-2">Hotel Name</h2>
+            <p class="text-gray-600 mb-2">Location: City, Country</p>
+            <p class="text-gray-600 mb-2">Rating: 4.5/5</p>
+            <p class="text-gray-600 mb-2">Price per Night: $100</p>
+            <p class="text-gray-600 mb-2">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <ul class="text-gray-600 mb-4">
+                <li>WiFi</li>
+                <li>Parking</li>
+                <li>Pool</li>
+                <!-- Add more amenities -->
+            </ul>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-md">Book Now</button>
+        </div>
+        <!-- Repeat this structure for each hotel -->
+    </div>
+
+    <!-- Pagination -->
+    <div class="mt-8">
+        <!-- Pagination options for more results -->
+    </div>
+
+</div>
+
+</body>
+</html>
