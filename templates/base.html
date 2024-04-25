@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelectable</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        travelblue: '#0074D9',
+                        travelgold: '#FFD700',
+                        travelnavy: '#001f3f',
+                    },
+                    fontFamily: {
+                        'comfortaa': ['Comfortaa','sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+</head>
+<body>
+<div class="container mx-auto md:px-8">
+<header>
+    <section class="bg-travelblue h-32 md:h-48 relative">
+          <p class="font-comfortaa text-white font-bold text-2xl md:text-9xl ml-20 md:ml-32 pt-4">travelectable</p>
+          <p class="font-comfortaa text-white font-bold ml-20 md:ml-32">Go anywhere your travel appetite desires!</p>
+            <img src="{{ url_for('static',filename='global-ring.png')}}" alt="travelectable logo"  
+                class="absolute top-0 left-0 h-full"/>
+    </section>
+
+    <div class="bg-travelgold h-1 w-full rounded-sm mt-1"></div>
+    <nav class="flex flex-row justify-around mt-1">
+        <a href="#" class="hover:text-travelblue text-travelnavy">Home</a>      
+        <a href="#" class="hover:text-travelblue text-travelnavy">Destinations</a>
+        <a href="#" class="hover:text-travelblue text-travelnavy">Deals</a>
+        <a href="#" class="hover:text-travelblue text-travelnavy">About Us</a>
+        <a href="#" class="hover:text-travelblue text-travelnavy">Contact</a>
+    </nav>
+    <div class="bg-travelgold h-1 w-full rounded-sm mt-1"></div>
+</header>
+
+{% block content %}{% endblock %}
+
+<footer>
+    <div class="bg-travelgold h-1 w-full rounded-sm mt-1"></div>
+    <nav class="flex flex-row justify-around mt-1">
+        <a href="#" class="hover:text-travelblue text-travelnavy">Home</a>      
+        <a href="#" class="hover:text-travelblue text-travelnavy">Destinations</a>
+        <a href="#" class="hover:text-travelblue text-travelnavy">Deals</a>
+        <a href="#" class="hover:text-travelblue text-travelnavy">About Us</a>
+        <a href="#" class="hover:text-travelblue text-travelnavy">Contact</a>
+    </nav>
+    <div class="social-links">
+        <!-- Social media icons -->
+        <!-- Example: -->
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <!-- Repeat similar structure for other social media icons -->
+    </div>
+    <div class="legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+    </div>
+</footer>
+</div>
+</body>
+</html>
