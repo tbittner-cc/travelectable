@@ -27,6 +27,7 @@ def search():
     
     locations = []
     date_string = None
+    error = None
     
     for ent in doc.ents:
         if ent.label_ == "GPE": 
@@ -36,7 +37,8 @@ def search():
 
     #If no dates are found, return error
     if not date_string:
-        return "Error: No dates found"
+        error = "No dates provided in query '%s'" % query
+        return render_template('homepage.html', error=error)
 
     dates = utilities.parse_dates(date_string)
 
