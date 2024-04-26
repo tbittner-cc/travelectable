@@ -1,6 +1,8 @@
+import os
+
+from amadeus import Client, ResponseError
 from flask import Flask,request,redirect, session
 from flask import render_template
-
 import spacy
 
 from main import utilities
@@ -8,10 +10,18 @@ from main import utilities
 app = Flask(__name__)
 app.secret_key = "super secret key"
 
+# Create an Amadeus client
+amadeus = Client(
+    client_id=os.environ.get("AMADEUS_API_KEY"),
+    client_secret=os.environ.get("AMADEUS_API_SECRET")
+)
+
 nlp = spacy.load("en_core_web_sm")
 
 @app.route("/")
 def homepage():
+    response = amadeus.reference_data.locations.cities.get(keyword='new york city')
+    print(response.data)
     return render_template('homepage.html')
 
 @app.route("/hotels")
