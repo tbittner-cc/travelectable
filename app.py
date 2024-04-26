@@ -20,12 +20,14 @@ nlp = spacy.load("en_core_web_sm")
 
 @app.route("/")
 def homepage():
-    response = amadeus.reference_data.locations.cities.get(keyword='new york city')
-    print(response.data)
     return render_template('homepage.html')
 
 @app.route("/hotels")
 def hotels():
+    #response = amadeus.reference_data.locations.cities.get(keyword='chicago')
+    #print (response.data)
+    hotel_list = amadeus.reference_data.locations.hotels.by_city.get(cityCode='CHI',radius=15)
+    print("Hotels",hotel_list.data)
     return render_template('hotel_search_results.html',hotel_location = session['hotel_location'])
 
 @app.route("/search", methods=['GET','POST'])
