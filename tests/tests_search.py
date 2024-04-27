@@ -6,8 +6,8 @@ from main import utilities
 
 class TestGetDates(unittest.TestCase):
     def test_get_dates(self):
-        start_date = parser.parse("May 1")
-        end_date = parser.parse("May 7")
+        start_date = "2024-05-01"
+        end_date = "2024-05-07"
         
         dates = "May 1-7"
         result = utilities.parse_dates(dates)

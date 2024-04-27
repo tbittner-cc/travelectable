@@ -10,9 +10,8 @@ def parse_dates(dates):
 
     start_date = parser.parse(start_date)
     end_date = parser.parse(end_date)
-    delta = end_date - start_date
-    print("Start Date:", start_date.strftime("%B %d, %Y"))
-    print("End Date:", end_date.strftime("%B %d, %Y"))
-    print("Number of days:", delta.days + 1)
+
+    start_date = start_date.strftime("%Y-%m-%d")
+    end_date = end_date.strftime("%Y-%m-%d")
 
     return (start_date, end_date)

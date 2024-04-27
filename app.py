@@ -24,10 +24,35 @@ def homepage():
 
 @app.route("/hotels")
 def hotels():
-    #response = amadeus.reference_data.locations.cities.get(keyword='chicago')
-    #print (response.data)
-    hotel_list = amadeus.reference_data.locations.hotels.by_city.get(cityCode='CHI',radius=15)
-    print("Hotels",hotel_list.data)
+    # Get the iataCode for the city
+    city_response = amadeus.reference_data.locations.cities.get(keyword=session['hotel_location'])
+    iataCode = city_response.data[0]['iataCode']
+
+    hotel_list = amadeus.reference_data.locations.hotels.by_city.get(cityCode=iataCode,radius=15,radiusUnit="MILE")
+    print("Hotels",len(hotel_list.data))
+
+    hotel_ids = [i['hotelId'] for i in hotel_list.data]
+    hotel_offers = []
+
+    # If there are more than 100 hotels, only take the first 100. 
+    # This is to avoid hitting the rate limit of the api.
+    if len(hotel_ids) > 100:
+        hotel_ids = hotel_ids[:100]
+        
+    (start_date,end_date) = session['dates']
+    kwargs = {
+        'hotelIds': hotel_ids,
+        'checkInDate': start_date,
+        'checkOutDate': end_date,
+    }
+
+    search_hotel_response = amadeus.shopping.hotel_offers_search.get(**kwargs)
+    print("Hotel offers",len(search_hotel_response.data))
+    print("First offer",search_hotel_response.data[0])
+
+    #for i in search_hotel_response.data:
+    #    hotel_offers.append(i)
+
     return render_template('hotel_search_results.html',hotel_location = session['hotel_location'])
 
 @app.route("/search", methods=['GET','POST'])
