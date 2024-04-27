@@ -35,7 +35,7 @@ def hotels():
     hotel_offers = []
 
     # If there are more than 100 hotels, only take the first 100. 
-    # This is to avoid hitting the rate limit of the api.
+    # This is to avoid hitting the rate limit of the api (2048 bytes)
     if len(hotel_ids) > 100:
         hotel_ids = hotel_ids[:100]
         
@@ -44,11 +44,13 @@ def hotels():
         'hotelIds': hotel_ids,
         'checkInDate': start_date,
         'checkOutDate': end_date,
+        'adults': 2
     }
 
     search_hotel_response = amadeus.shopping.hotel_offers_search.get(**kwargs)
+
     print("Hotel offers",len(search_hotel_response.data))
-    print("First offer",search_hotel_response.data[0])
+    print("First offer",search_hotel_response.data[0]['offers'][0])
 
     #for i in search_hotel_response.data:
     #    hotel_offers.append(i)
