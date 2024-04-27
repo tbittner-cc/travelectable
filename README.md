@@ -5,3 +5,4 @@ The Travel Site Made with Generative AI Love
 ### Amadeus
 * [Amadeus Python API](https://github.com/amadeus4dev/amadeus-python)
 * [Amadeus Django App](https://github.com/amadeus4dev/amadeus-hotel-booking-django/blob/master/amadeus_demo_api/demo/views.py)
+* [Self-Service API docs for Amadeus](https://developers.amadeus.com/self-service/apis-docs)
