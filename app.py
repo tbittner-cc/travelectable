@@ -30,15 +30,15 @@ def hotels():
 
     hotel_list = amadeus.reference_data.locations.hotels.by_city.get(cityCode=iataCode,radius=15,radiusUnit="MILE")
     print("Hotels",len(hotel_list.data))
+    hotel_list = sorted(hotel_list.data, key=lambda x: x['distance']['value'])
 
-    hotel_ids = [i['hotelId'] for i in hotel_list.data]
-    hotel_offers = []
+    hotel_ids = [i['hotelId'] for i in hotel_list]
+    
+    # Take at most the first 40 hotels
+    hotel_ids = hotel_ids[:min(40, len(hotel_ids))]
+    print("Hotel IDs",len(hotel_ids))
 
-    # If there are more than 100 hotels, only take the first 100. 
-    # This is to avoid hitting the rate limit of the api (2048 bytes)
-    if len(hotel_ids) > 100:
-        hotel_ids = hotel_ids[:100]
-        
+    hotel_offers = []    
     (start_date,end_date) = session['dates']
     kwargs = {
         'hotelIds': hotel_ids,
