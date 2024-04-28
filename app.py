@@ -29,14 +29,12 @@ def hotels():
     iataCode = city_response.data[0]['iataCode']
 
     hotel_list = amadeus.reference_data.locations.hotels.by_city.get(cityCode=iataCode,radius=15,radiusUnit="MILE")
-    print("Hotels",len(hotel_list.data))
     hotel_list = sorted(hotel_list.data, key=lambda x: x['distance']['value'])
 
     hotel_ids = [i['hotelId'] for i in hotel_list]
     
     # Take at most the first 40 hotels
     hotel_ids = hotel_ids[:min(40, len(hotel_ids))]
-    print("Hotel IDs",len(hotel_ids))
 
     hotel_offers = []    
     (start_date,end_date) = session['dates']
@@ -48,9 +46,13 @@ def hotels():
     }
 
     search_hotel_response = amadeus.shopping.hotel_offers_search.get(**kwargs)
-
     print("Hotel offers",len(search_hotel_response.data))
-    print("First offer",search_hotel_response.data[0]['offers'][0])
+    print("First hotel offer",search_hotel_response.data[0])
+    print("First offer",search_hotel_response.data[0]['offers'][0]) 
+
+    # Get the first offer for each hotel that has an offer in our hotelId list
+    # Zip the hotelId with the offer to get a list of tuples
+    hotel_offers = [i['offers'][0] for i in search_hotel_response.data if i['hotel']['hotelId'] in hotel_ids]
 
     #for i in search_hotel_response.data:
     #    hotel_offers.append(i)
