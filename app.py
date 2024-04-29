@@ -65,9 +65,8 @@ def hotels():
 
     print(offer_id_sub_lists)
     hotel_ratings_list = []
-    for offer_id in offer_ids:
-        hotel_ratings = amadeus.e_reputation.hotel_sentiments.get(hotelIds = offer_id)
-        print (hotel_ratings.data)
+    for offer_ids in offer_id_sub_lists:
+        hotel_ratings = amadeus.e_reputation.hotel_sentiments.get(hotelIds = offer_ids)
         for i in hotel_ratings.data:
             hotel_ratings.append((i['hotelId'],i['overallRating']))
     session['hotel_ratings'] = hotel_ratings
