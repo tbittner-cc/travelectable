@@ -5,7 +5,7 @@ from flask import Flask,request,redirect, session
 from flask import render_template
 import spacy
 
-from main import hotel_fns,utilities
+from main import utilities
 
 app = Flask(__name__)
 app.secret_key = "super secret key"
@@ -24,7 +24,6 @@ def homepage():
 
 @app.route("/hotels")
 def hotels():
-    # Get the iataCode for the city
     city_response = amadeus.reference_data.locations.cities.get(keyword=session['hotel_location'])
     iataCode = city_response.data[0]['iataCode']
 
@@ -56,24 +55,9 @@ def hotels():
     hotel_list = [i for i in hotel_list if i['hotelId'] in [j[0] for j in hotel_offers]]
     hotel_list = sorted(hotel_list, key=lambda x: x['hotelId'])
     session['hotel_list'] = hotel_list
-
-    offer_ids = [i['hotelId'] for i in hotel_list]    
-
-    # The amadeus API has a limit of 3 ratings per call, so we need to break up 
-    # the list into sublists of 3
-    offer_id_sub_lists = hotel_fns.create_hotel_ratings_sublists(offer_ids)
-
-    print(offer_id_sub_lists)
-    hotel_ratings_list = []
-    for offer_ids in offer_id_sub_lists:
-        hotel_ratings = amadeus.e_reputation.hotel_sentiments.get(hotelIds = offer_ids)
-        for i in hotel_ratings.data:
-            hotel_ratings.append((i['hotelId'],i['overallRating']))
-    session['hotel_ratings'] = hotel_ratings
     
     return render_template('hotel_search_results.html',hotel_location = session['hotel_location'],
-                           hotel_offers = session['hotel_offers'],hotel_list = session['hotel_list'],
-                           hotel_ratings=session['hotel_ratings'])
+                           hotel_offers = session['hotel_offers'],hotel_list = session['hotel_list'])
 
 @app.route("/search", methods=['GET','POST'])
 def search():
