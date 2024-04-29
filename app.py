@@ -5,7 +5,7 @@ from flask import Flask,request,redirect, session
 from flask import render_template
 import spacy
 
-from main import utilities
+from main import hotel_fns,utilities
 
 app = Flask(__name__)
 app.secret_key = "super secret key"
@@ -57,27 +57,17 @@ def hotels():
     hotel_list = sorted(hotel_list, key=lambda x: x['hotelId'])
     session['hotel_list'] = hotel_list
 
-    my_list = [1, 2, 3, 4, 5, 6, 7]
     offer_ids = [i['hotelId'] for i in hotel_list]    
 
     # The amadeus API has a limit of 3 ratings per call, so we need to break up 
     # the list into sublists of 3
-    offer_id_sub_lists = []
-    temp_list = []
-    for idx,offer_id in enumerate(offer_ids):
-        temp_list.append(offer_id)
-        if (idx+1) % 3 == 0:
-            offer_id_sub_lists.append(temp_list)
-            temp_list = []
-
-    if len(temp_list) > 0:
-        offer_id_sub_lists.append(temp_list)
+    offer_id_sub_lists = hotel_fns.create_hotel_ratings_sublists(offer_ids)
 
     print(offer_id_sub_lists)
-
     hotel_ratings_list = []
-    for rating_list in offer_id_sub_lists:
-        hotel_ratings = amadeus.e_reputation.hotel_sentiments.get(hotelIds = ','.join(rating_list))
+    for offer_id in offer_ids:
+        hotel_ratings = amadeus.e_reputation.hotel_sentiments.get(hotelIds = offer_id)
+        print (hotel_ratings.data)
         for i in hotel_ratings.data:
             hotel_ratings.append((i['hotelId'],i['overallRating']))
     session['hotel_ratings'] = hotel_ratings
