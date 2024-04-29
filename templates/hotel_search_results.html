@@ -26,11 +26,11 @@
         <!-- Hotel Cards -->
         <!-- Example Hotel Card -->
         <div class="bg-white rounded-lg shadow-md p-6">
-            <h2 class="text-xl font-semibold mb-2">Hotel Name</h2>
-            <p class="text-gray-600 mb-2">Location: City, Country</p>
-            <p class="text-gray-600 mb-2">Rating: 4.5/5</p>
-            <p class="text-gray-600 mb-2">Price per Night: $100</p>
-            <p class="text-gray-600 mb-2">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2 class="text-xl font-semibold mb-2">{{ hotel_list[0]['name'] }}</h2>
+            <p class="text-gray-600 mb-2">Location: {{ hotel_location }}</p>
+            <p class="text-gray-600 mb-2">Rating: {{ hotel_ratings[0] }}/100</p>
+            <p class="text-gray-600 mb-2">Price per Night: ${{ hotel_offers[0][1]['price']['variations']['average']['base'] }}</p>
+            <p class="text-gray-600 mb-2">Description: {{ hotel_offers[0][1]['room']['description']['text'] }}</p>
             <ul class="text-gray-600 mb-4">
                 <li>WiFi</li>
                 <li>Parking</li>

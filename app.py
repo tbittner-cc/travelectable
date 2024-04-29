@@ -31,12 +31,10 @@ def hotels():
     hotel_list = amadeus.reference_data.locations.hotels.by_city.get(cityCode=iataCode,radius=15,radiusUnit="MILE")
     hotel_list = sorted(hotel_list.data, key=lambda x: x['distance']['value'])
 
-    hotel_ids = [i['hotelId'] for i in hotel_list]
-    
     # Take at most the first 40 hotels
+    hotel_ids = [i['hotelId'] for i in hotel_list]
     hotel_ids = hotel_ids[:min(40, len(hotel_ids))]
-
-    hotel_offers = []    
+    
     (start_date,end_date) = session['dates']
     kwargs = {
         'hotelIds': hotel_ids,
@@ -44,20 +42,49 @@ def hotels():
         'checkOutDate': end_date,
         'adults': 2
     }
-
     search_hotel_response = amadeus.shopping.hotel_offers_search.get(**kwargs)
-    print("Hotel offers",len(search_hotel_response.data))
-    print("First hotel offer",search_hotel_response.data[0])
-    print("First offer",search_hotel_response.data[0]['offers'][0]) 
 
     # Get the first offer for each hotel that has an offer in our hotelId list
     # Zip the hotelId with the offer to get a list of tuples
-    hotel_offers = [i['offers'][0] for i in search_hotel_response.data if i['hotel']['hotelId'] in hotel_ids]
+    hotel_offers = [(i['hotel']['hotelId'],i['offers'][0]) for i in search_hotel_response.data 
+                    if i['hotel']['hotelId'] in hotel_ids]
 
-    #for i in search_hotel_response.data:
-    #    hotel_offers.append(i)
+    #Sort by hotelId
+    hotel_offers = sorted(hotel_offers, key=lambda x: x[0])
+    session['hotel_offers'] = hotel_offers
 
-    return render_template('hotel_search_results.html',hotel_location = session['hotel_location'])
+    hotel_list = [i for i in hotel_list if i['hotelId'] in [j[0] for j in hotel_offers]]
+    hotel_list = sorted(hotel_list, key=lambda x: x['hotelId'])
+    session['hotel_list'] = hotel_list
+
+    my_list = [1, 2, 3, 4, 5, 6, 7]
+    offer_ids = [i['hotelId'] for i in hotel_list]    
+
+    # The amadeus API has a limit of 3 ratings per call, so we need to break up 
+    # the list into sublists of 3
+    offer_id_sub_lists = []
+    temp_list = []
+    for idx,offer_id in enumerate(offer_ids):
+        temp_list.append(offer_id)
+        if (idx+1) % 3 == 0:
+            offer_id_sub_lists.append(temp_list)
+            temp_list = []
+
+    if len(temp_list) > 0:
+        offer_id_sub_lists.append(temp_list)
+
+    print(offer_id_sub_lists)
+
+    hotel_ratings_list = []
+    for rating_list in offer_id_sub_lists:
+        hotel_ratings = amadeus.e_reputation.hotel_sentiments.get(hotelIds = ','.join(rating_list))
+        for i in hotel_ratings.data:
+            hotel_ratings.append((i['hotelId'],i['overallRating']))
+    session['hotel_ratings'] = hotel_ratings
+    
+    return render_template('hotel_search_results.html',hotel_location = session['hotel_location'],
+                           hotel_offers = session['hotel_offers'],hotel_list = session['hotel_list'],
+                           hotel_ratings=session['hotel_ratings'])
 
 @app.route("/search", methods=['GET','POST'])
 def search():
