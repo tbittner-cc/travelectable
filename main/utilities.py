@@ -1,3 +1,4 @@
+from datetime import timedelta
 import dateutil.parser as parser
 
 def parse_dates(dates):
@@ -15,3 +16,15 @@ def parse_dates(dates):
     end_date = end_date.strftime("%Y-%m-%d")
 
     return (start_date, end_date)
+
+# Suggest a date range in two weeks in the future for searching.
+def get_suggested_dates(current_date):
+    suggested_start_date = current_date + timedelta(weeks=2)
+    suggested_end_date = suggested_start_date + timedelta(days = 6)
+
+    if (suggested_start_date.month == suggested_end_date.month):
+        suggested_date_range = "{}-{}".format(suggested_start_date.strftime("%B %-d"), suggested_end_date.strftime("%-d"))
+    else:
+        suggested_date_range = "{}-{}".format(suggested_start_date.strftime("%B %-d"), suggested_end_date.strftime("%B %-d"))
+
+    return suggested_date_range

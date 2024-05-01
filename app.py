@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta
 import os
 
 from amadeus import Client, ResponseError
@@ -20,7 +21,9 @@ nlp = spacy.load("en_core_web_sm")
 
 @app.route("/")
 def homepage():
-    return render_template('homepage.html')
+    current_date = datetime.now()
+    return render_template('homepage.html',
+                           suggested_date_range = utilities.get_suggested_dates(current_date))
 
 @app.route("/hotels")
 def hotels():
