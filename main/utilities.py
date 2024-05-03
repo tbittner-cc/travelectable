@@ -1,4 +1,6 @@
 from datetime import timedelta
+import os
+import re
 import dateutil.parser as parser
 
 def parse_dates(dates):
@@ -28,3 +30,16 @@ def get_suggested_dates(current_date):
         suggested_date_range = "{}-{}".format(suggested_start_date.strftime("%B %-d"), suggested_end_date.strftime("%B %-d"))
 
     return suggested_date_range
+
+def get_location_details(location):
+    extracted_city = None
+    # Open a file in read mode and read the contents
+    with open(os.path.join(os.path.dirname(__file__), "test.txt"), "r") as file:
+        location_details = file.read()
+
+    pattern = r'\{\s*"city":\s*"([^"]*)",\s*"latitude":\s*(-?\d+\.\d+),\s*"longitude":\s*(-?\d+\.\d+)\s*\}'
+    if result := re.search(pattern, location_details):
+        extracted_city = {"city": result.group(1), "latitude": float(result.group(2)), "longitude": float(result.group(3))}
+    else:
+        print("No match found")
+    return extracted_city

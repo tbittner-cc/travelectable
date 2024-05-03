@@ -26,3 +26,8 @@ class TestGetSuggestedDates(unittest.TestCase):
         current_date = parser.parse("2024-05-15")
         result = utilities.get_suggested_dates(current_date)
         self.assertEqual(result, "May 29-June 4")
+
+class TestGetLocationDetails(unittest.TestCase):
+    def test_get_location_details(self):
+        result = utilities.get_location_details("New York")
+        self.assertEqual(result, {"city": "Chicago", "latitude": 41.881832, "longitude": -87.623177})

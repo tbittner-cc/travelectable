@@ -1,0 +1,7 @@
+Here is the latitude and longitude for Chicago ¹:
+{
+"city": "Chicago",
+"latitude": 41.881832,
+"longitude": -87.623177
+}
+If you have any more questions or concerns, feel free to ask!
