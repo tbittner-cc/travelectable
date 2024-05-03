@@ -1,3 +1,5 @@
+{% import "star_rating.html" as star_rating %}
+
 {% macro hotel_search_card(offer) %}
 <div class="bg-white rounded-lg shadow-md border-2 p-2 border-gray-200 h-60 mb-2">
     <div class="flex">
@@ -11,7 +13,7 @@
         </div>
         <div class="w-2/3 relative">
         <h2 class="text-xl font-bold mt-4 mb-2">{{ offer['name'] }}</h2>
-        <p class="text-gray-600 mb-2"><span class="font-bold">Rating:</span> 82/100</p>
+        {{ star_rating.star_rating(offer['star_rating']) }}
         <p class="text-gray-600 mb-2"><span class="font-bold">Description:</span> {{ offer['description'] }}</p>
         <p class="text-gray-600 mb-2 mt-4 font-bold text-right">
             ${{ offer['offer_rate'] }}/night
