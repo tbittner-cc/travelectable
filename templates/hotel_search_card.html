@@ -1,4 +1,4 @@
-{% macro hotel_search_card(hotel,offer) %}
+{% macro hotel_search_card(offer) %}
 <div class="bg-white rounded-lg shadow-md border-2 p-2 border-gray-200 h-60 mb-2">
     <div class="flex">
         <div class="w-1/3">
@@ -10,11 +10,11 @@
             </div>
         </div>
         <div class="w-2/3 relative">
-        <h2 class="text-xl font-bold mt-4 mb-2">{{ hotel['name'].title() }}</h2>
+        <h2 class="text-xl font-bold mt-4 mb-2">{{ offer['name'] }}</h2>
         <p class="text-gray-600 mb-2"><span class="font-bold">Rating:</span> 82/100</p>
-        <p class="text-gray-600 mb-2"><span class="font-bold">Description:</span> {{ offer[1]['room']['description']['text'] }}</p>
+        <p class="text-gray-600 mb-2"><span class="font-bold">Description:</span> {{ offer['description'] }}</p>
         <p class="text-gray-600 mb-2 mt-4 font-bold text-right">
-            ${{ offer[1]['price']['variations']['average']['base'] }}/night
+            ${{ offer['offer_rate'] }}/night
         </p>
         
         <!-- Amadeus doesn't have an amenities list.  We could scrape the description using NLP.-->
