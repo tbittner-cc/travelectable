@@ -31,3 +31,12 @@ class TestGetLocationDetails(unittest.TestCase):
     def test_get_location_details(self):
         result = utilities.get_location_details("New York")
         self.assertEqual(result, {"city": "Chicago", "latitude": 41.881832, "longitude": -87.623177})
+
+class TestGetHotelOffers(unittest.TestCase):
+    def test_get_hotel_offers(self):
+        result = utilities.get_hotel_offers()
+        self.assertEqual(len(result),10)
+        self.assertEqual(result[0]['name'], 'The Langham Chicago')
+        # Convert to a string to handle floating point numbers
+        self.assertEqual(str(result[2]['distance']), str(0.7))
+        self.assertEqual(result[9]['offer_rate'], 80)
