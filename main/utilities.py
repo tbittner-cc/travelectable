@@ -46,13 +46,20 @@ def get_location_details(location):
 def get_hotel_offers():
     with open(os.path.join(os.path.dirname(__file__), "offers_test.txt"), "r") as file:
         offer_details = file.read()
+    return get_list_of_dicts(offer_details)
 
-    offer_details = offer_details.replace('$', '')
+def get_hotel_details():
+    with open(os.path.join(os.path.dirname(__file__), "hotel_details.txt"), "r") as file:
+        hotel_details = file.read()
+    return get_list_of_dicts(hotel_details)
 
-    start_index = offer_details.find('[')
-    end_index = offer_details.find(']')
-    offer_details = offer_details[start_index:end_index+1]
+def get_list_of_dicts(list_of_dicts_str):
+    list_of_dicts_str = list_of_dicts_str.replace('$', '')
 
-    offer_list = json.loads(offer_details)
+    start_index = list_of_dicts_str.find('[')
+    end_index = list_of_dicts_str.find(']')
+    list_of_dicts_str = list_of_dicts_str[start_index:end_index+1]
 
-    return offer_list
+    list_of_dicts = json.loads(list_of_dicts_str)
+
+    return list_of_dicts
