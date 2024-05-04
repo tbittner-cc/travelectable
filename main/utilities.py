@@ -57,7 +57,7 @@ def get_list_of_dicts(list_of_dicts_str):
     list_of_dicts_str = list_of_dicts_str.replace('$', '')
 
     start_index = list_of_dicts_str.find('[')
-    end_index = list_of_dicts_str.find(']')
+    end_index = list_of_dicts_str.rfind(']')
     list_of_dicts_str = list_of_dicts_str[start_index:end_index+1]
 
     list_of_dicts = json.loads(list_of_dicts_str)

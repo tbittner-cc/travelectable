@@ -40,3 +40,7 @@ class TestGetHotelOffers(unittest.TestCase):
         # Convert to a string to handle floating point numbers
         self.assertEqual(str(result[2]['distance']), str(0.7))
         self.assertEqual(result[9]['offer_rate'], 80)
+
+class TestGetHotelDetails(unittest.TestCase):
+    def test_get_hotel_details(self):
+        result = utilities.get_hotel_details()

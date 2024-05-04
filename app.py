@@ -27,15 +27,16 @@ def homepage():
 
 @app.route("/hotels")
 def hotels():
-    hotel_offers = utilities.get_hotel_offers()
-    session['hotel_offers'] = hotel_offers
+    session['hotel_offers'] = utilities.get_hotel_offers()
     
     return render_template('hotel_search_results.html',hotel_location = session['hotel_location'],
                            hotel_offers = session['hotel_offers'])
 
 @app.route("/hotel-details")
 def hotel_details():
-    return render_template('hotel_details.html')
+    session['hotel_details'] = utilities.get_hotel_details()
+    return render_template('hotel_details.html',hotel_location = session['hotel_location'][0],
+                           hotel_details = session['hotel_details'])
 
 @app.route("/search", methods=['GET','POST'])
 def search():
