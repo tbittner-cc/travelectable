@@ -33,6 +33,10 @@ def hotels():
     return render_template('hotel_search_results.html',hotel_location = session['hotel_location'],
                            hotel_offers = session['hotel_offers'])
 
+@app.route("/hotel-details")
+def hotel_details():
+    return render_template('hotel_details.html')
+
 @app.route("/search", methods=['GET','POST'])
 def search():
     # Get the input text from the form

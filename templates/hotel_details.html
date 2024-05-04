@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <header class="bg-gray-100 py-12">
+    <div class="container mx-auto p-4">
+      <h1 class="text-3xl font-bold">Hotel Details</h1>
+    </div>
+  </header>
+  <main class="container mx-auto p-4">
+    <section class="bg-white rounded shadow-md p-4">
+      <h2 class="text-2xl font-bold">Welcome to Our Hotel</h2>
+      <p class="text-lg">We invite you to experience the comfort and luxury of our hotel, located in the heart of the city. Our hotel offers a range of rooms to suit every taste and budget, from cozy singles to spacious suites.</p>
+    </section>
+    <section class="bg-white rounded shadow-md p-4 mt-4">
+      <h2 class="text-2xl font-bold">Room Rates</h2>
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full md:w-1/3 px-4 mb-4">
+          <h3 class="text-lg font-bold">Single Room</h3>
+          <img src="(link unavailable)" alt="Single Room" class="w-full h-64 object-cover mb-4">
+          <p class="text-lg">$120</p>
+          <p class="text-lg">Cozy room with a single bed, perfect for solo travelers.</p>
+        </div>
+        <div class="w-full md:w-1/3 px-4 mb-4">
+          <h3 class="text-lg font-bold">Double Room</h3>
+          <img src="(link unavailable)" alt="Double Room" class="w-full h-64 object-cover mb-4">
+          <p class="text-lg">$180</p>
+          <p class="text-lg">Spacious room with a queen-sized bed, ideal for couples.</p>
+        </div>
+        <div class="w-full md:w-1/3 px-4 mb-4">
+          <h3 class="text-lg font-bold">Deluxe Room</h3>
+          <img src="(link unavailable)" alt="Deluxe Room" class="w-full h-64 object-cover mb-4">
+          <p class="text-lg">$250</p>
+          <p class="text-lg">Luxurious room with a king-sized bed, private balcony, and stunning city views.</p>
+        </div>
+        <div class="w-full md:w-1/3 px-4 mb-4">
+          <h3 class="text-lg font-bold">Suite</h3>
+          <img src="(link unavailable)" alt="Suite" class="w-full h-64 object-cover mb-4">
+          <p class="text-lg">$350</p>
+          <p class="text-lg">Spacious suite with a separate living area, king-sized bed, and upgraded amenities.</p>
+        </div>
+        <div class="w-full md:w-1/3 px-4 mb-4">
+          <h3 class="text-lg font-bold">Executive Suite</h3>
+          <img src="(link unavailable)" alt="Executive Suite" class="w-full h-64 object-cover mb-4">
+          <p class="text-lg">$500</p>
+          <p class="text-lg">Premium suite with a private office, king-sized bed, and exclusive access to our executive lounge.</p>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white rounded shadow-md p-4 mt-4">
+      <h2 class="text-2xl font-bold">Room Amenities</h2>
+      <ul class="list-none m-0 p-0">
+        <li class="text-lg">Single Room: Comfortable single bed, flat-screen TV with cable channels, free Wi-Fi, private bathroom with shower</li>
+        <li class="text-lg">Double Room: Queen-sized bed, flat-screen TV with cable channels, free Wi-Fi, private bathroom with shower and bathtub, hair dryer and ironing facilities</li>
+        <li class="text-lg">Deluxe Room: King-sized bed, flat-screen TV with cable channels, free Wi-Fi, private bathroom with shower and bathtub, hair dryer and ironing facilities, private balcony with city views</li>
+        <li class="text-lg">Suite: King-sized bed, flat-screen TV with cable channels, free Wi-Fi, private bathroom with shower and bathtub, hair dryer and ironing facilities, separate living area with sofa and coffee table, upgraded amenities</li>
+        <li class="text-lg">Executive Suite: King-sized bed, flat-screen TV with cable channels, free Wi-Fi, private bathroom with shower and bathtub, hair dryer and ironing facilities, separate living area with sofa and coffee table, private office, exclusive access to our executive lounge</li>
+      </ul>
+    </section>
+  </main>
+{% endblock %}
