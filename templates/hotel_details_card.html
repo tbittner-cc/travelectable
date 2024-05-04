@@ -1,9 +1,16 @@
 {% macro hotel_details_card(details) %}
-<div class="flex flex-wrap mx-4">
-    <div class="w-full md:w-1/3 px-4 mb-4">
-      <h3 class="text-lg font-bold">Single Room</h3>
-      <img src="(link unavailable)" alt="Single Room" class="w-full h-64 object-cover mb-4">
-      <p class="text-lg">$120</p>
-      <p class="text-lg">Cozy room with a single bed, perfect for solo travelers.</p>
-    </div>
+  <div class="w-full md:w-1/3 px-4 mb-4 border shadow-md m-1 rounded-lg">
+    <h3 class="text-lg font-bold">{{ details['room_type'] }}</h3>
+    <img src="(link unavailable)" alt="{{ details['room_type'] }}" class="w-full h-64 object-cover mb-4">
+    <p class="text-lg">$120</p>
+    <p class="text-lg">{{ details['room_description'] }}</p>
+    <h4 class="text-lg font-bold text-travelslate mt-2">Amenities</h4>
+    <ul class="list-none m-0 p-0">
+      {% for amenity in details['amenities'] %}
+      <li class="text-lg">{{ amenity }}</li>
+      {% endfor %}
+    </ul>
+    <p class="text-lg mt-2"><span class="font-bold text-travelslate">Cancellation Policy:</span>
+      {{ details['cancellation_policy'] }}</p>
+  </div>
 {% endmacro %}

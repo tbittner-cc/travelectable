@@ -44,3 +44,8 @@ class TestGetHotelOffers(unittest.TestCase):
 class TestGetHotelDetails(unittest.TestCase):
     def test_get_hotel_details(self):
         result = utilities.get_hotel_details()
+        self.assertEqual(len(result),4)
+        self.assertEqual(result[0]['room_type'], 'Classic Room')
+        self.assertEqual(result[3]['cancellation_policy'], '48 hours prior to arrival')
+        self.assertEqual(result[1]['amenities'][1], 'Free WiFi')
+        
