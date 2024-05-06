@@ -1,0 +1,8 @@
+{# We can't directly render macros with render_template, so we need to add duplicate code that could 
+    otherwise be parameterized. #}
+{% import "hotel_search_card.html" as hotel_search_card %}
+
+<h1 class="text-2xl font-semibold mb-4">Hotel Search Results for {{ hotel_location }}</h1>
+{% for offer in hotel_offers %}
+    {{ hotel_search_card.hotel_search_card(offer) }}
+{% endfor %}

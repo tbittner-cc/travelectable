@@ -44,9 +44,9 @@ def hotel_sort():
     elif sort_option == 'rating-high':
         session['hotel_offers'] = sorted(session['hotel_offers'], key=lambda x: x['star_rating'], reverse=True)
 
-    template =render_template('hotel_search_results_macro.html',
-                           hotel_location = session['hotel_location'],
-                           hotel_offers = session['hotel_offers'])
+    template =render_template('hotel_search_results_htmx.html',
+                        hotel_location = session['hotel_location'],
+                        hotel_offers = session['hotel_offers'])
     print(template)
     return template
 
