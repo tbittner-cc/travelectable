@@ -32,6 +32,24 @@ def hotels():
     return render_template('hotel_search_results.html',hotel_location = session['hotel_location'],
                            hotel_offers = session['hotel_offers'])
 
+@app.route("/hotel-sort", methods=['GET','POST'])
+def hotel_sort():
+    sort_option = request.form['sort-hotels-by']
+    if sort_option == '':
+        session['hotel_offers'] = session['hotel_offers']
+    if sort_option == 'price-low':
+        session['hotel_offers'] = sorted(session['hotel_offers'], key=lambda x: x['offer_rate'])
+    elif sort_option == 'price-high':
+        session['hotel_offers'] = sorted(session['hotel_offers'], key=lambda x: x['offer_rate'], reverse=True)
+    elif sort_option == 'rating-high':
+        session['hotel_offers'] = sorted(session['hotel_offers'], key=lambda x: x['star_rating'], reverse=True)
+
+    template =render_template('hotel_search_results_macro.html',
+                           hotel_location = session['hotel_location'],
+                           hotel_offers = session['hotel_offers'])
+    print(template)
+    return template
+
 @app.route("/hotel-details")
 def hotel_details():
     session['hotel_details'] = utilities.get_hotel_details()

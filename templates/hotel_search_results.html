@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% import "hotel_search_card.html" as hotel_search_card %}
+{% import "hotel_search_results_macro.html" as hotel_search_results_macro %}
 
 {% block content %}
 <div class="container mx-auto py-8">
@@ -10,25 +10,21 @@
                 <!-- Example: Location, Check-in Date, Check-out Date, Number of Guests, Price Range -->
             </div>
 
-            <div>
+            <div class="mb-4">
                 <label for="sort-by" class="block mb-2">Sort By:</label>
-                <select id="sort-by" class="border rounded-md px-4 py-2">
+                <select id="sort-hotels-by" name="sort-hotels-by" class="border rounded-md px-4 py-2 mb-2"
+                    hx-post="/hotel-sort" hx-trigger="change" hx-target="#hotel-search-results">
+                    <option value="">Sort...</option>
                     <option value="price-low">Price (Low to High)</option>
                     <option value="price-high">Price (High to Low)</option>
                     <option value="rating-high">Guest Rating (High to Low)</option>
                 </select>
-            </div>
+                </div>
         </div>
-    
+        
         <div class="w-3/4">
-            <h1 class="text-2xl font-semibold mb-4">Hotel Search Results for {{ hotel_location }}</h1>
-            {% for offer in hotel_offers %}
-                {{ hotel_search_card.hotel_search_card(offer) }}
-            {% endfor %}
-            <div class="mt-8">
-            <!-- Pagination options for more results -->
-            </div>
-        </div>
+            {{ hotel_search_results_macro.hotel_search_results_macro(hotel_location, hotel_offers) }}
+        </div> 
     </div>
 </div>
 {% endblock %}
