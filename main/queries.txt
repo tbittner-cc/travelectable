@@ -1,0 +1,4 @@
+For "The Langham Chicago Hotel", provide 4 different room offers. Format it as follows:
+[{"room_type":<room_type>, "room_description":<room_description>,"occupancy":<occupancy>,"amenities":[<list_of_amenities>],"winter_rate":<winter_rate>,"summer_rate":<summer_rate>,"cancellation_policy":cancellation_policy}]
+
+Don't worry if the information isn't up-to-date. Provide a best estimate that matches historical information.  For the rates, take into account the seasonality of Chicago so higher rates aren't present in the off-season.

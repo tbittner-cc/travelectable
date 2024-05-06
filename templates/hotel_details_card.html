@@ -2,7 +2,11 @@
   <div class="w-full md:w-1/3 px-4 mb-4 border shadow-md m-1 rounded-lg">
     <h3 class="text-lg font-bold">{{ details['room_type'] }}</h3>
     <img src="(link unavailable)" alt="{{ details['room_type'] }}" class="w-full h-64 object-cover mb-4">
-    <p class="text-lg">$120</p>
+    {% if details['is_winter_rate'] %}
+      <p class="text-lg">${{ details['winter_rate'] }}</p>
+    {% else %}
+      <p class="text-lg">${{ details['summer_rate'] }}</p>
+    {% endif %}
     <p class="text-lg">{{ details['room_description'] }}</p>
     <h4 class="text-lg font-bold text-travelslate mt-2">Amenities</h4>
     <ul class="list-none m-0 p-0">

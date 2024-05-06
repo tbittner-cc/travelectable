@@ -1,27 +1,41 @@
-Here are 4 different room offers for The Langham Chicago:
+Here are four different room offers for "The Langham Chicago Hotel":
+
 [{
-"room_type": "Classic Room",
-"room_description": "Elegant room with king bed, marble bathroom, and city views",
+"room_type": "Deluxe Room",
+"room_description": "Spacious room with a king-size bed, marble bathroom, and city views",
 "occupancy": 2,
-"amenities": ["Flat-screen TV", "Free WiFi", "Minibar", "In-room dining", "Turndown service"],
-"cancellation_policy": "48 hours prior to arrival"
-}, {
+"amenities": ["Flat-screen TV", "Minibar", "Free Wi-Fi", "Turndown service"],
+"winter_rate": 350,
+"summer_rate": 500,
+"cancellation_policy": "Cancel by 24 hours prior to arrival to avoid penalty"
+},
+
+{
 "room_type": "Executive Room",
-"room_description": "Spacious room with king bed, separate living area, and access to Executive Lounge",
+"room_description": "Upgraded room with a king-size bed, marble bathroom, and access to the Executive Lounge",
 "occupancy": 2,
-"amenities": ["Flat-screen TV", "Free WiFi", "Minibar", "In-room dining", "Turndown service", "Executive Lounge access"],
-"cancellation_policy": "48 hours prior to arrival"
-}, {
-"room_type": "Deluxe Suite",
-"room_description": "Luxurious suite with king bed, separate living room, and stunning city views",
+"amenities": ["Flat-screen TV", "Minibar", "Free Wi-Fi", "Turndown service", "Executive Lounge access", "Continental breakfast"],
+"winter_rate": 450,
+"summer_rate": 650,
+"cancellation_policy": "Cancel by 48 hours prior to arrival to avoid penalty"
+},
+
+{
+"room_type": "River View Suite",
+"room_description": "Luxurious suite with a king-size bed, separate living area, and stunning river views",
+"occupancy": 3,
+"amenities": ["Flat-screen TV", "Minibar", "Free Wi-Fi", "Turndown service", "Separate living area", "River views"],
+"winter_rate": 700,
+"summer_rate": 1000,
+"cancellation_policy": "Cancel by 72 hours prior to arrival to avoid penalty"
+},
+
+{
+"room_type": "Club Room",
+"room_description": "Room with a king-size bed, marble bathroom, and access to the Club Lounge",
 "occupancy": 2,
-"amenities": ["Flat-screen TV", "Free WiFi", "Minibar", "In-room dining", "Turndown service", "Separate living room"],
-"cancellation_policy": "72 hours prior to arrival"
-}, {
-"room_type": "River View Room",
-"room_description": "Scenic room with king bed, marble bathroom, and breathtaking river views",
-"occupancy": 2,
-"amenities": ["Flat-screen TV", "Free WiFi", "Minibar", "In-room dining", "Turndown service", "River views"],
-"cancellation_policy": "48 hours prior to arrival"
+"amenities": ["Flat-screen TV", "Minibar", "Free Wi-Fi", "Turndown service", "Club Lounge access", "Complimentary cocktails and canapés"],
+"winter_rate": 550,
+"summer_rate": 800,
+"cancellation_policy": "Cancel by 24 hours prior to arrival to avoid penalty"
 }]
-Note: The amenities and cancellation policies are estimates based on historical information and may be subject to change.

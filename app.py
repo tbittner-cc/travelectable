@@ -35,6 +35,9 @@ def hotels():
 @app.route("/hotel-details")
 def hotel_details():
     session['hotel_details'] = utilities.get_hotel_details()
+    is_winter_rate = utilities.is_winter_rate(session['dates'][0])
+    for detail in session['hotel_details']:
+        detail['is_winter_rate'] = is_winter_rate
     return render_template('hotel_details.html',hotel_location = session['hotel_location'][0],
                            hotel_details = session['hotel_details'])
 
@@ -55,17 +58,15 @@ def search():
         elif ent.label_ == "DATE":
             date_string = ent.text
 
-    #If no dates are found, return error
     if not date_string:
-        error = "No dates provided in query '%s'" % query
-        return render_template('homepage.html', error=error)
+        date_string = utilities.get_suggested_dates(datetime.now())
 
     dates = utilities.parse_dates(date_string)
 
     #If no location is found, return error
     if len(locations) == 0:
-        #return "Error: No location found"   
-        pass
+        error = "No locations provided in query '%s'" % query
+        return render_template('homepage.html', error=error)
     #If location contains only one value, go to hotels page
     elif len(locations) == 1:
         session['hotel_location'] = locations[0]

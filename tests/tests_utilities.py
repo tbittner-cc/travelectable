@@ -45,7 +45,16 @@ class TestGetHotelDetails(unittest.TestCase):
     def test_get_hotel_details(self):
         result = utilities.get_hotel_details()
         self.assertEqual(len(result),4)
-        self.assertEqual(result[0]['room_type'], 'Classic Room')
-        self.assertEqual(result[3]['cancellation_policy'], '48 hours prior to arrival')
-        self.assertEqual(result[1]['amenities'][1], 'Free WiFi')
+        self.assertEqual(result[0]['room_type'], 'Deluxe Room')
+        self.assertEqual(result[3]['cancellation_policy'], "Cancel by 24 hours prior to arrival to avoid penalty")
+        self.assertEqual(result[1]['amenities'][1], 'Minibar')
+        self.assertEqual(result[2]['summer_rate'], 1000)
+
+class TestIsWinterRate(unittest.TestCase):
+    def test_is_winter_rate(self):
+        result = utilities.is_winter_rate("2024-04-01")
+        self.assertEqual(result, True)
+
+        result = utilities.is_winter_rate("2024-05-01")
+        self.assertEqual(result, False)
         

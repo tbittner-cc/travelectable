@@ -2,6 +2,10 @@ from datetime import timedelta
 import json,os,re
 import dateutil.parser as parser
 
+def is_winter_rate(date):
+    month = parser.parse(date).month
+    return month in [11, 12, 1, 2, 3, 4]
+
 def parse_dates(dates):
     (start_date, end_date) = dates.split("-")
     # spaCy ensures that the dash has no spaces between words
