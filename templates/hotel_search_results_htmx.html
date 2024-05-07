@@ -1,5 +1,5 @@
-{# We can't directly render macros with render_template, so we need to add duplicate code that could 
-    otherwise be parameterized. #}
+{# We can't directly render macros with render_template, so we need to add a duplicate file that could 
+    otherwise be parameterized elsewhere. #}
 {% import "hotel_search_card.html" as hotel_search_card %}
 
 <h1 class="text-2xl font-semibold mb-4">Hotel Search Results for {{ hotel_location }}</h1>
