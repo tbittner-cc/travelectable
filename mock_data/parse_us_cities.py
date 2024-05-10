@@ -3,15 +3,20 @@ sys.path.append('../')
 
 import utilities
 
-test_data = """
-Here are the largest cities in each metropolitan area:
-[(New York|NY|USA), (Los Angeles|CA|USA), 
-(Chicago|IL|USA), (Houston|TX|USA), 
-(Phoenix|AZ|USA), (Philadelphia|PA|USA), 
-(San Antonio|TX|USA), (San Diego|CA|USA), 
-(Dallas|TX|USA), (San Jose|CA|USA)]
-Let me know if you need anything else!
-"""
+# This is the query that captures the metro areas and population for each city:
+# List the top 50 metro areas in the US by population
+#
+# This is a line from the generated file:
+# New York-Newark-Jersey City, NY-NJ-PA: 19,620,000
+#
+# This is a test response from Llama-3:
+# Here are the largest cities in each metropolitan area:
+# [(New York|NY|USA), (Los Angeles|CA|USA), 
+# (Chicago|IL|USA), (Houston|TX|USA), 
+# (Phoenix|AZ|USA), (Philadelphia|PA|USA), 
+# (San Antonio|TX|USA), (San Diego|CA|USA), 
+# (Dallas|TX|USA), (San Jose|CA|USA)]
+# Let me know if you need anything else!
 
 with open('us_metro_areas.txt', 'r') as file:
     data = file.read()
