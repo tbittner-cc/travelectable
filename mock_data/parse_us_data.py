@@ -1,5 +1,7 @@
-import re
-import replicate
+import itertools,re,sys
+sys.path.append('../')
+
+import utilities
 
 test_data = """
 Here are the largest cities in each metropolitan area:
@@ -22,15 +24,12 @@ for line in data.splitlines():
         population = parts[1].strip()
         us_cities.append({'metro_area': metro_area, 'population': population})
 
-for i in range(0, len(us_cities), 10):
-    print (i)
-
 cities_sub_list = [us_cities[i:i+10] for i in range(0, len(us_cities), 10)]
 
 cities_new_sub_list = []
 
 location_pattern = r'\((.*?)\|(.*?)\|(.*?)\)'
-for city_list in [cities_sub_list[0]]:
+for city_list in cities_sub_list:
     query = """For the following metro areas return the largest city in the area in the following format:
 
         [(<city>|<state>|<country>),...]
@@ -38,23 +37,14 @@ for city_list in [cities_sub_list[0]]:
         {}""".format("\n".join([city['metro_area'] for city in city_list]))
     print(query)
 
-
-#     data = replicate.run(
-#         "meta/meta-llama-3-70b-instruct",
-#         input={"prompt": query})
-#     data = "".join(data)
-    matches = re.findall(location_pattern, test_data)
+    data = utilities.execute_llm_query(query)
+    matches = re.findall(location_pattern, data)
     result = [{'city': match[0], 'state': match[1], 'country': match[2]} for match in matches]
 
     merged_list = [{**city_list[i], **result[i]} for i in range(len(city_list))]
-
     cities_new_sub_list.append(merged_list)
 
-print(cities_new_sub_list)
-#         us_cities[i].update({'city': match.group(1), 'state': match.group(2), 'country': match.group(3)})
+us_cities = list(itertools.chain.from_iterable(cities_new_sub_list))
 
-# print(us_cities)
-
-# with open('us_cities.txt', 'w') as output_file:
-#     output_file.write(str(us_cities))
-
+with open('us_cities.txt', 'w') as output_file:
+    output_file.write(str(us_cities))
