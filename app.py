@@ -6,7 +6,7 @@ from flask import Flask,request,redirect, session
 from flask import render_template
 import spacy
 
-from main import utilities
+import utilities
 
 app = Flask(__name__)
 app.secret_key = "super secret key"

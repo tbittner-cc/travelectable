@@ -2,7 +2,7 @@ import unittest
 
 import dateutil.parser as parser
 
-from main import utilities
+import utilities
 
 class TestGetDates(unittest.TestCase):
     def test_get_dates(self):

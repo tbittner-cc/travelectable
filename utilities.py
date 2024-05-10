@@ -2,6 +2,8 @@ from datetime import timedelta
 import json,os,re
 import dateutil.parser as parser
 
+import replicate
+
 def is_winter_rate(date):
     month = parser.parse(date).month
     return month in [11, 12, 1, 2, 3, 4]
@@ -67,3 +69,10 @@ def get_list_of_dicts(list_of_dicts_str):
     list_of_dicts = json.loads(list_of_dicts_str)
 
     return list_of_dicts
+
+def execute_llm_query(query,max_tokens = 512):
+    data = replicate.run(
+        "meta/meta-llama-3-70b-instruct",
+         input={"prompt": query, "max_tokens": max_tokens})
+    
+    return "".join(data)
