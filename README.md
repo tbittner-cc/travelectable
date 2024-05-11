@@ -27,3 +27,10 @@ Certainly! Here are some colors that accompany blue well, along with suggestions
 8. **Slate Gray (#2c3e50)**: Consider using slate gray for footer sections or other areas where you want to maintain a professional and grounded appearance. It provides a subtle contrast to the primary blue color while maintaining a cohesive look.
 
 By incorporating these colors strategically throughout your website, you can create a visually appealing and cohesive design that reflects the trustworthiness, reliability, and serenity associated with blue, while also enhancing readability and user experience.
+
+## Mock Data Creation Notes
+1. Execute the query for metro areas listed at the top of `parse_us_cities.py`.
+2. If necessary, make adjustments to the code to parse the result of that query to populate
+the source US cities list.
+3. Run `parse_us_cities.py` to generate the `us_cities.txt` file with metro statistics.
+
