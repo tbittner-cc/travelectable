@@ -1,4 +1,5 @@
 from datetime import timedelta
+import itertools
 import json,os,re
 import dateutil.parser as parser
 
@@ -69,6 +70,12 @@ def get_list_of_dicts(list_of_dicts_str):
     list_of_dicts = json.loads(list_of_dicts_str)
 
     return list_of_dicts
+
+def build_sublist(src_list,list_size):
+    return [src_list[i:i + list_size] for i in range(0, len(src_list), list_size)]
+
+def merge_sublists(src_list):
+    return list(itertools.chain.from_iterable(src_list))
 
 def execute_llm_query(query,max_tokens = 512):
     data = replicate.run(

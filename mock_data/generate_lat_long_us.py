@@ -1,4 +1,7 @@
-import re
+import re,sys
+sys.path.append('../')
+
+import utilities
 
 from geopy.geocoders import Nominatim
 
@@ -18,9 +21,9 @@ matches = re.findall(location_pattern, data)
 locations = [f"{match[0]}, {match[1]}, {match[2]}" for match in matches]
 
 # Use Nominatim to get the latitude and longitude of each location
-geolocator = Nominatim(user_agent="travelectable")
-geocodes = [geolocator.geocode(location) for location in locations]
-for idx,geocode in enumerate(geocodes):
-    print(locations[idx], geocode.address, geocode.latitude, geocode.longitude)
+#geolocator = Nominatim(user_agent="travelectable")
+#geocodes = [geolocator.geocode(location) for location in locations]
+#for idx,geocode in enumerate(geocodes):
+#    print(locations[idx], geocode.address, geocode.latitude, geocode.longitude)
 
 

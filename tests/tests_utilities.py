@@ -57,4 +57,14 @@ class TestIsWinterRate(unittest.TestCase):
 
         result = utilities.is_winter_rate("2024-05-01")
         self.assertEqual(result, False)
+
+class TestBuildSubList(unittest.TestCase):
+    def test_build_sublist(self):
+        result = utilities.build_sublist(['a','b','c','d','e','f'], 2)
+        self.assertEqual(result, [['a', 'b'], ['c', 'd'], ['e', 'f']])
+
+class TestMergeSubList(unittest.TestCase):
+    def test_merge_sublists(self):
+        result = utilities.merge_sublists([['a', 'b'], ['c', 'd'], ['e', 'f']])
+        self.assertEqual(result, ['a', 'b', 'c', 'd', 'e', 'f'])
         
