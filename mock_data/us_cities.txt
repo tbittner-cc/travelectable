@@ -4,349 +4,449 @@
         "population": "19,620,000",
         "city": "New York",
         "state": "NY",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "40.7128",
+        "longitude": "-74.0060"
     },
     {
         "metro_area": "Los Angeles-Long Beach-Anaheim, CA",
         "population": "12,770,000",
         "city": "Los Angeles",
         "state": "CA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "34.0522",
+        "longitude": "-118.2437"
     },
     {
         "metro_area": "Chicago-Naperville-Elgin, IL-IN-WI",
         "population": "9,110,000",
         "city": "Chicago",
         "state": "IL",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "41.8781",
+        "longitude": "-87.6298"
     },
     {
         "metro_area": "Houston-The Woodlands-Sugar Land, TX",
         "population": "6,770,000",
         "city": "Houston",
         "state": "TX",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "29.7633",
+        "longitude": "-95.3632"
     },
     {
         "metro_area": "Phoenix-Mesa-Scottsdale, AZ",
         "population": "4,920,000",
         "city": "Phoenix",
         "state": "AZ",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "33.4484",
+        "longitude": "-112.0739"
     },
     {
         "metro_area": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
         "population": "6,240,000",
         "city": "Philadelphia",
         "state": "PA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "39.9523",
+        "longitude": "-75.1631"
     },
     {
         "metro_area": "San Antonio-New Braunfels, TX",
         "population": "2,530,000",
         "city": "San Antonio",
         "state": "TX",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "29.4241",
+        "longitude": "-98.4936"
     },
     {
         "metro_area": "San Diego-Carlsbad, CA",
         "population": "3,330,000",
         "city": "San Diego",
         "state": "CA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "32.7157",
+        "longitude": "-117.1611"
     },
     {
         "metro_area": "Dallas-Fort Worth-Arlington, TX",
         "population": "7,520,000",
         "city": "Dallas",
         "state": "TX",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "32.7767",
+        "longitude": "-96.7969"
     },
     {
         "metro_area": "San Jose-Sunnyvale-Santa Clara, CA",
         "population": "3,270,000",
         "city": "San Jose",
         "state": "CA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "37.3382",
+        "longitude": "-121.8863"
     },
     {
         "metro_area": "Austin-Round Rock-Georgetown, TX",
         "population": "2,170,000",
         "city": "Austin",
         "state": "TX",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "30.2671",
+        "longitude": "-97.7437"
     },
     {
         "metro_area": "Jacksonville, FL",
         "population": "1,540,000",
         "city": "Jacksonville",
         "state": "FL",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "30.3321",
+        "longitude": "-81.6557"
     },
     {
         "metro_area": "San Francisco-Oakland-Hayward, CA",
         "population": "3,310,000",
         "city": "San Francisco",
         "state": "CA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "37.7749",
+        "longitude": "-122.4194"
     },
     {
         "metro_area": "Indianapolis-Carmel-Anderson, IN",
         "population": "2,050,000",
         "city": "Indianapolis",
         "state": "IN",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "39.7684",
+        "longitude": "-86.1580"
     },
     {
         "metro_area": "Columbus, OH",
         "population": "2,130,000",
         "city": "Columbus",
         "state": "OH",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "39.9611",
+        "longitude": "-82.9988"
     },
     {
         "metro_area": "Fort Worth-Arlington, TX",
         "population": "2,900,000",
         "city": "Fort Worth",
         "state": "TX",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "32.7555",
+        "longitude": "-97.3308"
     },
     {
         "metro_area": "Charlotte-Concord-Gastonia, NC-SC",
         "population": "2,660,000",
         "city": "Charlotte",
         "state": "NC",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "35.2240",
+        "longitude": "-80.8431"
     },
     {
         "metro_area": "Memphis, TN-MS-AR",
         "population": "1,340,000",
         "city": "Memphis",
         "state": "TN",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "35.1495",
+        "longitude": "-90.0488"
     },
     {
         "metro_area": "Boston-Cambridge-Nashua, MA-NH",
         "population": "4,900,000",
         "city": "Boston",
         "state": "MA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "42.3601",
+        "longitude": "-71.0589"
     },
     {
         "metro_area": "Baltimore-Columbia-Towson, MD",
         "population": "2,840,000",
         "city": "Baltimore",
         "state": "MD",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "39.2905",
+        "longitude": "-76.6122"
     },
     {
         "metro_area": "Detroit-Warren-Dearborn, MI",
         "population": "4,320,000",
         "city": "Detroit",
         "state": "MI",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "42.3314",
+        "longitude": "-83.0458"
     },
     {
         "metro_area": "El Paso, TX",
         "population": "844,000",
         "city": "El Paso",
         "state": "TX",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "31.7587",
+        "longitude": "-106.4623"
     },
     {
         "metro_area": "Seattle-Tacoma-Bellevue, WA",
         "population": "4,030,000",
         "city": "Seattle",
         "state": "WA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "47.6062",
+        "longitude": "-122.3321"
     },
     {
         "metro_area": "Denver-Aurora-Lakewood, CO",
         "population": "3,030,000",
         "city": "Denver",
         "state": "CO",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "39.7392",
+        "longitude": "-104.9903"
     },
     {
         "metro_area": "Milwaukee-Waukesha-West Allis, WI",
         "population": "1,570,000",
         "city": "Milwaukee",
         "state": "WI",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "43.0389",
+        "longitude": "-87.9065"
     },
     {
         "metro_area": "Portland-Vancouver-Hillsboro, OR-WA",
         "population": "2,510,000",
         "city": "Portland",
         "state": "OR",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "45.5231",
+        "longitude": "-122.6750"
     },
     {
         "metro_area": "Oklahoma City, OK",
         "population": "1,390,000",
         "city": "Oklahoma City",
         "state": "OK",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "35.4676",
+        "longitude": "-97.5164"
     },
     {
         "metro_area": "Nashville-Davidson--Murfreesboro--Franklin, TN",
         "population": "1,930,000",
         "city": "Nashville",
         "state": "TN",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "36.1627",
+        "longitude": "-86.7816"
     },
     {
         "metro_area": "Washington-Arlington-Alexandria, DC-VA-MD",
         "population": "6,280,000",
         "city": "Washington DC",
         "state": "",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "38.8951",
+        "longitude": "-77.0367"
     },
     {
         "metro_area": "Kansas City, MO-KS",
         "population": "2,190,000",
         "city": "Kansas City",
         "state": "MO",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "39.0997",
+        "longitude": "-94.5786"
     },
     {
         "metro_area": "St. Louis, MO-IL",
         "population": "2,820,000",
         "city": "St. Louis",
         "state": "MO",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "38.6270",
+        "longitude": "-90.1994"
     },
     {
         "metro_area": "Raleigh, NC",
         "population": "1,440,000",
         "city": "Raleigh",
         "state": "NC",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "35.7796",
+        "longitude": "-78.6382"
     },
     {
         "metro_area": "Cleveland-Elyria, OH",
         "population": "2,150,000",
         "city": "Cleveland",
         "state": "OH",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "41.4995",
+        "longitude": "-81.6954"
     },
     {
         "metro_area": "Miami-Fort Lauderdale-Pompano Beach, FL",
         "population": "6,110,000",
         "city": "Miami",
         "state": "FL",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "25.7617",
+        "longitude": "-80.1918"
     },
     {
         "metro_area": "Oakland-Hayward-Berkeley, CA",
         "population": "2,700,000",
         "city": "Oakland",
         "state": "CA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "37.8044",
+        "longitude": "-122.2711"
     },
     {
         "metro_area": "Minneapolis-St. Paul-Bloomington, MN-WI",
         "population": "3,930,000",
         "city": "Minneapolis",
         "state": "MN",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "44.9778",
+        "longitude": "-93.2643"
     },
     {
         "metro_area": "Tulsa, OK",
         "population": "984,000",
         "city": "Tulsa",
         "state": "OK",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "36.1530",
+        "longitude": "-95.9928"
     },
     {
         "metro_area": "Virginia Beach-Norfolk-Newport News, VA-NC",
         "population": "1,740,000",
         "city": "Virginia Beach",
         "state": "VA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "36.8507",
+        "longitude": "-76.0749"
     },
     {
         "metro_area": "Sacramento-Roseville-Arden-Arcade, CA",
         "population": "2,590,000",
         "city": "Sacramento",
         "state": "CA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "38.5816",
+        "longitude": "-121.4944"
     },
     {
         "metro_area": "Las Vegas-Henderson-Paradise, NV",
         "population": "2,820,000",
         "city": "Las Vegas",
         "state": "NV",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "36.1697",
+        "longitude": "-115.1398"
     },
     {
         "metro_area": "Louisville/Jefferson County, KY-IN",
         "population": "1,270,000",
         "city": "Louisville",
         "state": "KY",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "38.2542",
+        "longitude": "-85.7603"
     },
     {
         "metro_area": "San Francisco-San Mateo-Redwood City, CA",
         "population": "2,550,000",
         "city": "San Francisco",
         "state": "CA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "37.7749",
+        "longitude": "-122.4194"
     },
     {
         "metro_area": "New Orleans-Metairie, LA",
         "population": "1,260,000",
         "city": "New Orleans",
         "state": "LA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "29.9511",
+        "longitude": "-90.0715"
     },
     {
         "metro_area": "Cincinnati, OH-KY-IN",
         "population": "2,130,000",
         "city": "Cincinnati",
         "state": "OH",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "39.1031",
+        "longitude": "-84.5120"
     },
     {
         "metro_area": "Pittsburgh, PA",
         "population": "2,330,000",
         "city": "Pittsburgh",
         "state": "PA",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "40.4406",
+        "longitude": "-79.9969"
     },
     {
         "metro_area": "Orlando-Kissimmee-Sanford, FL",
         "population": "2,570,000",
         "city": "Orlando",
         "state": "FL",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "28.5384",
+        "longitude": "-81.3792"
     },
     {
         "metro_area": "St. Paul-Minneapolis-Bloomington, MN-WI",
         "population": "3,930,000",
         "city": "Minneapolis",
         "state": "MN",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "44.9778",
+        "longitude": "-93.2650"
     },
     {
         "metro_area": "Greenville-Anderson-Mauldin, SC",
         "population": "920,000",
         "city": "Greenville",
         "state": "SC",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "34.8526",
+        "longitude": "-82.3940"
     },
     {
         "metro_area": "Cleveland-Lorain-Elyria, OH",
         "population": "2,150,000",
         "city": "Cleveland",
         "state": "OH",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "41.4993",
+        "longitude": "-81.6954"
     },
     {
         "metro_area": "Tampa-St. Petersburg-Clearwater, FL",
         "population": "4,310,000",
         "city": "Tampa",
         "state": "FL",
-        "country": "USA"
+        "country": "USA",
+        "latitude": "27.9475",
+        "longitude": "-82.4584"
     }
 ]
