@@ -448,5 +448,23 @@
         "country": "USA",
         "latitude": "27.9475",
         "longitude": "-82.4584"
-    }
+    },
+    {
+        "metro_area": "Anchorage, AK",
+        "population": "398,000",
+        "city": "Anchorage",
+        "state": "AK",
+        "country": "USA",
+        "latitude": "66.1605",
+        "longitude": "-153.3691"
+    },
+    {
+        "metro_area": "Honolulu, HI",
+        "population": "920,000",
+        "city": "Honolulu",
+        "state": "HI",
+        "country": "USA",
+        "latitude": "21.3156",
+        "longitude": "-157.8580"
+    }    
 ]
