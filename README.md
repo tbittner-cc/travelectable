@@ -29,8 +29,10 @@ Certainly! Here are some colors that accompany blue well, along with suggestions
 By incorporating these colors strategically throughout your website, you can create a visually appealing and cohesive design that reflects the trustworthiness, reliability, and serenity associated with blue, while also enhancing readability and user experience.
 
 ## Mock Data Creation Notes
+### For locations
 1. Execute the query for metro areas listed at the top of `parse_us_cities.py`.
 2. If necessary, make adjustments to the code to parse the result of that query to populate
 the source US cities list.
 3. Run `parse_us_cities.py` to generate the `us_cities.txt` file with metro statistics.
+4. Run `generate_lat_long_us_cities.py` to update the `us_cities.txt`
 
