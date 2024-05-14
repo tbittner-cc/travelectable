@@ -1,150 +1,72 @@
-Cancun, Mexico
-London, England
-Punta Cana, Dominican Republic
-Montego Bay, Jamaica
-San Juan, Puerto Rico
-San Jose del Cabo, Mexico
-Manila, Philippines
-Tel Aviv, Israel
-Paris, France
-Tokyo, Japan
-Rome, Italy
-Mexico City, Mexico
-Ho Chi Minh City, Vietnam
-Toronto, Canada
-Nassau, Bahamas
-Athens, Greece
-Seoul, Korea
-Puerto Vallarta, Mexico
-Delhi, India
-San Salvador, El Salvador
-Aruba Island, Aruba
-Madrid, Spain
-Barcelona, Spain
-Lisbon, Portugal
-Dublin, Ireland
-Amsterdam, Netherlands
-Berlin, Germany
-Prague, Czech Republic
-Vienna, Austria
-Zurich, Switzerland
-Cairo, Egypt
-Istanbul, Turkey
-Dubai, United Arab Emirates
-Bangkok, Thailand
-Singapore
-Kuala Lumpur, Malaysia
-Hong Kong, China
-Beijing, China
-Shanghai, China
-Mumbai, India
-Rio de Janeiro, Brazil
 Buenos Aires, Argentina
-Santiago, Chile
-Lima, Peru
-Bogota, Colombia
-Medellin, Colombia
-Cartagena, Colombia
-Panama City, Panama
-San Jose, Costa Rica
-Reykjavik, Iceland
-Cancun, Mexico
-Paris, France
-London, England
-Rome, Italy
-Bali, Indonesia
-Phuket, Thailand
-Barcelona, Spain
-Amsterdam, Netherlands
+Aruba Island, Aruba
 Sydney, Australia
-Costa del Sol, Spain
-Dominican Republic
-Jamaica
-The Bahamas
-Grand Cayman
-Puerto Vallarta, Mexico
-Cabo San Lucas, Mexico
-Athens, Greece
-Santorini, Greece
-Mykonos, Greece
-Dublin, Ireland
-Edinburgh, Scotland
-Reykjavik, Iceland
-Vancouver, Canada
-Montreal, Canada
-Toronto, Canada
-Queenstown, New Zealand
-Auckland, New Zealand
-Rotorua, New Zealand
-Bangkok, Thailand
-Chiang Mai, Thailand
-Krabi, Thailand
-Hanoi, Vietnam
-Ho Chi Minh City, Vietnam
-Da Nang, Vietnam
-Singapore
-Hong Kong
-Macau
-Seoul, South Korea
-Jeju Island, South Korea
-Taipei, Taiwan
-Barcelona, Spain
-Lisbon, Portugal
-Algarve, Portugal
-Greek Islands, Greece
-Croatian Islands, Croatia
-Dubrovnik, Croatia
-Split, Croatia
-Plitvice Lakes, Croatia
-Zurich, Switzerland
-Interlaken, Switzerland
-Paris, France
-London, England
-Tokyo, Japan
-Cancun, Mexico
-Rome, Italy
-Sydney, Australia
-Barcelona, Spain
-Amsterdam, Netherlands
-Bangkok, Thailand
-Dubai, U.A.E.
-Beijing, China
-Hong Kong
-Singapore
-Seoul, South Korea
-Rio de Janeiro, Brazil
-Cape Town, South Africa
-Istanbul, Turkey
-Mumbai, India
-Toronto, Canada
-Vancouver, Canada
-Montreal, Canada
-Puerto Vallarta, Mexico
-Costa del Sol, Spain
-Bali, Indonesia
-Phuket, Thailand
-Athens, Greece
-Berlin, Germany
-Prague, Czech Republic
 Vienna, Austria
-Zurich, Switzerland
-Dublin, Ireland
-Edinburgh, Scotland
-Stockholm, Sweden
+Nassau, Bahamas
+Rio de Janeiro, Brazil
+Montreal, Canada
+Vancouver, Canada
+Toronto, Canada
+Santiago, Chile
+Shanghai, China
+Beijing, China
+Hong Kong, China
+Macau, China
+Bogota, Colombia
+San Jose, Costa Rica
+Split, Croatia
+Dubrovnik, Croatia
+Prague, Czech Republic
 Copenhagen, Denmark
-Oslo, Norway
+Punta Cana, Dominican Republic
+Cairo, Egypt
+San Salvador, El Salvador
+London, England
 Helsinki, Finland
-Moscow, Russia
-St. Petersburg, Russia
+Paris, France
+Berlin, Germany
+Santorini, Greece
+Athens, Greece
+Reykjavik, Iceland
+Mumbai, India
+Delhi, India
+Bali, Indonesia
+Dublin, Ireland
 Tel Aviv, Israel
 Jerusalem, Israel
-Cairo, Egypt
-Marrakech, Morocco
-Fez, Morocco
+Rome, Italy
+Montego Bay, Jamaica
+Tokyo, Japan
+Seoul, Korea
+Kuala Lumpur, Malaysia
+Puerto Vallarta, Mexico
+Cabo San Lucas, Mexico
+Cancun, Mexico
+Mexico City, Mexico
 Casablanca, Morocco
-Santiago, Chile
-Buenos Aires, Argentina
+Marrakech, Morocco
+Amsterdam, Netherlands
+Auckland, New Zealand
+Oslo, Norway
+Panama City, Panama
 Lima, Peru
-Bogota, Colombia
-Medellin, Colombia
-Reykjavik, Iceland
+Manila, Philippines
+Lisbon, Portugal
+Moscow, Russia
+St. Petersburg, Russia
+Edinburgh, Scotland
+Cape Town, South Africa
+Seoul, South Korea
+Barcelona, Spain
+Madrid, Spain
+Stockholm, Sweden
+Zurich, Switzerland
+Taipei, Taiwan
+Phuket, Thailand
+Bangkok, Thailand
+Istanbul, Turkey
+Dubai, United Arab Emirates
+Ho Chi Minh City, Vietnam
+Hanoi, Vietnam
+George Town, Cayman Islands
+Singapore
