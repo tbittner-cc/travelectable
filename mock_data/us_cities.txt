@@ -466,5 +466,14 @@
         "country": "USA",
         "latitude": "21.3156",
         "longitude": "-157.8580"
+    },
+    {
+        "metro_area": "San Juan, PR",
+        "population": "2,443,000",
+        "city": "San Juan",
+        "state": "PR",
+        "country": "USA",
+        "latitude": "18.4663",
+        "longitude": "-66.1057"
     }    
 ]
