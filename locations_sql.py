@@ -21,8 +21,8 @@ class USMetroArea(Base):
     description = Column(String)
     points_of_interest = Column(String)
 
-class USLocations(Base):
-    __tablename__ = 'us_locations'
+class USDestinations(Base):
+    __tablename__ = 'us_destinations'
 
     id = Column(Integer, primary_key=True)
     location = Column(String)
@@ -66,7 +66,7 @@ with open('us_dests.txt') as f:
     data = f.read()
     us_dests = json.loads(data)
 for dest in us_dests:
-    session.add(USLocations(**dest))
+    session.add(USDestinations(**dest))
 
 with open('intl_dests.txt') as f:
     data = f.read()

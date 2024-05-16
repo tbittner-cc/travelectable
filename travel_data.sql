@@ -66,7 +66,7 @@ INSERT INTO us_metro_areas VALUES(50,'Tampa-St. Petersburg-Clearwater, FL','4,31
 INSERT INTO us_metro_areas VALUES(51,'Anchorage, AK','398,000','Anchorage','AK','USA','66.1605','-153.3691',NULL,NULL);
 INSERT INTO us_metro_areas VALUES(52,'Honolulu, HI','920,000','Honolulu','HI','USA','21.3156','-157.8580',NULL,NULL);
 INSERT INTO us_metro_areas VALUES(53,'San Juan, PR','2,443,000','San Juan','PR','USA','18.4663','-66.1057',NULL,NULL);
-CREATE TABLE us_locations (
+CREATE TABLE us_destinations (
 	id INTEGER NOT NULL, 
 	location VARCHAR, 
 	state VARCHAR, 
@@ -78,43 +78,43 @@ CREATE TABLE us_locations (
 	points_of_interest VARCHAR, 
 	PRIMARY KEY (id)
 );
-INSERT INTO us_locations VALUES(1,'Acadia National Park','ME','44.35','-68.21','Boston-Cambridge-Nashua, MA-NH','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(2,'Asheville','NC','35.59','-82.55','Greenville-Anderson-Mauldin, SC','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(3,'Bar Harbor','ME','44.39','-68.20','Boston-Cambridge-Nashua, MA-NH','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(4,'Bend','OR','44.06','-121.31','Portland-Vancouver-Hillsboro, OR-WA','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(5,'Big Sur','CA','36.22','-121.67','San Jose-Sunnyvale-Santa Clara, CA','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(6,'Branson','MO','36.6439','-93.2183','Tulsa, OK','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(7,'Breckenridge','CO','39.4822','-106.0382','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(8,'Cape Cod','MA','41.9333','-70.0167','Boston-Cambridge-Nashua, MA-NH','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(9,'Charleston','SC','32.7857','-79.9339','Charlotte-Concord-Gastonia, NC-SC','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(10,'Cooperstown','NY','42.6978','-74.9239','New York-Newark-Jersey City, NY-NJ-PA','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(11,'Custer State Park','SD','43.75','-103.43','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(12,'Durango','CO','37.28','-107.88','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(13,'Gatlinburg','TN','35.71','-83.52','Greenville-Anderson-Mauldin, SC','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(14,'Glacier National Park','MT','48.77','-113.67','Seattle-Tacoma-Bellevue, WA','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(15,'Glenwood Springs','CO','39.55','-107.32','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(16,'Grand Canyon','AZ','36.0544','-112.1401','Las Vegas-Henderson-Paradise, NV','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(17,'Great Smoky Mountains National Park','TN','35.6184','-83.5302','Greenville-Anderson-Mauldin, SC','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(18,'Jackson Hole','WY','43.5825','-110.8219','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(19,'Kauai','HI','22.0827','-159.4983','Honolulu, HI','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(20,'Key West','FL','24.5551','-81.7801','Miami-Fort Lauderdale-Pompano Beach, FL','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(21,'Lake Tahoe','CA','39.0942','-120.0424','Sacramento-Roseville-Arden-Arcade, CA','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(22,'Mackinac Island','MI','45.8497','-84.6278','Milwaukee-Waukesha-West Allis, WI','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(23,'Maui','HI','20.7984','-156.3314','Honolulu, HI','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(24,'Mount Rushmore','SD','43.8794','-103.4597','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(25,'Myrtle Beach','SC','33.6926','-78.8867','Raleigh, NC','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(26,'Napa Valley','CA','38.2977','-122.2864','Oakland-Hayward-Berkeley, CA','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(27,'Olympic National Park','WA','47.5714','-123.4431','Seattle-Tacoma-Bellevue, WA','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(28,'Palm Springs','CA','33.8303','-116.5453','San Diego-Carlsbad, CA','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(29,'Santa Fe','NM','35.6869','-105.9378','El Paso, TX','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(30,'Savannah','GA','32.0835','-81.0998','Jacksonville, FL','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(31,'Sedona','AZ','34.8697','-111.7603','Phoenix-Mesa-Scottsdale, AZ','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(32,'St. Augustine','FL','29.8942','-81.3145','Jacksonville, FL','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(33,'Telluride','CO','37.9375','-107.8206','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(34,'Williamsburg','VA','37.2707','-76.7074','Virginia Beach-Norfolk-Newport News, VA-NC','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(35,'Yellowstone National Park','WY','44.4275','-110.5885','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(36,'Yosemite National Park','CA','37.7447','-119.5882','Sacramento-Roseville-Arden-Arcade, CA','USA',NULL,NULL);
-INSERT INTO us_locations VALUES(37,'Zion National Park','UT','37.2986','-113.0267','Las Vegas-Henderson-Paradise, NV','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(1,'Acadia National Park','ME','44.35','-68.21','Boston-Cambridge-Nashua, MA-NH','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(2,'Asheville','NC','35.59','-82.55','Greenville-Anderson-Mauldin, SC','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(3,'Bar Harbor','ME','44.39','-68.20','Boston-Cambridge-Nashua, MA-NH','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(4,'Bend','OR','44.06','-121.31','Portland-Vancouver-Hillsboro, OR-WA','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(5,'Big Sur','CA','36.22','-121.67','San Jose-Sunnyvale-Santa Clara, CA','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(6,'Branson','MO','36.6439','-93.2183','Tulsa, OK','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(7,'Breckenridge','CO','39.4822','-106.0382','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(8,'Cape Cod','MA','41.9333','-70.0167','Boston-Cambridge-Nashua, MA-NH','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(9,'Charleston','SC','32.7857','-79.9339','Charlotte-Concord-Gastonia, NC-SC','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(10,'Cooperstown','NY','42.6978','-74.9239','New York-Newark-Jersey City, NY-NJ-PA','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(11,'Custer State Park','SD','43.75','-103.43','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(12,'Durango','CO','37.28','-107.88','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(13,'Gatlinburg','TN','35.71','-83.52','Greenville-Anderson-Mauldin, SC','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(14,'Glacier National Park','MT','48.77','-113.67','Seattle-Tacoma-Bellevue, WA','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(15,'Glenwood Springs','CO','39.55','-107.32','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(16,'Grand Canyon','AZ','36.0544','-112.1401','Las Vegas-Henderson-Paradise, NV','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(17,'Great Smoky Mountains National Park','TN','35.6184','-83.5302','Greenville-Anderson-Mauldin, SC','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(18,'Jackson Hole','WY','43.5825','-110.8219','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(19,'Kauai','HI','22.0827','-159.4983','Honolulu, HI','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(20,'Key West','FL','24.5551','-81.7801','Miami-Fort Lauderdale-Pompano Beach, FL','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(21,'Lake Tahoe','CA','39.0942','-120.0424','Sacramento-Roseville-Arden-Arcade, CA','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(22,'Mackinac Island','MI','45.8497','-84.6278','Milwaukee-Waukesha-West Allis, WI','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(23,'Maui','HI','20.7984','-156.3314','Honolulu, HI','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(24,'Mount Rushmore','SD','43.8794','-103.4597','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(25,'Myrtle Beach','SC','33.6926','-78.8867','Raleigh, NC','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(26,'Napa Valley','CA','38.2977','-122.2864','Oakland-Hayward-Berkeley, CA','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(27,'Olympic National Park','WA','47.5714','-123.4431','Seattle-Tacoma-Bellevue, WA','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(28,'Palm Springs','CA','33.8303','-116.5453','San Diego-Carlsbad, CA','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(29,'Santa Fe','NM','35.6869','-105.9378','El Paso, TX','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(30,'Savannah','GA','32.0835','-81.0998','Jacksonville, FL','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(31,'Sedona','AZ','34.8697','-111.7603','Phoenix-Mesa-Scottsdale, AZ','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(32,'St. Augustine','FL','29.8942','-81.3145','Jacksonville, FL','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(33,'Telluride','CO','37.9375','-107.8206','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(34,'Williamsburg','VA','37.2707','-76.7074','Virginia Beach-Norfolk-Newport News, VA-NC','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(35,'Yellowstone National Park','WY','44.4275','-110.5885','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(36,'Yosemite National Park','CA','37.7447','-119.5882','Sacramento-Roseville-Arden-Arcade, CA','USA',NULL,NULL);
+INSERT INTO us_destinations VALUES(37,'Zion National Park','UT','37.2986','-113.0267','Las Vegas-Henderson-Paradise, NV','USA',NULL,NULL);
 CREATE TABLE intl_destinations (
 	id INTEGER NOT NULL, 
 	location VARCHAR, 
