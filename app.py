@@ -1,7 +1,6 @@
 from datetime import datetime, timedelta
 import os
 
-from amadeus import Client, ResponseError
 from flask import Flask,request,redirect, session
 from flask import render_template
 import spacy
@@ -11,11 +10,6 @@ import utilities
 app = Flask(__name__)
 app.secret_key = "super secret key"
 
-# Create an Amadeus client
-amadeus = Client(
-    client_id=os.environ.get("AMADEUS_API_KEY"),
-    client_secret=os.environ.get("AMADEUS_API_SECRET")
-)
 
 nlp = spacy.load("en_core_web_sm")
 
