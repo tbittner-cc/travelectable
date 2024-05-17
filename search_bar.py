@@ -13,13 +13,16 @@ months = ["january", "february", "march", "april",
         "may", "jun", "jul", "aug", 
         "sep", "oct", "nov", "dec"]
 
+# date_patterns = [
+#     [{"LOWER": {"IN": months}},{"IS_DIGIT": True}, 
+     
+#      {"OP": "?", "IS_PUNCT": True}, {"OP": "?", "LOWER": "to"},
+     
+#      {"OP": "?", "LOWER": {"IN": months}}, {"OP": "?", "IS_DIGIT": True}],
+# ]
+
 date_patterns = [
-    [{"LOWER": {"IN": months}},{"IS_DIGIT": True},{"OP": "?", "LOWER": ","},{"OP": "?", "IS_DIGIT": True}],
-    [{"LOWER": {"IN": months}},{"IS_DIGIT": True},{"OP": "?", "LOWER": ","},{"OP": "?", "IS_DIGIT": True},
-
-    {"OP": "?", "LOWER": "-"},{"OP": "?", "LOWER": "to"},
-
-    {"OP": "?", "LOWER": {"IN": months}},{"IS_DIGIT": True},{"OP": "?", "LOWER": ","},{"OP": "?", "IS_DIGIT": True}]
+    [{"LOWER": {"IN": months}},{"IS_DIGIT": True}],
 ]
 
 matcher.add("LOCATION_AND_DATE_PATTERN", date_patterns)
@@ -30,11 +33,9 @@ def parse_dates(query):
     match_list =[]
     if matches:
         for match_id, start, end in matches:
-            #return doc[start:end].text
             match_list.append(doc[start:end].text)
-        # sort the list by length
         match_list.sort(key = len, reverse = True)
-        return match_list[0]
+        return match_list
     return None
 
 def is_location_in_database(location):

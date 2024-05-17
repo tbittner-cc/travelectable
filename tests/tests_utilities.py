@@ -13,6 +13,10 @@ class TestGetDates(unittest.TestCase):
         result = utilities.parse_dates(dates)
         self.assertEqual(result, (start_date, end_date))
 
+        dates = "May 1 - 7"
+        result = utilities.parse_dates(dates)
+        self.assertEqual(result, (start_date, end_date))
+
         dates = "May 1st-7th"
         result = utilities.parse_dates(dates)
         self.assertEqual(result, (start_date, end_date))
