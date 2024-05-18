@@ -26,6 +26,21 @@ date_patterns = [
 
 matcher.add("LOCATION_AND_DATE_PATTERN", date_patterns)
 
+def parse_query(query):
+    date_string = parse_dates(query)
+    dates = None
+    if date_string:
+        dates = utilities.parse_dates(date_string)
+    else:
+        dates = utilities.get_suggested_dates(datetime.now())
+
+    location_list = query.split(date_string)
+    location_list.sort(key = len, reverse = True)
+
+    location_list = re.split(r'(-|to)', location_list[0])
+    
+    
+
 def parse_dates(query):
     doc = nlp(query)
     matches = matcher(doc)
