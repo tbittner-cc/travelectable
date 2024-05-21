@@ -1,4 +1,5 @@
 from datetime import datetime
+import sqlite3
 
 from flask import Flask,request,redirect, session
 from flask import render_template
@@ -9,13 +10,31 @@ import utilities
 app = Flask(__name__)
 app.secret_key = "super secret key"
 
-
 nlp = spacy.load("en_core_web_sm")
+
+locations = []
+with sqlite3.connect('travel_data.db') as conn:
+    curr = conn.cursor()
+    curr.execute("SELECT id,city,state,country FROM us_metro_areas")
+    rows = curr.fetchall()
+    for row in rows:
+        locations.append(("us_metro_areas",row[0],f"{row[1]}, {row[2]} {row[3]}"))
+
+    curr.execute("SELECT id,location,state,country FROM us_destinations")
+    rows = curr.fetchall()
+    for row in rows:
+        locations.append(("us_destinations",row[0],f"{row[1]}, {row[2]} {row[3]}"))
+
+    curr.execute("SELECT id,location,country FROM intl_destinations")
+    rows = curr.fetchall()
+    for row in rows:
+        locations.append(("intl_destinations",row[0],f"{row[0]}, {row[1]}"))
 
 @app.route("/")
 def homepage():
     current_date = datetime.now()
     return render_template('homepage.html',
+                           locations = [location[2] for location in locations],
                            suggested_date_range = utilities.get_suggested_dates(current_date))
 
 @app.route("/hotels")
@@ -55,18 +74,16 @@ def hotel_details():
 @app.route("/search", methods=['GET','POST'])
 def search():
     # Get the input text from the form
-    query = request.form['query']
+    location_srcs = [request.form['origin'], request.form['destination']]
+    date_range = request.form['date_range']
 
-    doc = nlp(query)
+    doc = nlp(date_range)
     
-    locations = []
     date_string = None
     error = None
     
     for ent in doc.ents:
-        if ent.label_ == "GPE": 
-            locations.append(ent.text)
-        elif ent.label_ == "DATE":
+        if ent.label_ == "DATE":
             date_string = ent.text
 
     if not date_string:
@@ -76,7 +93,7 @@ def search():
 
     #If no location is found, return error
     if len(locations) == 0:
-        error = "No locations provided in query '%s'" % query
+        error = "No locations found"
         return render_template('homepage.html', error=error)
     #If location contains only one value, go to hotels page
     elif len(locations) == 1:

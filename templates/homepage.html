@@ -1,23 +1,33 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<form action="/search" method="POST" class="md:w-2/3 mx-auto flex flex-col sm:flex-row p-6 rounded-lg shadow-xl mt-6 border border-travelnavy">
-    <div class="w-full md:w-1/3 border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
+<form action="/search" method="POST" class="md:w-2/3 mx-auto flex flex-col md:flex-row p-6 md:rounded-lg md:shadow-xl mt-6 md:border md:border-travelnavy">
+    <div class="w-full md:w-72 border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
         <i class="bi bi-airplane-fill text-travelnavy mr-1"></i>
         <input type="text" name="origin" class="focus:outline-none"
-            placeholder="e.g. From Chicago" />
+            placeholder="e.g. From Chicago" list="origins"/>
+        <datalist id="origins">
+            {% for location in locations %}
+            <option value="{{ location }}"></option>
+            {% endfor %}
+        </datalist>
     </div>
-    <div class="w-full md:w-1/3 border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
+    <div class="w-full md:w-72 border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
         <i class="bi bi-building text-travelnavy mr-1"></i>
         <input type="text" name="destination" class="focus:outline-none"
-            placeholder="e.g. to New York" />
+            placeholder="e.g. to New York" list="destinations"/>
+        <datalist id="destinations">
+            {% for location in locations %}
+            <option value="{{ location }}"></option>
+            {% endfor %}
+        </datalist>
     </div>
-    <div class="w-full md:w-1/3 border rounded p-2 mb-2 md:mb-0 focus-within:border-travelgold">
-        <i class="bi bi-calendar-event text-travelnavy mr-1"></i>
+    <div class="w-full md:w-72 border rounded p-2 mb-2 md:mb-0 focus-within:border-travelgold">
+        <i class="bi bi-calendar-range text-travelnavy mr-1"></i>
         <input type="text" name="date_range" class="focus:outline-none"
-            placeholder="{{ suggested_date_range }}" />
+            placeholder="e.g. {{ suggested_date_range }}" />
     </div>
-    <button class="bg-travelnavy text-white rounded p-2">
+    <button class="bg-travelnavy text-white rounded p-2 md:ml-2">
         <i class="bi bi-search"></i>
     </button>
 </form>
