@@ -1,200 +1,177 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
-CREATE TABLE us_metro_areas (
-	id INTEGER NOT NULL, 
-	metro_area VARCHAR, 
-	population VARCHAR, 
-	city VARCHAR, 
-	state VARCHAR, 
-	country VARCHAR, 
-	latitude VARCHAR, 
-	longitude VARCHAR, 
-	description VARCHAR, 
-	points_of_interest VARCHAR, 
-	PRIMARY KEY (id)
-);
-INSERT INTO us_metro_areas VALUES(1,'New York-Newark-Jersey City, NY-NJ-PA','19,620,000','New York','NY','USA','40.7128','-74.0060',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(2,'Los Angeles-Long Beach-Anaheim, CA','12,770,000','Los Angeles','CA','USA','34.0522','-118.2437',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(3,'Chicago-Naperville-Elgin, IL-IN-WI','9,110,000','Chicago','IL','USA','41.8781','-87.6298',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(4,'Houston-The Woodlands-Sugar Land, TX','6,770,000','Houston','TX','USA','29.7633','-95.3632',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(5,'Phoenix-Mesa-Scottsdale, AZ','4,920,000','Phoenix','AZ','USA','33.4484','-112.0739',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(6,'Philadelphia-Camden-Wilmington, PA-NJ-DE-MD','6,240,000','Philadelphia','PA','USA','39.9523','-75.1631',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(7,'San Antonio-New Braunfels, TX','2,530,000','San Antonio','TX','USA','29.4241','-98.4936',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(8,'San Diego-Carlsbad, CA','3,330,000','San Diego','CA','USA','32.7157','-117.1611',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(9,'Dallas-Fort Worth-Arlington, TX','7,520,000','Dallas','TX','USA','32.7767','-96.7969',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(10,'San Jose-Sunnyvale-Santa Clara, CA','3,270,000','San Jose','CA','USA','37.3382','-121.8863',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(11,'Austin-Round Rock-Georgetown, TX','2,170,000','Austin','TX','USA','30.2671','-97.7437',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(12,'Jacksonville, FL','1,540,000','Jacksonville','FL','USA','30.3321','-81.6557',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(13,'San Francisco-Oakland-Hayward, CA','3,310,000','San Francisco','CA','USA','37.7749','-122.4194',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(14,'Indianapolis-Carmel-Anderson, IN','2,050,000','Indianapolis','IN','USA','39.7684','-86.1580',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(15,'Columbus, OH','2,130,000','Columbus','OH','USA','39.9611','-82.9988',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(16,'Fort Worth-Arlington, TX','2,900,000','Fort Worth','TX','USA','32.7555','-97.3308',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(17,'Charlotte-Concord-Gastonia, NC-SC','2,660,000','Charlotte','NC','USA','35.2240','-80.8431',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(18,'Memphis, TN-MS-AR','1,340,000','Memphis','TN','USA','35.1495','-90.0488',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(19,'Boston-Cambridge-Nashua, MA-NH','4,900,000','Boston','MA','USA','42.3601','-71.0589',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(20,'Baltimore-Columbia-Towson, MD','2,840,000','Baltimore','MD','USA','39.2905','-76.6122',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(21,'Detroit-Warren-Dearborn, MI','4,320,000','Detroit','MI','USA','42.3314','-83.0458',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(22,'El Paso, TX','844,000','El Paso','TX','USA','31.7587','-106.4623',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(23,'Seattle-Tacoma-Bellevue, WA','4,030,000','Seattle','WA','USA','47.6062','-122.3321',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(24,'Denver-Aurora-Lakewood, CO','3,030,000','Denver','CO','USA','39.7392','-104.9903',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(25,'Milwaukee-Waukesha-West Allis, WI','1,570,000','Milwaukee','WI','USA','43.0389','-87.9065',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(26,'Portland-Vancouver-Hillsboro, OR-WA','2,510,000','Portland','OR','USA','45.5231','-122.6750',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(27,'Oklahoma City, OK','1,390,000','Oklahoma City','OK','USA','35.4676','-97.5164',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(28,'Nashville-Davidson--Murfreesboro--Franklin, TN','1,930,000','Nashville','TN','USA','36.1627','-86.7816',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(29,'Washington-Arlington-Alexandria, DC-VA-MD','6,280,000','Washington DC','','USA','38.8951','-77.0367',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(30,'Kansas City, MO-KS','2,190,000','Kansas City','MO','USA','39.0997','-94.5786',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(31,'St. Louis, MO-IL','2,820,000','St. Louis','MO','USA','38.6270','-90.1994',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(32,'Raleigh, NC','1,440,000','Raleigh','NC','USA','35.7796','-78.6382',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(33,'Cleveland-Elyria, OH','2,150,000','Cleveland','OH','USA','41.4995','-81.6954',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(34,'Miami-Fort Lauderdale-Pompano Beach, FL','6,110,000','Miami','FL','USA','25.7617','-80.1918',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(35,'Oakland-Hayward-Berkeley, CA','2,700,000','Oakland','CA','USA','37.8044','-122.2711',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(36,'Minneapolis-St. Paul-Bloomington, MN-WI','3,930,000','Minneapolis','MN','USA','44.9778','-93.2643',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(37,'Tulsa, OK','984,000','Tulsa','OK','USA','36.1530','-95.9928',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(38,'Virginia Beach-Norfolk-Newport News, VA-NC','1,740,000','Virginia Beach','VA','USA','36.8507','-76.0749',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(39,'Sacramento-Roseville-Arden-Arcade, CA','2,590,000','Sacramento','CA','USA','38.5816','-121.4944',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(40,'Las Vegas-Henderson-Paradise, NV','2,820,000','Las Vegas','NV','USA','36.1697','-115.1398',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(41,'Louisville/Jefferson County, KY-IN','1,270,000','Louisville','KY','USA','38.2542','-85.7603',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(42,'San Francisco-San Mateo-Redwood City, CA','2,550,000','San Francisco','CA','USA','37.7749','-122.4194',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(43,'New Orleans-Metairie, LA','1,260,000','New Orleans','LA','USA','29.9511','-90.0715',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(44,'Cincinnati, OH-KY-IN','2,130,000','Cincinnati','OH','USA','39.1031','-84.5120',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(45,'Pittsburgh, PA','2,330,000','Pittsburgh','PA','USA','40.4406','-79.9969',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(46,'Orlando-Kissimmee-Sanford, FL','2,570,000','Orlando','FL','USA','28.5384','-81.3792',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(47,'St. Paul-Minneapolis-Bloomington, MN-WI','3,930,000','Minneapolis','MN','USA','44.9778','-93.2650',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(48,'Greenville-Anderson-Mauldin, SC','920,000','Greenville','SC','USA','34.8526','-82.3940',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(49,'Cleveland-Lorain-Elyria, OH','2,150,000','Cleveland','OH','USA','41.4993','-81.6954',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(50,'Tampa-St. Petersburg-Clearwater, FL','4,310,000','Tampa','FL','USA','27.9475','-82.4584',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(51,'Anchorage, AK','398,000','Anchorage','AK','USA','66.1605','-153.3691',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(52,'Honolulu, HI','920,000','Honolulu','HI','USA','21.3156','-157.8580',NULL,NULL);
-INSERT INTO us_metro_areas VALUES(53,'San Juan, PR','2,443,000','San Juan','PR','USA','18.4663','-66.1057',NULL,NULL);
-CREATE TABLE us_destinations (
-	id INTEGER NOT NULL, 
-	location VARCHAR, 
-	state VARCHAR, 
-	latitude VARCHAR, 
-	longitude VARCHAR, 
-	nearest_metro_area VARCHAR, 
-	country VARCHAR, 
-	description VARCHAR, 
-	points_of_interest VARCHAR, 
-	PRIMARY KEY (id)
-);
-INSERT INTO us_destinations VALUES(1,'Acadia National Park','ME','44.35','-68.21','Boston-Cambridge-Nashua, MA-NH','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(2,'Asheville','NC','35.59','-82.55','Greenville-Anderson-Mauldin, SC','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(3,'Bar Harbor','ME','44.39','-68.20','Boston-Cambridge-Nashua, MA-NH','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(4,'Bend','OR','44.06','-121.31','Portland-Vancouver-Hillsboro, OR-WA','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(5,'Big Sur','CA','36.22','-121.67','San Jose-Sunnyvale-Santa Clara, CA','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(6,'Branson','MO','36.6439','-93.2183','Tulsa, OK','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(7,'Breckenridge','CO','39.4822','-106.0382','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(8,'Cape Cod','MA','41.9333','-70.0167','Boston-Cambridge-Nashua, MA-NH','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(9,'Charleston','SC','32.7857','-79.9339','Charlotte-Concord-Gastonia, NC-SC','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(10,'Cooperstown','NY','42.6978','-74.9239','New York-Newark-Jersey City, NY-NJ-PA','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(11,'Custer State Park','SD','43.75','-103.43','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(12,'Durango','CO','37.28','-107.88','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(13,'Gatlinburg','TN','35.71','-83.52','Greenville-Anderson-Mauldin, SC','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(14,'Glacier National Park','MT','48.77','-113.67','Seattle-Tacoma-Bellevue, WA','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(15,'Glenwood Springs','CO','39.55','-107.32','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(16,'Grand Canyon','AZ','36.0544','-112.1401','Las Vegas-Henderson-Paradise, NV','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(17,'Great Smoky Mountains National Park','TN','35.6184','-83.5302','Greenville-Anderson-Mauldin, SC','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(18,'Jackson Hole','WY','43.5825','-110.8219','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(19,'Kauai','HI','22.0827','-159.4983','Honolulu, HI','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(20,'Key West','FL','24.5551','-81.7801','Miami-Fort Lauderdale-Pompano Beach, FL','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(21,'Lake Tahoe','CA','39.0942','-120.0424','Sacramento-Roseville-Arden-Arcade, CA','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(22,'Mackinac Island','MI','45.8497','-84.6278','Milwaukee-Waukesha-West Allis, WI','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(23,'Maui','HI','20.7984','-156.3314','Honolulu, HI','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(24,'Mount Rushmore','SD','43.8794','-103.4597','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(25,'Myrtle Beach','SC','33.6926','-78.8867','Raleigh, NC','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(26,'Napa Valley','CA','38.2977','-122.2864','Oakland-Hayward-Berkeley, CA','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(27,'Olympic National Park','WA','47.5714','-123.4431','Seattle-Tacoma-Bellevue, WA','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(28,'Palm Springs','CA','33.8303','-116.5453','San Diego-Carlsbad, CA','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(29,'Santa Fe','NM','35.6869','-105.9378','El Paso, TX','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(30,'Savannah','GA','32.0835','-81.0998','Jacksonville, FL','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(31,'Sedona','AZ','34.8697','-111.7603','Phoenix-Mesa-Scottsdale, AZ','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(32,'St. Augustine','FL','29.8942','-81.3145','Jacksonville, FL','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(33,'Telluride','CO','37.9375','-107.8206','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(34,'Williamsburg','VA','37.2707','-76.7074','Virginia Beach-Norfolk-Newport News, VA-NC','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(35,'Yellowstone National Park','WY','44.4275','-110.5885','Denver-Aurora-Lakewood, CO','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(36,'Yosemite National Park','CA','37.7447','-119.5882','Sacramento-Roseville-Arden-Arcade, CA','USA',NULL,NULL);
-INSERT INTO us_destinations VALUES(37,'Zion National Park','UT','37.2986','-113.0267','Las Vegas-Henderson-Paradise, NV','USA',NULL,NULL);
-CREATE TABLE intl_destinations (
-	id INTEGER NOT NULL, 
-	location VARCHAR, 
-	country VARCHAR, 
-	latitude VARCHAR, 
-	longitude VARCHAR, 
-	travel_advisory_level VARCHAR(30), 
-	description VARCHAR, 
-	points_of_interest VARCHAR, 
-	PRIMARY KEY (id)
-);
-INSERT INTO intl_destinations VALUES(1,'Amsterdam','Netherlands','52.3702','4.8903','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(2,'Aruba Island','Aruba','12.5079','-70.0353','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(3,'Athens','Greece','37.9838','23.7275','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(4,'Auckland','New Zealand','-36.8485','174.7633','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(5,'Bali','Indonesia','-8.4095','115.1889','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(6,'Bangkok','Thailand','13.7563','100.5018','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(7,'Barcelona','Spain','41.3851','2.1734','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(8,'Beijing','China','39.9042','116.3974','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(9,'Berlin','Germany','52.5200','13.4050','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(10,'Bogota','Colombia','4.6097','-74.0817','Reconsider Travel',NULL,NULL);
-INSERT INTO intl_destinations VALUES(11,'Buenos Aires','Argentina','-34.6037','-58.3816','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(12,'Cabo San Lucas','Mexico','22.8869','-109.4253','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(13,'Cairo','Egypt','30.0522','31.2497','Reconsider Travel',NULL,NULL);
-INSERT INTO intl_destinations VALUES(14,'Cancun','Mexico','21.1743','-86.8466','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(15,'Cape Town','South Africa','-33.9249','18.4241','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(16,'Casablanca','Morocco','33.5928','-7.9222','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(17,'Copenhagen','Denmark','55.6763','12.5681','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(18,'Delhi','India','28.6139','77.2090','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(19,'Dubai','United Arab Emirates','25.0657','55.1713','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(20,'Dublin','Ireland','53.3441','-6.2672','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(21,'Dubrovnik','Croatia','42.6481','18.0921','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(22,'Edinburgh','Scotland','55.9533','-3.1883','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(23,'George Town','Cayman Islands','19.2937','-81.3865','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(24,'Hanoi','Vietnam','21.0278','105.8342','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(25,'Helsinki','Finland','60.1699','24.9384','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(26,'Ho Chi Minh City','Vietnam','10.7626','106.6747','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(27,'Hong Kong','China','22.3964','114.1095','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(28,'Istanbul','Turkey','41.0082','28.9744','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(29,'Jerusalem','Israel','31.7833','35.2167','Reconsider Travel',NULL,NULL);
-INSERT INTO intl_destinations VALUES(30,'Kuala Lumpur','Malaysia','3.1390','101.6869','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(31,'Lima','Peru','-12.0464','-77.0428','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(32,'Lisbon','Portugal','38.7223','-9.1393','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(33,'London','England','51.5074','-0.1278','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(34,'Macau','China','22.1667','113.5500','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(35,'Madrid','Spain','40.4168','-3.7033','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(36,'Manila','Philippines','14.5995','121.0817','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(37,'Marrakech','Morocco','31.6295','-7.9811','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(38,'Mexico City','Mexico','19.4326','-99.1332','Reconsider Travel',NULL,NULL);
-INSERT INTO intl_destinations VALUES(39,'Montego Bay','Jamaica','18.5093','-77.8947','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(40,'Montreal','Canada','45.5017','-73.5673','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(41,'Moscow','Russia','55.7558','37.6173','Do Not Travel',NULL,NULL);
-INSERT INTO intl_destinations VALUES(42,'Mumbai','India','19.0759','72.8777','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(43,'Nassau','Bahamas','25.0582','-77.3434','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(44,'Oslo','Norway','59.9139','10.7522','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(45,'Panama City','Panama','9.0007','-79.5163','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(46,'Paris','France','48.8567','2.3522','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(47,'Phuket','Thailand','7.8906','98.3923','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(48,'Prague','Czech Republic','50.0755','14.4378','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(49,'Puerto Vallarta','Mexico','20.6773','-105.2447','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(50,'Punta Cana','Dominican Republic','18.5667','-68.4167','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(51,'Reykjavik','Iceland','64.1353','-21.8954','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(52,'Rio de Janeiro','Brazil','-22.9068','-43.1729','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(53,'Rome','Italy','41.8719','12.4964','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(54,'San Jose','Costa Rica','9.9281','-84.0907','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(55,'San Salvador','El Salvador','13.6892','-89.2012','Reconsider Travel',NULL,NULL);
-INSERT INTO intl_destinations VALUES(56,'Santiago','Chile','-33.4378','-70.6506','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(57,'Santorini','Greece','36.3932','25.4597','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(58,'Seoul','South Korea','37.5665','126.9778','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(59,'Shanghai','China','31.2304','121.4737','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(60,'Singapore','Singapore','1.3521','103.8198','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(61,'Split','Croatia','43.5065','16.4439','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(62,'St. Petersburg','Russia','59.9389','30.3256','Do Not Travel',NULL,NULL);
-INSERT INTO intl_destinations VALUES(63,'Stockholm','Sweden','59.3293','18.0686','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(64,'Sydney','Australia','-33.8651','151.2099','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(65,'Taipei','Taiwan','25.0478','121.5319','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(66,'Tel Aviv','Israel','32.0853','34.7804','Exercise Increased Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(67,'Tokyo','Japan','35.6895','139.7670','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(68,'Toronto','Canada','43.6532','-79.3832','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(69,'Vancouver','Canada','49.2827','-123.1207','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(70,'Vienna','Austria','48.2082','16.3738','Exercise Normal Precautions',NULL,NULL);
-INSERT INTO intl_destinations VALUES(71,'Zurich','Switzerland','47.3769','8.5382','Exercise Normal Precautions',NULL,NULL);
+CREATE TABLE destinations (
+        id INTEGER PRIMARY KEY,
+        location VARCHAR,
+        city VARCHAR,
+        state VARCHAR,
+        country VARCHAR,
+        latitude VARCHAR,
+        longitude VARCHAR,
+        description VARCHAR,
+        points_of_interest VARCHAR,
+        nearest_metro_area VARCHAR,
+        travel_advisory_level VARCHAR(30)
+    );
+INSERT INTO destinations VALUES(1,'New York-Newark-Jersey City, NY-NJ-PA','New York','NY','USA','40.7128','-74.0060',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(2,'Los Angeles-Long Beach-Anaheim, CA','Los Angeles','CA','USA','34.0522','-118.2437',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(3,'Chicago-Naperville-Elgin, IL-IN-WI','Chicago','IL','USA','41.8781','-87.6298',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(4,'Houston-The Woodlands-Sugar Land, TX','Houston','TX','USA','29.7633','-95.3632',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(5,'Phoenix-Mesa-Scottsdale, AZ','Phoenix','AZ','USA','33.4484','-112.0739',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(6,'Philadelphia-Camden-Wilmington, PA-NJ-DE-MD','Philadelphia','PA','USA','39.9523','-75.1631',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(7,'San Antonio-New Braunfels, TX','San Antonio','TX','USA','29.4241','-98.4936',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(8,'San Diego-Carlsbad, CA','San Diego','CA','USA','32.7157','-117.1611',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(9,'Dallas-Fort Worth-Arlington, TX','Dallas','TX','USA','32.7767','-96.7969',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(10,'San Jose-Sunnyvale-Santa Clara, CA','San Jose','CA','USA','37.3382','-121.8863',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(11,'Austin-Round Rock-Georgetown, TX','Austin','TX','USA','30.2671','-97.7437',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(12,'Jacksonville, FL','Jacksonville','FL','USA','30.3321','-81.6557',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(13,'San Francisco-Oakland-Hayward, CA','San Francisco','CA','USA','37.7749','-122.4194',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(14,'Indianapolis-Carmel-Anderson, IN','Indianapolis','IN','USA','39.7684','-86.1580',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(15,'Columbus, OH','Columbus','OH','USA','39.9611','-82.9988',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(16,'Fort Worth-Arlington, TX','Fort Worth','TX','USA','32.7555','-97.3308',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(17,'Charlotte-Concord-Gastonia, NC-SC','Charlotte','NC','USA','35.2240','-80.8431',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(18,'Memphis, TN-MS-AR','Memphis','TN','USA','35.1495','-90.0488',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(19,'Boston-Cambridge-Nashua, MA-NH','Boston','MA','USA','42.3601','-71.0589',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(20,'Baltimore-Columbia-Towson, MD','Baltimore','MD','USA','39.2905','-76.6122',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(21,'Detroit-Warren-Dearborn, MI','Detroit','MI','USA','42.3314','-83.0458',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(22,'El Paso, TX','El Paso','TX','USA','31.7587','-106.4623',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(23,'Seattle-Tacoma-Bellevue, WA','Seattle','WA','USA','47.6062','-122.3321',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(24,'Denver-Aurora-Lakewood, CO','Denver','CO','USA','39.7392','-104.9903',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(25,'Milwaukee-Waukesha-West Allis, WI','Milwaukee','WI','USA','43.0389','-87.9065',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(26,'Portland-Vancouver-Hillsboro, OR-WA','Portland','OR','USA','45.5231','-122.6750',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(27,'Oklahoma City, OK','Oklahoma City','OK','USA','35.4676','-97.5164',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(28,'Nashville-Davidson--Murfreesboro--Franklin, TN','Nashville','TN','USA','36.1627','-86.7816',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(29,'Washington-Arlington-Alexandria, DC-VA-MD','Washington DC','','USA','38.8951','-77.0367',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(30,'Kansas City, MO-KS','Kansas City','MO','USA','39.0997','-94.5786',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(31,'St. Louis, MO-IL','St. Louis','MO','USA','38.6270','-90.1994',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(32,'Raleigh, NC','Raleigh','NC','USA','35.7796','-78.6382',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(33,'Cleveland-Elyria, OH','Cleveland','OH','USA','41.4995','-81.6954',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(34,'Miami-Fort Lauderdale-Pompano Beach, FL','Miami','FL','USA','25.7617','-80.1918',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(35,'Oakland-Hayward-Berkeley, CA','Oakland','CA','USA','37.8044','-122.2711',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(36,'Minneapolis-St. Paul-Bloomington, MN-WI','Minneapolis','MN','USA','44.9778','-93.2643',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(37,'Tulsa, OK','Tulsa','OK','USA','36.1530','-95.9928',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(38,'Virginia Beach-Norfolk-Newport News, VA-NC','Virginia Beach','VA','USA','36.8507','-76.0749',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(39,'Sacramento-Roseville-Arden-Arcade, CA','Sacramento','CA','USA','38.5816','-121.4944',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(40,'Las Vegas-Henderson-Paradise, NV','Las Vegas','NV','USA','36.1697','-115.1398',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(41,'Louisville/Jefferson County, KY-IN','Louisville','KY','USA','38.2542','-85.7603',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(42,'San Francisco-San Mateo-Redwood City, CA','San Francisco','CA','USA','37.7749','-122.4194',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(43,'New Orleans-Metairie, LA','New Orleans','LA','USA','29.9511','-90.0715',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(44,'Cincinnati, OH-KY-IN','Cincinnati','OH','USA','39.1031','-84.5120',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(45,'Pittsburgh, PA','Pittsburgh','PA','USA','40.4406','-79.9969',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(46,'Orlando-Kissimmee-Sanford, FL','Orlando','FL','USA','28.5384','-81.3792',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(47,'St. Paul-Minneapolis-Bloomington, MN-WI','Minneapolis','MN','USA','44.9778','-93.2650',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(48,'Greenville-Anderson-Mauldin, SC','Greenville','SC','USA','34.8526','-82.3940',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(49,'Cleveland-Lorain-Elyria, OH','Cleveland','OH','USA','41.4993','-81.6954',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(50,'Tampa-St. Petersburg-Clearwater, FL','Tampa','FL','USA','27.9475','-82.4584',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(51,'Anchorage, AK','Anchorage','AK','USA','66.1605','-153.3691',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(52,'Honolulu, HI','Honolulu','HI','USA','21.3156','-157.8580',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(53,'San Juan, PR','San Juan','PR','USA','18.4663','-66.1057',NULL,NULL,NULL,NULL);
+INSERT INTO destinations VALUES(54,'Acadia National Park',NULL,'ME','USA','44.35','-68.21',NULL,NULL,'Boston-Cambridge-Nashua, MA-NH',NULL);
+INSERT INTO destinations VALUES(55,'Asheville',NULL,'NC','USA','35.59','-82.55',NULL,NULL,'Greenville-Anderson-Mauldin, SC',NULL);
+INSERT INTO destinations VALUES(56,'Bar Harbor',NULL,'ME','USA','44.39','-68.20',NULL,NULL,'Boston-Cambridge-Nashua, MA-NH',NULL);
+INSERT INTO destinations VALUES(57,'Bend',NULL,'OR','USA','44.06','-121.31',NULL,NULL,'Portland-Vancouver-Hillsboro, OR-WA',NULL);
+INSERT INTO destinations VALUES(58,'Big Sur',NULL,'CA','USA','36.22','-121.67',NULL,NULL,'San Jose-Sunnyvale-Santa Clara, CA',NULL);
+INSERT INTO destinations VALUES(59,'Branson',NULL,'MO','USA','36.6439','-93.2183',NULL,NULL,'Tulsa, OK',NULL);
+INSERT INTO destinations VALUES(60,'Breckenridge',NULL,'CO','USA','39.4822','-106.0382',NULL,NULL,'Denver-Aurora-Lakewood, CO',NULL);
+INSERT INTO destinations VALUES(61,'Cape Cod',NULL,'MA','USA','41.9333','-70.0167',NULL,NULL,'Boston-Cambridge-Nashua, MA-NH',NULL);
+INSERT INTO destinations VALUES(62,'Charleston',NULL,'SC','USA','32.7857','-79.9339',NULL,NULL,'Charlotte-Concord-Gastonia, NC-SC',NULL);
+INSERT INTO destinations VALUES(63,'Cooperstown',NULL,'NY','USA','42.6978','-74.9239',NULL,NULL,'New York-Newark-Jersey City, NY-NJ-PA',NULL);
+INSERT INTO destinations VALUES(64,'Custer State Park',NULL,'SD','USA','43.75','-103.43',NULL,NULL,'Denver-Aurora-Lakewood, CO',NULL);
+INSERT INTO destinations VALUES(65,'Durango',NULL,'CO','USA','37.28','-107.88',NULL,NULL,'Denver-Aurora-Lakewood, CO',NULL);
+INSERT INTO destinations VALUES(66,'Gatlinburg',NULL,'TN','USA','35.71','-83.52',NULL,NULL,'Greenville-Anderson-Mauldin, SC',NULL);
+INSERT INTO destinations VALUES(67,'Glacier National Park',NULL,'MT','USA','48.77','-113.67',NULL,NULL,'Seattle-Tacoma-Bellevue, WA',NULL);
+INSERT INTO destinations VALUES(68,'Glenwood Springs',NULL,'CO','USA','39.55','-107.32',NULL,NULL,'Denver-Aurora-Lakewood, CO',NULL);
+INSERT INTO destinations VALUES(69,'Grand Canyon',NULL,'AZ','USA','36.0544','-112.1401',NULL,NULL,'Las Vegas-Henderson-Paradise, NV',NULL);
+INSERT INTO destinations VALUES(70,'Great Smoky Mountains National Park',NULL,'TN','USA','35.6184','-83.5302',NULL,NULL,'Greenville-Anderson-Mauldin, SC',NULL);
+INSERT INTO destinations VALUES(71,'Jackson Hole',NULL,'WY','USA','43.5825','-110.8219',NULL,NULL,'Denver-Aurora-Lakewood, CO',NULL);
+INSERT INTO destinations VALUES(72,'Kauai',NULL,'HI','USA','22.0827','-159.4983',NULL,NULL,'Honolulu, HI',NULL);
+INSERT INTO destinations VALUES(73,'Key West',NULL,'FL','USA','24.5551','-81.7801',NULL,NULL,'Miami-Fort Lauderdale-Pompano Beach, FL',NULL);
+INSERT INTO destinations VALUES(74,'Lake Tahoe',NULL,'CA','USA','39.0942','-120.0424',NULL,NULL,'Sacramento-Roseville-Arden-Arcade, CA',NULL);
+INSERT INTO destinations VALUES(75,'Mackinac Island',NULL,'MI','USA','45.8497','-84.6278',NULL,NULL,'Milwaukee-Waukesha-West Allis, WI',NULL);
+INSERT INTO destinations VALUES(76,'Maui',NULL,'HI','USA','20.7984','-156.3314',NULL,NULL,'Honolulu, HI',NULL);
+INSERT INTO destinations VALUES(77,'Mount Rushmore',NULL,'SD','USA','43.8794','-103.4597',NULL,NULL,'Denver-Aurora-Lakewood, CO',NULL);
+INSERT INTO destinations VALUES(78,'Myrtle Beach',NULL,'SC','USA','33.6926','-78.8867',NULL,NULL,'Raleigh, NC',NULL);
+INSERT INTO destinations VALUES(79,'Napa Valley',NULL,'CA','USA','38.2977','-122.2864',NULL,NULL,'Oakland-Hayward-Berkeley, CA',NULL);
+INSERT INTO destinations VALUES(80,'Olympic National Park',NULL,'WA','USA','47.5714','-123.4431',NULL,NULL,'Seattle-Tacoma-Bellevue, WA',NULL);
+INSERT INTO destinations VALUES(81,'Palm Springs',NULL,'CA','USA','33.8303','-116.5453',NULL,NULL,'San Diego-Carlsbad, CA',NULL);
+INSERT INTO destinations VALUES(82,'Santa Fe',NULL,'NM','USA','35.6869','-105.9378',NULL,NULL,'El Paso, TX',NULL);
+INSERT INTO destinations VALUES(83,'Savannah',NULL,'GA','USA','32.0835','-81.0998',NULL,NULL,'Jacksonville, FL',NULL);
+INSERT INTO destinations VALUES(84,'Sedona',NULL,'AZ','USA','34.8697','-111.7603',NULL,NULL,'Phoenix-Mesa-Scottsdale, AZ',NULL);
+INSERT INTO destinations VALUES(85,'St. Augustine',NULL,'FL','USA','29.8942','-81.3145',NULL,NULL,'Jacksonville, FL',NULL);
+INSERT INTO destinations VALUES(86,'Telluride',NULL,'CO','USA','37.9375','-107.8206',NULL,NULL,'Denver-Aurora-Lakewood, CO',NULL);
+INSERT INTO destinations VALUES(87,'Williamsburg',NULL,'VA','USA','37.2707','-76.7074',NULL,NULL,'Virginia Beach-Norfolk-Newport News, VA-NC',NULL);
+INSERT INTO destinations VALUES(88,'Yellowstone National Park',NULL,'WY','USA','44.4275','-110.5885',NULL,NULL,'Denver-Aurora-Lakewood, CO',NULL);
+INSERT INTO destinations VALUES(89,'Yosemite National Park',NULL,'CA','USA','37.7447','-119.5882',NULL,NULL,'Sacramento-Roseville-Arden-Arcade, CA',NULL);
+INSERT INTO destinations VALUES(90,'Zion National Park',NULL,'UT','USA','37.2986','-113.0267',NULL,NULL,'Las Vegas-Henderson-Paradise, NV',NULL);
+INSERT INTO destinations VALUES(91,'Amsterdam',NULL,NULL,'Netherlands','52.3702','4.8903',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(92,'Aruba Island',NULL,NULL,'Aruba','12.5079','-70.0353',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(93,'Athens',NULL,NULL,'Greece','37.9838','23.7275',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(94,'Auckland',NULL,NULL,'New Zealand','-36.8485','174.7633',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(95,'Bali',NULL,NULL,'Indonesia','-8.4095','115.1889',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(96,'Bangkok',NULL,NULL,'Thailand','13.7563','100.5018',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(97,'Barcelona',NULL,NULL,'Spain','41.3851','2.1734',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(98,'Beijing',NULL,NULL,'China','39.9042','116.3974',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(99,'Berlin',NULL,NULL,'Germany','52.5200','13.4050',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(100,'Bogota',NULL,NULL,'Colombia','4.6097','-74.0817',NULL,NULL,NULL,'Reconsider Travel');
+INSERT INTO destinations VALUES(101,'Buenos Aires',NULL,NULL,'Argentina','-34.6037','-58.3816',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(102,'Cabo San Lucas',NULL,NULL,'Mexico','22.8869','-109.4253',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(103,'Cairo',NULL,NULL,'Egypt','30.0522','31.2497',NULL,NULL,NULL,'Reconsider Travel');
+INSERT INTO destinations VALUES(104,'Cancun',NULL,NULL,'Mexico','21.1743','-86.8466',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(105,'Cape Town',NULL,NULL,'South Africa','-33.9249','18.4241',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(106,'Casablanca',NULL,NULL,'Morocco','33.5928','-7.9222',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(107,'Copenhagen',NULL,NULL,'Denmark','55.6763','12.5681',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(108,'Delhi',NULL,NULL,'India','28.6139','77.2090',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(109,'Dubai',NULL,NULL,'United Arab Emirates','25.0657','55.1713',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(110,'Dublin',NULL,NULL,'Ireland','53.3441','-6.2672',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(111,'Dubrovnik',NULL,NULL,'Croatia','42.6481','18.0921',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(112,'Edinburgh',NULL,NULL,'Scotland','55.9533','-3.1883',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(113,'George Town',NULL,NULL,'Cayman Islands','19.2937','-81.3865',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(114,'Hanoi',NULL,NULL,'Vietnam','21.0278','105.8342',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(115,'Helsinki',NULL,NULL,'Finland','60.1699','24.9384',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(116,'Ho Chi Minh City',NULL,NULL,'Vietnam','10.7626','106.6747',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(117,'Hong Kong',NULL,NULL,'China','22.3964','114.1095',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(118,'Istanbul',NULL,NULL,'Turkey','41.0082','28.9744',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(119,'Jerusalem',NULL,NULL,'Israel','31.7833','35.2167',NULL,NULL,NULL,'Reconsider Travel');
+INSERT INTO destinations VALUES(120,'Kuala Lumpur',NULL,NULL,'Malaysia','3.1390','101.6869',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(121,'Lima',NULL,NULL,'Peru','-12.0464','-77.0428',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(122,'Lisbon',NULL,NULL,'Portugal','38.7223','-9.1393',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(123,'London',NULL,NULL,'England','51.5074','-0.1278',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(124,'Macau',NULL,NULL,'China','22.1667','113.5500',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(125,'Madrid',NULL,NULL,'Spain','40.4168','-3.7033',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(126,'Manila',NULL,NULL,'Philippines','14.5995','121.0817',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(127,'Marrakech',NULL,NULL,'Morocco','31.6295','-7.9811',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(128,'Mexico City',NULL,NULL,'Mexico','19.4326','-99.1332',NULL,NULL,NULL,'Reconsider Travel');
+INSERT INTO destinations VALUES(129,'Montego Bay',NULL,NULL,'Jamaica','18.5093','-77.8947',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(130,'Montreal',NULL,NULL,'Canada','45.5017','-73.5673',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(131,'Moscow',NULL,NULL,'Russia','55.7558','37.6173',NULL,NULL,NULL,'Do Not Travel');
+INSERT INTO destinations VALUES(132,'Mumbai',NULL,NULL,'India','19.0759','72.8777',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(133,'Nassau',NULL,NULL,'Bahamas','25.0582','-77.3434',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(134,'Oslo',NULL,NULL,'Norway','59.9139','10.7522',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(135,'Panama City',NULL,NULL,'Panama','9.0007','-79.5163',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(136,'Paris',NULL,NULL,'France','48.8567','2.3522',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(137,'Phuket',NULL,NULL,'Thailand','7.8906','98.3923',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(138,'Prague',NULL,NULL,'Czech Republic','50.0755','14.4378',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(139,'Puerto Vallarta',NULL,NULL,'Mexico','20.6773','-105.2447',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(140,'Punta Cana',NULL,NULL,'Dominican Republic','18.5667','-68.4167',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(141,'Reykjavik',NULL,NULL,'Iceland','64.1353','-21.8954',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(142,'Rio de Janeiro',NULL,NULL,'Brazil','-22.9068','-43.1729',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(143,'Rome',NULL,NULL,'Italy','41.8719','12.4964',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(144,'San Jose',NULL,NULL,'Costa Rica','9.9281','-84.0907',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(145,'San Salvador',NULL,NULL,'El Salvador','13.6892','-89.2012',NULL,NULL,NULL,'Reconsider Travel');
+INSERT INTO destinations VALUES(146,'Santiago',NULL,NULL,'Chile','-33.4378','-70.6506',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(147,'Santorini',NULL,NULL,'Greece','36.3932','25.4597',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(148,'Seoul',NULL,NULL,'South Korea','37.5665','126.9778',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(149,'Shanghai',NULL,NULL,'China','31.2304','121.4737',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(150,'Singapore',NULL,NULL,'Singapore','1.3521','103.8198',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(151,'Split',NULL,NULL,'Croatia','43.5065','16.4439',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(152,'St. Petersburg',NULL,NULL,'Russia','59.9389','30.3256',NULL,NULL,NULL,'Do Not Travel');
+INSERT INTO destinations VALUES(153,'Stockholm',NULL,NULL,'Sweden','59.3293','18.0686',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(154,'Sydney',NULL,NULL,'Australia','-33.8651','151.2099',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(155,'Taipei',NULL,NULL,'Taiwan','25.0478','121.5319',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(156,'Tel Aviv',NULL,NULL,'Israel','32.0853','34.7804',NULL,NULL,NULL,'Exercise Increased Precautions');
+INSERT INTO destinations VALUES(157,'Tokyo',NULL,NULL,'Japan','35.6895','139.7670',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(158,'Toronto',NULL,NULL,'Canada','43.6532','-79.3832',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(159,'Vancouver',NULL,NULL,'Canada','49.2827','-123.1207',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(160,'Vienna',NULL,NULL,'Austria','48.2082','16.3738',NULL,NULL,NULL,'Exercise Normal Precautions');
+INSERT INTO destinations VALUES(161,'Zurich',NULL,NULL,'Switzerland','47.3769','8.5382',NULL,NULL,NULL,'Exercise Normal Precautions');
 COMMIT;
