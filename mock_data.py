@@ -62,3 +62,10 @@ def populate_location_description_and_points_of_interest(location_id,location_qu
             curr = conn.cursor()
             curr.execute("UPDATE destinations SET points_of_interest = ? WHERE id = ?", (str(points_of_interest),location_id))
             conn.commit()
+
+def retrieve_hotel_offers(location_id):
+    with sqlite3.connect('travel_data.db') as conn:
+        curr = conn.cursor()
+        curr.execute("SELECT id FROM hotels WHERE location_id = ?", (location_id,))
+        rows = curr.fetchall()
+        return rows

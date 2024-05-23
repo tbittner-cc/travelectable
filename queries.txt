@@ -1,17 +1,9 @@
-# Query 1
-# We'll want to make sure any quotes are properly escaped.
-Write a 100-word marketing description for visiting New York.  Format it as {'description':<description>}
-
 # Query 2
 For "The Langham Chicago Hotel", provide 4 different room offers. Format it as follows:
 [{"room_type":<room_type>, "room_description":<room_description>,"occupancy":<occupancy>,"amenities":[<list_of_amenities>],"winter_rate":<winter_rate>,"summer_rate":<summer_rate>,"cancellation_policy":cancellation_policy}]
 
 Don't worry if the information isn't up-to-date. Provide a best estimate that matches historical information.  For the rates, take into account the seasonality of Chicago so higher rates aren't present in the off-season.
 
-# Query 3
-Provide the lat and long for New York as well as 5 points of interest.  Structure your output like this:
-{'city':<city>,'state':<state>,'lat':<latitude>,'long':<longitude>,'points_of_interest':[<point_of_interest:>...]}
-If the city doesn't have a state (like Washington D.C), leave the state blank.
 
 # Query 4
 List 10 hotels within 5 miles of New York's lat/long (40.7128,-74.0060). Provide their star ratings, addresses, distance in miles from Chicago's lat/long, a 50-word description of the hotel, and an estimated teaser rate per night for both summer and winter seasons. The rate doesn't need to be up-to-date, but estimate the value based on historical rates.  Also account for the rate being off-season or in-season as appropriate.
