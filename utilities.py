@@ -37,19 +37,6 @@ def get_suggested_dates(current_date):
 
     return suggested_date_range
 
-def get_location_details(location):
-    extracted_city = None
-    # Open a file in read mode and read the contents
-    with open(os.path.join(os.path.dirname(__file__), "location_test.txt"), "r") as file:
-        location_details = file.read()
-
-    pattern = r'\{\s*"city":\s*"([^"]*)",\s*"latitude":\s*(-?\d+\.\d+),\s*"longitude":\s*(-?\d+\.\d+)\s*\}'
-    if result := re.search(pattern, location_details):
-        extracted_city = {"city": result.group(1), "latitude": float(result.group(2)), "longitude": float(result.group(3))}
-    else:
-        print("No match found")
-    return extracted_city
-
 def get_hotel_offers():
     with open(os.path.join(os.path.dirname(__file__), "offers_test.txt"), "r") as file:
         offer_details = file.read()

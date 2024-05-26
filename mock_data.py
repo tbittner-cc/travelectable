@@ -36,7 +36,7 @@ def get_hotel_query(radius,location,lat,long):
 
     Format the response as:
 
-    [{"name":<name>,"address":<address>,"distance":<distance>,"star_rating":star_rating, "description":description},...]
+    [{{"name":<name>,"address":<address>,"distance":<distance>,"star_rating":star_rating, "description":description}},...]
 
     Do not add a summary or disclaimer at the beginning or end of your reply. Do not deviate from the format.
     """
@@ -76,13 +76,14 @@ def populate_location_description_and_points_of_interest(location_id,location_qu
 def populate_hotels(location):
     with sqlite3.connect('travel_data.db') as conn:
         curr = conn.cursor()
-        curr.execute("SELECT id,name FROM hotels WHERE location_id = ?", (location[0],))
+        curr.execute("SELECT id,name,address FROM hotels WHERE location_id = ?", (location[0],))
         rows = curr.fetchall()
         # We're gating the number of hotels for each location to 40
         if len(rows) == 40:
             return
         
         hotel_names = [row[1] for row in rows]
+        hotel_addresses = [row[2] for row in rows]
         
         curr.execute("SELECT latitude,longitude,hotel_retries FROM destinations WHERE id = ?", (location[0],))
         data = curr.fetchall()
@@ -102,14 +103,17 @@ def populate_hotels(location):
             print(hotels)
             hotels = ast.literal_eval(hotels)
             for hotel in hotels:
-                if hotel['name'] in hotel_names:
+                # There's no guarantee that everything will be formatted properly, but
+                # we can limit the number of duplicates by checking the name and address.
+                if hotel['name'] in hotel_names or hotel['address'] in hotel_addresses:
                     continue
                 else:
                     new_hotels_found = True
                     new_hotel = (hotel['name'],hotel['address'],hotel['distance'],hotel['star_rating'],hotel['description'],location[0])
-                    curr.execute("INSERT INTO hotels VALUES (?,?,?,?,?,?)", new_hotel)
+                    curr.execute("INSERT INTO hotels (name,address,distance,star_rating,description,location_id) VALUES (?,?,?,?,?,?)", new_hotel)
                     conn.commit()
                     hotel_names.append(hotel['name'])
+                    hotel_addresses.append(hotel['address'])
 
             if new_hotels_found:
                 curr.execute("UPDATE destinations SET hotel_retries = 0 WHERE id = ?", (location[0],))
