@@ -1,7 +1,5 @@
 import unittest
-
 import dateutil.parser as parser
-
 import utilities
 
 class TestGetDates(unittest.TestCase):
@@ -31,29 +29,6 @@ class TestGetSuggestedDates(unittest.TestCase):
         result = utilities.get_suggested_dates(current_date)
         self.assertEqual(result, "May 29-June 4")
 
-class TestGetLocationDetails(unittest.TestCase):
-    def test_get_location_details(self):
-        result = utilities.get_location_details("New York")
-        self.assertEqual(result, {"city": "Chicago", "latitude": 41.881832, "longitude": -87.623177})
-
-class TestGetHotelOffers(unittest.TestCase):
-    def test_get_hotel_offers(self):
-        result = utilities.get_hotel_offers()
-        self.assertEqual(len(result),10)
-        self.assertEqual(result[0]['name'], 'The Langham Chicago')
-        # Convert to a string to handle floating point numbers
-        self.assertEqual(str(result[2]['distance']), str(0.7))
-        self.assertEqual(result[9]['offer_rate'], 80)
-
-class TestGetHotelDetails(unittest.TestCase):
-    def test_get_hotel_details(self):
-        result = utilities.get_hotel_details()
-        self.assertEqual(len(result),4)
-        self.assertEqual(result[0]['room_type'], 'Deluxe Room')
-        self.assertEqual(result[3]['cancellation_policy'], "Cancel by 24 hours prior to arrival to avoid penalty")
-        self.assertEqual(result[1]['amenities'][1], 'Minibar')
-        self.assertEqual(result[2]['summer_rate'], 1000)
-
 class TestIsWinterRate(unittest.TestCase):
     def test_is_winter_rate(self):
         result = utilities.is_winter_rate("2024-04-01")
@@ -61,14 +36,4 @@ class TestIsWinterRate(unittest.TestCase):
 
         result = utilities.is_winter_rate("2024-05-01")
         self.assertEqual(result, False)
-
-class TestBuildSubList(unittest.TestCase):
-    def test_build_sublist(self):
-        result = utilities.build_sublist(['a','b','c','d','e','f'], 2)
-        self.assertEqual(result, [['a', 'b'], ['c', 'd'], ['e', 'f']])
-
-class TestMergeSubList(unittest.TestCase):
-    def test_merge_sublists(self):
-        result = utilities.merge_sublists([['a', 'b'], ['c', 'd'], ['e', 'f']])
-        self.assertEqual(result, ['a', 'b', 'c', 'd', 'e', 'f'])
         

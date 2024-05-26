@@ -1,6 +1,5 @@
 from datetime import timedelta
-import itertools
-import json,os,re
+import random,sqlite3
 import dateutil.parser as parser
 
 import replicate
@@ -25,7 +24,7 @@ def parse_dates(dates):
 
     return (start_date, end_date)
 
-# Suggest a date range in two weeks in the future for searching.
+# Suggest a date range two weeks in the future for searching.
 def get_suggested_dates(current_date):
     suggested_start_date = current_date + timedelta(weeks=2)
     suggested_end_date = suggested_start_date + timedelta(days = 6)
@@ -37,32 +36,37 @@ def get_suggested_dates(current_date):
 
     return suggested_date_range
 
-def get_hotel_offers():
-    with open(os.path.join(os.path.dirname(__file__), "offers_test.txt"), "r") as file:
-        offer_details = file.read()
-    return get_list_of_dicts(offer_details)
+def get_all_locations():
+    locations = []
+    with sqlite3.connect('travel_data.db') as conn:
+        curr = conn.cursor()
+        curr.execute("SELECT id,location,city,state,country FROM destinations WHERE country = 'USA'")
+        rows = curr.fetchall()
+        for row in rows:
+            if row[2] != '':
+                locations.append((row[0],f"{row[2]}, {row[3]} {row[4]}"))
+            else:
+                locations.append((row[0],f"{row[1]}, {row[3]} {row[4]}"))
 
-def get_hotel_details():
-    with open(os.path.join(os.path.dirname(__file__), "hotel_details.txt"), "r") as file:
-        hotel_details = file.read()
-    return get_list_of_dicts(hotel_details)
+        curr.execute("SELECT id,location,country FROM destinations WHERE country != 'USA'")
+        rows = curr.fetchall()
+        for row in rows:
+            locations.append((row[0],f"{row[1]}, {row[2]}"))
 
-def get_list_of_dicts(list_of_dicts_str):
-    list_of_dicts_str = list_of_dicts_str.replace('$', '')
+    return locations
 
-    start_index = list_of_dicts_str.find('[')
-    end_index = list_of_dicts_str.rfind(']')
-    list_of_dicts_str = list_of_dicts_str[start_index:end_index+1]
+def get_hotels(location):
+    with sqlite3.connect("travel_data.db") as conn:
+        curr = conn.cursor()
+        curr.execute("SELECT id,name,address,distance,star_rating,description FROM hotels WHERE location_id = ?",
+                     (location[0],))
+        rows = curr.fetchall()
 
-    list_of_dicts = json.loads(list_of_dicts_str)
+        top_hotels = random.sample(rows, 10)
+        other_hotels = [row for row in rows if row not in top_hotels]
+        random.shuffle(other_hotels)
 
-    return list_of_dicts
-
-def build_sublist(src_list,list_size):
-    return [src_list[i:i + list_size] for i in range(0, len(src_list), list_size)]
-
-def merge_sublists(src_list):
-    return list(itertools.chain.from_iterable(src_list))
+        return top_hotels + other_hotels
 
 def execute_llm_query(query,max_tokens = 512):
     data = replicate.run(

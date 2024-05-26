@@ -1,5 +1,4 @@
 from datetime import datetime
-import sqlite3
 
 from flask import Flask,request,redirect, session
 from flask import render_template
@@ -13,21 +12,7 @@ app.secret_key = "super secret key"
 
 nlp = spacy.load("en_core_web_sm")
 
-locations = []
-with sqlite3.connect('travel_data.db') as conn:
-    curr = conn.cursor()
-    curr.execute("SELECT id,location,city,state,country FROM destinations WHERE country = 'USA'")
-    rows = curr.fetchall()
-    for row in rows:
-        if row[2] != '':
-            locations.append((row[0],f"{row[2]}, {row[3]} {row[4]}"))
-        else:
-            locations.append((row[0],f"{row[1]}, {row[3]} {row[4]}"))
-
-    curr.execute("SELECT id,location,country FROM destinations WHERE country != 'USA'")
-    rows = curr.fetchall()
-    for row in rows:
-        locations.append((row[0],f"{row[1]}, {row[2]}"))
+locations = utilities.get_all_locations()
 
 @app.route("/")
 def homepage():
@@ -39,13 +24,16 @@ def homepage():
 @app.route("/hotels")
 def hotels():
     if app.config['GENERATE_MOCK_DATA']:
-        with sqlite3.connect('travel_data.db') as conn:
-            curr = conn.cursor()
-            curr.execute("SELECT id FROM hotels WHERE location_id = ?", session['destination'][0])
-    session['hotel_offers'] = utilities.get_hotel_offers()
+        mock_data.populate_hotels(session['destination'])
     
-    return render_template('hotel_search_results.html',hotel_location = session['destination'],
-                           hotel_offers = session['hotel_offers'])
+    hotels = utilities.get_hotels(session['destination'])
+
+    if app.config['GENERATE_MOCK_DATA']:
+        top_hotels = hotels[:10]
+        for hotel in top_hotels:
+            mock_data.populate_room_rates(hotel[0],session['destination'])
+    
+    return render_template('hotel_search_results.html',hotel_location = session['destination'],hotels = hotels)
 
 @app.route("/hotel-sort", methods=['GET','POST'])
 def hotel_sort():

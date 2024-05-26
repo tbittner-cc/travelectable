@@ -1,7 +1,7 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE destinations (
-        id INTEGER PRIMARY KEY,
+        id INTEGER PRIMARY KEY autoincrement,
         location VARCHAR,
         city VARCHAR,
         state VARCHAR,
@@ -183,5 +183,25 @@ description varchar,
 location_id integer,
 foreign key (location_id) references locations(id)
 );
+INSERT INTO hotels VALUES(17,'The Langham Chicago','330 N Wabash Ave, Chicago, IL 60611','0.6','5','Luxurious hotel with elegant rooms, a fitness center, and a world-class spa, located in a historic building along the Chicago River.',3);
+INSERT INTO hotels VALUES(18,'Trump International Hotel & Tower Chicago','401 N Wabash Ave, Chicago, IL 60611','0.7','5','Upscale hotel with modern rooms, a rooftop pool, and a Michelin-starred restaurant, located in a sleek skyscraper along the Chicago River.',3);
+INSERT INTO hotels VALUES(19,'The Wit Hotel','201 N State St, Chicago, IL 60601','0.8','4','Trendy hotel with chic rooms, a rooftop bar, and a fitness center, located in the heart of the Loop, close to Millennium Park.',3);
+INSERT INTO hotels VALUES(20,'Hyatt Centric The Loop Chicago','100 W Monroe St, Chicago, IL 60603','0.9','4','Modern hotel with stylish rooms, a rooftop pool, and a fitness center, located in the Loop, close to Willis Tower and the Chicago River.',3);
+INSERT INTO hotels VALUES(21,'Kimpton Hotel Monaco Chicago','225 N Wabash Ave, Chicago, IL 60601','1.0','4','Boutique hotel with elegant rooms, a fitness center, and a complimentary wine hour, located in a historic building in the Loop.',3);
+INSERT INTO hotels VALUES(22,'LondonHouse Chicago','85 E Wacker Dr, Chicago, IL 60601','1.1','4','Luxury hotel with modern rooms, a rooftop bar, and a fitness center, located in a historic building along the Chicago River.',3);
+INSERT INTO hotels VALUES(23,'Renaissance Chicago Downtown Hotel','1 W Wacker Dr, Chicago, IL 60601','1.2','4','Upscale hotel with modern rooms, a fitness center, and an indoor pool, located in the Loop, close to Millennium Park.',3);
+INSERT INTO hotels VALUES(24,'The Westin Chicago River North','320 N Dearborn St, Chicago, IL 60654','1.3','4','Modern hotel with comfortable rooms, a fitness center, and an indoor pool, located in the River North neighborhood, close to the Chicago River.',3);
+INSERT INTO hotels VALUES(25,'Hotel EMC2, Autograph Collection','228 E Ontario St, Chicago, IL 60611','1.4','4','Boutique hotel with stylish rooms, a fitness center, and a rooftop lounge, located in the Streeterville neighborhood, close to Navy Pier.',3);
+INSERT INTO hotels VALUES(26,'Loews Chicago Hotel','455 N Park Dr, Chicago, IL 60611','1.5','4','Upscale hotel with modern rooms, a fitness center, and an indoor pool, located in the Streeterville neighborhood, close to Navy Pier.',3);
+INSERT INTO hotels VALUES(27,'The Ritz-Carlton, Chicago','160 E Pearson St, Chicago, IL 60611','0.6','5','Luxury hotel with elegant rooms, rooftop lounge, and upscale dining options, including a Michelin-starred restaurant.',3);
+INSERT INTO hotels VALUES(28,'Four Seasons Hotel Chicago','120 E Delaware Pl, Chicago, IL 60611','0.7','5','Luxury hotel with modern rooms, rooftop pool, and upscale dining options, including a Michelin-starred restaurant.',3);
+INSERT INTO hotels VALUES(29,'The Gwen, a Luxury Collection Hotel, Michigan Avenue Chicago','521 N Rush St, Chicago, IL 60611','0.8','4','Upscale hotel with modern rooms, rooftop lounge, and several dining options, including a restaurant and bar.',3);
+INSERT INTO hotels VALUES(30,'The Westin Michigan Avenue Chicago','909 N Michigan Ave, Chicago, IL 60611','0.9','4','Upscale hotel with modern rooms, fitness center, and several dining options, including a restaurant and bar.',3);
+INSERT INTO hotels VALUES(31,'Kimpton Hotel Allegro','171 W Randolph St, Chicago, IL 60601','1.2','4','Boutique hotel with stylish rooms, fitness center, and several dining options, including a restaurant and bar.',3);
+INSERT INTO hotels VALUES(32,'Swissotel Chicago','323 E Wacker Dr, Chicago, IL 60601','1.2','4','Modern hotel with comfortable rooms, fitness center, and rooftop pool, located along the Chicago River.',3);
+INSERT INTO hotels VALUES(33,'Hilton Chicago','720 S Michigan Ave, Chicago, IL 60605','1.4','4','Upscale hotel with comfortable rooms, fitness center, and rooftop pool, located in the South Loop neighborhood.',3);
+CREATE TABLE room_rates (id integer primary key autoincrement, room_type varchar, room_description varchar, amenities varchar, winter_rate varchar, summer_rate varchar, cancellation_policy varchar, hotel_id integer, foreign key (hotel_id) references hotels(id));
 DELETE FROM sqlite_sequence;
+INSERT INTO sqlite_sequence VALUES('hotels',33);
+INSERT INTO sqlite_sequence VALUES('designations',161);
 COMMIT;
