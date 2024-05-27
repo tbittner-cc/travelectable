@@ -127,6 +127,10 @@ def populate_hotels(location):
                 if len(hotel_names) >= 10:
                     return
                 
+            hotel_retries += 1
+            curr.execute("UPDATE destinations SET hotel_retries = ? WHERE id = ?", (hotel_retries,location[0]))
+            conn.commit()
+                
 def populate_room_rates(hotel,location):
     with sqlite3.connect('travel_data.db') as conn:
         curr = conn.cursor()
