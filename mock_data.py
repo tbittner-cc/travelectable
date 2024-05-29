@@ -90,51 +90,47 @@ def populate_hotels(location):
         hotel_names = [row[1] for row in rows]
         hotel_addresses = [row[2] for row in rows]
         
-        curr.execute("SELECT latitude,longitude,hotel_retries FROM destinations WHERE id = ?", (location[0],))
+        curr.execute("SELECT latitude,longitude,distance_tried FROM destinations WHERE id = ?", 
+                     (location[0],))
         data = curr.fetchall()
-        (lat, long,hotel_retries) = data[0]
+        (lat,long,radius) = data[0]
 
-        # We've tried enough times to get 40 hotels.  We'll go with what we have.
-        if hotel_retries >= 10:
+        # We've reached a large enough radius for this.  We'll go with what we have.
+        if radius >= 25:
             return
         
-        radii = [5,10,15,20,25,30,35,40]
         new_hotels_found = False
 
-        for radius in radii:
-            query = get_hotel_query(radius,location,lat,long)
-            hotels = utilities.execute_llm_query(query,max_tokens = 1024)
-            hotels = ast.literal_eval(hotels)
-            for hotel in hotels:
-                # There's no guarantee that everything will be formatted properly, but
-                # we can limit the number of duplicates by checking the name and address.
-                if hotel['name'] in hotel_names or hotel['address'] in hotel_addresses:
-                    continue
-                else:
-                    new_hotels_found = True
-                    new_hotel = (hotel['name'],hotel['address'],hotel['distance'],hotel['star_rating'],
-                                 hotel['description'],location[0])
-                    curr.execute("INSERT INTO hotels (name,address,distance,star_rating,description,location_id) "
-                                 "VALUES (?,?,?,?,?,?)", new_hotel)
-                    conn.commit()
-                    hotel_names.append(hotel['name'])
-                    hotel_addresses.append(hotel['address'])
-
-            if new_hotels_found:
-                curr.execute("UPDATE destinations SET hotel_retries = 0 WHERE id = ?", (location[0],))
+        query = get_hotel_query(radius,location,lat,long)
+        print(query)
+        hotels = utilities.execute_llm_query(query,max_tokens = 1024)
+        print(hotels)
+        hotels = ast.literal_eval(hotels)
+        for hotel in hotels:
+            # There's no guarantee that everything will be formatted properly, but
+            # we can limit the number of duplicates by checking the name and address.
+            if hotel['name'] in hotel_names or hotel['address'] in hotel_addresses:
+                continue
+            else:
+                new_hotels_found = True
+                new_hotel = (hotel['name'],hotel['address'],hotel['distance'],hotel['star_rating'],
+                                hotel['description'],location[0])
+                curr.execute("INSERT INTO hotels (name,address,distance,star_rating,description,location_id) "
+                                "VALUES (?,?,?,?,?,?)", new_hotel)
                 conn.commit()
-                # If we've got 10 total hotels, we're done for now.
-                if len(hotel_names) >= 10:
-                    return
-                
-            hotel_retries += 1
-            curr.execute("UPDATE destinations SET hotel_retries = ? WHERE id = ?", (hotel_retries,location[0]))
+                hotel_names.append(hotel['name'])
+                hotel_addresses.append(hotel['address'])
+
+        # We've found as many hotels as possible in this radius.
+        if not new_hotels_found:
+            radius += 5
+            curr.execute("UPDATE destinations SET distance_tried = ? WHERE id = ?", (radius,location[0]))
             conn.commit()
                 
-def populate_room_rates(hotel,location):
+def populate_room_rates(hotel_id,location):
     with sqlite3.connect('travel_data.db') as conn:
         curr = conn.cursor()
-        curr.execute("SELECT id FROM room_rates WHERE hotel_id = ?",(hotel[0],))
+        curr.execute("SELECT id FROM room_rates WHERE hotel_id = ?",(hotel_id,))
         rows = curr.fetchall()
         
         # We've already populated room rates for this hotel.
@@ -142,7 +138,7 @@ def populate_room_rates(hotel,location):
             return
         
         curr = conn.cursor()
-        curr.execute("SELECT id,name,address FROM hotels WHERE id = ?",(hotel[0],))
+        curr.execute("SELECT id,name,address FROM hotels WHERE id = ?",(hotel_id,))
         rows = curr.fetchall()
         
         query = get_room_rate_query(location,rows[0][1],rows[0][2])
@@ -150,7 +146,7 @@ def populate_room_rates(hotel,location):
 
         room_rates = ast.literal_eval(room_rates)
         for room_rate in room_rates:
-            new_room_rate = (hotel[0],room_rate['room_type'],room_rate['room_description'],room_rate['winter_rate'],
+            new_room_rate = (hotel_id,room_rate['room_type'],room_rate['room_description'],room_rate['winter_rate'],
                              room_rate['summer_rate'],room_rate['cancellation_policy'],str(room_rate['amenities']))
             curr.execute("INSERT INTO room_rates (hotel_id,room_type,room_description,winter_rate,summer_rate,"
                          "cancellation_policy,amenities) VALUES (?,?,?,?,?,?,?)", new_room_rate)

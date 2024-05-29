@@ -61,12 +61,43 @@ def get_hotels(location):
         curr.execute("SELECT id,name,address,distance,star_rating,description FROM hotels WHERE location_id = ?",
                      (location[0],))
         rows = curr.fetchall()
+        columns = [column[0] for column in curr.description]
+        hotels = [dict(zip(columns, row)) for row in rows]
 
-        top_hotels = random.sample(rows, 10)
-        other_hotels = [row for row in rows if row not in top_hotels]
+        top_hotels = random.sample(hotels, 10)
+        other_hotels = [hotel for hotel in hotels if hotel not in top_hotels]
         random.shuffle(other_hotels)
 
         return top_hotels + other_hotels
+    
+def get_lead_rates(hotels,date):
+    hotel_ids = [hotel['id'] for hotel in hotels]
+    with sqlite3.connect("travel_data.db") as conn:
+        curr = conn.cursor()
+        query = "SELECT hotel_id,winter_rate,summer_rate FROM room_rates WHERE hotel_id IN ({})"\
+            .format(",".join(['?' for _ in hotel_ids]))
+        curr.execute(query,hotel_ids)
+        rows = curr.fetchall()
+
+    if is_winter_rate(date):
+        all_rates = [(row[0],row[1]) for row in rows]
+    else:
+        all_rates = [(row[0],row[2]) for row in rows]
+
+    all_rates = sorted(all_rates, key=lambda x: (x[0],int(x[1])))
+
+    # Return the lowest rate for each hotel
+    lead_rate_dict = {}
+    for rate in all_rates:
+        first,second = rate 
+        if first not in lead_rate_dict:
+            lead_rate_dict[first] = second
+
+    for id in hotel_ids:
+        if id not in lead_rate_dict:
+            lead_rate_dict[id] = ''
+
+    return list(lead_rate_dict.items())
 
 def execute_llm_query(query,max_tokens = 512):
     data = replicate.run(

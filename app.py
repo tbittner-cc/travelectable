@@ -27,13 +27,16 @@ def hotels():
         mock_data.populate_hotels(session['destination'])
     
     hotels = utilities.get_hotels(session['destination'])
+    session['hotels'] = hotels
 
-    if app.config['GENERATE_MOCK_DATA']:
-        top_hotels = hotels[:10]
-        for hotel in top_hotels:
-            mock_data.populate_room_rates(hotel[0],session['destination'])
+    lead_rates = utilities.get_lead_rates(hotels,session['dates'][0])
+    for (hotel_id,rate) in lead_rates:
+        for hotel in hotels:
+            if hotel['id'] == hotel_id:
+                hotel['lead_rate'] = rate
     
-    return render_template('hotel_search_results.html',hotel_location = session['destination'],hotels = hotels)
+    return render_template('hotel_search_results.html',hotel_location = session['destination'][1],
+                           hotels = session['hotels'])
 
 @app.route("/hotel-sort", methods=['GET','POST'])
 def hotel_sort():
@@ -48,13 +51,17 @@ def hotel_sort():
         session['hotel_offers'] = sorted(session['hotel_offers'], key=lambda x: x['star_rating'], reverse=True)
 
     template =render_template('hotel_search_results_htmx.html',
-                        hotel_location = session['destination'],
+                        hotel_location = session['destination'][1],
                         hotel_offers = session['hotel_offers'])
     return template
 
 @app.route("/hotel-details")
 def hotel_details():
     session['hotel_details'] = utilities.get_hotel_details()
+    if app.config['GENERATE_MOCK_DATA']:
+        top_hotels = hotels[:10]
+        for hotel in top_hotels:
+            mock_data.populate_room_rates(hotel[0],session['destination'])
     is_winter_rate = utilities.is_winter_rate(session['dates'][0])
     for detail in session['hotel_details']:
         detail['is_winter_rate'] = is_winter_rate

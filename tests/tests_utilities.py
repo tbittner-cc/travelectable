@@ -36,4 +36,20 @@ class TestIsWinterRate(unittest.TestCase):
 
         result = utilities.is_winter_rate("2024-05-01")
         self.assertEqual(result, False)
-        
+
+class TestGetHotels(unittest.TestCase):
+    def test_get_hotels(self):
+        result = utilities.get_hotels((3,"Chicago, IL USA"))
+        hotel_names = [row["name"] for row in result]
+        self.assertIn("Hilton Chicago", hotel_names)
+
+class TestGetLeadRates(unittest.TestCase):
+    def test_get_lead_rates(self):
+        result = utilities.get_lead_rates([{'id':17},{'id':20},{'id':22}],"2024-05-01")
+        self.assertEqual(result, [(17,'350'),(20,'219'),(22,'229')])
+
+        result = utilities.get_lead_rates([{'id':17},{'id':20},{'id':22}],"2024-11-01")
+        self.assertEqual(result, [(17,'250'),(20,'139'),(22,'159')])
+
+        result = utilities.get_lead_rates([{'id':0}],"2024-12-01")
+        self.assertEqual(result, [(0,'')])

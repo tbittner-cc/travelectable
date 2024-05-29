@@ -25,8 +25,8 @@
         <div class="w-3/4">
         <div id="hotel-search-results">
             <h1 class="text-2xl font-semibold mb-4">Hotel Search Results for {{ hotel_location }}</h1>
-            {% for offer in hotel_offers %}
-                {{ hotel_search_card.hotel_search_card(offer) }}
+            {% for hotel in hotels %}
+                {{ hotel_search_card.hotel_search_card(hotel) }}
             {% endfor %}
         </div>
         </div> 

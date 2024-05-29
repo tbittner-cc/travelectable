@@ -1,6 +1,6 @@
 {% import "star_rating.html" as star_rating %}
 
-{% macro hotel_search_card(offer) %}
+{% macro hotel_search_card(hotel) %}
 <div class="bg-white rounded-lg shadow-md border-2 p-4 border-gray-200 h-60 mb-2">
     <div class="flex">
         <div class="w-1/3">
@@ -12,15 +12,24 @@
             </div>
         </div>
         <div class="w-2/3 flex flex-col">
-            <h2 class="text-xl font-bold mt-2 mb-2">{{ offer['name'] }}</h2>
-            {{ star_rating.star_rating(offer['star_rating']) }}
-            <p class="text-travelslate mb-2"><span class="font-bold">Description:</span> {{ offer['description'] }}</p>
+            <h2 class="text-xl font-bold mt-2 mb-2">{{ hotel['name'] }}</h2>
+            {{ star_rating.star_rating(hotel['star_rating'] | int) }}
+            <p class="text-travelslate mb-2"><span class="font-bold">Description:</span> {{ hotel['description'] }}</p>
             <p class="text-travelslate mb-2 mt-4 font-bold text-right">
-                ${{ offer['offer_rate'] }}/night
+                {% if hotel['lead_rate'] %}
+                ${{ hotel['lead_rate'] }}/night
+                {% else %}
+                RATE UNAVAILABLE
+                {% endif %}
             </p>
         
-            <!-- Amadeus doesn't have an amenities list.  We could scrape the description using NLP.-->
-            <button class="bg-travelblue text-white px-4 py-2 rounded-md place-self-end max-w-fit">Book Now</button>
+            <button class="bg-travelblue text-white px-4 py-2 rounded-md place-self-end max-w-fit">
+                {% if hotel['lead_rate'] %}
+                Book Now
+                {% else %}
+                Check Rates
+                {% endif %}
+            </button>
         </div>
     </div>
 </div>
