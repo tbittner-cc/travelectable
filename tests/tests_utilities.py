@@ -53,3 +53,19 @@ class TestGetLeadRates(unittest.TestCase):
 
         result = utilities.get_lead_rates([{'id':0}],"2024-12-01")
         self.assertEqual(result, [(0,'')])
+
+class TestGetSelectedLocations(unittest.TestCase):
+    def test_get_selected_locations(self):
+        result = utilities.get_selected_locations({'origin':'','destination':''},[(3,'Chicago, IL USA')])
+        self.assertEqual(result, ['',''])
+
+        result = utilities.get_selected_locations({'origin':'Chicago, IL USA','destination':''},[(3,'Chicago, IL USA')])
+        self.assertEqual(result, [(3,'Chicago, IL USA'),''])
+
+        result = utilities.get_selected_locations({'origin':'','destination':'Chicago, IL USA'},[(3,'Chicago, IL USA')])
+        self.assertEqual(result, ['',(3,'Chicago, IL USA')])
+
+        result = utilities.get_selected_locations({'origin':'Chicago, IL USA','destination':'New York, NY USA'},
+                                                    [(1,'New York, NY USA'),(3,'Chicago, IL USA')])
+        self.assertEqual(result, [(3,'Chicago, IL USA'),(1,'New York, NY USA')])
+        

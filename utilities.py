@@ -99,6 +99,17 @@ def get_lead_rates(hotels,date):
 
     return list(lead_rate_dict.items())
 
+def get_selected_locations(location_queries,locations):
+    selected_locations = []
+    location_query_tuple = (location_queries['origin'],location_queries['destination'])
+    for i in location_query_tuple:
+        if i == '':
+            selected_locations.append(i)
+        else:
+            selected_location = [location for location in locations if location[1] == i][0]
+            selected_locations.append(selected_location)
+
+    return selected_locations
 def execute_llm_query(query,max_tokens = 512):
     data = replicate.run(
         "meta/meta-llama-3-70b-instruct",

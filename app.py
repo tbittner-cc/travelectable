@@ -16,6 +16,7 @@ locations = utilities.get_all_locations()
 
 @app.route("/")
 def homepage():
+    session.clear
     current_date = datetime.now()
     return render_template('homepage.html',
                            locations = [location[1] for location in locations],
@@ -27,7 +28,6 @@ def hotels():
         mock_data.populate_hotels(session['destination'])
     
     hotels = utilities.get_hotels(session['destination'])
-    session['hotels'] = hotels
 
     lead_rates = utilities.get_lead_rates(hotels,session['dates'][0])
     for (hotel_id,rate) in lead_rates:
@@ -88,31 +88,25 @@ def search():
     dates = utilities.parse_dates(date_string)
     session['dates'] = dates
 
-    # If both origin and destination are empty
+    selected_locations = utilities.get_selected_locations(location_queries)
+
+    if app.config['GENERATE_MOCK_DATA']:
+        for location in selected_locations:
+            if location != '':
+                mock_data.populate_location_description_and_points_of_interest(location[0],location[1])
+
     if location_queries['origin'] == '' and location_queries['destination'] == '':
         error = "No locations found"
         return render_template('homepage.html', error=error)
     # If either origin or destination is empty take the other
     elif location_queries['origin'] == '':
-        session['destination'] = [location for location in locations if location[1] == location_queries['destination']][0]
-        if app.config['GENERATE_MOCK_DATA']:
-            mock_data.populate_location_description_and_points_of_interest(session['destination'][0],
-                                                                           session['destination'][1])
+        session['destination'] = selected_locations[1]
         return redirect("/hotels")
     elif location_queries['destination'] == '':
-        session['destination'] = [location for location in locations if location[1] == location_queries['origin']][0]
-        if app.config['GENERATE_MOCK_DATA']:
-            mock_data.populate_location_description_and_points_of_interest(session['destination'][0],
-                                                                           session['destination'][1])
+        session['destination'] = selected_locations[0]
         return redirect("/hotels")
     else:
-        session['origin'] = [location for location in locations if location[1] == location_queries['origin']][0]
-        session['destination'] = [location for location in locations if location[1] == location_queries['destination']][0]
-        if app.config['GENERATE_MOCK_DATA']:
-            mock_data.populate_location_description_and_points_of_interest(session['origin'][0],
-                                                                           session['origin'][1])
-            mock_data.populate_location_description_and_points_of_interest(session['destination'][0],
-                                                                           session['destination'][1])
+        session['origin'] = selected_locations[0]
+        session['destination'] = selected_locations[1]
         return redirect("/hotels")
     return "nlp"
-
