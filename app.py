@@ -22,37 +22,42 @@ def homepage():
                            locations = [location[1] for location in locations],
                            suggested_date_range = utilities.get_suggested_dates(current_date))
 
+def add_lead_rates(hotels,dates):
+    lead_rates = utilities.get_lead_rates(hotels,session['dates'][0])
+    for (hotel_id,rate) in lead_rates:
+        for hotel in hotels:
+            if hotel['id'] == hotel_id:
+                hotel['lead_rate'] = rate
+
 @app.route("/hotels")
 def hotels():
     if app.config['GENERATE_MOCK_DATA']:
         mock_data.populate_hotels(session['destination'])
     
     hotels = utilities.get_hotels(session['destination'])
-
-    lead_rates = utilities.get_lead_rates(hotels,session['dates'][0])
-    for (hotel_id,rate) in lead_rates:
-        for hotel in hotels:
-            if hotel['id'] == hotel_id:
-                hotel['lead_rate'] = rate
+    add_lead_rates(hotels,session['dates'])
     
     return render_template('hotel_search_results.html',hotel_location = session['destination'][1],
-                           hotels = session['hotels'])
+                           hotels = hotels)
 
 @app.route("/hotel-sort", methods=['GET','POST'])
 def hotel_sort():
+    hotels = utilities.get_hotels(session['destination'])
+    add_lead_rates(hotels,session['dates'])
+
     sort_option = request.form['sort-hotels-by']
     if sort_option == '':
-        session['hotel_offers'] = session['hotel_offers']
+        pass
     if sort_option == 'price-low':
-        session['hotel_offers'] = sorted(session['hotel_offers'], key=lambda x: x['offer_rate'])
+        hotels = sorted(hotels, key=lambda x: x['lead_rate'])
     elif sort_option == 'price-high':
-        session['hotel_offers'] = sorted(session['hotel_offers'], key=lambda x: x['offer_rate'], reverse=True)
+        hotels = sorted(hotels, key=lambda x: x['lead_rate'], reverse=True)
     elif sort_option == 'rating-high':
-        session['hotel_offers'] = sorted(session['hotel_offers'], key=lambda x: x['star_rating'], reverse=True)
+        hotels = sorted(hotels, key=lambda x: x['star_rating'], reverse=True)
 
     template =render_template('hotel_search_results_htmx.html',
                         hotel_location = session['destination'][1],
-                        hotel_offers = session['hotel_offers'])
+                        hotels = hotels)
     return template
 
 @app.route("/hotel-details")
@@ -88,7 +93,7 @@ def search():
     dates = utilities.parse_dates(date_string)
     session['dates'] = dates
 
-    selected_locations = utilities.get_selected_locations(location_queries)
+    selected_locations = utilities.get_selected_locations(location_queries,locations)
 
     if app.config['GENERATE_MOCK_DATA']:
         for location in selected_locations:
