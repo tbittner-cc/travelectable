@@ -7,7 +7,6 @@ import spacy
 import mock_data,utilities
 
 app = Flask(__name__)
-app.config['GENERATE_MOCK_DATA'] = True
 app.secret_key = "super secret key"
 
 nlp = spacy.load("en_core_web_sm")
