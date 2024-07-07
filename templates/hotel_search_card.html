@@ -13,7 +13,12 @@
         </div>
         <div class="w-2/3 flex flex-col">
             <h2 class="text-xl font-bold mt-2 mb-2">{{ hotel['name'] }}</h2>
-            {{ star_rating.star_rating(hotel['star_rating'] | int) }}
+            <div class="flex w-full justify-between">
+                <div>
+                    {{ star_rating.star_rating(hotel['star_rating'] | int) }}
+                </div>
+                <div>{{ hotel['distance'] }} miles</div>
+            </div>  
             <p class="text-travelslate mb-2"><span class="font-bold">Description:</span> {{ hotel['description'] }}</p>
             <p class="text-travelslate mb-2 mt-4 font-bold text-right">
                 {% if hotel['lead_rate'] %}
