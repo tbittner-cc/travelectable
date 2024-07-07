@@ -48,7 +48,7 @@ def get_all_locations():
     return locations
 
 def get_hotels(location):
-    with sqlite3.connect("travel_data.db") as conn:
+    with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
         curr.execute("SELECT id,name,address,distance,star_rating,description FROM hotels WHERE location_id = ?",
                      (location[0],))
@@ -64,7 +64,7 @@ def get_hotels(location):
     
 def get_lead_rates(hotels,date):
     hotel_ids = [hotel['id'] for hotel in hotels]
-    with sqlite3.connect("travel_data.db") as conn:
+    with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
         query = "SELECT hotel_id,winter_rate,summer_rate FROM room_rates WHERE hotel_id IN ({})"\
             .format(",".join(['?' for _ in hotel_ids]))

@@ -16,10 +16,9 @@ locations = utilities.get_all_locations()
 @app.route("/")
 def homepage():
     session.clear
-    current_date = datetime.now()
     return render_template('homepage.html',
                            locations = [location[1] for location in locations],
-                           suggested_date_range = utilities.get_suggested_dates(current_date))
+                           suggested_date_range = utilities.get_suggested_dates(datetime.now()))
 
 def add_lead_rates(hotels,dates):
     lead_rates = utilities.get_lead_rates(hotels,session['dates'][0])
@@ -30,9 +29,6 @@ def add_lead_rates(hotels,dates):
 
 @app.route("/hotels")
 def hotels():
-    if app.config['GENERATE_MOCK_DATA']:
-        mock_data.populate_hotels(session['destination'])
-    
     hotels = utilities.get_hotels(session['destination'])
     add_lead_rates(hotels,session['dates'])
     
@@ -94,14 +90,11 @@ def search():
 
     selected_locations = utilities.get_selected_locations(location_queries,locations)
 
-    if app.config['GENERATE_MOCK_DATA']:
-        for location in selected_locations:
-            if location != '':
-                mock_data.populate_location_description_and_points_of_interest(location[0],location[1])
-
     if location_queries['origin'] == '' and location_queries['destination'] == '':
         error = "No locations found"
-        return render_template('homepage.html', error=error)
+        return render_template('homepage.html', locations = [location[1] for location in locations],
+                           suggested_date_range = utilities.get_suggested_dates(datetime.now()),
+                           error=error)
     # If either origin or destination is empty take the other
     elif location_queries['origin'] == '':
         session['destination'] = selected_locations[1]
