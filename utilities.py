@@ -102,9 +102,15 @@ def get_selected_locations(location_queries,locations):
             selected_locations.append(selected_location)
 
     return selected_locations
-def execute_llm_query(query,max_tokens = 512):
-    data = replicate.run(
-        "meta/meta-llama-3-70b-instruct",
-         input={"prompt": query, "max_tokens": max_tokens})
-    
-    return "".join(data)
+
+def return_location_image_path(location_name):
+    file_path = location_name.replace(' ','_').replace('.','').lower()
+    return file_path
+
+def return_hotel_image_path(hotel_name):
+    file_path = hotel_name.replace(' ','_').replace('.','').replace('\'','').lower()
+    return file_path
+
+def return_room_rate_image_path(room_type):
+    file_path = room_type.replace(' ','_').replace('.','').replace('\'','').replace('/','-').lower()
+    return file_path
