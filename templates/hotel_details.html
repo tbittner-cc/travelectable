@@ -1,11 +1,16 @@
 {% extends "base.html" %}
 {% import "hotel_details_card.html" as hotel_details_card %}
+{% import "star_rating.html" as star_rating %}
 
 {% block content %}
   <main class="container mx-auto p-4">
     <section class="bg-white rounded-md shadow-md p-8 mb-4">
       <h2 class="text-2xl font-bold">{{ hotel['name'] }}</h2>
-      <p class="text-lg">{{ hotel['description'] }}</p>
+        <div>
+          {{ star_rating.star_rating(hotel['star_rating'] | int) }}
+      </div>
+      <p class="text-md">{{ hotel['description'] }}</p>
+      <p class="text-sm">{{ hotel['address'] }}, {{ hotel_location[1] }}</p>
     <div class="flex mt-4">
       <div class="rounded-md overflow-hidden mr-4">
         <img src="{{ url_for('static', filename='images/{}/{}/ext.png'.format(hotel['location'],hotel['image'])) }}" 
