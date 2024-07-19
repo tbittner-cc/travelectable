@@ -1,10 +1,7 @@
 from datetime import datetime
-
-from flask import Flask,request,redirect, session
-from flask import render_template
+from flask import Flask,request,redirect, render_template,session
 import spacy
-
-import mock_data,utilities
+import utilities
 
 app = Flask(__name__)
 app.secret_key = "super secret key"
@@ -58,10 +55,6 @@ def hotel_sort():
 @app.route("/hotel-details")
 def hotel_details():
     session['hotel_details'] = utilities.get_hotel_details()
-    if app.config['GENERATE_MOCK_DATA']:
-        top_hotels = hotels[:10]
-        for hotel in top_hotels:
-            mock_data.populate_room_rates(hotel[0],session['destination'])
     is_winter_rate = utilities.is_winter_rate(session['dates'][0])
     for detail in session['hotel_details']:
         detail['is_winter_rate'] = is_winter_rate
