@@ -96,6 +96,31 @@ def get_lead_rates(hotels,date):
 
     return list(lead_rate_dict.items())
 
+def get_hotel_details(hotel_id,is_winter_rate):
+    with sqlite3.connect("travelectable.db") as conn:
+        curr = conn.cursor()
+        curr.execute("""SELECT id,room_type,room_description winter_rate,summer_rate, amenities,cancellation_policy 
+            FROM room_rates WHERE hotel_id = ?""",(hotel_id,))
+        rows = curr.fetchall()
+        columns = [column[0] for column in curr.description]
+        rates = [dict(zip(columns, row)) for row in rows]
+
+    for rate in rates:
+        if is_winter_rate:
+            rate['rate'] = rate['winter_rate']
+        else:
+            rate['rate'] = rate['summer_rate']
+
+    curr.execute("SELECT id,name,address,distance,star_rating,description FROM hotels WHERE id = ?",
+                     (hotel_id,))
+    row = curr.fetchone()
+    columns = [column[0] for column in curr.description]
+    hotel = dict(zip(columns, row))
+
+    hotel['rates'] = rates
+
+    return hotel
+
 def get_selected_locations(location_queries,locations):
     selected_locations = []
     location_query_tuple = (location_queries['origin'],location_queries['destination'])

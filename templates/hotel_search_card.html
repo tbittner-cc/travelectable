@@ -28,13 +28,12 @@
                 {% endif %}
             </p>
         
-            <button class="bg-travelblue text-white px-4 py-2 rounded-md place-self-end max-w-fit">
-                {% if hotel['lead_rate'] %}
+            <form action="/hotel-details" method="POST" class="place-self-end max-w-fit">
+            <input type="hidden" name="hotel_id" value="{{ hotel['id'] }}"/>
+            <button type="submit" class="bg-travelblue text-white px-4 py-2 rounded-md">
                 Book Now
-                {% else %}
-                Check Rates
-                {% endif %}
             </button>
+            </form>
         </div>
     </div>
 </div>

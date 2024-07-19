@@ -52,14 +52,13 @@ def hotel_sort():
                         hotels = hotels)
     return template
 
-@app.route("/hotel-details")
+@app.route("/hotel-details", methods=['GET','POST'])
 def hotel_details():
-    session['hotel_details'] = utilities.get_hotel_details()
+    hotel_id = request.form['hotel_id']
     is_winter_rate = utilities.is_winter_rate(session['dates'][0])
-    for detail in session['hotel_details']:
-        detail['is_winter_rate'] = is_winter_rate
-    return render_template('hotel_details.html',hotel_location = session['hotel_location'][0],
-                           hotel_details = session['hotel_details'])
+    hotel = utilities.get_hotel_details(hotel_id, is_winter_rate)
+    return render_template('hotel_details.html',hotel_location = session['destination'],
+                           hotel = hotel)
 
 @app.route("/search", methods=['GET','POST'])
 def search():
