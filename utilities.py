@@ -1,8 +1,7 @@
 from datetime import timedelta
-import random,sqlite3
 import dateutil.parser as parser
-
-import replicate
+import random
+import sqlite3
 
 def is_winter_rate(date):
     month = parser.parse(date).month
@@ -55,12 +54,15 @@ def get_hotels(location):
         rows = curr.fetchall()
         columns = [column[0] for column in curr.description]
         hotels = [dict(zip(columns, row)) for row in rows]
+    
+    for hotel in hotels:
+        image_name = return_hotel_image_path(hotel['name'])
 
-        top_hotels = random.sample(hotels, 10)
-        other_hotels = [hotel for hotel in hotels if hotel not in top_hotels]
-        random.shuffle(other_hotels)
+    top_hotels = random.sample(hotels, 10)
+    other_hotels = [hotel for hotel in hotels if hotel not in top_hotels]
+    random.shuffle(other_hotels)
 
-        return top_hotels + other_hotels
+    return top_hotels + other_hotels
     
 def get_lead_rates(hotels,date):
     hotel_ids = [hotel['id'] for hotel in hotels]
