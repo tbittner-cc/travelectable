@@ -14,7 +14,7 @@ locations = utilities.get_all_locations()
 def homepage():
     session.clear
     return render_template('homepage.html',
-                           locations = [location[1] for location in locations],
+                           locations = [f"{location[1]}, {location[2]}" for location in locations],
                            suggested_date_range = utilities.get_suggested_dates(datetime.now()))
 
 def add_lead_rates(hotels,dates):

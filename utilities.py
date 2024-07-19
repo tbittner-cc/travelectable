@@ -42,7 +42,7 @@ def get_all_locations():
         curr.execute("SELECT id,location,country FROM destinations")
         rows = curr.fetchall()
         for row in rows:
-                locations.append((row[0],f"{row[1]}, {row[2]}"))
+                locations.append((row[0],row[1],row[2]))
 
     return locations
 
@@ -57,6 +57,9 @@ def get_hotels(location):
     
     for hotel in hotels:
         image_name = return_hotel_image_path(hotel['name'])
+        location_name = return_location_image_path(location[1])
+        hotel['image'] = image_name
+        hotel['location'] = location_name
 
     top_hotels = random.sample(hotels, 10)
     other_hotels = [hotel for hotel in hotels if hotel not in top_hotels]
@@ -100,7 +103,7 @@ def get_selected_locations(location_queries,locations):
         if i == '':
             selected_locations.append(i)
         else:
-            selected_location = [location for location in locations if location[1] == i][0]
+            selected_location = [location for location in locations if f"{location[1]}, {location[2]}" == i][0]
             selected_locations.append(selected_location)
 
     return selected_locations
