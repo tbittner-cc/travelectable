@@ -96,7 +96,7 @@ def get_lead_rates(hotels,date):
 
     return list(lead_rate_dict.items())
 
-def get_hotel_details(hotel_id,is_winter_rate):
+def get_hotel_details(location,hotel_id,is_winter_rate):
     with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
         curr.execute("""SELECT id,room_type,room_description winter_rate,summer_rate, amenities,cancellation_policy 
@@ -118,6 +118,11 @@ def get_hotel_details(hotel_id,is_winter_rate):
     hotel = dict(zip(columns, row))
 
     hotel['rates'] = rates
+
+    image_name = return_hotel_image_path(hotel['name'])
+    location_name = return_location_image_path(location[1])
+    hotel['image'] = image_name
+    hotel['location'] = location_name
 
     return hotel
 

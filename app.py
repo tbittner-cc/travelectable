@@ -56,7 +56,7 @@ def hotel_sort():
 def hotel_details():
     hotel_id = request.form['hotel_id']
     is_winter_rate = utilities.is_winter_rate(session['dates'][0])
-    hotel = utilities.get_hotel_details(hotel_id, is_winter_rate)
+    hotel = utilities.get_hotel_details(session['destination'],hotel_id, is_winter_rate)
     return render_template('hotel_details.html',hotel_location = session['destination'],
                            hotel = hotel)
 
