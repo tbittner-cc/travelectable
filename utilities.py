@@ -1,3 +1,4 @@
+import ast
 from datetime import timedelta
 import dateutil.parser as parser
 import random
@@ -99,17 +100,17 @@ def get_lead_rates(hotels,date):
 def get_hotel_details(location,hotel_id,is_winter_rate):
     with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
-        curr.execute("""SELECT id,room_type,room_description winter_rate,summer_rate, amenities,cancellation_policy 
+        curr.execute("""SELECT id,room_type,room_description winter_rate,summer_rate,amenities,cancellation_policy 
             FROM room_rates WHERE hotel_id = ?""",(hotel_id,))
         rows = curr.fetchall()
         columns = [column[0] for column in curr.description]
         rates = [dict(zip(columns, row)) for row in rows]
 
     for rate in rates:
-        if is_winter_rate:
-            rate['rate'] = rate['winter_rate']
-        else:
-            rate['rate'] = rate['summer_rate']
+        rate['is_winter_rate'] = is_winter_rate
+        amenities = ast.literal_eval(rate['amenities'])
+        rate['amenities'] = amenities
+        rate['image'] = return_room_rate_image_path(rate['room_type'])
 
     curr.execute("SELECT id,name,address,distance,star_rating,description FROM hotels WHERE id = ?",
                      (hotel_id,))
