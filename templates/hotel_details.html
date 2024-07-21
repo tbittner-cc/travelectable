@@ -8,12 +8,12 @@
     <div class="basis-1/6"></div>
     <div>
     <section class="bg-white rounded-md shadow-md p-8 mb-4">
-      <h2 class="text-2xl font-bold">{{ hotel['name'] }} 
+      <h2 class="text-lg md:text-2xl font-bold">{{ hotel['name'] }} 
         ({{ hotel['dates'][0].strftime('%B %-d') }} - {{ hotel['dates'][1].strftime('%B %-d') }})</h2>
         <div>
           {{ star_rating.star_rating(hotel['star_rating'] | int) }}
       </div>
-      <p class="text-md">{{ hotel['description'] }}</p>
+      <p class="text-sm md:text-md">{{ hotel['description'] }}</p>
       <p class="text-sm">{{ hotel['address'] }}, {{ hotel_location[1] }}</p>
     <div class="flex mt-4">
       <div class="rounded-md overflow-hidden mr-4">
@@ -38,19 +38,28 @@
           <h3 class="text-lg font-bold my-2">{{ rate['room_type'] }}</h3>
           <img src="{{ url_for('static', filename='images/room_rates/{}.png'.format(rate['image'])) }}" 
             alt="{{ rate['room_type'] }}" class="w-full h-64 object-cover mb-4 rounded-md">
-          {% if rate['is_winter_rate'] %}
-            <p class="font-bold text-lg">${{ rate['winter_rate'] }}/night</p>
-            <p class="text-xs mb-4">${{ rate['winter_total'] }} total</p>
-          {% else %}
-            <p class="font-bold text-lg">${{ rate['summer_rate'] }}/night</p>
-            <p class="text-xs mb-4">${{ rate['summer_total'] }} total</p>
-          {% endif %}
+          <div class="flex justify-between items-top">
+            <div>
+            {% if rate['is_winter_rate'] %}
+              <p class="font-bold text-lg">${{ rate['winter_rate'] }}/night</p>
+              <p class="text-xs mb-4">${{ rate['winter_total'] }} total</p>
+            {% else %}
+              <p class="font-bold text-lg">${{ rate['summer_rate'] }}/night</p>
+              <p class="text-xs mb-4">${{ rate['summer_total'] }} total</p>
+            {% endif %}
+            </div>
+            <div>
+              <button type="submit" class="bg-travelblue text-white px-4 py-2 rounded-md">
+                Book Now
+              </button>
+            </div>
+          </div>
           
           <p class="text-sm">{{ rate['room_description'] }}</p>
           <h4 class="text font-bold text-travelslate mt-2">Amenities</h4>
-          <ul class="list-disc m-4 p-0 flex flex-wrap">
+          <ul class="list-disc m-4 p-0 md:flex md:flex-wrap">
             {% for amenity in rate['amenities'] %}
-            <li class="w-1/2 text-sm">{{ amenity }}</li>
+            <li class="md:w-1/2 text-sm">{{ amenity }}</li>
             {% endfor %}
           </ul>
           <p class="text-sm mt-2 mb-4"><span class="font-bold text-travelslate">Cancellation Policy:</span>
