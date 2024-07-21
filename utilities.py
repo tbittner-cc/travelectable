@@ -1,11 +1,11 @@
 import ast
-from datetime import timedelta
+from datetime import datetime, timedelta
 import dateutil.parser as parser
 import random
 import sqlite3
 
 def is_winter_rate(date):
-    month = parser.parse(date).month
+    month = date.month
     return month in [11, 12, 1, 2, 3, 4]
 
 def parse_dates(dates):
@@ -19,8 +19,7 @@ def parse_dates(dates):
     start_date = parser.parse(start_date)
     end_date = parser.parse(end_date)
 
-    start_date = start_date.strftime("%Y-%m-%d")
-    end_date = end_date.strftime("%Y-%m-%d")
+    print (start_date.day, end_date.day)
 
     return (start_date, end_date)
 
@@ -97,10 +96,11 @@ def get_lead_rates(hotels,date):
 
     return list(lead_rate_dict.items())
 
-def get_hotel_details(location,hotel_id,is_winter_rate):
+def get_hotel_details(location,dates,hotel_id,is_winter_rate):
+    duration = (dates[1]-dates[0]).days
     with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
-        curr.execute("""SELECT id,room_type,room_description winter_rate,summer_rate,amenities,cancellation_policy 
+        curr.execute("""SELECT id,room_type,room_description,winter_rate,summer_rate,amenities,cancellation_policy 
             FROM room_rates WHERE hotel_id = ?""",(hotel_id,))
         rows = curr.fetchall()
         columns = [column[0] for column in curr.description]
@@ -111,6 +111,8 @@ def get_hotel_details(location,hotel_id,is_winter_rate):
         amenities = ast.literal_eval(rate['amenities'])
         rate['amenities'] = amenities
         rate['image'] = return_room_rate_image_path(rate['room_type'])
+        rate['winter_total'] = str(int(rate['winter_rate'])*int(duration))
+        rate['summer_total'] = str(int(rate['summer_rate'])*int(duration))
 
     curr.execute("SELECT id,name,address,distance,star_rating,description FROM hotels WHERE id = ?",
                      (hotel_id,))
@@ -124,6 +126,7 @@ def get_hotel_details(location,hotel_id,is_winter_rate):
     location_name = return_location_image_path(location[1])
     hotel['image'] = image_name
     hotel['location'] = location_name
+    hotel['dates'] = dates
 
     return hotel
 

@@ -30,7 +30,7 @@ def hotels():
     add_lead_rates(hotels,session['dates'])
     
     return render_template('hotel_search_results.html',hotel_location = session['destination'][1],
-                           hotels = hotels)
+                           hotels = hotels,start_date = session['dates'][0],end_date = session['dates'][1])
 
 @app.route("/hotel-sort", methods=['GET','POST'])
 def hotel_sort():
@@ -56,7 +56,7 @@ def hotel_sort():
 def hotel_details():
     hotel_id = request.form['hotel_id']
     is_winter_rate = utilities.is_winter_rate(session['dates'][0])
-    hotel = utilities.get_hotel_details(session['destination'],hotel_id, is_winter_rate)
+    hotel = utilities.get_hotel_details(session['destination'],session['dates'],hotel_id, is_winter_rate)
     return render_template('hotel_details.html',hotel_location = session['destination'],
                            hotel = hotel)
 

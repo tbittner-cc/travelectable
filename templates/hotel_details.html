@@ -3,9 +3,13 @@
 {% import "star_rating.html" as star_rating %}
 
 {% block content %}
-  <main class="container mx-auto p-4">
+  <main class="container mx-auto p-4 flex">
+    <!-- Left gutter-->
+    <div class="basis-1/6"></div>
+    <div>
     <section class="bg-white rounded-md shadow-md p-8 mb-4">
-      <h2 class="text-2xl font-bold">{{ hotel['name'] }}</h2>
+      <h2 class="text-2xl font-bold">{{ hotel['name'] }} 
+        ({{ hotel['dates'][0].strftime('%B %-d') }} - {{ hotel['dates'][1].strftime('%B %-d') }})</h2>
         <div>
           {{ star_rating.star_rating(hotel['star_rating'] | int) }}
       </div>
@@ -26,13 +30,37 @@
           </div>
     </div>
     </section>
-    <section class="bg-white rounded shadow-md p-4 mt-4">
-      <h2 class="text-2xl font-bold">Room Rates</h2>
+    <section class="p-4 mt-4">
+      <h2 class="text-2xl font-bold mx-4 mb-4">Room Rates</h2>
       <div class="flex flex-wrap mx-4">
-        {% for detail in hotel_details %}
-        {{ hotel_details_card.hotel_details_card(detail) }}
+        {% for rate in hotel['rates'] %}
+        <div class="w-full md:w-1/3 px-4 mb-4 border shadow-md m-1 rounded-lg">
+          <h3 class="text-lg font-bold my-2">{{ rate['room_type'] }}</h3>
+          <img src="{{ url_for('static', filename='images/room_rates/{}.png'.format(rate['image'])) }}" 
+            alt="{{ rate['room_type'] }}" class="w-full h-64 object-cover mb-4 rounded-md">
+          {% if rate['is_winter_rate'] %}
+            <p class="font-bold text-lg">${{ rate['winter_rate'] }}/night</p>
+            <p class="text-xs mb-4">${{ rate['winter_total'] }} total</p>
+          {% else %}
+            <p class="font-bold text-lg">${{ rate['summer_rate'] }}/night</p>
+            <p class="text-xs mb-4">${{ rate['summer_total'] }} total</p>
+          {% endif %}
+          
+          <p class="text-sm">{{ rate['room_description'] }}</p>
+          <h4 class="text font-bold text-travelslate mt-2">Amenities</h4>
+          <ul class="list-disc m-4 p-0 flex flex-wrap">
+            {% for amenity in rate['amenities'] %}
+            <li class="w-1/2 text-sm">{{ amenity }}</li>
+            {% endfor %}
+          </ul>
+          <p class="text-sm mt-2 mb-4"><span class="font-bold text-travelslate">Cancellation Policy:</span>
+            {{ rate['cancellation_policy'] }}</p>
+        </div>
         {% endfor %}
       </div>
     </section>
+    </div>
+    <!-- Right gutter -->
+    <div class="basis-1/6"></div>
   </main>
 {% endblock %}
