@@ -2,15 +2,14 @@
 
 {% block content %}
 <div class="container mx-auto py-8">
-    <div class="flex flex-row">
-        <div class="w-1/4">
+    <div class="mx-4 flex flex-col md:flex-row">
+        <div class="md:w-1/4">
             <div>
                 <!-- Your search filter inputs here -->
                 <!-- Example: Location, Check-in Date, Check-out Date, Number of Guests, Price Range -->
             </div>
 
             <div class="mb-4">
-                <label for="sort-by" class="block mb-2">Sort By:</label>
                 <select id="sort-hotels-by" name="sort-hotels-by" class="border rounded-md px-4 py-2 mb-2"
                     hx-post="/hotel-sort" hx-trigger="change" hx-target="#hotel-search-results">
                     <option value="">Sort...</option>
@@ -21,10 +20,10 @@
                 </div>
         </div>
         
-        <div class="w-3/4">
-        <div id="hotel-search-results">
-            {% include "hotel_search_card.html" %}
-        </div>
+        <div class="md:w-3/4">
+            <div id="hotel-search-results">
+                {% include "hotel_search_card.html" %}
+            </div>
         </div> 
     </div>
 </div>

@@ -2,27 +2,29 @@
     otherwise be parameterized elsewhere. #}
 {% import "star_rating.html" as star_rating %}
 
-<h1 class="text-2xl font-semibold mb-4">Hotel Search Results for {{ hotel_location }}</h1>
+<h1 class="text-lg md:text-2xl font-bold mb-4">Hotel Search Results for {{ hotel_location }}</h1>
 {% for hotel in hotels %}
-<div class="bg-white rounded-lg shadow-md border-2 p-4 border-gray-200 h-60 mb-2">
-    <div class="flex">
-        <div class="w-1/3">
-            <div class="rounded-md overflow-hidden h-3/4 w-3/4 max-w-3/4">
+<div class="bg-white rounded-lg shadow-md border-2 p-4 border-gray-200 mb-2">
+    <div class="flex flex-col md:h-64 md:flex-row">
+        <div class="md:w-1/3">
+            <div class="rounded-md overflow-hidden md:h-full">
             <img src="{{ url_for('static', filename='images/{}/{}/ext.png'.format(hotel['location'],hotel['image'])) }}" 
-                class="object-cover h-full w-full max-w-full" 
-                style="aspect-ratio: 1/1;"
+                class="object-cover h-full w-full max-w-full aspect-square" 
                 alt="{{ hotel['name'] }}"/>
             </div>
         </div>
-        <div class="w-2/3 flex flex-col">
-            <h2 class="text-xl font-bold mt-2 mb-2">{{ hotel['name'] }}</h2>
-            <div class="flex w-full justify-between">
-                <div>
-                    {{ star_rating.star_rating(hotel['star_rating'] | int) }}
-                </div>
-                <div>{{ hotel['distance'] }} miles</div>
-            </div>  
-            <p class="text-travelslate mb-2"><span class="font-bold">Description:</span> {{ hotel['description'] }}</p>
+        <div class="md:w-2/3 md:flex md:flex-col">
+            <div class="md:pl-4">
+                <h2 class="text-lg md:text-xl font-bold mt-2 md:mt-0 mb-4 md:mb-2">{{ hotel['name'] }}</h2>
+                <div class="flex w-full justify-between mb-2 md:mb-0">
+                    <div class="text-left">
+                        {{ star_rating.star_rating(hotel['star_rating'] | int) }}
+                    </div>
+                    <div class="text-right">{{ hotel['distance'] }} miles</div>
+                </div>  
+                <p class="text-travelslate mb-2"><span class="font-bold">Description:</span> {{ hotel['description'] }}</p>
+            </div>
+            <div class="flex flex-col md:pt-12">
             <p class="text-travelslate mb-2 mt-4 font-bold text-right">
                 {% if hotel['lead_rate'] %}
                 ${{ hotel['lead_rate'] }}/night
@@ -30,13 +32,16 @@
                 RATE UNAVAILABLE
                 {% endif %}
             </p>
-        
-            <form action="/hotel-details" method="POST" class="place-self-end max-w-fit">
-            <input type="hidden" name="hotel_id" value="{{ hotel['id'] }}"/>
-            <button type="submit" class="bg-travelblue text-white px-4 py-2 rounded-md">
-                Book Now
-            </button>
-            </form>
+            
+            <div class="place-self-end">
+                <form action="/hotel-details" method="POST" class="max-w-fit">
+                <input type="hidden" name="hotel_id" value="{{ hotel['id'] }}"/>
+                <button type="submit" class="bg-travelblue text-white px-4 py-2 rounded-md">
+                    Book Now
+                </button>
+                </form>
+            </div>
+            </div>
         </div>
     </div>
 </div>
