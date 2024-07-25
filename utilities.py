@@ -66,6 +66,24 @@ def get_hotels(location):
     random.shuffle(other_hotels)
 
     return top_hotels + other_hotels
+
+def get_amenities(location_id):
+    with sqlite3.connect("travelectable.db") as conn:
+        curr = conn.cursor()
+        curr.execute("SELECT rr.amenities FROM room_rates rr JOIN hotels h ON rr.hotel_id = h.id WHERE h.location_id = ?",
+                     (location_id,))
+        rows = curr.fetchall()
+
+    amenities = set()
+
+    for row in rows:
+        am_list = ast.literal_eval(row[0])
+        # Capitalize the first letter of the first word and strip whitespace
+        am_list = [am.strip() for am in am_list]
+        am_list = [am[0].upper() + am[1:] for am in am_list]
+        amenities.update(am_list)
+
+    return sorted(list(amenities))
     
 def get_lead_rates(hotels,date):
     hotel_ids = [hotel['id'] for hotel in hotels]

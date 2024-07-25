@@ -3,24 +3,33 @@
 {% block content %}
 <div class="container mx-auto py-8">
     <div class="mx-4 flex flex-col md:flex-row">
-        <div class="md:w-1/4">
-            <div>
-                <!-- Your search filter inputs here -->
-                <!-- Example: Location, Check-in Date, Check-out Date, Number of Guests, Price Range -->
+        <div class="w-full md:w-1/4">
+            <select id="sort-hotels-by" name="sort-hotels-by" 
+                class="border rounded-md w-full md:w-72 px-4 py-2 mb-2 bg-white"
+                hx-post="/hotel-sort" hx-trigger="change" hx-target="#hotel-search-results">
+                <option value="">Sort...</option>
+                <option value="price-low">Price (Low to High)</option>
+                <option value="price-high">Price (High to Low)</option>
+                <option value="rating-high">Guest Rating (High to Low)</option>
+            </select>
+
+            <div class="w-full md:w-72 border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
+                <i class="bi bi-funnel-fill text-travelnavy mr-1"></i>
+                <input _="on input append {{ 2+2 }} to #amenities_filter set my value to ''" type="text" name="origin" class="focus:outline-none"
+                    placeholder="Amenities..." list="amenities"/>
+                <datalist id="amenities">
+                    {% for amenity in amenities %}
+                    <option value="{{ amenity }}"></option>
+                    {% endfor %}
+                </datalist>
             </div>
 
-            <div class="mb-4">
-                <select id="sort-hotels-by" name="sort-hotels-by" class="border rounded-md px-4 py-2 mb-2"
-                    hx-post="/hotel-sort" hx-trigger="change" hx-target="#hotel-search-results">
-                    <option value="">Sort...</option>
-                    <option value="price-low">Price (Low to High)</option>
-                    <option value="price-high">Price (High to Low)</option>
-                    <option value="rating-high">Guest Rating (High to Low)</option>
-                </select>
-                </div>
+            <div id="amenities_filter" class="flex flex-wrap">
+
+            </div>
         </div>
         
-        <div class="md:w-3/4">
+        <div class="w-full md:w-3/4">
             <div id="hotel-search-results">
                 {% include "hotel_search_card.html" %}
             </div>
