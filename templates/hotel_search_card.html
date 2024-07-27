@@ -1,5 +1,3 @@
-{# We can't directly render macros with render_template, so we need to add a duplicate file that could 
-    otherwise be parameterized elsewhere. #}
 {% import "star_rating.html" as star_rating %}
 
 <h1 class="text-lg md:text-2xl font-bold mb-4">Hotel Search Results for {{ hotel_location }}

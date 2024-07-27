@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "star_rating.html" as star_rating %}
 
 {% block content %}
 <div class="container mx-auto py-8">
@@ -13,19 +14,8 @@
                 <option value="rating-high">Guest Rating (High to Low)</option>
             </select>
 
-            <div class="w-full md:w-72 border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
-                <i class="bi bi-funnel-fill text-travelnavy mr-1"></i>
-                <input _="on input append {{ 2+2 }} to #amenities_filter set my value to ''" type="text" name="origin" class="focus:outline-none"
-                    placeholder="Amenities..." list="amenities"/>
-                <datalist id="amenities">
-                    {% for amenity in amenities %}
-                    <option value="{{ amenity }}"></option>
-                    {% endfor %}
-                </datalist>
-            </div>
-
-            <div id="amenities_filter" class="flex flex-wrap">
-
+            <div id="amenities_filter">
+                {% include "filtered_amenities.html" %}
             </div>
         </div>
         

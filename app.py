@@ -12,7 +12,7 @@ locations = utilities.get_all_locations()
 
 @app.route("/")
 def homepage():
-    session.clear
+    session.clear()
     return render_template('homepage.html',
                            locations = [f"{location[1]}, {location[2]}" for location in locations],
                            suggested_date_range = utilities.get_suggested_dates(datetime.now()))
@@ -26,6 +26,7 @@ def add_lead_rates(hotels,dates):
 
 @app.route("/hotels")
 def hotels():
+    session['filtered_amenities'] = []
     hotels = utilities.get_hotels(session['destination'])
     add_lead_rates(hotels,session['dates'])
     
@@ -52,6 +53,14 @@ def hotel_sort():
                         hotel_location = session['destination'][1],
                         hotels = hotels,start_date = session['dates'][0],end_date = session['dates'][1])
     return template
+
+@app.route("/display-hotel-amenities", methods=['GET','POST'])
+def display_hotel_amenities():
+    fa = session['filtered_amenities']
+    fa.append(request.form['amenities_input'])
+    session['filtered_amenities'] = fa
+    return render_template('filtered_amenities.html',filtered_amenities = session['filtered_amenities'],
+        amenities = utilities.get_amenities(session['destination'][0]))
 
 @app.route("/hotel-details", methods=['GET','POST'])
 def hotel_details():
