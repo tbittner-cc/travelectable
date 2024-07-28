@@ -1,18 +1,20 @@
-<form class="w-full md:w-72 border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
+<form class="relative w-full md:w-72 border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
     <input type="text" name="amenities_input" class="focus:outline-none" placeholder="Amenities..." 
         list="amenities"/>
-    <i class="bi bi-funnel-fill text-travelnavy mr-1 cursor-pointer" hx-post="/display-hotel-amenities" hx-trigger="click"
-        hx-target="#amenities_filter"></i>
     <datalist id="amenities">
         {% for amenity in amenities %}
         <option value="{{ amenity }}"></option>
         {% endfor %}
     </datalist>
+    <i class="bi bi-funnel-fill text-travelnavy cursor-pointer absolute right-4" hx-post="/display-hotel-amenities" hx-trigger="click"
+        hx-target="#amenities_filter"></i>
 </form>
 
+<div class="mb-4 md:mb-0">
 {% for amenity in filtered_amenities %}
     <div>
         <i class="bi bi-x-circle-fill text-red-500"></i>
         <span>{{ amenity }}</span>
     </div>
 {% endfor %}
+</div>
