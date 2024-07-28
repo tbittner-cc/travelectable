@@ -54,10 +54,18 @@ def hotel_sort():
                         hotels = hotels,start_date = session['dates'][0],end_date = session['dates'][1])
     return template
 
-@app.route("/display-hotel-amenities", methods=['GET','POST'])
-def display_hotel_amenities():
+@app.route("/add-amenity", methods=['GET','POST'])
+def add_amenity():
     fa = session['filtered_amenities']
     fa.append(request.form['amenities_input'])
+    session['filtered_amenities'] = fa
+    return render_template('filtered_amenities.html',filtered_amenities = session['filtered_amenities'],
+        amenities = utilities.get_amenities(session['destination'][0]))
+
+@app.route("/remove-amenity", methods=['GET','POST'])
+def remove_amenity():
+    fa = session['filtered_amenities']
+    fa.remove(request.form['amenity'])
     session['filtered_amenities'] = fa
     return render_template('filtered_amenities.html',filtered_amenities = session['filtered_amenities'],
         amenities = utilities.get_amenities(session['destination'][0]))

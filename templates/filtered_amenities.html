@@ -6,15 +6,18 @@
         <option value="{{ amenity }}"></option>
         {% endfor %}
     </datalist>
-    <i class="bi bi-funnel-fill text-travelnavy cursor-pointer float-right" hx-post="/display-hotel-amenities" hx-trigger="click"
+    <i class="bi bi-funnel-fill text-travelnavy cursor-pointer float-right" hx-post="/add-amenity" 
+        hx-trigger="click"
         hx-target="#amenities_filter"></i>
 </form>
 
-<div class="mb-4 md:mb-0">
+<form class="mb-4 md:mb-0">
 {% for amenity in filtered_amenities %}
     <div>
-        <i class="bi bi-x-circle-fill text-red-500"></i>
+        <i class="bi bi-x-circle-fill text-red-500 cursor-pointer" hx-post="/remove-amenity" hx-trigger="click" 
+            hx-target="#amenities_filter"></i>
+        <input type="hidden" name="amenity" value="{{ amenity }}">
         <span>{{ amenity }}</span>
     </div>
 {% endfor %}
-</div>
+</form>
