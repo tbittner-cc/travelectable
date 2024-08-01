@@ -1,6 +1,7 @@
 from datetime import datetime
 from flask import Flask,request,redirect, render_template,session
 import spacy
+import sqlite3
 import utilities
 
 app = Flask(__name__)
@@ -57,8 +58,12 @@ def hotel_sort():
 @app.route("/add-amenity", methods=['GET','POST'])
 def add_amenity():
     fa = session['filtered_amenities']
-    fa.append(request.form['amenities_input'])
-    session['filtered_amenities'] = fa
+    if request.form['amenities_input'] != '':
+        fa.append(request.form['amenities_input'])
+        with sqlite3.connect("travelectable.db") as conn:
+            curr = conn.cursor()
+
+        session['filtered_amenities'] = fa
     return render_template('filtered_amenities.html',filtered_amenities = session['filtered_amenities'],
         amenities = utilities.get_amenities(session['destination'][0]))
 

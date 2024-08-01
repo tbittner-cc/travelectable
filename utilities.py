@@ -19,8 +19,6 @@ def parse_dates(dates):
     start_date = parser.parse(start_date)
     end_date = parser.parse(end_date)
 
-    print (start_date.day, end_date.day)
-
     return (start_date, end_date)
 
 # Suggest a date range two weeks in the future for searching.
@@ -61,27 +59,23 @@ def get_hotels(location):
         hotel['image'] = image_name
         hotel['location'] = location_name
 
-    top_hotels = random.sample(hotels, 10)
-    other_hotels = [hotel for hotel in hotels if hotel not in top_hotels]
-    random.shuffle(other_hotels)
+    random.shuffle(hotels)
 
-    return top_hotels + other_hotels
+    return hotels
 
 def get_amenities(location_id):
     with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
-        curr.execute("SELECT rr.amenities FROM room_rates rr JOIN hotels h ON rr.hotel_id = h.id WHERE h.location_id = ?",
+        curr.execute("""SELECT amenity FROM amenities a JOIN room_rates_amenities_xref xref ON a.id = xref.amenity_id 
+                        JOIN room_rates rr ON xref.room_rate_id = rr.id JOIN hotels h ON rr.hotel_id = h.id 
+                        WHERE h.location_id = ?""",
                      (location_id,))
         rows = curr.fetchall()
 
     amenities = set()
 
     for row in rows:
-        am_list = ast.literal_eval(row[0])
-        # Capitalize the first letter of the first word and strip whitespace
-        am_list = [am.strip() for am in am_list]
-        am_list = [am[0].upper() + am[1:] for am in am_list]
-        amenities.update(am_list)
+        amenities.add(row[0])    
 
     return sorted(list(amenities))
     
@@ -147,6 +141,9 @@ def get_hotel_details(location,dates,hotel_id,is_winter_rate):
     hotel['dates'] = dates
 
     return hotel
+
+def get_hotels_with_select_amenities(location,amenities):
+    all_amenities = get_amenities(location[0])
 
 def get_selected_locations(location_queries,locations):
     selected_locations = []
