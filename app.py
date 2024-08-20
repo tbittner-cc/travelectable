@@ -72,7 +72,9 @@ def add_amenity():
 @app.route("/remove-amenity", methods=['GET','POST'])
 def remove_amenity():
     fa = session['filtered_amenities']
-    fa.remove(request.form['amenity'])
+    # We know we'll only have one key in the form and that maps to our unique amenity value
+    value = list(request.form.to_dict().values())[0]
+    fa.remove(value)
     session['filtered_amenities'] = fa
     resp = make_response(render_template('filtered_amenities.html',filtered_amenities = session['filtered_amenities'],
         amenities = utilities.get_amenities(session['destination'][0])))

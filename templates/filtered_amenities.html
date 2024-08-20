@@ -12,13 +12,13 @@
         hx-target="#amenities_filter"></i>
 </div>
 
-<form method="POST" class="mb-4 md:mb-0">
+<div class="mb-4 md:mb-0">
 {% for amenity in filtered_amenities %}
-    <div>
-        <i class="bi bi-x-circle-fill text-red-500 cursor-pointer" hx-post="/remove-amenity" hx-trigger="click" 
-            hx-include='#amenity_{{ amenity }}' hx-target="#amenities_filter"></i>
-        <input type="hidden" name="amenity" id="amenity_{{ amenity }}" value="{{ amenity }}">
+    <form method="POST">
+        <i class="bi bi-x-circle-fill text-red-500 cursor-pointer" hx-trigger="click" hx-post="/remove-amenity" 
+            hx-target="#amenities_filter"></i>
+        <input type="hidden" name="amenity_{{ amenity }}" value="{{ amenity }}">
         <span>{{ amenity }}</span>
-    </div>
+    </form>
 {% endfor %}
-</form>
+</div>
