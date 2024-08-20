@@ -66,9 +66,7 @@ def get_hotels(location):
                 WHERE rr.hotel_id = ?""", (hotel['id'],))
 
             rows = curr.fetchall()
-            hotel['amenities'] = [row[0] for row in rows]
-
-            print (hotel['amenities'])
+            hotel['amenities'] = set([row[0] for row in rows])
 
     random.shuffle(hotels)
 
@@ -90,36 +88,15 @@ def get_amenities(location_id):
 
     return sorted(list(amenities))
 
-def print_query(statement):
-    print(statement)
-
 def get_hotels_with_amenities(location,amenities):
-    with sqlite3.connect("travelectable.db") as conn:
-        conn.set_trace_callback(print)
-        curr = conn.cursor()
-        query = """SELECT distinct h.id,name,address,distance,star_rating,description FROM hotels h 
-            JOIN room_rates rr ON h.id = rr.hotel_id 
-            join room_rates_amenities_xref xref ON rr.id = xref.room_rate_id 
-            JOIN amenities a ON xref.amenity_id = a.id 
-            WHERE location_id = ?"""
-        for amenity in amenities:
-            # Ensure that we're getting an intersection, not a union of all amenities.
-            query = query + " AND a.amenity = ?"
+    all_hotels = get_hotels(location)
+    
+    if len(amenities) == 0:
+        # If nothing's filtered, return all hotels
+        return all_hotels
 
-        curr.execute(query,(location[0],*amenities))
-        rows = curr.fetchall()
-        columns = [column[0] for column in curr.description]
-        hotels = [dict(zip(columns, row)) for row in rows]
-
-    for hotel in hotels:
-        image_name = return_hotel_image_path(hotel['name'])
-        location_name = return_location_image_path(location[1])
-        hotel['image'] = image_name
-        hotel['location'] = location_name
-
-    random.shuffle(hotels)
-
-    return hotels
+    amenities_set = set(amenities)
+    return [hotel for hotel in all_hotels if amenities_set.issubset(hotel['amenities'])]
     
 def get_lead_rates(hotels,date):
     hotel_ids = [hotel['id'] for hotel in hotels]
@@ -183,9 +160,6 @@ def get_hotel_details(location,dates,hotel_id,is_winter_rate):
     hotel['dates'] = dates
 
     return hotel
-
-def get_hotels_with_select_amenities(location,amenities):
-    all_amenities = get_amenities(location[0])
 
 def get_selected_locations(location_queries,locations):
     selected_locations = []

@@ -37,10 +37,7 @@ def hotels():
 
 @app.route("/hotel-sort", methods=['GET','POST'])
 def hotel_sort():
-    if session['filtered_amenities']:
-        hotels = utilities.get_hotels_with_amenities(session['destination'],session['filtered_amenities'])
-    else:
-        hotels = utilities.get_hotels(session['destination'])
+    hotels = utilities.get_hotels_with_amenities(session['destination'],session['filtered_amenities'])
     add_lead_rates(hotels,session['dates'])
 
     sort_option = request.form['sort-hotels-by']
@@ -85,10 +82,7 @@ def remove_amenity():
 
 @app.route("/hotel-amenity-results", methods=['GET','POST'])
 def hotel_amenity_results():
-    if session['filtered_amenities']:
-        hotels = utilities.get_hotels_with_amenities(session['destination'],session['filtered_amenities'])
-    else:
-        hotels = utilities.get_hotels(session['destination'])
+    hotels = utilities.get_hotels_with_amenities(session['destination'],session['filtered_amenities'])
     add_lead_rates(hotels,session['dates'])
 
     template =render_template('hotel_search_card.html',
