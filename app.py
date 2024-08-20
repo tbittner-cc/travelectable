@@ -1,5 +1,5 @@
 from datetime import datetime
-from flask import Flask,request,redirect, render_template,session
+from flask import Flask,make_response,request,redirect,render_template,session
 import spacy
 import sqlite3
 import utilities
@@ -57,15 +57,17 @@ def hotel_sort():
 
 @app.route("/add-amenity", methods=['GET','POST'])
 def add_amenity():
+    all_utilities = utilities.get_amenities(session['destination'][0])
     fa = session['filtered_amenities']
-    if request.form['amenities_input'] != '':
+    # Don't add blanks or incomplete values like "W" for "Wifi"
+    if request.form['amenities_input'] != '' and request.form['amenities_input'] in all_utilities:
         fa.append(request.form['amenities_input'])
-        with sqlite3.connect("travelectable.db") as conn:
-            curr = conn.cursor()
-
         session['filtered_amenities'] = fa
-    return render_template('filtered_amenities.html',filtered_amenities = session['filtered_amenities'],
-        amenities = utilities.get_amenities(session['destination'][0]))
+    resp = make_response(render_template('filtered_amenities.html',filtered_amenities = session['filtered_amenities'],
+        amenities = all_utilities))
+    resp.headers.set('HX-Trigger', 'updateFilteredAmenities')
+
+    return resp
 
 @app.route("/remove-amenity", methods=['GET','POST'])
 def remove_amenity():
@@ -74,6 +76,10 @@ def remove_amenity():
     session['filtered_amenities'] = fa
     return render_template('filtered_amenities.html',filtered_amenities = session['filtered_amenities'],
         amenities = utilities.get_amenities(session['destination'][0]))
+
+@app.route("/hotel-amenity-results", methods=['GET','POST'])
+def hotel_amenity_results():
+    return "foo"
 
 @app.route("/hotel-details", methods=['GET','POST'])
 def hotel_details():
