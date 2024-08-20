@@ -53,11 +53,22 @@ def get_hotels(location):
         columns = [column[0] for column in curr.description]
         hotels = [dict(zip(columns, row)) for row in rows]
     
-    for hotel in hotels:
-        image_name = return_hotel_image_path(hotel['name'])
-        location_name = return_location_image_path(location[1])
-        hotel['image'] = image_name
-        hotel['location'] = location_name
+        for hotel in hotels:
+            image_name = return_hotel_image_path(hotel['name'])
+            location_name = return_location_image_path(location[1])
+            hotel['image'] = image_name
+            hotel['location'] = location_name
+
+            curr.execute("""
+                SELECT distinct a.amenity FROM amenities a 
+                JOIN room_rates_amenities_xref xref ON a.id = xref.amenity_id
+                JOIN room_rates rr ON xref.room_rate_id = rr.id
+                WHERE rr.hotel_id = ?""", (hotel['id'],))
+
+            rows = curr.fetchall()
+            hotel['amenities'] = [row[0] for row in rows]
+
+            print (hotel['amenities'])
 
     random.shuffle(hotels)
 
