@@ -37,7 +37,10 @@ def hotels():
 
 @app.route("/hotel-sort", methods=['GET','POST'])
 def hotel_sort():
-    hotels = utilities.get_hotels(session['destination'])
+    if session['filtered_amenities']:
+        hotels = utilities.get_hotels_with_amenities(session['destination'],session['filtered_amenities'])
+    else:
+        hotels = utilities.get_hotels(session['destination'])
     add_lead_rates(hotels,session['dates'])
 
     sort_option = request.form['sort-hotels-by']
@@ -74,12 +77,24 @@ def remove_amenity():
     fa = session['filtered_amenities']
     fa.remove(request.form['amenity'])
     session['filtered_amenities'] = fa
-    return render_template('filtered_amenities.html',filtered_amenities = session['filtered_amenities'],
-        amenities = utilities.get_amenities(session['destination'][0]))
+    resp = make_response(render_template('filtered_amenities.html',filtered_amenities = session['filtered_amenities'],
+        amenities = utilities.get_amenities(session['destination'][0])))
+    resp.headers.set('HX-Trigger', 'updateFilteredAmenities')
+
+    return resp
 
 @app.route("/hotel-amenity-results", methods=['GET','POST'])
 def hotel_amenity_results():
-    return "foo"
+    if session['filtered_amenities']:
+        hotels = utilities.get_hotels_with_amenities(session['destination'],session['filtered_amenities'])
+    else:
+        hotels = utilities.get_hotels(session['destination'])
+    add_lead_rates(hotels,session['dates'])
+
+    template =render_template('hotel_search_card.html',
+                        hotel_location = session['destination'][1],
+                        hotels = hotels,start_date = session['dates'][0],end_date = session['dates'][1])
+    return template
 
 @app.route("/hotel-details", methods=['GET','POST'])
 def hotel_details():
