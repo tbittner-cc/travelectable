@@ -139,3 +139,7 @@ def search():
         session['destination'] = selected_locations[1]
         return redirect("/hotels")
     return "nlp"
+
+@app.route("/checkout", methods=['GET','POST'])
+def checkout():
+    return render_template('checkout.html')

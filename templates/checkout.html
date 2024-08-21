@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Checkout Page -->
+<section class="checkout-page">
+    <h1>Checkout</h1>
+    <form id="checkout-form">
+      <!-- Guest Information -->
+      <h2>Guest Information</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+    
+      <!-- Payment Information -->
+      <h2>Payment Information</h2>
+      <label for="card-type">Card Type:</label>
+      <select id="card-type" name="card-type">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="amex">American Express</option>
+      </select><br><br>
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" name="card-number"><br><br>
+      <label for="expiration-date">Expiration Date:</label>
+      <input type="date" id="expiration-date" name="expiration-date"><br><br>
+      <label for="security-code">Security Code:</label>
+      <input type="text" id="security-code" name="security-code"><br><br>
+  
+      <!-- Submit Button -->
+      <button type="submit">Complete Checkout</button>
+    </form>
+  </section>
+
+  <section class="credit-card">
+    <div class="bg-slate-500 rounded-lg w-96 h-60 flex flex-col py-2">
+        <div class="mx-auto text-white text-lg">Credit Card</div>
+        <div class="h-5 bg-black w-full"></div>
+    </div>
+  </section>
+
+{% endblock %}

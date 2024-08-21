@@ -45,11 +45,11 @@
               <p class="text-xs mb-4">${{ rate['summer_total'] }} total</p>
             {% endif %}
             </div>
-            <div>
+            <form action="/checkout" method="POST">
               <button type="submit" class="bg-travelblue text-white px-4 py-2 rounded-md">
                 Book Now
               </button>
-            </div>
+            </form>
           </div>
           
           <p class="text-sm">{{ rate['room_description'] }}</p>
