@@ -34,11 +34,35 @@
     </form>
   </section>
 
-  <section class="credit-card">
-    <div class="bg-slate-500 rounded-lg w-96 h-60 flex flex-col py-2">
+    <section class="credit-card bg-slate-500 rounded-lg mx-2 md:mx-0 md:w-96 h-60 flex flex-col py-2">
         <div class="mx-auto text-white text-lg">Credit Card</div>
-        <div class="h-5 bg-black w-full"></div>
-    </div>
-  </section>
+        <div class="h-5 bg-black w-full mb-1"></div>
+        <div class="h-1 bg-black w-full mb-3"></div>
+        <div class = "flex flex-row">
+            <div>
+                <div class="h-9 bg-white w-48 ml-3 mb-1 pl-2 pt-1 font-alexbrush text-travelblue text-2xl">Jane Bambi</div>
+                <div class="ml-3 text-white text-xs mb-4">AUTHORIZED SIGNATURE</div>
+            </div>
+            <div class="uppercase text-white ml-auto pr-4">
+                <span class="text-xs">Good Thru</span>
+                <br/>
+                <span class="font-bold">11/24</span>
+            </div>
+        </div>
+        <div class="flex flex-row">
+            <div>
+                <div class="uppercase text-white ml-5">Jane Bambi</div>
+                <div class="uppercase text-white ml-5">4111 1111 1111 1111</div>
+                <div class=" text-white ml-5">
+                    <span class="text-xs">Security Code</span>
+                    &nbsp;
+                    <span class="font-bold">123</span>
+                </div>
+            </div>
+            <div class="ml-auto pr-12">
+                <i class="bi bi-wifi text-travelgold text-2xl mr-1"></i>
+            </div>  
+        </div>
+    </section>
 
 {% endblock %}
