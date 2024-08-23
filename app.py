@@ -143,3 +143,12 @@ def search():
 @app.route("/checkout", methods=['GET','POST'])
 def checkout():
     return render_template('checkout.html')
+
+@app.route("/complete-booking", methods=['GET','POST'])
+def complete_booking():
+    action = request.form['action']
+
+    if action == 'book':
+        return render_template('finished.html')
+    elif action == 'cancel':
+        return redirect("/hotels")

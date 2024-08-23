@@ -80,4 +80,14 @@
     </div>
 </section>
 
+<section class="book mt-2 w-full pr-2 md:pr-0 md:w-96 text-right">
+    <form action="/complete-booking" method="POST">
+        <button type="submit" name="action" value = "book" class="bg-travelblue text-white px-4 py-2 rounded-md">
+            Book Now
+        </button>
+        <button type="submit" name="action" value = "cancel" class="bg-red-500 text-white px-4 py-2 rounded-md">
+            Cancel
+        </button>
+      </form>
+</section>
 {% endblock %}
