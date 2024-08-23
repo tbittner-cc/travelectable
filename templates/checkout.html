@@ -10,7 +10,8 @@
         </div>
         <div class="w-full md:w-72 border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
             <i class="bi bi-person-fill text-travelnavy mr-1"></i>
-            <input type="text" id="name" name="name" class="focus:outline-none" value="Jane Bambi">
+            <input type="text" id="name" name="name" class="focus:outline-none" value="Jane Bambi"
+                _="on input set #signature.innerText to my value">
         </div>
       </div>
 
@@ -52,7 +53,9 @@
     <div class="h-1 bg-black w-full mb-3"></div>
     <div class = "flex flex-row">
         <div>
-            <div class="h-9 bg-white w-48 ml-3 mb-1 pl-2 pt-1 font-alexbrush text-travelblue text-2xl">Jane Bambi</div>
+            <div class="h-9 bg-white w-48 ml-3 mb-1 pl-2 pt-1 font-alexbrush text-travelblue text-2xl" id="signature">
+                Jane Bambi
+            </div>
             <div class="ml-3 text-white text-xs mb-4">AUTHORIZED SIGNATURE</div>
         </div>
         <div class="uppercase text-white ml-auto pr-4">
