@@ -16,13 +16,13 @@
       <p class="text-sm">{{ hotel['address'] }}, {{ hotel_location[1] }}</p>
     <div class="flex mt-4">
       <div class="rounded-md overflow-hidden mr-4">
-        <img src="{{ url_for('static', filename='images/{}/{}/ext.png'.format(hotel['location'],hotel['image'])) }}" 
-            class="object-cover h-full w-full max-w-full aspect-square" 
+        <img src="data:image/png;base64,{{ hotel['ext_image'] }}" 
+            class="object-cover h-full w-full max-w-full aspect-square"
             alt="{{ hotel['name'] }}_ext"/>
         </div>
         <div class="rounded-md overflow-hidden">
-          <img src="{{ url_for('static', filename='images/{}/{}/int.png'.format(hotel['location'],hotel['image'])) }}" 
-              class="object-cover h-full w-full max-w-full aspect-square" 
+          <img src="data:image/png;base64,{{ hotel['int_image'] }}"
+              class="object-cover h-full w-full max-w-full aspect-square"
               alt="{{ hotel['name'] }}_int"/>
           </div>
     </div>
@@ -33,7 +33,7 @@
         {% for rate in hotel['rates'] %}
         <div class="w-full md:w-1/3 px-4 mb-4 border shadow-md m-1 rounded-lg">
           <h3 class="text-lg font-bold my-2">{{ rate['room_type'] }}</h3>
-          <img src="{{ url_for('static', filename='images/room_rates/{}.png'.format(rate['image'])) }}" 
+          <img src="data:image/png;base64,{{ rate['image'] }}" 
             alt="{{ rate['room_type'] }}" class="object-cover mb-4 rounded-md aspect-square">
           <div class="flex justify-between items-top">
             <div>
