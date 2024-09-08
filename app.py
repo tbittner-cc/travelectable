@@ -134,21 +134,17 @@ def search():
         'origin': request.form['origin'],
         'destination': request.form['destination']
     }
-    date_range = request.form['date_range']
+    
+    date_range = {
+        'from': request.form['from'],
+        'to': request.form['to']
+    }
 
-    doc = nlp(date_range)
-
-    date_string = None
-    error = None
-
-    for ent in doc.ents:
-        if ent.label_ == "DATE":
-            date_string = ent.text
-
-    if not date_string:
-        date_string = utilities.get_suggested_dates(datetime.now())
-
-    dates = utilities.parse_dates(date_string)
+    # Check if both date_range values are None
+    if date_range['from'] == '' and date_range['to'] == '':
+        dates = utilities.get_suggested_dates(datetime.now())
+    else:
+        dates = utilities.parse_dates(date_range['from'], date_range['to'])
     session['dates'] = dates
 
     selected_locations = utilities.get_selected_locations(

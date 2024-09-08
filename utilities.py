@@ -1,6 +1,6 @@
 import ast
 import base64
-from datetime import datetime, timedelta
+from datetime import timedelta
 import dateutil.parser as parser
 import random
 import sqlite3
@@ -11,16 +11,12 @@ def is_winter_rate(date):
     return month in [11, 12, 1, 2, 3, 4]
 
 
-def parse_dates(dates):
-    (start_date, end_date) = dates.split("-")
-    # spaCy ensures that the dash has no spaces between words
-    # Check if the first character of end_date is a digit
-    # This is to handle the case of "May 1st-7th" or "May 1-7"
-    if end_date[0].isdigit():
-        end_date = start_date.split()[0] + " " + end_date
-
+def parse_dates(start_date, end_date):
     start_date = parser.parse(start_date)
     end_date = parser.parse(end_date)
+
+    print(start_date)
+    print(end_date)
 
     return (start_date, end_date)
 
@@ -30,16 +26,7 @@ def get_suggested_dates(current_date):
     suggested_start_date = current_date + timedelta(weeks=2)
     suggested_end_date = suggested_start_date + timedelta(days=6)
 
-    if (suggested_start_date.month == suggested_end_date.month):
-        suggested_date_range = "{}-{}".format(
-            suggested_start_date.strftime("%B %-d"),
-            suggested_end_date.strftime("%-d"))
-    else:
-        suggested_date_range = "{}-{}".format(
-            suggested_start_date.strftime("%B %-d"),
-            suggested_end_date.strftime("%B %-d"))
-
-    return suggested_date_range
+    return (suggested_start_date, suggested_end_date)
 
 
 def get_all_locations():
