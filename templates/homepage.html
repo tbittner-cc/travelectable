@@ -8,11 +8,10 @@
         <div class="w-full md:w-72 border rounded p-2 mb-2 md:mb-0 focus-within:border-travelgold">
             <i class="bi bi-airplane-fill text-travelnavy mr-1" role="presentation"></i>
             <input type="text" name="origin" id="origin" class="focus:outline-none" placeholder="e.g. From Chicago"
-                list="origins" />
-            <datalist id="origins">
-                {% for location in locations %}
-                <option value="{{ location }}"></option>
-                {% endfor %}
+                list="origins" hx-post="/filter-origins" hx-trigger="input changed delay:500ms"
+                hx-target="#origins" />
+            <datalist id="origins" name="origins">
+                {% include 'location_options.html' %}
             </datalist>
         </div>
     </div>
@@ -20,12 +19,11 @@
         <label for="destination" class="font-bold">Destination</label>
         <div class="w-full md:w-72 border rounded p-2 mb-2 md:mb-0 focus-within:border-travelgold">
             <i class="bi bi-building text-travelnavy mr-1" role="presentation"></i>
-            <input type="text" name="destination" id="destination" class="focus:outline-none" placeholder="e.g. to New York"
-                list="destinations" />
+            <input type="text" name="destination" id="destination" class="focus:outline-none"
+                placeholder="e.g. to New York" list="destinations" hx-post="filter-destinations"
+                hx-trigger="input changed delay:500ms" hx-target="#destinations" />
             <datalist id="destinations">
-                {% for location in locations %}
-                <option value="{{ location }}"></option>
-                {% endfor %}
+                {% include 'location_options.html' %}
             </datalist>
         </div>
     </div>

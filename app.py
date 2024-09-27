@@ -9,7 +9,7 @@ app.secret_key = "super secret key"
 nlp = spacy.load("en_core_web_sm")
 
 locations = utilities.get_all_locations()
-
+formatted_locations = [f"{location[1]}, {location[2]}" for location in locations]
 
 @app.route("/")
 def homepage():
@@ -140,7 +140,7 @@ def search():
         'to': request.form['to']
     }
 
-    # Check if both date_range values are None
+    # Check if both date_range values are empty
     if date_range['from'] == '' and date_range['to'] == '':
         dates = utilities.get_suggested_dates(datetime.now())
     else:
@@ -171,6 +171,20 @@ def search():
         return redirect("/hotels")
     return "nlp"
 
+@app.route("/filter-origins", methods=['GET', 'POST'])
+def filter_origins():
+    return filter_locations(request.form['origin'])
+
+@app.route("/filter-destinations", methods=['GET', 'POST'])
+def filter_destinations():
+    return filter_locations(request.form['destination'])
+
+def filter_locations(form_value):
+    substring = form_value.lower()
+    print(substring)
+    filtered_locations = [location for location in formatted_locations if substring in location.lower()]
+    print(filtered_locations)
+    return render_template('location_options.html', locations=filtered_locations)
 
 @app.route("/checkout", methods=['GET', 'POST'])
 def checkout():
