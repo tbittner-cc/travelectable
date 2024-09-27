@@ -9,14 +9,14 @@ app.secret_key = "super secret key"
 nlp = spacy.load("en_core_web_sm")
 
 locations = utilities.get_all_locations()
-formatted_locations = [f"{location[1]}, {location[2]}" for location in locations]
+formatted_locations = [f"{location[1]}, {location[2]} {location[3]}" for location in locations]
 
 @app.route("/")
 def homepage():
     session.clear()
     return render_template(
         'homepage.html',
-        locations=[f"{location[1]}, {location[2]}" for location in locations],
+        locations=formatted_locations,
         suggested_date_range=utilities.get_suggested_dates(datetime.now()))
 
 
@@ -181,9 +181,7 @@ def filter_destinations():
 
 def filter_locations(form_value):
     substring = form_value.lower()
-    print(substring)
     filtered_locations = [location for location in formatted_locations if substring in location.lower()]
-    print(filtered_locations)
     return render_template('location_options.html', locations=filtered_locations)
 
 @app.route("/checkout", methods=['GET', 'POST'])

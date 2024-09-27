@@ -36,10 +36,10 @@ def get_all_locations():
     locations = []
     with sqlite3.connect('travelectable.db') as conn:
         curr = conn.cursor()
-        curr.execute("SELECT id,location,country FROM destinations")
+        curr.execute("SELECT id,location,country,airports FROM destinations")
         rows = curr.fetchall()
         for row in rows:
-            locations.append((row[0], row[1], row[2]))
+            locations.append((row[0], row[1], row[2], row[3]))
 
     return locations
 
@@ -192,7 +192,7 @@ def get_selected_locations(location_queries, locations):
         else:
             selected_location = [
                 location for location in locations
-                if f"{location[1]}, {location[2]}" == i
+                if f"{location[1]}, {location[2]} {location[3]}" == i
             ][0]
             selected_locations.append(selected_location)
 
