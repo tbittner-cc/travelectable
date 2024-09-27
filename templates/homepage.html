@@ -2,12 +2,12 @@
 
 {% block content %}
 <form action="/search" method="POST"
-    class="md:w-3/4 mx-auto flex flex-col md:flex-row p-6 md:rounded-lg md:shadow-xl mt-6 md:border md:border-travelnavy">
-    <div class="flex flex-col w-full md:w-72">
-        <label class="font-bold mb-1" for="origin">Start</label>
-        <div class="border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
-            <i class="bi bi-airplane-fill text-travelnavy mr-1"></i>
-            <input type="text" name="origin" class="focus:outline-none" placeholder="e.g. From Chicago"
+    class="md:w-5/6 mx-auto flex flex-col md:flex-row md:justify-between md:items-end p-6 md:rounded-lg md:shadow-xl md:mt-6 md:border md:border-travelnavy">
+    <div>
+        <label for="origin" class="font-bold mr-2">Origin</label>
+        <div class="w-full md:w-72 border rounded p-2 mb-2 md:mb-0 focus-within:border-travelgold">
+            <i class="bi bi-airplane-fill text-travelnavy mr-1" role="presentation"></i>
+            <input type="text" name="origin" id="origin" class="focus:outline-none" placeholder="e.g. From Chicago"
                 list="origins" />
             <datalist id="origins">
                 {% for location in locations %}
@@ -16,11 +16,11 @@
             </datalist>
         </div>
     </div>
-    <div class="flex flex-col w-full md:w-72">
-        <label class="font-bold mb-1" for="destination">Where to?</label>
-        <div class="border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
-            <i class="bi bi-building text-travelnavy mr-1"></i>
-            <input type="text" name="destination" class="focus:outline-none" placeholder="e.g. to New York"
+    <div>
+        <label for="destination" class="font-bold">Destination</label>
+        <div class="w-full md:w-72 border rounded p-2 mb-2 md:mb-0 focus-within:border-travelgold">
+            <i class="bi bi-building text-travelnavy mr-1" role="presentation"></i>
+            <input type="text" name="destination" id="destination" class="focus:outline-none" placeholder="e.g. to New York"
                 list="destinations" />
             <datalist id="destinations">
                 {% for location in locations %}
@@ -29,24 +29,21 @@
             </datalist>
         </div>
     </div>
-    <div class="flex flex-col w-full md:w-48">
-        <label class="font-bold mb-1" for="from">From</label>
-        <div class="border rounded p-2 mb-2 md:mr-2 md:mb-0 focus-within:border-travelgold">
-            <input type="date" name="from" class="focus:outline-none" />
+    <div>
+        <label for="from" class="font-bold mr-2">From</label>
+        <div class="w-full md:w-64 border rounded p-2 mb-2 md:mb-0 focus-within:border-travelgold">
+            <input type="date" id="from" name="from" class="focus:outline-none" />
         </div>
     </div>
-    <div class="flex flex-col w-full md:w-48">
-        <label class="font-bold mb-1" for="from">To</label>
-        <div class="border rounded p-2 mb-2 md:mb-0 focus-within:border-travelgold">
-            <input type="date" name="to" class="focus:outline-none" />
+    <div>
+        <label for="to" class="font-bold mr-2">To</label>
+        <div class="w-full md:w-64 border rounded p-2 mb-2 md:mb-0 focus-within:border-travelgold">
+            <input type="date" id="to" name="to" class="focus:outline-none" />
         </div>
     </div>
-    <div class="flex flex-col w-full md:w-16 self-end">
-        <div></div>
-        <button class="bg-travelnavy text-white rounded p-2 md:ml-2 h-12">
-            <i class="bi bi-search"></i>
-        </button>
-    </div>
+    <button class="w-full md:w-8 bg-travelnavy text-white rounded p-2 md:ml-2">
+        <i class="bi bi-cursor" role="presentation"></i>
+    </button>
 </form>
 
 {% if error %}
