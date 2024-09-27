@@ -12,11 +12,14 @@ def is_winter_rate(date):
 
 
 def parse_dates(start_date, end_date):
-    start_date = parser.parse(start_date)
-    end_date = parser.parse(end_date)
-
-    print(start_date)
-    print(end_date)
+    try:
+        start_date = parser.parse(start_date)
+    except parser.ParserError:
+        start_date = None
+    try:
+        end_date = parser.parse(end_date)
+    except parser.ParserError:
+        end_date = None
 
     return (start_date, end_date)
 
