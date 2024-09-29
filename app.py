@@ -173,20 +173,26 @@ def search():
 
 @app.route("/filter-origins", methods=['GET', 'POST'])
 def filter_origins():
-    return filter_locations(request.form['origin'])
+    return _filter_locations(request.form['origin'])
 
 @app.route("/filter-destinations", methods=['GET', 'POST'])
 def filter_destinations():
-    return filter_locations(request.form['destination'])
+    return _filter_locations(request.form['destination'])
 
-def filter_locations(form_value):
+def _filter_locations(form_value):
     substring = form_value.lower()
     filtered_locations = [location for location in formatted_locations if substring in location.lower()]
     return render_template('location_options.html', locations=filtered_locations)
 
 @app.route("/checkout", methods=['GET', 'POST'])
 def checkout():
-    return render_template('checkout.html')
+    rate_id = request.form['rate_id']
+    hotel_id = request.form['hotel_id']
+
+    is_winter_rate = utilities.is_winter_rate(session['dates'][0])
+
+    hotel = utilities.get_hotel_checkout_details(hotel_id, rate_id, session['dates'],is_winter_rate)
+    return render_template('checkout.html',hotel = hotel)
 
 
 @app.route("/complete-booking", methods=['GET', 'POST'])

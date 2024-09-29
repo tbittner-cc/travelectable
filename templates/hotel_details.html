@@ -46,6 +46,8 @@
             {% endif %}
             </div>
             <form action="/checkout" method="POST">
+              <input type="hidden" name="rate_id" value="{{ rate['id'] }}" />
+              <input type="hidden" name="hotel_id" value="{{ hotel['id'] }}" />
               <button type="submit" class="bg-travelblue text-white px-4 py-2 rounded-md">
                 Book Now
               </button>
