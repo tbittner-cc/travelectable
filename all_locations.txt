@@ -1,0 +1,90 @@
+New York|USA|USD
+Los Angeles|USA|USD
+Chicago|USA|USD
+Houston|USA|USD
+Philadelphia|USA|USD
+San Francisco|USA|USD
+Charlotte|USA|USD
+Boston|USA|USD
+Seattle|USA|USD
+Denver|USA|USD
+Nashville|USA|USD
+Washington DC|USA|USD
+Miami|USA|USD
+Las Vegas|USA|USD
+New Orleans|USA|USD
+Orlando|USA|USD
+Tampa|USA|USD
+Anchorage|USA|USD
+San Juan|USA|USD
+Acadia National Park|USA|USD
+Big Sur|USA|USD
+Breckenridge|USA|USD
+Charleston|USA|USD
+Custer State Park|USA|USD
+Glacier National Park|USA|USD
+Grand Canyon|USA|USD
+Great Smoky Mountains National Park|USA|USD
+Jackson Hole|USA|USD
+Key West|USA|USD
+Lake Tahoe|USA|USD
+Mackinac Island|USA|USD
+Maui|USA|USD
+Mount Rushmore|USA|USD
+Myrtle Beach|USA|USD
+Napa Valley|USA|USD
+Santa Fe|USA|USD
+Savannah|USA|USD
+St. Augustine|USA|USD
+Telluride|USA|USD
+Yellowstone National Park|USA|USD
+Yosemite National Park|USA|USD
+Zion National Park|USA|USD
+Amsterdam|Netherlands|EUR
+Aruba Island|Aruba|AWG
+Athens|Greece|EUR
+Auckland|New Zealand|NZD
+Bali|Indonesia|IDR
+Barcelona|Spain|EUR
+Beijing|China|CNY
+Berlin|Germany|EUR
+Buenos Aires|Argentina|ARS
+Cabo San Lucas|Mexico|MXN
+Cairo|Egypt|EGP
+Cancun|Mexico|MXN
+Cape Town|South Africa|ZAR
+Copenhagen|Denmark|DKK
+Dubai|United Arab Emirates|AED
+Dublin|Ireland|EUR
+Edinburgh|Scotland|GBP
+Hanoi|Vietnam|VND
+Hong Kong|China|HKD
+Istanbul|Turkey|TRY
+Jerusalem|Israel|ILS
+Lima|Peru|PEN
+London|England|GBP
+Madrid|Spain|EUR
+Mexico City|Mexico|MXN
+Montego Bay|Jamaica|JMD
+Montreal|Canada|CAD
+Mumbai|India|INR
+Oslo|Norway|NOK
+Panama City|Panama|PAB
+Paris|France|EUR
+Phuket|Thailand|THB
+Prague|Czech Republic|CZK
+Reykjavik|Iceland|ISK
+Rio de Janeiro|Brazil|BRL
+Rome|Italy|EUR
+Santiago|Chile|CLP
+Seoul|South Korea|KRW
+Shanghai|China|CNY
+Singapore|Singapore|SGD
+Split|Croatia|HRK
+Stockholm|Sweden|SEK
+Sydney|Australia|AUD
+Tokyo|Japan|JPY
+Toronto|Canada|CAD
+Vancouver|Canada|CAD
+Vienna|Austria|EUR
+Zurich|Switzerland|CHF
