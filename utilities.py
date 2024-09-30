@@ -181,12 +181,12 @@ def get_hotel_details(location, dates, hotel_id, is_winter_rate):
 
     return hotel
 
-def get_hotel_checkout_details(hotel_id,rate_id,dates,is_winter_rate):
+def get_hotel_checkout_details(rate_id,dates,is_winter_rate):
     duration = (dates[1] - dates[0]).days
     with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
         curr.execute(
-            """SELECT room_type,winter_rate,summer_rate
+            """SELECT room_type,winter_rate,summer_rate,hotel_id
             FROM room_rates WHERE id = ?""", (rate_id, ))
         row = curr.fetchone()
         columns = [column[0] for column in curr.description]
@@ -195,7 +195,7 @@ def get_hotel_checkout_details(hotel_id,rate_id,dates,is_winter_rate):
         rate['summer_total'] = str(int(rate['summer_rate']) * duration)
 
         curr.execute(
-          """SELECT id,name FROM hotels WHERE id = ?""", (hotel_id, ))
+          """SELECT id,name FROM hotels WHERE id = ?""", (rate['hotel_id'], ))
         row = curr.fetchone()
         columns = [column[0] for column in curr.description]
         hotel = dict(zip(columns, row))

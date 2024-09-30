@@ -191,7 +191,7 @@ def checkout():
 
     is_winter_rate = utilities.is_winter_rate(session['dates'][0])
 
-    hotel = utilities.get_hotel_checkout_details(hotel_id, rate_id, session['dates'],is_winter_rate)
+    hotel = utilities.get_hotel_checkout_details(rate_id, session['dates'],is_winter_rate)
     return render_template('checkout.html',hotel = hotel)
 
 
