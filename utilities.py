@@ -228,20 +228,33 @@ def get_hotel_checkout_details(rate_id,dates,is_winter_rate):
     duration = (dates[1] - dates[0]).days
     with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
+        curr.execute("""SELECT summer_rate,winter_rate FROM room_rates WHERE id = ?""", (rate_id, ))
+        rows = curr.fetchall()
+        hotel_rates = [(row[0], row[1]) for row in rows] 
+
+        is_summer_rate_convertible = are_hotel_rates_in_foreign_currency([rate[0] for rate in hotel_rates])
+        is_winter_rate_convertible = are_hotel_rates_in_foreign_currency([rate[1] for rate in hotel_rates])
+
         curr.execute(
             """SELECT room_type,winter_rate,summer_rate,hotel_id
             FROM room_rates WHERE id = ?""", (rate_id, ))
         row = curr.fetchone()
         columns = [column[0] for column in curr.description]
         rate = dict(zip(columns, row))
-        rate['winter_total'] = str(int(rate['winter_rate']) * duration)
-        rate['summer_total'] = str(int(rate['summer_rate']) * duration)
 
         curr.execute(
-          """SELECT id,name FROM hotels WHERE id = ?""", (rate['hotel_id'], ))
+          """SELECT h.id,h.name,d.conversion_rate FROM hotels h JOIN destinations d ON h.location_id = d.id WHERE h.id = ?""", 
+            (rate['hotel_id'], ))
         row = curr.fetchone()
         columns = [column[0] for column in curr.description]
         hotel = dict(zip(columns, row))
+
+        if is_winter_rate_convertible:
+            rate['winter_rate'] = int(int(rate['winter_rate']) // float(hotel['conversion_rate']))
+        if is_summer_rate_convertible:
+            rate['summer_rate'] = int(int(rate['summer_rate']) // float(hotel['conversion_rate']))
+        rate['winter_total'] = str(int(rate['winter_rate']) * duration)
+        rate['summer_total'] = str(int(rate['summer_rate']) * duration)
 
         hotel['rate'] = rate  
         
