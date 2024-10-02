@@ -1,5 +1,6 @@
 import ast
 import base64
+from collections import defaultdict
 from datetime import timedelta
 import dateutil.parser as parser
 import random
@@ -107,33 +108,51 @@ def get_hotels_with_amenities(location, amenities):
         if amenities_set.issubset(hotel['amenities'])
     ]
 
+def convert_rates_to_usd(hotel_rates):
+    rate_counts_dict = defaultdict(int)
+
+    for rate in hotel_rates:
+        if rate[1] >= 1000:
+            rate_counts_dict[rate[0]] += 1
+
+    convert_rate_list = [key for key, value in rate_counts_dict.items() if value > 1]
+    
+    updated_hotel_rates = [(rate[0], rate[1] // rate[2]) if rate[0] in convert_rate_list else (rate[0], rate[1]) for rate in hotel_rates ]
+
+    return updated_hotel_rates
 
 def get_lead_rates(hotels, date):
     hotel_ids = [hotel['id'] for hotel in hotels]
     with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
-        query = "SELECT hotel_id,winter_rate,summer_rate FROM room_rates WHERE hotel_id IN ({})"\
-            .format(",".join(['?' for _ in hotel_ids]))
+        query = f"""SELECT rr.hotel_id,rr.winter_rate,rr.summer_rate,d.conversion_rate 
+            FROM room_rates rr JOIN hotels h ON rr.hotel_id = h.id JOIN destinations d ON h.location_id = d.id 
+            WHERE hotel_id IN ({','.join(['?' for _ in hotel_ids])})"""
         curr.execute(query, hotel_ids)
         rows = curr.fetchall()
+        columns = [column[0] for column in curr.description]
+        rates = [dict(zip(columns, row)) for row in rows]
 
     if is_winter_rate(date):
-        all_rates = [(row[0], row[1]) for row in rows]
+        all_rates = [(rate['hotel_id'], rate['winter_rate'], float(rate['conversion_rate'])) for rate in rates]
     else:
-        all_rates = [(row[0], row[2]) for row in rows]
+        all_rates = [(rate['hotel_id'], rate['summer_rate'], float(rate['conversion_rate'])) for rate in rates]
 
     all_rates = sorted(all_rates, key=lambda x: (x[0], int(x[1])))
+
+    # Convert rates to USD as needed
+    all_rates = convert_rates_to_usd(all_rates)
 
     # Return the lowest rate for each hotel
     lead_rate_dict = {}
     for rate in all_rates:
-        first, second = rate
-        if first not in lead_rate_dict:
-            lead_rate_dict[first] = second
+        hotel, lead_rate = rate
+        if hotel not in lead_rate_dict:
+            lead_rate_dict[hotel] = int(lead_rate)
 
     for id in hotel_ids:
         if id not in lead_rate_dict:
-            lead_rate_dict[id] = ''
+            lead_rate_dict[id] = 0
 
     return list(lead_rate_dict.items())
 
