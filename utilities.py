@@ -2,6 +2,7 @@ import ast
 import base64
 from collections import defaultdict
 from datetime import timedelta
+from functools import reduce
 import dateutil.parser as parser
 import random
 import sqlite3
@@ -108,18 +109,19 @@ def get_hotels_with_amenities(location, amenities):
         if amenities_set.issubset(hotel['amenities'])
     ]
 
-def convert_rates_to_usd(hotel_rates):
-    rate_counts_dict = defaultdict(int)
+def convert_rates_to_usd(lead_rates):
+    updated_lead_rates = []
+    rates_dict = defaultdict(list)
 
-    for rate in hotel_rates:
-        if rate[1] >= 1000:
-            rate_counts_dict[rate[0]] += 1
+    for rate in lead_rates:
+        rates_dict[rate[0]].append((rate[1],rate[2]))
 
-    convert_rate_list = [key for key, value in rate_counts_dict.items() if value > 1]
-    
-    updated_hotel_rates = [(rate[0], rate[1] // rate[2]) if rate[0] in convert_rate_list else (rate[0], rate[1]) for rate in hotel_rates ]
+    for key in rates_dict:
+        is_foreign = are_hotel_rates_in_foreign_currency([rate[0] for rate in rates_dict[key]])
+        new_hotel_rates = [(key,rate[0]//rate[1]) if is_foreign else (key,rate[0]) for rate in rates_dict[key]]
+        updated_lead_rates.extend(new_hotel_rates)
 
-    return updated_hotel_rates
+    return updated_lead_rates
 
 def get_lead_rates(hotels, date):
     hotel_ids = [hotel['id'] for hotel in hotels]
@@ -156,9 +158,22 @@ def get_lead_rates(hotels, date):
 
     return list(lead_rate_dict.items())
 
+def are_hotel_rates_in_foreign_currency(rates):
+    plus_grand_rates = 0
+    for rate in rates:
+        if int(rate) >= 1000:
+            plus_grand_rates += 1
+    return plus_grand_rates == 4 or any(int(rate) >= 10000 for rate in rates)
 
 def get_hotel_details(location, dates, hotel_id, is_winter_rate):
     duration = (dates[1] - dates[0]).days
+
+    with sqlite3.connect("travelectable.db") as conn:
+        curr = conn.cursor()
+        curr.execute("""SELECT conversion_rate FROM destinations WHERE id = ?""", (location[0], ))
+        row = curr.fetchone()
+        conversion_rate = float(row[0])
+
     with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
         curr.execute(
@@ -168,13 +183,22 @@ def get_hotel_details(location, dates, hotel_id, is_winter_rate):
         columns = [column[0] for column in curr.description]
         rates = [dict(zip(columns, row)) for row in rows]
 
+    is_winter_rate_convertible = are_hotel_rates_in_foreign_currency([rate['winter_rate'] for rate in rates])
+    is_summer_rate_convertible = are_hotel_rates_in_foreign_currency([rate['summer_rate'] for rate in rates])
+
     for rate in rates:
-        rate['is_winter_rate'] = is_winter_rate
         amenities = ast.literal_eval(rate['amenities'])
         rate['amenities'] = amenities
+
         image = return_room_rate_image_path(rate['room_type'])
         with open(f"static/images/room_rates/{image}.png", "rb") as f:
             rate['image'] = base64.b64encode(f.read()).decode()
+
+        rate['is_winter_rate'] = is_winter_rate
+        if is_winter_rate_convertible:
+            rate['winter_rate'] = int(float(rate['winter_rate']) // conversion_rate)
+        if is_summer_rate_convertible:
+            rate['summer_rate'] = int(float(rate['summer_rate']) // conversion_rate)
         rate['winter_total'] = str(int(rate['winter_rate']) * int(duration))
         rate['summer_total'] = str(int(rate['summer_rate']) * int(duration))
 
