@@ -1,10 +1,11 @@
 from datetime import datetime
 from flask import Flask, make_response, request, redirect, render_template, session
+import os
 import spacy
 import utilities
 
 app = Flask(__name__)
-app.secret_key = "super secret key"
+app.secret_key = os.environ.get('TRAVELECTABLE_FLASK_SECRET')
 
 nlp = spacy.load("en_core_web_sm")
 
