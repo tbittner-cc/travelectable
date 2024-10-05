@@ -159,7 +159,7 @@ def search():
             locations=[location[1] for location in locations],
             suggested_date_range=utilities.get_suggested_dates(datetime.now()),
             error=error)
-    # If either origin or destination is empty take the other
+    # If either origin or destination is empty take the other and redirect to hotels
     elif location_queries['origin'] == '':
         session['destination'] = selected_locations[1]
         return redirect("/hotels")
@@ -169,8 +169,7 @@ def search():
     else:
         session['origin'] = selected_locations[0]
         session['destination'] = selected_locations[1]
-        return redirect("/hotels")
-    return "nlp"
+        return redirect("/flights")
 
 @app.route("/filter-origins", methods=['GET', 'POST'])
 def filter_origins():
@@ -204,3 +203,7 @@ def complete_booking():
         return render_template('finished.html')
     elif action == 'cancel':
         return redirect("/hotels")
+
+@app.route("/flights")
+def flights():
+    return render_template('flight_search_results.html')
