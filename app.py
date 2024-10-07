@@ -1,5 +1,6 @@
 from datetime import datetime
 from flask import Flask, make_response, request, redirect, render_template, session
+import flight_utilities
 import os
 import spacy
 import utilities
@@ -206,4 +207,7 @@ def complete_booking():
 
 @app.route("/flights")
 def flights():
+    origins = flight_utilities.retrieve_airports(session['origin'])
+    destinations = flight_utilities.retrieve_airports(session['destination'])
+    flights = flight_utilities.get_flight_search_results(origins, destinations)
     return render_template('flight_search_results.html')
