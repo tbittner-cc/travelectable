@@ -36,3 +36,32 @@ the source US cities list.
 3. Run `parse_us_cities.py` to generate the `us_cities.txt` file with metro statistics.
 4. Run `generate_lat_long_us_cities.py` to update the `us_cities.txt`
 
+## Initial airport query
+For the airports LAX and ORD, generate 4 flight plans in each direction and list whether or not they're non-stop.  If they're multiple stop, list the airports.
+
+## Refined airport query
+For the airports LAX and ORD generate 16 flight plans:
+
+8 for LAX to ORD
+8 for ORD to LAX
+
+Structure the output as:
+Origin | Destination | Airline | (Number of stops (and layover airport(s)))|Departure Time| Arrival Time| Total price in USD
+
+Use 24-hour time for departure and arrival.
+
+You do not need to provide city names, only airport codes.  
+
+Do not provide any preamble, summary, or disclaimer or any statements like "Here are the 16 flight plans".  Only provide the information requested in the format specified.  The information does not need to be accurate but needs to appear accurate.
+
+### Number of queries for the total number of airports
+(n-1)*(n-2)/2
+
+Each query consumes approximately 600 tokens
+
+The total number of tokens will be somewhere around 3M.
+
+[Airport distances](https://airport4.docs.apiary.io/#reference/0/distance-between-airports/get-distance?console=1)
+
+[A less restrictive airport distance API](https://airportgap.com/docs)
+

@@ -1,0 +1,2048 @@
+
+
+Here are the 16 flight plans:
+
+CLT | BOS | American Airlines | Non-stop | 06:00 | 09:05 | 250.00
+CLT | BOS | Delta Air Lines | 1 stop (ATL) | 08:30 | 12:45 | 320.00
+CLT | BOS | United Airlines | Non-stop | 10:15 | 13:20 | 280.00
+CLT | BOS | JetBlue Airways | Non-stop | 12:00 | 15:05 | 220.00
+CLT | BOS | Spirit Airlines | 1 stop (EWR) | 14:00 | 18:15 | 240.00
+CLT | BOS | Frontier Airlines | 1 stop (MCO) | 16:30 | 21:45 | 260.00
+CLT | BOS | Southwest Airlines | Non-stop | 18:45 | 22:00 | 300.00
+CLT | BOS | Alaska Airlines | 1 stop (ORD) | 20:00 | 00:15 | 330.00
+
+BOS | CLT | American Airlines | Non-stop | 07:00 | 10:05 | 230.00
+BOS | CLT | Delta Air Lines | 1 stop (LGA) | 09:30 | 14:45 | 290.00
+BOS | CLT | United Airlines | Non-stop | 11:15 | 14:20 | 250.00
+BOS | CLT | JetBlue Airways | Non-stop | 13:00 | 16:05 | 210.00
+BOS | CLT | Spirit Airlines | 1 stop (PIT) | 15:00 | 19:15 | 270.00
+BOS | CLT | Frontier Airlines | 1 stop (TPA) | 17:30 | 22:45 | 290.00
+BOS | CLT | Southwest Airlines | Non-stop | 19:45 | 23:00 | 310.00
+BOS | CLT | Alaska Airlines | 1 stop (DEN) | 21:00 | 01:15 | 350.00
+
+
+Here are the 16 flight plans:
+
+CLT | SEA | AA | 1 (DFW) | 08:00 | 11:30 | 425.00
+CLT | SEA | UA | 0 | 10:30 | 14:05 | 550.00
+CLT | SEA | DL | 1 (ATL) | 12:00 | 16:45 | 480.00
+CLT | SEA | WN | 1 (DEN) | 14:30 | 19:15 | 450.00
+CLT | SEA | AS | 0 | 16:00 | 20:35 | 520.00
+CLT | SEA | B6 | 1 (JFK) | 18:30 | 23:55 | 500.00
+CLT | SEA | F9 | 1 (MCO) | 20:00 | 01:20 | 380.00
+CLT | SEA | NK | 1 (ORD) | 21:30 | 02:55 | 420.00
+SEA | CLT | AA | 1 (PHX) | 08:30 | 17:05 | 460.00
+SEA | CLT | UA | 0 | 11:00 | 19:35 | 580.00
+SEA | CLT | DL | 1 (SFO) | 13:30 | 22:05 | 510.00
+SEA | CLT | WN | 1 (LAS) | 15:00 | 23:30 | 440.00
+SEA | CLT | AS | 0 | 17:30 | 01:05 | 540.00
+SEA | CLT | B6 | 1 (BOS) | 19:30 | 03:55 | 490.00
+SEA | CLT | F9 | 1 (IAH) | 21:00 | 05:20 | 400.00
+SEA | CLT | NK | 1 (MIA) | 22:30 | 06:55 | 480.00
+
+
+Here are the 16 flight plans:
+
+CLT | DEN | AA | 0 | 08:00 | 10:30 | 250.00
+CLT | DEN | UA | 1 (ORD) | 09:15 | 12:45 | 320.00
+CLT | DEN | WN | 0 | 10:45 | 13:15 | 220.00
+CLT | DEN | DL | 1 (ATL) | 12:00 | 15:30 | 350.00
+CLT | DEN | F9 | 0 | 14:30 | 16:55 | 200.00
+CLT | DEN | AA | 1 (DFW) | 15:45 | 19:15 | 380.00
+CLT | DEN | UA | 0 | 17:00 | 19:30 | 280.00
+CLT | DEN | WN | 1 (STL) | 18:15 | 21:45 | 300.00
+
+DEN | CLT | UA | 0 | 07:30 | 12:00 | 260.00
+DEN | CLT | AA | 1 (ORD) | 08:45 | 14:15 | 330.00
+DEN | CLT | F9 | 0 | 10:15 | 14:45 | 210.00
+DEN | CLT | DL | 1 (ATL) | 11:30 | 15:55 | 360.00
+DEN | CLT | WN | 0 | 13:00 | 16:30 | 230.00
+DEN | CLT | AA | 1 (DFW) | 14:45 | 18:15 | 390.00
+DEN | CLT | UA | 0 | 16:00 | 19:30 | 290.00
+DEN | CLT | WN | 1 (STL) | 17:15 | 20:45 | 310.00
+
+
+Here are the 16 flight plans:
+
+CLT | BNA | AA | Non-stop | 06:00 | 07:30 | 178.00
+CLT | BNA | DL | 1 stop (ATL) | 08:15 | 11:45 | 220.00
+CLT | BNA | WN | Non-stop | 09:30 | 11:00 | 198.00
+CLT | BNA | UA | 1 stop (EWR) | 11:00 | 14:30 | 258.00
+CLT | BNA | F9 | Non-stop | 12:45 | 14:15 | 148.00
+CLT | BNA | AS | 1 stop (ORD) | 14:30 | 17:00 | 288.00
+CLT | BNA | NK | Non-stop | 16:00 | 17:30 | 168.00
+CLT | BNA | B6 | 1 stop (MCO) | 18:15 | 21:45 | 248.00
+BNA | CLT | AA | Non-stop | 06:30 | 08:00 | 188.00
+BNA | CLT | DL | 1 stop (CVG) | 08:45 | 12:15 | 230.00
+BNA | CLT | WN | Non-stop | 10:15 | 11:45 | 208.00
+BNA | CLT | UA | 1 stop (IAH) | 12:00 | 15:30 | 268.00
+BNA | CLT | F9 | Non-stop | 13:45 | 15:15 | 158.00
+BNA | CLT | AS | 1 stop (DFW) | 15:30 | 18:00 | 298.00
+BNA | CLT | NK | Non-stop | 17:00 | 18:30 | 178.00
+BNA | CLT | B6 | 1 stop (FLL) | 19:15 | 22:45 | 238.00
+
+
+Here are the 16 flight plans:
+
+CLT | IAD | AA | 0 | 06:00 | 07:30 | 150.00
+CLT | IAD | UA | 1 (EWR) | 08:15 | 11:45 | 220.00
+CLT | IAD | DL | 0 | 10:00 | 11:30 | 180.00
+CLT | IAD | WN | 1 (BWI) | 12:45 | 15:15 | 200.00
+CLT | IAD | AA | 0 | 14:30 | 16:00 | 160.00
+CLT | IAD | UA | 1 (PIT) | 16:15 | 19:45 | 240.00
+CLT | IAD | DL | 0 | 18:00 | 19:30 | 190.00
+CLT | IAD | WN | 1 (PHL) | 20:45 | 23:15 | 210.00
+IAD | CLT | AA | 0 | 06:30 | 08:00 | 140.00
+IAD | CLT | UA | 1 (EWR) | 08:45 | 12:15 | 230.00
+IAD | CLT | DL | 0 | 11:00 | 12:30 | 170.00
+IAD | CLT | WN | 1 (BWI) | 13:45 | 16:15 | 190.00
+IAD | CLT | AA | 0 | 15:30 | 17:00 | 150.00
+IAD | CLT | UA | 1 (PIT) | 17:15 | 20:45 | 250.00
+IAD | CLT | DL | 0 | 19:00 | 20:30 | 180.00
+IAD | CLT | WN | 1 (PHL) | 21:45 | 00:15 | 220.00
+
+
+Here are the 16 flight plans:
+
+CLT | DCA | AA | 0 | 06:00 | 07:30 | 150.00
+CLT | DCA | UA | 1 (EWR) | 07:15 | 09:45 | 220.00
+CLT | DCA | DL | 0 | 08:30 | 10:00 | 180.00
+CLT | DCA | WN | 1 (BWI) | 09:45 | 12:15 | 250.00
+CLT | DCA | AA | 0 | 11:00 | 12:30 | 160.00
+CLT | DCA | UA | 1 (ORD) | 12:15 | 14:45 | 280.00
+CLT | DCA | DL | 0 | 13:30 | 15:00 | 190.00
+CLT | DCA | WN | 1 (PIT) | 14:45 | 17:15 | 300.00
+DCA | CLT | AA | 0 | 06:00 | 07:30 | 150.00
+DCA | CLT | UA | 1 (EWR) | 07:15 | 09:45 | 220.00
+DCA | CLT | DL | 0 | 08:30 | 10:00 | 180.00
+DCA | CLT | WN | 1 (BWI) | 09:45 | 12:15 | 250.00
+DCA | CLT | AA | 0 | 11:00 | 12:30 | 160.00
+DCA | CLT | UA | 1 (ORD) | 12:15 | 14:45 | 280.00
+DCA | CLT | DL | 0 | 13:30 | 15:00 | 190.00
+DCA | CLT | WN | 1 (PIT) | 14:45 | 17:15 | 300.00
+
+
+Here are the 16 flight plans:
+
+CLT | MIA | AA | 0 | 06:00 | 08:30 | 198.00
+CLT | MIA | DL | 1 (ATL) | 08:15 | 11:45 | 258.00
+CLT | MIA | WN | 0 | 09:30 | 12:00 | 220.00
+CLT | MIA | UA | 1 (EWR) | 10:45 | 14:15 | 298.00
+CLT | MIA | B6 | 0 | 12:00 | 14:30 | 240.00
+CLT | MIA | F9 | 1 (TPA) | 13:15 | 16:45 | 278.00
+CLT | MIA | NK | 0 | 14:30 | 17:00 | 260.00
+CLT | MIA | SY | 1 (RDU) | 15:45 | 19:15 | 310.00
+MIA | CLT | AA | 0 | 06:30 | 09:00 | 208.00
+MIA | CLT | DL | 1 (JAX) | 08:00 | 11:30 | 268.00
+MIA | CLT | WN | 0 | 09:45 | 12:15 | 230.00
+MIA | CLT | UA | 1 (ORD) | 11:15 | 14:45 | 308.00
+MIA | CLT | B6 | 0 | 12:45 | 15:15 | 250.00
+MIA | CLT | F9 | 1 (BNA) | 14:00 | 17:30 | 288.00
+MIA | CLT | NK | 0 | 15:15 | 17:45 | 270.00
+MIA | CLT | SY | 1 (PBI) | 16:30 | 20:00 | 320.00
+
+
+Here are the 16 flight plans:
+
+CLT | LAS | AA | 0 | 08:00 | 10:30 | 250.00
+CLT | LAS | UA | 1 (DEN) | 09:15 | 12:45 | 320.00
+CLT | LAS | WN | 0 | 10:45 | 13:15 | 280.00
+CLT | LAS | DL | 1 (ATL) | 11:30 | 15:00 | 350.00
+CLT | LAS | AS | 0 | 12:00 | 14:30 | 240.00
+CLT | LAS | F9 | 1 (PHX) | 13:15 | 16:45 | 290.00
+CLT | LAS | NK | 0 | 14:30 | 17:00 | 260.00
+CLT | LAS | B6 | 1 (JFK) | 15:45 | 19:15 | 330.00
+LAS | CLT | AA | 0 | 08:00 | 15:30 | 270.00
+LAS | CLT | UA | 1 (SFO) | 09:15 | 17:45 | 340.00
+LAS | CLT | WN | 0 | 10:45 | 18:15 | 300.00
+LAS | CLT | DL | 1 (MSP) | 11:30 | 20:00 | 360.00
+LAS | CLT | AS | 0 | 12:00 | 19:30 | 250.00
+LAS | CLT | F9 | 1 (ORD) | 13:15 | 21:45 | 310.00
+LAS | CLT | NK | 0 | 14:30 | 22:00 | 280.00
+LAS | CLT | B6 | 1 (BOS) | 15:45 | 00:15 | 320.00
+
+
+Here are the 16 flight plans:
+
+CLT | MSY | American Airlines | Non-stop | 06:00 | 07:45 | 198.00
+CLT | MSY | Delta Air Lines | 1 stop (ATL) | 08:30 | 11:15 | 220.00
+CLT | MSY | United Airlines | Non-stop | 10:00 | 11:45 | 210.00
+CLT | MSY | Spirit Airlines | 1 stop (FLL) | 12:15 | 15:00 | 180.00
+CLT | MSY | Frontier Airlines | Non-stop | 14:30 | 16:15 | 190.00
+CLT | MSY | Southwest Airlines | 1 stop (BHM) | 16:00 | 18:45 | 230.00
+CLT | MSY | JetBlue Airways | Non-stop | 18:30 | 20:15 | 200.00
+CLT | MSY | Alaska Airlines | 1 stop (DAL) | 20:45 | 23:30 | 240.00
+MSY | CLT | American Airlines | Non-stop | 07:00 | 08:45 | 205.00
+MSY | CLT | Delta Air Lines | 1 stop (JFK) | 09:30 | 12:15 | 235.00
+MSY | CLT | United Airlines | Non-stop | 11:00 | 12:45 | 225.00
+MSY | CLT | Spirit Airlines | 1 stop (TPA) | 13:15 | 15:45 | 195.00
+MSY | CLT | Frontier Airlines | Non-stop | 15:30 | 17:15 | 210.00
+MSY | CLT | Southwest Airlines | 1 stop (HOU) | 17:00 | 19:45 | 250.00
+MSY | CLT | JetBlue Airways | Non-stop | 19:30 | 21:15 | 220.00
+MSY | CLT | Alaska Airlines | 1 stop (ORD) | 21:45 | 00:30 | 260.00
+
+
+Here are the 16 flight plans:
+
+CLT | MCO | AA | 0 | 06:00 | 08:15 | 198.00
+CLT | MCO | DL | 1 (ATL) | 07:30 | 10:45 | 220.00
+CLT | MCO | WN | 0 | 09:15 | 11:30 | 178.00
+CLT | MCO | UA | 1 (EWR) | 10:00 | 13:20 | 240.00
+CLT | MCO | F9 | 0 | 11:45 | 14:00 | 158.00
+CLT | MCO | NK | 1 (TPA) | 12:30 | 15:50 | 200.00
+CLT | MCO | B6 | 0 | 14:15 | 16:30 | 188.00
+CLT | MCO | SY | 1 (RDU) | 15:00 | 18:20 | 210.00
+MCO | CLT | AA | 0 | 06:30 | 08:45 | 208.00
+MCO | CLT | DL | 1 (ATL) | 08:00 | 11:15 | 230.00
+MCO | CLT | WN | 0 | 09:45 | 12:00 | 168.00
+MCO | CLT | UA | 1 (EWR) | 11:15 | 14:35 | 250.00
+MCO | CLT | F9 | 0 | 12:50 | 15:05 | 180.00
+MCO | CLT | NK | 1 (TPA) | 13:30 | 16:50 | 220.00
+MCO | CLT | B6 | 0 | 15:15 | 17:30 | 198.00
+MCO | CLT | SY | 1 (RDU) | 16:00 | 19:20 | 230.00
+
+
+Here are the 16 flight plans:
+
+CLT | TPA | AA | 0 | 08:00 | 10:30 | 250.00
+CLT | TPA | DL | 1 (ATL) | 09:15 | 12:45 | 320.00
+CLT | TPA | WN | 0 | 10:45 | 13:15 | 220.00
+CLT | TPA | UA | 1 (EWR) | 11:30 | 15:00 | 380.00
+CLT | TPA | AA | 0 | 13:00 | 15:30 | 280.00
+CLT | TPA | F9 | 1 (MCO) | 14:15 | 17:45 | 240.00
+CLT | TPA | DL | 0 | 15:30 | 18:00 | 300.00
+CLT | TPA | WN | 1 (JAX) | 16:45 | 20:15 | 260.00
+TPA | CLT | AA | 0 | 08:00 | 10:30 | 250.00
+TPA | CLT | DL | 1 (ATL) | 09:15 | 12:45 | 320.00
+TPA | CLT | WN | 0 | 10:45 | 13:15 | 220.00
+TPA | CLT | UA | 1 (EWR) | 11:30 | 15:00 | 380.00
+TPA | CLT | AA | 0 | 13:00 | 15:30 | 280.00
+TPA | CLT | F9 | 1 (MCO) | 14:15 | 17:45 | 240.00
+TPA | CLT | DL | 0 | 15:30 | 18:00 | 300.00
+TPA | CLT | WN | 1 (JAX) | 16:45 | 20:15 | 260.00
+
+
+Here are the 16 flight plans:
+
+CLT | ANC | AA | 1 (DFW) | 08:00 | 12:45 | 542.00
+CLT | ANC | UA | 1 (ORD) | 09:15 | 14:10 | 510.00
+CLT | ANC | DL | 1 (ATL) | 10:30 | 15:20 | 480.00
+CLT | ANC | WN | 1 (DEN) | 11:45 | 16:35 | 450.00
+CLT | ANC | AS | 1 (SEA) | 13:00 | 18:00 | 520.00
+CLT | ANC | B6 | 1 (JFK) | 14:15 | 19:10 | 500.00
+CLT | ANC | F9 | 1 (MDW) | 15:30 | 20:20 | 420.00
+CLT | ANC | NK | 1 (LAS) | 16:45 | 21:35 | 440.00
+ANC | CLT | AA | 1 (DFW) | 08:00 | 17:45 | 550.00
+ANC | CLT | UA | 1 (SFO) | 09:15 | 18:55 | 530.00
+ANC | CLT | DL | 1 (MSP) | 10:30 | 20:20 | 510.00
+ANC | CLT | WN | 1 (PHX) | 11:45 | 21:35 | 480.00
+ANC | CLT | AS | 1 (PDX) | 13:00 | 22:50 | 520.00
+ANC | CLT | B6 | 1 (BOS) | 14:15 | 23:55 | 500.00
+ANC | CLT | F9 | 1 (IAH) | 15:30 | 00:20 | 440.00
+ANC | CLT | NK | 1 (MIA) | 16:45 | 01:35 | 460.00
+
+
+Here are the 16 flight plans:
+
+CLT | SJU | AA | 0 | 08:00 | 11:30 | 450.00
+CLT | SJU | DL | 1 (MIA) | 09:30 | 14:45 | 520.00
+CLT | SJU | UA | 0 | 10:15 | 13:45 | 480.00
+CLT | SJU | WN | 1 (FLL) | 11:00 | 16:20 | 550.00
+CLT | SJU | B6 | 0 | 12:30 | 15:55 | 410.00
+CLT | SJU | AS | 1 (PBI) | 13:45 | 18:10 | 580.00
+CLT | SJU | F9 | 0 | 15:00 | 18:25 | 390.00
+CLT | SJU | NK | 1 (TPA) | 16:15 | 20:40 | 610.00
+SJU | CLT | AA | 0 | 08:30 | 11:55 | 420.00
+SJU | CLT | DL | 1 (ATL) | 09:50 | 14:15 | 500.00
+SJU | CLT | UA | 0 | 11:20 | 14:45 | 460.00
+SJU | CLT | WN | 1 (BNA) | 12:40 | 16:55 | 530.00
+SJU | CLT | B6 | 0 | 14:10 | 17:35 | 430.00
+SJU | CLT | AS | 1 (MCO) | 15:30 | 19:00 | 570.00
+SJU | CLT | F9 | 0 | 16:50 | 20:15 | 400.00
+SJU | CLT | NK | 1 (RDU) | 18:10 | 21:35 | 650.00
+
+
+Here are the 16 flight plans:
+
+CLT | BHB | AA | 0 | 08:00 | 10:15 | 250.00
+CLT | BHB | DL | 1 (ATL) | 09:30 | 12:45 | 320.00
+CLT | BHB | UA | 0 | 11:00 | 13:20 | 280.00
+CLT | BHB | WN | 1 (BOS) | 12:15 | 15:30 | 350.00
+CLT | BHB | AS | 0 | 13:45 | 16:00 | 220.00
+CLT | BHB | F9 | 1 (MCO) | 15:00 | 18:15 | 300.00
+CLT | BHB | B6 | 0 | 16:30 | 18:45 | 260.00
+CLT | BHB | NK | 1 (PBI) | 18:00 | 21:15 | 330.00
+BHB | CLT | AA | 0 | 08:00 | 10:20 | 240.00
+BHB | CLT | DL | 1 (JFK) | 09:45 | 13:00 | 340.00
+BHB | CLT | UA | 0 | 11:15 | 13:35 | 290.00
+BHB | CLT | WN | 1 (EWR) | 12:45 | 15:55 | 360.00
+BHB | CLT | AS | 0 | 14:00 | 16:20 | 230.00
+BHB | CLT | F9 | 1 (TPA) | 15:30 | 18:45 | 310.00
+BHB | CLT | B6 | 0 | 17:00 | 19:25 | 270.00
+BHB | CLT | NK | 1 (RDU) | 18:45 | 21:55 | 350.00
+
+
+Here are the 16 flight plans:
+
+CLT | BOS | AA | 0 | 06:00 | 08:35 | 198.00
+CLT | BOS | DL | 1 (JFK) | 07:15 | 10:50 | 235.00
+CLT | BOS | UA | 0 | 08:45 | 11:20 | 220.00
+CLT | BOS | WN | 1 (BWI) | 09:30 | 12:55 | 255.00
+CLT | BOS | B6 | 0 | 11:00 | 13:35 | 210.00
+CLT | BOS | AA | 1 (PHL) | 12:15 | 15:40 | 240.00
+CLT | BOS | DL | 0 | 14:00 | 16:35 | 230.00
+CLT | BOS | UA | 1 (EWR) | 15:30 | 18:55 | 260.00
+BOS | CLT | AA | 0 | 06:00 | 08:35 | 198.00
+BOS | CLT | DL | 1 (JFK) | 07:15 | 10:50 | 235.00
+BOS | CLT | UA | 0 | 08:45 | 11:20 | 220.00
+BOS | CLT | WN | 1 (BWI) | 09:30 | 12:55 | 255.00
+BOS | CLT | B6 | 0 | 11:00 | 13:35 | 210.00
+BOS | CLT | AA | 1 (PHL) | 12:15 | 15:40 | 240.00
+BOS | CLT | DL | 0 | 14:00 | 16:35 | 230.00
+BOS | CLT | UA | 1 (EWR) | 15:30 | 18:55 | 260.00
+
+
+Here are the 16 flight plans:
+
+CLT | MRY | AA | 0 | 08:00 | 11:05 | 450.00
+CLT | MRY | UA | 1 (SFO) | 09:30 | 13:20 | 520.00
+CLT | MRY | DL | 0 | 10:45 | 14:00 | 480.00
+CLT | MRY | WN | 1 (PHX) | 12:00 | 16:30 | 550.00
+CLT | MRY | AS | 0 | 13:15 | 16:25 | 500.00
+CLT | MRY | F9 | 1 (DEN) | 14:30 | 18:45 | 580.00
+CLT | MRY | B6 | 0 | 15:45 | 19:00 | 530.00
+CLT | MRY | NK | 1 (LAX) | 17:00 | 21:15 | 610.00
+MRY | CLT | AA | 0 | 08:30 | 15:35 | 420.00
+MRY | CLT | UA | 1 (SFO) | 09:55 | 16:50 | 490.00
+MRY | CLT | DL | 0 | 11:10 | 17:20 | 450.00
+MRY | CLT | WN | 1 (PHX) | 12:35 | 19:00 | 520.00
+MRY | CLT | AS | 0 | 13:50 | 19:05 | 470.00
+MRY | CLT | F9 | 1 (DEN) | 15:05 | 21:20 | 560.00
+MRY | CLT | B6 | 0 | 16:20 | 22:35 | 500.00
+MRY | CLT | NK | 1 (LAX) | 17:45 | 23:55 | 630.00
+
+
+Here are the 16 flight plans:
+
+CLT | SJC | AA | 1 (DFW) | 08:00 | 11:15 | 450.00
+CLT | SJC | UA | 1 (ORD) | 09:30 | 12:45 | 480.00
+CLT | SJC | WN | 1 (DAL) | 10:45 | 14:00 | 420.00
+CLT | SJC | DL | 1 (ATL) | 12:00 | 15:15 | 500.00
+CLT | SJC | AS | 1 (SEA) | 13:30 | 16:45 | 520.00
+CLT | SJC | F9 | 1 (DEN) | 14:45 | 18:00 | 440.00
+CLT | SJC | NK | 1 (LAS) | 16:00 | 19:15 | 460.00
+CLT | SJC | B6 | 1 (JFK) | 17:30 | 20:45 | 540.00
+SJC | CLT | AA | 1 (PHX) | 08:00 | 15:15 | 470.00
+SJC | CLT | UA | 1 (SFO) | 09:30 | 16:45 | 490.00
+SJC | CLT | WN | 1 (BUR) | 10:45 | 18:00 | 430.00
+SJC | CLT | DL | 1 (LAX) | 12:00 | 19:15 | 510.00
+SJC | CLT | AS | 1 (PDX) | 13:30 | 20:45 | 530.00
+SJC | CLT | F9 | 1 (MCO) | 14:45 | 22:00 | 450.00
+SJC | CLT | NK | 1 (IAH) | 16:00 | 23:15 | 480.00
+SJC | CLT | B6 | 1 (BOS) | 17:30 | 00:45 | 550.00
+
+
+CLT | SFO | AA | 0 | 08:00 | 11:30 | 450.00
+CLT | SFO | UA | 1 (DEN) | 09:15 | 13:45 | 520.00
+CLT | SFO | DL | 0 | 10:30 | 14:00 | 480.00
+CLT | SFO | WN | 1 (PHX) | 11:45 | 16:15 | 500.00
+CLT | SFO | AS | 0 | 13:00 | 16:30 | 510.00
+CLT | SFO | F9 | 1 (LAS) | 14:15 | 18:45 | 530.00
+CLT | SFO | B6 | 0 | 15:30 | 19:00 | 550.00
+CLT | SFO | NK | 1 (ORD) | 16:45 | 21:15 | 570.00
+SFO | CLT | AA | 0 | 08:00 | 16:30 | 420.00
+SFO | CLT | UA | 1 (IAH) | 09:15 | 17:45 | 490.00
+SFO | CLT | DL | 0 | 10:30 | 18:00 | 450.00
+SFO | CLT | WN | 1 (DAL) | 11:45 | 19:15 | 470.00
+SFO | CLT | AS | 0 | 13:00 | 20:30 | 500.00
+SFO | CLT | F9 | 1 (MIA) | 14:15 | 21:45 | 520.00
+SFO | CLT | B6 | 0 | 15:30 | 22:00 | 540.00
+SFO | CLT | NK | 1 (EWR) | 16:45 | 23:15 | 560.00
+
+
+Here are the 16 flight plans:
+
+CLT | EGE | AA | 1 (DEN) | 08:00 | 11:45 | 450.00
+CLT | EGE | UA | 0 | 10:30 | 13:15 | 520.00
+CLT | EGE | WN | 1 (DAL) | 12:45 | 16:30 | 380.00
+CLT | EGE | DL | 0 | 14:00 | 16:45 | 480.00
+CLT | EGE | F9 | 1 (MDW) | 15:15 | 19:00 | 420.00
+CLT | EGE | AS | 1 (SEA) | 16:30 | 20:15 | 500.00
+CLT | EGE | B6 | 1 (JFK) | 18:00 | 21:45 | 440.00
+CLT | EGE | NK | 1 (IAH) | 20:00 | 23:45 | 400.00
+EGE | CLT | AA | 1 (ORD) | 08:00 | 14:30 | 460.00
+EGE | CLT | UA | 0 | 10:30 | 16:15 | 540.00
+EGE | CLT | WN | 1 (PHX) | 12:45 | 18:30 | 410.00
+EGE | CLT | DL | 0 | 14:00 | 18:45 | 500.00
+EGE | CLT | F9 | 1 (DEN) | 15:15 | 19:45 | 430.00
+EGE | CLT | AS | 1 (SFO) | 16:30 | 21:15 | 510.00
+EGE | CLT | B6 | 1 (LAX) | 18:00 | 22:45 | 470.00
+EGE | CLT | NK | 1 (DFW) | 20:00 | 00:45 | 450.00
+
+
+Here are the 16 flight plans:
+
+CLT | DEN | AA | 0 | 08:00 | 10:35 | 248.00
+CLT | DEN | UA | 1 (IAH) | 09:15 | 12:50 | 278.00
+CLT | DEN | DL | 0 | 10:30 | 13:05 | 298.00
+CLT | DEN | WN | 1 (STL) | 11:45 | 15:20 | 238.00
+CLT | DEN | F9 | 0 | 13:00 | 15:35 | 218.00
+CLT | DEN | AS | 1 (SEA) | 14:15 | 17:50 | 308.00
+CLT | DEN | NK | 1 (ORD) | 15:30 | 18:55 | 258.00
+CLT | DEN | B6 | 0 | 17:00 | 19:35 | 288.00
+DEN | CLT | UA | 0 | 08:00 | 13:35 | 268.00
+DEN | CLT | AA | 1 (DFW) | 09:15 | 14:50 | 298.00
+DEN | CLT | DL | 0 | 10:30 | 15:05 | 318.00
+DEN | CLT | WN | 1 (MDW) | 11:45 | 16:20 | 248.00
+DEN | CLT | F9 | 0 | 13:00 | 15:35 | 228.00
+DEN | CLT | AS | 1 (SFO) | 14:15 | 17:50 | 328.00
+DEN | CLT | NK | 1 (MCO) | 15:30 | 18:55 | 278.00
+DEN | CLT | B6 | 0 | 17:00 | 19:35 | 298.00
+
+
+Here are the 16 flight plans:
+
+CLT | CHS | American Airlines | Non-stop | 06:00 | 07:30 | 178.00
+CLT | CHS | Delta Air Lines | 1 stop (ATL) | 08:30 | 11:15 | 220.00
+CLT | CHS | United Airlines | Non-stop | 10:00 | 11:30 | 198.00
+CLT | CHS | Spirit Airlines | 1 stop (FLL) | 12:00 | 15:45 | 258.00
+CLT | CHS | Frontier Airlines | Non-stop | 14:30 | 16:00 | 189.00
+CLT | CHS | JetBlue Airways | 1 stop (BOS) | 16:00 | 19:30 | 299.00
+CLT | CHS | Southwest Airlines | Non-stop | 18:00 | 19:30 | 229.00
+CLT | CHS | Alaska Airlines | 1 stop (RDU) | 20:00 | 23:15 | 279.00
+CHS | CLT | American Airlines | Non-stop | 06:30 | 08:00 | 208.00
+CHS | CLT | Delta Air Lines | 1 stop (JFK) | 09:00 | 12:45 | 289.00
+CHS | CLT | United Airlines | Non-stop | 11:30 | 13:00 | 239.00
+CHS | CLT | Spirit Airlines | 1 stop (MCO) | 13:30 | 17:15 | 309.00
+CHS | CLT | Frontier Airlines | Non-stop | 15:00 | 16:30 | 219.00
+CHS | CLT | JetBlue Airways | 1 stop (PBI) | 17:00 | 20:45 | 329.00
+CHS | CLT | Southwest Airlines | Non-stop | 19:30 | 21:00 | 249.00
+CHS | CLT | Alaska Airlines | 1 stop (EWR) | 21:30 | 00:45 | 349.00
+
+
+Here are the 16 flight plans:
+
+CLT | RAP | AA | 0 | 08:00 | 10:30 | 450.00
+CLT | RAP | UA | 1 (DEN) | 09:15 | 12:45 | 520.00
+CLT | RAP | DL | 0 | 10:30 | 13:00 | 480.00
+CLT | RAP | WN | 1 (MDW) | 11:45 | 15:15 | 550.00
+CLT | RAP | F9 | 0 | 13:00 | 15:30 | 420.00
+CLT | RAP | AS | 1 (SEA) | 14:15 | 17:45 | 600.00
+CLT | RAP | B6 | 0 | 15:30 | 18:00 | 500.00
+CLT | RAP | NK | 1 (LAS) | 16:45 | 20:15 | 580.00
+RAP | CLT | AA | 0 | 08:00 | 12:30 | 420.00
+RAP | CLT | UA | 1 (IAH) | 09:15 | 14:45 | 540.00
+RAP | CLT | DL | 0 | 10:30 | 14:00 | 460.00
+RAP | CLT | WN | 1 (PHX) | 11:45 | 16:15 | 570.00
+RAP | CLT | F9 | 0 | 13:00 | 16:30 | 440.00
+RAP | CLT | AS | 1 (SFO) | 14:15 | 18:45 | 620.00
+RAP | CLT | B6 | 0 | 15:30 | 19:00 | 510.00
+RAP | CLT | NK | 1 (MCO) | 16:45 | 21:15 | 590.00
+
+
+Here are the 16 flight plans:
+
+CLT | FCA | AA | 0 | 08:00 | 19:30 | 542.00
+CLT | FCA | UA | 1 (ORD) | 09:30 | 21:15 | 620.00
+CLT | FCA | DL | 0 | 11:00 | 22:45 | 598.00
+CLT | FCA | WN | 1 (MDW) | 12:30 | 00:15 | 680.00
+CLT | FCA | AS | 2 (SEA, DEN) | 13:45 | 02:30 | 750.00
+CLT | FCA | B6 | 1 (JFK) | 15:00 | 03:45 | 720.00
+CLT | FCA | F9 | 1 (DEN) | 16:15 | 05:00 | 650.00
+CLT | FCA | NK | 1 (ORD) | 17:30 | 06:15 | 630.00
+FCA | CLT | AA | 0 | 08:30 | 20:00 | 568.00
+FCA | CLT | UA | 1 (SFO) | 10:00 | 22:30 | 698.00
+FCA | CLT | DL | 0 | 11:45 | 00:20 | 638.00
+FCA | CLT | WN | 1 (PHX) | 13:15 | 02:50 | 730.00
+FCA | CLT | AS | 2 (PDX, DFW) | 14:30 | 04:15 | 810.00
+FCA | CLT | B6 | 1 (LAX) | 15:45 | 05:30 | 780.00
+FCA | CLT | F9 | 1 (DEN) | 17:00 | 07:45 | 710.00
+FCA | CLT | NK | 1 (ORD) | 18:15 | 09:00 | 690.00
+
+
+Here are the 16 flight plans:
+
+CLT | FLG | AA | 1 (DFW) | 08:00 | 12:30 | 450.00
+CLT | FLG | UA | 0 | 09:30 | 13:15 | 520.00
+CLT | FLG | DL | 1 (ATL) | 10:45 | 15:10 | 480.00
+CLT | FLG | WN | 0 | 12:00 | 15:45 | 400.00
+CLT | FLG | AS | 1 (DEN) | 13:15 | 17:40 | 550.00
+CLT | FLG | B6 | 0 | 14:30 | 18:05 | 430.00
+CLT | FLG | F9 | 1 (IAH) | 15:45 | 20:10 | 500.00
+CLT | FLG | NK | 0 | 17:00 | 20:35 | 460.00
+FLG | CLT | AA | 1 (PHX) | 08:30 | 14:05 | 420.00
+FLG | CLT | UA | 0 | 09:15 | 13:50 | 490.00
+FLG | CLT | DL | 1 (LAX) | 10:00 | 15:35 | 510.00
+FLG | CLT | WN | 0 | 11:30 | 15:05 | 440.00
+FLG | CLT | AS | 1 (SFO) | 12:45 | 17:20 | 530.00
+FLG | CLT | B6 | 0 | 14:00 | 17:35 | 450.00
+FLG | CLT | F9 | 1 (ORD) | 15:15 | 19:45 | 480.00
+FLG | CLT | NK | 0 | 16:30 | 20:05 | 410.00
+
+
+Here are the 16 flight plans:
+
+CLT | LAS | AA | 0 | 08:00 | 10:30 | 250.00
+CLT | LAS | DL | 1 (DEN) | 09:15 | 12:45 | 320.00
+CLT | LAS | WN | 0 | 10:45 | 13:15 | 280.00
+CLT | LAS | UA | 1 (ORD) | 11:30 | 15:00 | 350.00
+CLT | LAS | F9 | 0 | 12:00 | 14:30 | 220.00
+CLT | LAS | AS | 1 (SEA) | 13:15 | 16:45 | 380.00
+CLT | LAS | NK | 0 | 14:30 | 17:00 | 240.00
+CLT | LAS | B6 | 1 (JFK) | 15:45 | 19:15 | 400.00
+
+LAS | CLT | AA | 0 | 08:30 | 15:00 | 270.00
+LAS | CLT | DL | 1 (SFO) | 09:45 | 17:15 | 340.00
+LAS | CLT | WN | 0 | 11:00 | 17:30 | 290.00
+LAS | CLT | UA | 1 (IAH) | 12:15 | 19:45 | 360.00
+LAS | CLT | F9 | 0 | 13:30 | 20:00 | 230.00
+LAS | CLT | AS | 1 (PDX) | 14:45 | 22:15 | 390.00
+LAS | CLT | NK | 0 | 16:00 | 22:30 | 260.00
+LAS | CLT | B6 | 1 (MIA) | 17:15 | 00:45 | 420.00
+
+
+Here are the 16 flight plans:
+
+CLT | TYS | AA | 1 (BNA) | 06:00 | 08:15 | 258.00
+CLT | TYS | DL | 0 | 07:30 | 08:45 | 298.00
+CLT | TYS | UA | 1 (IAD) | 09:00 | 11:20 | 220.00
+CLT | TYS | WN | 1 (ATL) | 10:15 | 12:30 | 240.00
+CLT | TYS | AA | 0 | 11:45 | 13:00 | 320.00
+CLT | TYS | DL | 1 (CVG) | 13:00 | 15:15 | 280.00
+CLT | TYS | UA | 0 | 14:30 | 15:45 | 350.00
+CLT | TYS | WN | 1 (BHM) | 16:00 | 18:15 | 260.00
+TYS | CLT | AA | 0 | 06:00 | 07:15 | 280.00
+TYS | CLT | DL | 1 (CHS) | 07:30 | 09:45 | 240.00
+TYS | CLT | UA | 1 (EWR) | 09:00 | 11:15 | 300.00
+TYS | CLT | WN | 0 | 10:15 | 11:30 | 220.00
+TYS | CLT | AA | 1 (RDU) | 11:45 | 13:55 | 250.00
+TYS | CLT | DL | 0 | 13:00 | 14:15 | 330.00
+TYS | CLT | UA | 1 (PIT) | 14:30 | 16:45 | 290.00
+TYS | CLT | WN | 1 (JAX) | 16:00 | 18:10 | 270.00
+
+
+Here are the 16 flight plans:
+
+CLT | AVL | American Airlines | Non-stop | 06:00 | 07:15 | 178.00
+CLT | AVL | Delta Air Lines | Non-stop | 08:30 | 09:45 | 198.00
+CLT | AVL | United Airlines | 1 stop (IAD) | 10:00 | 12:30 | 220.00
+CLT | AVL | Frontier Airlines | Non-stop | 11:15 | 12:30 | 158.00
+CLT | AVL | Spirit Airlines | 1 stop (BWI) | 12:45 | 15:00 | 240.00
+CLT | AVL | American Airlines | Non-stop | 14:00 | 15:15 | 188.00
+CLT | AVL | Delta Air Lines | 1 stop (ATL) | 15:30 | 17:45 | 258.00
+CLT | AVL | United Airlines | Non-stop | 17:00 | 18:15 | 208.00
+AVL | CLT | American Airlines | Non-stop | 06:30 | 07:45 | 168.00
+AVL | CLT | Delta Air Lines | 1 stop (JFK) | 08:00 | 10:15 | 230.00
+AVL | CLT | United Airlines | Non-stop | 09:15 | 10:30 | 178.00
+AVL | CLT | Frontier Airlines | 1 stop (MCO) | 10:45 | 13:00 | 250.00
+AVL | CLT | Spirit Airlines | Non-stop | 12:00 | 13:15 | 198.00
+AVL | CLT | American Airlines | 1 stop (PIT) | 13:30 | 15:45 | 268.00
+AVL | CLT | Delta Air Lines | Non-stop | 15:00 | 16:15 | 208.00
+AVL | CLT | United Airlines | 1 stop (EWR) | 16:30 | 18:45 | 280.00
+
+
+Here are the 16 flight plans:
+
+CLT | JAC | AA | 0 | 08:00 | 10:30 | 250.00
+CLT | JAC | UA | 1 (DEN) | 09:15 | 12:45 | 320.00
+CLT | JAC | DL | 0 | 10:45 | 13:15 | 280.00
+CLT | JAC | WN | 1 (DAL) | 11:30 | 15:00 | 350.00
+CLT | JAC | AS | 1 (SEA) | 12:00 | 16:30 | 420.00
+CLT | JAC | B6 | 0 | 13:15 | 15:45 | 290.00
+CLT | JAC | F9 | 1 (ORD) | 14:00 | 17:30 | 380.00
+CLT | JAC | NK | 1 (IAH) | 15:00 | 18:30 | 400.00
+JAC | CLT | AA | 0 | 06:00 | 08:30 | 230.00
+JAC | CLT | UA | 1 (SFO) | 07:15 | 10:45 | 300.00
+JAC | CLT | DL | 0 | 08:45 | 11:15 | 260.00
+JAC | CLT | WN | 1 (PHX) | 09:30 | 12:00 | 330.00
+JAC | CLT | AS | 1 (LAX) | 10:00 | 13:30 | 410.00
+JAC | CLT | B6 | 0 | 11:15 | 13:45 | 270.00
+JAC | CLT | F9 | 1 (MIA) | 12:00 | 14:30 | 360.00
+JAC | CLT | NK | 1 (DFW) | 13:00 | 15:30 | 390.00
+
+
+Here are the 16 flight plans:
+
+CLT | EYW | AA | 0 | 08:00 | 10:30 | 250.00
+CLT | EYW | DL | 1 (MIA) | 09:15 | 12:45 | 320.00
+CLT | EYW | WN | 0 | 10:45 | 13:15 | 280.00
+CLT | EYW | UA | 1 (FLL) | 12:00 | 15:30 | 350.00
+CLT | EYW | B6 | 0 | 13:30 | 16:00 | 290.00
+CLT | EYW | AA | 1 (TPA) | 14:45 | 18:15 | 380.00
+CLT | EYW | DL | 0 | 16:00 | 18:30 | 310.00
+CLT | EYW | WN | 1 (JAX) | 17:15 | 20:45 | 330.00
+EYW | CLT | AA | 0 | 08:30 | 11:00 | 270.00
+EYW | CLT | DL | 1 (MIA) | 09:45 | 13:15 | 340.00
+EYW | CLT | WN | 0 | 11:15 | 13:45 | 300.00
+EYW | CLT | UA | 1 (FLL) | 12:30 | 15:00 | 360.00
+EYW | CLT | B6 | 0 | 13:45 | 16:15 | 310.00
+EYW | CLT | AA | 1 (TPA) | 15:00 | 17:30 | 390.00
+EYW | CLT | DL | 0 | 16:15 | 18:45 | 330.00
+EYW | CLT | WN | 1 (JAX) | 17:30 | 20:00 | 350.00
+
+
+Here are the 16 flight plans:
+
+CLT | RNO | AA | 1 (DFW) | 08:00 | 11:35 | 450.00
+CLT | RNO | UA | 1 (ORD) | 09:30 | 13:05 | 520.00
+CLT | RNO | DL | 1 (ATL) | 11:15 | 14:50 | 480.00
+CLT | RNO | WN | 1 (DEN) | 12:45 | 16:20 | 400.00
+CLT | RNO | AS | 2 (BNA, SEA) | 13:30 | 18:10 | 600.00
+CLT | RNO | F9 | 1 (MCO) | 14:50 | 18:25 | 380.00
+CLT | RNO | NK | 1 (LAS) | 16:00 | 19:35 | 420.00
+CLT | RNO | B6 | 1 (JFK) | 17:30 | 21:05 | 550.00
+RNO | CLT | AA | 1 (PHX) | 06:00 | 13:30 | 480.00
+RNO | CLT | UA | 1 (SFO) | 07:30 | 15:05 | 500.00
+RNO | CLT | DL | 1 (LAX) | 09:00 | 16:35 | 520.00
+RNO | CLT | WN | 1 (DAL) | 10:30 | 18:05 | 440.00
+RNO | CLT | AS | 2 (PDX, DFW) | 11:45 | 19:20 | 620.00
+RNO | CLT | F9 | 1 (IAH) | 13:15 | 19:50 | 400.00
+RNO | CLT | NK | 1 (MIA) | 14:45 | 21:20 | 460.00
+RNO | CLT | B6 | 1 (BOS) | 16:15 | 22:50 | 580.00
+
+
+Here are the 16 flight plans:
+
+CLT | TVL | AA | 0 | 08:00 | 11:15 | 278.00
+CLT | TVL | DL | 1 (ATL) | 09:30 | 13:45 | 320.00
+CLT | TVL | UA | 0 | 10:45 | 14:00 | 298.00
+CLT | TVL | WN | 1 (DEN) | 12:00 | 16:20 | 350.00
+CLT | TVL | AS | 0 | 13:15 | 16:30 | 288.00
+CLT | TVL | B6 | 1 (JFK) | 14:30 | 18:45 | 380.00
+CLT | TVL | F9 | 0 | 15:45 | 19:00 | 258.00
+CLT | TVL | NK | 1 (ORD) | 17:00 | 21:15 | 330.00
+TVL | CLT | AA | 0 | 06:00 | 09:15 | 268.00
+TVL | CLT | DL | 1 (SFO) | 07:30 | 11:45 | 310.00
+TVL | CLT | UA | 0 | 08:45 | 12:00 | 288.00
+TVL | CLT | WN | 1 (PHX) | 10:00 | 14:20 | 340.00
+TVL | CLT | AS | 0 | 11:15 | 14:30 | 278.00
+TVL | CLT | B6 | 1 (LAX) | 12:30 | 16:45 | 360.00
+TVL | CLT | F9 | 0 | 13:45 | 17:00 | 248.00
+TVL | CLT | NK | 1 (IAH) | 15:00 | 19:15 | 300.00
+
+
+Here are the 16 flight plans:
+
+CLT | MCD | AA | Non-stop | 06:00 | 08:30 | 250.00
+CLT | MCD | DL | 1 stop (ATL) | 08:15 | 12:45 | 320.00
+CLT | MCD | UA | Non-stop | 10:30 | 13:00 | 280.00
+CLT | MCD | WN | 1 stop (BNA) | 12:00 | 16:30 | 350.00
+CLT | MCD | F9 | Non-stop | 14:15 | 16:45 | 220.00
+CLT | MCD | AS | 1 stop (DFW) | 16:00 | 20:30 | 380.00
+CLT | MCD | B6 | Non-stop | 18:30 | 21:00 | 240.00
+CLT | MCD | NK | 1 stop (EWR) | 20:45 | 01:15 | 420.00
+MCD | CLT | AA | Non-stop | 06:00 | 08:30 | 250.00
+MCD | CLT | DL | 1 stop (ATL) | 08:15 | 12:45 | 320.00
+MCD | CLT | UA | Non-stop | 10:30 | 13:00 | 280.00
+MCD | CLT | WN | 1 stop (BNA) | 12:00 | 16:30 | 350.00
+MCD | CLT | F9 | Non-stop | 14:15 | 16:45 | 220.00
+MCD | CLT | AS | 1 stop (DFW) | 16:00 | 20:30 | 380.00
+MCD | CLT | B6 | Non-stop | 18:30 | 21:00 | 240.00
+MCD | CLT | NK | 1 stop (EWR) | 20:45 | 01:15 | 420.00
+
+
+Here are the 16 flight plans:
+
+CLT | PLN | AA | 0 | 08:00 | 10:15 | 250.00
+CLT | PLN | DL | 1 (ATL) | 09:30 | 12:45 | 280.00
+CLT | PLN | UA | 0 | 11:00 | 13:15 | 220.00
+CLT | PLN | WN | 1 (BNA) | 12:30 | 15:45 | 300.00
+CLT | PLN | AA | 0 | 14:00 | 16:15 | 240.00
+CLT | PLN | DL | 1 (CVG) | 15:30 | 18:45 | 260.00
+CLT | PLN | UA | 0 | 17:00 | 19:15 | 230.00
+CLT | PLN | WN | 1 (MDW) | 18:30 | 21:45 | 290.00
+PLN | CLT | AA | 0 | 08:00 | 10:15 | 250.00
+PLN | CLT | DL | 1 (DTW) | 09:30 | 12:45 | 280.00
+PLN | CLT | UA | 0 | 11:00 | 13:15 | 220.00
+PLN | CLT | WN | 1 (STL) | 12:30 | 15:45 | 300.00
+PLN | CLT | AA | 0 | 14:00 | 16:15 | 240.00
+PLN | CLT | DL | 1 (IND) | 15:30 | 18:45 | 260.00
+PLN | CLT | UA | 0 | 17:00 | 19:15 | 230.00
+PLN | CLT | WN | 1 (CMH) | 18:30 | 21:45 | 290.00
+
+
+Here are the 16 flight plans:
+
+CLT | OGG | AA | 1 (DFW) | 08:00 | 18:35 | 850.00
+CLT | OGG | UA | 2 (IAH, SFO) | 09:15 | 21:50 | 1050.00
+CLT | OGG | DL | 0 | 10:30 | 19:20 | 900.00
+CLT | OGG | WN | 1 (DEN) | 11:45 | 20:55 | 780.00
+CLT | OGG | AS | 2 (ATL, SEA) | 12:50 | 23:15 | 1200.00
+CLT | OGG | F9 | 1 (MCO) | 14:05 | 22:30 | 650.00
+CLT | OGG | B6 | 1 (JFK) | 15:20 | 23:45 | 750.00
+CLT | OGG | NK | 2 (FLL, LAX) | 16:35 | 01:10 | 1100.00
+OGG | CLT | AA | 1 (PHX) | 08:15 | 18:40 | 920.00
+OGG | CLT | UA | 2 (SFO, ORD) | 09:30 | 21:05 | 1150.00
+OGG | CLT | DL | 0 | 10:45 | 20:25 | 980.00
+OGG | CLT | WN | 1 (HNL) | 12:00 | 22:20 | 850.00
+OGG | CLT | AS | 2 (PDX, DFW) | 13:15 | 23:40 | 1250.00
+OGG | CLT | F9 | 1 (LAS) | 14:30 | 23:55 | 700.00
+OGG | CLT | B6 | 1 (MIA) | 15:45 | 01:10 | 800.00
+OGG | CLT | NK | 2 (LAX, MSP) | 17:00 | 02:25 | 1200.00
+
+
+Here are the 16 flight plans:
+
+CLT | RAP | AA | 0 | 06:00 | 08:30 | 250.00
+CLT | RAP | UA | 1 (DEN) | 08:15 | 12:45 | 320.00
+CLT | RAP | DL | 0 | 10:30 | 13:00 | 280.00
+CLT | RAP | WN | 1 (MDW) | 12:00 | 16:30 | 350.00
+CLT | RAP | AS | 0 | 14:15 | 16:45 | 300.00
+CLT | RAP | F9 | 1 (IAH) | 16:00 | 20:30 | 380.00
+CLT | RAP | NK | 0 | 18:30 | 21:00 | 330.00
+CLT | RAP | B6 | 1 (JFK) | 20:45 | 01:15 | 410.00
+
+RAP | CLT | AA | 0 | 07:00 | 09:30 | 240.00
+RAP | CLT | UA | 1 (ORD) | 09:15 | 13:45 | 310.00
+RAP | CLT | DL | 0 | 11:30 | 14:00 | 260.00
+RAP | CLT | WN | 1 (STL) | 13:00 | 17:30 | 340.00
+RAP | CLT | AS | 0 | 15:15 | 17:45 | 290.00
+RAP | CLT | F9 | 1 (DEN) | 17:00 | 21:30 | 360.00
+RAP | CLT | NK | 0 | 19:30 | 22:00 | 320.00
+RAP | CLT | B6 | 1 (LAX) | 21:45 | 02:15 | 400.00
+
+
+Here are the 16 flight plans:
+
+CLT | MYR | AA | 0 | 06:00 | 07:30 | 198.00
+CLT | MYR | UA | 1 (EWR) | 08:30 | 11:15 | 278.00
+CLT | MYR | DL | 0 | 10:00 | 11:30 | 218.00
+CLT | MYR | WN | 1 (BWI) | 12:00 | 14:45 | 298.00
+CLT | MYR | AA | 0 | 14:00 | 15:30 | 238.00
+CLT | MYR | UA | 1 (ORD) | 16:00 | 19:15 | 318.00
+CLT | MYR | DL | 0 | 18:00 | 19:30 | 258.00
+CLT | MYR | WN | 1 (ATL) | 20:00 | 22:45 | 338.00
+MYR | CLT | AA | 0 | 06:00 | 07:30 | 208.00
+MYR | CLT | UA | 1 (EWR) | 08:30 | 11:15 | 288.00
+MYR | CLT | DL | 0 | 10:00 | 11:30 | 228.00
+MYR | CLT | WN | 1 (BWI) | 12:00 | 14:45 | 308.00
+MYR | CLT | AA | 0 | 14:00 | 15:30 | 248.00
+MYR | CLT | UA | 1 (ORD) | 16:00 | 19:15 | 328.00
+MYR | CLT | DL | 0 | 18:00 | 19:30 | 268.00
+MYR | CLT | WN | 1 (ATL) | 20:00 | 22:45 | 348.00
+
+
+Here are the 16 flight plans:
+
+CLT | SFO | AA | 0 | 08:00 | 11:15 | 450.00
+CLT | SFO | UA | 1 (DEN) | 09:30 | 13:45 | 520.00
+CLT | SFO | DL | 0 | 11:00 | 14:20 | 480.00
+CLT | SFO | WN | 1 (PHX) | 12:30 | 16:50 | 550.00
+CLT | SFO | AS | 0 | 14:00 | 17:25 | 500.00
+CLT | SFO | F9 | 1 (LAS) | 15:30 | 19:55 | 580.00
+CLT | SFO | B6 | 0 | 17:00 | 20:20 | 530.00
+CLT | SFO | NK | 1 (ORD) | 19:30 | 23:50 | 610.00
+SFO | CLT | AA | 0 | 08:00 | 15:20 | 480.00
+SFO | CLT | UA | 1 (IAH) | 09:30 | 17:45 | 550.00
+SFO | CLT | DL | 0 | 11:00 | 18:20 | 510.00
+SFO | CLT | WN | 1 (DAL) | 12:30 | 20:50 | 590.00
+SFO | CLT | AS | 0 | 14:00 | 21:25 | 540.00
+SFO | CLT | F9 | 1 (MCO) | 15:30 | 23:55 | 620.00
+SFO | CLT | B6 | 0 | 17:00 | 00:20 | 560.00
+SFO | CLT | NK | 1 (EWR) | 19:30 | 02:50 | 650.00
+
+
+Here are the 16 flight plans:
+
+CLT | OAK | AA | 0 | 08:00 | 11:15 | 450.00
+CLT | OAK | UA | 1 (SFO) | 09:30 | 13:45 | 520.00
+CLT | OAK | DL | 0 | 11:00 | 14:20 | 480.00
+CLT | OAK | WN | 1 (DEN) | 12:15 | 16:30 | 550.00
+CLT | OAK | AS | 0 | 13:45 | 17:00 | 510.00
+CLT | OAK | F9 | 1 (LAS) | 15:00 | 19:15 | 580.00
+CLT | OAK | NK | 0 | 16:30 | 20:45 | 530.00
+CLT | OAK | B6 | 1 (JFK) | 18:00 | 22:15 | 600.00
+OAK | CLT | AA | 0 | 08:00 | 15:15 | 420.00
+OAK | CLT | UA | 1 (LAX) | 09:30 | 17:45 | 490.00
+OAK | CLT | DL | 0 | 11:00 | 18:20 | 450.00
+OAK | CLT | WN | 1 (PHX) | 12:15 | 20:30 | 520.00
+OAK | CLT | AS | 0 | 13:45 | 21:00 | 480.00
+OAK | CLT | F9 | 1 (MIA) | 15:00 | 23:15 | 550.00
+OAK | CLT | NK | 0 | 16:30 | 00:45 | 500.00
+OAK | CLT | B6 | 1 (BOS) | 18:00 | 02:15 | 570.00
+
+
+Here are the 16 flight plans:
+
+CLT | SMF | AA | Non-stop | 08:00 | 11:05 | 420.00
+CLT | SMF | UA | 1 stop (DEN) | 09:30 | 13:45 | 480.00
+CLT | SMF | DL | Non-stop | 11:15 | 14:20 | 450.00
+CLT | SMF | WN | 1 stop (PHX) | 12:00 | 16:10 | 510.00
+CLT | SMF | AS | 1 stop (SEA) | 13:45 | 18:00 | 520.00
+CLT | SMF | F9 | Non-stop | 15:30 | 18:35 | 400.00
+CLT | SMF | NK | 1 stop (ORD) | 16:15 | 20:25 | 540.00
+CLT | SMF | B6 | Non-stop | 17:00 | 20:05 | 430.00
+SMF | CLT | AA | Non-stop | 08:00 | 15:05 | 440.00
+SMF | CLT | UA | 1 stop (SFO) | 09:30 | 17:45 | 500.00
+SMF | CLT | DL | Non-stop | 11:15 | 18:20 | 470.00
+SMF | CLT | WN | 1 stop (LAS) | 12:00 | 19:10 | 530.00
+SMF | CLT | AS | 1 stop (PDX) | 13:45 | 21:00 | 550.00
+SMF | CLT | F9 | Non-stop | 15:30 | 22:35 | 410.00
+SMF | CLT | NK | 1 stop (DFW) | 16:15 | 23:25 | 560.00
+SMF | CLT | B6 | Non-stop | 17:00 | 23:05 | 450.00
+
+
+Here are the 16 flight plans:
+
+CLT | SAF | AA | 1 (DFW) | 08:00 | 11:15 | 425.00
+CLT | SAF | UA | 1 (IAH) | 09:30 | 12:45 | 450.00
+CLT | SAF | DL | 1 (ATL) | 11:00 | 14:15 | 480.00
+CLT | SAF | WN | 1 (DAL) | 12:30 | 15:45 | 410.00
+CLT | SAF | AA | 2 (DFW, PHX) | 14:00 | 18:15 | 550.00
+CLT | SAF | UA | 2 (IAH, ABQ) | 15:30 | 19:45 | 580.00
+CLT | SAF | DL | 2 (ATL, DEN) | 17:00 | 21:15 | 610.00
+CLT | SAF | WN | 2 (DAL, TPA) | 18:30 | 22:45 | 540.00
+SAF | CLT | AA | 1 (DFW) | 08:00 | 11:15 | 425.00
+SAF | CLT | UA | 1 (IAH) | 09:30 | 12:45 | 450.00
+SAF | CLT | DL | 1 (ATL) | 11:00 | 14:15 | 480.00
+SAF | CLT | WN | 1 (DAL) | 12:30 | 15:45 | 410.00
+SAF | CLT | AA | 2 (PHX, DFW) | 14:00 | 18:15 | 550.00
+SAF | CLT | UA | 2 (ABQ, IAH) | 15:30 | 19:45 | 580.00
+SAF | CLT | DL | 2 (DEN, ATL) | 17:00 | 21:15 | 610.00
+SAF | CLT | WN | 2 (TPA, DAL) | 18:30 | 22:45 | 540.00
+
+
+Here are the 16 flight plans:
+
+CLT | ABQ | AA | 1 (DFW) | 06:00 | 09:35 | 450.00
+CLT | ABQ | DL | 1 (ATL) | 08:30 | 12:05 | 520.00
+CLT | ABQ | UA | 2 (ORD, DEN) | 10:15 | 15:50 | 650.00
+CLT | ABQ | WN | 1 (HOU) | 12:45 | 16:20 | 380.00
+CLT | ABQ | F9 | 1 (DEN) | 14:00 | 17:35 | 420.00
+CLT | ABQ | AA | 0 | 15:30 | 18:05 | 580.00
+CLT | ABQ | DL | 1 (SLC) | 17:15 | 20:50 | 600.00
+CLT | ABQ | UA | 1 (IAH) | 19:00 | 22:35 | 550.00
+ABQ | CLT | AA | 1 (DFW) | 06:00 | 11:35 | 480.00
+ABQ | CLT | DL | 1 (ATL) | 08:30 | 14:05 | 540.00
+ABQ | CLT | UA | 2 (DEN, ORD) | 10:15 | 16:50 | 680.00
+ABQ | CLT | WN | 1 (HOU) | 12:45 | 17:20 | 400.00
+ABQ | CLT | F9 | 1 (DEN) | 14:00 | 18:35 | 440.00
+ABQ | CLT | AA | 0 | 15:30 | 19:05 | 590.00
+ABQ | CLT | DL | 1 (SLC) | 17:15 | 21:50 | 620.00
+ABQ | CLT | UA | 1 (IAH) | 19:00 | 23:35 | 570.00
+
+
+Here are the 16 flight plans:
+
+CLT | SAV | AA | 0 | 08:00 | 09:30 | 150.00
+CLT | SAV | DL | 1 (ATL) | 10:30 | 13:15 | 220.00
+CLT | SAV | UA | 0 | 12:00 | 13:30 | 180.00
+CLT | SAV | WN | 1 (BHM) | 14:00 | 16:45 | 240.00
+CLT | SAV | F9 | 0 | 16:30 | 18:00 | 120.00
+CLT | SAV | NK | 1 (EWR) | 18:00 | 21:30 | 280.00
+CLT | SAV | B6 | 0 | 20:00 | 21:30 | 200.00
+CLT | SAV | SY | 1 (MCO) | 22:00 | 01:45 | 320.00
+
+SAV | CLT | AA | 0 | 08:30 | 10:00 | 160.00
+SAV | CLT | DL | 1 (JAX) | 11:00 | 13:45 | 250.00
+SAV | CLT | UA | 0 | 13:30 | 15:00 | 190.00
+SAV | CLT | WN | 1 (PBI) | 15:00 | 17:45 | 260.00
+SAV | CLT | F9 | 0 | 18:00 | 19:30 | 130.00
+SAV | CLT | NK | 1 (ORD) | 20:00 | 23:30 | 300.00
+SAV | CLT | B6 | 0 | 21:30 | 23:00 | 210.00
+SAV | CLT | SY | 1 (TPA) | 23:30 | 02:15 | 330.00
+
+
+Here are the 16 flight plans:
+
+CLT | JAX | AA | 0 | 06:00 | 08:15 | 178.00
+CLT | JAX | DL | 1 (ATL) | 07:30 | 10:45 | 235.00
+CLT | JAX | UA | 0 | 08:45 | 11:00 | 198.00
+CLT | JAX | WN | 1 (BHM) | 09:15 | 12:30 | 220.00
+CLT | JAX | AA | 0 | 10:00 | 12:15 | 185.00
+CLT | JAX | DL | 1 (MCO) | 11:30 | 14:45 | 250.00
+CLT | JAX | UA | 0 | 12:45 | 15:00 | 210.00
+CLT | JAX | WN | 1 (CHS) | 14:00 | 17:15 | 240.00
+JAX | CLT | AA | 0 | 06:00 | 08:15 | 178.00
+JAX | CLT | DL | 1 (ATL) | 07:30 | 10:45 | 235.00
+JAX | CLT | UA | 0 | 08:45 | 11:00 | 198.00
+JAX | CLT | WN | 1 (BHM) | 09:15 | 12:30 | 220.00
+JAX | CLT | AA | 0 | 10:00 | 12:15 | 185.00
+JAX | CLT | DL | 1 (MCO) | 11:30 | 14:45 | 250.00
+JAX | CLT | UA | 0 | 12:45 | 15:00 | 210.00
+JAX | CLT | WN | 1 (CHS) | 14:00 | 17:15 | 240.00
+
+
+Here are the 16 flight plans:
+
+CLT | SFB | AA | 0 | 06:00 | 08:15 | 198.00
+CLT | SFB | DL | 1 (ATL) | 08:30 | 11:45 | 229.00
+CLT | SFB | WN | 0 | 10:00 | 12:20 | 209.00
+CLT | SFB | UA | 1 (EWR) | 12:30 | 15:50 | 249.00
+CLT | SFB | F9 | 0 | 14:00 | 16:25 | 189.00
+CLT | SFB | NK | 1 (TPA) | 16:00 | 19:20 | 219.00
+CLT | SFB | B6 | 0 | 18:00 | 20:20 | 199.00
+CLT | SFB | SY | 1 (MCO) | 20:00 | 23:20 | 239.00
+SFB | CLT | AA | 0 | 06:30 | 08:45 | 208.00
+SFB | CLT | DL | 1 (ATL) | 09:00 | 12:15 | 239.00
+SFB | CLT | WN | 0 | 11:00 | 13:20 | 219.00
+SFB | CLT | UA | 1 (EWR) | 13:30 | 16:50 | 259.00
+SFB | CLT | F9 | 0 | 15:00 | 17:25 | 199.00
+SFB | CLT | NK | 1 (TPA) | 17:00 | 20:20 | 229.00
+SFB | CLT | B6 | 0 | 19:00 | 21:20 | 209.00
+SFB | CLT | SY | 1 (MCO) | 21:00 | 00:20 | 249.00
+
+
+Here are the 16 flight plans:
+
+CLT | MTJ | AA | 1 (DEN) | 06:00 | 09:35 | 425.00
+CLT | MTJ | UA | 0 | 08:30 | 11:05 | 450.00
+CLT | MTJ | DL | 1 (ATL) | 10:15 | 13:50 | 480.00
+CLT | MTJ | WN | 1 (STL) | 12:00 | 15:35 | 400.00
+CLT | MTJ | AA | 0 | 14:45 | 17:20 | 420.00
+CLT | MTJ | UA | 1 (ORD) | 16:30 | 19:55 | 460.00
+CLT | MTJ | DL | 0 | 18:15 | 20:50 | 440.00
+CLT | MTJ | WN | 1 (BNA) | 20:00 | 23:25 | 410.00
+
+MTJ | CLT | UA | 1 (IAH) | 06:00 | 11:35 | 430.00
+MTJ | CLT | AA | 0 | 08:30 | 13:05 | 460.00
+MTJ | CLT | DL | 1 (MSP) | 10:15 | 14:50 | 490.00
+MTJ | CLT | WN | 1 (DAL) | 12:00 | 15:35 | 420.00
+MTJ | CLT | UA | 0 | 14:45 | 17:20 | 450.00
+MTJ | CLT | AA | 1 (DFW) | 16:30 | 19:55 | 480.00
+MTJ | CLT | DL | 0 | 18:15 | 20:50 | 470.00
+MTJ | CLT | WN | 1 (MDW) | 20:00 | 23:25 | 440.00
+
+
+Here are the 16 flight plans:
+
+CLT | DRO | American Airlines | 1 (DFW) | 08:00 | 11:15 | 450.00
+CLT | DRO | Delta Air Lines | 0 | 09:30 | 11:45 | 520.00
+CLT | DRO | United Airlines | 1 (ORD) | 10:45 | 14:00 | 480.00
+CLT | DRO | Frontier Airlines | 1 (DEN) | 12:00 | 15:20 | 380.00
+CLT | DRO | Spirit Airlines | 1 (LAS) | 13:15 | 16:30 | 420.00
+CLT | DRO | Southwest Airlines | 0 | 14:30 | 17:00 | 550.00
+CLT | DRO | Alaska Airlines | 1 (SFO) | 15:45 | 19:05 | 500.00
+CLT | DRO | JetBlue Airways | 1 (JFK) | 17:00 | 20:20 | 460.00
+DRO | CLT | American Airlines | 1 (PHX) | 08:15 | 12:30 | 490.00
+DRO | CLT | Delta Air Lines | 0 | 09:45 | 13:00 | 580.00
+DRO | CLT | United Airlines | 1 (IAH) | 11:00 | 14:20 | 510.00
+DRO | CLT | Frontier Airlines | 1 (MCO) | 12:30 | 15:50 | 440.00
+DRO | CLT | Spirit Airlines | 1 (ATL) | 13:45 | 16:55 | 480.00
+DRO | CLT | Southwest Airlines | 0 | 15:00 | 17:25 | 600.00
+DRO | CLT | Alaska Airlines | 1 (SEA) | 16:15 | 19:35 | 530.00
+DRO | CLT | JetBlue Airways | 1 (BOS) | 17:30 | 20:50 | 500.00
+
+
+Here are the 16 flight plans:
+
+CLT | BOZ | AA | 0 | 08:00 | 11:15 | 450.00
+CLT | BOZ | UA | 1 (ORD) | 09:30 | 14:45 | 520.00
+CLT | BOZ | DL | 0 | 11:00 | 14:20 | 480.00
+CLT | BOZ | WN | 1 (MDW) | 12:15 | 17:30 | 550.00
+CLT | BOZ | AS | 0 | 14:00 | 17:20 | 500.00
+CLT | BOZ | B6 | 1 (JFK) | 15:30 | 20:45 | 580.00
+CLT | BOZ | F9 | 0 | 17:00 | 20:20 | 530.00
+CLT | BOZ | NK | 1 (EWR) | 18:30 | 23:45 | 610.00
+BOZ | CLT | AA | 0 | 08:00 | 11:15 | 450.00
+BOZ | CLT | UA | 1 (DEN) | 09:30 | 14:45 | 520.00
+BOZ | CLT | DL | 0 | 11:00 | 14:20 | 480.00
+BOZ | CLT | WN | 1 (HOU) | 12:15 | 17:30 | 550.00
+BOZ | CLT | AS | 0 | 14:00 | 17:20 | 500.00
+BOZ | CLT | B6 | 1 (BOS) | 15:30 | 20:45 | 580.00
+BOZ | CLT | F9 | 0 | 17:00 | 20:20 | 530.00
+BOZ | CLT | NK | 1 (LAX) | 18:30 | 23:45 | 610.00
+
+
+Here are the 16 flight plans:
+
+CLT | JAC | AA | 1 (DEN) | 08:00 | 11:15 | 542.00
+CLT | JAC | UA | 0 | 09:30 | 12:45 | 620.00
+CLT | JAC | DL | 1 (ATL) | 10:45 | 14:00 | 580.00
+CLT | JAC | WN | 1 (MDW) | 12:00 | 15:15 | 510.00
+CLT | JAC | AS | 1 (SEA) | 13:15 | 16:30 | 650.00
+CLT | JAC | F9 | 1 (DEN) | 14:30 | 17:45 | 420.00
+CLT | JAC | NK | 1 (ORD) | 15:45 | 19:00 | 450.00
+CLT | JAC | B6 | 1 (JFK) | 17:00 | 20:15 | 500.00
+JAC | CLT | AA | 1 (DEN) | 08:00 | 11:15 | 542.00
+JAC | CLT | UA | 0 | 09:30 | 12:45 | 620.00
+JAC | CLT | DL | 1 (ATL) | 10:45 | 14:00 | 580.00
+JAC | CLT | WN | 1 (MDW) | 12:00 | 15:15 | 510.00
+JAC | CLT | AS | 1 (SEA) | 13:15 | 16:30 | 650.00
+JAC | CLT | F9 | 1 (DEN) | 14:30 | 17:45 | 420.00
+JAC | CLT | NK | 1 (ORD) | 15:45 | 19:00 | 450.00
+JAC | CLT | B6 | 1 (JFK) | 17:00 | 20:15 | 500.00
+
+
+Here are the 16 flight plans:
+
+CLT | FAT | AA | 0 | 08:00 | 10:35 | 425.00
+CLT | FAT | DL | 1 (DEN) | 09:15 | 12:50 | 550.00
+CLT | FAT | UA | 0 | 10:30 | 13:05 | 475.00
+CLT | FAT | WN | 1 (PHX) | 11:45 | 15:20 | 525.00
+CLT | FAT | AS | 0 | 13:00 | 15:35 | 450.00
+CLT | FAT | B6 | 1 (LAX) | 14:15 | 17:40 | 600.00
+CLT | FAT | F9 | 0 | 15:30 | 18:05 | 400.00
+CLT | FAT | NK | 1 (ORD) | 16:45 | 20:10 | 575.00
+
+FAT | CLT | AA | 0 | 06:00 | 13:25 | 450.00
+FAT | CLT | DL | 1 (SFO) | 07:15 | 14:50 | 625.00
+FAT | CLT | UA | 0 | 08:30 | 16:05 | 500.00
+FAT | CLT | WN | 1 (DEN) | 09:45 | 17:20 | 575.00
+FAT | CLT | AS | 0 | 11:00 | 18:35 | 475.00
+FAT | CLT | B6 | 1 (JFK) | 12:15 | 20:40 | 650.00
+FAT | CLT | F9 | 0 | 13:30 | 20:05 | 425.00
+FAT | CLT | NK | 1 (MIA) | 14:45 | 22:10 | 600.00
+
+
+Here are the 16 flight plans:
+
+CLT | SJC | AA | 1 (DFW) | 08:00 | 11:30 | 450.00
+CLT | SJC | UA | 0 | 09:30 | 12:45 | 520.00
+CLT | SJC | WN | 1 (DAL) | 10:15 | 14:00 | 480.00
+CLT | SJC | DL | 1 (ATL) | 11:45 | 15:30 | 550.00
+CLT | SJC | AS | 1 (SEA) | 12:30 | 16:15 | 500.00
+CLT | SJC | F9 | 1 (DEN) | 13:15 | 17:00 | 420.00
+CLT | SJC | B6 | 1 (JFK) | 14:00 | 18:45 | 490.00
+CLT | SJC | NK | 1 (ORD) | 15:45 | 20:30 | 460.00
+SJC | CLT | AA | 1 (PHX) | 06:00 | 14:30 | 440.00
+SJC | CLT | UA | 0 | 07:30 | 15:45 | 510.00
+SJC | CLT | WN | 1 (HOU) | 08:15 | 17:00 | 470.00
+SJC | CLT | DL | 1 (SFO) | 09:45 | 18:30 | 530.00
+SJC | CLT | AS | 1 (PDX) | 10:30 | 19:15 | 500.00
+SJC | CLT | F9 | 1 (LAS) | 11:15 | 20:00 | 430.00
+SJC | CLT | B6 | 1 (MIA) | 12:00 | 21:45 | 490.00
+SJC | CLT | NK | 1 (IAH) | 13:45 | 23:30 | 450.00
+
+
+Here are the 16 flight plans:
+
+CLT | SGU | American Airlines | 1 (DFW) | 08:00 | 11:30 | 420.00
+CLT | SGU | Delta Air Lines | 0 | 10:30 | 13:45 | 450.00
+CLT | SGU | United Airlines | 1 (IAH) | 12:00 | 15:15 | 480.00
+CLT | SGU | Frontier Airlines | 0 | 14:00 | 17:15 | 380.00
+CLT | SGU | Southwest Airlines | 1 (DAL) | 16:00 | 19:20 | 410.00
+CLT | SGU | JetBlue Airways | 0 | 18:00 | 21:15 | 430.00
+CLT | SGU | Spirit Airlines | 1 (LAS) | 20:00 | 23:20 | 400.00
+CLT | SGU | Alaska Airlines | 0 | 22:00 | 01:15 | 460.00
+
+SGU | CLT | American Airlines | 1 (PHX) | 07:00 | 12:30 | 440.00
+SGU | CLT | Delta Air Lines | 0 | 09:00 | 14:15 | 470.00
+SGU | CLT | United Airlines | 1 (SFO) | 11:00 | 16:20 | 500.00
+SGU | CLT | Frontier Airlines | 0 | 13:00 | 16:15 | 390.00
+SGU | CLT | Southwest Airlines | 1 (HOU) | 15:00 | 18:25 | 420.00
+SGU | CLT | JetBlue Airways | 0 | 17:00 | 20:15 | 450.00
+SGU | CLT | Spirit Airlines | 1 (ORD) | 19:00 | 22:25 | 410.00
+SGU | CLT | Alaska Airlines | 0 | 21:00 | 00:15 | 480.00
+
+
+Here are the 16 flight plans:
+
+CLT | LAS | AA | 1 (DFW) | 08:00 | 10:30 | 350.00
+CLT | LAS | UA | 0 | 09:00 | 11:15 | 420.00
+CLT | LAS | WN | 1 (DAL) | 10:00 | 12:45 | 280.00
+CLT | LAS | DL | 1 (ATL) | 11:00 | 14:00 | 400.00
+CLT | LAS | AS | 1 (SEA) | 12:00 | 15:30 | 450.00
+CLT | LAS | B6 | 1 (JFK) | 13:00 | 16:15 | 380.00
+CLT | LAS | F9 | 0 | 14:00 | 16:30 | 240.00
+CLT | LAS | NK | 1 (ORD) | 15:00 | 18:00 | 320.00
+LAS | CLT | AA | 1 (PHX) | 08:00 | 15:30 | 360.00
+LAS | CLT | UA | 0 | 09:00 | 16:15 | 440.00
+LAS | CLT | WN | 1 (HOU) | 10:00 | 17:45 | 300.00
+LAS | CLT | DL | 1 (SFO) | 11:00 | 19:00 | 420.00
+LAS | CLT | AS | 1 (PDX) | 12:00 | 20:30 | 460.00
+LAS | CLT | B6 | 1 (BOS) | 13:00 | 21:15 | 400.00
+LAS | CLT | F9 | 0 | 14:00 | 21:30 | 260.00
+LAS | CLT | NK | 1 (DEN) | 15:00 | 23:00 | 340.00
+
+
+Here are the 16 flight plans:
+
+CLT | AMS | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+CLT | AMS | DL | 1 (CDG) | 09:30 | 20:00 | 920.00
+CLT | AMS | UA | 0 | 11:00 | 15:30 | 700.00
+CLT | AMS | LH | 1 (FRA) | 12:30 | 21:00 | 950.00
+CLT | AMS | KL | 0 | 14:00 | 18:30 | 750.00
+CLT | AMS | BA | 1 (LHR) | 15:30 | 22:00 | 980.00
+CLT | AMS | AF | 1 (CDG) | 17:00 | 23:30 | 1000.00
+CLT | AMS | VS | 1 (LHR) | 19:00 | 01:30 | 1050.00
+AMS | CLT | KL | 0 | 08:00 | 12:30 | 800.00
+AMS | CLT | DL | 1 (ATL) | 09:30 | 15:00 | 900.00
+AMS | CLT | UA | 1 (EWR) | 11:00 | 16:30 | 950.00
+AMS | CLT | LH | 1 (FRA) | 12:30 | 18:00 | 1000.00
+AMS | CLT | AA | 1 (PHL) | 14:00 | 19:30 | 1050.00
+AMS | CLT | BA | 1 (LHR) | 15:30 | 21:00 | 1100.00
+AMS | CLT | AF | 1 (CDG) | 17:00 | 23:30 | 1150.00
+AMS | CLT | VS | 1 (LHR) | 19:00 | 01:30 | 1200.00
+
+
+Here are the 16 flight plans:
+
+CLT | AUA | AA | 0 | 08:00 | 12:30 | 450.00
+CLT | AUA | DL | 1 (MIA) | 09:15 | 14:45 | 520.00
+CLT | AUA | UA | 0 | 10:30 | 15:00 | 480.00
+CLT | AUA | WN | 1 (FLL) | 11:45 | 17:15 | 550.00
+CLT | AUA | B6 | 0 | 13:00 | 17:30 | 500.00
+CLT | AUA | AS | 1 (SJU) | 14:15 | 19:45 | 580.00
+CLT | AUA | F9 | 0 | 15:30 | 20:00 | 530.00
+CLT | AUA | NK | 1 (PBI) | 16:45 | 22:15 | 610.00
+AUA | CLT | AA | 0 | 08:30 | 12:00 | 420.00
+AUA | CLT | DL | 1 (ATL) | 09:45 | 14:15 | 490.00
+AUA | CLT | UA | 0 | 11:00 | 15:30 | 450.00
+AUA | CLT | WN | 1 (BNA) | 12:15 | 17:45 | 520.00
+AUA | CLT | B6 | 0 | 13:30 | 18:00 | 480.00
+AUA | CLT | AS | 1 (MCO) | 14:45 | 20:15 | 560.00
+AUA | CLT | F9 | 0 | 16:00 | 20:30 | 510.00
+AUA | CLT | NK | 1 (RDU) | 17:15 | 22:45 | 590.00
+
+
+Here are the 16 flight plans:
+
+CLT | ATH | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+CLT | ATH | UA | 1 (EWR) | 10:30 | 21:00 | 920.00
+CLT | ATH | DL | 1 (CDG) | 12:45 | 23:15 | 950.00
+CLT | ATH | LH | 1 (FRA) | 14:15 | 00:45 | 980.00
+CLT | ATH | BA | 1 (LHR) | 16:00 | 02:30 | 1010.00
+CLT | ATH | TK | 1 (IST) | 18:30 | 05:00 | 1050.00
+CLT | ATH | AF | 1 (CDG) | 20:45 | 07:15 | 1100.00
+CLT | ATH | AZ | 1 (MXP) | 22:15 | 08:45 | 1150.00
+ATH | CLT | AA | 1 (LHR) | 09:00 | 19:30 | 870.00
+ATH | CLT | UA | 1 (EWR) | 11:30 | 22:00 | 940.00
+ATH | CLT | DL | 1 (CDG) | 13:45 | 00:15 | 970.00
+ATH | CLT | LH | 1 (FRA) | 15:15 | 01:45 | 1000.00
+ATH | CLT | BA | 1 (LHR) | 17:00 | 03:30 | 1030.00
+ATH | CLT | TK | 1 (IST) | 19:30 | 06:00 | 1070.00
+ATH | CLT | AF | 1 (CDG) | 21:45 | 08:15 | 1120.00
+ATH | CLT | AZ | 1 (MXP) | 23:15 | 09:45 | 1170.00
+
+
+Here are the 16 flight plans:
+
+CLT | AKL | AA | 1 (LAX) | 08:00 | 06:30 | 850.00
+CLT | AKL | NZ | 0 | 10:00 | 08:30 | 1200.00
+CLT | AKL | UA | 2 (SFO, HNL) | 12:00 | 10:30 | 950.00
+CLT | AKL | QF | 1 (DFW) | 14:00 | 12:30 | 1000.00
+CLT | AKL | DL | 1 (ATL) | 16:00 | 14:30 | 900.00
+CLT | AKL | VA | 2 (LAX, SYD) | 18:00 | 16:30 | 1100.00
+CLT | AKL | AC | 1 (YYZ) | 20:00 | 18:30 | 1050.00
+CLT | AKL | LA | 1 (SCL) | 22:00 | 20:30 | 1250.00
+AKL | CLT | NZ | 0 | 09:00 | 07:30 | 1300.00
+AKL | CLT | UA | 1 (SFO) | 11:00 | 09:30 | 1000.00
+AKL | CLT | AA | 2 (LAX, DFW) | 13:00 | 11:30 | 1150.00
+AKL | CLT | QF | 1 (SYD) | 15:00 | 13:30 | 1050.00
+AKL | CLT | DL | 1 (ATL) | 17:00 | 15:30 | 950.00
+AKL | CLT | VA | 2 (SYD, LAX) | 19:00 | 17:30 | 1200.00
+AKL | CLT | AC | 1 (YYZ) | 21:00 | 19:30 | 1100.00
+AKL | CLT | LA | 1 (SCL) | 23:00 | 21:30 | 1350.00
+
+
+Here are the 16 flight plans:
+
+CLT | DPS | AA | 1 (DFW) | 08:00 | 18:30 | 950.00
+CLT | DPS | UA | 2 (EWR, SFO) | 09:15 | 21:45 | 1200.00
+CLT | DPS | DL | 1 (ATL) | 10:30 | 20:00 | 1050.00
+CLT | DPS | WN | 2 (BNA, LAX) | 11:45 | 23:15 | 1100.00
+CLT | DPS | AS | 1 (SEA) | 13:00 | 22:30 | 1000.00
+CLT | DPS | B6 | 2 (JFK, LAX) | 14:15 | 01:45 | 1250.00
+CLT | DPS | F9 | 1 (DEN) | 15:30 | 23:59 | 900.00
+CLT | DPS | NK | 2 (FLL, LAX) | 16:45 | 02:15 | 1150.00
+DPS | CLT | AA | 1 (DFW) | 07:00 | 17:30 | 980.00
+DPS | CLT | UA | 2 (SFO, EWR) | 08:15 | 20:45 | 1300.00
+DPS | CLT | DL | 1 (ATL) | 09:30 | 19:00 | 1080.00
+DPS | CLT | WN | 2 (LAX, BNA) | 10:45 | 22:15 | 1120.00
+DPS | CLT | AS | 1 (SEA) | 12:00 | 21:30 | 1020.00
+DPS | CLT | B6 | 2 (LAX, JFK) | 13:15 | 00:45 | 1280.00
+DPS | CLT | F9 | 1 (DEN) | 14:30 | 22:59 | 920.00
+DPS | CLT | NK | 2 (LAX, FLL) | 15:45 | 01:15 | 1180.00
+
+
+Here are the 16 flight plans:
+
+CLT | BCN | AA | 1 (MAD) | 08:00 | 18:30 | 850.00
+CLT | BCN | IBERIA | 0 | 10:30 | 20:00 | 950.00
+CLT | BCN | DELTA | 1 (CDG) | 12:00 | 22:30 | 1050.00
+CLT | BCN | LATAM | 2 (MIA, MAD) | 14:00 | 01:00 | 1200.00
+CLT | BCN | UNITED | 1 (EWR) | 16:00 | 00:30 | 1100.00
+CLT | BCN | TAP | 1 (LIS) | 18:00 | 02:30 | 1000.00
+CLT | BCN | SWISS | 1 (ZRH) | 20:00 | 04:30 | 1150.00
+CLT | BCN | LUFTHANSA | 1 (FRA) | 22:00 | 06:30 | 1250.00
+
+BCN | CLT | AA | 1 (MAD) | 08:00 | 14:30 | 850.00
+BCN | CLT | IBERIA | 0 | 10:30 | 16:00 | 950.00
+BCN | CLT | DELTA | 1 (CDG) | 12:00 | 18:30 | 1050.00
+BCN | CLT | LATAM | 2 (MIA, MAD) | 14:00 | 22:00 | 1200.00
+BCN | CLT | UNITED | 1 (EWR) | 16:00 | 20:30 | 1100.00
+BCN | CLT | TAP | 1 (LIS) | 18:00 | 00:30 | 1000.00
+BCN | CLT | SWISS | 1 (ZRH) | 20:00 | 02:30 | 1150.00
+BCN | CLT | LUFTHANSA | 1 (FRA) | 22:00 | 04:30 | 1250.00
+
+
+Here are the 16 flight plans:
+
+CLT | PEK | AA | 1 (NRT) | 10:30 | 14:45 | 850.00
+CLT | PEK | UA | 2 (SFO, HKG) | 13:15 | 18:00 | 1050.00
+CLT | PEK | DL | 1 (ICN) | 08:00 | 12:15 | 920.00
+CLT | PEK | KE | 1 (ICN) | 09:45 | 14:00 | 900.00
+CLT | PEK | CA | 1 (PVG) | 11:50 | 16:10 | 980.00
+CLT | PEK | MU | 2 (PVG, XIY) | 14:20 | 20:35 | 1150.00
+CLT | PEK | HU | 1 (XIY) | 16:10 | 21:25 | 1000.00
+CLT | PEK | CZ | 1 (CAN) | 17:30 | 22:45 | 1020.00
+
+PEK | CLT | AA | 1 (NRT) | 09:00 | 10:25 | 880.00
+PEK | CLT | UA | 2 (HKG, SFO) | 11:45 | 14:10 | 1100.00
+PEK | CLT | DL | 1 (ICN) | 13:30 | 16:55 | 950.00
+PEK | CLT | KE | 1 (ICN) | 15:15 | 18:40 | 930.00
+PEK | CLT | CA | 1 (PVG) | 17:00 | 20:25 | 990.00
+PEK | CLT | MU | 2 (XIY, PVG) | 19:20 | 23:45 | 1180.00
+PEK | CLT | HU | 1 (XIY) | 21:10 | 01:35 | 1040.00
+PEK | CLT | CZ | 1 (CAN) | 22:50 | 03:15 | 1060.00
+
+
+Here are the 16 flight plans:
+
+CLT | BER | AA | 1 (PHL) | 08:00 | 18:30 | 850.00
+CLT | BER | UA | 1 (EWR) | 10:30 | 20:50 | 900.00
+CLT | BER | DL | 1 (ATL) | 12:00 | 22:20 | 950.00
+CLT | BER | LH | 0 | 14:00 | 06:00 | 1100.00
+CLT | BER | AC | 1 (YYZ) | 15:30 | 07:50 | 1000.00
+CLT | BER | BA | 1 (LHR) | 17:00 | 09:20 | 1200.00
+CLT | BER | KL | 1 (AMS) | 18:30 | 10:50 | 1050.00
+CLT | BER | TK | 1 (IST) | 20:00 | 12:20 | 1150.00
+BER | CLT | AA | 1 (PHL) | 08:00 | 18:30 | 850.00
+BER | CLT | UA | 1 (EWR) | 10:30 | 20:50 | 900.00
+BER | CLT | DL | 1 (ATL) | 12:00 | 22:20 | 950.00
+BER | CLT | LH | 0 | 14:00 | 06:00 | 1100.00
+BER | CLT | AC | 1 (YYZ) | 15:30 | 07:50 | 1000.00
+BER | CLT | BA | 1 (LHR) | 17:00 | 09:20 | 1200.00
+BER | CLT | KL | 1 (AMS) | 18:30 | 10:50 | 1050.00
+BER | CLT | TK | 1 (IST) | 20:00 | 12:20 | 1150.00
+
+
+Here are the 16 flight plans:
+
+CLT | EZE | American Airlines | Non-stop | 08:00 | 20:35 | 850.00
+CLT | EZE | LATAM | 1 stop (SCL) | 09:15 | 22:50 | 950.00
+CLT | EZE | Delta Air Lines | 1 stop (ATL) | 10:30 | 23:55 | 1050.00
+CLT | EZE | Avianca | 2 stops (BOG, LIM) | 11:45 | 02:20 (+1) | 1200.00
+CLT | EZE | United Airlines | Non-stop | 13:00 | 01:35 (+1) | 1100.00
+CLT | EZE | Copa Airlines | 1 stop (PTY) | 14:15 | 03:40 (+1) | 1000.00
+CLT | EZE | Aerolineas Argentinas | 2 stops (MIA, SCL) | 15:30 | 05:00 (+1) | 1300.00
+CLT | EZE | Spirit Airlines | 1 stop (FLL) | 16:45 | 06:10 (+1) | 900.00
+
+EZE | CLT | LATAM | Non-stop | 21:00 | 07:35 (+1) | 900.00
+EZE | CLT | American Airlines | 1 stop (SCL) | 22:15 | 09:50 (+1) | 1000.00
+EZE | CLT | Delta Air Lines | 1 stop (ATL) | 23:30 | 11:55 (+1) | 1100.00
+EZE | CLT | Avianca | 2 stops (LIM, BOG) | 00:45 (+1) | 14:20 (+1) | 1200.00
+EZE | CLT | United Airlines | Non-stop | 02:00 (+1) | 15:35 (+1) | 1050.00
+EZE | CLT | Copa Airlines | 1 stop (PTY) | 03:15 (+1) | 17:40 (+1) | 950.00
+EZE | CLT | Aerolineas Argentinas | 2 stops (SCL, MIA) | 04:30 (+1) | 19:00 (+1) | 1300.00
+EZE | CLT | Spirit Airlines | 1 stop (FLL) | 05:45 (+1) | 20:10 (+1) | 850.00
+
+
+Here are the 16 flight plans:
+
+CLT | SJD | AA | 1 (DFW) | 08:00 | 11:35 | 450.00
+CLT | SJD | DL | 0 | 09:30 | 12:50 | 520.00
+CLT | SJD | UA | 1 (IAH) | 10:15 | 13:40 | 480.00
+CLT | SJD | WN | 1 (HOU) | 11:00 | 14:20 | 400.00
+CLT | SJD | AS | 1 (LAX) | 12:30 | 16:00 | 550.00
+CLT | SJD | B6 | 1 (FLL) | 13:45 | 17:10 | 500.00
+CLT | SJD | NK | 1 (FLL) | 15:00 | 18:25 | 420.00
+CLT | SJD | F9 | 1 (DEN) | 16:15 | 19:40 | 460.00
+SJD | CLT | AA | 1 (PHX) | 08:00 | 15:30 | 480.00
+SJD | CLT | DL | 0 | 09:30 | 16:50 | 550.00
+SJD | CLT | UA | 1 (SFO) | 10:15 | 17:40 | 500.00
+SJD | CLT | WN | 1 (DAL) | 11:00 | 18:20 | 440.00
+SJD | CLT | AS | 1 (SEA) | 12:30 | 20:00 | 520.00
+SJD | CLT | B6 | 1 (JFK) | 13:45 | 21:10 | 480.00
+SJD | CLT | NK | 1 (MCO) | 15:00 | 22:25 | 460.00
+SJD | CLT | F9 | 1 (ATL) | 16:15 | 23:40 | 420.00
+
+
+Here are the 16 flight plans:
+
+CLT | CAI | AA | 1 (LHR) | 08:00 | 20:30 | 850.00
+CLT | CAI | BA | 2 (LHR, FRA) | 10:30 | 23:50 | 1050.00
+CLT | CAI | EK | 1 (DXB) | 14:00 | 06:30 | 950.00
+CLT | CAI | QR | 1 (DOH) | 16:00 | 08:30 | 1000.00
+CLT | CAI | UA | 2 (EWR, FRA) | 18:00 | 12:30 | 1100.00
+CLT | CAI | LH | 1 (FRA) | 20:00 | 14:30 | 900.00
+CLT | CAI | TK | 1 (IST) | 22:00 | 16:30 | 1050.00
+CLT | CAI | SU | 2 (SVO, DXB) | 00:30 | 18:50 | 1200.00
+
+CAI | CLT | AA | 1 (LHR) | 09:00 | 21:30 | 800.00
+CAI | CLT | BA | 2 (FRA, LHR) | 11:30 | 01:50 | 1000.00
+CAI | CLT | EK | 1 (DXB) | 15:00 | 07:30 | 900.00
+CAI | CLT | QR | 1 (DOH) | 17:00 | 09:30 | 950.00
+CAI | CLT | UA | 2 (FRA, EWR) | 19:00 | 13:30 | 1050.00
+CAI | CLT | LH | 1 (FRA) | 21:00 | 15:30 | 850.00
+CAI | CLT | TK | 1 (IST) | 23:00 | 17:30 | 1000.00
+CAI | CLT | SU | 2 (DXB, SVO) | 01:30 | 19:50 | 1150.00
+
+
+Here are the 16 flight plans:
+
+CLT | CUN | AA | 0 | 08:00 | 11:35 | 450.00
+CLT | CUN | DL | 1 (MIA) | 09:15 | 14:10 | 520.00
+CLT | CUN | UA | 0 | 10:30 | 13:50 | 480.00
+CLT | CUN | WN | 1 (FLL) | 11:45 | 16:20 | 550.00
+CLT | CUN | B6 | 0 | 13:00 | 16:25 | 500.00
+CLT | CUN | AS | 1 (ATL) | 14:15 | 18:40 | 580.00
+CLT | CUN | F9 | 0 | 15:30 | 18:45 | 530.00
+CLT | CUN | NK | 1 (TPA) | 16:45 | 20:50 | 610.00
+CUN | CLT | AA | 0 | 08:30 | 12:05 | 420.00
+CUN | CLT | DL | 1 (MCO) | 09:50 | 14:35 | 490.00
+CUN | CLT | UA | 0 | 11:15 | 14:40 | 450.00
+CUN | CLT | WN | 1 (HOU) | 12:30 | 16:55 | 520.00
+CUN | CLT | B6 | 0 | 13:45 | 17:10 | 480.00
+CUN | CLT | AS | 1 (DCA) | 15:00 | 19:25 | 550.00
+CUN | CLT | F9 | 0 | 16:15 | 19:30 | 500.00
+CUN | CLT | NK | 1 (BWI) | 17:30 | 21:45 | 580.00
+
+
+Here are the 16 flight plans:
+
+CLT | CPT | AA | 1 (JNB) | 08:00 | 18:30 | 850.00
+CLT | CPT | UA | 2 (EWR, LHR) | 10:30 | 21:15 | 1100.00
+CLT | CPT | DL | 0 | 12:45 | 07:00 | 900.00
+CLT | CPT | LH | 1 (FRA) | 14:15 | 09:30 | 1200.00
+CLT | CPT | BA | 2 (LHR, JNB) | 16:00 | 11:45 | 1300.00
+CLT | CPT | QR | 1 (DOH) | 18:30 | 14:15 | 1000.00
+CLT | CPT | EK | 1 (DXB) | 20:45 | 17:00 | 950.00
+CLT | CPT | SA | 0 | 22:15 | 09:00 | 1050.00
+CPT | CLT | AA | 1 (JNB) | 08:00 | 18:30 | 850.00
+CPT | CLT | UA | 2 (LHR, EWR) | 10:30 | 21:15 | 1100.00
+CPT | CLT | DL | 0 | 12:45 | 07:00 | 900.00
+CPT | CLT | LH | 1 (FRA) | 14:15 | 09:30 | 1200.00
+CPT | CLT | BA | 2 (JNB, LHR) | 16:00 | 11:45 | 1300.00
+CPT | CLT | QR | 1 (DOH) | 18:30 | 14:15 | 1000.00
+CPT | CLT | EK | 1 (DXB) | 20:45 | 17:00 | 950.00
+CPT | CLT | SA | 0 | 22:15 | 09:00 | 1050.00
+
+
+Here are the 16 flight plans:
+
+CLT | CPH | American Airlines | Non-stop | 08:00 | 18:30 | 850.00
+CLT | CPH | Lufthansa | 1 (FRA) | 10:30 | 20:00 | 920.00
+CLT | CPH | Delta Air Lines | Non-stop | 12:00 | 22:00 | 950.00
+CLT | CPH | United Airlines | 1 (EWR) | 14:00 | 23:30 | 780.00
+CLT | CPH | Air Canada | 1 (YYZ) | 16:00 | 01:00 | 820.00
+CLT | CPH | British Airways | 1 (LHR) | 18:00 | 02:30 | 900.00
+CLT | CPH | KLM Royal Dutch | 1 (AMS) | 20:00 | 04:00 | 860.00
+CLT | CPH | SAS | Non-stop | 22:00 | 06:00 | 980.00
+
+CPH | CLT | American Airlines | Non-stop | 09:00 | 13:30 | 870.00
+CPH | CLT | Lufthansa | 1 (FRA) | 11:30 | 16:00 | 940.00
+CPH | CLT | Delta Air Lines | Non-stop | 13:30 | 18:00 | 970.00
+CPH | CLT | United Airlines | 1 (EWR) | 15:30 | 20:00 | 800.00
+CPH | CLT | Air Canada | 1 (YYZ) | 17:30 | 22:00 | 840.00
+CPH | CLT | British Airways | 1 (LHR) | 19:30 | 00:00 | 920.00
+CPH | CLT | KLM Royal Dutch | 1 (AMS) | 21:30 | 02:30 | 880.00
+CPH | CLT | SAS | Non-stop | 23:30 | 05:00 | 1000.00
+
+
+Here are the 16 flight plans:
+
+CLT | DXB | American Airlines | 1 (LHR) | 08:00 | 19:30 | 850.00
+CLT | DXB | Emirates | 0 | 10:30 | 20:00 | 1200.00
+CLT | DXB | Lufthansa | 1 (FRA) | 12:00 | 22:30 | 1000.00
+CLT | DXB | Turkish Airlines | 1 (IST) | 14:00 | 00:30 | 900.00
+CLT | DXB | Qatar Airways | 1 (DOH) | 16:00 | 02:30 | 1100.00
+CLT | DXB | British Airways | 1 (LHR) | 18:00 | 04:30 | 950.00
+CLT | DXB | KLM | 1 (AMS) | 20:00 | 06:30 | 1050.00
+CLT | DXB | Air France | 1 (CDG) | 22:00 | 08:30 | 1020.00
+
+DXB | CLT | Emirates | 0 | 02:00 | 10:30 | 1300.00
+DXB | CLT | Lufthansa | 1 (FRA) | 04:00 | 12:30 | 1150.00
+DXB | CLT | Turkish Airlines | 1 (IST) | 06:00 | 14:30 | 1050.00
+DXB | CLT | Qatar Airways | 1 (DOH) | 08:00 | 16:30 | 1200.00
+DXB | CLT | British Airways | 1 (LHR) | 10:00 | 18:30 | 1100.00
+DXB | CLT | KLM | 1 (AMS) | 12:00 | 20:30 | 1250.00
+DXB | CLT | Air France | 1 (CDG) | 14:00 | 22:30 | 1180.00
+DXB | CLT | American Airlines | 1 (LHR) | 16:00 | 00:30 | 1000.00
+
+
+Here are the 16 flight plans:
+
+CLT | DUB | AA | 0 | 08:00 | 17:30 | 450.00
+CLT | DUB | UA | 1 (EWR) | 09:30 | 19:15 | 520.00
+CLT | DUB | DL | 0 | 11:00 | 20:45 | 480.00
+CLT | DUB | BA | 1 (LHR) | 12:30 | 22:10 | 550.00
+CLT | DUB | LH | 1 (FRA) | 14:00 | 23:50 | 580.00
+CLT | DUB | KL | 1 (AMS) | 15:30 | 01:15 | 610.00
+CLT | DUB | AF | 1 (CDG) | 17:00 | 02:45 | 630.00
+CLT | DUB | EI | 0 | 19:00 | 05:30 | 500.00
+DUB | CLT | AA | 0 | 08:30 | 12:15 | 420.00
+DUB | CLT | UA | 1 (EWR) | 10:00 | 14:45 | 490.00
+DUB | CLT | DL | 0 | 11:30 | 16:15 | 450.00
+DUB | CLT | BA | 1 (LHR) | 13:00 | 18:45 | 510.00
+DUB | CLT | LH | 1 (FRA) | 14:30 | 20:15 | 530.00
+DUB | CLT | KL | 1 (AMS) | 16:00 | 22:45 | 560.00
+DUB | CLT | AF | 1 (CDG) | 17:30 | 00:15 | 590.00
+DUB | CLT | EI | 0 | 19:30 | 03:15 | 470.00
+
+
+Here are the 16 flight plans:
+
+CLT | EDI | AA | Non-stop | 08:00 | 18:30 | 450.00
+CLT | EDI | BA | 1 (LHR) | 10:30 | 20:15 | 520.00
+CLT | EDI | UA | Non-stop | 12:00 | 22:00 | 480.00
+CLT | EDI | LH | 1 (FRA) | 14:00 | 23:45 | 550.00
+CLT | EDI | DL | 1 (AMS) | 16:00 | 01:15 | 500.00
+CLT | EDI | KL | 1 (AMS) | 18:00 | 02:45 | 530.00
+CLT | EDI | AF | 1 (CDG) | 20:00 | 04:30 | 560.00
+CLT | EDI | VS | Non-stop | 22:00 | 06:00 | 490.00
+EDI | CLT | AA | Non-stop | 08:00 | 13:30 | 420.00
+EDI | CLT | BA | 1 (LHR) | 10:30 | 16:15 | 490.00
+EDI | CLT | UA | Non-stop | 12:00 | 18:00 | 450.00
+EDI | CLT | LH | 1 (FRA) | 14:00 | 20:45 | 520.00
+EDI | CLT | DL | 1 (AMS) | 16:00 | 22:15 | 470.00
+EDI | CLT | KL | 1 (AMS) | 18:00 | 00:45 | 500.00
+EDI | CLT | AF | 1 (CDG) | 20:00 | 02:30 | 540.00
+EDI | CLT | VS | Non-stop | 22:00 | 04:00 | 460.00
+
+
+Here are the 16 flight plans:
+
+CLT | HAN | AA | 1 (NRT) | 08:00 | 22:30 | 850.00
+CLT | HAN | UA | 2 (SFO, HKG) | 09:30 | 23:50 | 1050.00
+CLT | HAN | DL | 1 (ICN) | 10:15 | 00:45 | 900.00
+CLT | HAN | QR | 1 (DOH) | 11:00 | 01:20 | 1100.00
+CLT | HAN | LH | 2 (FRA, BKK) | 12:00 | 02:10 | 1200.00
+CLT | HAN | CX | 1 (HKG) | 13:30 | 03:00 | 1000.00
+CLT | HAN | JL | 1 (NRT) | 14:45 | 04:15 | 950.00
+CLT | HAN | TG | 1 (BKK) | 16:00 | 05:30 | 1050.00
+HAN | CLT | AA | 1 (NRT) | 08:30 | 20:00 | 900.00
+HAN | CLT | UA | 2 (HKG, SFO) | 09:00 | 21:20 | 1100.00
+HAN | CLT | DL | 1 (ICN) | 10:45 | 22:15 | 950.00
+HAN | CLT | QR | 1 (DOH) | 11:30 | 23:00 | 1050.00
+HAN | CLT | LH | 2 (BKK, FRA) | 12:30 | 00:50 | 1200.00
+HAN | CLT | CX | 1 (HKG) | 14:00 | 02:30 | 1000.00
+HAN | CLT | JL | 1 (NRT) | 15:15 | 03:45 | 950.00
+HAN | CLT | TG | 1 (BKK) | 16:30 | 05:00 | 1050.00
+
+
+Here are the 16 flight plans:
+
+CLT | HKG | AA | 1 (NRT) | 10:00 | 19:30 | 850.00
+CLT | HKG | UA | 2 (SFO, TPE) | 14:00 | 22:15 | 950.00
+CLT | HKG | DL | 1 (ICN) | 16:30 | 23:45 | 780.00
+CLT | HKG | CX | 0 | 18:00 | 20:30 | 1200.00
+CLT | HKG | JL | 1 (NRT) | 08:00 | 17:30 | 900.00
+CLT | HKG | KE | 1 (ICN) | 12:00 | 20:45 | 820.00
+CLT | HKG | BR | 1 (TPE) | 09:30 | 18:15 | 1100.00
+CLT | HKG | OZ | 1 (ICN) | 15:00 | 22:00 | 890.00
+
+HKG | CLT | AA | 1 (NRT) | 09:00 | 20:30 | 870.00
+HKG | CLT | UA | 2 (TPE, SFO) | 11:00 | 22:45 | 980.00
+HKG | CLT | DL | 1 (ICN) | 13:30 | 21:15 | 810.00
+HKG | CLT | CX | 0 | 15:00 | 17:30 | 1250.00
+HKG | CLT | JL | 1 (NRT) | 08:30 | 19:00 | 920.00
+HKG | CLT | KE | 1 (ICN) | 10:00 | 20:45 | 840.00
+HKG | CLT | BR | 1 (TPE) | 12:30 | 21:15 | 1150.00
+HKG | CLT | OZ | 1 (ICN) | 14:00 | 22:00 | 910.00
+
+
+Here are the 16 flight plans:
+
+CLT | IST | American Airlines | 1 (LHR) | 08:00 | 18:30 | 850.00
+CLT | IST | Lufthansa | 1 (FRA) | 10:30 | 20:50 | 950.00
+CLT | IST | Turkish Airlines | 0 | 13:45 | 05:15 | 700.00
+CLT | IST | United Airlines | 1 (EWR) | 14:15 | 06:40 | 800.00
+CLT | IST | Delta Air Lines | 1 (CDG) | 16:00 | 08:20 | 900.00
+CLT | IST | Emirates | 1 (DXB) | 18:30 | 11:50 | 1050.00
+CLT | IST | British Airways | 1 (LHR) | 20:00 | 12:30 | 1000.00
+CLT | IST | Qatar Airways | 1 (DOH) | 21:45 | 14:10 | 1100.00
+
+IST | CLT | Turkish Airlines | 0 | 09:00 | 14:30 | 750.00
+IST | CLT | Lufthansa | 1 (FRA) | 11:30 | 17:00 | 900.00
+IST | CLT | American Airlines | 1 (LHR) | 13:45 | 20:10 | 850.00
+IST | CLT | United Airlines | 1 (EWR) | 15:15 | 22:40 | 800.00
+IST | CLT | Delta Air Lines | 1 (CDG) | 17:00 | 00:20 | 950.00
+IST | CLT | Emirates | 1 (DXB) | 19:30 | 02:50 | 1050.00
+IST | CLT | British Airways | 1 (LHR) | 21:00 | 04:30 | 1000.00
+IST | CLT | Qatar Airways | 1 (DOH) | 23:45 | 06:10 | 1100.00
+
+
+Here are the 16 flight plans:
+
+CLT | TLV | American Airlines | 1 (PHL) | 08:00 | 18:30 | 850.00
+CLT | TLV | Delta Air Lines | 0 | 10:30 | 20:50 | 950.00
+CLT | TLV | United Airlines | 1 (EWR) | 12:15 | 22:40 | 1050.00
+CLT | TLV | Lufthansa | 1 (FRA) | 14:00 | 00:20 | 1200.00
+CLT | TLV | British Airways | 1 (LHR) | 16:00 | 02:20 | 1100.00
+CLT | TLV | Turkish Airlines | 1 (IST) | 18:30 | 04:50 | 1000.00
+CLT | TLV | El Al Israel Airlines | 0 | 20:00 | 06:20 | 900.00
+CLT | TLV | Air Canada | 1 (YYZ) | 22:00 | 08:20 | 1150.00
+
+TLV | CLT | American Airlines | 1 (PHL) | 09:00 | 19:30 | 850.00
+TLV | CLT | Delta Air Lines | 0 | 11:30 | 21:50 | 950.00
+TLV | CLT | United Airlines | 1 (EWR) | 13:15 | 23:40 | 1050.00
+TLV | CLT | Lufthansa | 1 (FRA) | 15:00 | 01:20 | 1200.00
+TLV | CLT | British Airways | 1 (LHR) | 17:00 | 03:20 | 1100.00
+TLV | CLT | Turkish Airlines | 1 (IST) | 19:30 | 05:50 | 1000.00
+TLV | CLT | El Al Israel Airlines | 0 | 21:00 | 07:20 | 900.00
+TLV | CLT | Air Canada | 1 (YYZ) | 23:00 | 09:20 | 1150.00
+
+
+Here are the 16 flight plans:
+
+CLT | LIM | AA | 1 (MIA) | 08:00 | 17:45 | 850.00
+CLT | LIM | LATAM | 0 | 10:30 | 20:15 | 1050.00
+CLT | LIM | AV | 2 (MIA, BOG) | 07:00 | 19:30 | 1200.00
+CLT | LIM | DL | 1 (ATL) | 09:00 | 19:00 | 900.00
+CLT | LIM | UA | 0 | 11:30 | 21:15 | 1100.00
+CLT | LIM | WN | 2 (BNA, FLL) | 06:00 | 18:30 | 1300.00
+CLT | LIM | AA | 1 (DFW) | 08:30 | 18:15 | 950.00
+CLT | LIM | LATAM | 0 | 12:00 | 22:45 | 1000.00
+
+LIM | CLT | LATAM | 0 | 09:00 | 19:45 | 950.00
+LIM | CLT | AV | 2 (BOG, MIA) | 07:30 | 20:00 | 1250.00
+LIM | CLT | DL | 1 (ATL) | 10:00 | 20:30 | 1050.00
+LIM | CLT | UA | 0 | 11:00 | 21:45 | 1150.00
+LIM | CLT | WN | 2 (FLL, BNA) | 08:00 | 19:30 | 1350.00
+LIM | CLT | AA | 1 (MIA) | 09:30 | 20:15 | 1000.00
+LIM | CLT | LATAM | 0 | 12:30 | 23:15 | 1100.00
+LIM | CLT | AV | 1 (BOG) | 10:30 | 21:00 | 1200.00
+
+
+Here are the 16 flight plans:
+
+CLT | LHR | AA | 1 (PHL) | 08:00 | 18:30 | 850.00
+CLT | LHR | BA | 0 | 10:30 | 20:55 | 1200.00
+CLT | LHR | UA | 1 (EWR) | 12:00 | 22:20 | 950.00
+CLT | LHR | DL | 1 (ATL) | 14:00 | 00:30 | 1100.00
+CLT | LHR | VS | 0 | 16:00 | 02:25 | 1300.00
+CLT | LHR | AA | 1 (JFK) | 18:00 | 04:30 | 1000.00
+CLT | LHR | UA | 1 (ORD) | 20:00 | 06:25 | 1050.00
+CLT | LHR | DL | 1 (MIA) | 22:00 | 08:30 | 1150.00
+LHR | CLT | BA | 0 | 09:00 | 12:20 | 1250.00
+LHR | CLT | AA | 1 (PHL) | 11:00 | 14:30 | 900.00
+LHR | CLT | UA | 1 (EWR) | 13:00 | 16:20 | 1000.00
+LHR | CLT | DL | 1 (ATL) | 15:00 | 18:30 | 1100.00
+LHR | CLT | VS | 0 | 17:00 | 20:25 | 1200.00
+LHR | CLT | AA | 1 (JFK) | 19:00 | 22:30 | 950.00
+LHR | CLT | UA | 1 (ORD) | 21:00 | 00:25 | 1050.00
+LHR | CLT | DL | 1 (MIA) | 23:00 | 02:30 | 1150.00
+
+
+Here are the 16 flight plans:
+
+CLT | MAD | AA | 1 (PHL) | 08:00 | 18:30 | 850.00
+CLT | MAD | IBERIA | 0 | 10:30 | 20:00 | 1200.00
+CLT | MAD | LATAM | 2 (MIA, GRU) | 14:00 | 08:00 (+1) | 1800.00
+CLT | MAD | DELTA | 1 (JFK) | 16:00 | 23:30 | 1000.00
+CLT | MAD | UNITED | 1 (EWR) | 18:00 | 01:30 (+1) | 900.00
+CLT | MAD | AVIANCA | 2 (BOG, LIM) | 20:00 | 11:00 (+1) | 2200.00
+CLT | MAD | LUFTHANSA | 1 (FRA) | 22:00 | 05:30 (+1) | 1500.00
+CLT | MAD | TAP AIR | 1 (LIS) | 00:30 | 08:00 | 1300.00
+
+MAD | CLT | IBERIA | 0 | 08:00 | 12:00 | 1100.00
+MAD | CLT | AA | 1 (PHL) | 10:00 | 14:30 | 900.00
+MAD | CLT | LATAM | 2 (GRU, MIA) | 12:00 | 20:00 | 1900.00
+MAD | CLT | DELTA | 1 (JFK) | 14:00 | 18:30 | 1000.00
+MAD | CLT | UNITED | 1 (EWR) | 16:00 | 20:30 | 950.00
+MAD | CLT | AVIANCA | 2 (LIM, BOG) | 18:00 | 02:00 (+1) | 2300.00
+MAD | CLT | LUFTHANSA | 1 (FRA) | 20:00 | 03:30 (+1) | 1600.00
+MAD | CLT | TAP AIR | 1 (LIS) | 22:00 | 04:00 (+1) | 1400.00
+
+
+Here are the 16 flight plans:
+
+CLT | MEX | AA | 1 (DFW) | 08:00 | 11:30 | 540.00
+CLT | MEX | DL | 0 | 10:00 | 13:30 | 580.00
+CLT | MEX | UA | 1 (IAH) | 12:00 | 15:30 | 510.00
+CLT | MEX | WN | 1 (HOU) | 14:00 | 17:30 | 470.00
+CLT | MEX | AV | 1 (SAL) | 16:00 | 19:30 | 520.00
+CLT | MEX | AS | 1 (LAX) | 18:00 | 21:30 | 550.00
+CLT | MEX | B6 | 1 (FLL) | 20:00 | 23:30 | 500.00
+CLT | MEX | NK | 1 (TPA) | 22:00 | 01:30 | 480.00
+
+MEX | CLT | AA | 1 (DFW) | 08:00 | 13:30 | 560.00
+MEX | CLT | DL | 0 | 10:00 | 15:30 | 600.00
+MEX | CLT | UA | 1 (IAH) | 12:00 | 17:30 | 530.00
+MEX | CLT | WN | 1 (HOU) | 14:00 | 19:30 | 490.00
+MEX | CLT | AV | 1 (SAL) | 16:00 | 21:30 | 540.00
+MEX | CLT | AS | 1 (LAX) | 18:00 | 23:30 | 570.00
+MEX | CLT | B6 | 1 (FLL) | 20:00 | 01:30 | 510.00
+MEX | CLT | NK | 1 (TPA) | 22:00 | 03:30 | 500.00
+
+
+Here are the 16 flight plans:
+
+CLT | MBJ | AA | 0 | 08:00 | 11:30 | 450.00
+CLT | MBJ | DL | 1 (ATL) | 09:15 | 13:45 | 520.00
+CLT | MBJ | UA | 0 | 10:30 | 14:00 | 480.00
+CLT | MBJ | WN | 1 (FLL) | 11:45 | 16:15 | 550.00
+CLT | MBJ | B6 | 0 | 12:50 | 16:20 | 500.00
+CLT | MBJ | AS | 1 (MIA) | 14:05 | 18:35 | 580.00
+CLT | MBJ | NK | 1 (PBI) | 15:20 | 19:50 | 600.00
+CLT | MBJ | F9 | 0 | 16:35 | 20:05 | 530.00
+MBJ | CLT | AA | 0 | 08:00 | 11:30 | 420.00
+MBJ | CLT | DL | 1 (ATL) | 09:15 | 13:45 | 490.00
+MBJ | CLT | UA | 0 | 10:30 | 14:00 | 450.00
+MBJ | CLT | WN | 1 (FLL) | 11:45 | 16:15 | 520.00
+MBJ | CLT | B6 | 0 | 12:50 | 16:20 | 470.00
+MBJ | CLT | AS | 1 (MIA) | 14:05 | 18:35 | 540.00
+MBJ | CLT | NK | 1 (PBI) | 15:20 | 19:50 | 560.00
+MBJ | CLT | F9 | 0 | 16:35 | 20:05 | 500.00
+MBJ | CLT | SY | 1 (TPA) | 17:50 | 22:20 | 580.00
+
+
+Here are the 16 flight plans:
+
+CLT | YUL | American Airlines | Non-stop | 08:00 | 11:15 | 425.00
+CLT | YUL | Delta Air Lines | 1 stop (BOS) | 09:30 | 13:45 | 475.00
+CLT | YUL | United Airlines | Non-stop | 11:00 | 14:15 | 395.00
+CLT | YUL | Air Canada | 1 stop (YYZ) | 12:30 | 16:45 | 505.00
+CLT | YUL | JetBlue Airways | Non-stop | 14:00 | 17:15 | 445.00
+CLT | YUL | WestJet | 1 stop (YYC) | 15:30 | 19:45 | 525.00
+CLT | YUL | Frontier Airlines | Non-stop | 17:00 | 20:15 | 415.00
+CLT | YUL | Spirit Airlines | 1 stop (FLL) | 18:30 | 22:45 | 485.00
+YUL | CLT | Air Canada | Non-stop | 08:00 | 10:15 | 455.00
+YUL | CLT | United Airlines | 1 stop (EWR) | 09:30 | 13:45 | 535.00
+YUL | CLT | American Airlines | Non-stop | 11:00 | 13:15 | 435.00
+YUL | CLT | Delta Air Lines | 1 stop (ATL) | 12:30 | 16:45 | 505.00
+YUL | CLT | WestJet | Non-stop | 14:00 | 16:15 | 465.00
+YUL | CLT | JetBlue Airways | 1 stop (BOS) | 15:30 | 19:45 | 525.00
+YUL | CLT | Frontier Airlines | Non-stop | 17:00 | 19:15 | 425.00
+YUL | CLT | Spirit Airlines | 1 stop (MCO) | 18:30 | 22:45 | 495.00
+
+
+Here are the 16 flight plans:
+
+CLT | BOM | AA | 1 (LHR) | 08:00 | 20:30 | 850.00
+CLT | BOM | UA | 2 (EWR, FRA) | 10:30 | 23:15 | 1050.00
+CLT | BOM | DL | 1 (CDG) | 12:00 | 01:00 | 950.00
+CLT | BOM | LH | 2 (FRA, IST) | 14:30 | 02:45 | 1200.00
+CLT | BOM | BA | 1 (LHR) | 16:00 | 03:30 | 1100.00
+CLT | BOM | TK | 2 (IST, DXB) | 18:30 | 05:15 | 1300.00
+CLT | BOM | QR | 1 (DOH) | 20:00 | 06:00 | 1000.00
+CLT | BOM | EK | 2 (DXB, KWI) | 22:00 | 08:45 | 1400.00
+BOM | CLT | AA | 1 (LHR) | 02:00 | 14:30 | 900.00
+BOM | CLT | UA | 2 (FRA, EWR) | 04:30 | 17:15 | 1150.00
+BOM | CLT | DL | 1 (CDG) | 06:00 | 19:00 | 1050.00
+BOM | CLT | LH | 2 (IST, FRA) | 08:30 | 21:45 | 1250.00
+BOM | CLT | BA | 1 (LHR) | 10:00 | 23:30 | 1100.00
+BOM | CLT | TK | 2 (DXB, IST) | 12:30 | 02:15 | 1350.00
+BOM | CLT | QR | 1 (DOH) | 14:00 | 04:00 | 1000.00
+BOM | CLT | EK | 2 (KWI, DXB) | 16:00 | 06:45 | 1450.00
+
+
+Here are the 16 flight plans:
+
+CLT | OSL | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+CLT | OSL | UA | 2 (EWR, FRA) | 10:30 | 20:50 | 950.00
+CLT | OSL | DL | 1 (AMS) | 12:00 | 21:20 | 900.00
+CLT | OSL | LH | 1 (FRA) | 14:00 | 22:30 | 1000.00
+CLT | OSL | KL | 1 (AMS) | 16:00 | 00:20 | 920.00
+CLT | OSL | BA | 1 (LHR) | 18:00 | 02:30 | 980.00
+CLT | OSL | SK | 1 (CPH) | 20:00 | 04:20 | 940.00
+CLT | OSL | AF | 1 (CDG) | 22:00 | 06:30 | 960.00
+OSL | CLT | AA | 1 (LHR) | 08:00 | 18:30 | 870.00
+OSL | CLT | UA | 2 (FRA, EWR) | 10:30 | 20:50 | 970.00
+OSL | CLT | DL | 1 (AMS) | 12:00 | 21:20 | 920.00
+OSL | CLT | LH | 1 (FRA) | 14:00 | 22:30 | 1020.00
+OSL | CLT | KL | 1 (AMS) | 16:00 | 00:20 | 940.00
+OSL | CLT | BA | 1 (LHR) | 18:00 | 02:30 | 990.00
+OSL | CLT | SK | 1 (CPH) | 20:00 | 04:20 | 950.00
+OSL | CLT | AF | 1 (CDG) | 22:00 | 06:30 | 980.00
+
+
+Here are the 16 flight plans:
+
+CLT | PTY | AA | 1 (MIA) | 08:00 | 12:30 | 450.00
+CLT | PTY | UA | 1 (EWR) | 09:30 | 14:05 | 480.00
+CLT | PTY | DL | 0 | 10:00 | 13:30 | 520.00
+CLT | PTY | AV | 1 (BOG) | 11:15 | 16:00 | 550.00
+CLT | PTY | WN | 1 (FLL) | 12:30 | 17:00 | 500.00
+CLT | PTY | B6 | 0 | 13:45 | 17:15 | 490.00
+CLT | PTY | AA | 1 (MCO) | 15:00 | 19:30 | 510.00
+CLT | PTY | CM | 0 | 16:15 | 20:45 | 530.00
+PTY | CLT | CM | 0 | 08:00 | 12:30 | 540.00
+PTY | CLT | AV | 1 (BOG) | 09:30 | 14:05 | 570.00
+PTY | CLT | DL | 0 | 10:45 | 14:15 | 500.00
+PTY | CLT | UA | 1 (EWR) | 12:00 | 16:35 | 520.00
+PTY | CLT | WN | 1 (FLL) | 13:15 | 17:45 | 510.00
+PTY | CLT | B6 | 0 | 14:30 | 18:00 | 490.00
+PTY | CLT | AA | 1 (MIA) | 15:45 | 20:15 | 530.00
+PTY | CLT | CM | 0 | 17:00 | 21:30 | 550.00
+
+
+Here are the 16 flight plans:
+
+CLT | CDG | American Airlines | Non-stop | 08:00 | 18:30 | 850.00
+CLT | CDG | Delta Air Lines | 1 stop (AMS) | 09:30 | 20:15 | 920.00
+CLT | CDG | Lufthansa | 1 stop (FRA) | 10:45 | 21:00 | 980.00
+CLT | CDG | Air France | Non-stop | 12:00 | 22:30 | 1,050.00
+CLT | CDG | United Airlines | 1 stop (EWR) | 13:15 | 23:45 | 1,100.00
+CLT | CDG | KLM Royal Dutch | 1 stop (AMS) | 14:30 | 01:15 | 1,150.00
+CLT | CDG | British Airways | 1 stop (LHR) | 15:45 | 02:30 | 1,200.00
+CLT | CDG | Iberia | 1 stop (MAD) | 17:00 | 04:00 | 1,250.00
+CDG | CLT | American Airlines | Non-stop | 09:00 | 12:30 | 900.00
+CDG | CLT | Air France | Non-stop | 10:30 | 14:00 | 950.00
+CDG | CLT | Delta Air Lines | 1 stop (AMS) | 12:00 | 16:30 | 1,020.00
+CDG | CLT | Lufthansa | 1 stop (FRA) | 13:30 | 18:00 | 1,070.00
+CDG | CLT | United Airlines | 1 stop (EWR) | 15:00 | 20:30 | 1,120.00
+CDG | CLT | KLM Royal Dutch | 1 stop (AMS) | 16:30 | 22:00 | 1,170.00
+CDG | CLT | British Airways | 1 stop (LHR) | 18:00 | 23:30 | 1,220.00
+CDG | CLT | Iberia | 1 stop (MAD) | 19:30 | 01:00 | 1,270.00
+
+
+Here are the 16 flight plans:
+
+CLT | HKT | AA | 1 (NRT) | 08:00 | 20:30 | 850.00
+CLT | HKT | JL | 2 (LAX, NRT) | 10:00 | 22:45 | 1200.00
+CLT | HKT | UA | 1 (SFO) | 12:00 | 01:15 | 950.00
+CLT | HKT | DL | 1 (ATL) | 14:00 | 03:30 | 1050.00
+CLT | HKT | CX | 1 (HKG) | 16:00 | 05:00 | 1300.00
+CLT | HKT | SQ | 2 (EWR, SIN) | 18:00 | 07:45 | 1500.00
+CLT | HKT | QR | 1 (DOH) | 20:00 | 09:30 | 1100.00
+CLT | HKT | EK | 1 (DXB) | 22:00 | 11:15 | 1250.00
+HKT | CLT | AA | 1 (NRT) | 08:00 | 20:30 | 850.00
+HKT | CLT | JL | 2 (NRT, LAX) | 10:00 | 22:45 | 1200.00
+HKT | CLT | UA | 1 (SFO) | 12:00 | 01:15 | 950.00
+HKT | CLT | DL | 1 (ATL) | 14:00 | 03:30 | 1050.00
+HKT | CLT | CX | 1 (HKG) | 16:00 | 05:00 | 1300.00
+HKT | CLT | SQ | 2 (SIN, EWR) | 18:00 | 07:45 | 1500.00
+HKT | CLT | QR | 1 (DOH) | 20:00 | 09:30 | 1100.00
+HKT | CLT | EK | 1 (DXB) | 22:00 | 11:15 | 1250.00
+
+
+Here are the 16 flight plans:
+
+CLT | PRG | American Airlines | 1 (PHL) | 08:00 | 18:30 | 850.00
+CLT | PRG | Delta Air Lines | 2 (ATL, FRA) | 10:30 | 20:15 | 1200.00
+CLT | PRG | Lufthansa | 1 (FRA) | 12:45 | 22:00 | 1000.00
+CLT | PRG | United Airlines | 1 (EWR) | 14:15 | 23:40 | 950.00
+CLT | PRG | Czech Airlines | 0 | 16:00 | 20:30 | 700.00
+CLT | PRG | KLM Royal Dutch | 1 (AMS) | 17:30 | 21:50 | 1100.00
+CLT | PRG | Air Canada | 2 (YYZ, FRA) | 19:00 | 22:20 | 1300.00
+CLT | PRG | Swiss International | 1 (ZRH) | 20:45 | 23:10 | 1050.00
+
+PRG | CLT | American Airlines | 1 (PHL) | 08:30 | 18:00 | 800.00
+PRG | CLT | Delta Air Lines | 2 (FRA, ATL) | 10:00 | 19:45 | 1150.00
+PRG | CLT | Lufthansa | 1 (FRA) | 12:00 | 21:25 | 900.00
+PRG | CLT | United Airlines | 1 (EWR) | 13:45 | 22:10 | 850.00
+PRG | CLT | Czech Airlines | 0 | 15:30 | 20:00 | 650.00
+PRG | CLT | KLM Royal Dutch | 1 (AMS) | 17:00 | 21:20 | 1000.00
+PRG | CLT | Air Canada | 2 (FRA, YYZ) | 18:30 | 22:50 | 1250.00
+PRG | CLT | Swiss International | 1 (ZRH) | 20:15 | 22:40 | 950.00
+
+
+Here are the 16 flight plans:
+
+CLT | KEF | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+CLT | KEF | UA | 2 (EWR, FRA) | 10:30 | 21:15 | 1050.00
+CLT | KEF | DL | 0 | 12:00 | 20:00 | 950.00
+CLT | KEF | BA | 1 (LHR) | 14:00 | 22:30 | 1000.00
+CLT | KEF | LH | 2 (FRA, OSR) | 16:00 | 00:15 | 1200.00
+CLT | KEF | AF | 1 (CDG) | 18:00 | 02:30 | 1100.00
+CLT | KEF | KL | 2 (AMS, OSR) | 20:00 | 04:15 | 1250.00
+CLT | KEF | IB | 1 (MAD) | 22:00 | 06:30 | 1150.00
+
+KEF | CLT | AA | 1 (LHR) | 08:00 | 14:30 | 800.00
+KEF | CLT | UA | 2 (EWR, IAD) | 10:30 | 18:15 | 1000.00
+KEF | CLT | DL | 0 | 12:00 | 18:00 | 850.00
+KEF | CLT | BA | 1 (LHR) | 14:00 | 20:30 | 900.00
+KEF | CLT | LH | 2 (FRA, PHL) | 16:00 | 22:15 | 1150.00
+KEF | CLT | AF | 1 (CDG) | 18:00 | 00:30 | 1050.00
+KEF | CLT | KL | 2 (AMS, IAD) | 20:00 | 02:15 | 1200.00
+KEF | CLT | IB | 1 (MAD) | 22:00 | 04:30 | 1100.00
+
+
+Here are the 16 flight plans:
+
+CLT | GIG | AA | 0 | 08:00 | 18:30 | 850.00
+CLT | GIG | LATAM | 1 (MIA) | 09:30 | 20:15 | 720.00
+CLT | GIG | DL | 0 | 10:00 | 20:45 | 900.00
+CLT | GIG | UA | 1 (EWR) | 11:15 | 22:00 | 780.00
+CLT | GIG | AV | 1 (BOG) | 12:00 | 23:30 | 650.00
+CLT | GIG | AA | 0 | 13:30 | 01:15 | 950.00
+CLT | GIG | LATAM | 1 (LIM) | 14:45 | 02:30 | 820.00
+CLT | GIG | DL | 1 (ATL) | 16:00 | 03:45 | 740.00
+GIG | CLT | LATAM | 0 | 08:30 | 18:00 | 850.00
+GIG | CLT | AA | 1 (MIA) | 09:45 | 19:30 | 720.00
+GIG | CLT | DL | 0 | 11:00 | 20:45 | 900.00
+GIG | CLT | UA | 1 (EWR) | 12:15 | 22:00 | 780.00
+GIG | CLT | AV | 1 (BOG) | 13:30 | 23:30 | 650.00
+GIG | CLT | LATAM | 0 | 14:45 | 01:15 | 950.00
+GIG | CLT | AA | 1 (LIM) | 16:00 | 02:30 | 820.00
+GIG | CLT | DL | 1 (ATL) | 17:30 | 03:45 | 740.00
+
+
+Here are the 16 flight plans:
+
+CLT | FCO | AA | 0 | 08:00 | 18:30 | 850.00
+CLT | FCO | UA | 1 (EWR) | 10:30 | 20:15 | 920.00
+CLT | FCO | DL | 0 | 12:45 | 23:00 | 950.00
+CLT | FCO | LH | 1 (FRA) | 14:00 | 00:30 | 1050.00
+CLT | FCO | AZ | 0 | 16:15 | 02:45 | 1000.00
+CLT | FCO | BA | 1 (LHR) | 18:00 | 04:30 | 1100.00
+CLT | FCO | KL | 1 (AMS) | 19:30 | 05:15 | 1020.00
+CLT | FCO | AF | 1 (CDG) | 21:00 | 06:45 | 1080.00
+FCO | CLT | AA | 0 | 09:00 | 13:30 | 900.00
+FCO | CLT | UA | 1 (EWR) | 11:30 | 16:15 | 970.00
+FCO | CLT | DL | 0 | 13:45 | 18:00 | 980.00
+FCO | CLT | LH | 1 (FRA) | 15:00 | 20:30 | 1090.00
+FCO | CLT | AZ | 0 | 17:15 | 22:45 | 1040.00
+FCO | CLT | BA | 1 (LHR) | 19:00 | 00:30 | 1140.00
+FCO | CLT | KL | 1 (AMS) | 20:30 | 02:15 | 1060.00
+FCO | CLT | AF | 1 (CDG) | 22:00 | 04:45 | 1120.00
+
+
+Here are the 16 flight plans:
+
+CLT | SCL | American Airlines | 1 (MIA) | 08:00 | 20:35 | 849.00
+CLT | SCL | Delta Air Lines | 2 (ATL, LIM) | 09:30 | 22:50 | 1099.00
+CLT | SCL | LATAM | 0 | 10:00 | 21:30 | 899.00
+CLT | SCL | United Airlines | 1 (IAH) | 11:15 | 23:40 | 1049.00
+CLT | SCL | Avianca | 2 (BOG, LIM) | 12:00 | 01:20 | 1199.00
+CLT | SCL | Copa Airlines | 1 (PTY) | 13:30 | 02:00 | 1099.00
+CLT | SCL | Spirit Airlines | 2 (FLL, LIM) | 14:45 | 03:15 | 999.00
+CLT | SCL | Aeromexico | 1 (MEX) | 16:00 | 04:30 | 1049.00
+
+SCL | CLT | LATAM | 0 | 09:00 | 20:30 | 899.00
+SCL | CLT | American Airlines | 1 (MIA) | 10:30 | 22:00 | 849.00
+SCL | CLT | Delta Air Lines | 2 (LIM, ATL) | 11:45 | 00:15 | 1099.00
+SCL | CLT | United Airlines | 1 (IAH) | 13:00 | 01:30 | 1049.00
+SCL | CLT | Avianca | 2 (LIM, BOG) | 14:15 | 02:45 | 1199.00
+SCL | CLT | Copa Airlines | 1 (PTY) | 15:30 | 03:55 | 1099.00
+SCL | CLT | Spirit Airlines | 2 (LIM, FLL) | 16:45 | 05:10 | 999.00
+SCL | CLT | Aeromexico | 1 (MEX) | 18:00 | 06:25 | 1049.00
+
+
+Here are the 16 flight plans:
+
+CLT | ICN | American Airlines | Non-stop | 13:45 | 17:30 | 850.00
+CLT | ICN | Delta Air Lines | 1 stop (NRT) | 09:00 | 19:45 | 720.00
+CLT | ICN | Korean Air | Non-stop | 11:15 | 15:00 | 900.00
+CLT | ICN | United Airlines | 1 stop (SFO) | 08:30 | 20:15 | 780.00
+CLT | ICN | Japan Airlines | 1 stop (HND) | 10:45 | 21:00 | 820.00
+CLT | ICN | Asiana Airlines | Non-stop | 14:30 | 18:15 | 950.00
+CLT | ICN | China Eastern | 1 stop (PVG) | 09:45 | 22:30 | 740.00
+CLT | ICN | Air China | 1 stop (PEK) | 11:00 | 23:45 | 760.00
+
+ICN | CLT | American Airlines | Non-stop | 19:00 | 20:30 | 920.00
+ICN | CLT | Delta Air Lines | 1 stop (LAX) | 21:15 | 07:00 | 800.00
+ICN | CLT | Korean Air | Non-stop | 17:45 | 19:15 | 980.00
+ICN | CLT | United Airlines | 1 stop (ORD) | 20:30 | 06:45 | 840.00
+ICN | CLT | Japan Airlines | 1 stop (NRT) | 18:00 | 05:30 | 860.00
+ICN | CLT | Asiana Airlines | Non-stop | 16:15 | 17:45 | 1020.00
+ICN | CLT | China Eastern | 1 stop (PVG) | 19:30 | 07:15 | 820.00
+ICN | CLT | Air China | 1 stop (PEK) | 20:45 | 08:00 | 880.00
+
+
+Here are the 16 flight plans:
+
+CLT | PVG | AA | 1 (NRT) | 14:30 | 18:45 | 850.00
+CLT | PVG | UA | 2 (SFO, HKG) | 08:15 | 13:10 | 1050.00
+CLT | PVG | DL | 1 (LAX) | 10:00 | 15:20 | 920.00
+CLT | PVG | CA | 0 | 12:45 | 17:05 | 780.00
+CLT | PVG | JL | 1 (NRT) | 09:00 | 14:10 | 900.00
+CLT | PVG | CX | 1 (HKG) | 11:30 | 16:40 | 980.00
+CLT | PVG | MU | 0 | 13:15 | 17:35 | 820.00
+CLT | PVG | KE | 1 (ICN) | 08:45 | 13:55 | 950.00
+
+PVG | CLT | AA | 1 (NRT) | 09:00 | 10:25 | 870.00
+PVG | CLT | UA | 2 (HKG, SFO) | 14:15 | 15:40 | 1100.00
+PVG | CLT | DL | 1 (LAX) | 11:45 | 13:05 | 940.00
+PVG | CLT | CA | 0 | 10:30 | 11:55 | 790.00
+PVG | CLT | JL | 1 (NRT) | 10:15 | 11:40 | 910.00
+PVG | CLT | CX | 1 (HKG) | 12:00 | 13:25 | 1000.00
+PVG | CLT | MU | 0 | 11:00 | 12:25 | 840.00
+PVG | CLT | KE | 1 (ICN) | 09:45 | 11:10 | 960.00
+
+
+Here are the 16 flight plans:
+
+CLT | SIN | AA | 1 (NRT) | 14:30 | 19:15 | 850.00
+CLT | SIN | UA | 2 (ORD, HKG) | 08:00 | 20:45 | 1100.00
+CLT | SIN | SQ | 0 | 10:45 | 07:00 | 1200.00
+CLT | SIN | DL | 1 (ICN) | 16:15 | 21:30 | 900.00
+CLT | SIN | JL | 1 (NRT) | 12:00 | 08:45 | 1050.00
+CLT | SIN | CX | 1 (HKG) | 09:30 | 20:15 | 1000.00
+CLT | SIN | LH | 2 (FRA, BKK) | 07:00 | 22:30 | 1300.00
+CLT | SIN | TG | 1 (BKK) | 11:45 | 08:00 | 950.00
+
+SIN | CLT | AA | 1 (NRT) | 01:15 | 06:00 | 800.00
+SIN | CLT | UA | 2 (HKG, SFO) | 10:00 | 21:45 | 1200.00
+SIN | CLT | SQ | 0 | 14:30 | 19:15 | 1100.00
+SIN | CLT | DL | 1 (ICN) | 08:45 | 20:30 | 850.00
+SIN | CLT | JL | 1 (NRT) | 16:00 | 21:45 | 1000.00
+SIN | CLT | CX | 1 (HKG) | 09:00 | 20:00 | 950.00
+SIN | CLT | LH | 2 (BKK, FRA) | 07:30 | 22:15 | 1250.00
+SIN | CLT | TG | 1 (BKK) | 11:00 | 07:45 | 900.00
+
+
+Here are the 16 flight plans:
+
+CLT | SPU | AA | 1 (JFK) | 08:00 | 14:30 | 450.00
+CLT | SPU | UA | 0 | 10:30 | 16:00 | 380.00
+CLT | SPU | DL | 1 (ATL) | 12:00 | 18:30 | 420.00
+CLT | SPU | WN | 1 (BWI) | 14:00 | 20:30 | 400.00
+CLT | SPU | AS | 1 (ORD) | 16:00 | 22:30 | 480.00
+CLT | SPU | B6 | 0 | 18:00 | 23:30 | 350.00
+CLT | SPU | F9 | 1 (MCO) | 20:00 | 02:30 | 430.00
+CLT | SPU | NK | 1 (EWR) | 22:00 | 04:30 | 410.00
+SPU | CLT | AA | 1 (PHL) | 08:00 | 14:30 | 470.00
+SPU | CLT | UA | 0 | 10:30 | 16:00 | 390.00
+SPU | CLT | DL | 1 (CVG) | 12:00 | 18:30 | 440.00
+SPU | CLT | WN | 1 (STL) | 14:00 | 20:30 | 420.00
+SPU | CLT | AS | 1 (DEN) | 16:00 | 22:30 | 500.00
+SPU | CLT | B6 | 0 | 18:00 | 23:30 | 370.00
+SPU | CLT | F9 | 1 (TPA) | 20:00 | 02:30 | 450.00
+SPU | CLT | NK | 1 (BOS) | 22:00 | 04:30 | 430.00
+
+
+Here are the 16 flight plans:
+
+CLT | ARN | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+CLT | ARN | UA | 2 (EWR, FRA) | 10:30 | 20:15 | 950.00
+CLT | ARN | DL | 1 (AMS) | 12:15 | 22:00 | 920.00
+CLT | ARN | LH | 2 (FRA, MUC) | 14:00 | 23:45 | 1050.00
+CLT | ARN | BA | 1 (LHR) | 15:45 | 01:30 | 980.00
+CLT | ARN | KL | 2 (AMS, CPH) | 17:00 | 02:15 | 1020.00
+CLT | ARN | SK | 1 (CPH) | 18:30 | 03:15 | 940.00
+CLT | ARN | AC | 2 (YYZ, LHR) | 20:00 | 04:30 | 1100.00
+ARN | CLT | AA | 1 (LHR) | 09:00 | 14:30 | 820.00
+ARN | CLT | UA | 2 (FRA, EWR) | 11:15 | 17:00 | 920.00
+ARN | CLT | DL | 1 (AMS) | 13:00 | 18:45 | 900.00
+ARN | CLT | LH | 2 (MUC, FRA) | 14:45 | 20:30 | 1000.00
+ARN | CLT | BA | 1 (LHR) | 16:15 | 22:00 | 940.00
+ARN | CLT | KL | 2 (CPH, AMS) | 17:30 | 23:15 | 980.00
+ARN | CLT | SK | 1 (CPH) | 19:00 | 00:45 | 910.00
+ARN | CLT | AC | 2 (LHR, YYZ) | 20:30 | 02:15 | 1040.00
+
+
+Here are the 16 flight plans:
+
+CLT | SYD | Qantas | 1 (LAX) | 08:00 | 07:30 | 850.00
+CLT | SYD | American Airlines | 2 (DFW, NRT) | 10:00 | 09:15 | 1200.00
+CLT | SYD | Delta | 1 (HNL) | 12:00 | 11:45 | 950.00
+CLT | SYD | United | 2 (SFO, MEL) | 14:00 | 13:30 | 1300.00
+CLT | SYD | Virgin Australia | 1 (BNE) | 16:00 | 15:45 | 1000.00
+CLT | SYD | Air New Zealand | 2 (AKL, MEL) | 18:00 | 17:30 | 1400.00
+CLT | SYD | LATAM | 1 (SCL) | 20:00 | 19:45 | 1100.00
+CLT | SYD | Emirates | 2 (DXB, PER) | 22:00 | 21:30 | 1500.00
+
+SYD | CLT | Qantas | 1 (LAX) | 09:00 | 08:30 | 900.00
+SYD | CLT | American Airlines | 2 (NRT, DFW) | 11:00 | 10:15 | 1250.00
+SYD | CLT | Delta | 1 (HNL) | 13:00 | 12:45 | 1000.00
+SYD | CLT | United | 2 (MEL, SFO) | 15:00 | 14:30 | 1350.00
+SYD | CLT | Virgin Australia | 1 (BNE) | 17:00 | 16:45 | 1050.00
+SYD | CLT | Air New Zealand | 2 (MEL, AKL) | 19:00 | 18:30 | 1450.00
+SYD | CLT | LATAM | 1 (SCL) | 21:00 | 20:45 | 1150.00
+SYD | CLT | Emirates | 2 (PER, DXB) | 23:00 | 22:30 | 1550.00
+
+
+Here are the 16 flight plans:
+
+CLT | NRT | AA | 1 (DFW) | 08:00 | 09:30 | 850.00
+CLT | NRT | JL | 0 | 10:00 | 11:30 | 950.00
+CLT | NRT | UA | 1 (SFO) | 12:00 | 14:00 | 750.00
+CLT | NRT | DL | 1 (ATL) | 14:00 | 16:00 | 800.00
+CLT | NRT | NH | 0 | 16:00 | 17:30 | 1000.00
+CLT | NRT | AA | 1 (ORD) | 18:00 | 20:00 | 900.00
+CLT | NRT | JL | 1 (LAX) | 20:00 | 22:00 | 1050.00
+CLT | NRT | UA | 0 | 22:00 | 23:30 | 1100.00
+NRT | CLT | JL | 1 (HND) | 08:00 | 06:00 | 900.00
+NRT | CLT | UA | 0 | 10:00 | 08:00 | 1000.00
+NRT | CLT | NH | 1 (KIX) | 12:00 | 10:00 | 950.00
+NRT | CLT | AA | 1 (DFW) | 14:00 | 12:00 | 850.00
+NRT | CLT | DL | 1 (ATL) | 16:00 | 14:00 | 800.00
+NRT | CLT | JL | 0 | 18:00 | 16:00 | 1100.00
+NRT | CLT | UA | 1 (SFO) | 20:00 | 18:00 | 1050.00
+NRT | CLT | NH | 0 | 22:00 | 20:00 | 1200.00
+
+
+Here are the 16 flight plans:
+
+CLT | HND | AA | 1 (NRT) | 10:00 | 14:30 | 850.00
+CLT | HND | JL | 0 | 13:30 | 17:00 | 950.00
+CLT | HND | UA | 1 (SFO) | 08:00 | 12:30 | 780.00
+CLT | HND | DL | 2 (ATL, NRT) | 09:00 | 15:00 | 1020.00
+CLT | HND | ANA | 0 | 11:00 | 15:30 | 1100.00
+CLT | HND | AS | 1 (SEA) | 07:00 | 11:30 | 900.00
+CLT | HND | HA | 1 (HNL) | 08:30 | 13:00 | 1050.00
+CLT | HND | NH | 0 | 12:00 | 16:30 | 1200.00
+HND | CLT | AA | 1 (DFW) | 18:00 | 22:30 | 880.00
+HND | CLT | JL | 0 | 20:00 | 00:30 | 1000.00
+HND | CLT | UA | 1 (SFO) | 19:00 | 23:30 | 820.00
+HND | CLT | DL | 2 (NRT, ATL) | 17:00 | 21:30 | 1080.00
+HND | CLT | ANA | 0 | 21:00 | 01:30 | 1150.00
+HND | CLT | AS | 1 (SEA) | 16:00 | 20:30 | 930.00
+HND | CLT | HA | 1 (HNL) | 18:30 | 22:00 | 1090.00
+HND | CLT | NH | 0 | 22:00 | 02:30 | 1250.00
+
+
+Here are the 16 flight plans:
+
+CLT | YYZ | American Airlines | Non-stop | 08:00 | 11:05 | 350.00
+CLT | YYZ | WestJet | 1 stop (BOS) | 09:30 | 13:20 | 280.00
+CLT | YYZ | Delta Air Lines | Non-stop | 10:50 | 14:00 | 320.00
+CLT | YYZ | United Airlines | 1 stop (EWR) | 12:15 | 16:40 | 290.00
+CLT | YYZ | Air Canada | Non-stop | 14:20 | 17:30 | 310.00
+CLT | YYZ | Frontier Airlines | 1 stop (ATL) | 15:45 | 20:10 | 260.00
+CLT | YYZ | JetBlue Airways | Non-stop | 17:00 | 20:10 | 330.00
+CLT | YYZ | Spirit Airlines | 1 stop (BWI) | 19:30 | 23:50 | 240.00
+YYZ | CLT | American Airlines | Non-stop | 08:30 | 11:35 | 360.00
+YYZ | CLT | WestJet | 1 stop (YUL) | 10:00 | 14:25 | 300.00
+YYZ | CLT | Delta Air Lines | Non-stop | 11:40 | 14:50 | 340.00
+YYZ | CLT | United Airlines | 1 stop (ORD) | 13:10 | 17:35 | 310.00
+YYZ | CLT | Air Canada | Non-stop | 15:00 | 18:10 | 320.00
+YYZ | CLT | Frontier Airlines | 1 stop (MCO) | 16:30 | 21:00 | 270.00
+YYZ | CLT | JetBlue Airways | Non-stop | 18:00 | 21:10 | 350.00
+YYZ | CLT | Spirit Airlines | 1 stop (PIT) | 20:15 | 00:40 | 250.00
+
+
+Here are the 16 flight plans:
+
+CLT | YVR | AA | 1 (DFW) | 08:00 | 11:30 | 542.50
+CLT | YVR | UA | 2 (ORD, SFO) | 09:30 | 14:15 | 632.00
+CLT | YVR | DL | 1 (ATL) | 10:15 | 13:45 | 512.00
+CLT | YVR | WN | 2 (BNA, DEN) | 11:00 | 15:30 | 572.50
+CLT | YVR | AS | 1 (SEA) | 12:00 | 15:30 | 502.00
+CLT | YVR | F9 | 2 (DEN, LAS) | 13:30 | 17:00 | 552.50
+CLT | YVR | B6 | 1 (JFK) | 14:45 | 18:15 | 582.00
+CLT | YVR | NK | 2 (FLL, LAX) | 16:00 | 19:30 | 612.50
+
+YVR | CLT | AC | 1 (YYZ) | 08:30 | 17:00 | 602.00
+YVR | CLT | WS | 2 (YYC, ORD) | 09:45 | 18:30 | 642.50
+YVR | CLT | DL | 1 (SFO) | 11:15 | 19:45 | 522.00
+YVR | CLT | UA | 2 (SFO, IAH) | 12:30 | 20:15 | 592.50
+YVR | CLT | AA | 1 (PHX) | 13:45 | 21:15 | 562.00
+YVR | CLT | F9 | 2 (DEN, MCO) | 15:00 | 22:30 | 632.50
+YVR | CLT | B6 | 1 (JFK) | 16:15 | 23:45 | 612.00
+YVR | CLT | NK | 2 (LAX, DFW) | 17:30 | 01:00 | 652.50
+
+
+Here are the 16 flight plans:
+
+CLT | VIE | AA | 1 (FRA) | 08:00 | 18:30 | 850.00
+CLT | VIE | UA | 2 (EWR, MUC) | 10:30 | 21:15 | 1050.00
+CLT | VIE | DL | 1 (AMS) | 12:45 | 22:50 | 900.00
+CLT | VIE | LH | 1 (FRA) | 14:15 | 23:40 | 1100.00
+CLT | VIE | OS | 0 | 16:00 | 06:00 | 1200.00
+CLT | VIE | KL | 1 (AMS) | 17:30 | 07:20 | 1000.00
+CLT | VIE | BA | 1 (LHR) | 19:00 | 08:30 | 1150.00
+CLT | VIE | TK | 1 (IST) | 21:00 | 10:50 | 1250.00
+VIE | CLT | AA | 1 (PHL) | 08:30 | 14:15 | 950.00
+VIE | CLT | UA | 2 (MUC, EWR) | 10:00 | 16:45 | 1150.00
+VIE | CLT | DL | 1 (CDG) | 11:45 | 17:30 | 1050.00
+VIE | CLT | LH | 1 (FRA) | 13:30 | 19:15 | 1200.00
+VIE | CLT | OS | 0 | 15:00 | 21:00 | 1300.00
+VIE | CLT | KL | 1 (AMS) | 16:30 | 22:20 | 1100.00
+VIE | CLT | BA | 1 (LHR) | 18:00 | 23:45 | 1250.00
+VIE | CLT | TK | 1 (IST) | 20:00 | 01:50 | 1350.00
+
+
+Here are the 16 flight plans:
+
+CLT | ZRH | American Airlines | 1 (PHL) | 08:00 | 18:30 | 850.00
+CLT | ZRH | Lufthansa | 1 (FRA) | 10:30 | 20:50 | 950.00
+CLT | ZRH | Swiss International | 0 | 12:00 | 17:30 | 1100.00
+CLT | ZRH | United Airlines | 1 (EWR) | 14:00 | 22:20 | 900.00
+CLT | ZRH | Delta Air Lines | 1 (AMS) | 16:00 | 23:50 | 1000.00
+CLT | ZRH | Austrian Airlines | 1 (VIE) | 18:00 | 01:20 | 1050.00
+CLT | ZRH | British Airways | 1 (LHR) | 20:00 | 02:40 | 1200.00
+CLT | ZRH | KLM Royal Dutch | 1 (AMS) | 22:00 | 04:20 | 1150.00
+
+ZRH | CLT | Swiss International | 0 | 09:00 | 14:30 | 1200.00
+ZRH | CLT | Lufthansa | 1 (FRA) | 11:30 | 17:50 | 1050.00
+ZRH | CLT | American Airlines | 1 (PHL) | 13:00 | 19:20 | 950.00
+ZRH | CLT | United Airlines | 1 (EWR) | 15:00 | 21:20 | 1000.00
+ZRH | CLT | Delta Air Lines | 1 (AMS) | 17:00 | 23:20 | 1100.00
+ZRH | CLT | Austrian Airlines | 1 (VIE) | 19:00 | 01:20 | 1150.00
+ZRH | CLT | British Airways | 1 (LHR) | 21:00 | 03:20 | 1250.00
+ZRH | CLT | KLM Royal Dutch | 1 (AMS) | 23:00 | 05:20 | 1200.00
