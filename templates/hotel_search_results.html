@@ -2,29 +2,27 @@
 {% import "star_rating.html" as star_rating %}
 
 {% block content %}
-<div class="container mx-auto py-8">
-    <div class="mx-4 flex flex-col md:flex-row">
-        <div class="w-full md:w-1/4">
-            <select id="sort-hotels-by" name="sort-hotels-by" 
-                class="border rounded-md w-full md:w-72 px-4 py-2 mb-2 bg-white"
-                hx-post="/hotel-sort" hx-trigger="change" hx-target="#hotel-search-results">
-                <option value="">Sort...</option>
-                <option value="price-low">Price (Low to High)</option>
-                <option value="price-high">Price (High to Low)</option>
-                <option value="rating-high">Guest Rating (High to Low)</option>
-            </select>
+<div class="mx-4 py-8 flex flex-col md:flex-row">
+    <div class="w-full md:w-1/4">
+        <select id="sort-hotels-by" name="sort-hotels-by" 
+            class="border rounded-md w-full md:w-72 px-4 py-2 mb-2 bg-white"
+            hx-post="/hotel-sort" hx-trigger="change" hx-target="#hotel-search-results">
+            <option value="">Sort...</option>
+            <option value="price-low">Price (Low to High)</option>
+            <option value="price-high">Price (High to Low)</option>
+            <option value="rating-high">Guest Rating (High to Low)</option>
+        </select>
 
-            <div id="amenities_filter">
-                {% include "filtered_amenities.html" %}
-            </div>
+        <div id="amenities_filter">
+            {% include "filtered_amenities.html" %}
         </div>
-        
-        <div class="w-full md:w-3/4">
-            <div id="hotel-search-results" hx-get="/hotel-amenity-results" hx-target="#hotel-search-results" 
-                hx-trigger="updateFilteredAmenities from:body">
-                {% include "hotel_search_card.html" %}
-            </div>
-        </div> 
     </div>
+    
+    <div class="w-full md:w-3/4">
+        <div id="hotel-search-results" hx-get="/hotel-amenity-results" hx-target="#hotel-search-results" 
+            hx-trigger="updateFilteredAmenities from:body">
+            {% include "hotel_search_card.html" %}
+        </div>
+    </div> 
 </div>
 {% endblock %}
