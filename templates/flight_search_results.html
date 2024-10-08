@@ -1,1 +1,45 @@
 {% extends 'base.html' %}
+
+{% block content %}
+<div class="mx-4 py-8 flex flex-col md:flex-row">
+    <div class="w-full md:w-1/4">
+    </div>
+
+    <div class="w-full md:w-2/3">
+        <h1 class="text-lg md:text-2xl font-bold mb-4">Flight Search Results for {{ origin_location }} to
+            {{ destination_location }}
+            ({{ start_date.strftime('%B %-d') }} - {{ end_date.strftime('%B %-d') }})</h1>
+        {% for combo in flight_combos %}
+        <div class="border border-travelnavy border-4 rounded-lg flex p-2">
+            <div class="basis-1/6 text-center">LOGO</div>
+            <div class="basis-2/3 flex justify-start">
+                <div class="basis-1/3 flex flex-col items-center">
+                    <div class="font-bold text-xl">
+                        {{ combo['flight_options'][0]['departure_time'] }}
+                        <i class="bi bi-airplane-fill inline-block rotate-45 text-travelnavy"></i>
+                    </div>
+                    <div class="text-sm">{{ combo['origin'] }} ({{ origin_location }})</div>
+                </div>
+
+                <div class="basis-1/3 flex flex-col items-center justify-center">
+                    <div>
+                        <div class="border border-travelblue w-16"></div>
+                    </div>
+                    <div class="text-sm">{{ combo['flight_options'][0]['airline'] }}</div>
+                </div>
+
+                <div class="basis-1/3 flex flex-col items-center">
+                    <div class="font-bold text-xl">
+                        <i class="bi bi-airplane-fill inline-block text-travelnavy rotate-[135deg]" role="presentation"></i>
+                        {{ combo['flight_options'][0]['arrival_time'] }}
+                        
+                    </div>
+                    <div class="text-sm">{{ combo['destination'] }} ({{ destination_location }})</div>                    
+                </div>
+            </div>
+            <div class="basis-1/6 text-center">Bucks</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

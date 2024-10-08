@@ -215,4 +215,10 @@ def flights():
 
     flight_combos = origin_flights
 
-    return render_template('flight_search_results.html',flight_combos=flight_combos)
+    return render_template('flight_search_results.html',
+                           origin_location=session['origin'][1],
+                           destination_location=session['destination'][1],
+                           start_date=session['dates'][0],
+                           end_date=session['dates'][1],
+                        flight_combos=flight_combos)
+                        

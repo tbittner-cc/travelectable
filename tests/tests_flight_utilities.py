@@ -4,7 +4,10 @@ import flight_utilities
 
 class TestRetrieveAirports(unittest.TestCase):
     def test_retrieve_airports(self):
-        result = flight_utilities.retrieve_airports("New York, USA (JFK, LGA, EWR)")
+        result = flight_utilities.retrieve_airports((8, 'Boston', 'USA', '(BOS)'))
+        self.assertEqual(result,["BOS"])
+
+        result = flight_utilities.retrieve_airports((1,"New York", "USA", "(JFK, LGA, EWR)"))
         self.assertEqual(result,["JFK", "LGA", "EWR"])
 
 class TestGetFlightSearchResults(unittest.TestCase):
