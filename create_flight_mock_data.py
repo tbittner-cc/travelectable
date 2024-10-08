@@ -34,9 +34,9 @@ with open ('airports.txt', 'r') as f:
 with open('query_results.txt', 'a') as f:
     # Data is of this format New York|(JFK, LGA, EWR)\n
     for i_idx,i in enumerate(source_data):
-        if i_idx < 6:
+        if i_idx < 7:
             continue
-        if i_idx == 7:
+        if i_idx == 8:
             break
         airport_str = i.strip().split('|')[1]
         src_airport_list = [x.strip() for x in airport_str.strip('(').strip(')').split(',')]
