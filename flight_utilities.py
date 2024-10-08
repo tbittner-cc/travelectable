@@ -23,8 +23,7 @@ def get_flight_search_results(origin_codes, destination_codes):
                 rows = curr.fetchall()
                 columns = [column[0] for column in curr.description]
                 flight_options = [dict(zip(columns, row)) for row in rows]
-
-                flight["flight_options"] = flight_options
-                search_results.append(flight)
+                for flight_option in flight_options:
+                    search_results.append({**flight, **flight_option}) 
 
     return search_results
