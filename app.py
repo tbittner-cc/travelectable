@@ -209,5 +209,10 @@ def complete_booking():
 def flights():
     origins = flight_utilities.retrieve_airports(session['origin'])
     destinations = flight_utilities.retrieve_airports(session['destination'])
-    flights = flight_utilities.get_flight_search_results(origins, destinations)
-    return render_template('flight_search_results.html')
+
+    origin_flights = flight_utilities.get_flight_search_results(origins, destinations)
+    destination_flights = flight_utilities.get_flight_search_results(destinations, origins)
+
+    flight_combos = origin_flights
+
+    return render_template('flight_search_results.html',flight_combos=flight_combos)

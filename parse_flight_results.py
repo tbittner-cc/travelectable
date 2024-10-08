@@ -1,7 +1,7 @@
 import sqlite3
 
 
-with open('flight_results/boston.txt', 'r') as f:
+with open('flight_results/san_francisco.txt', 'r') as f:
     source_data = f.readlines()
     # Remove all lines that don't contain a '|'
     source_data = [i for i in source_data if '|' in i]
