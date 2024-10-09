@@ -88,4 +88,3 @@ Toronto|America/Toronto
 Vancouver|America/Vancouver
 Vienna|Europe/Vienna
 Zurich|Europe/Zurich
-

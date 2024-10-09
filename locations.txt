@@ -1,0 +1,90 @@
+New York
+Los Angeles
+Chicago
+Houston
+Philadelphia
+San Francisco
+Charlotte
+Boston
+Seattle
+Denver
+Nashville
+Washington DC
+Miami
+Las Vegas
+New Orleans
+Orlando
+Tampa
+Anchorage
+San Juan
+Acadia National Park
+Big Sur
+Breckenridge
+Charleston
+Custer State Park
+Glacier National Park
+Grand Canyon
+Great Smoky Mountains National Park
+Jackson Hole
+Key West
+Lake Tahoe
+Mackinac Island
+Maui
+Mount Rushmore
+Myrtle Beach
+Napa Valley
+Santa Fe
+Savannah
+St. Augustine
+Telluride
+Yellowstone National Park
+Yosemite National Park
+Zion National Park
+Amsterdam
+Aruba Island
+Athens
+Auckland
+Bali
+Barcelona
+Beijing
+Berlin
+Buenos Aires
+Cabo San Lucas
+Cairo
+Cancun
+Cape Town
+Copenhagen
+Dubai
+Dublin
+Edinburgh
+Hanoi
+Hong Kong
+Istanbul
+Jerusalem
+Lima
+London
+Madrid
+Mexico City
+Montego Bay
+Montreal
+Mumbai
+Oslo
+Panama City
+Paris
+Phuket
+Prague
+Reykjavik
+Rio de Janeiro
+Rome
+Santiago
+Seoul
+Shanghai
+Singapore
+Split
+Stockholm
+Sydney
+Tokyo
+Toronto
+Vancouver
+Vienna
+Zurich
