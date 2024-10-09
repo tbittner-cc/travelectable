@@ -5,7 +5,7 @@ with open('flight_results/boston.txt', 'r') as f:
     source_data = f.readlines()
     # Remove all lines that don't contain a '|'
     source_data = [i for i in source_data if '|' in i]
-    print(len(source_data))
+    print("Entries: ",len(source_data))
 
 with sqlite3.connect("travelectable.db") as conn:
     curr = conn.cursor()
