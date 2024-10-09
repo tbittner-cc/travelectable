@@ -1,0 +1,91 @@
+New York|US/Eastern
+Los Angeles|US/Pacific
+Chicago|US/Central
+Houston|US/Central
+Philadelphia|US/Eastern
+San Francisco|US/Pacific
+Charlotte|US/Eastern
+Boston|US/Eastern
+Seattle|US/Pacific
+Denver|US/Mountain
+Nashville|US/Central
+Washington DC|US/Eastern
+Miami|US/Eastern
+Las Vegas|US/Pacific
+New Orleans|US/Central
+Orlando|US/Eastern
+Tampa|US/Eastern
+Anchorage|US/Alaska
+San Juan|America/Puerto_Rico
+Acadia National Park|US/Eastern
+Big Sur|US/Pacific
+Breckenridge|US/Mountain
+Charleston|US/Eastern
+Custer State Park|US/Mountain
+Glacier National Park|US/Mountain
+Grand Canyon|US/Mountain
+Great Smoky Mountains National Park|US/Eastern
+Jackson Hole|US/Mountain
+Key West|US/Eastern
+Lake Tahoe|US/Pacific
+Mackinac Island|US/Eastern
+Maui|Pacific/Honolulu
+Mount Rushmore|US/Mountain
+Myrtle Beach|US/Eastern
+Napa Valley|US/Pacific
+Santa Fe|US/Mountain
+Savannah|US/Eastern
+St. Augustine|US/Eastern
+Telluride|US/Mountain
+Yellowstone National Park|US/Mountain
+Yosemite National Park|US/Pacific
+Zion National Park|US/Mountain
+Amsterdam|Europe/Amsterdam
+Aruba Island|America/Aruba
+Athens|Europe/Athens
+Auckland|Pacific/Auckland
+Bali|Asia/Jakarta
+Barcelona|Europe/Madrid
+Beijing|Asia/Shanghai
+Berlin|Europe/Berlin
+Buenos Aires|America/Argentina/Buenos_Aires
+Cabo San Lucas|America/Mexico_City
+Cairo|Africa/Cairo
+Cancun|America/Cancun
+Cape Town|Africa/Johannesburg
+Copenhagen|Europe/Copenhagen
+Dubai|Asia/Dubai
+Dublin|Europe/Dublin
+Edinburgh|Europe/London
+Hanoi|Asia/Ho_Chi_Minh
+Hong Kong|Asia/Hong_Kong
+Istanbul|Europe/Istanbul
+Jerusalem|Asia/Jerusalem
+Lima|America/Lima
+London|Europe/London
+Madrid|Europe/Madrid
+Mexico City|America/Mexico_City
+Montego Bay|America/Jamaica
+Montreal|America/Montreal
+Mumbai|Asia/Kolkata
+Oslo|Europe/Oslo
+Panama City|America/Panama
+Paris|Europe/Paris
+Phuket|Asia/Bangkok
+Prague|Europe/Prague
+Reykjavik|Atlantic/Reykjavik
+Rio de Janeiro|America/Sao_Paulo
+Rome|Europe/Rome
+Santiago|America/Santiago
+Seoul|Asia/Seoul
+Shanghai|Asia/Shanghai
+Singapore|Asia/Singapore
+Split|Europe/Zagreb
+Stockholm|Europe/Stockholm
+Sydney|Australia/Sydney
+Tokyo|Asia/Tokyo
+Toronto|America/Toronto
+Vancouver|America/Vancouver
+Vienna|Europe/Vienna
+Zurich|Europe/Zurich
+

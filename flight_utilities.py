@@ -1,3 +1,4 @@
+from datetime import datetime
 import sqlite3
 
 
@@ -23,7 +24,11 @@ def get_flight_search_results(origin_codes, destination_codes):
                 rows = curr.fetchall()
                 columns = [column[0] for column in curr.description]
                 flight_options = [dict(zip(columns, row)) for row in rows]
+                print(flight_options)
                 for flight_option in flight_options:
-                    search_results.append({**flight, **flight_option}) 
+                    merged_option = {**flight, **flight_option}
+                    merged_option['departure_time'] = datetime.strptime(merged_option['departure_time'], '%H:%M')
+                    merged_option['arrival_time'] = datetime.strptime(merged_option['arrival_time'], '%H:%M')
+                    search_results.append(merged_option) 
 
     return search_results
