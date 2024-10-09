@@ -233,10 +233,7 @@ def flights():
     origins = flight_utilities.retrieve_airports(session["origin"])
     destinations = flight_utilities.retrieve_airports(session["destination"])
 
-    origin_flights = flight_utilities.get_flight_search_results(origins, destinations)
-    destination_flights = flight_utilities.get_flight_search_results(
-        destinations, origins
-    )
+    origin_flights = flight_utilities.get_flight_search_results(session["origin"], session['destination'])
 
     flight_combos = origin_flights
 
