@@ -1,26 +1,58 @@
 from datetime import datetime
 import unittest
 import flight_utilities
+import pytz
 
 
 class TestRetrieveAirports(unittest.TestCase):
     def test_retrieve_airports(self):
-        result = flight_utilities.retrieve_airports((8, 'Boston', 'USA', '(BOS)'))
-        self.assertEqual(result,["BOS"])
+        result = flight_utilities.retrieve_airports((8, "Boston", "USA", "(BOS)"))
+        self.assertEqual(result, ["BOS"])
 
-        result = flight_utilities.retrieve_airports((1,"New York", "USA", "(JFK, LGA, EWR)"))
-        self.assertEqual(result,["JFK", "LGA", "EWR"])
+        result = flight_utilities.retrieve_airports(
+            (1, "New York", "USA", "(JFK, LGA, EWR)")
+        )
+        self.assertEqual(result, ["JFK", "LGA", "EWR"])
+
+
+class TestGetFlightDuration(unittest.TestCase):
+    def test_get_flight_duration(self):
+        flight_date = datetime(2024, 10, 10)
+        departure_time = datetime.strptime("06:00", "%H:%M")
+        arrival_time = datetime.strptime("08:30", "%H:%M")
+        origin_tz = pytz.timezone("US/Central")
+        destination_tz = pytz.timezone("US/Eastern")
+        result = flight_utilities.get_flight_duration(
+            flight_date, departure_time, arrival_time, origin_tz, destination_tz
+        )
+        self.assertEqual(result, "1h 30m")
+
+        departure_time = datetime.strptime("22:00", "%H:%M")
+        arrival_time = datetime.strptime("01:00", "%H:%M")
+        result = flight_utilities.get_flight_duration(
+            flight_date, departure_time, arrival_time, origin_tz, destination_tz
+        )
+        self.assertEqual(result, "2h 0m")
+
 
 class TestGetFlightSearchResults(unittest.TestCase):
     def test_get_flight_search_results(self):
-        result = flight_utilities.get_flight_search_results((1,"New York", "USA", "(JFK, LGA, EWR)"),(3,"Chicago", "USA", "(ORD,MDW)"))
-        self.assertEqual(len(result),48)
+        result = flight_utilities.get_flight_search_results(
+            (1, "New York", "USA", "(JFK, LGA, EWR)"),
+            (3, "Chicago", "USA", "(ORD,MDW)"),
+            datetime(2024, 10, 10),
+        )
+        self.assertEqual(len(result), 48)
 
         first_result = result[0]
-        self.assertEqual(first_result['origin'], "JFK")
-        self.assertEqual(first_result['destination'], "ORD")
-        self.assertEqual(first_result['airline'], "AA")
-        self.assertEqual(first_result['arrival_time'], datetime.strptime("08:30", "%H:%M")) 
-        self.assertEqual(first_result['departure_time'], datetime.strptime("06:00", "%H:%M"))
-        self.assertEqual(first_result['layover_airports'], "")
-        self.assertEqual(first_result['num_stops'], 0)
+        self.assertEqual(first_result["origin"], "JFK")
+        self.assertEqual(first_result["destination"], "ORD")
+        self.assertEqual(first_result["airline"], "AA")
+        self.assertEqual(
+            first_result["arrival_time"], datetime.strptime("08:30", "%H:%M")
+        )
+        self.assertEqual(
+            first_result["departure_time"], datetime.strptime("06:00", "%H:%M")
+        )
+        self.assertEqual(first_result["layover_airports"], "")
+        self.assertEqual(first_result["num_stops"], 0)
