@@ -57,7 +57,7 @@ def get_flight_search_results(origin, destination, flight_date):
                 flight["origin"] = i
                 flight["destination"] = j
                 curr.execute(
-                    """SELECT airline,layover_airports,departure_time,arrival_time, num_stops, price 
+                    """SELECT id,airline,layover_airports,departure_time,arrival_time, num_stops, price 
                     FROM flight_schedules WHERE origin = ? AND destination = ?""",
                     (i, j),
                 )
