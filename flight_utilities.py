@@ -1,3 +1,4 @@
+import base64
 from datetime import datetime,timedelta
 import pytz
 import sqlite3
@@ -66,6 +67,11 @@ def get_flight_search_results(origin, destination, flight_date):
                 flight_options = [dict(zip(columns, row)) for row in rows]
                 for flight_option in flight_options:
                     merged_option = {**flight, **flight_option}
+
+                    airline_icon_name = merged_option['airline'].replace(' ', '_').lower()
+                    with open(f"static/airline_icons/{airline_icon_name}.webp",
+                      "rb") as f:
+                        merged_option['logo'] = base64.b64encode(f.read()).decode()
 
                     merged_option["departure_time"] = datetime.strptime(
                         merged_option["departure_time"], "%H:%M"
