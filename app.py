@@ -184,7 +184,7 @@ def search():
     else:
         session["origin"] = selected_locations[0]
         session["destination"] = selected_locations[1]
-        return redirect("/flights")
+        return redirect("/origin-flight")
 
 
 @app.route("/filter-origins", methods=["GET", "POST"])
@@ -228,8 +228,8 @@ def complete_booking():
         return redirect("/hotels")
 
 
-@app.route("/flights")
-def flights():
+@app.route("/origin-flight")
+def flight():
     origins = flight_utilities.retrieve_airports(session["origin"])
     destinations = flight_utilities.retrieve_airports(session["destination"])
 
@@ -245,3 +245,8 @@ def flights():
         end_date=session["dates"][1],
         flight_combos=flight_combos,
     )
+
+@app.route("/return-flight",methods=["GET", "POST"])
+def return_flight():
+    origin_flight = request.form["flight_id"]
+    return origin_flight
