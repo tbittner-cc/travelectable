@@ -44,10 +44,11 @@ class TestGetFlightSearchResults(unittest.TestCase):
         )
         self.assertEqual(len(result), 48)
 
+        result = sorted(result, key=lambda x: x["id"])
         first_result = result[0]
         self.assertEqual(first_result["origin"], "JFK")
         self.assertEqual(first_result["destination"], "ORD")
-        self.assertEqual(first_result["airline"], "AA")
+        self.assertEqual(first_result["airline"], "Horizon Connect")
         self.assertEqual(
             first_result["arrival_time"], datetime.strptime("08:30", "%H:%M")
         )
@@ -56,3 +57,43 @@ class TestGetFlightSearchResults(unittest.TestCase):
         )
         self.assertEqual(first_result["layover_airports"], "")
         self.assertEqual(first_result["num_stops"], 0)
+
+
+class TestGenerateFilters(unittest.TestCase):
+    def setUp(self):
+        self.maxDiff = None
+
+    def test_generate_filters(self):
+        flight_results = flight_utilities.get_flight_search_results(
+            (1, "New York", "USA", "(JFK, LGA, EWR)"),
+            (3, "Chicago", "USA", "(ORD,MDW)"),
+            datetime(2024, 10, 10),
+        )
+
+        result = flight_utilities.generate_filters(flight_results)
+        self.assertEqual(
+            result,
+            {
+                "stops": {0: 25, 1: 23},
+                "airlines": {
+                    "Aerius Global": 6,
+                    "Aurora Voyages": 10,
+                    "Celestial Wings": 15,
+                    "Horizon Connect": 11,
+                    "Skypath Airways": 6,
+                },
+                "layover_airports": {
+                    "BOS": 1,
+                    "BWI": 4,
+                    "CLE": 1,
+                    "CVG": 1,
+                    "DEN": 1,
+                    "DTW": 4,
+                    "EWR": 3,
+                    "JFK": 1,
+                    "MDW": 1,
+                    "ORD": 3,
+                    "PIT": 3,
+                },
+            },
+        )

@@ -1,0 +1,1865 @@
+
+
+Here are the 16 flight plans:
+
+SEA | DEN | Alaska Airlines | Non-stop | 06:00 | 09:35 | 250.00
+SEA | DEN | Delta Air Lines | 1 stop (SFO) | 07:15 | 11:45 | 320.00
+SEA | DEN | United Airlines | Non-stop | 08:30 | 12:05 | 280.00
+SEA | DEN | American Airlines | 1 stop (PHX) | 09:45 | 14:20 | 350.00
+SEA | DEN | Southwest Airlines | Non-stop | 11:00 | 14:35 | 220.00
+SEA | DEN | Frontier Airlines | 1 stop (LAS) | 12:15 | 16:50 | 300.00
+SEA | DEN | Spirit Airlines | 1 stop (ORD) | 13:30 | 18:05 | 330.00
+SEA | DEN | JetBlue Airways | Non-stop | 14:45 | 18:20 | 290.00
+DEN | SEA | United Airlines | Non-stop | 06:00 | 07:35 | 260.00
+DEN | SEA | Delta Air Lines | 1 stop (MSP) | 07:15 | 11:45 | 340.00
+DEN | SEA | American Airlines | Non-stop | 08:30 | 10:05 | 300.00
+DEN | SEA | Alaska Airlines | 1 stop (SJC) | 09:45 | 13:20 | 320.00
+DEN | SEA | Frontier Airlines | Non-stop | 11:00 | 12:35 | 230.00
+DEN | SEA | Spirit Airlines | 1 stop (DFW) | 12:15 | 16:50 | 360.00
+DEN | SEA | Southwest Airlines | Non-stop | 13:30 | 15:05 | 240.00
+DEN | SEA | JetBlue Airways | 1 stop (LAX) | 14:45 | 18:20 | 310.00
+
+
+Here are the 16 flight plans:
+
+SEA | BNA | Alaska Airlines | Non-stop | 08:00 | 15:30 | 425.00
+SEA | BNA | Delta Air Lines | 1 stop (ATL) | 09:30 | 18:15 | 475.00
+SEA | BNA | American Airlines | 1 stop (ORD) | 11:00 | 19:45 | 505.00
+SEA | BNA | United Airlines | Non-stop | 13:30 | 21:00 | 450.00
+SEA | BNA | Southwest Airlines | 1 stop (DEN) | 14:45 | 22:30 | 525.00
+SEA | BNA | Frontier Airlines | 1 stop (LAS) | 16:00 | 23:45 | 495.00
+SEA | BNA | Spirit Airlines | 1 stop (IAH) | 17:30 | 01:15 | 465.00
+SEA | BNA | JetBlue Airways | Non-stop | 19:00 | 02:30 | 440.00
+BNA | SEA | Alaska Airlines | Non-stop | 06:00 | 09:30 | 395.00
+BNA | SEA | Delta Air Lines | 1 stop (SFO) | 08:30 | 12:15 | 520.00
+BNA | SEA | American Airlines | 1 stop (DFW) | 10:00 | 14:45 | 550.00
+BNA | SEA | United Airlines | Non-stop | 12:30 | 16:00 | 410.00
+BNA | SEA | Southwest Airlines | 1 stop (PHX) | 14:00 | 18:45 | 485.00
+BNA | SEA | Frontier Airlines | 1 stop (MCO) | 15:30 | 20:15 | 455.00
+BNA | SEA | Spirit Airlines | 1 stop (EWR) | 17:00 | 22:45 | 430.00
+BNA | SEA | JetBlue Airways | Non-stop | 19:30 | 01:00 | 405.00
+
+
+Here are the 16 flight plans:
+
+SEA | IAD | Alaska Airlines | Non-stop | 08:00 | 16:30 | 425.00
+SEA | IAD | American Airlines | 1 stop (ORD) | 09:15 | 18:45 | 495.00
+SEA | IAD | Delta Air Lines | Non-stop | 10:30 | 19:00 | 520.00
+SEA | IAD | United Airlines | 1 stop (SFO) | 11:45 | 20:15 | 450.00
+SEA | IAD | JetBlue Airways | 1 stop (BOS) | 13:00 | 21:30 | 480.00
+SEA | IAD | Spirit Airlines | 1 stop (LAS) | 14:15 | 22:45 | 420.00
+SEA | IAD | Frontier Airlines | 1 stop (DEN) | 15:30 | 23:59 | 400.00
+SEA | IAD | Southwest Airlines | Non-stop | 16:45 | 00:15 | 550.00
+IAD | SEA | Alaska Airlines | Non-stop | 07:00 | 09:30 | 405.00
+IAD | SEA | American Airlines | 1 stop (CLT) | 08:15 | 11:45 | 465.00
+IAD | SEA | Delta Air Lines | 1 stop (ATL) | 09:30 | 13:00 | 510.00
+IAD | SEA | United Airlines | Non-stop | 10:45 | 13:15 | 440.00
+IAD | SEA | JetBlue Airways | 1 stop (JFK) | 12:00 | 15:30 | 490.00
+IAD | SEA | Spirit Airlines | 1 stop (DFW) | 13:15 | 16:45 | 430.00
+IAD | SEA | Frontier Airlines | 1 stop (MIA) | 14:30 | 18:00 | 410.00
+IAD | SEA | Southwest Airlines | 1 stop (STL) | 15:45 | 19:15 | 500.00
+
+
+Here are the 16 flight plans:
+
+SEA | DCA | Alaska | 0 | 06:00 | 14:30 | 420.00
+SEA | DCA | Delta | 1 (ATL) | 08:30 | 18:15 | 550.00
+SEA | DCA | American | 1 (ORD) | 10:00 | 19:45 | 480.00
+SEA | DCA | United | 0 | 12:00 | 20:30 | 450.00
+SEA | DCA | Spirit | 1 (LAS) | 14:30 | 22:15 | 380.00
+SEA | DCA | Frontier | 1 (DEN) | 16:00 | 23:45 | 410.00
+SEA | DCA | JetBlue | 0 | 18:00 | 01:30 | 500.00
+SEA | DCA | Southwest | 1 (PHX) | 20:00 | 02:45 | 440.00
+DCA | SEA | Alaska | 0 | 06:00 | 09:30 | 400.00
+DCA | SEA | Delta | 1 (MSP) | 08:30 | 12:15 | 520.00
+DCA | SEA | American | 1 (CLT) | 10:00 | 14:45 | 460.00
+DCA | SEA | United | 0 | 12:00 | 16:30 | 430.00
+DCA | SEA | Spirit | 1 (BWI) | 14:30 | 18:15 | 390.00
+DCA | SEA | Frontier | 1 (IAH) | 16:00 | 20:45 | 420.00
+DCA | SEA | JetBlue | 0 | 18:00 | 22:30 | 490.00
+DCA | SEA | Southwest | 1 (STL) | 20:00 | 01:45 | 450.00
+
+
+Here are the 16 flight plans:
+
+SEA | MIA | Alaska Airlines | 0 | 08:00 | 17:30 | 450.00
+SEA | MIA | American Airlines | 1 (DFW) | 09:30 | 19:15 | 520.00
+SEA | MIA | Delta Air Lines | 0 | 11:00 | 20:00 | 480.00
+SEA | MIA | United Airlines | 1 (SFO) | 12:30 | 21:45 | 550.00
+SEA | MIA | JetBlue Airways | 0 | 14:00 | 22:30 | 410.00
+SEA | MIA | Spirit Airlines | 1 (LAS) | 15:30 | 23:59 | 380.00
+SEA | MIA | Frontier Airlines | 1 (DEN) | 16:30 | 00:15 | 420.00
+SEA | MIA | Southwest Airlines | 0 | 18:00 | 01:30 | 460.00
+MIA | SEA | Alaska Airlines | 0 | 08:30 | 11:45 | 430.00
+MIA | SEA | American Airlines | 1 (CLT) | 09:45 | 13:00 | 500.00
+MIA | SEA | Delta Air Lines | 0 | 11:15 | 14:30 | 490.00
+MIA | SEA | United Airlines | 1 (IAH) | 12:45 | 15:55 | 530.00
+MIA | SEA | JetBlue Airways | 0 | 14:15 | 17:30 | 440.00
+MIA | SEA | Spirit Airlines | 1 (ORD) | 15:45 | 18:55 | 390.00
+MIA | SEA | Frontier Airlines | 1 (PHX) | 16:45 | 19:55 | 450.00
+MIA | SEA | Southwest Airlines | 0 | 18:15 | 21:30 | 470.00
+
+
+Here are the 16 flight plans:
+
+SEA | LAS | Alaska Airlines | Non-stop | 06:00 | 08:30 | 198.00
+SEA | LAS | Delta Air Lines | 1 stop (SFO) | 08:15 | 11:45 | 228.00
+SEA | LAS | American Airlines | Non-stop | 10:30 | 13:00 | 220.00
+SEA | LAS | United Airlines | 1 stop (DEN) | 12:45 | 16:15 | 245.00
+SEA | LAS | Spirit Airlines | 1 stop (OAK) | 14:00 | 17:30 | 185.00
+SEA | LAS | Frontier Airlines | Non-stop | 16:00 | 18:30 | 210.00
+SEA | LAS | Southwest Airlines | 1 stop (PHX) | 18:30 | 22:00 | 260.00
+SEA | LAS | JetBlue Airways | Non-stop | 20:00 | 22:30 | 240.00
+LAS | SEA | Alaska Airlines | Non-stop | 06:30 | 09:00 | 205.00
+LAS | SEA | Delta Air Lines | 1 stop (SLC) | 08:45 | 12:15 | 235.00
+LAS | SEA | American Airlines | Non-stop | 11:15 | 13:45 | 225.00
+LAS | SEA | United Airlines | 1 stop (SFO) | 13:30 | 16:00 | 250.00
+LAS | SEA | Spirit Airlines | 1 stop (LAX) | 15:00 | 18:30 | 195.00
+LAS | SEA | Frontier Airlines | Non-stop | 17:00 | 19:30 | 215.00
+LAS | SEA | Southwest Airlines | 1 stop (SAN) | 19:30 | 23:00 | 270.00
+LAS | SEA | JetBlue Airways | Non-stop | 21:30 | 00:00 | 230.00
+
+
+Here are the 16 flight plans:
+
+SEA | MSY | Alaska | 1 (DFW) | 08:00 | 15:30 | 425.00
+SEA | MSY | American | 1 (ORD) | 09:30 | 17:15 | 450.00
+SEA | MSY | Delta | 1 (ATL) | 11:00 | 18:45 | 480.00
+SEA | MSY | United | 1 (DEN) | 12:30 | 20:10 | 410.00
+SEA | MSY | Southwest | 1 (PHX) | 14:00 | 21:35 | 395.00
+SEA | MSY | JetBlue | 1 (LAX) | 15:30 | 22:55 | 420.00
+SEA | MSY | Spirit | 1 (LAS) | 17:00 | 00:25 | 380.00
+SEA | MSY | Frontier | 1 (MCO) | 18:30 | 01:50 | 360.00
+MSY | SEA | Alaska | 1 (IAH) | 06:00 | 13:20 | 440.00
+MSY | SEA | American | 1 (CLT) | 07:30 | 15:05 | 465.00
+MSY | SEA | Delta | 1 (MSP) | 09:00 | 16:35 | 490.00
+MSY | SEA | United | 1 (EWR) | 10:30 | 18:10 | 430.00
+MSY | SEA | Southwest | 1 (DAL) | 12:00 | 19:40 | 405.00
+MSY | SEA | JetBlue | 1 (JFK) | 13:30 | 21:05 | 450.00
+MSY | SEA | Spirit | 1 (FLL) | 15:00 | 22:30 | 390.00
+MSY | SEA | Frontier | 1 (TPA) | 16:30 | 00:55 | 370.00
+
+
+Here are the 16 flight plans:
+
+SEA | MCO | Alaska Airlines | Non-stop | 08:00 | 16:30 | 420.00
+SEA | MCO | Delta Air Lines | 1 stop (ATL) | 09:15 | 18:45 | 450.00
+SEA | MCO | American Airlines | 1 stop (DFW) | 10:30 | 20:00 | 480.00
+SEA | MCO | United Airlines | Non-stop | 11:45 | 20:15 | 510.00
+SEA | MCO | Spirit Airlines | 1 stop (LAS) | 12:50 | 21:20 | 400.00
+SEA | MCO | Frontier Airlines | 1 stop (DEN) | 13:55 | 22:25 | 430.00
+SEA | MCO | Southwest Airlines | Non-stop | 15:00 | 23:30 | 460.00
+SEA | MCO | JetBlue Airways | 1 stop (JFK) | 16:10 | 00:40 | 490.00
+
+MCO | SEA | Alaska Airlines | Non-stop | 08:30 | 11:00 | 390.00
+MCO | SEA | Delta Air Lines | 1 stop (SFO) | 09:45 | 13:15 | 420.00
+MCO | SEA | American Airlines | 1 stop (PHX) | 11:00 | 14:30 | 440.00
+MCO | SEA | United Airlines | Non-stop | 12:15 | 15:45 | 470.00
+MCO | SEA | Spirit Airlines | 1 stop (ORD) | 13:30 | 17:00 | 410.00
+MCO | SEA | Frontier Airlines | 1 stop (MSP) | 14:45 | 18:15 | 430.00
+MCO | SEA | Southwest Airlines | Non-stop | 16:00 | 19:30 | 450.00
+MCO | SEA | JetBlue Airways | 1 stop (BOS) | 17:15 | 20:45 | 480.00
+
+
+Here are the 16 flight plans:
+
+SEA | TPA | Alaska | Non-stop | 08:00 | 16:35 | 420.00
+SEA | TPA | Delta | 1 stop (ATL) | 09:15 | 18:50 | 450.00
+SEA | TPA | American | 1 stop (DFW) | 10:30 | 19:25 | 480.00
+SEA | TPA | United | Non-stop | 11:45 | 19:50 | 500.00
+SEA | TPA | Spirit | 1 stop (LAS) | 12:50 | 21:10 | 380.00
+SEA | TPA | Frontier | 1 stop (DEN) | 13:15 | 21:40 | 350.00
+SEA | TPA | Southwest | Non-stop | 14:30 | 22:05 | 520.00
+SEA | TPA | JetBlue | 1 stop (JFK) | 15:45 | 23:20 | 400.00
+TPA | SEA | Alaska | Non-stop | 08:00 | 10:35 | 440.00
+TPA | SEA | Delta | 1 stop (MSP) | 09:15 | 12:50 | 470.00
+TPA | SEA | American | 1 stop (CLT) | 10:30 | 13:55 | 490.00
+TPA | SEA | United | Non-stop | 11:45 | 14:20 | 510.00
+TPA | SEA | Spirit | 1 stop (ORD) | 12:50 | 16:25 | 410.00
+TPA | SEA | Frontier | 1 stop (PHX) | 13:15 | 16:50 | 390.00
+TPA | SEA | Southwest | Non-stop | 14:30 | 17:05 | 530.00
+TPA | SEA | JetBlue | 1 stop (BOS) | 15:45 | 18:30 | 460.00
+
+
+Here are the 16 flight plans:
+
+SEA | ANC | Alaska Airlines | Non-stop | 06:00 | 08:30 | 198.00
+SEA | ANC | Delta Air Lines | Non-stop | 08:15 | 10:45 | 220.00
+SEA | ANC | American Airlines | 1 stop (PHX) | 09:30 | 13:15 | 280.00
+SEA | ANC | United Airlines | Non-stop | 11:00 | 13:30 | 240.00
+SEA | ANC | Southwest Airlines | 1 stop (OAK) | 12:45 | 16:20 | 260.00
+SEA | ANC | JetBlue Airways | Non-stop | 14:30 | 17:00 | 200.00
+SEA | ANC | Spirit Airlines | 1 stop (LAS) | 16:00 | 20:30 | 300.00
+SEA | ANC | Frontier Airlines | Non-stop | 18:15 | 20:45 | 230.00
+ANC | SEA | Alaska Airlines | Non-stop | 06:30 | 09:00 | 210.00
+ANC | SEA | Delta Air Lines | Non-stop | 08:45 | 11:15 | 250.00
+ANC | SEA | American Airlines | 1 stop (DFW) | 10:00 | 14:30 | 290.00
+ANC | SEA | United Airlines | Non-stop | 12:00 | 14:30 | 270.00
+ANC | SEA | Southwest Airlines | 1 stop (SFO) | 13:30 | 17:00 | 310.00
+ANC | SEA | JetBlue Airways | Non-stop | 15:15 | 17:45 | 240.00
+ANC | SEA | Spirit Airlines | 1 stop (DEN) | 16:45 | 21:15 | 330.00
+ANC | SEA | Frontier Airlines | Non-stop | 18:30 | 21:00 | 260.00
+
+
+Here are the 16 flight plans:
+
+SEA | SJU | American Airlines | 1 (MIA) | 08:00 | 18:30 | 542.00
+SEA | SJU | Delta Air Lines | 1 (ATL) | 10:30 | 21:00 | 620.00
+SEA | SJU | United Airlines | 2 (SFO, IAH) | 09:00 | 22:30 | 720.00
+SEA | SJU | JetBlue Airways | 1 (JFK) | 11:30 | 20:00 | 580.00
+SEA | SJU | Alaska Airlines | 1 (ORD) | 12:30 | 21:30 | 640.00
+SEA | SJU | Spirit Airlines | 2 (LAS, FLL) | 13:00 | 23:00 | 550.00
+SEA | SJU | Frontier Airlines | 1 (DEN) | 14:00 | 22:00 | 610.00
+SEA | SJU | Southwest Airlines | 2 (PHX, HOU) | 15:00 | 23:30 | 680.00
+
+SJU | SEA | American Airlines | 1 (CLT) | 08:30 | 18:00 | 520.00
+SJU | SEA | Delta Air Lines | 1 (MSP) | 09:30 | 19:30 | 650.00
+SJU | SEA | United Airlines | 2 (IAH, SFO) | 10:30 | 21:00 | 740.00
+SJU | SEA | JetBlue Airways | 1 (BOS) | 11:30 | 20:30 | 590.00
+SJU | SEA | Alaska Airlines | 1 (DCA) | 12:30 | 21:00 | 630.00
+SJU | SEA | Spirit Airlines | 2 (FLL, LAS) | 13:30 | 22:30 | 560.00
+SJU | SEA | Frontier Airlines | 1 (MCO) | 14:30 | 22:30 | 620.00
+SJU | SEA | Southwest Airlines | 2 (HOU, PHX) | 15:30 | 23:30 | 690.00
+
+
+Here are the 16 flight plans:
+
+SEA | BHB | Alaska Airlines | 0 | 06:00 | 13:30 | 450.00
+SEA | BHB | Delta Air Lines | 1 (DEN) | 08:30 | 16:45 | 520.00
+SEA | BHB | United Airlines | 0 | 10:00 | 17:20 | 480.00
+SEA | BHB | American Airlines | 1 (ORD) | 12:00 | 20:15 | 550.00
+SEA | BHB | Southwest Airlines | 0 | 14:00 | 21:20 | 410.00
+SEA | BHB | JetBlue Airways | 1 (JFK) | 16:00 | 23:30 | 580.00
+SEA | BHB | Spirit Airlines | 0 | 18:00 | 01:20 | 390.00
+SEA | BHB | Frontier Airlines | 1 (LAS) | 20:00 | 02:45 | 510.00
+
+BHB | SEA | Alaska Airlines | 0 | 06:30 | 14:00 | 420.00
+BHB | SEA | Delta Air Lines | 1 (ATL) | 09:00 | 17:15 | 540.00
+BHB | SEA | United Airlines | 0 | 11:30 | 18:50 | 490.00
+BHB | SEA | American Airlines | 1 (DFW) | 13:30 | 21:45 | 570.00
+BHB | SEA | Southwest Airlines | 0 | 15:30 | 23:00 | 430.00
+BHB | SEA | JetBlue Airways | 1 (BOS) | 17:30 | 01:15 | 590.00
+BHB | SEA | Spirit Airlines | 0 | 19:30 | 02:50 | 400.00
+BHB | SEA | Frontier Airlines | 1 (PHX) | 21:30 | 04:15 | 530.00
+
+
+Here are the 16 flight plans:
+
+SEA | MRY | Alaska Airlines | Non-stop | 08:00 | 10:35 | 178.00
+SEA | MRY | Delta Air Lines | 1 stop (SFO) | 09:30 | 12:50 | 220.00
+SEA | MRY | American Airlines | Non-stop | 11:15 | 13:40 | 198.00
+SEA | MRY | United Airlines | 1 stop (LAX) | 12:45 | 16:10 | 240.00
+SEA | MRY | Southwest Airlines | Non-stop | 14:00 | 16:25 | 182.00
+SEA | MRY | JetBlue Airways | 1 stop (SAN) | 15:30 | 18:55 | 258.00
+SEA | MRY | Spirit Airlines | 1 stop (PHX) | 17:00 | 20:30 | 200.00
+SEA | MRY | Frontier Airlines | Non-stop | 19:30 | 22:00 | 188.00
+
+MRY | SEA | Alaska Airlines | Non-stop | 06:00 | 08:35 | 165.00
+MRY | SEA | Delta Air Lines | 1 stop (SFO) | 07:30 | 10:50 | 210.00
+MRY | SEA | American Airlines | Non-stop | 09:15 | 11:40 | 185.00
+MRY | SEA | United Airlines | 1 stop (LAX) | 11:45 | 14:10 | 225.00
+MRY | SEA | Southwest Airlines | Non-stop | 13:00 | 15:25 | 170.00
+MRY | SEA | JetBlue Airways | 1 stop (SAN) | 14:30 | 17:55 | 245.00
+MRY | SEA | Spirit Airlines | 1 stop (PHX) | 16:00 | 19:30 | 205.00
+MRY | SEA | Frontier Airlines | Non-stop | 18:30 | 21:00 | 180.00
+
+
+Here are the 16 flight plans:
+
+SEA | SJC | Alaska Airlines | Non-stop | 06:00 | 07:30 | 150.00
+SEA | SJC | Delta Air Lines | 1 stop (LAX) | 08:15 | 11:45 | 220.00
+SEA | SJC | American Airlines | Non-stop | 09:45 | 11:15 | 180.00
+SEA | SJC | United Airlines | 1 stop (DEN) | 11:00 | 14:30 | 250.00
+SEA | SJC | Southwest Airlines | Non-stop | 12:30 | 14:00 | 160.00
+SEA | SJC | Alaska Airlines | 1 stop (PDX) | 14:15 | 17:45 | 200.00
+SEA | SJC | Delta Air Lines | Non-stop | 16:00 | 17:30 | 190.00
+SEA | SJC | American Airlines | 1 stop (PHX) | 18:30 | 22:00 | 280.00
+SJC | SEA | Alaska Airlines | Non-stop | 06:30 | 08:00 | 140.00
+SJC | SEA | United Airlines | 1 stop (SFO) | 08:45 | 12:15 | 230.00
+SJC | SEA | Delta Air Lines | Non-stop | 10:15 | 11:45 | 170.00
+SJC | SEA | American Airlines | 1 stop (LAX) | 12:00 | 15:30 | 240.00
+SJC | SEA | Southwest Airlines | Non-stop | 13:45 | 15:15 | 150.00
+SJC | SEA | United Airlines | Non-stop | 16:15 | 17:45 | 160.00
+SJC | SEA | Alaska Airlines | 1 stop (PDX) | 18:00 | 21:30 | 210.00
+SJC | SEA | Delta Air Lines | 1 stop (DEN) | 20:15 | 00:45 | 290.00
+
+
+Here are the 16 flight plans:
+
+SEA | EGE | Alaska | 0 | 08:00 | 11:30 | 245.00
+SEA | EGE | Delta | 1 (SFO) | 09:15 | 13:45 | 320.00
+SEA | EGE | United | 0 | 10:30 | 14:00 | 280.00
+SEA | EGE | American | 1 (LAX) | 11:45 | 16:15 | 350.00
+SEA | EGE | Southwest | 0 | 13:00 | 16:30 | 290.00
+SEA | EGE | Frontier | 1 (DEN) | 14:15 | 18:45 | 260.00
+SEA | EGE | Spirit | 0 | 15:30 | 18:00 | 230.00
+SEA | EGE | JetBlue | 1 (LAS) | 16:45 | 20:15 | 300.00
+EGE | SEA | Alaska | 0 | 08:00 | 09:30 | 240.00
+EGE | SEA | Delta | 1 (SFO) | 09:15 | 12:45 | 330.00
+EGE | SEA | United | 0 | 10:30 | 12:00 | 270.00
+EGE | SEA | American | 1 (LAX) | 11:45 | 15:15 | 360.00
+EGE | SEA | Southwest | 0 | 13:00 | 14:30 | 280.00
+EGE | SEA | Frontier | 1 (DEN) | 14:15 | 17:45 | 250.00
+EGE | SEA | Spirit | 0 | 15:30 | 17:00 | 220.00
+EGE | SEA | JetBlue | 1 (LAS) | 16:45 | 19:15 | 310.00
+
+
+Here are the 16 flight plans:
+
+SEA | CHS | Alaska | Non-stop | 08:00 | 16:30 | 420.00
+SEA | CHS | Delta | 1 stop (ATL) | 09:30 | 18:15 | 450.00
+SEA | CHS | American | 1 stop (DFW) | 11:00 | 19:45 | 480.00
+SEA | CHS | United | Non-stop | 12:30 | 20:50 | 400.00
+SEA | CHS | Spirit | 1 stop (LAS) | 14:00 | 22:20 | 380.00
+SEA | CHS | Frontier | 1 stop (DEN) | 15:30 | 23:55 | 410.00
+SEA | CHS | JetBlue | Non-stop | 17:00 | 01:20 | 440.00
+SEA | CHS | Southwest | 1 stop (MDW) | 19:00 | 02:35 | 460.00
+CHS | SEA | Alaska | Non-stop | 06:00 | 10:30 | 390.00
+CHS | SEA | Delta | 1 stop (MSP) | 07:30 | 12:15 | 420.00
+CHS | SEA | American | 1 stop (CLT) | 09:00 | 14:45 | 450.00
+CHS | SEA | United | Non-stop | 11:30 | 16:50 | 410.00
+CHS | SEA | Spirit | 1 stop (FLL) | 13:00 | 18:20 | 380.00
+CHS | SEA | Frontier | 1 stop (IAH) | 14:30 | 20:55 | 400.00
+CHS | SEA | JetBlue | Non-stop | 16:00 | 22:20 | 440.00
+CHS | SEA | Southwest | 1 stop (BNA) | 18:00 | 00:35 | 460.00
+
+
+Here are the 16 flight plans:
+
+SEA | RAP | Alaska Airlines | Non-stop | 08:00 | 11:15 | 245.00
+SEA | RAP | Delta Air Lines | 1 stop (DEN) | 09:30 | 13:45 | 320.00
+SEA | RAP | American Airlines | 1 stop (PHX) | 10:15 | 14:30 | 290.00
+SEA | RAP | United Airlines | Non-stop | 11:00 | 14:15 | 270.00
+SEA | RAP | Frontier Airlines | 1 stop (LAS) | 12:30 | 16:45 | 240.00
+SEA | RAP | Southwest Airlines | 1 stop (SFO) | 13:45 | 17:00 | 310.00
+SEA | RAP | JetBlue Airways | Non-stop | 15:00 | 18:15 | 260.00
+SEA | RAP | Spirit Airlines | 1 stop (ORD) | 16:15 | 20:30 | 220.00
+RAP | SEA | Alaska Airlines | Non-stop | 08:30 | 10:45 | 230.00
+RAP | SEA | Delta Air Lines | 1 stop (SLC) | 09:45 | 13:00 | 300.00
+RAP | SEA | American Airlines | 1 stop (DFW) | 11:00 | 14:15 | 280.00
+RAP | SEA | United Airlines | Non-stop | 12:15 | 14:30 | 250.00
+RAP | SEA | Frontier Airlines | 1 stop (MSP) | 13:30 | 16:45 | 210.00
+RAP | SEA | Southwest Airlines | 1 stop (LAX) | 14:45 | 17:00 | 290.00
+RAP | SEA | JetBlue Airways | Non-stop | 16:00 | 18:15 | 240.00
+RAP | SEA | Spirit Airlines | 1 stop (IAH) | 17:15 | 20:30 | 200.00
+
+
+Here are the 16 flight plans:
+
+SEA | FCA | Alaska Airlines | Non-stop | 08:00 | 13:45 | 425.00
+SEA | FCA | Delta Air Lines | 1 stop (DEN) | 09:30 | 16:15 | 495.00
+SEA | FCA | American Airlines | 1 stop (PHX) | 10:45 | 17:20 | 525.00
+SEA | FCA | United Airlines | Non-stop | 12:00 | 17:45 | 450.00
+SEA | FCA | Southwest Airlines | 1 stop (LAS) | 13:15 | 19:00 | 475.00
+SEA | FCA | JetBlue Airways | 1 stop (SFO) | 14:30 | 20:15 | 500.00
+SEA | FCA | Spirit Airlines | 1 stop (ORD) | 15:45 | 21:30 | 450.00
+SEA | FCA | Frontier Airlines | 1 stop (DEN) | 17:00 | 22:45 | 425.00
+FCA | SEA | Alaska Airlines | Non-stop | 08:00 | 09:45 | 400.00
+FCA | SEA | Delta Air Lines | 1 stop (SLC) | 09:30 | 12:15 | 475.00
+FCA | SEA | American Airlines | 1 stop (DFW) | 10:45 | 13:30 | 500.00
+FCA | SEA | United Airlines | Non-stop | 12:00 | 13:45 | 425.00
+FCA | SEA | Southwest Airlines | 1 stop (PHX) | 13:15 | 15:00 | 450.00
+FCA | SEA | JetBlue Airways | 1 stop (LAX) | 14:30 | 16:15 | 475.00
+FCA | SEA | Spirit Airlines | 1 stop (ORD) | 15:45 | 17:30 | 400.00
+FCA | SEA | Frontier Airlines | 1 stop (DEN) | 17:00 | 18:45 | 425.00
+
+
+Here are the 16 flight plans:
+
+SEA | FLG | Alaska Airlines | Non-stop | 06:00 | 10:35 | 425.00
+SEA | FLG | Delta Air Lines | 1 stop (DEN) | 07:30 | 12:10 | 512.50
+SEA | FLG | American Airlines | 1 stop (PHX) | 08:15 | 13:05 | 550.00
+SEA | FLG | United Airlines | Non-stop | 09:00 | 13:40 | 475.00
+SEA | FLG | Southwest Airlines | 1 stop (LAX) | 10:45 | 15:25 | 525.00
+SEA | FLG | JetBlue Airways | 1 stop (SFO) | 11:30 | 16:10 | 562.50
+SEA | FLG | Spirit Airlines | 1 stop (LAS) | 12:15 | 16:55 | 499.00
+SEA | FLG | Frontier Airlines | 1 stop (DEN) | 13:00 | 17:40 | 537.50
+
+FLG | SEA | Alaska Airlines | Non-stop | 06:00 | 08:35 | 450.00
+FLG | SEA | Delta Air Lines | 1 stop (SFO) | 07:30 | 11:10 | 542.50
+FLG | SEA | American Airlines | 1 stop (PHX) | 08:15 | 12:05 | 570.00
+FLG | SEA | United Airlines | Non-stop | 09:00 | 11:40 | 495.00
+FLG | SEA | Southwest Airlines | 1 stop (LAX) | 10:45 | 14:25 | 552.50
+FLG | SEA | JetBlue Airways | 1 stop (SFO) | 11:30 | 15:10 | 587.50
+FLG | SEA | Spirit Airlines | 1 stop (LAS) | 12:15 | 15:55 | 514.00
+FLG | SEA | Frontier Airlines | 1 stop (DEN) | 13:00 | 16:40 | 562.50
+
+
+Here are the 16 flight plans:
+
+SEA | TYS | Alaska | 0 | 08:00 | 16:30 | 450.00
+SEA | TYS | Delta | 1 (ATL) | 09:30 | 18:15 | 520.00
+SEA | TYS | American | 1 (DFW) | 11:00 | 19:45 | 550.00
+SEA | TYS | United | 0 | 12:30 | 20:50 | 480.00
+SEA | TYS | Southwest | 1 (DEN) | 13:45 | 21:20 | 500.00
+SEA | TYS | Frontier | 1 (MKE) | 15:00 | 22:30 | 460.00
+SEA | TYS | Spirit | 1 (ORD) | 16:15 | 23:50 | 420.00
+SEA | TYS | JetBlue | 0 | 17:30 | 01:00 | 490.00
+TYS | SEA | Alaska | 0 | 08:30 | 11:00 | 430.00
+TYS | SEA | Delta | 1 (ATL) | 09:45 | 13:20 | 510.00
+TYS | SEA | American | 1 (CLT) | 11:15 | 14:40 | 540.00
+TYS | SEA | United | 0 | 12:45 | 15:50 | 470.00
+TYS | SEA | Southwest | 1 (STL) | 14:00 | 17:25 | 490.00
+TYS | SEA | Frontier | 1 (MCI) | 15:20 | 18:40 | 450.00
+TYS | SEA | Spirit | 1 (LAS) | 16:30 | 20:00 | 410.00
+TYS | SEA | JetBlue | 0 | 17:45 | 21:10 | 480.00
+
+
+Here are the 16 flight plans:
+
+SEA | AVL | Alaska Airlines | Non-stop | 08:00 | 16:30 | 398.00
+SEA | AVL | Delta Air Lines | 1 stop (ATL) | 09:15 | 18:45 | 428.00
+SEA | AVL | American Airlines | 1 stop (DFW) | 10:30 | 20:00 | 458.00
+SEA | AVL | United Airlines | Non-stop | 11:45 | 20:15 | 488.00
+SEA | AVL | Spirit Airlines | 1 stop (LAS) | 13:00 | 22:30 | 318.00
+SEA | AVL | Frontier Airlines | 1 stop (DEN) | 14:15 | 23:45 | 348.00
+SEA | AVL | Southwest Airlines | Non-stop | 15:30 | 23:00 | 398.00
+SEA | AVL | JetBlue Airways | 1 stop (JFK) | 16:45 | 01:15 | 418.00
+AVL | SEA | Alaska Airlines | Non-stop | 08:00 | 10:30 | 418.00
+AVL | SEA | Delta Air Lines | 1 stop (SFO) | 09:15 | 12:45 | 448.00
+AVL | SEA | American Airlines | 1 stop (CLT) | 10:30 | 14:00 | 478.00
+AVL | SEA | United Airlines | Non-stop | 11:45 | 14:15 | 508.00
+AVL | SEA | Spirit Airlines | 1 stop (ORD) | 13:00 | 16:30 | 338.00
+AVL | SEA | Frontier Airlines | 1 stop (MCO) | 14:15 | 18:45 | 368.00
+AVL | SEA | Southwest Airlines | Non-stop | 15:30 | 18:00 | 418.00
+AVL | SEA | JetBlue Airways | 1 stop (BOS) | 16:45 | 21:15 | 438.00
+
+
+Here are the 16 flight plans:
+
+SEA | JAC | Alaska | 0 | 08:00 | 12:30 | 349.00
+SEA | JAC | Delta | 1 (SFO) | 09:30 | 15:15 | 429.00
+SEA | JAC | United | 0 | 10:45 | 15:00 | 399.00
+SEA | JAC | American | 1 (DFW) | 12:00 | 18:30 | 499.00
+SEA | JAC | Southwest | 0 | 13:15 | 17:30 | 379.00
+SEA | JAC | Frontier | 1 (DEN) | 14:30 | 20:00 | 449.00
+SEA | JAC | Spirit | 0 | 15:45 | 20:15 | 329.00
+SEA | JAC | JetBlue | 1 (LAX) | 17:00 | 22:45 | 519.00
+JAC | SEA | Alaska | 0 | 06:30 | 10:00 | 319.00
+JAC | SEA | Delta | 1 (SLC) | 08:15 | 12:45 | 449.00
+JAC | SEA | United | 0 | 09:50 | 13:25 | 369.00
+JAC | SEA | American | 1 (PHX) | 11:30 | 16:00 | 479.00
+JAC | SEA | Southwest | 0 | 12:45 | 16:15 | 349.00
+JAC | SEA | Frontier | 1 (LAS) | 14:00 | 19:30 | 429.00
+JAC | SEA | Spirit | 0 | 15:20 | 19:50 | 299.00
+JAC | SEA | JetBlue | 1 (SAN) | 16:45 | 22:20 | 509.00
+
+
+Here are the 16 flight plans:
+
+SEA | EYW | Alaska Airlines | Non-stop | 08:00 | 17:30 | 450.00
+SEA | EYW | Delta Air Lines | 1 stop (ATL) | 09:30 | 19:15 | 520.00
+SEA | EYW | American Airlines | 1 stop (DFW) | 10:00 | 20:00 | 550.00
+SEA | EYW | United Airlines | Non-stop | 11:30 | 20:30 | 480.00
+SEA | EYW | Spirit Airlines | 1 stop (LAS) | 12:00 | 21:45 | 420.00
+SEA | EYW | Frontier Airlines | 1 stop (DEN) | 13:00 | 22:30 | 400.00
+SEA | EYW | JetBlue Airways | Non-stop | 14:30 | 23:00 | 500.00
+SEA | EYW | Southwest Airlines | 1 stop (PHX) | 15:00 | 23:45 | 440.00
+EYW | SEA | Alaska Airlines | Non-stop | 06:00 | 10:30 | 420.00
+EYW | SEA | Delta Air Lines | 1 stop (MSP) | 07:30 | 12:15 | 500.00
+EYW | SEA | American Airlines | 1 stop (ORD) | 08:00 | 13:00 | 520.00
+EYW | SEA | United Airlines | Non-stop | 09:30 | 14:30 | 450.00
+EYW | SEA | Spirit Airlines | 1 stop (FLL) | 10:00 | 15:45 | 380.00
+EYW | SEA | Frontier Airlines | 1 stop (IAH) | 11:30 | 16:30 | 400.00
+EYW | SEA | JetBlue Airways | Non-stop | 12:30 | 17:00 | 480.00
+EYW | SEA | Southwest Airlines | 1 stop (STL) | 13:30 | 18:15 | 440.00
+
+
+Here are the 16 flight plans:
+
+SEA | RNO | Alaska Airlines | Non-stop | 08:00 | 10:05 | 198.00
+SEA | RNO | Delta Air Lines | 1 stop (SFO) | 09:30 | 12:40 | 220.00
+SEA | RNO | American Airlines | Non-stop | 11:00 | 13:05 | 210.00
+SEA | RNO | United Airlines | 1 stop (DEN) | 12:30 | 15:45 | 240.00
+SEA | RNO | Southwest Airlines | Non-stop | 14:00 | 16:05 | 230.00
+SEA | RNO | Alaska Airlines | 1 stop (PDX) | 15:30 | 18:40 | 200.00
+SEA | RNO | Delta Air Lines | Non-stop | 17:00 | 19:05 | 190.00
+SEA | RNO | American Airlines | 1 stop (LAX) | 18:30 | 21:45 | 260.00
+RNO | SEA | Alaska Airlines | Non-stop | 08:00 | 09:05 | 180.00
+RNO | SEA | Delta Air Lines | 1 stop (SFO) | 09:30 | 12:20 | 210.00
+RNO | SEA | United Airlines | Non-stop | 11:00 | 12:05 | 220.00
+RNO | SEA | American Airlines | 1 stop (PHX) | 12:30 | 15:20 | 250.00
+RNO | SEA | Southwest Airlines | Non-stop | 14:00 | 15:05 | 240.00
+RNO | SEA | Alaska Airlines | 1 stop (PDX) | 15:30 | 18:20 | 200.00
+RNO | SEA | Delta Air Lines | Non-stop | 17:00 | 18:05 | 190.00
+RNO | SEA | United Airlines | 1 stop (DEN) | 18:30 | 21:20 | 280.00
+
+
+Here are the 16 flight plans:
+
+SEA | TVL | Alaska Airlines | Non-stop | 08:00 | 11:30 | 420.00
+SEA | TVL | American Airlines | 1 stop (DFW) | 09:15 | 14:45 | 550.00
+SEA | TVL | Delta Air Lines | Non-stop | 10:30 | 14:00 | 480.00
+SEA | TVL | United Airlines | 1 stop (SFO) | 11:45 | 16:15 | 520.00
+SEA | TVL | Southwest Airlines | 1 stop (PHX) | 13:00 | 17:30 | 500.00
+SEA | TVL | JetBlue Airways | Non-stop | 14:15 | 17:45 | 450.00
+SEA | TVL | Spirit Airlines | 1 stop (LAS) | 15:30 | 19:00 | 480.00
+SEA | TVL | Frontier Airlines | 1 stop (DEN) | 16:45 | 20:15 | 460.00
+TVL | SEA | Alaska Airlines | Non-stop | 08:00 | 10:30 | 400.00
+TVL | SEA | American Airlines | 1 stop (ORD) | 09:15 | 13:45 | 530.00
+TVL | SEA | Delta Air Lines | Non-stop | 10:30 | 13:00 | 510.00
+TVL | SEA | United Airlines | 1 stop (IAH) | 11:45 | 15:15 | 500.00
+TVL | SEA | Southwest Airlines | 1 stop (DAL) | 13:00 | 16:30 | 490.00
+TVL | SEA | JetBlue Airways | Non-stop | 14:15 | 16:45 | 430.00
+TVL | SEA | Spirit Airlines | 1 stop (OAK) | 15:30 | 18:00 | 470.00
+TVL | SEA | Frontier Airlines | 1 stop (MSP) | 16:45 | 19:15 | 450.00
+
+
+Here are the 16 flight plans:
+
+SEA | MCD | Alaska | 0 | 08:00 | 11:15 | 250.00
+SEA | MCD | Delta | 1 (SFO) | 09:30 | 13:45 | 320.00
+SEA | MCD | United | 0 | 11:00 | 14:20 | 280.00
+SEA | MCD | American | 1 (LAX) | 12:15 | 16:30 | 350.00
+SEA | MCD | Spirit | 0 | 14:00 | 17:20 | 220.00
+SEA | MCD | Frontier | 1 (DEN) | 15:30 | 19:45 | 300.00
+SEA | MCD | Southwest | 0 | 17:00 | 20:20 | 240.00
+SEA | MCD | JetBlue | 1 (PHX) | 18:15 | 22:30 | 330.00
+
+MCD | SEA | Alaska | 0 | 08:00 | 11:15 | 250.00
+MCD | SEA | Delta | 1 (SFO) | 09:30 | 13:45 | 320.00
+MCD | SEA | United | 0 | 11:00 | 14:20 | 280.00
+MCD | SEA | American | 1 (LAX) | 12:15 | 16:30 | 350.00
+MCD | SEA | Spirit | 0 | 14:00 | 17:20 | 220.00
+MCD | SEA | Frontier | 1 (DEN) | 15:30 | 19:45 | 300.00
+MCD | SEA | Southwest | 0 | 17:00 | 20:20 | 240.00
+MCD | SEA | JetBlue | 1 (PHX) | 18:15 | 22:30 | 330.00
+
+
+Here are the 16 flight plans:
+
+SEA | PLN | Alaska Airlines | Non-stop | 08:00 | 14:30 | 450.00
+SEA | PLN | Delta Air Lines | 1 stop (DEN) | 09:15 | 16:45 | 520.00
+SEA | PLN | United Airlines | Non-stop | 10:30 | 17:00 | 480.00
+SEA | PLN | American Airlines | 1 stop (ORD) | 11:45 | 19:15 | 550.00
+SEA | PLN | Southwest Airlines | 1 stop (PHX) | 13:00 | 20:30 | 500.00
+SEA | PLN | JetBlue Airways | Non-stop | 14:15 | 20:45 | 460.00
+SEA | PLN | Spirit Airlines | 1 stop (LAS) | 15:30 | 22:00 | 420.00
+SEA | PLN | Frontier Airlines | 1 stop (MSP) | 16:45 | 23:15 | 490.00
+PLN | SEA | Alaska Airlines | Non-stop | 08:00 | 10:30 | 430.00
+PLN | SEA | Delta Air Lines | 1 stop (ATL) | 09:15 | 12:45 | 500.00
+PLN | SEA | United Airlines | Non-stop | 10:30 | 13:00 | 450.00
+PLN | SEA | American Airlines | 1 stop (CLT) | 11:45 | 15:15 | 520.00
+PLN | SEA | Southwest Airlines | 1 stop (STL) | 13:00 | 16:30 | 480.00
+PLN | SEA | JetBlue Airways | Non-stop | 14:15 | 16:45 | 440.00
+PLN | SEA | Spirit Airlines | 1 stop (DFW) | 15:30 | 18:00 | 410.00
+PLN | SEA | Frontier Airlines | 1 stop (IAH) | 16:45 | 19:15 | 470.00
+
+
+Here are the 16 flight plans:
+
+SEA | OGG | Alaska Airlines | Non-stop | 08:00 | 11:15 | 425.00
+SEA | OGG | Delta Air Lines | 1 stop (LAX) | 09:30 | 13:45 | 512.00
+SEA | OGG | American Airlines | 1 stop (PHX) | 10:15 | 14:30 | 550.00
+SEA | OGG | United Airlines | Non-stop | 11:00 | 14:15 | 475.00
+SEA | OGG | Hawaiian Airlines | Non-stop | 12:00 | 15:15 | 500.00
+SEA | OGG | Southwest Airlines | 1 stop (SFO) | 13:30 | 17:45 | 520.00
+SEA | OGG | JetBlue Airways | 1 stop (LGB) | 14:15 | 18:30 | 540.00
+SEA | OGG | Spirit Airlines | 1 stop (LAS) | 15:00 | 19:15 | 480.00
+OGG | SEA | Alaska Airlines | Non-stop | 08:00 | 11:15 | 425.00
+OGG | SEA | Delta Air Lines | 1 stop (LAX) | 09:30 | 13:45 | 512.00
+OGG | SEA | American Airlines | 1 stop (PHX) | 10:15 | 14:30 | 550.00
+OGG | SEA | United Airlines | Non-stop | 11:00 | 14:15 | 475.00
+OGG | SEA | Hawaiian Airlines | Non-stop | 12:00 | 15:15 | 500.00
+OGG | SEA | Southwest Airlines | 1 stop (SFO) | 13:30 | 17:45 | 520.00
+OGG | SEA | JetBlue Airways | 1 stop (LGB) | 14:15 | 18:30 | 540.00
+OGG | SEA | Spirit Airlines | 1 stop (LAS) | 15:00 | 19:15 | 480.00
+OGG | SEA | Frontier Airlines | 1 stop (DEN) | 16:00 | 20:15 | 490.00
+
+
+Here are the 16 flight plans:
+
+SEA | RAP | Alaska Airlines | Non-stop | 06:00 | 09:35 | 425.00
+SEA | RAP | Delta Air Lines | 1 stop (DEN) | 08:30 | 12:15 | 550.00
+SEA | RAP | United Airlines | Non-stop | 10:00 | 13:20 | 475.00
+SEA | RAP | American Airlines | 1 stop (ORD) | 11:45 | 15:50 | 600.00
+SEA | RAP | Frontier Airlines | Non-stop | 13:30 | 16:50 | 400.00
+SEA | RAP | Southwest Airlines | 1 stop (PHX) | 14:15 | 17:40 | 525.00
+SEA | RAP | JetBlue Airways | Non-stop | 15:45 | 19:00 | 450.00
+SEA | RAP | Spirit Airlines | 1 stop (LAS) | 17:00 | 20:25 | 575.00
+
+RAP | SEA | Alaska Airlines | Non-stop | 06:30 | 08:05 | 375.00
+RAP | SEA | Delta Air Lines | 1 stop (SFO) | 08:00 | 11:20 | 500.00
+RAP | SEA | United Airlines | Non-stop | 09:15 | 11:40 | 425.00
+RAP | SEA | American Airlines | 1 stop (DFW) | 10:30 | 13:45 | 525.00
+RAP | SEA | Frontier Airlines | Non-stop | 12:00 | 14:20 | 350.00
+RAP | SEA | Southwest Airlines | 1 stop (DEN) | 13:45 | 16:50 | 475.00
+RAP | SEA | JetBlue Airways | Non-stop | 15:00 | 17:20 | 400.00
+RAP | SEA | Spirit Airlines | 1 stop (LAX) | 16:30 | 19:40 | 550.00
+
+
+Here are the 16 flight plans:
+
+SEA | MYR | Alaska | 1 (ORD) | 08:00 | 17:30 | 450.00
+SEA | MYR | Delta | 1 (ATL) | 10:30 | 20:00 | 520.00
+SEA | MYR | American | 2 (DFW, CLT) | 12:00 | 22:30 | 580.00
+SEA | MYR | United | 1 (IAH) | 14:00 | 23:30 | 550.00
+SEA | MYR | Spirit | 2 (LAS, BNA) | 16:00 | 01:30 | 420.00
+SEA | MYR | Frontier | 1 (DEN) | 18:00 | 02:30 | 480.00
+SEA | MYR | JetBlue | 1 (JFK) | 20:00 | 04:30 | 500.00
+SEA | MYR | Southwest | 2 (PHX, HOU) | 22:00 | 06:30 | 540.00
+MYR | SEA | Alaska | 1 (ORD) | 06:00 | 13:30 | 430.00
+MYR | SEA | Delta | 1 (ATL) | 08:30 | 16:00 | 510.00
+MYR | SEA | American | 2 (CLT, DFW) | 11:00 | 19:30 | 570.00
+MYR | SEA | United | 1 (IAH) | 13:30 | 21:00 | 530.00
+MYR | SEA | Spirit | 2 (BNA, LAS) | 16:00 | 23:30 | 400.00
+MYR | SEA | Frontier | 1 (DEN) | 18:30 | 01:00 | 460.00
+MYR | SEA | JetBlue | 1 (JFK) | 20:30 | 04:00 | 490.00
+MYR | SEA | Southwest | 2 (HOU, PHX) | 22:30 | 06:00 | 520.00
+
+
+Here are the 16 flight plans:
+
+SEA | OAK | Alaska | 0 | 06:00 | 07:30 | 120.00
+SEA | OAK | Delta | 1 (SFO) | 08:15 | 11:45 | 180.00
+SEA | OAK | American | 0 | 09:30 | 11:00 | 150.00
+SEA | OAK | United | 1 (LAX) | 11:00 | 14:30 | 220.00
+SEA | OAK | Southwest | 0 | 12:45 | 14:15 | 130.00
+SEA | OAK | Frontier | 1 (DEN) | 14:00 | 17:30 | 200.00
+SEA | OAK | Spirit | 0 | 15:15 | 16:45 | 110.00
+SEA | OAK | JetBlue | 1 (PDX) | 16:30 | 19:00 | 190.00
+
+OAK | SEA | Alaska | 0 | 06:30 | 08:00 | 120.00
+OAK | SEA | Delta | 1 (SFO) | 08:45 | 12:15 | 180.00
+OAK | SEA | American | 0 | 10:00 | 11:30 | 150.00
+OAK | SEA | United | 1 (LAX) | 11:30 | 15:00 | 220.00
+OAK | SEA | Southwest | 0 | 13:15 | 14:45 | 130.00
+OAK | SEA | Frontier | 1 (DEN) | 14:30 | 18:00 | 200.00
+OAK | SEA | Spirit | 0 | 15:45 | 17:15 | 110.00
+OAK | SEA | JetBlue | 1 (PDX) | 17:00 | 19:30 | 190.00
+
+
+Here are the 16 flight plans:
+
+SEA | SMF | Alaska Airlines | Non-stop | 06:00 | 08:05 | 178.00
+SEA | SMF | Delta Air Lines | 1 stop (SFO) | 07:30 | 10:45 | 229.00
+SEA | SMF | American Airlines | Non-stop | 09:15 | 11:20 | 198.00
+SEA | SMF | United Airlines | 1 stop (LAX) | 11:00 | 14:10 | 259.00
+SEA | SMF | Spirit Airlines | 1 stop (LAS) | 12:45 | 16:00 | 189.00
+SEA | SMF | Frontier Airlines | Non-stop | 14:30 | 16:35 | 169.00
+SEA | SMF | Southwest Airlines | 1 stop (PHX) | 16:15 | 19:20 | 239.00
+SEA | SMF | JetBlue Airways | Non-stop | 18:00 | 20:05 | 209.00
+SMF | SEA | Alaska Airlines | Non-stop | 06:30 | 08:35 | 188.00
+SMF | SEA | Delta Air Lines | 1 stop (SFO) | 08:00 | 11:10 | 249.00
+SMF | SEA | American Airlines | Non-stop | 10:45 | 12:50 | 219.00
+SMF | SEA | United Airlines | 1 stop (LAX) | 12:30 | 15:35 | 279.00
+SMF | SEA | Spirit Airlines | 1 stop (LAS) | 14:15 | 17:20 | 199.00
+SMF | SEA | Frontier Airlines | Non-stop | 16:00 | 18:05 | 179.00
+SMF | SEA | Southwest Airlines | 1 stop (PHX) | 17:45 | 20:50 | 259.00
+SMF | SEA | JetBlue Airways | Non-stop | 19:30 | 21:35 | 229.00
+
+
+Here are the 16 flight plans:
+
+SEA | SAF | Alaska Airlines | Non-stop | 08:00 | 11:35 | 450.00
+SEA | SAF | American Airlines | 1 stop (PHX) | 09:15 | 13:45 | 520.00
+SEA | SAF | Delta Air Lines | Non-stop | 10:30 | 14:05 | 480.00
+SEA | SAF | United Airlines | 1 stop (SFO) | 11:45 | 16:20 | 550.00
+SEA | SAF | Southwest Airlines | 1 stop (LAX) | 12:50 | 17:25 | 500.00
+SEA | SAF | JetBlue Airways | Non-stop | 14:15 | 17:50 | 460.00
+SEA | SAF | Spirit Airlines | 1 stop (DEN) | 15:20 | 19:55 | 530.00
+SEA | SAF | Frontier Airlines | 1 stop (LAS) | 16:30 | 21:05 | 510.00
+SAF | SEA | Alaska Airlines | Non-stop | 08:00 | 10:35 | 420.00
+SAF | SEA | American Airlines | 1 stop (DFW) | 09:15 | 13:45 | 490.00
+SAF | SEA | Delta Air Lines | Non-stop | 10:30 | 13:05 | 440.00
+SAF | SEA | United Airlines | 1 stop (ORD) | 11:45 | 16:20 | 520.00
+SAF | SEA | Southwest Airlines | 1 stop (PHX) | 12:50 | 17:25 | 470.00
+SAF | SEA | JetBlue Airways | Non-stop | 14:15 | 16:50 | 430.00
+SAF | SEA | Spirit Airlines | 1 stop (IAH) | 15:20 | 19:55 | 500.00
+SAF | SEA | Frontier Airlines | 1 stop (MSP) | 16:30 | 21:05 | 480.00
+
+
+Here are the 16 flight plans:
+
+SEA | ABQ | Alaska Airlines | Non-stop | 08:00 | 11:30 | 248.50
+SEA | ABQ | American Airlines | 1 stop (PHX) | 09:15 | 13:45 | 278.00
+SEA | ABQ | Delta Air Lines | Non-stop | 10:30 | 14:00 | 298.00
+SEA | ABQ | United Airlines | 1 stop (SFO) | 11:45 | 16:15 | 318.00
+SEA | ABQ | Southwest Airlines | 1 stop (LAX) | 13:00 | 17:30 | 248.50
+SEA | ABQ | Alaska Airlines | Non-stop | 14:15 | 17:45 | 268.00
+SEA | ABQ | Frontier Airlines | 1 stop (DEN) | 15:30 | 19:00 | 228.50
+SEA | ABQ | Spirit Airlines | 1 stop (LAS) | 16:45 | 20:15 | 208.00
+
+ABQ | SEA | Alaska Airlines | Non-stop | 06:00 | 08:30 | 238.00
+ABQ | SEA | American Airlines | 1 stop (DFW) | 07:15 | 11:45 | 288.50
+ABQ | SEA | Delta Air Lines | Non-stop | 08:30 | 11:00 | 308.00
+ABQ | SEA | United Airlines | 1 stop (IAH) | 09:45 | 13:15 | 328.50
+ABQ | SEA | Southwest Airlines | 1 stop (PHX) | 11:00 | 14:30 | 258.00
+ABQ | SEA | Alaska Airlines | Non-stop | 12:15 | 14:45 | 278.50
+ABQ | SEA | Frontier Airlines | 1 stop (DEN) | 13:30 | 16:00 | 238.00
+ABQ | SEA | Spirit Airlines | 1 stop (LAX) | 14:45 | 17:15 | 218.50
+
+
+Here are the 16 flight plans:
+
+SEA | SAV | Alaska Airlines | Non-stop | 06:00 | 14:30 | 349.00
+SEA | SAV | Delta Air Lines | 1 stop (ATL) | 08:30 | 17:45 | 379.00
+SEA | SAV | American Airlines | Non-stop | 10:00 | 18:20 | 399.00
+SEA | SAV | United Airlines | 1 stop (DEN) | 11:45 | 20:10 | 429.00
+SEA | SAV | Southwest Airlines | 1 stop (PHX) | 13:15 | 21:35 | 449.00
+SEA | SAV | JetBlue Airways | Non-stop | 14:30 | 22:50 | 469.00
+SEA | SAV | Spirit Airlines | 1 stop (LAS) | 16:00 | 00:20 | 499.00
+SEA | SAV | Frontier Airlines | 1 stop (MCO) | 17:45 | 02:05 | 529.00
+
+SAV | SEA | Alaska Airlines | Non-stop | 06:00 | 08:30 | 349.00
+SAV | SEA | Delta Air Lines | 1 stop (ATL) | 08:30 | 12:45 | 379.00
+SAV | SEA | American Airlines | Non-stop | 10:00 | 12:20 | 399.00
+SAV | SEA | United Airlines | 1 stop (DEN) | 11:45 | 15:10 | 429.00
+SAV | SEA | Southwest Airlines | 1 stop (PHX) | 13:15 | 16:35 | 449.00
+SAV | SEA | JetBlue Airways | Non-stop | 14:30 | 16:50 | 469.00
+SAV | SEA | Spirit Airlines | 1 stop (LAS) | 16:00 | 19:20 | 499.00
+SAV | SEA | Frontier Airlines | 1 stop (MCO) | 17:45 | 21:05 | 529.00
+
+
+Here are the 16 flight plans:
+
+SEA | JAX | Alaska | 0 | 08:00 | 17:30 | 420.00
+SEA | JAX | Delta | 1 (ATL) | 09:30 | 19:15 | 480.00
+SEA | JAX | American | 1 (DFW) | 10:45 | 20:00 | 510.00
+SEA | JAX | United | 0 | 12:15 | 20:45 | 450.00
+SEA | JAX | Spirit | 1 (LAS) | 13:00 | 21:30 | 390.00
+SEA | JAX | Frontier | 1 (DEN) | 14:30 | 22:45 | 420.00
+SEA | JAX | Southwest | 0 | 15:45 | 23:15 | 440.00
+SEA | JAX | JetBlue | 1 (BOS) | 17:00 | 00:30 | 460.00
+JAX | SEA | Alaska | 0 | 08:30 | 11:00 | 410.00
+JAX | SEA | Delta | 1 (MSP) | 09:45 | 12:15 | 490.00
+JAX | SEA | American | 1 (CLT) | 11:15 | 13:45 | 520.00
+JAX | SEA | United | 0 | 12:30 | 14:55 | 430.00
+JAX | SEA | Spirit | 1 (ORD) | 13:45 | 16:10 | 400.00
+JAX | SEA | Frontier | 1 (PHX) | 15:00 | 17:25 | 450.00
+JAX | SEA | Southwest | 0 | 16:15 | 18:40 | 470.00
+JAX | SEA | JetBlue | 1 (FLL) | 17:30 | 20:00 | 480.00
+
+
+Here are the 16 flight plans:
+
+SEA | SFB | Alaska | Non-stop | 06:00 | 14:30 | 348.50
+SEA | SFB | Delta | 1 stop (ATL) | 08:30 | 17:45 | 412.00
+SEA | SFB | American | Non-stop | 10:00 | 18:20 | 380.00
+SEA | SFB | United | 1 stop (ORD) | 11:45 | 20:10 | 435.50
+SEA | SFB | Spirit | 1 stop (LAS) | 13:15 | 21:30 | 398.00
+SEA | SFB | Frontier | Non-stop | 14:30 | 22:50 | 362.50
+SEA | SFB | JetBlue | 1 stop (JFK) | 16:00 | 23:25 | 450.00
+SEA | SFB | Southwest | 1 stop (DEN) | 17:45 | 01:05 | 422.50
+
+SFB | SEA | Alaska | Non-stop | 07:00 | 09:30 | 325.00
+SFB | SEA | Delta | 1 stop (MSP) | 09:30 | 13:45 | 392.50
+SFB | SEA | American | Non-stop | 11:00 | 13:20 | 352.50
+SFB | SEA | United | 1 stop (IAH) | 12:45 | 17:00 | 407.00
+SFB | SEA | Spirit | 1 stop (PHX) | 14:15 | 18:30 | 372.50
+SFB | SEA | Frontier | Non-stop | 15:30 | 17:50 | 337.50
+SFB | SEA | JetBlue | 1 stop (BOS) | 17:00 | 21:25 | 417.50
+SFB | SEA | Southwest | 1 stop (STL) | 18:45 | 23:10 | 402.00
+
+
+Here are the 16 flight plans:
+
+SEA | MTJ | Alaska Airlines | Non-stop | 08:00 | 11:15 | 250.00
+SEA | MTJ | American Airlines | 1 stop (DEN) | 09:30 | 13:45 | 320.00
+SEA | MTJ | Delta Air Lines | Non-stop | 10:45 | 14:00 | 280.00
+SEA | MTJ | United Airlines | 1 stop (SFO) | 12:00 | 16:20 | 350.00
+SEA | MTJ | Southwest Airlines | 1 stop (PHX) | 13:15 | 17:30 | 300.00
+SEA | MTJ | Frontier Airlines | Non-stop | 14:30 | 17:45 | 220.00
+SEA | MTJ | Spirit Airlines | 1 stop (LAS) | 15:45 | 19:55 | 280.00
+SEA | MTJ | JetBlue Airways | Non-stop | 17:00 | 20:15 | 240.00
+MTJ | SEA | Alaska Airlines | Non-stop | 06:00 | 08:15 | 230.00
+MTJ | SEA | American Airlines | 1 stop (DFW) | 07:30 | 11:40 | 310.00
+MTJ | SEA | Delta Air Lines | Non-stop | 09:00 | 11:15 | 260.00
+MTJ | SEA | United Airlines | 1 stop (ORD) | 10:30 | 14:45 | 330.00
+MTJ | SEA | Southwest Airlines | 1 stop (MDW) | 12:00 | 15:20 | 290.00
+MTJ | SEA | Frontier Airlines | Non-stop | 13:30 | 15:45 | 210.00
+MTJ | SEA | Spirit Airlines | 1 stop (IAH) | 15:00 | 18:15 | 270.00
+MTJ | SEA | JetBlue Airways | Non-stop | 16:30 | 18:45 | 250.00
+
+
+Here are the 16 flight plans:
+
+SEA | DRO | Alaska Airlines | Non-stop | 08:00 | 11:30 | 278.00
+SEA | DRO | Delta Air Lines | 1 stop (DEN) | 09:15 | 13:45 | 320.00
+SEA | DRO | United Airlines | Non-stop | 10:30 | 14:00 | 298.00
+SEA | DRO | American Airlines | 1 stop (PHX) | 11:45 | 16:15 | 350.00
+SEA | DRO | Southwest Airlines | Non-stop | 13:00 | 16:30 | 268.00
+SEA | DRO | JetBlue Airways | 1 stop (LAX) | 14:15 | 18:45 | 330.00
+SEA | DRO | Spirit Airlines | 1 stop (LAS) | 15:30 | 20:00 | 290.00
+SEA | DRO | Frontier Airlines | Non-stop | 17:00 | 20:30 | 258.00
+
+DRO | SEA | Alaska Airlines | Non-stop | 06:00 | 08:30 | 248.00
+DRO | SEA | Delta Air Lines | 1 stop (SFO) | 07:15 | 11:45 | 310.00
+DRO | SEA | United Airlines | Non-stop | 08:30 | 11:00 | 288.00
+DRO | SEA | American Airlines | 1 stop (DFW) | 09:45 | 14:15 | 340.00
+DRO | SEA | Southwest Airlines | Non-stop | 11:00 | 13:30 | 238.00
+DRO | SEA | JetBlue Airways | 1 stop (ORD) | 12:15 | 16:45 | 300.00
+DRO | SEA | Spirit Airlines | 1 stop (IAH) | 13:30 | 18:00 | 280.00
+DRO | SEA | Frontier Airlines | Non-stop | 15:00 | 17:30 | 228.00
+
+
+Here are the 16 flight plans:
+
+SEA | BOZ | Alaska Airlines | Non-stop | 08:00 | 11:30 | 350.00
+SEA | BOZ | Delta Air Lines | 1 stop (SFO) | 09:15 | 14:45 | 420.00
+SEA | BOZ | American Airlines | 1 stop (LAX) | 10:30 | 16:00 | 450.00
+SEA | BOZ | United Airlines | Non-stop | 11:45 | 15:15 | 380.00
+SEA | BOZ | Southwest Airlines | 1 stop (DEN) | 12:50 | 18:20 | 480.00
+SEA | BOZ | Frontier Airlines | 1 stop (PHX) | 14:05 | 19:35 | 400.00
+SEA | BOZ | Spirit Airlines | 1 stop (LAS) | 15:20 | 20:50 | 430.00
+SEA | BOZ | JetBlue Airways | Non-stop | 16:35 | 20:05 | 410.00
+BOZ | SEA | Alaska Airlines | Non-stop | 06:00 | 08:30 | 320.00
+BOZ | SEA | Delta Air Lines | 1 stop (SLC) | 07:15 | 12:45 | 390.00
+BOZ | SEA | American Airlines | 1 stop (DFW) | 08:30 | 14:00 | 440.00
+BOZ | SEA | United Airlines | Non-stop | 09:45 | 12:15 | 360.00
+BOZ | SEA | Southwest Airlines | 1 stop (ABQ) | 11:00 | 16:30 | 460.00
+BOZ | SEA | Frontier Airlines | 1 stop (MSP) | 12:15 | 17:45 | 420.00
+BOZ | SEA | Spirit Airlines | 1 stop (ORD) | 13:30 | 19:00 | 450.00
+BOZ | SEA | JetBlue Airways | Non-stop | 14:45 | 17:15 | 400.00
+
+
+Here are the 16 flight plans:
+
+SEA | FAT | Alaska | 0 | 06:00 | 08:35 | 198.00
+SEA | FAT | Delta | 1 (SFO) | 07:15 | 10:20 | 220.00
+SEA | FAT | American | 0 | 08:45 | 11:10 | 210.00
+SEA | FAT | United | 1 (LAX) | 09:30 | 12:25 | 240.00
+SEA | FAT | Southwest | 0 | 11:00 | 13:25 | 190.00
+SEA | FAT | JetBlue | 1 (SAN) | 12:15 | 15:05 | 230.00
+SEA | FAT | Spirit | 0 | 13:45 | 16:10 | 180.00
+SEA | FAT | Frontier | 1 (DEN) | 15:00 | 17:50 | 250.00
+FAT | SEA | Alaska | 0 | 06:30 | 08:55 | 205.00
+FAT | SEA | Delta | 1 (SFO) | 07:45 | 10:50 | 235.00
+FAT | SEA | American | 0 | 09:15 | 11:40 | 225.00
+FAT | SEA | United | 1 (LAX) | 10:00 | 12:55 | 260.00
+FAT | SEA | Southwest | 0 | 11:30 | 13:55 | 200.00
+FAT | SEA | JetBlue | 1 (SAN) | 12:45 | 15:35 | 245.00
+FAT | SEA | Spirit | 0 | 14:15 | 16:40 | 195.00
+FAT | SEA | Frontier | 1 (DEN) | 15:30 | 18:20 | 270.00
+
+
+Here are the 16 flight plans:
+
+SEA | SGU | Alaska Airlines | Non-stop | 08:00 | 11:35 | 420.00
+SEA | SGU | Delta Air Lines | 1 stop (SLC) | 09:15 | 13:50 | 480.00
+SEA | SGU | American Airlines | 1 stop (PHX) | 10:30 | 15:05 | 450.00
+SEA | SGU | United Airlines | Non-stop | 11:45 | 15:20 | 400.00
+SEA | SGU | Southwest Airlines | 1 stop (DEN) | 12:00 | 16:35 | 520.00
+SEA | SGU | Frontier Airlines | 1 stop (LAS) | 13:15 | 17:50 | 500.00
+SEA | SGU | Spirit Airlines | 1 stop (ORD) | 14:30 | 19:05 | 550.00
+SEA | SGU | JetBlue Airways | Non-stop | 15:45 | 19:20 | 430.00
+SGU | SEA | Alaska Airlines | Non-stop | 06:00 | 09:35 | 410.00
+SGU | SEA | Delta Air Lines | 1 stop (SLC) | 07:15 | 11:50 | 470.00
+SGU | SEA | American Airlines | 1 stop (PHX) | 08:30 | 12:05 | 440.00
+SGU | SEA | United Airlines | Non-stop | 09:45 | 13:20 | 390.00
+SGU | SEA | Southwest Airlines | 1 stop (DEN) | 10:00 | 14:35 | 510.00
+SGU | SEA | Frontier Airlines | 1 stop (LAS) | 11:15 | 15:50 | 490.00
+SGU | SEA | Spirit Airlines | 1 stop (ORD) | 12:30 | 16:05 | 540.00
+SGU | SEA | JetBlue Airways | Non-stop | 13:45 | 17:20 | 420.00
+SGU | SEA | Hawaiian Airlines | 1 stop (LAX) | 15:00 | 19:35 | 580.00
+
+
+Here are the 16 flight plans:
+
+SEA | AMS | KLM | 0 | 08:00 | 16:30 | 450.00
+SEA | AMS | Delta | 1 (CDG) | 09:30 | 18:45 | 520.00
+SEA | AMS | Lufthansa | 1 (FRA) | 10:15 | 19:30 | 550.00
+SEA | AMS | United | 1 (EWR) | 11:00 | 20:15 | 480.00
+SEA | AMS | American | 2 (PHL, DUB) | 12:30 | 22:00 | 620.00
+SEA | AMS | Air France | 1 (CDG) | 13:45 | 23:10 | 500.00
+SEA | AMS | British Airways | 1 (LHR) | 14:30 | 23:55 | 530.00
+SEA | AMS | Swiss | 1 (ZRH) | 15:15 | 00:30 | 510.00
+AMS | SEA | KLM | 0 | 09:00 | 10:30 | 420.00
+AMS | SEA | Delta | 1 (CDG) | 10:30 | 12:00 | 490.00
+AMS | SEA | Lufthansa | 1 (FRA) | 11:45 | 13:15 | 510.00
+AMS | SEA | United | 1 (EWR) | 12:30 | 14:00 | 460.00
+AMS | SEA | American | 2 (DUB, PHL) | 13:45 | 16:15 | 600.00
+AMS | SEA | Air France | 1 (CDG) | 14:30 | 16:00 | 480.00
+AMS | SEA | British Airways | 1 (LHR) | 15:15 | 16:45 | 500.00
+AMS | SEA | Swiss | 1 (ZRH) | 16:00 | 17:30 | 490.00
+
+
+Here are the 16 flight plans:
+
+SEA | AUA | Delta | Non-stop | 08:00 | 17:30 | 542.00
+SEA | AUA | American | 1 stop (MIA) | 09:15 | 19:45 | 612.50
+SEA | AUA | United | Non-stop | 10:30 | 20:00 | 580.00
+SEA | AUA | JetBlue | 1 stop (FLL) | 11:45 | 22:15 | 642.00
+SEA | AUA | Alaska | Non-stop | 13:00 | 22:30 | 602.50
+SEA | AUA | Spirit | 1 stop (ATL) | 14:15 | 23:45 | 672.50
+SEA | AUA | Frontier | Non-stop | 15:30 | 00:00 | 623.00
+SEA | AUA | Southwest | 1 stop (HOU) | 16:45 | 01:15 | 692.50
+AUA | SEA | Delta | Non-stop | 08:00 | 11:30 | 522.00
+AUA | SEA | American | 1 stop (CLT) | 09:15 | 13:45 | 592.50
+AUA | SEA | United | Non-stop | 10:30 | 14:00 | 552.00
+AUA | SEA | JetBlue | 1 stop (BOS) | 11:45 | 16:15 | 622.50
+AUA | SEA | Alaska | Non-stop | 13:00 | 16:30 | 582.50
+AUA | SEA | Spirit | 1 stop (ORD) | 14:15 | 18:45 | 652.50
+AUA | SEA | Frontier | Non-stop | 15:30 | 19:00 | 603.00
+AUA | SEA | Southwest | 1 stop (DEN) | 16:45 | 21:15 | 682.50
+
+
+Here are the 16 flight plans:
+
+SEA | ATH | Delta | 1 (AMS) | 10:30 | 06:30 | 850.00
+SEA | ATH | Lufthansa | 2 (FRA, MUC) | 14:00 | 10:30 | 1200.00
+SEA | ATH | Turkish Airlines | 1 (IST) | 16:30 | 12:30 | 950.00
+SEA | ATH | Emirates | 2 (DXB, IST) | 18:00 | 14:00 | 1400.00
+SEA | ATH | KLM | 1 (AMS) | 08:00 | 04:00 | 1000.00
+SEA | ATH | Austrian Airlines | 2 (VIE, MUC) | 12:00 | 08:00 | 1300.00
+SEA | ATH | Swiss International | 1 (ZRH) | 20:00 | 16:00 | 1100.00
+SEA | ATH | British Airways | 2 (LHR, FRA) | 22:00 | 18:00 | 1500.00
+
+ATH | SEA | Delta | 1 (CDG) | 09:00 | 11:30 | 900.00
+ATH | SEA | Lufthansa | 2 (MUC, FRA) | 11:00 | 14:00 | 1300.00
+ATH | SEA | Turkish Airlines | 1 (IST) | 13:00 | 16:00 | 1000.00
+ATH | SEA | Emirates | 2 (IST, DXB) | 15:00 | 18:30 | 1400.00
+ATH | SEA | KLM | 1 (AMS) | 07:00 | 09:30 | 950.00
+ATH | SEA | Austrian Airlines | 2 (VIE, ZRH) | 10:00 | 13:00 | 1200.00
+ATH | SEA | Swiss International | 1 (ZRH) | 18:00 | 20:30 | 1050.00
+ATH | SEA | British Airways | 2 (LHR, CDG) | 20:00 | 22:30 | 1450.00
+
+
+Here are the 16 flight plans:
+
+SEA | AKL | NZ | 1 (HNL) | 08:00 | 06:30 | 950.00
+SEA | AKL | QF | 2 (LAX, SYD) | 10:00 | 09:15 | 1200.00
+SEA | AKL | AA | 1 (DFW) | 12:00 | 11:45 | 1050.00
+SEA | AKL | UA | 0 | 14:00 | 12:30 | 850.00
+SEA | AKL | DL | 1 (NRT) | 16:00 | 15:15 | 1000.00
+SEA | AKL | VA | 2 (LAX, MEL) | 18:00 | 17:45 | 1300.00
+SEA | AKL | JL | 1 (NRT) | 20:00 | 19:15 | 1100.00
+SEA | AKL | CX | 1 (HKG) | 22:00 | 21:45 | 1250.00
+
+AKL | SEA | NZ | 1 (HNL) | 08:00 | 06:30 | 900.00
+AKL | SEA | QF | 2 (SYD, LAX) | 10:00 | 09:15 | 1150.00
+AKL | SEA | AA | 1 (DFW) | 12:00 | 11:45 | 1000.00
+AKL | SEA | UA | 0 | 14:00 | 12:30 | 800.00
+AKL | SEA | DL | 1 (NRT) | 16:00 | 15:15 | 950.00
+AKL | SEA | VA | 2 (MEL, LAX) | 18:00 | 17:45 | 1200.00
+AKL | SEA | JL | 1 (NRT) | 20:00 | 19:15 | 1050.00
+AKL | SEA | CX | 1 (HKG) | 22:00 | 21:45 | 1100.00
+
+
+Here are the 16 flight plans:
+
+SEA | DPS | Singapore Airlines | 1 (NRT) | 08:00 | 22:30 | 850.00
+SEA | DPS | Japan Airlines | 1 (HND) | 09:30 | 23:50 | 920.00
+SEA | DPS | Korean Air | 1 (ICN) | 11:00 | 01:20 | 950.00
+SEA | DPS | China Eastern | 2 (PVG, KUL) | 12:30 | 04:00 | 1100.00
+SEA | DPS | ANA | 1 (NRT) | 14:00 | 02:30 | 1000.00
+SEA | DPS | Asiana Airlines | 1 (ICN) | 15:30 | 03:50 | 1050.00
+SEA | DPS | Cathay Pacific | 1 (HKG) | 17:00 | 05:20 | 980.00
+SEA | DPS | EVA Air | 1 (TPE) | 19:00 | 07:30 | 1020.00
+DPS | SEA | Singapore Airlines | 1 (NRT) | 01:00 | 10:30 | 870.00
+DPS | SEA | Japan Airlines | 1 (HND) | 03:30 | 13:00 | 940.00
+DPS | SEA | Korean Air | 1 (ICN) | 06:00 | 15:20 | 970.00
+DPS | SEA | China Eastern | 2 (KUL, PVG) | 08:30 | 18:00 | 1140.00
+DPS | SEA | ANA | 1 (NRT) | 11:00 | 20:30 | 1040.00
+DPS | SEA | Asiana Airlines | 1 (ICN) | 13:30 | 22:50 | 1080.00
+DPS | SEA | Cathay Pacific | 1 (HKG) | 16:00 | 01:20 | 1000.00
+DPS | SEA | EVA Air | 1 (TPE) | 18:30 | 04:50 | 1060.00
+DPS | SEA | Qantas | 1 (SYD) | 21:00 | 07:20 | 1120.00
+
+
+SEA | BCN | American Airlines | Non-stop | 08:00 | 17:30 | 850.00
+SEA | BCN | Iberia | 1 stop (MAD) | 09:30 | 19:15 | 950.00
+SEA | BCN | Delta Air Lines | Non-stop | 11:00 | 20:30 | 1050.00
+SEA | BCN | Lufthansa | 1 stop (FRA) | 12:30 | 22:15 | 1100.00
+SEA | BCN | United Airlines | 2 stops (SFO, MAD) | 13:00 | 23:45 | 1200.00
+SEA | BCN | Air France | 1 stop (CDG) | 14:00 | 00:30 | 1250.00
+SEA | BCN | KLM Royal Dutch | 1 stop (AMS) | 15:00 | 01:30 | 1300.00
+SEA | BCN | Swiss International | 1 stop (ZRH) | 16:00 | 02:30 | 1350.00
+BCN | SEA | American Airlines | Non-stop | 08:00 | 10:30 | 900.00
+BCN | SEA | Iberia | 1 stop (MAD) | 09:30 | 12:15 | 1000.00
+BCN | SEA | Delta Air Lines | Non-stop | 11:00 | 13:30 | 1100.00
+BCN | SEA | Lufthansa | 1 stop (FRA) | 12:30 | 15:15 | 1150.00
+BCN | SEA | United Airlines | 2 stops (MAD, SFO) | 13:00 | 17:45 | 1250.00
+BCN | SEA | Air France | 1 stop (CDG) | 14:00 | 18:30 | 1300.00
+BCN | SEA | KLM Royal Dutch | 1 stop (AMS) | 15:00 | 19:30 | 1350.00
+BCN | SEA | Swiss International | 1 stop (ZRH) | 16:00 | 20:30 | 1400.00
+
+
+Here are the 16 flight plans:
+
+SEA | PEK | Hainan | 1 (NRT) | 10:30 | 18:45 | 550.00
+SEA | PEK | Delta | 1 (ICN) | 12:15 | 20:30 | 620.00
+SEA | PEK | China Eastern | 0 | 14:00 | 16:30 | 480.00
+SEA | PEK | Korean Air | 1 (ICN) | 15:45 | 23:55 | 650.00
+SEA | PEK | Japan Airlines | 1 (NRT) | 16:30 | 00:45 | 580.00
+SEA | PEK | Asiana | 1 (ICN) | 17:15 | 01:20 | 610.00
+SEA | PEK | China Southern | 0 | 18:00 | 20:30 | 500.00
+SEA | PEK | Air China | 1 (PVG) | 19:30 | 02:45 | 630.00
+
+PEK | SEA | Hainan | 1 (NRT) | 09:30 | 06:45 | 520.00
+PEK | SEA | Delta | 1 (ICN) | 11:15 | 08:30 | 590.00
+PEK | SEA | China Eastern | 0 | 13:00 | 09:30 | 450.00
+PEK | SEA | Korean Air | 1 (ICN) | 14:45 | 11:55 | 660.00
+PEK | SEA | Japan Airlines | 1 (NRT) | 15:30 | 12:45 | 560.00
+PEK | SEA | Asiana | 1 (ICN) | 16:15 | 13:20 | 600.00
+PEK | SEA | China Southern | 0 | 17:00 | 14:30 | 470.00
+PEK | SEA | Air China | 1 (PVG) | 18:30 | 15:45 | 640.00
+
+
+Here are the 16 flight plans:
+
+SEA | BER | Lufthansa | 1 (FRA) | 08:30 | 18:45 | 850.00
+SEA | BER | Delta | 2 (AMS, FRA) | 10:15 | 21:50 | 1200.00
+SEA | BER | United | 1 (EWR) | 12:00 | 22:30 | 1000.00
+SEA | BER | American | 2 (PHL, CDG) | 13:45 | 00:15 | 1300.00
+SEA | BER | Turkish | 1 (IST) | 15:30 | 02:00 | 1100.00
+SEA | BER | British Airways | 2 (LHR, MXP) | 17:00 | 03:30 | 1400.00
+SEA | BER | Air Canada | 1 (YYZ) | 19:15 | 05:45 | 1250.00
+SEA | BER | Swiss | 2 (ZRH, GVA) | 21:00 | 07:30 | 1350.00
+BER | SEA | Lufthansa | 1 (FRA) | 08:00 | 09:30 | 900.00
+BER | SEA | Delta | 2 (AMS, FRA) | 09:45 | 12:15 | 1100.00
+BER | SEA | United | 1 (EWR) | 11:30 | 14:00 | 1050.00
+BER | SEA | American | 2 (PHL, CDG) | 13:15 | 16:45 | 1200.00
+BER | SEA | Turkish | 1 (IST) | 15:00 | 18:30 | 1150.00
+BER | SEA | British Airways | 2 (LHR, MXP) | 16:45 | 20:15 | 1300.00
+BER | SEA | Air Canada | 1 (YYZ) | 18:30 | 22:00 | 1250.00
+BER | SEA | Swiss | 2 (ZRH, GVA) | 20:15 | 00:45 | 1350.00
+
+
+Here are the 16 flight plans:
+
+SEA | EZE | American Airlines | 1 (DFW) | 08:00 | 20:35 | 850.00
+SEA | EZE | Delta Air Lines | 1 (ATL) | 10:30 | 23:05 | 920.00
+SEA | EZE | United Airlines | 2 (SFO, IAH) | 09:15 | 22:40 | 780.00
+SEA | EZE | LATAM | 1 (LAX) | 11:45 | 00:20 | 950.00
+SEA | EZE | Avianca | 2 (LAX, BOG) | 08:50 | 21:10 | 830.00
+SEA | EZE | Aeromexico | 2 (MEX, SCL) | 10:10 | 23:50 | 860.00
+SEA | EZE | Copa Airlines | 2 (PTY, SCL) | 09:40 | 22:20 | 900.00
+SEA | EZE | Qantas | 1 (LAX) | 12:20 | 01:05 | 980.00
+
+EZE | SEA | American Airlines | 1 (DFW) | 09:30 | 17:05 | 870.00
+EZE | SEA | Delta Air Lines | 1 (ATL) | 11:15 | 20:40 | 940.00
+EZE | SEA | United Airlines | 2 (IAH, SFO) | 10:50 | 19:20 | 800.00
+EZE | SEA | LATAM | 1 (LAX) | 13:00 | 22:35 | 970.00
+EZE | SEA | Avianca | 2 (BOG, LAX) | 09:00 | 18:30 | 850.00
+EZE | SEA | Aeromexico | 2 (SCL, MEX) | 11:40 | 21:10 | 890.00
+EZE | SEA | Copa Airlines | 2 (SCL, PTY) | 10:20 | 19:50 | 920.00
+EZE | SEA | Qantas | 1 (LAX) | 14:45 | 23:20 | 1000.00
+
+
+Here are the 16 flight plans:
+
+SEA | SJD | Alaska Airlines | Non-stop | 08:00 | 13:35 | 450.00
+SEA | SJD | Delta Air Lines | 1 stop (LAX) | 09:30 | 15:10 | 520.00
+SEA | SJD | American Airlines | 1 stop (PHX) | 10:15 | 16:05 | 550.00
+SEA | SJD | United Airlines | Non-stop | 11:00 | 16:20 | 480.00
+SEA | SJD | Spirit Airlines | 1 stop (LAS) | 12:45 | 18:25 | 420.00
+SEA | SJD | Frontier Airlines | 1 stop (DEN) | 14:00 | 19:40 | 500.00
+SEA | SJD | Southwest Airlines | Non-stop | 15:30 | 20:55 | 510.00
+SEA | SJD | JetBlue Airways | 1 stop (SFO) | 16:45 | 22:15 | 530.00
+SJD | SEA | Alaska Airlines | Non-stop | 08:00 | 11:35 | 420.00
+SJD | SEA | Delta Air Lines | 1 stop (LAX) | 09:30 | 13:10 | 490.00
+SJD | SEA | American Airlines | 1 stop (PHX) | 10:15 | 14:05 | 520.00
+SJD | SEA | United Airlines | Non-stop | 11:00 | 14:20 | 450.00
+SJD | SEA | Spirit Airlines | 1 stop (LAS) | 12:45 | 16:25 | 400.00
+SJD | SEA | Frontier Airlines | 1 stop (DEN) | 14:00 | 17:40 | 480.00
+SJD | SEA | Southwest Airlines | Non-stop | 15:30 | 18:55 | 500.00
+SJD | SEA | JetBlue Airways | 1 stop (SFO) | 16:45 | 20:15 | 510.00
+
+
+Here are the 16 flight plans:
+
+SEA | CAI | DL | 1 (AMS) | 08:00 | 19:30 | 850.00
+SEA | CAI | LH | 2 (FRA, IST) | 10:00 | 22:00 | 1050.00
+SEA | CAI | UA | 1 (EWR) | 12:00 | 23:30 | 900.00
+SEA | CAI | EK | 1 (DXB) | 14:00 | 01:30 | 1200.00
+SEA | CAI | QR | 1 (DOH) | 16:00 | 03:30 | 1100.00
+SEA | CAI | TK | 1 (IST) | 18:00 | 05:30 | 1000.00
+SEA | CAI | AA | 2 (ORD, LHR) | 20:00 | 07:30 | 1250.00
+SEA | CAI | BA | 1 (LHR) | 22:00 | 09:30 | 1150.00
+
+CAI | SEA | MS | 1 (IST) | 08:00 | 18:30 | 950.00
+CAI | SEA | SU | 2 (SVO, FRA) | 10:00 | 21:30 | 1100.00
+CAI | SEA | ET | 1 (ADD) | 12:00 | 23:30 | 1000.00
+CAI | SEA | QR | 1 (DOH) | 14:00 | 01:30 | 1050.00
+CAI | SEA | LH | 1 (FRA) | 16:00 | 03:30 | 1150.00
+CAI | SEA | UA | 2 (EWR, SFO) | 18:00 | 06:30 | 1250.00
+CAI | SEA | DL | 1 (AMS) | 20:00 | 08:30 | 1000.00
+CAI | SEA | EK | 1 (DXB) | 22:00 | 10:30 | 1200.00
+
+
+Here are the 16 flight plans:
+
+SEA | CUN | Alaska Airlines | Non-stop | 08:00 | 16:30 | 450.00
+SEA | CUN | Delta Air Lines | 1 stop (LAX) | 09:30 | 18:15 | 520.00
+SEA | CUN | American Airlines | Non-stop | 11:00 | 19:30 | 480.00
+SEA | CUN | United Airlines | 1 stop (SFO) | 12:30 | 20:45 | 550.00
+SEA | CUN | Spirit Airlines | 1 stop (DEN) | 14:00 | 21:50 | 420.00
+SEA | CUN | Frontier Airlines | Non-stop | 15:30 | 22:50 | 400.00
+SEA | CUN | Southwest Airlines | 1 stop (PHX) | 17:00 | 23:50 | 500.00
+SEA | CUN | JetBlue Airways | Non-stop | 19:00 | 01:20 | 460.00
+
+CUN | SEA | Alaska Airlines | Non-stop | 08:30 | 12:50 | 480.00
+CUN | SEA | Delta Air Lines | 1 stop (ATL) | 10:00 | 15:20 | 540.00
+CUN | SEA | American Airlines | Non-stop | 11:30 | 16:50 | 500.00
+CUN | SEA | United Airlines | 1 stop (IAH) | 13:00 | 18:20 | 570.00
+CUN | SEA | Spirit Airlines | 1 stop (ORD) | 14:30 | 20:00 | 440.00
+CUN | SEA | Frontier Airlines | Non-stop | 16:00 | 21:20 | 420.00
+CUN | SEA | Southwest Airlines | 1 stop (DAL) | 17:30 | 22:50 | 520.00
+CUN | SEA | JetBlue Airways | Non-stop | 19:30 | 00:50 | 490.00
+
+
+Here are the 16 flight plans:
+
+SEA | CPT | Delta | 1 (AMS) | 08:00 | 20:30 | 850.00
+SEA | CPT | Lufthansa | 2 (FRA, JNB) | 10:30 | 22:45 | 1100.00
+SEA | CPT | Emirates | 1 (DXB) | 12:45 | 06:15 | 950.00
+SEA | CPT | Turkish | 2 (IST, JNB) | 14:15 | 08:00 | 1200.00
+SEA | CPT | Qantas | 1 (SYD) | 16:00 | 09:30 | 1000.00
+SEA | CPT | Air France | 2 (CDG, JNB) | 18:30 | 11:15 | 1300.00
+SEA | CPT | British Airways | 1 (LHR) | 20:45 | 13:00 | 900.00
+SEA | CPT | Singapore | 2 (SIN, JNB) | 22:15 | 15:30 | 1400.00
+
+CPT | SEA | Delta | 1 (AMS) | 08:00 | 18:30 | 800.00
+CPT | SEA | Lufthansa | 2 (JNB, FRA) | 10:30 | 20:45 | 1050.00
+CPT | SEA | Emirates | 1 (DXB) | 12:45 | 05:15 | 900.00
+CPT | SEA | Turkish | 2 (JNB, IST) | 14:15 | 07:00 | 1150.00
+CPT | SEA | Qantas | 1 (SYD) | 16:00 | 08:30 | 950.00
+CPT | SEA | Air France | 2 (JNB, CDG) | 18:30 | 10:15 | 1250.00
+CPT | SEA | British Airways | 1 (LHR) | 20:45 | 12:00 | 850.00
+CPT | SEA | Singapore | 2 (JNB, SIN) | 22:15 | 14:30 | 1350.00
+
+
+Here are the 16 flight plans:
+
+SEA | CPH | Delta | 1 (AMS) | 08:00 | 18:30 | 850.00
+SEA | CPH | Lufthansa | 2 (FRA, OSLO) | 10:30 | 21:15 | 1050.00
+SEA | CPH | Norwegian | 0 | 12:00 | 20:00 | 650.00
+SEA | CPH | Icelandair | 1 (KEF) | 14:00 | 22:30 | 750.00
+SEA | CPH | SAS | 0 | 16:00 | 00:00 | 900.00
+SEA | CPH | United | 1 (EWR) | 18:00 | 02:30 | 1000.00
+SEA | CPH | American | 2 (PHL, LHR) | 20:00 | 04:15 | 1200.00
+SEA | CPH | TAP Air Portugal | 1 (LIS) | 22:00 | 06:30 | 1100.00
+
+CPH | SEA | Delta | 1 (AMS) | 08:00 | 10:30 | 950.00
+CPH | SEA | Lufthansa | 2 (FRA, OSLO) | 10:30 | 13:15 | 1150.00
+CPH | SEA | Norwegian | 0 | 12:00 | 14:00 | 700.00
+CPH | SEA | Icelandair | 1 (KEF) | 14:00 | 16:30 | 800.00
+CPH | SEA | SAS | 0 | 16:00 | 18:00 | 950.00
+CPH | SEA | United | 1 (EWR) | 18:00 | 20:30 | 1050.00
+CPH | SEA | American | 2 (PHL, LHR) | 20:00 | 22:15 | 1250.00
+CPH | SEA | TAP Air Portugal | 1 (LIS) | 22:00 | 00:30 | 1150.00
+
+
+Here are the 16 flight plans:
+
+SEA | DXB | Emirates | 1 (LHR) | 14:30 | 13:15 | 850.00
+SEA | DXB | Qatar Airways | 1 (DOH) | 16:45 | 15:30 | 920.00
+SEA | DXB | Turkish Airlines | 1 (IST) | 18:00 | 16:45 | 780.00
+SEA | DXB | Lufthansa | 2 (FRA, MUC) | 10:15 | 12:00 | 1100.00
+SEA | DXB | China Eastern | 1 (PVG) | 12:50 | 11:35 | 950.00
+SEA | DXB | Korean Air | 1 (ICN) | 15:20 | 14:05 | 980.00
+SEA | DXB | Japan Airlines | 1 (NRT) | 17:40 | 16:25 | 1050.00
+SEA | DXB | Cathay Pacific | 1 (HKG) | 19:10 | 17:55 | 1020.00
+DXB | SEA | Emirates | 1 (LHR) | 02:15 | 05:00 | 820.00
+DXB | SEA | Qatar Airways | 1 (DOH) | 04:30 | 07:15 | 890.00
+DXB | SEA | Turkish Airlines | 1 (IST) | 06:45 | 09:30 | 750.00
+DXB | SEA | Lufthansa | 2 (MUC, FRA) | 08:00 | 11:45 | 1080.00
+DXB | SEA | China Eastern | 1 (PVG) | 10:20 | 13:05 | 920.00
+DXB | SEA | Korean Air | 1 (ICN) | 12:40 | 15:25 | 940.00
+DXB | SEA | Japan Airlines | 1 (NRT) | 15:00 | 17:45 | 1010.00
+DXB | SEA | Cathay Pacific | 1 (HKG) | 17:20 | 20:05 | 1000.00
+DXB | SEA | Singapore Airlines | 1 (SIN) | 19:45 | 22:30 | 960.00
+
+
+Here are the 16 flight plans:
+
+SEA | DUB | American Airlines | Non-stop | 08:00 | 16:30 | 450.00
+SEA | DUB | Delta Air Lines | 1 stop (LHR) | 10:30 | 19:15 | 520.00
+SEA | DUB | United Airlines | Non-stop | 13:45 | 22:15 | 480.00
+SEA | DUB | Lufthansa | 1 stop (FRA) | 14:15 | 23:30 | 550.00
+SEA | DUB | Air Canada | 1 stop (YYZ) | 15:00 | 23:45 | 500.00
+SEA | DUB | British Airways | 1 stop (LHR) | 16:30 | 00:15 | 530.00
+SEA | DUB | KLM Royal Dutch | 1 stop (AMS) | 17:45 | 01:15 | 510.00
+SEA | DUB | Iberia | 1 stop (MAD) | 19:00 | 02:30 | 540.00
+DUB | SEA | Aer Lingus | Non-stop | 08:30 | 10:30 | 420.00
+DUB | SEA | British Airways | 1 stop (LHR) | 09:45 | 12:15 | 490.00
+DUB | SEA | Lufthansa | 1 stop (FRA) | 11:15 | 13:45 | 460.00
+DUB | SEA | Air France | 1 stop (CDG) | 12:30 | 14:45 | 470.00
+DUB | SEA | KLM Royal Dutch | 1 stop (AMS) | 13:45 | 16:00 | 450.00
+DUB | SEA | United Airlines | Non-stop | 15:00 | 17:00 | 400.00
+DUB | SEA | Delta Air Lines | 1 stop (JFK) | 16:15 | 18:30 | 480.00
+DUB | SEA | American Airlines | 1 stop (PHL) | 17:30 | 19:45 | 490.00
+DUB | SEA | Iberia | 1 stop (MAD) | 19:00 | 21:15 | 510.00
+
+
+Here are the 16 flight plans:
+
+SEA | EDI | American Airlines | Non-stop | 08:00 | 17:30 | 850.00
+SEA | EDI | Delta Air Lines | 1 stop (LHR) | 09:30 | 19:45 | 720.00
+SEA | EDI | United Airlines | Non-stop | 10:15 | 20:40 | 900.00
+SEA | EDI | Lufthansa | 1 stop (FRA) | 11:00 | 21:20 | 950.00
+SEA | EDI | British Airways | 1 stop (LHR) | 12:45 | 23:10 | 820.00
+SEA | EDI | KLM Royal Dutch | 1 stop (AMS) | 13:30 | 23:55 | 890.00
+SEA | EDI | Air France | 1 stop (CDG) | 14:15 | 00:40 | 860.00
+SEA | EDI | Iberia | 1 stop (MAD) | 15:00 | 01:25 | 930.00
+EDI | SEA | American Airlines | Non-stop | 08:00 | 09:30 | 800.00
+EDI | SEA | Delta Air Lines | 1 stop (JFK) | 09:30 | 11:45 | 680.00
+EDI | SEA | United Airlines | Non-stop | 10:15 | 11:45 | 850.00
+EDI | SEA | Lufthansa | 1 stop (FRA) | 11:00 | 13:20 | 920.00
+EDI | SEA | British Airways | 1 stop (LHR) | 12:45 | 15:10 | 780.00
+EDI | SEA | KLM Royal Dutch | 1 stop (AMS) | 13:30 | 15:55 | 840.00
+EDI | SEA | Air France | 1 stop (CDG) | 14:15 | 16:40 | 810.00
+EDI | SEA | Iberia | 1 stop (MAD) | 15:00 | 17:25 | 960.00
+EDI | SEA | Swiss International | 1 stop (ZRH) | 16:00 | 18:30 | 900.00
+
+
+Here are the 16 flight plans:
+
+SEA | HAN | Vietnam Airlines | 0 | 08:30 | 20:30 | 550.00
+SEA | HAN | Japan Airlines | 1 (NRT) | 09:00 | 22:15 | 720.00
+SEA | HAN | Korean Air | 1 (ICN) | 10:30 | 23:45 | 820.00
+SEA | HAN | China Eastern | 1 (PVG) | 11:15 | 00:30 | 900.00
+SEA | HAN | Thai Airways | 1 (BKK) | 12:00 | 01:45 | 950.00
+SEA | HAN | Singapore Airlines | 1 (SIN) | 13:30 | 03:15 | 1050.00
+SEA | HAN | Malaysia Airlines | 1 (KUL) | 14:45 | 04:30 | 1100.00
+SEA | HAN | Cathay Pacific | 1 (HKG) | 16:00 | 06:15 | 1200.00
+HAN | SEA | Vietnam Airlines | 0 | 07:30 | 19:30 | 520.00
+HAN | SEA | Japan Airlines | 1 (NRT) | 08:00 | 20:45 | 680.00
+HAN | SEA | Korean Air | 1 (ICN) | 09:30 | 22:15 | 780.00
+HAN | SEA | China Eastern | 1 (PVG) | 10:15 | 23:30 | 850.00
+HAN | SEA | Thai Airways | 1 (BKK) | 11:00 | 00:45 | 900.00
+HAN | SEA | Singapore Airlines | 1 (SIN) | 12:30 | 02:15 | 1000.00
+HAN | SEA | Malaysia Airlines | 1 (KUL) | 13:45 | 03:30 | 1050.00
+HAN | SEA | Cathay Pacific | 1 (HKG) | 15:00 | 05:15 | 1150.00
+HAN | SEA | Asiana Airlines | 1 (ICN) | 16:30 | 06:45 | 1200.00
+
+
+Here are the 16 flight plans:
+
+SEA | HKG | Cathay Pacific | Non-stop | 09:00 | 18:30 | 850.00
+SEA | HKG | American Airlines | 1 stop (NRT) | 10:30 | 20:15 | 950.00
+SEA | HKG | Delta Air Lines | Non-stop | 11:15 | 20:45 | 1050.00
+SEA | HKG | Korean Air | 1 stop (ICN) | 12:00 | 22:30 | 1000.00
+SEA | HKG | Japan Airlines | 1 stop (HND) | 13:30 | 23:15 | 1100.00
+SEA | HKG | China Eastern | 1 stop (PVG) | 14:45 | 00:30 | 900.00
+SEA | HKG | United Airlines | Non-stop | 16:00 | 02:30 | 1200.00
+SEA | HKG | Asiana Airlines | 1 stop (ICN) | 17:15 | 03:45 | 1150.00
+HKG | SEA | Cathay Pacific | Non-stop | 08:30 | 18:15 | 800.00
+HKG | SEA | China Airlines | 1 stop (TPE) | 09:45 | 20:30 | 950.00
+HKG | SEA | Eva Air | 1 stop (TPE) | 11:00 | 22:45 | 1000.00
+HKG | SEA | Singapore Airlines | 1 stop (SIN) | 12:30 | 00:15 | 1100.00
+HKG | SEA | Korean Air | 1 stop (ICN) | 14:00 | 02:30 | 1050.00
+HKG | SEA | Japan Airlines | 1 stop (HND) | 15:30 | 04:15 | 1150.00
+HKG | SEA | Delta Air Lines | Non-stop | 17:00 | 05:45 | 1250.00
+HKG | SEA | United Airlines | Non-stop | 18:30 | 07:15 | 1300.00
+HKG | SEA | American Airlines | 1 stop (NRT) | 20:00 | 09:45 | 1200.00
+
+
+Here are the 16 flight plans:
+
+SEA | IST | Turkish Airlines | Non-stop | 14:30 | 11:35 | 850.00
+SEA | IST | Lufthansa | 1 (FRA) | 10:15 | 08:10 | 1050.00
+SEA | IST | Delta | 1 (CDG) | 16:45 | 14:20 | 900.00
+SEA | IST | Emirates | 1 (DXB) | 18:00 | 16:30 | 1100.00
+SEA | IST | KLM | 1 (AMS) | 12:50 | 10:40 | 1000.00
+SEA | IST | United | 1 (EWR) | 09:30 | 07:25 | 950.00
+SEA | IST | British Airways | 1 (LHR) | 13:20 | 11:05 | 1020.00
+SEA | IST | Qatar Airways | 1 (DOH) | 20:10 | 18:40 | 1150.00
+IST | SEA | Turkish Airlines | Non-stop | 13:40 | 15:45 | 850.00
+IST | SEA | Lufthansa | 1 (FRA) | 09:50 | 11:55 | 1050.00
+IST | SEA | Delta | 1 (CDG) | 15:10 | 17:15 | 900.00
+IST | SEA | Emirates | 1 (DXB) | 16:30 | 18:35 | 1100.00
+IST | SEA | KLM | 1 (AMS) | 11:40 | 13:45 | 1000.00
+IST | SEA | United | 1 (EWR) | 08:20 | 10:25 | 950.00
+IST | SEA | British Airways | 1 (LHR) | 12:10 | 14:15 | 1020.00
+IST | SEA | Qatar Airways | 1 (DOH) | 19:00 | 21:05 | 1150.00
+
+
+Here are the 16 flight plans:
+
+SEA | TLV | EL AL | 0 | 08:00 | 18:30 | 850.00
+SEA | TLV | Lufthansa | 1 (FRA) | 09:30 | 20:15 | 950.00
+SEA | TLV | Delta | 2 (AMS, CDG) | 10:45 | 22:50 | 1050.00
+SEA | TLV | Turkish | 1 (IST) | 11:15 | 21:40 | 1000.00
+SEA | TLV | American | 2 (PHL, MIA) | 12:00 | 23:30 | 1100.00
+SEA | TLV | United | 1 (EWR) | 13:30 | 22:15 | 1020.00
+SEA | TLV | Air Canada | 2 (YYZ, FRA) | 14:15 | 23:50 | 1150.00
+SEA | TLV | British Airways | 1 (LHR) | 15:00 | 22:45 | 1080.00
+TLV | SEA | EL AL | 0 | 08:00 | 10:30 | 800.00
+TLV | SEA | Lufthansa | 1 (FRA) | 09:30 | 12:15 | 920.00
+TLV | SEA | Delta | 2 (CDG, AMS) | 10:45 | 14:50 | 1020.00
+TLV | SEA | Turkish | 1 (IST) | 11:15 | 13:40 | 980.00
+TLV | SEA | American | 2 (MIA, PHL) | 12:00 | 15:30 | 1080.00
+TLV | SEA | United | 1 (EWR) | 13:30 | 14:15 | 1000.00
+TLV | SEA | Air Canada | 2 (FRA, YYZ) | 14:15 | 16:50 | 1120.00
+TLV | SEA | British Airways | 1 (LHR) | 15:00 | 15:45 | 1040.00
+TLV | SEA | KLM | 2 (AMS, SFO) | 16:00 | 18:30 | 1180.00
+
+
+Here are the 16 flight plans:
+
+SEA | LIM | American Airlines | Non-stop | 08:00 | 18:30 | 850.00
+SEA | LIM | Delta Air Lines | 1 stop (DFW) | 09:30 | 20:15 | 720.00
+SEA | LIM | United Airlines | Non-stop | 10:00 | 20:45 | 900.00
+SEA | LIM | LATAM | 1 stop (SCL) | 11:15 | 22:00 | 650.00
+SEA | LIM | Alaska Airlines | 1 stop (LAX) | 12:00 | 23:30 | 780.00
+SEA | LIM | Avianca | 1 stop (BOG) | 13:30 | 01:15 | 700.00
+SEA | LIM | Copa Airlines | 1 stop (PTY) | 14:45 | 02:30 | 750.00
+SEA | LIM | Spirit Airlines | 2 stops (LAX, MEX) | 16:00 | 04:00 | 580.00
+LIM | SEA | American Airlines | Non-stop | 08:00 | 14:30 | 920.00
+LIM | SEA | Delta Air Lines | 1 stop (ATL) | 09:30 | 16:15 | 790.00
+LIM | SEA | United Airlines | Non-stop | 10:00 | 17:45 | 980.00
+LIM | SEA | LATAM | 1 stop (SCL) | 11:15 | 19:00 | 720.00
+LIM | SEA | Alaska Airlines | 1 stop (LAX) | 12:00 | 20:30 | 850.00
+LIM | SEA | Avianca | 1 stop (BOG) | 13:30 | 22:15 | 780.00
+LIM | SEA | Copa Airlines | 1 stop (PTY) | 14:45 | 23:30 | 820.00
+LIM | SEA | Spirit Airlines | 2 stops (MEX, LAX) | 16:00 | 02:00 | 630.00
+LIM | SEA | Aeromexico | 2 stops (MEX, SFO) | 17:30 | 03:30 | 680.00
+
+
+Here are the 16 flight plans:
+
+SEA | LHR | American Airlines | 1 (PHL) | 08:00 | 18:30 | 850.00
+SEA | LHR | British Airways | 0 | 10:30 | 18:00 | 1200.00
+SEA | LHR | Delta Air Lines | 1 (ATL) | 12:00 | 21:30 | 950.00
+SEA | LHR | United Airlines | 1 (EWR) | 14:00 | 22:30 | 1000.00
+SEA | LHR | Lufthansa | 1 (FRA) | 16:00 | 23:30 | 1100.00
+SEA | LHR | Air France | 1 (CDG) | 18:00 | 01:30 | 1050.00
+SEA | LHR | KLM Royal Dutch | 1 (AMS) | 20:00 | 02:30 | 1020.00
+SEA | LHR | Iberia | 1 (MAD) | 22:00 | 04:30 | 980.00
+
+LHR | SEA | American Airlines | 1 (PHL) | 09:00 | 11:30 | 900.00
+LHR | SEA | British Airways | 0 | 11:30 | 14:00 | 1300.00
+LHR | SEA | Delta Air Lines | 1 (ATL) | 13:30 | 16:30 | 1000.00
+LHR | SEA | United Airlines | 1 (EWR) | 15:30 | 18:30 | 1050.00
+LHR | SEA | Lufthansa | 1 (FRA) | 17:30 | 20:30 | 1150.00
+LHR | SEA | Air France | 1 (CDG) | 19:30 | 22:30 | 1100.00
+LHR | SEA | KLM Royal Dutch | 1 (AMS) | 21:30 | 00:30 | 1080.00
+LHR | SEA | Iberia | 1 (MAD) | 23:30 | 02:30 | 990.00
+
+
+Here are the 16 flight plans:
+
+SEA | MAD | American Airlines | Non-stop | 08:00 | 16:30 | 850.00
+SEA | MAD | Iberia | 1 stop (LHR) | 10:30 | 19:15 | 920.00
+SEA | MAD | Delta Air Lines | Non-stop | 12:45 | 21:10 | 950.00
+SEA | MAD | Lufthansa | 1 stop (FRA) | 14:00 | 22:50 | 1000.00
+SEA | MAD | United Airlines | 2 stops (SFO, EWR) | 08:30 | 20:40 | 1100.00
+SEA | MAD | Air Europa | 1 stop (MXP) | 16:15 | 00:30 | 1050.00
+SEA | MAD | Turkish Airlines | 1 stop (IST) | 18:00 | 02:20 | 980.00
+SEA | MAD | KLM Royal Dutch | 1 stop (AMS) | 20:45 | 04:55 | 1020.00
+MAD | SEA | American Airlines | Non-stop | 09:30 | 11:50 | 900.00
+MAD | SEA | Iberia | 1 stop (BCN) | 11:45 | 14:20 | 960.00
+MAD | SEA | Delta Air Lines | Non-stop | 14:15 | 16:35 | 990.00
+MAD | SEA | Lufthansa | 1 stop (MUC) | 16:30 | 19:00 | 1050.00
+MAD | SEA | United Airlines | 2 stops (EWR, SFO) | 10:00 | 14:50 | 1150.00
+MAD | SEA | Air Europa | 1 stop (CDG) | 12:45 | 16:15 | 1000.00
+MAD | SEA | Turkish Airlines | 1 stop (IST) | 15:00 | 18:30 | 980.00
+MAD | SEA | KLM Royal Dutch | 1 stop (AMS) | 17:30 | 20:50 | 1020.00
+
+
+Here are the 16 flight plans:
+
+SEA | MEX | Alaska Airlines | Non-stop | 08:00 | 14:30 | 450.00
+SEA | MEX | American Airlines | 1 stop (PHX) | 09:15 | 16:45 | 520.00
+SEA | MEX | Delta Air Lines | Non-stop | 10:30 | 17:00 | 480.00
+SEA | MEX | Frontier Airlines | 1 stop (DEN) | 11:45 | 19:15 | 420.00
+SEA | MEX | Spirit Airlines | 1 stop (LAS) | 13:00 | 20:30 | 400.00
+SEA | MEX | United Airlines | Non-stop | 14:15 | 20:45 | 500.00
+SEA | MEX | Aeromexico | Non-stop | 15:30 | 22:00 | 550.00
+SEA | MEX | Volaris | 1 stop (GDL) | 17:00 | 23:30 | 380.00
+MEX | SEA | Alaska Airlines | Non-stop | 08:00 | 11:30 | 480.00
+MEX | SEA | American Airlines | 1 stop (DFW) | 09:15 | 14:45 | 520.00
+MEX | SEA | Delta Air Lines | Non-stop | 10:30 | 14:00 | 500.00
+MEX | SEA | Frontier Airlines | 1 stop (PHX) | 11:45 | 16:15 | 420.00
+MEX | SEA | Spirit Airlines | 1 stop (LAX) | 13:00 | 17:30 | 400.00
+MEX | SEA | United Airlines | Non-stop | 14:15 | 17:45 | 550.00
+MEX | SEA | Aeromexico | Non-stop | 15:30 | 19:00 | 580.00
+MEX | SEA | VivaAerobus | 1 stop (BJX) | 17:00 | 21:30 | 360.00
+
+
+Here are the 16 flight plans:
+
+SEA | MBJ | American Airlines | Non-stop | 08:00 | 17:30 | 549.00
+SEA | MBJ | Delta Air Lines | 1 stop (ATL) | 09:30 | 19:45 | 619.00
+SEA | MBJ | United Airlines | Non-stop | 10:15 | 19:50 | 599.00
+SEA | MBJ | Alaska Airlines | 1 stop (SFO) | 11:00 | 21:20 | 649.00
+SEA | MBJ | JetBlue Airways | Non-stop | 12:45 | 22:15 | 579.00
+SEA | MBJ | Spirit Airlines | 1 stop (LAS) | 14:00 | 23:30 | 529.00
+SEA | MBJ | Frontier Airlines | 1 stop (DEN) | 15:30 | 00:50 | 549.00
+SEA | MBJ | Southwest Airlines | Non-stop | 17:00 | 01:30 | 599.00
+MBJ | SEA | American Airlines | Non-stop | 08:00 | 12:30 | 529.00
+MBJ | SEA | Delta Air Lines | 1 stop (MIA) | 09:30 | 14:45 | 599.00
+MBJ | SEA | United Airlines | Non-stop | 10:15 | 15:50 | 579.00
+MBJ | SEA | Alaska Airlines | 1 stop (PDX) | 11:00 | 17:20 | 619.00
+MBJ | SEA | JetBlue Airways | Non-stop | 12:45 | 19:15 | 549.00
+MBJ | SEA | Spirit Airlines | 1 stop (FLL) | 14:00 | 20:30 | 499.00
+MBJ | SEA | Frontier Airlines | 1 stop (PHX) | 15:30 | 22:50 | 529.00
+MBJ | SEA | Southwest Airlines | Non-stop | 17:00 | 23:30 | 579.00
+
+
+Here are the 16 flight plans:
+
+SEA | YUL | Delta | 1 (MSP) | 08:00 | 16:45 | 542.00
+SEA | YUL | American | 2 (DFW, ORD) | 09:30 | 19:15 | 623.00
+SEA | YUL | United | 1 (SFO) | 11:15 | 20:00 | 598.00
+SEA | YUL | WestJet | 0 | 13:45 | 21:30 | 528.00
+SEA | YUL | Air Canada | 1 (YYC) | 15:00 | 22:45 | 573.00
+SEA | YUL | Alaska | 1 (PDX) | 16:30 | 00:15 | 548.00
+SEA | YUL | Lufthansa | 2 (FRA, YYZ) | 18:00 | 02:45 | 683.00
+SEA | YUL | British Airways | 1 (LHR) | 20:15 | 05:00 | 648.00
+YUL | SEA | Delta | 1 (MSP) | 08:00 | 10:45 | 512.00
+YUL | SEA | American | 2 (ORD, DFW) | 09:30 | 13:15 | 593.00
+YUL | SEA | United | 1 (SFO) | 11:15 | 14:00 | 568.00
+YUL | SEA | WestJet | 0 | 13:45 | 16:30 | 498.00
+YUL | SEA | Air Canada | 1 (YYC) | 15:00 | 17:45 | 543.00
+YUL | SEA | Alaska | 1 (PDX) | 16:30 | 19:15 | 518.00
+YUL | SEA | Lufthansa | 2 (YYZ, FRA) | 18:00 | 22:45 | 653.00
+YUL | SEA | British Airways | 1 (LHR) | 20:15 | 01:00 | 618.00
+
+
+Here are the 16 flight plans:
+
+SEA | BOM | American Airlines | 1 (DXB) | 10:30 | 22:45 | 850.00
+SEA | BOM | Emirates | 1 (DXB) | 14:15 | 02:30 | 900.00
+SEA | BOM | Lufthansa | 2 (FRA, DEL) | 08:00 | 23:15 | 1100.00
+SEA | BOM | Qatar Airways | 1 (DOH) | 16:45 | 04:15 | 950.00
+SEA | BOM | Turkish Airlines | 1 (IST) | 12:30 | 01:45 | 1000.00
+SEA | BOM | Singapore Airlines | 1 (SIN) | 09:15 | 23:30 | 1050.00
+SEA | BOM | Cathay Pacific | 1 (HKG) | 11:45 | 00:15 | 1020.00
+SEA | BOM | Japan Airlines | 1 (NRT) | 13:15 | 02:45 | 980.00
+
+BOM | SEA | American Airlines | 1 (DXB) | 01:15 | 06:30 | 800.00
+BOM | SEA | Emirates | 1 (DXB) | 03:45 | 09:15 | 850.00
+BOM | SEA | Lufthansa | 2 (DEL, FRA) | 05:00 | 18:15 | 1000.00
+BOM | SEA | Qatar Airways | 1 (DOH) | 07:15 | 12:45 | 920.00
+BOM | SEA | Turkish Airlines | 1 (IST) | 09:45 | 15:15 | 950.00
+BOM | SEA | Singapore Airlines | 1 (SIN) | 11:15 | 17:45 | 980.00
+BOM | SEA | Cathay Pacific | 1 (HKG) | 13:15 | 20:45 | 1020.00
+BOM | SEA | Japan Airlines | 1 (NRT) | 15:15 | 23:45 | 990.00
+
+
+Here are the 16 flight plans:
+
+SEA | OSL | Norwegian | 0 | 08:00 | 16:30 | 450.00
+SEA | OSL | SAS | 1 (LHR) | 10:30 | 19:15 | 620.00
+SEA | OSL | Delta | 2 (AMS, CPH) | 12:45 | 22:50 | 850.00
+SEA | OSL | Icelandair | 1 (KEF) | 14:15 | 21:40 | 550.00
+SEA | OSL | Lufthansa | 2 (FRA, MUC) | 16:00 | 23:55 | 900.00
+SEA | OSL | KLM | 1 (AMS) | 17:30 | 22:15 | 600.00
+SEA | OSL | British Airways | 1 (LHR) | 19:00 | 23:50 | 700.00
+SEA | OSL | United | 2 (EWR, FRA) | 20:45 | 01:20 | 950.00
+
+OSL | SEA | Norwegian | 0 | 08:30 | 09:55 | 480.00
+OSL | SEA | SAS | 1 (CPH) | 10:00 | 11:25 | 650.00
+OSL | SEA | Icelandair | 1 (KEF) | 11:45 | 13:10 | 580.00
+OSL | SEA | Lufthansa | 2 (MUC, FRA) | 13:15 | 14:40 | 920.00
+OSL | SEA | KLM | 1 (AMS) | 14:50 | 16:15 | 630.00
+OSL | SEA | British Airways | 1 (LHR) | 16:20 | 17:45 | 730.00
+OSL | SEA | United | 2 (FRA, EWR) | 18:00 | 19:25 | 980.00
+OSL | SEA | Delta | 2 (CPH, AMS) | 19:40 | 21:05 | 840.00
+
+
+Here are the 16 flight plans:
+
+SEA | PTY | American Airlines | Non-stop | 08:00 | 17:30 | 598.00
+SEA | PTY | Delta Air Lines | 1 stop (MIA) | 09:15 | 19:45 | 648.00
+SEA | PTY | United Airlines | Non-stop | 10:30 | 20:00 | 678.00
+SEA | PTY | Spirit Airlines | 1 stop (FLL) | 11:45 | 22:15 | 548.00
+SEA | PTY | Alaska Airlines | Non-stop | 13:00 | 22:30 | 698.00
+SEA | PTY | JetBlue Airways | 1 stop (JFK) | 14:15 | 23:45 | 628.00
+SEA | PTY | Frontier Airlines | 1 stop (DEN) | 15:30 | 00:00 | 578.00
+SEA | PTY | Southwest Airlines | Non-stop | 16:45 | 00:15 | 648.00
+PTY | SEA | Copa Airlines | Non-stop | 08:00 | 13:30 | 598.00
+PTY | SEA | American Airlines | 1 stop (CLT) | 09:15 | 15:45 | 648.00
+PTY | SEA | Delta Air Lines | Non-stop | 10:30 | 16:00 | 678.00
+PTY | SEA | United Airlines | 1 stop (EWR) | 11:45 | 18:15 | 628.00
+PTY | SEA | Spirit Airlines | 1 stop (ORD) | 13:00 | 19:30 | 548.00
+PTY | SEA | Alaska Airlines | Non-stop | 14:15 | 20:45 | 698.00
+PTY | SEA | JetBlue Airways | 1 stop (BOS) | 15:30 | 22:00 | 578.00
+PTY | SEA | Frontier Airlines | 1 stop (LAS) | 16:45 | 23:15 | 608.00
+
+
+Here are the 16 flight plans:
+
+SEA | CDG | American Airlines | Non-stop | 08:00 | 16:30 | 850.00
+SEA | CDG | Delta Air Lines | 1 stop (AMS) | 10:30 | 19:15 | 720.00
+SEA | CDG | Air France | Non-stop | 14:00 | 22:30 | 950.00
+SEA | CDG | Lufthansa | 1 stop (FRA) | 16:00 | 23:55 | 780.00
+SEA | CDG | United Airlines | 2 stops (SFO, EWR) | 18:00 | 02:10 | 620.00
+SEA | CDG | KLM Royal Dutch | 1 stop (AMS) | 20:00 | 03:40 | 690.00
+SEA | CDG | Iberia | 2 stops (MAD, LHR) | 22:00 | 06:20 | 650.00
+SEA | CDG | British Airways | 1 stop (LHR) | 00:30 | 08:50 | 810.00
+CDG | SEA | Air France | Non-stop | 09:00 | 10:30 | 900.00
+CDG | SEA | Delta Air Lines | 1 stop (JFK) | 11:30 | 14:15 | 750.00
+CDG | SEA | Lufthansa | 1 stop (FRA) | 13:00 | 16:25 | 820.00
+CDG | SEA | American Airlines | 2 stops (PHL, ORD) | 15:00 | 20:10 | 680.00
+CDG | SEA | United Airlines | 1 stop (EWR) | 17:00 | 21:30 | 790.00
+CDG | SEA | KLM Royal Dutch | 1 stop (AMS) | 19:00 | 23:40 | 720.00
+CDG | SEA | Iberia | 2 stops (MAD, BOS) | 21:00 | 02:20 | 660.00
+CDG | SEA | British Airways | 1 stop (LHR) | 23:00 | 02:50 | 850.00
+CDG | SEA | Swiss International | 1 stop (ZRH) | 01:00 | 04:30 | 780.00
+
+
+Here are the 16 flight plans:
+
+SEA | HKT | Thai Airways | Non-stop | 09:00 | 22:30 | 650.00
+SEA | HKT | Japan Airlines | 1 (NRT) | 10:30 | 23:45 | 720.00
+SEA | HKT | Korean Air | 1 (ICN) | 11:15 | 00:50 | 850.00
+SEA | HKT | China Eastern | 1 (PVG) | 12:00 | 02:20 | 780.00
+SEA | HKT | Asiana Airlines | 1 (ICN) | 13:45 | 04:10 | 900.00
+SEA | HKT | Cathay Pacific | Non-stop | 15:30 | 05:50 | 820.00
+SEA | HKT | Singapore Airlines | 1 (SIN) | 16:15 | 06:40 | 950.00
+SEA | HKT | Malaysia Airlines | 1 (KUL) | 17:00 | 07:30 | 870.00
+HKT | SEA | Thai Airways | Non-stop | 08:00 | 19:30 | 680.00
+HKT | SEA | Japan Airlines | 1 (NRT) | 09:30 | 21:45 | 750.00
+HKT | SEA | Korean Air | 1 (ICN) | 10:15 | 23:50 | 890.00
+HKT | SEA | China Eastern | 1 (PVG) | 11:00 | 01:20 | 810.00
+HKT | SEA | Asiana Airlines | 1 (ICN) | 12:45 | 03:10 | 940.00
+HKT | SEA | Cathay Pacific | Non-stop | 14:30 | 05:50 | 850.00
+HKT | SEA | Singapore Airlines | 1 (SIN) | 15:15 | 06:40 | 980.00
+HKT | SEA | Malaysia Airlines | 1 (KUL) | 16:00 | 07:30 | 910.00
+HKT | SEA | Vietnam Airlines | 1 (SGN) | 17:00 | 08:30 | 860.00
+
+
+Here are the 16 flight plans:
+
+SEA | PRG | Delta | 1 (AMS) | 08:00 | 18:30 | 850.00
+SEA | PRG | Lufthansa | 2 (FRA, MUC) | 09:30 | 20:15 | 1100.00
+SEA | PRG | KLM | 1 (AMS) | 10:00 | 19:20 | 900.00
+SEA | PRG | United | 1 (EWR) | 11:15 | 20:50 | 950.00
+SEA | PRG | American | 2 (PHL, CDG) | 12:30 | 22:10 | 1250.00
+SEA | PRG | British Airways | 1 (LHR) | 13:45 | 22:40 | 1050.00
+SEA | PRG | Swiss | 1 (ZRH) | 14:15 | 23:00 | 1000.00
+SEA | PRG | Turkish | 1 (IST) | 15:00 | 23:30 | 1200.00
+PRG | SEA | Czech Airlines | 1 (FRA) | 06:00 | 14:30 | 800.00
+PRG | SEA | Lufthansa | 1 (MUC) | 07:30 | 16:00 | 900.00
+PRG | SEA | KLM | 1 (AMS) | 08:30 | 17:00 | 850.00
+PRG | SEA | Delta | 1 (CDG) | 09:30 | 18:20 | 950.00
+PRG | SEA | United | 1 (EWR) | 10:30 | 19:10 | 1000.00
+PRG | SEA | American | 2 (PHL, JFK) | 11:30 | 20:50 | 1250.00
+PRG | SEA | British Airways | 1 (LHR) | 12:30 | 21:20 | 1100.00
+PRG | SEA | Swiss | 1 (ZRH) | 13:30 | 22:00 | 1050.00
+PRG | SEA | Turkish | 1 (IST) | 14:30 | 23:10 | 1200.00
+
+
+Here are the 16 flight plans:
+
+SEA | KEF | Icelandair | 1 (YUL) | 08:00 | 18:30 | 450.00
+SEA | KEF | Delta | 2 (JFK, LHR) | 10:00 | 21:15 | 620.00
+SEA | KEF | American Airlines | 1 (PHL) | 12:00 | 22:45 | 550.00
+SEA | KEF | Lufthansa | 2 (FRA, OSLO) | 14:00 | 23:50 | 700.00
+SEA | KEF | United | 1 (EWR) | 16:00 | 00:30 | 480.00
+SEA | KEF | Air Canada | 2 (YYZ, LHR) | 18:00 | 02:15 | 650.00
+SEA | KEF | British Airways | 1 (LHR) | 20:00 | 04:45 | 580.00
+SEA | KEF | KLM | 2 (AMS, OSLO) | 22:00 | 06:30 | 720.00
+KEF | SEA | Icelandair | 1 (YUL) | 08:30 | 14:00 | 420.00
+KEF | SEA | Delta | 2 (LHR, JFK) | 10:30 | 18:45 | 600.00
+KEF | SEA | American Airlines | 1 (PHL) | 12:30 | 20:15 | 520.00
+KEF | SEA | Lufthansa | 2 (OSLO, FRA) | 14:30 | 22:20 | 680.00
+KEF | SEA | United | 1 (EWR) | 16:30 | 00:05 | 460.00
+KEF | SEA | Air Canada | 2 (LHR, YYZ) | 18:30 | 02:50 | 630.00
+KEF | SEA | British Airways | 1 (LHR) | 20:30 | 04:20 | 560.00
+KEF | SEA | KLM | 2 (OSLO, AMS) | 22:30 | 06:00 | 710.00
+
+
+Here are the 16 flight plans:
+
+SEA | GIG | American Airlines | 1 (DFW) | 08:00 | 20:30 | 850.00
+SEA | GIG | Delta Air Lines | 2 (ATL, GRU) | 10:30 | 23:45 | 1200.00
+SEA | GIG | United Airlines | 1 (IAH) | 12:00 | 22:15 | 900.00
+SEA | GIG | LATAM | 0 | 14:30 | 06:00 | 700.00
+SEA | GIG | Alaska Airlines | 1 (LAX) | 16:00 | 04:30 | 950.00
+SEA | GIG | Avianca | 2 (BOG, LIM) | 18:00 | 07:15 | 1100.00
+SEA | GIG | Copa Airlines | 1 (PTY) | 20:00 | 09:45 | 1000.00
+SEA | GIG | Azul Brazilian Airlines | 0 | 22:00 | 12:30 | 800.00
+
+GIG | SEA | American Airlines | 1 (DFW) | 09:00 | 21:30 | 850.00
+GIG | SEA | Delta Air Lines | 2 (GRU, ATL) | 11:30 | 01:45 | 1200.00
+GIG | SEA | United Airlines | 1 (IAH) | 13:00 | 23:15 | 900.00
+GIG | SEA | LATAM | 0 | 15:30 | 07:00 | 700.00
+GIG | SEA | Alaska Airlines | 1 (LAX) | 17:00 | 05:30 | 950.00
+GIG | SEA | Avianca | 2 (LIM, BOG) | 19:00 | 08:15 | 1100.00
+GIG | SEA | Copa Airlines | 1 (PTY) | 21:00 | 10:45 | 1000.00
+GIG | SEA | Azul Brazilian Airlines | 0 | 23:00 | 14:30 | 800.00
+
+
+Here are the 16 flight plans:
+
+SEA | FCO | American Airlines | Non-stop | 08:00 | 16:30 | 850.00
+SEA | FCO | Lufthansa | 1 (FRA) | 10:30 | 19:00 | 950.00
+SEA | FCO | Delta Air Lines | Non-stop | 12:00 | 20:30 | 1,050.00
+SEA | FCO | British Airways | 1 (LHR) | 14:00 | 22:30 | 1,100.00
+SEA | FCO | United Airlines | 1 (EWR) | 16:00 | 00:30 | 1,200.00
+SEA | FCO | Air France | 1 (CDG) | 18:00 | 02:30 | 1,250.00
+SEA | FCO | Turkish Airlines | 1 (IST) | 20:00 | 04:30 | 1,300.00
+SEA | FCO | KLM Royal Dutch | 1 (AMS) | 22:00 | 06:30 | 1,350.00
+
+FCO | SEA | Alitalia | Non-stop | 08:00 | 10:30 | 900.00
+FCO | SEA | Swiss International | 1 (ZRH) | 10:30 | 13:00 | 1,050.00
+FCO | SEA | Austrian Airlines | 1 (VIE) | 12:30 | 15:00 | 1,100.00
+FCO | SEA | Iberia | 1 (MAD) | 14:30 | 17:00 | 1,150.00
+FCO | SEA | TAP Air Portugal | 1 (LIS) | 16:30 | 19:00 | 1,200.00
+FCO | SEA | Brussels Airlines | 1 (BRU) | 18:30 | 21:00 | 1,250.00
+FCO | SEA | LOT Polish Airlines | 1 (WAW) | 20:30 | 23:00 | 1,300.00
+FCO | SEA | Finnair | 1 (HEL) | 22:30 | 01:00 | 1,350.00
+
+
+Here are the 16 flight plans:
+
+SEA | SCL | American Airlines | 1 (LAX) | 08:00 | 21:30 | 850.00
+SEA | SCL | Delta Air Lines | 1 (ATL) | 10:30 | 23:50 | 920.00
+SEA | SCL | LATAM | 0 | 14:00 | 06:00 | 1050.00
+SEA | SCL | United Airlines | 1 (SFO) | 16:00 | 08:30 | 980.00
+SEA | SCL | Alaska Airlines | 1 (LAX) | 18:00 | 10:30 | 900.00
+SEA | SCL | Avianca | 1 (BOG) | 20:00 | 12:30 | 1100.00
+SEA | SCL | Copa Airlines | 1 (PTY) | 22:00 | 14:30 | 1000.00
+SEA | SCL | Spirit Airlines | 1 (FLL) | 00:30 | 16:30 | 950.00
+
+SCL | SEA | LATAM | 0 | 08:00 | 19:00 | 1050.00
+SCL | SEA | American Airlines | 1 (DFW) | 10:30 | 22:30 | 930.00
+SCL | SEA | Delta Air Lines | 1 (ATL) | 12:30 | 00:30 | 960.00
+SCL | SEA | United Airlines | 1 (IAH) | 14:30 | 02:30 | 1000.00
+SCL | SEA | Avianca | 1 (BOG) | 16:30 | 04:30 | 1100.00
+SCL | SEA | Alaska Airlines | 1 (LAX) | 18:30 | 06:30 | 920.00
+SCL | SEA | Copa Airlines | 1 (PTY) | 20:30 | 08:30 | 980.00
+SCL | SEA | Spirit Airlines | 1 (FLL) | 22:30 | 10:30 | 950.00
+
+
+Here are the 16 flight plans:
+
+SEA | ICN | Delta | Non-stop | 08:00 | 19:30 | 850.00
+SEA | ICN | Korean Air | Non-stop | 10:30 | 22:00 | 900.00
+SEA | ICN | Asiana | 1 stop (NRT) | 09:00 | 21:30 | 750.00
+SEA | ICN | Japan Airlines | 1 stop (HND) | 11:00 | 23:30 | 800.00
+SEA | ICN | China Eastern | 1 stop (PVG) | 08:30 | 21:00 | 700.00
+SEA | ICN | American Airlines | 1 stop (DFW) | 09:30 | 22:30 | 850.00
+SEA | ICN | United | 2 stops (SFO, NRT) | 08:00 | 23:00 | 650.00
+SEA | ICN | ANA | 2 stops (SFO, HND) | 10:00 | 23:30 | 700.00
+ICN | SEA | Delta | Non-stop | 10:00 | 06:30 | 900.00
+ICN | SEA | Korean Air | Non-stop | 12:00 | 08:30 | 950.00
+ICN | SEA | Asiana | 1 stop (NRT) | 11:30 | 09:00 | 800.00
+ICN | SEA | Japan Airlines | 1 stop (HND) | 13:00 | 10:30 | 850.00
+ICN | SEA | China Eastern | 1 stop (PVG) | 12:30 | 09:30 | 750.00
+ICN | SEA | American Airlines | 1 stop (DFW) | 14:00 | 11:30 | 900.00
+ICN | SEA | United | 2 stops (NRT, SFO) | 13:30 | 12:00 | 700.00
+ICN | SEA | ANA | 2 stops (HND, SFO) | 15:00 | 12:30 | 750.00
+
+
+Here are the 16 flight plans:
+
+SEA | PVG | Delta | Non-stop | 08:30 | 11:35 | 550.00
+SEA | PVG | China Eastern | 1 stop (NRT) | 09:15 | 12:50 | 480.00
+SEA | PVG | American | Non-stop | 10:00 | 13:05 | 520.00
+SEA | PVG | Japan Airlines | 1 stop (HND) | 11:30 | 15:20 | 500.00
+SEA | PVG | Korean Air | 1 stop (ICN) | 12:45 | 16:35 | 490.00
+SEA | PVG | Asiana | 1 stop (ICN) | 13:50 | 17:40 | 470.00
+SEA | PVG | Cathay Pacific | 1 stop (HKG) | 15:00 | 18:50 | 510.00
+SEA | PVG | EVA Air | 1 stop (TPE) | 16:15 | 20:05 | 530.00
+PVG | SEA | Delta | Non-stop | 08:30 | 05:35 | 580.00
+PVG | SEA | China Eastern | 1 stop (NRT) | 09:15 | 06:50 | 510.00
+PVG | SEA | American | Non-stop | 10:00 | 07:05 | 550.00
+PVG | SEA | Japan Airlines | 1 stop (HND) | 11:30 | 09:20 | 520.00
+PVG | SEA | Korean Air | 1 stop (ICN) | 12:45 | 10:35 | 500.00
+PVG | SEA | Asiana | 1 stop (ICN) | 13:50 | 11:40 | 480.00
+PVG | SEA | Cathay Pacific | 1 stop (HKG) | 15:00 | 12:50 | 540.00
+PVG | SEA | EVA Air | 1 stop (TPE) | 16:15 | 13:05 | 560.00
+PVG | SEA | China Airlines | 1 stop (TPE) | 17:30 | 14:20 | 490.00
+
+
+Here are the 16 flight plans:
+
+SEA | SIN | SQ | 0 | 08:30 | 19:45 | 850.00
+SEA | SIN | JL | 1 (NRT) | 09:15 | 21:20 | 950.00
+SEA | SIN | UA | 1 (HKG) | 10:00 | 22:05 | 1050.00
+SEA | SIN | CX | 1 (HKG) | 11:30 | 23:35 | 1200.00
+SEA | SIN | AA | 2 (LAX, NRT) | 12:45 | 02:10 | 1300.00
+SEA | SIN | DL | 1 (ICN) | 14:00 | 02:50 | 1400.00
+SEA | SIN | KE | 1 (ICN) | 15:15 | 03:55 | 1450.00
+SEA | SIN | BR | 1 (TPE) | 16:30 | 05:20 | 1500.00
+SIN | SEA | SQ | 0 | 08:00 | 06:25 | 900.00
+SIN | SEA | JL | 1 (NRT) | 09:45 | 08:10 | 1000.00
+SIN | SEA | UA | 1 (HKG) | 11:10 | 09:35 | 1150.00
+SIN | SEA | CX | 1 (HKG) | 12:40 | 11:05 | 1250.00
+SIN | SEA | AA | 2 (LAX, NRT) | 14:05 | 12:30 | 1350.00
+SIN | SEA | DL | 1 (ICN) | 15:20 | 13:45 | 1400.00
+SIN | SEA | KE | 1 (ICN) | 16:35 | 15:00 | 1450.00
+SIN | SEA | BR | 1 (TPE) | 17:50 | 16:15 | 1500.00
+SIN | SEA | AS | 1 (HNL) | 19:10 | 17:35 | 1550.00
+
+
+Here are the 16 flight plans:
+
+SEA | SPU | American Airlines | Non-stop | 06:00 | 08:15 | 250.00
+SEA | SPU | Delta Air Lines | 1 stop (LAX) | 08:30 | 11:45 | 320.00
+SEA | SPU | United Airlines | Non-stop | 10:00 | 12:20 | 280.00
+SEA | SPU | Alaska Airlines | 1 stop (PDX) | 12:15 | 15:30 | 350.00
+SEA | SPU | Spirit Airlines | 1 stop (LAS) | 14:00 | 17:20 | 220.00
+SEA | SPU | Frontier Airlines | Non-stop | 16:00 | 18:25 | 240.00
+SEA | SPU | JetBlue Airways | 1 stop (SFO) | 18:30 | 21:45 | 300.00
+SEA | SPU | Southwest Airlines | Non-stop | 20:00 | 22:20 | 260.00
+SPU | SEA | American Airlines | Non-stop | 06:30 | 08:50 | 270.00
+SPU | SEA | Delta Air Lines | 1 stop (ATL) | 09:00 | 12:20 | 330.00
+SPU | SEA | United Airlines | Non-stop | 11:15 | 13:35 | 290.00
+SPU | SEA | Alaska Airlines | 1 stop (DEN) | 13:30 | 16:50 | 360.00
+SPU | SEA | Spirit Airlines | 1 stop (PHX) | 15:45 | 19:05 | 230.00
+SPU | SEA | Frontier Airlines | Non-stop | 17:00 | 19:20 | 250.00
+SPU | SEA | JetBlue Airways | 1 stop (MIA) | 19:15 | 22:35 | 310.00
+SPU | SEA | Southwest Airlines | Non-stop | 21:30 | 23:50 | 280.00
+
+
+Here are the 16 flight plans:
+
+SEA | ARN | SAS | 0 | 08:00 | 16:30 | 450.00
+SEA | ARN | Norwegian | 1 (OSL) | 09:30 | 19:15 | 520.00
+SEA | ARN | Lufthansa | 1 (FRA) | 11:00 | 20:45 | 620.00
+SEA | ARN | Icelandair | 1 (KEF) | 12:30 | 22:15 | 580.00
+SEA | ARN | Delta | 1 (AMS) | 14:00 | 23:45 | 650.00
+SEA | ARN | KLM | 1 (AMS) | 15:30 | 01:15 | 680.00
+SEA | ARN | United | 2 (EWR, FRA) | 17:00 | 02:45 | 750.00
+SEA | ARN | American | 2 (PHL, LHR) | 19:00 | 04:30 | 800.00
+
+ARN | SEA | SAS | 0 | 08:30 | 10:00 | 420.00
+ARN | SEA | Norwegian | 1 (OSL) | 10:00 | 13:45 | 490.00
+ARN | SEA | Lufthansa | 1 (FRA) | 11:30 | 15:15 | 590.00
+ARN | SEA | Icelandair | 1 (KEF) | 13:00 | 17:45 | 550.00
+ARN | SEA | Delta | 1 (AMS) | 14:30 | 19:15 | 620.00
+ARN | SEA | KLM | 1 (AMS) | 16:00 | 21:45 | 650.00
+ARN | SEA | United | 2 (FRA, EWR) | 17:30 | 00:15 | 720.00
+ARN | SEA | American | 2 (LHR, PHL) | 19:30 | 02:45 | 780.00
+
+
+Here are the 16 flight plans:
+
+SEA | SYD | Qantas | 0 | 09:00 | 07:00 | 850.00
+SEA | SYD | American Airlines | 1 (HNL) | 11:00 | 10:00 | 950.00
+SEA | SYD | Delta | 0 | 13:00 | 11:00 | 900.00
+SEA | SYD | United | 1 (LAX) | 15:00 | 14:00 | 1050.00
+SEA | SYD | Virgin Australia | 0 | 17:00 | 15:00 | 1000.00
+SEA | SYD | Air New Zealand | 1 (AKL) | 19:00 | 18:00 | 1100.00
+SEA | SYD | Japan Airlines | 1 (NRT) | 21:00 | 20:00 | 1200.00
+SEA | SYD | Emirates | 1 (DXB) | 23:00 | 22:00 | 1300.00
+
+SYD | SEA | Qantas | 0 | 08:00 | 18:00 | 900.00
+SYD | SEA | American Airlines | 1 (LAX) | 10:00 | 20:00 | 1050.00
+SYD | SEA | Delta | 0 | 12:00 | 22:00 | 950.00
+SYD | SEA | United | 1 (SFO) | 14:00 | 00:00 | 1100.00
+SYD | SEA | Virgin Australia | 0 | 16:00 | 02:00 | 1000.00
+SYD | SEA | Air New Zealand | 1 (AKL) | 18:00 | 04:00 | 1150.00
+SYD | SEA | Japan Airlines | 1 (NRT) | 20:00 | 06:00 | 1250.00
+SYD | SEA | Emirates | 1 (DXB) | 22:00 | 08:00 | 1350.00
+
+
+Here are the 16 flight plans:
+
+SEA | NRT | ANA | 0 | 10:30 | 14:45 | 850.00
+SEA | NRT | JAL | 1 (HND) | 12:15 | 17:20 | 920.00
+SEA | NRT | Delta | 0 | 14:00 | 18:15 | 780.00
+SEA | NRT | American | 1 (LAX) | 15:45 | 20:50 | 950.00
+SEA | NRT | United | 0 | 07:00 | 11:10 | 820.00
+SEA | NRT | Asiana | 1 (ICN) | 09:30 | 14:40 | 900.00
+SEA | NRT | Korean Air | 1 (ICN) | 11:50 | 16:55 | 940.00
+SEA | NRT | China Eastern | 1 (PVG) | 13:20 | 18:25 | 960.00
+NRT | SEA | ANA | 0 | 09:00 | 04:10 | 830.00
+NRT | SEA | JAL | 1 (HND) | 11:30 | 06:40 | 900.00
+NRT | SEA | Delta | 0 | 13:45 | 08:55 | 790.00
+NRT | SEA | American | 1 (LAX) | 15:15 | 10:25 | 930.00
+NRT | SEA | United | 0 | 07:45 | 03:00 | 810.00
+NRT | SEA | Asiana | 1 (ICN) | 10:00 | 05:10 | 880.00
+NRT | SEA | Korean Air | 1 (ICN) | 12:20 | 07:30 | 920.00
+NRT | SEA | China Eastern | 1 (PVG) | 14:50 | 09:55 | 940.00
+NRT | SEA | Cathay Pacific | 1 (HKG) | 16:30 | 11:40 | 970.00
+
+
+Here are the 16 flight plans:
+
+SEA | HND | ANA | 0 | 08:30 | 21:45 | 550.00
+SEA | HND | JAL | 1 (NRT) | 09:00 | 22:10 | 620.00
+SEA | HND | Delta | 0 | 10:00 | 23:15 | 580.00
+SEA | HND | American | 1 (LAX) | 11:30 | 00:45 | 650.00
+SEA | HND | United | 0 | 12:30 | 01:45 | 600.00
+SEA | HND | Korean Air | 1 (ICN) | 13:30 | 02:45 | 680.00
+SEA | HND | Asiana | 1 (ICN) | 14:30 | 03:45 | 710.00
+SEA | HND | China Eastern | 1 (PVG) | 15:30 | 04:45 | 740.00
+
+HND | SEA | ANA | 0 | 08:00 | 04:15 | 520.00
+HND | SEA | JAL | 1 (NRT) | 09:30 | 05:45 | 590.00
+HND | SEA | Delta | 0 | 11:00 | 07:15 | 560.00
+HND | SEA | American | 1 (LAX) | 12:30 | 08:45 | 630.00
+HND | SEA | United | 0 | 14:00 | 09:15 | 610.00
+HND | SEA | Korean Air | 1 (ICN) | 15:30 | 10:45 | 660.00
+HND | SEA | Asiana | 1 (ICN) | 16:30 | 11:45 | 690.00
+HND | SEA | China Eastern | 1 (PVG) | 17:30 | 12:45 | 720.00
+
+
+Here are the 16 flight plans:
+
+SEA | YYZ | WestJet | 1 (ORD) | 08:00 | 16:45 | 542.00
+SEA | YYZ | American Airlines | 2 (PHL, CLT) | 09:30 | 19:15 | 622.00
+SEA | YYZ | Delta Air Lines | 0 | 10:15 | 17:30 | 485.00
+SEA | YYZ | United Airlines | 1 (DEN) | 11:45 | 19:00 | 512.00
+SEA | YYZ | Air Canada | 0 | 12:00 | 18:15 | 450.00
+SEA | YYZ | Alaska Airlines | 1 (SFO) | 13:30 | 20:45 | 580.00
+SEA | YYZ | JetBlue Airways | 2 (LAX, BOS) | 14:15 | 22:30 | 642.00
+SEA | YYZ | Spirit Airlines | 1 (LAS) | 15:00 | 21:15 | 520.00
+
+YYZ | SEA | WestJet | 1 (YUL) | 06:00 | 08:45 | 498.00
+YYZ | SEA | American Airlines | 2 (DFW, PDX) | 07:30 | 11:15 | 602.00
+YYZ | SEA | Delta Air Lines | 0 | 08:15 | 10:30 | 460.00
+YYZ | SEA | United Airlines | 1 (IAH) | 09:45 | 12:00 | 530.00
+YYZ | SEA | Air Canada | 0 | 10:00 | 12:15 | 420.00
+YYZ | SEA | Alaska Airlines | 1 (ORD) | 11:30 | 14:45 | 560.00
+YYZ | SEA | JetBlue Airways | 2 (BOS, JFK) | 12:15 | 16:30 | 680.00
+YYZ | SEA | Spirit Airlines | 1 (CHI) | 13:00 | 15:15 | 540.00
+
+
+Here are the 16 flight plans:
+
+SEA | YVR | Alaska Airlines | Non-stop | 06:00 | 07:15 | 120.00
+SEA | YVR | WestJet | Non-stop | 08:30 | 09:45 | 150.00
+SEA | YVR | Delta Air Lines | 1 stop (SFO) | 10:00 | 12:30 | 220.00
+SEA | YVR | American Airlines | 1 stop (LAX) | 11:15 | 14:00 | 280.00
+SEA | YVR | Air Canada | Non-stop | 12:45 | 14:00 | 180.00
+SEA | YVR | United Airlines | 1 stop (SFO) | 14:00 | 16:30 | 250.00
+SEA | YVR | Frontier Airlines | 1 stop (DEN) | 15:30 | 18:15 | 200.00
+SEA | YVR | Spirit Airlines | 1 stop (LAS) | 17:00 | 20:00 | 230.00
+YVR | SEA | WestJet | Non-stop | 06:00 | 07:15 | 130.00
+YVR | SEA | Alaska Airlines | Non-stop | 08:30 | 09:45 | 140.00
+YVR | SEA | Air Canada | 1 stop (YYC) | 10:00 | 12:30 | 240.00
+YVR | SEA | Delta Air Lines | 1 stop (SFO) | 11:15 | 14:00 | 290.00
+YVR | SEA | American Airlines | Non-stop | 12:45 | 14:00 | 190.00
+YVR | SEA | United Airlines | 1 stop (SFO) | 14:00 | 16:30 | 260.00
+YVR | SEA | Frontier Airlines | 1 stop (DEN) | 15:30 | 18:15 | 210.00
+YVR | SEA | Spirit Airlines | 1 stop (LAS) | 17:00 | 20:00 | 240.00
+
+
+Here are the 16 flight plans:
+
+SEA | VIE | Lufthansa | Non-stop | 08:00 | 17:30 | 850.00
+SEA | VIE | Austrian | 1 stop (FRA) | 09:30 | 19:15 | 720.00
+SEA | VIE | Turkish | 1 stop (IST) | 11:45 | 22:20 | 650.00
+SEA | VIE | Swiss | 1 stop (ZRH) | 13:15 | 23:50 | 780.00
+SEA | VIE | KLM | 2 stops (AMS, CDG) | 14:00 | 01:30 | 590.00
+SEA | VIE | Delta | Non-stop | 15:30 | 01:00 | 900.00
+SEA | VIE | United | 1 stop (EWR) | 16:45 | 03:20 | 820.00
+SEA | VIE | American | 2 stops (PHL, MIA) | 18:00 | 05:45 | 680.00
+
+VIE | SEA | Austrian | Non-stop | 09:00 | 11:30 | 950.00
+VIE | SEA | Lufthansa | 1 stop (FRA) | 10:30 | 13:15 | 850.00
+VIE | SEA | Turkish | 1 stop (IST) | 12:00 | 15:45 | 750.00
+VIE | SEA | Swiss | 1 stop (ZRH) | 13:30 | 17:10 | 880.00
+VIE | SEA | KLM | 2 stops (AMS, LHR) | 14:45 | 20:25 | 630.00
+VIE | SEA | Delta | Non-stop | 16:00 | 18:30 | 1020.00
+VIE | SEA | United | 1 stop (EWR) | 17:15 | 21:50 | 920.00
+VIE | SEA | American | 2 stops (PHL, ORD) | 18:30 | 23:55 | 780.00
+
+
+Here are the 16 flight plans:
+
+SEA | ZRH | Swiss | 0 | 14:30 | 08:35 | 850.00
+SEA | ZRH | Lufthansa | 1 (FRA) | 10:15 | 07:05 | 950.00
+SEA | ZRH | American | 2 (PHL, CDG) | 08:00 | 11:45 | 1050.00
+SEA | ZRH | Delta | 1 (AMS) | 12:45 | 09:15 | 920.00
+SEA | ZRH | United | 1 (EWR) | 09:30 | 06:50 | 890.00
+SEA | ZRH | Air Canada | 2 (YYZ, FRA) | 11:00 | 10:30 | 1120.00
+SEA | ZRH | Turkish | 1 (IST) | 13:15 | 10:40 | 980.00
+SEA | ZRH | KLM | 1 (AMS) | 15:00 | 11:20 | 940.00
+ZRH | SEA | Swiss | 0 | 09:15 | 11:20 | 870.00
+ZRH | SEA | Lufthansa | 1 (FRA) | 11:45 | 14:05 | 970.00
+ZRH | SEA | American | 2 (CDG, PHL) | 13:30 | 18:15 | 1090.00
+ZRH | SEA | Delta | 1 (AMS) | 10:00 | 12:30 | 910.00
+ZRH | SEA | United | 1 (EWR) | 12:15 | 15:40 | 930.00
+ZRH | SEA | Air Canada | 2 (FRA, YYZ) | 14:45 | 19:10 | 1140.00
+ZRH | SEA | Turkish | 1 (IST) | 16:00 | 19:35 | 1010.00
+ZRH | SEA | KLM | 1 (AMS) | 17:30 | 20:00 | 960.00

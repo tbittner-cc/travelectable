@@ -1,0 +1,2126 @@
+
+
+Here are the 16 flight plans:
+
+IAH | PHL | United | Non-stop | 06:00 | 10:05 | 258.00
+IAH | PHL | American | 1 stop (CLT) | 07:30 | 12:20 | 298.50
+IAH | PHL | Delta | Non-stop | 08:15 | 12:30 | 220.00
+IAH | PHL | Spirit | 1 stop (FLL) | 09:00 | 14:40 | 198.00
+IAH | PHL | Frontier | Non-stop | 10:45 | 15:00 | 238.00
+IAH | PHL | JetBlue | 1 stop (BOS) | 12:00 | 17:10 | 268.00
+IAH | PHL | Southwest | Non-stop | 13:30 | 17:45 | 248.00
+IAH | PHL | Alaska | 1 stop (SFO) | 15:00 | 20:20 | 308.50
+PHL | IAH | United | Non-stop | 06:30 | 09:20 | 240.00
+PHL | IAH | American | 1 stop (DFW) | 07:45 | 11:50 | 280.00
+PHL | IAH | Delta | Non-stop | 09:00 | 11:55 | 220.00
+PHL | IAH | Spirit | 1 stop (ATL) | 10:30 | 14:45 | 208.00
+PHL | IAH | Frontier | Non-stop | 12:15 | 15:20 | 228.00
+PHL | IAH | JetBlue | 1 stop (MCO) | 13:45 | 17:55 | 258.00
+PHL | IAH | Southwest | Non-stop | 15:00 | 18:05 | 238.00
+PHL | IAH | Alaska | 1 stop (LAX) | 16:30 | 21:40 | 318.50
+
+
+Here are the 16 flight plans:
+
+IAH | SFO | United | Non-stop | 08:00 | 10:30 | 350.00
+IAH | SFO | American | 1 stop (DEN) | 09:15 | 12:45 | 420.00
+IAH | SFO | Delta | Non-stop | 10:30 | 13:00 | 380.00
+IAH | SFO | Southwest | 1 stop (PHX) | 11:45 | 15:15 | 450.00
+IAH | SFO | Alaska | Non-stop | 13:00 | 15:30 | 320.00
+IAH | SFO | JetBlue | 1 stop (LAX) | 14:15 | 17:45 | 400.00
+IAH | SFO | Spirit | 1 stop (LAS) | 15:30 | 19:00 | 480.00
+IAH | SFO | Frontier | Non-stop | 16:45 | 19:15 | 300.00
+
+SFO | IAH | United | Non-stop | 08:30 | 13:00 | 320.00
+SFO | IAH | American | 1 stop (ORD) | 09:45 | 15:15 | 440.00
+SFO | IAH | Delta | Non-stop | 11:00 | 15:30 | 360.00
+SFO | IAH | Southwest | 1 stop (SAN) | 12:15 | 16:45 | 420.00
+SFO | IAH | Alaska | Non-stop | 13:30 | 17:00 | 340.00
+SFO | IAH | JetBlue | 1 stop (MIA) | 14:45 | 19:15 | 460.00
+SFO | IAH | Spirit | 1 stop (DFW) | 15:55 | 20:25 | 500.00
+SFO | IAH | Frontier | Non-stop | 17:10 | 20:40 | 280.00
+
+
+Here are the 16 flight plans:
+
+IAH | CLT | American Airlines | Non-stop | 06:00 | 10:05 | 278.00
+IAH | CLT | Delta Air Lines | 1 stop (ATL) | 07:30 | 12:15 | 312.50
+IAH | CLT | United Airlines | Non-stop | 08:15 | 12:20 | 299.00
+IAH | CLT | Spirit Airlines | 1 stop (FLL) | 09:00 | 14:30 | 239.00
+IAH | CLT | Frontier Airlines | 1 stop (DEN) | 10:30 | 15:45 | 269.00
+IAH | CLT | Southwest Airlines | Non-stop | 11:45 | 15:55 | 289.00
+IAH | CLT | JetBlue Airways | 1 stop (BOS) | 13:00 | 17:20 | 309.50
+IAH | CLT | Alaska Airlines | 1 stop (SEA) | 14:15 | 18:35 | 329.00
+CLT | IAH | American Airlines | Non-stop | 06:30 | 08:35 | 258.00
+CLT | IAH | Delta Air Lines | 1 stop (MEM) | 07:45 | 11:00 | 292.50
+CLT | IAH | United Airlines | Non-stop | 09:00 | 11:05 | 279.00
+CLT | IAH | Spirit Airlines | 1 stop (LAX) | 10:15 | 13:40 | 249.00
+CLT | IAH | Frontier Airlines | 1 stop (MCO) | 11:30 | 14:55 | 279.50
+CLT | IAH | Southwest Airlines | Non-stop | 12:45 | 15:00 | 299.00
+CLT | IAH | JetBlue Airways | 1 stop (JFK) | 14:00 | 17:25 | 319.00
+CLT | IAH | Alaska Airlines | 1 stop (SFO) | 15:15 | 18:40 | 339.50
+
+
+Here are the 16 flight plans:
+
+IAH | BOS | American Airlines | 0 | 08:00 | 13:45 | 250.00
+IAH | BOS | United Airlines | 1 (ORD) | 09:30 | 16:15 | 320.00
+IAH | BOS | Delta Air Lines | 0 | 11:15 | 16:50 | 300.00
+IAH | BOS | JetBlue Airways | 1 (FLL) | 12:45 | 19:20 | 280.00
+IAH | BOS | Spirit Airlines | 1 (ATL) | 14:00 | 20:35 | 240.00
+IAH | BOS | Frontier Airlines | 0 | 15:30 | 21:05 | 260.00
+IAH | BOS | Southwest Airlines | 1 (BWI) | 16:45 | 22:20 | 290.00
+IAH | BOS | Alaska Airlines | 1 (SEA) | 18:00 | 23:35 | 310.00
+
+BOS | IAH | American Airlines | 0 | 06:00 | 11:45 | 230.00
+BOS | IAH | United Airlines | 1 (DEN) | 07:30 | 13:15 | 330.00
+BOS | IAH | Delta Air Lines | 0 | 09:15 | 14:50 | 270.00
+BOS | IAH | JetBlue Airways | 1 (MCO) | 10:45 | 16:20 | 290.00
+BOS | IAH | Spirit Airlines | 1 (DTW) | 12:00 | 17:35 | 250.00
+BOS | IAH | Frontier Airlines | 0 | 13:30 | 18:05 | 220.00
+BOS | IAH | Southwest Airlines | 1 (STL) | 14:45 | 19:20 | 280.00
+BOS | IAH | Alaska Airlines | 1 (SFO) | 16:00 | 20:35 | 300.00
+
+
+Here are the 16 flight plans:
+
+IAH | SEA | United | Non-stop | 08:00 | 10:30 | 420.00
+IAH | SEA | American | 1 stop (DFW) | 09:15 | 12:45 | 450.00
+IAH | SEA | Delta | Non-stop | 10:45 | 13:15 | 480.00
+IAH | SEA | Alaska | 1 stop (SFO) | 11:30 | 15:00 | 500.00
+IAH | SEA | Spirit | 1 stop (LAS) | 12:00 | 15:30 | 350.00
+IAH | SEA | Frontier | 1 stop (DEN) | 13:15 | 16:45 | 380.00
+IAH | SEA | JetBlue | Non-stop | 14:30 | 17:00 | 520.00
+IAH | SEA | Southwest | 1 stop (PHX) | 15:45 | 19:15 | 440.00
+SEA | IAH | United | Non-stop | 08:00 | 13:30 | 420.00
+SEA | IAH | American | 1 stop (ORD) | 09:15 | 15:45 | 450.00
+SEA | IAH | Delta | Non-stop | 10:45 | 16:15 | 480.00
+SEA | IAH | Alaska | 1 stop (PDX) | 11:30 | 17:00 | 500.00
+SEA | IAH | Spirit | 1 stop (DAL) | 12:00 | 17:30 | 350.00
+SEA | IAH | Frontier | 1 stop (MCO) | 13:15 | 19:45 | 380.00
+SEA | IAH | JetBlue | Non-stop | 14:30 | 20:00 | 520.00
+SEA | IAH | Southwest | 1 stop (LAX) | 15:45 | 21:15 | 440.00
+
+
+Here are the 16 flight plans:
+
+IAH | DEN | United | 0 | 08:00 | 09:35 | 215.00
+IAH | DEN | American | 1 (DFW) | 09:15 | 12:20 | 240.50
+IAH | DEN | Delta | 0 | 10:45 | 12:20 | 200.00
+IAH | DEN | Southwest | 1 (STL) | 11:30 | 14:15 | 230.00
+IAH | DEN | United | 0 | 12:00 | 13:35 | 190.00
+IAH | DEN | Frontier | 1 (OKC) | 13:15 | 16:10 | 210.00
+IAH | DEN | American | 0 | 14:30 | 15:55 | 220.00
+IAH | DEN | Spirit | 1 (LAS) | 15:45 | 18:40 | 200.50
+DEN | IAH | United | 0 | 08:00 | 11:35 | 220.00
+DEN | IAH | Delta | 1 (ATL) | 09:15 | 12:50 | 250.00
+DEN | IAH | Southwest | 0 | 10:45 | 13:20 | 210.00
+DEN | IAH | American | 1 (PHX) | 11:30 | 14:25 | 240.00
+DEN | IAH | Frontier | 0 | 12:00 | 14:35 | 190.00
+DEN | IAH | Spirit | 1 (ORD) | 13:15 | 16:10 | 230.00
+DEN | IAH | United | 0 | 14:30 | 16:05 | 200.00
+DEN | IAH | Delta | 1 (MSP) | 15:45 | 18:40 | 260.50
+
+
+Here are the 16 flight plans:
+
+IAH | BNA | American Airlines | Non-stop | 06:00 | 08:30 | 250.00
+IAH | BNA | United Airlines | 1 stop (DEN) | 07:30 | 11:45 | 320.00
+IAH | BNA | Delta Air Lines | Non-stop | 09:00 | 11:20 | 280.00
+IAH | BNA | Spirit Airlines | 1 stop (FLL) | 10:30 | 14:50 | 220.00
+IAH | BNA | Southwest Airlines | Non-stop | 12:00 | 14:20 | 240.00
+IAH | BNA | Frontier Airlines | 1 stop (ATL) | 13:30 | 17:40 | 260.00
+IAH | BNA | Alaska Airlines | Non-stop | 15:00 | 17:20 | 300.00
+IAH | BNA | JetBlue Airways | 1 stop (JFK) | 16:30 | 20:45 | 290.00
+BNA | IAH | American Airlines | Non-stop | 06:30 | 08:00 | 230.00
+BNA | IAH | United Airlines | 1 stop (ORD) | 08:00 | 12:15 | 330.00
+BNA | IAH | Delta Air Lines | Non-stop | 09:30 | 11:50 | 250.00
+BNA | IAH | Spirit Airlines | 1 stop (LAS) | 11:00 | 15:20 | 210.00
+BNA | IAH | Southwest Airlines | Non-stop | 12:30 | 14:50 | 220.00
+BNA | IAH | Frontier Airlines | 1 stop (MCO) | 14:00 | 18:10 | 270.00
+BNA | IAH | Alaska Airlines | Non-stop | 15:30 | 17:50 | 310.00
+BNA | IAH | JetBlue Airways | 1 stop (BOS) | 17:00 | 21:15 | 280.00
+
+
+Here are the 16 flight plans:
+
+IAH | IAD | United | Non-stop | 08:00 | 11:30 | 250.00
+IAH | IAD | American | 1 stop (DFW) | 09:15 | 13:45 | 220.00
+IAH | IAD | Delta | Non-stop | 10:30 | 14:00 | 280.00
+IAH | IAD | Southwest | 1 stop (ATL) | 11:45 | 16:15 | 240.00
+IAH | IAD | JetBlue | Non-stop | 13:00 | 16:30 | 260.00
+IAH | IAD | Spirit | 1 stop (FLL) | 14:15 | 18:45 | 200.00
+IAH | IAD | Frontier | Non-stop | 15:30 | 19:00 | 230.00
+IAH | IAD | Alaska | 1 stop (SEA) | 16:45 | 21:15 | 270.00
+IAD | IAH | United | Non-stop | 08:00 | 10:30 | 250.00
+IAD | IAH | American | 1 stop (CLT) | 09:15 | 12:45 | 220.00
+IAD | IAH | Delta | Non-stop | 10:30 | 13:00 | 280.00
+IAD | IAH | Southwest | 1 stop (BNA) | 11:45 | 15:15 | 240.00
+IAD | IAH | JetBlue | Non-stop | 13:00 | 15:30 | 260.00
+IAD | IAH | Spirit | 1 stop (MCO) | 14:15 | 17:45 | 200.00
+IAD | IAH | Frontier | Non-stop | 15:30 | 18:00 | 230.00
+IAD | IAH | Alaska | 1 stop (DEN) | 16:45 | 20:15 | 270.00
+
+
+Here are the 16 flight plans:
+
+IAH | DCA | United | Non-stop | 06:00 | 10:15 | 235.00
+IAH | DCA | American | 1 stop (CLT) | 07:30 | 12:05 | 275.00
+IAH | DCA | Delta | Non-stop | 08:15 | 12:30 | 295.00
+IAH | DCA | Southwest | 1 stop (BNA) | 09:00 | 14:20 | 255.00
+IAH | DCA | JetBlue | Non-stop | 10:45 | 15:00 | 225.00
+IAH | DCA | Spirit | 1 stop (FLL) | 12:15 | 17:30 | 195.00
+IAH | DCA | Alaska | Non-stop | 13:30 | 17:45 | 265.00
+IAH | DCA | Frontier | 1 stop (DEN) | 15:00 | 20:15 | 245.00
+
+DCA | IAH | United | Non-stop | 06:30 | 09:45 | 220.00
+DCA | IAH | American | 1 stop (PHL) | 08:00 | 12:20 | 290.00
+DCA | IAH | Delta | Non-stop | 09:15 | 12:30 | 310.00
+DCA | IAH | Southwest | 1 stop (STL) | 10:30 | 14:50 | 240.00
+DCA | IAH | JetBlue | Non-stop | 12:00 | 15:15 | 210.00
+DCA | IAH | Spirit | 1 stop (ATL) | 13:45 | 18:00 | 180.00
+DCA | IAH | Alaska | Non-stop | 15:15 | 18:30 | 250.00
+DCA | IAH | Frontier | 1 stop (MCO) | 16:30 | 21:45 | 230.00
+
+
+Here are the 16 flight plans:
+
+IAH | MIA | American Airlines | Non-stop | 06:00 | 09:15 | 258.50
+IAH | MIA | United Airlines | 1 stop (ORD) | 07:30 | 11:45 | 298.00
+IAH | MIA | Delta Air Lines | Non-stop | 08:15 | 11:30 | 278.00
+IAH | MIA | Spirit Airlines | 1 stop (ATL) | 09:00 | 13:15 | 238.50
+IAH | MIA | Frontier Airlines | Non-stop | 10:30 | 13:45 | 248.00
+IAH | MIA | Southwest Airlines | 1 stop (HOU) | 11:45 | 15:00 | 268.00
+IAH | MIA | JetBlue Airways | Non-stop | 13:00 | 16:15 | 288.50
+IAH | MIA | Alaska Airlines | 1 stop (SFO) | 14:30 | 18:45 | 308.00
+
+MIA | IAH | American Airlines | Non-stop | 06:30 | 08:45 | 278.00
+MIA | IAH | United Airlines | 1 stop (DEN) | 07:45 | 11:00 | 318.50
+MIA | IAH | Delta Air Lines | Non-stop | 09:15 | 11:30 | 298.00
+MIA | IAH | Spirit Airlines | 1 stop (FLL) | 10:45 | 14:00 | 258.50
+MIA | IAH | Frontier Airlines | Non-stop | 12:00 | 14:15 | 268.00
+MIA | IAH | Southwest Airlines | 1 stop (TPA) | 13:30 | 16:45 | 288.50
+MIA | IAH | JetBlue Airways | Non-stop | 15:00 | 17:15 | 308.00
+MIA | IAH | Alaska Airlines | 1 stop (LAX) | 16:30 | 20:45 | 328.50
+
+
+Here are the 16 flight plans:
+
+IAH | LAS | United | 0 | 08:00 | 09:35 | 198.00
+IAH | LAS | American | 1 (DFW) | 09:15 | 12:20 | 220.00
+IAH | LAS | Delta | 0 | 10:30 | 12:05 | 240.00
+IAH | LAS | Southwest | 0 | 11:45 | 13:20 | 180.00
+IAH | LAS | Alaska | 1 (SFO) | 12:50 | 15:55 | 280.00
+IAH | LAS | JetBlue | 0 | 14:10 | 15:45 | 200.00
+IAH | LAS | Spirit | 1 (DEN) | 15:25 | 18:30 | 250.00
+IAH | LAS | Frontier | 0 | 16:40 | 18:15 | 210.00
+LAS | IAH | United | 0 | 07:00 | 10:35 | 190.00
+LAS | IAH | American | 1 (PHX) | 08:15 | 11:20 | 230.00
+LAS | IAH | Delta | 0 | 09:30 | 12:05 | 260.00
+LAS | IAH | Southwest | 0 | 10:45 | 13:20 | 170.00
+LAS | IAH | Alaska | 1 (LAX) | 11:50 | 14:55 | 290.00
+LAS | IAH | JetBlue | 0 | 13:10 | 15:45 | 220.00
+LAS | IAH | Spirit | 1 (ORD) | 14:25 | 17:30 | 270.00
+LAS | IAH | Frontier | 0 | 15:40 | 18:15 | 240.00
+
+
+Here are the 16 flight plans:
+
+IAH | MSY | United | Non-stop | 06:00 | 07:45 | 198.00
+IAH | MSY | American | 1 stop (DFW) | 07:30 | 10:15 | 220.00
+IAH | MSY | Delta | Non-stop | 09:00 | 10:45 | 210.00
+IAH | MSY | Spirit | 1 stop (ATL) | 10:00 | 13:30 | 180.00
+IAH | MSY | Frontier | Non-stop | 11:30 | 13:15 | 190.00
+IAH | MSY | Southwest | 1 stop (HOU) | 12:00 | 14:45 | 240.00
+IAH | MSY | JetBlue | Non-stop | 13:30 | 15:15 | 230.00
+IAH | MSY | Alaska | 1 stop (SAN) | 14:30 | 17:15 | 260.00
+MSY | IAH | United | Non-stop | 06:00 | 07:45 | 198.00
+MSY | IAH | American | 1 stop (CLT) | 07:30 | 10:15 | 220.00
+MSY | IAH | Delta | Non-stop | 09:00 | 10:45 | 210.00
+MSY | IAH | Spirit | 1 stop (FLL) | 10:00 | 13:30 | 180.00
+MSY | IAH | Frontier | Non-stop | 11:30 | 13:15 | 190.00
+MSY | IAH | Southwest | 1 stop (BHM) | 12:00 | 14:45 | 240.00
+MSY | IAH | JetBlue | Non-stop | 13:30 | 15:15 | 230.00
+MSY | IAH | Alaska | 1 stop (ORD) | 14:30 | 17:15 | 260.00
+
+
+Here are the 16 flight plans:
+
+IAH | MCO | United | Non-stop | 06:00 | 09:15 | 250.00
+IAH | MCO | American | 1 stop (DFW) | 07:30 | 11:45 | 280.00
+IAH | MCO | Delta | Non-stop | 09:00 | 12:15 | 220.00
+IAH | MCO | Spirit | 1 stop (FLL) | 10:15 | 14:30 | 200.00
+IAH | MCO | Southwest | Non-stop | 11:45 | 15:00 | 240.00
+IAH | MCO | JetBlue | 1 stop (ATL) | 13:00 | 17:15 | 260.00
+IAH | MCO | Frontier | Non-stop | 14:30 | 17:45 | 230.00
+IAH | MCO | Alaska | 1 stop (DEN) | 16:00 | 20:15 | 290.00
+MCO | IAH | United | Non-stop | 06:30 | 08:45 | 270.00
+MCO | IAH | American | 1 stop (CLT) | 08:00 | 12:15 | 300.00
+MCO | IAH | Delta | Non-stop | 09:45 | 12:00 | 250.00
+MCO | IAH | Spirit | 1 stop (BHM) | 11:15 | 15:30 | 210.00
+MCO | IAH | Southwest | Non-stop | 12:30 | 14:45 | 280.00
+MCO | IAH | JetBlue | 1 stop (JFK) | 14:00 | 18:15 | 310.00
+MCO | IAH | Frontier | Non-stop | 15:45 | 18:00 | 240.00
+MCO | IAH | Alaska | 1 stop (SFO) | 17:15 | 21:30 | 330.00
+
+
+Here are the 16 flight plans:
+
+IAH | TPA | United | 0 | 08:00 | 11:05 | 220.00
+IAH | TPA | American | 1 (MIA) | 09:30 | 13:45 | 280.50
+IAH | TPA | Delta | 0 | 10:15 | 13:20 | 240.00
+IAH | TPA | Spirit | 1 (FLL) | 11:45 | 16:00 | 190.00
+IAH | TPA | Southwest | 0 | 12:30 | 15:35 | 210.00
+IAH | TPA | Frontier | 1 (ATL) | 13:15 | 17:20 | 230.50
+IAH | TPA | JetBlue | 0 | 14:00 | 16:55 | 250.00
+IAH | TPA | Alaska | 1 (MSY) | 15:45 | 19:50 | 270.00
+TPA | IAH | United | 0 | 08:30 | 09:35 | 200.00
+TPA | IAH | American | 1 (CLT) | 09:00 | 12:05 | 260.50
+TPA | IAH | Delta | 0 | 10:45 | 11:50 | 220.00
+TPA | IAH | Spirit | 1 (LAX) | 11:15 | 14:20 | 240.00
+TPA | IAH | Southwest | 0 | 12:00 | 13:05 | 230.00
+TPA | IAH | Frontier | 1 (DEN) | 13:30 | 16:35 | 250.50
+TPA | IAH | JetBlue | 0 | 14:15 | 15:20 | 210.00
+TPA | IAH | Alaska | 1 (SFO) | 15:00 | 18:05 | 280.00
+
+
+Here are the 16 flight plans:
+
+IAH | ANC | United | 0 | 08:00 | 12:30 | 425.00
+IAH | ANC | American | 1 (DFW) | 09:15 | 15:45 | 550.00
+IAH | ANC | Delta | 0 | 10:30 | 15:00 | 475.00
+IAH | ANC | Alaska | 1 (SEA) | 11:45 | 17:15 | 520.00
+IAH | ANC | United | 2 (DEN, SFO) | 13:00 | 20:30 | 650.00
+IAH | ANC | Spirit | 1 (LAX) | 14:15 | 21:45 | 450.00
+IAH | ANC | Frontier | 1 (DEN) | 15:30 | 22:00 | 480.00
+IAH | ANC | Southwest | 1 (PHX) | 16:45 | 23:15 | 500.00
+
+ANC | IAH | Alaska | 0 | 08:00 | 16:30 | 450.00
+ANC | IAH | United | 1 (SFO) | 09:15 | 17:45 | 520.00
+ANC | IAH | American | 1 (DFW) | 10:30 | 19:00 | 550.00
+ANC | IAH | Delta | 0 | 11:45 | 20:15 | 475.00
+ANC | IAH | Spirit | 1 (LAX) | 13:00 | 21:30 | 420.00
+ANC | IAH | Frontier | 1 (DEN) | 14:15 | 22:45 | 490.00
+ANC | IAH | Southwest | 1 (PHX) | 15:30 | 00:00 | 510.00
+ANC | IAH | United | 2 (SFO, LAX) | 16:45 | 02:15 | 620.00
+
+
+Here are the 16 flight plans:
+
+IAH | SJU | American Airlines | Non-stop | 08:00 | 12:30 | 450.00
+IAH | SJU | Delta Air Lines | 1 stop (MIA) | 09:15 | 14:45 | 520.00
+IAH | SJU | United Airlines | Non-stop | 10:30 | 15:00 | 480.00
+IAH | SJU | Spirit Airlines | 1 stop (FLL) | 11:45 | 17:15 | 400.00
+IAH | SJU | JetBlue Airways | Non-stop | 13:00 | 17:30 | 510.00
+IAH | SJU | American Airlines | 1 stop (CLT) | 14:15 | 19:45 | 550.00
+IAH | SJU | Frontier Airlines | 1 stop (ATL) | 15:30 | 21:00 | 430.00
+IAH | SJU | Southwest Airlines | Non-stop | 16:45 | 21:15 | 500.00
+SJU | IAH | United Airlines | Non-stop | 08:00 | 11:30 | 420.00
+SJU | IAH | Delta Air Lines | 1 stop (ATL) | 09:15 | 13:45 | 480.00
+SJU | IAH | American Airlines | Non-stop | 10:30 | 14:00 | 440.00
+SJU | IAH | JetBlue Airways | 1 stop (FLL) | 11:45 | 16:15 | 460.00
+SJU | IAH | Spirit Airlines | 1 stop (MIA) | 13:00 | 17:30 | 400.00
+SJU | IAH | Frontier Airlines | Non-stop | 14:15 | 17:45 | 490.00
+SJU | IAH | Southwest Airlines | 1 stop (CLT) | 15:30 | 20:00 | 510.00
+SJU | IAH | United Airlines | 1 stop (ORD) | 16:45 | 21:15 | 530.00
+SJU | IAH | American Airlines | Non-stop | 18:00 | 21:30 | 450.00
+
+
+Here are the 16 flight plans:
+
+IAH | BHB | United | Non-stop | 08:00 | 11:30 | 250.00
+IAH | BHB | American | 1 stop (DFW) | 09:15 | 13:45 | 220.00
+IAH | BHB | Delta | Non-stop | 10:30 | 14:00 | 280.00
+IAH | BHB | Southwest | 1 stop (HOU) | 11:45 | 15:15 | 200.00
+IAH | BHB | Alaska | Non-stop | 13:00 | 16:30 | 300.00
+IAH | BHB | JetBlue | 1 stop (MCO) | 14:15 | 18:45 | 260.00
+IAH | BHB | Spirit | Non-stop | 15:30 | 19:00 | 230.00
+IAH | BHB | Frontier | 1 stop (DEN) | 16:45 | 21:15 | 240.00
+
+BHB | IAH | United | Non-stop | 08:00 | 11:30 | 250.00
+BHB | IAH | American | 1 stop (CLT) | 09:15 | 13:45 | 220.00
+BHB | IAH | Delta | Non-stop | 10:30 | 14:00 | 280.00
+BHB | IAH | Southwest | 1 stop (BNA) | 11:45 | 15:15 | 200.00
+BHB | IAH | Alaska | Non-stop | 13:00 | 16:30 | 300.00
+BHB | IAH | JetBlue | 1 stop (FLL) | 14:15 | 18:45 | 260.00
+BHB | IAH | Spirit | Non-stop | 15:30 | 19:00 | 230.00
+BHB | IAH | Frontier | 1 stop (LAS) | 16:45 | 21:15 | 240.00
+
+
+Here are the 16 flight plans:
+
+IAH | BOS | United | 0 | 08:00 | 13:45 | 420.00
+IAH | BOS | American | 1 (CLT) | 09:30 | 16:15 | 450.00
+IAH | BOS | Delta | 0 | 10:45 | 16:30 | 480.00
+IAH | BOS | Southwest | 1 (BWI) | 11:15 | 17:00 | 380.00
+IAH | BOS | JetBlue | 0 | 12:00 | 17:45 | 410.00
+IAH | BOS | United | 1 (EWR) | 13:30 | 19:15 | 500.00
+IAH | BOS | American | 0 | 14:45 | 20:30 | 440.00
+IAH | BOS | Delta | 1 (ATL) | 15:15 | 21:00 | 520.00
+BOS | IAH | United | 0 | 08:00 | 11:45 | 400.00
+BOS | IAH | American | 1 (PHL) | 09:30 | 13:15 | 430.00
+BOS | IAH | Delta | 0 | 10:45 | 14:30 | 460.00
+BOS | IAH | Southwest | 1 (MDW) | 11:15 | 15:00 | 390.00
+BOS | IAH | JetBlue | 0 | 12:00 | 15:45 | 420.00
+BOS | IAH | United | 1 (ORD) | 13:30 | 17:15 | 490.00
+BOS | IAH | American | 0 | 14:45 | 18:30 | 450.00
+BOS | IAH | Delta | 1 (DFW) | 15:15 | 19:00 | 510.00
+
+
+Here are the 16 flight plans:
+
+IAH | MRY | UA | 0 | 08:00 | 10:30 | 250.00
+IAH | MRY | AA | 1 (DFW) | 09:15 | 12:45 | 320.00
+IAH | MRY | WN | 0 | 10:45 | 13:15 | 220.00
+IAH | MRY | DL | 1 (LAX) | 11:30 | 15:00 | 380.00
+IAH | MRY | UA | 0 | 12:50 | 15:20 | 280.00
+IAH | MRY | AS | 1 (SEA) | 14:00 | 17:30 | 420.00
+IAH | MRY | F9 | 0 | 15:15 | 17:45 | 200.00
+IAH | MRY | NK | 1 (DEN) | 16:30 | 20:00 | 350.00
+MRY | IAH | UA | 0 | 06:00 | 11:30 | 270.00
+MRY | IAH | AA | 1 (PHX) | 07:15 | 12:45 | 330.00
+MRY | IAH | WN | 0 | 08:45 | 13:15 | 230.00
+MRY | IAH | DL | 1 (SFO) | 10:30 | 15:00 | 390.00
+MRY | IAH | AS | 0 | 11:50 | 15:20 | 240.00
+MRY | IAH | F9 | 1 (LAS) | 13:00 | 16:30 | 300.00
+MRY | IAH | NK | 0 | 14:15 | 17:45 | 210.00
+MRY | IAH | UA | 1 (DEN) | 15:30 | 19:00 | 360.00
+
+
+Here are the 16 flight plans:
+
+IAH | SJC | United | 0 | 08:00 | 10:30 | 250.00
+IAH | SJC | American | 1 (DFW) | 09:15 | 12:45 | 320.00
+IAH | SJC | Delta | 0 | 10:30 | 13:00 | 280.00
+IAH | SJC | Southwest | 1 (PHX) | 11:45 | 15:15 | 350.00
+IAH | SJC | Alaska | 0 | 13:00 | 15:30 | 290.00
+IAH | SJC | JetBlue | 1 (LAX) | 14:15 | 17:45 | 380.00
+IAH | SJC | Spirit | 1 (LAS) | 15:30 | 19:00 | 420.00
+IAH | SJC | Frontier | 0 | 17:00 | 19:30 | 310.00
+SJC | IAH | United | 0 | 08:00 | 12:30 | 240.00
+SJC | IAH | American | 1 (PHX) | 09:15 | 14:45 | 300.00
+SJC | IAH | Delta | 0 | 10:30 | 14:00 | 260.00
+SJC | IAH | Southwest | 1 (LAX) | 11:45 | 16:15 | 330.00
+SJC | IAH | Alaska | 0 | 13:00 | 16:30 | 270.00
+SJC | IAH | JetBlue | 1 (DEN) | 14:15 | 18:45 | 360.00
+SJC | IAH | Spirit | 1 (ORD) | 15:30 | 20:00 | 410.00
+SJC | IAH | Frontier | 0 | 17:00 | 20:30 | 300.00
+
+
+Here are the 16 flight plans:
+
+IAH | SFO | United | 0 | 08:00 | 10:30 | 250.00
+IAH | SFO | American | 1 (DEN) | 09:15 | 12:45 | 320.00
+IAH | SFO | Delta | 0 | 11:30 | 14:00 | 280.00
+IAH | SFO | Southwest | 1 (PHX) | 13:45 | 17:15 | 350.00
+IAH | SFO | Alaska | 0 | 15:00 | 17:30 | 300.00
+IAH | SFO | JetBlue | 1 (LAX) | 16:15 | 20:45 | 380.00
+IAH | SFO | Spirit | 0 | 18:30 | 21:00 | 220.00
+IAH | SFO | Frontier | 1 (LAS) | 20:45 | 00:15 | 400.00
+
+SFO | IAH | United | 0 | 07:00 | 12:30 | 270.00
+SFO | IAH | American | 1 (ORD) | 08:15 | 14:45 | 340.00
+SFO | IAH | Delta | 0 | 10:30 | 16:00 | 290.00
+SFO | IAH | Southwest | 1 (SAN) | 12:45 | 18:15 | 360.00
+SFO | IAH | Alaska | 0 | 14:00 | 18:30 | 310.00
+SFO | IAH | JetBlue | 1 (DFW) | 15:15 | 20:45 | 390.00
+SFO | IAH | Spirit | 0 | 17:30 | 22:00 | 230.00
+SFO | IAH | Frontier | 1 (MCO) | 19:45 | 01:15 | 420.00
+
+
+Here are the 16 flight plans:
+
+IAH | EGE | United | Non-stop | 08:00 | 10:35 | 450.00
+IAH | EGE | American | 1 stop (DEN) | 09:15 | 12:50 | 520.00
+IAH | EGE | Delta | Non-stop | 10:45 | 13:20 | 480.00
+IAH | EGE | Southwest | 1 stop (PHX) | 11:30 | 15:05 | 550.00
+IAH | EGE | Alaska | Non-stop | 12:15 | 14:50 | 500.00
+IAH | EGE | JetBlue | 1 stop (LAX) | 13:00 | 16:35 | 580.00
+IAH | EGE | Spirit | 1 stop (LAS) | 14:45 | 18:20 | 420.00
+IAH | EGE | Frontier | Non-stop | 15:30 | 18:05 | 460.00
+
+EGE | IAH | United | Non-stop | 08:00 | 11:35 | 430.00
+EGE | IAH | American | 1 stop (ORD) | 09:15 | 13:50 | 540.00
+EGE | IAH | Delta | Non-stop | 10:45 | 14:20 | 490.00
+EGE | IAH | Southwest | 1 stop (DAL) | 11:30 | 15:05 | 570.00
+EGE | IAH | Alaska | Non-stop | 12:15 | 15:50 | 510.00
+EGE | IAH | JetBlue | 1 stop (SFO) | 13:00 | 16:35 | 600.00
+EGE | IAH | Spirit | 1 stop (DEN) | 14:45 | 18:20 | 440.00
+EGE | IAH | Frontier | Non-stop | 15:30 | 18:05 | 480.00
+
+
+Here are the 16 flight plans:
+
+IAH | DEN | United | 0 | 08:00 | 09:35 | 250.00
+IAH | DEN | American | 1 (DFW) | 09:15 | 12:10 | 280.00
+IAH | DEN | Delta | 0 | 11:45 | 13:20 | 220.00
+IAH | DEN | Southwest | 1 (ABQ) | 13:00 | 15:55 | 300.00
+IAH | DEN | Frontier | 0 | 15:30 | 17:05 | 200.00
+IAH | DEN | Spirit | 1 (LAS) | 16:45 | 19:40 | 320.00
+IAH | DEN | JetBlue | 0 | 18:00 | 19:35 | 240.00
+IAH | DEN | Alaska | 1 (SEA) | 19:30 | 22:25 | 360.00
+
+DEN | IAH | United | 0 | 06:00 | 08:35 | 230.00
+DEN | IAH | American | 1 (ORD) | 07:15 | 10:10 | 290.00
+DEN | IAH | Delta | 0 | 09:45 | 11:20 | 210.00
+DEN | IAH | Southwest | 1 (PHX) | 11:00 | 13:55 | 310.00
+DEN | IAH | Frontier | 0 | 13:30 | 15:05 | 190.00
+DEN | IAH | Spirit | 1 (MCO) | 14:45 | 17:40 | 330.00
+DEN | IAH | JetBlue | 0 | 16:00 | 17:35 | 260.00
+DEN | IAH | Alaska | 1 (SFO) | 17:30 | 20:25 | 380.00
+
+
+Here are the 16 flight plans:
+
+IAH | CHS | United | Non-stop | 08:00 | 11:15 | 248.00
+IAH | CHS | American | 1 stop (CLT) | 09:30 | 13:45 | 278.00
+IAH | CHS | Delta | Non-stop | 10:45 | 14:00 | 288.00
+IAH | CHS | Southwest | 1 stop (ATL) | 12:00 | 16:15 | 298.00
+IAH | CHS | Frontier | Non-stop | 13:15 | 16:30 | 228.00
+IAH | CHS | Spirit | 1 stop (FLL) | 14:30 | 18:45 | 258.00
+IAH | CHS | JetBlue | Non-stop | 15:45 | 19:00 | 268.00
+IAH | CHS | Alaska | 1 stop (ORD) | 17:00 | 21:15 | 288.00
+
+CHS | IAH | United | Non-stop | 08:30 | 10:45 | 238.00
+CHS | IAH | American | 1 stop (PHL) | 09:45 | 13:00 | 268.00
+CHS | IAH | Delta | Non-stop | 11:00 | 13:15 | 278.00
+CHS | IAH | Southwest | 1 stop (BNA) | 12:15 | 15:30 | 288.00
+CHS | IAH | Frontier | Non-stop | 13:30 | 15:45 | 218.00
+CHS | IAH | Spirit | 1 stop (MCO) | 14:45 | 17:00 | 248.00
+CHS | IAH | JetBlue | Non-stop | 16:00 | 18:15 | 258.00
+CHS | IAH | Alaska | 1 stop (SFO) | 17:15 | 20:30 | 288.00
+
+
+Here are the 16 flight plans:
+
+IAH | RAP | United | 0 | 08:00 | 10:30 | 420.00
+IAH | RAP | American | 1 (DEN) | 09:15 | 12:45 | 480.00
+IAH | RAP | Delta | 0 | 10:45 | 13:15 | 450.00
+IAH | RAP | Southwest | 1 (PHX) | 11:30 | 14:50 | 510.00
+IAH | RAP | Frontier | 0 | 12:00 | 14:30 | 390.00
+IAH | RAP | JetBlue | 1 (LAX) | 13:15 | 16:30 | 530.00
+IAH | RAP | Spirit | 0 | 14:30 | 16:50 | 360.00
+IAH | RAP | Alaska | 1 (SEA) | 15:45 | 19:00 | 550.00
+RAP | IAH | United | 0 | 08:30 | 11:00 | 410.00
+RAP | IAH | American | 1 (ORD) | 09:45 | 13:10 | 490.00
+RAP | IAH | Delta | 0 | 11:15 | 13:45 | 460.00
+RAP | IAH | Southwest | 1 (DAL) | 12:00 | 14:30 | 520.00
+RAP | IAH | Frontier | 0 | 13:30 | 15:50 | 380.00
+RAP | IAH | JetBlue | 1 (MIA) | 14:45 | 17:10 | 540.00
+RAP | IAH | Spirit | 0 | 15:15 | 17:35 | 370.00
+RAP | IAH | Alaska | 1 (SFO) | 16:30 | 19:45 | 560.00
+
+
+Here are the 16 flight plans:
+
+IAH | FCA | United | 1 (DEN) | 08:00 | 12:30 | 450.00
+IAH | FCA | American | 0 | 09:30 | 14:00 | 520.00
+IAH | FCA | Delta | 1 (ATL) | 10:45 | 16:15 | 480.00
+IAH | FCA | Southwest | 0 | 12:00 | 16:30 | 400.00
+IAH | FCA | Lufthansa | 1 (FRA) | 13:15 | 19:45 | 650.00
+IAH | FCA | Alaska | 1 (SEA) | 14:30 | 20:00 | 580.00
+IAH | FCA | JetBlue | 0 | 15:45 | 20:15 | 420.00
+IAH | FCA | Spirit | 1 (LAS) | 17:00 | 22:30 | 380.00
+
+FCA | IAH | United | 1 (SFO) | 08:30 | 13:00 | 420.00
+FCA | IAH | American | 0 | 10:00 | 14:30 | 500.00
+FCA | IAH | Delta | 1 (MSP) | 11:15 | 15:45 | 460.00
+FCA | IAH | Southwest | 0 | 12:30 | 16:00 | 380.00
+FCA | IAH | Lufthansa | 1 (FRA) | 13:45 | 19:15 | 620.00
+FCA | IAH | Alaska | 1 (PDX) | 15:00 | 20:30 | 540.00
+FCA | IAH | JetBlue | 0 | 16:15 | 20:45 | 400.00
+FCA | IAH | Spirit | 1 (PHX) | 17:30 | 22:00 | 360.00
+
+
+Here are the 16 flight plans:
+
+IAH | FLG | American Airlines | Non-stop | 08:00 | 10:30 | 425.00
+IAH | FLG | United Airlines | 1 stop (DEN) | 09:15 | 12:45 | 450.00
+IAH | FLG | Delta Air Lines | Non-stop | 10:30 | 13:00 | 475.00
+IAH | FLG | Spirit Airlines | 1 stop (LAS) | 11:45 | 15:15 | 395.00
+IAH | FLG | Frontier Airlines | Non-stop | 13:00 | 15:30 | 405.00
+IAH | FLG | Alaska Airlines | 1 stop (SFO) | 14:15 | 17:45 | 520.00
+IAH | FLG | Southwest Airlines | Non-stop | 15:30 | 18:00 | 435.00
+IAH | FLG | JetBlue Airways | 1 stop (PHX) | 16:45 | 20:15 | 455.00
+FLG | IAH | American Airlines | Non-stop | 08:00 | 10:30 | 425.00
+FLG | IAH | United Airlines | 1 stop (DEN) | 09:15 | 12:45 | 450.00
+FLG | IAH | Delta Air Lines | Non-stop | 10:30 | 13:00 | 475.00
+FLG | IAH | Spirit Airlines | 1 stop (LAS) | 11:45 | 15:15 | 395.00
+FLG | IAH | Frontier Airlines | Non-stop | 13:00 | 15:30 | 405.00
+FLG | IAH | Alaska Airlines | 1 stop (SFO) | 14:15 | 17:45 | 520.00
+FLG | IAH | Southwest Airlines | Non-stop | 15:30 | 18:00 | 435.00
+FLG | IAH | JetBlue Airways | 1 stop (PHX) | 16:45 | 20:15 | 455.00
+
+
+Here are the 16 flight plans:
+
+IAH | LAS | United | 0 | 08:00 | 09:30 | 250.00
+IAH | LAS | American | 1 (DFW) | 09:15 | 12:45 | 320.00
+IAH | LAS | Delta | 0 | 11:30 | 13:00 | 280.00
+IAH | LAS | Spirit | 1 (DEN) | 12:50 | 16:20 | 220.00
+IAH | LAS | Southwest | 0 | 14:00 | 15:30 | 260.00
+IAH | LAS | Frontier | 1 (PHX) | 15:15 | 18:45 | 240.00
+IAH | LAS | Alaska | 0 | 16:30 | 18:00 | 300.00
+IAH | LAS | JetBlue | 1 (LAX) | 17:45 | 21:15 | 350.00
+LAS | IAH | United | 0 | 06:00 | 09:30 | 230.00
+LAS | IAH | American | 1 (PHX) | 07:15 | 11:45 | 310.00
+LAS | IAH | Delta | 0 | 09:30 | 12:00 | 290.00
+LAS | IAH | Spirit | 1 (DEN) | 10:50 | 14:20 | 210.00
+LAS | IAH | Southwest | 0 | 12:00 | 14:30 | 250.00
+LAS | IAH | Frontier | 1 (ABQ) | 13:15 | 16:45 | 270.00
+LAS | IAH | Alaska | 0 | 14:30 | 17:00 | 330.00
+LAS | IAH | JetBlue | 1 (LAX) | 15:45 | 19:15 | 360.00
+
+
+Here are the 16 flight plans:
+
+IAH | TYS | United | 0 | 08:00 | 11:15 | 250.00
+IAH | TYS | American | 1 (DFW) | 09:30 | 13:45 | 320.00
+IAH | TYS | Delta | 0 | 11:00 | 14:20 | 280.00
+IAH | TYS | Southwest | 1 (BNA) | 12:45 | 16:10 | 300.00
+IAH | TYS | United | 1 (ATL) | 14:15 | 18:30 | 350.00
+IAH | TYS | American | 0 | 15:30 | 18:45 | 290.00
+IAH | TYS | Delta | 1 (CLT) | 17:00 | 20:25 | 330.00
+IAH | TYS | Southwest | 0 | 19:15 | 22:30 | 260.00
+TYS | IAH | United | 0 | 08:00 | 09:20 | 230.00
+TYS | IAH | American | 1 (DFW) | 09:30 | 12:45 | 300.00
+TYS | IAH | Delta | 0 | 11:00 | 12:20 | 240.00
+TYS | IAH | Southwest | 1 (BNA) | 12:45 | 15:10 | 280.00
+TYS | IAH | United | 1 (ATL) | 14:15 | 17:30 | 320.00
+TYS | IAH | American | 0 | 15:30 | 16:45 | 250.00
+TYS | IAH | Delta | 1 (CLT) | 17:00 | 19:25 | 290.00
+TYS | IAH | Southwest | 0 | 19:15 | 20:30 | 220.00
+
+
+Here are the 16 flight plans:
+
+IAH | AVL | United | Non-stop | 06:00 | 09:15 | 278.50
+IAH | AVL | American | 1 stop (CLT) | 07:30 | 11:45 | 312.00
+IAH | AVL | Delta | Non-stop | 08:45 | 12:00 | 299.00
+IAH | AVL | Spirit | 1 stop (FLL) | 10:00 | 14:15 | 239.00
+IAH | AVL | Frontier | Non-stop | 11:15 | 14:30 | 259.00
+IAH | AVL | Southwest | 1 stop (BNA) | 12:30 | 16:45 | 289.00
+IAH | AVL | JetBlue | Non-stop | 13:45 | 17:00 | 269.00
+IAH | AVL | Alaska | 1 stop (SFO) | 15:00 | 19:15 | 329.00
+AVL | IAH | United | Non-stop | 06:30 | 08:45 | 248.00
+AVL | IAH | American | 1 stop (RDU) | 08:00 | 11:15 | 282.00
+AVL | IAH | Delta | Non-stop | 09:15 | 11:30 | 259.00
+AVL | IAH | Spirit | 1 stop (ATL) | 10:30 | 13:45 | 219.00
+AVL | IAH | Frontier | Non-stop | 11:45 | 14:00 | 239.00
+AVL | IAH | Southwest | 1 stop (HOU) | 12:50 | 15:05 | 279.00
+AVL | IAH | JetBlue | Non-stop | 14:00 | 16:15 | 249.00
+AVL | IAH | Alaska | 1 stop (ORD) | 15:15 | 18:30 | 309.00
+
+
+Here are the 16 flight plans:
+
+IAH | JAC | United | 0 | 08:00 | 11:15 | 450.00
+IAH | JAC | American | 1 (DEN) | 09:30 | 13:45 | 520.00
+IAH | JAC | Delta | 0 | 10:45 | 14:00 | 480.00
+IAH | JAC | Southwest | 1 (PHX) | 12:00 | 16:15 | 550.00
+IAH | JAC | Alaska | 0 | 13:15 | 16:30 | 500.00
+IAH | JAC | JetBlue | 1 (LAX) | 14:30 | 18:45 | 580.00
+IAH | JAC | Spirit | 0 | 15:45 | 19:00 | 420.00
+IAH | JAC | Frontier | 1 (MSP) | 17:00 | 21:15 | 600.00
+JAC | IAH | United | 0 | 08:30 | 11:45 | 420.00
+JAC | IAH | American | 1 (ORD) | 10:00 | 14:15 | 540.00
+JAC | IAH | Delta | 0 | 11:15 | 14:30 | 460.00
+JAC | IAH | Southwest | 1 (LAS) | 12:30 | 16:45 | 570.00
+JAC | IAH | Alaska | 0 | 13:45 | 17:00 | 490.00
+JAC | IAH | JetBlue | 1 (SFO) | 15:00 | 19:15 | 610.00
+JAC | IAH | Spirit | 0 | 16:15 | 19:30 | 440.00
+JAC | IAH | Frontier | 1 (ATL) | 17:30 | 21:45 | 630.00
+
+
+Here are the 16 flight plans:
+
+IAH | EYW | AA | 0 | 08:00 | 11:15 | 278.00
+IAH | EYW | UA | 1 (MIA) | 09:30 | 13:45 | 320.00
+IAH | EYW | WN | 0 | 10:45 | 14:00 | 298.00
+IAH | EYW | DL | 1 (ATL) | 12:00 | 16:15 | 350.00
+IAH | EYW | F9 | 0 | 13:30 | 16:45 | 268.00
+IAH | EYW | NK | 1 (FLL) | 14:45 | 18:00 | 288.00
+IAH | EYW | B6 | 0 | 16:00 | 19:15 | 258.00
+IAH | EYW | AS | 1 (MSY) | 17:30 | 21:45 | 328.00
+EYW | IAH | AA | 0 | 08:00 | 10:15 | 278.00
+EYW | IAH | UA | 1 (MIA) | 09:30 | 12:45 | 320.00
+EYW | IAH | WN | 0 | 10:45 | 13:00 | 298.00
+EYW | IAH | DL | 1 (ATL) | 12:00 | 15:15 | 350.00
+EYW | IAH | F9 | 0 | 13:30 | 15:45 | 268.00
+EYW | IAH | NK | 1 (FLL) | 14:45 | 17:00 | 288.00
+EYW | IAH | B6 | 0 | 16:00 | 18:15 | 258.00
+EYW | IAH | AS | 1 (MSY) | 17:30 | 20:45 | 328.00
+
+
+Here are the 16 flight plans:
+
+IAH | RNO | United | 0 | 08:00 | 10:35 | 425.00
+IAH | RNO | American | 1 (DFW) | 09:15 | 13:20 | 550.00
+IAH | RNO | Delta | 0 | 11:30 | 14:05 | 480.00
+IAH | RNO | Southwest | 1 (PHX) | 12:45 | 16:10 | 520.00
+IAH | RNO | Alaska | 0 | 14:00 | 16:35 | 450.00
+IAH | RNO | JetBlue | 1 (LAX) | 15:15 | 19:20 | 600.00
+IAH | RNO | Spirit | 0 | 16:30 | 19:05 | 380.00
+IAH | RNO | Frontier | 1 (DEN) | 17:45 | 21:10 | 500.00
+
+RNO | IAH | United | 0 | 06:00 | 11:35 | 410.00
+RNO | IAH | American | 1 (PHX) | 07:15 | 12:20 | 530.00
+RNO | IAH | Delta | 0 | 09:30 | 14:05 | 460.00
+RNO | IAH | Southwest | 1 (LAS) | 10:45 | 15:10 | 490.00
+RNO | IAH | Alaska | 0 | 12:00 | 15:35 | 420.00
+RNO | IAH | JetBlue | 1 (SFO) | 13:15 | 17:20 | 580.00
+RNO | IAH | Spirit | 0 | 14:30 | 18:05 | 350.00
+RNO | IAH | Frontier | 1 (ORD) | 15:45 | 20:10 | 510.00
+
+
+Here are the 16 flight plans:
+
+IAH | TVL | United | Non-stop | 08:00 | 11:15 | 450.00
+IAH | TVL | American | 1 stop (DEN) | 09:30 | 13:45 | 520.00
+IAH | TVL | Delta | Non-stop | 10:45 | 14:00 | 480.00
+IAH | TVL | Southwest | 1 stop (PHX) | 12:00 | 16:15 | 550.00
+IAH | TVL | Alaska | Non-stop | 13:15 | 16:30 | 500.00
+IAH | TVL | JetBlue | 1 stop (LAX) | 14:30 | 18:45 | 580.00
+IAH | TVL | Spirit | 1 stop (LAS) | 15:45 | 20:00 | 620.00
+IAH | TVL | Frontier | Non-stop | 17:00 | 20:15 | 530.00
+TVL | IAH | United | Non-stop | 08:00 | 11:15 | 420.00
+TVL | IAH | American | 1 stop (ORD) | 09:30 | 13:45 | 490.00
+TVL | IAH | Delta | Non-stop | 10:45 | 14:00 | 450.00
+TVL | IAH | Southwest | 1 stop (DAL) | 12:00 | 16:15 | 510.00
+TVL | IAH | Alaska | Non-stop | 13:15 | 16:30 | 470.00
+TVL | IAH | JetBlue | 1 stop (SFO) | 14:30 | 18:45 | 540.00
+TVL | IAH | Spirit | 1 stop (DFW) | 15:45 | 20:00 | 600.00
+TVL | IAH | Frontier | Non-stop | 17:00 | 20:15 | 500.00
+
+
+Here are the 16 flight plans:
+
+IAH | MCD | United | 0 | 08:00 | 10:30 | 150.00
+IAH | MCD | American | 1 (DFW) | 09:15 | 12:45 | 220.00
+IAH | MCD | Delta | 0 | 10:45 | 13:15 | 180.00
+IAH | MCD | Southwest | 1 (HOU) | 12:00 | 15:30 | 200.00
+IAH | MCD | United | 0 | 13:30 | 16:00 | 160.00
+IAH | MCD | American | 1 (ORD) | 14:45 | 18:15 | 240.00
+IAH | MCD | Delta | 0 | 16:00 | 18:30 | 190.00
+IAH | MCD | Southwest | 1 (DAL) | 17:15 | 20:45 | 210.00
+MCD | IAH | United | 0 | 08:30 | 10:00 | 140.00
+MCD | IAH | American | 1 (CLT) | 09:45 | 12:15 | 230.00
+MCD | IAH | Delta | 0 | 11:15 | 13:45 | 170.00
+MCD | IAH | Southwest | 1 (AUS) | 12:30 | 15:00 | 200.00
+MCD | IAH | United | 0 | 14:00 | 16:30 | 150.00
+MCD | IAH | American | 1 (MIA) | 15:15 | 17:45 | 250.00
+MCD | IAH | Delta | 0 | 16:30 | 19:00 | 180.00
+MCD | IAH | Southwest | 1 (SAT) | 17:45 | 20:15 | 220.00
+
+
+Here are the 16 flight plans:
+
+IAH | PLN | American Airlines | Non-stop | 08:00 | 11:15 | 420.00
+IAH | PLN | Delta Air Lines | 1 stop (ATL) | 09:30 | 13:45 | 450.00
+IAH | PLN | United Airlines | Non-stop | 10:45 | 14:00 | 480.00
+IAH | PLN | Spirit Airlines | 1 stop (ORD) | 12:15 | 16:30 | 380.00
+IAH | PLN | Frontier Airlines | Non-stop | 13:30 | 16:45 | 410.00
+IAH | PLN | Southwest Airlines | 1 stop (STL) | 14:45 | 18:00 | 440.00
+IAH | PLN | JetBlue Airways | Non-stop | 16:00 | 19:15 | 460.00
+IAH | PLN | Alaska Airlines | 1 stop (SEA) | 17:15 | 20:30 | 490.00
+PLN | IAH | American Airlines | Non-stop | 08:30 | 11:45 | 430.00
+PLN | IAH | Delta Air Lines | 1 stop (MSP) | 09:45 | 13:00 | 460.00
+PLN | IAH | United Airlines | Non-stop | 11:00 | 14:15 | 500.00
+PLN | IAH | Spirit Airlines | 1 stop (DFW) | 12:30 | 15:45 | 390.00
+PLN | IAH | Frontier Airlines | Non-stop | 13:45 | 16:00 | 420.00
+PLN | IAH | Southwest Airlines | 1 stop (BNA) | 15:00 | 17:15 | 450.00
+PLN | IAH | JetBlue Airways | Non-stop | 16:15 | 18:30 | 470.00
+PLN | IAH | Alaska Airlines | 1 stop (DEN) | 17:30 | 20:45 | 510.00
+
+
+Here are the 16 flight plans:
+
+IAH | OGG | United | 1 (HNL) | 08:00 | 14:30 | 850.00
+IAH | OGG | American | 0 | 09:30 | 17:15 | 950.00
+IAH | OGG | Delta | 1 (LAX) | 10:45 | 18:20 | 1050.00
+IAH | OGG | Hawaiian | 0 | 12:00 | 19:45 | 1200.00
+IAH | OGG | Alaska | 1 (SFO) | 13:15 | 20:50 | 1100.00
+IAH | OGG | Spirit | 1 (LAS) | 14:30 | 22:05 | 900.00
+IAH | OGG | Frontier | 1 (DEN) | 15:45 | 23:20 | 1000.00
+IAH | OGG | Southwest | 0 | 17:00 | 00:45 | 1300.00
+OGG | IAH | United | 1 (HNL) | 08:00 | 14:30 | 850.00
+OGG | IAH | American | 0 | 09:30 | 17:15 | 950.00
+OGG | IAH | Delta | 1 (LAX) | 10:45 | 18:20 | 1050.00
+OGG | IAH | Hawaiian | 0 | 12:00 | 19:45 | 1200.00
+OGG | IAH | Alaska | 1 (SFO) | 13:15 | 20:50 | 1100.00
+OGG | IAH | Spirit | 1 (LAS) | 14:30 | 22:05 | 900.00
+OGG | IAH | Frontier | 1 (DEN) | 15:45 | 23:20 | 1000.00
+OGG | IAH | Southwest | 0 | 17:00 | 00:45 | 1300.00
+OGG | IAH | JetBlue | 1 (ORD) | 18:15 | 01:50 | 1250.00
+
+
+Here are the 16 flight plans:
+
+IAH | RAP | United | 0 | 08:00 | 10:30 | 425.00
+IAH | RAP | American | 1 (DEN) | 09:15 | 13:45 | 512.50
+IAH | RAP | Delta | 0 | 10:45 | 13:15 | 475.00
+IAH | RAP | Frontier | 1 (PHX) | 11:30 | 15:00 | 392.00
+IAH | RAP | Southwest | 0 | 12:15 | 14:45 | 450.00
+IAH | RAP | Alaska | 1 (SEA) | 13:00 | 16:30 | 525.00
+IAH | RAP | JetBlue | 0 | 14:30 | 17:00 | 495.00
+IAH | RAP | Spirit | 1 (LAS) | 15:45 | 18:15 | 422.50
+RAP | IAH | United | 0 | 06:00 | 08:30 | 400.00
+RAP | IAH | American | 1 (DFW) | 07:15 | 11:45 | 487.50
+RAP | IAH | Delta | 0 | 08:45 | 11:15 | 460.00
+RAP | IAH | Frontier | 1 (MCI) | 09:30 | 12:00 | 382.00
+RAP | IAH | Southwest | 0 | 10:15 | 12:45 | 430.00
+RAP | IAH | Alaska | 1 (PDX) | 11:00 | 14:30 | 510.00
+RAP | IAH | JetBlue | 0 | 12:30 | 15:00 | 480.00
+RAP | IAH | Spirit | 1 (ORD) | 13:45 | 16:15 | 402.50
+
+
+Here are the 16 flight plans:
+
+IAH | MYR | United | Non-stop | 08:00 | 11:15 | 250.00
+IAH | MYR | American | 1 stop (CLT) | 09:30 | 13:45 | 280.00
+IAH | MYR | Delta | Non-stop | 10:45 | 14:00 | 220.00
+IAH | MYR | Spirit | 1 stop (FLL) | 12:15 | 16:30 | 200.00
+IAH | MYR | Southwest | Non-stop | 13:50 | 17:05 | 240.00
+IAH | MYR | Frontier | 1 stop (ATL) | 15:20 | 19:35 | 260.00
+IAH | MYR | JetBlue | Non-stop | 16:40 | 20:00 | 230.00
+IAH | MYR | Alaska | 1 stop (ORD) | 18:00 | 22:15 | 290.00
+MYR | IAH | United | Non-stop | 08:30 | 09:45 | 270.00
+MYR | IAH | American | 1 stop (PHL) | 10:00 | 13:15 | 300.00
+MYR | IAH | Delta | Non-stop | 11:30 | 12:50 | 250.00
+MYR | IAH | Spirit | 1 stop (BWI) | 12:45 | 16:00 | 220.00
+MYR | IAH | Southwest | Non-stop | 14:10 | 15:30 | 280.00
+MYR | IAH | Frontier | 1 stop (DEN) | 15:35 | 19:50 | 310.00
+MYR | IAH | JetBlue | Non-stop | 16:50 | 18:10 | 240.00
+MYR | IAH | Alaska | 1 stop (SFO) | 18:10 | 22:25 | 330.00
+
+
+Here are the 16 flight plans:
+
+IAH | SFO | United | 0 | 08:00 | 10:30 | 450.00
+IAH | SFO | American | 1 (DEN) | 09:15 | 12:45 | 520.00
+IAH | SFO | Delta | 0 | 10:45 | 13:15 | 480.00
+IAH | SFO | Southwest | 1 (PHX) | 11:30 | 14:50 | 550.00
+IAH | SFO | Alaska | 0 | 12:15 | 14:45 | 500.00
+IAH | SFO | JetBlue | 1 (LAX) | 13:00 | 16:20 | 580.00
+IAH | SFO | Spirit | 1 (LAS) | 14:30 | 17:50 | 600.00
+IAH | SFO | Frontier | 0 | 15:15 | 17:45 | 520.00
+SFO | IAH | United | 0 | 08:00 | 13:30 | 420.00
+SFO | IAH | American | 1 (PHX) | 09:15 | 14:45 | 490.00
+SFO | IAH | Delta | 0 | 10:45 | 15:15 | 450.00
+SFO | IAH | Southwest | 1 (DEN) | 11:30 | 16:00 | 510.00
+SFO | IAH | Alaska | 0 | 12:15 | 16:45 | 480.00
+SFO | IAH | JetBlue | 1 (LAX) | 13:00 | 17:20 | 540.00
+SFO | IAH | Spirit | 1 (LAS) | 14:30 | 18:50 | 620.00
+SFO | IAH | Frontier | 0 | 15:15 | 19:45 | 500.00
+
+
+Here are the 16 flight plans:
+
+IAH | OAK | United | Non-stop | 08:00 | 10:35 | 245.00
+IAH | OAK | American | 1 stop (DFW) | 09:15 | 12:50 | 290.00
+IAH | OAK | Delta | Non-stop | 10:45 | 13:20 | 270.00
+IAH | OAK | Southwest | 1 stop (PHX) | 11:30 | 15:05 | 320.00
+IAH | OAK | Alaska | Non-stop | 12:15 | 14:50 | 250.00
+IAH | OAK | JetBlue | 1 stop (LAX) | 13:00 | 16:35 | 300.00
+IAH | OAK | Spirit | 1 stop (LAS) | 14:45 | 18:20 | 280.00
+IAH | OAK | Frontier | Non-stop | 15:30 | 18:05 | 230.00
+OAK | IAH | United | Non-stop | 06:00 | 11:40 | 220.00
+OAK | IAH | American | 1 stop (SFO) | 07:15 | 12:55 | 260.00
+OAK | IAH | Delta | Non-stop | 08:45 | 14:25 | 240.00
+OAK | IAH | Southwest | 1 stop (SAN) | 09:30 | 15:10 | 310.00
+OAK | IAH | Alaska | Non-stop | 10:15 | 15:55 | 210.00
+OAK | IAH | JetBlue | 1 stop (DEN) | 11:00 | 16:40 | 290.00
+OAK | IAH | Spirit | 1 stop (ORD) | 12:45 | 18:25 | 250.00
+OAK | IAH | Frontier | Non-stop | 13:30 | 19:05 | 200.00
+OAK | IAH | Hawaiian | 1 stop (LAX) | 14:15 | 20:50 | 330.00
+
+
+Here are the 16 flight plans:
+
+IAH | SMF | United | Non-stop | 08:00 | 10:30 | 250.00
+IAH | SMF | American | 1 stop (DFW) | 09:15 | 12:45 | 270.00
+IAH | SMF | Delta | Non-stop | 10:30 | 13:00 | 220.00
+IAH | SMF | Southwest | 1 stop (DEN) | 11:45 | 15:15 | 300.00
+IAH | SMF | Alaska | Non-stop | 13:00 | 15:30 | 240.00
+IAH | SMF | JetBlue | 1 stop (LAX) | 14:15 | 17:45 | 280.00
+IAH | SMF | Spirit | Non-stop | 15:30 | 18:00 | 210.00
+IAH | SMF | Frontier | 1 stop (PHX) | 16:45 | 20:15 | 290.00
+SMF | IAH | United | Non-stop | 08:00 | 12:30 | 260.00
+SMF | IAH | American | 1 stop (ORD) | 09:15 | 14:45 | 310.00
+SMF | IAH | Delta | Non-stop | 10:30 | 14:00 | 230.00
+SMF | IAH | Southwest | 1 stop (SJC) | 11:45 | 16:15 | 330.00
+SMF | IAH | Alaska | Non-stop | 13:00 | 16:30 | 250.00
+SMF | IAH | JetBlue | 1 stop (SAN) | 14:15 | 18:45 | 320.00
+SMF | IAH | Spirit | Non-stop | 15:30 | 19:00 | 220.00
+SMF | IAH | Frontier | 1 stop (LAS) | 16:45 | 21:15 | 340.00
+
+
+Here are the 16 flight plans:
+
+IAH | SAF | United | 1 (DEN) | 08:00 | 10:35 | 450.00
+IAH | SAF | American | 0 | 10:30 | 12:55 | 520.00
+IAH | SAF | Delta | 1 (ATL) | 12:15 | 15:05 | 480.00
+IAH | SAF | Southwest | 0 | 14:00 | 16:25 | 500.00
+IAH | SAF | United | 1 (IAH) | 16:30 | 19:10 | 460.00
+IAH | SAF | Alaska | 1 (SEA) | 18:45 | 21:35 | 490.00
+IAH | SAF | Frontier | 0 | 20:00 | 22:25 | 510.00
+IAH | SAF | JetBlue | 1 (LAX) | 21:15 | 23:55 | 470.00
+SAF | IAH | United | 1 (DEN) | 06:00 | 08:35 | 440.00
+SAF | IAH | American | 0 | 08:30 | 10:55 | 510.00
+SAF | IAH | Delta | 1 (ATL) | 10:15 | 13:05 | 490.00
+SAF | IAH | Southwest | 0 | 12:00 | 14:25 | 500.00
+SAF | IAH | United | 1 (IAH) | 14:30 | 17:10 | 470.00
+SAF | IAH | Alaska | 1 (SEA) | 16:45 | 19:35 | 480.00
+SAF | IAH | Frontier | 0 | 18:00 | 20:25 | 520.00
+SAF | IAH | JetBlue | 1 (LAX) | 20:15 | 22:55 | 450.00
+
+
+Here are the 16 flight plans:
+
+IAH | ABQ | United | Non-stop | 08:00 | 09:35 | 198.00
+IAH | ABQ | American | 1 stop (DFW) | 09:15 | 12:10 | 220.00
+IAH | ABQ | Delta | Non-stop | 11:00 | 12:30 | 240.00
+IAH | ABQ | Southwest | 1 stop (HOU) | 12:30 | 15:20 | 200.00
+IAH | ABQ | Frontier | Non-stop | 14:00 | 15:35 | 180.00
+IAH | ABQ | Spirit | 1 stop (DAL) | 15:45 | 18:40 | 210.00
+IAH | ABQ | JetBlue | Non-stop | 17:00 | 18:30 | 230.00
+IAH | ABQ | Alaska | 1 stop (SAN) | 19:15 | 22:10 | 250.00
+
+ABQ | IAH | United | Non-stop | 06:00 | 07:35 | 190.00
+ABQ | IAH | American | 1 stop (PHX) | 07:15 | 10:10 | 210.00
+ABQ | IAH | Delta | Non-stop | 09:00 | 10:30 | 220.00
+ABQ | IAH | Southwest | 1 stop (ELP) | 11:30 | 14:20 | 200.00
+ABQ | IAH | Frontier | Non-stop | 13:00 | 14:35 | 170.00
+ABQ | IAH | Spirit | 1 stop (AUS) | 15:45 | 18:40 | 230.00
+ABQ | IAH | JetBlue | Non-stop | 17:00 | 18:30 | 240.00
+ABQ | IAH | Alaska | 1 stop (LAX) | 19:15 | 22:10 | 260.00
+
+
+Here are the 16 flight plans:
+
+IAH | SAV | UA | 0 | 08:00 | 11:15 | 278.00
+IAH | SAV | AA | 1 (CLT) | 09:30 | 13:45 | 298.00
+IAH | SAV | DL | 0 | 10:45 | 14:00 | 268.00
+IAH | SAV | WN | 1 (HOU) | 11:15 | 15:30 | 238.00
+IAH | SAV | F9 | 0 | 12:00 | 15:15 | 248.00
+IAH | SAV | NK | 1 (MSY) | 13:30 | 17:45 | 288.00
+IAH | SAV | B6 | 0 | 14:45 | 18:00 | 258.00
+IAH | SAV | SY | 1 (ATL) | 15:15 | 19:30 | 308.00
+
+SAV | IAH | UA | 0 | 08:00 | 09:30 | 278.00
+SAV | IAH | AA | 1 (CLT) | 09:30 | 12:45 | 298.00
+SAV | IAH | DL | 0 | 10:45 | 12:00 | 268.00
+SAV | IAH | WN | 1 (HOU) | 11:15 | 14:30 | 238.00
+SAV | IAH | F9 | 0 | 12:00 | 13:15 | 248.00
+SAV | IAH | NK | 1 (MSY) | 13:30 | 16:45 | 288.00
+SAV | IAH | B6 | 0 | 14:45 | 16:00 | 258.00
+SAV | IAH | SY | 1 (ATL) | 15:15 | 18:30 | 308.00
+
+
+Here are the 16 flight plans:
+
+IAH | JAX | United | 0 | 08:00 | 11:15 | 278.00
+IAH | JAX | American | 1 (DFW) | 09:30 | 13:45 | 298.00
+IAH | JAX | Delta | 0 | 10:45 | 14:00 | 258.00
+IAH | JAX | Southwest | 1 (HOU) | 12:15 | 16:30 | 288.00
+IAH | JAX | Spirit | 0 | 13:50 | 17:05 | 238.00
+IAH | JAX | Frontier | 1 (ATL) | 15:20 | 19:35 | 268.00
+IAH | JAX | JetBlue | 0 | 16:40 | 20:00 | 248.00
+IAH | JAX | Alaska | 1 (DEN) | 18:00 | 22:15 | 308.00
+JAX | IAH | United | 0 | 08:30 | 09:50 | 288.00
+JAX | IAH | American | 1 (CLT) | 10:00 | 12:20 | 318.00
+JAX | IAH | Delta | 0 | 11:20 | 12:40 | 258.00
+JAX | IAH | Southwest | 1 (BNA) | 12:40 | 15:00 | 298.00
+JAX | IAH | Spirit | 0 | 14:10 | 15:30 | 228.00
+JAX | IAH | Frontier | 1 (MCO) | 15:40 | 18:00 | 268.00
+JAX | IAH | JetBlue | 0 | 17:00 | 18:20 | 248.00
+JAX | IAH | Alaska | 1 (SFO) | 18:30 | 21:50 | 328.00
+
+
+Here are the 16 flight plans:
+
+IAH | SFB | United | Non-stop | 06:00 | 09:35 | 250.00
+IAH | SFB | American | 1 stop (MIA) | 08:15 | 12:10 | 320.00
+IAH | SFB | Delta | Non-stop | 10:30 | 14:05 | 280.00
+IAH | SFB | Southwest | 1 stop (HOU) | 12:00 | 16:25 | 290.00
+IAH | SFB | JetBlue | Non-stop | 14:45 | 18:20 | 260.00
+IAH | SFB | Spirit | 1 stop (FLL) | 16:30 | 20:55 | 240.00
+IAH | SFB | Frontier | Non-stop | 18:15 | 21:50 | 270.00
+IAH | SFB | Alaska | 1 stop (SEA) | 20:00 | 00:35 | 330.00
+
+SFB | IAH | United | Non-stop | 06:30 | 08:10 | 230.00
+SFB | IAH | American | 1 stop (CLT) | 08:45 | 12:20 | 300.00
+SFB | IAH | Delta | Non-stop | 11:00 | 13:40 | 250.00
+SFB | IAH | Southwest | 1 stop (BHM) | 12:30 | 16:05 | 280.00
+SFB | IAH | JetBlue | Non-stop | 14:15 | 16:55 | 240.00
+SFB | IAH | Spirit | 1 stop (ATL) | 16:00 | 20:30 | 260.00
+SFB | IAH | Frontier | Non-stop | 17:45 | 20:25 | 270.00
+SFB | IAH | Alaska | 1 stop (DEN) | 20:30 | 00:05 | 310.00
+
+
+Here are the 16 flight plans:
+
+IAH | MTJ | United | Non-stop | 08:00 | 10:35 | 275.00
+IAH | MTJ | American | 1 stop (DEN) | 09:15 | 12:50 | 325.00
+IAH | MTJ | Delta | Non-stop | 10:45 | 13:20 | 295.00
+IAH | MTJ | Southwest | 1 stop (PHX) | 11:30 | 15:05 | 345.00
+IAH | MTJ | Frontier | Non-stop | 12:15 | 14:50 | 265.00
+IAH | MTJ | Spirit | 1 stop (LAS) | 13:00 | 16:35 | 315.00
+IAH | MTJ | JetBlue | Non-stop | 14:45 | 17:20 | 285.00
+IAH | MTJ | Alaska | 1 stop (SFO) | 15:30 | 19:05 | 355.00
+MTJ | IAH | United | Non-stop | 08:30 | 11:05 | 245.00
+MTJ | IAH | American | 1 stop (ORD) | 09:45 | 13:20 | 295.00
+MTJ | IAH | Delta | Non-stop | 11:15 | 13:50 | 275.00
+MTJ | IAH | Southwest | 1 stop (DAL) | 12:00 | 15:35 | 325.00
+MTJ | IAH | Frontier | Non-stop | 13:30 | 16:05 | 235.00
+MTJ | IAH | Spirit | 1 stop (IAA) | 14:15 | 17:50 | 285.00
+MTJ | IAH | JetBlue | Non-stop | 15:45 | 18:20 | 255.00
+MTJ | IAH | Alaska | 1 stop (PDX) | 16:30 | 20:05 | 335.00
+
+
+Here are the 16 flight plans:
+
+IAH | DRO | United | 0 | 08:00 | 10:35 | 250.00
+IAH | DRO | American | 1 (DEN) | 09:15 | 12:50 | 320.00
+IAH | DRO | Delta | 0 | 10:45 | 13:20 | 280.00
+IAH | DRO | Southwest | 1 (ABQ) | 11:30 | 15:05 | 350.00
+IAH | DRO | United | 0 | 12:15 | 14:50 | 220.00
+IAH | DRO | Frontier | 1 (PHX) | 13:00 | 16:35 | 300.00
+IAH | DRO | American | 0 | 14:45 | 17:20 | 240.00
+IAH | DRO | Delta | 1 (SLC) | 15:30 | 19:05 | 330.00
+DRO | IAH | United | 0 | 06:00 | 08:35 | 230.00
+DRO | IAH | American | 1 (DEN) | 07:15 | 10:50 | 290.00
+DRO | IAH | Delta | 0 | 08:45 | 11:20 | 260.00
+DRO | IAH | Southwest | 1 (ABQ) | 09:30 | 13:05 | 310.00
+DRO | IAH | United | 0 | 10:15 | 12:50 | 210.00
+DRO | IAH | Frontier | 1 (PHX) | 11:00 | 14:35 | 280.00
+DRO | IAH | American | 0 | 12:45 | 15:20 | 250.00
+DRO | IAH | Delta | 1 (SLC) | 13:30 | 17:05 | 300.00
+
+
+Here are the 16 flight plans:
+
+IAH | BOZ | United | 0 | 08:00 | 12:30 | 850.00
+IAH | BOZ | American | 1 (DFW) | 09:15 | 14:50 | 720.00
+IAH | BOZ | Delta | 0 | 10:30 | 15:00 | 900.00
+IAH | BOZ | Lufthansa | 2 (FRA, CDG) | 11:45 | 19:15 | 1200.00
+IAH | BOZ | Turkish | 1 (IST) | 12:00 | 17:30 | 950.00
+IAH | BOZ | Emirates | 1 (DXB) | 13:15 | 20:45 | 1100.00
+IAH | BOZ | Qatar | 1 (DOH) | 14:30 | 22:00 | 1000.00
+IAH | BOZ | Air France | 2 (CDG, AMS) | 15:45 | 23:30 | 1300.00
+BOZ | IAH | United | 0 | 06:00 | 10:30 | 800.00
+BOZ | IAH | American | 1 (ORD) | 07:15 | 12:50 | 690.00
+BOZ | IAH | Delta | 0 | 08:30 | 13:00 | 850.00
+BOZ | IAH | Lufthansa | 2 (FRA, MUC) | 09:45 | 16:15 | 1150.00
+BOZ | IAH | Turkish | 1 (IST) | 10:00 | 15:30 | 920.00
+BOZ | IAH | Emirates | 1 (DXB) | 11:15 | 18:45 | 1050.00
+BOZ | IAH | Qatar | 1 (DOH) | 12:30 | 20:00 | 970.00
+BOZ | IAH | Air France | 2 (CDG, LHR) | 13:45 | 22:30 | 1250.00
+BOZ | IAH | KLM | 2 (AMS, FRA) | 14:00 | 23:30 | 1350.00
+
+
+Here are the 16 flight plans:
+
+IAH | JAC | United | Non-stop | 08:00 | 11:15 | 450.00
+IAH | JAC | American | 1 stop (DEN) | 09:30 | 13:45 | 520.00
+IAH | JAC | Delta | Non-stop | 10:45 | 14:00 | 480.00
+IAH | JAC | Southwest | 1 stop (PHX) | 12:00 | 16:15 | 550.00
+IAH | JAC | Alaska | Non-stop | 13:15 | 16:30 | 500.00
+IAH | JAC | JetBlue | 1 stop (LAX) | 14:30 | 18:45 | 580.00
+IAH | JAC | Spirit | 1 stop (LAS) | 15:45 | 20:00 | 420.00
+IAH | JAC | Frontier | Non-stop | 17:00 | 20:15 | 460.00
+JAC | IAH | United | Non-stop | 08:30 | 12:45 | 430.00
+JAC | IAH | American | 1 stop (ORD) | 10:00 | 14:15 | 490.00
+JAC | IAH | Delta | Non-stop | 11:30 | 15:45 | 510.00
+JAC | IAH | Southwest | 1 stop (DAL) | 12:45 | 16:55 | 530.00
+JAC | IAH | Alaska | Non-stop | 14:00 | 17:15 | 470.00
+JAC | IAH | JetBlue | 1 stop (SFO) | 15:15 | 19:30 | 560.00
+JAC | IAH | Spirit | 1 stop (DFW) | 16:30 | 20:45 | 440.00
+JAC | IAH | Frontier | Non-stop | 17:45 | 21:00 | 480.00
+
+
+Here are the 16 flight plans:
+
+IAH | FAT | United | 0 | 08:00 | 10:30 | 420.00
+IAH | FAT | American | 1 (DEN) | 09:15 | 12:45 | 450.00
+IAH | FAT | Delta | 0 | 10:30 | 13:00 | 480.00
+IAH | FAT | Southwest | 1 (PHX) | 11:45 | 15:15 | 510.00
+IAH | FAT | Alaska | 0 | 13:00 | 15:30 | 530.00
+IAH | FAT | JetBlue | 1 (LAX) | 14:15 | 17:45 | 550.00
+IAH | FAT | Spirit | 1 (LAS) | 15:30 | 18:00 | 570.00
+IAH | FAT | Frontier | 0 | 16:45 | 19:15 | 590.00
+
+FAT | IAH | United | 0 | 07:00 | 09:30 | 400.00
+FAT | IAH | American | 1 (SFO) | 08:15 | 11:45 | 430.00
+FAT | IAH | Delta | 0 | 09:30 | 12:00 | 460.00
+FAT | IAH | Southwest | 1 (SAN) | 10:45 | 13:15 | 490.00
+FAT | IAH | Alaska | 0 | 12:00 | 14:30 | 510.00
+FAT | IAH | JetBlue | 1 (ORD) | 13:15 | 16:45 | 530.00
+FAT | IAH | Spirit | 1 (DFW) | 14:30 | 17:00 | 550.00
+FAT | IAH | Frontier | 0 | 15:45 | 18:15 | 570.00
+
+
+Here are the 16 flight plans:
+
+IAH | SJC | United | Non-stop | 06:00 | 08:35 | 250.00
+IAH | SJC | American | 1 stop (DFW) | 07:30 | 11:05 | 280.00
+IAH | SJC | Delta | Non-stop | 08:15 | 10:50 | 220.00
+IAH | SJC | Southwest | 1 stop (DEN) | 09:00 | 12:30 | 240.00
+IAH | SJC | Alaska | Non-stop | 10:45 | 13:20 | 260.00
+IAH | SJC | JetBlue | 1 stop (LAX) | 11:15 | 14:40 | 300.00
+IAH | SJC | Spirit | 1 stop (LAS) | 12:00 | 15:25 | 200.00
+IAH | SJC | Frontier | 1 stop (PHX) | 13:30 | 16:55 | 230.00
+SJC | IAH | United | Non-stop | 06:00 | 11:35 | 270.00
+SJC | IAH | American | 1 stop (PHX) | 07:30 | 12:05 | 290.00
+SJC | IAH | Delta | Non-stop | 08:15 | 13:50 | 240.00
+SJC | IAH | Southwest | 1 stop (DEN) | 09:00 | 14:30 | 260.00
+SJC | IAH | Alaska | Non-stop | 10:45 | 16:20 | 280.00
+SJC | IAH | JetBlue | 1 stop (LAX) | 11:15 | 17:40 | 320.00
+SJC | IAH | Spirit | 1 stop (LAS) | 12:00 | 18:25 | 220.00
+SJC | IAH | Frontier | 1 stop (DFW) | 13:30 | 19:55 | 250.00
+
+
+Here are the 16 flight plans:
+
+IAH | SGU | United | 1 (DEN) | 08:00 | 11:30 | 350.00
+IAH | SGU | American | 0 | 09:30 | 12:50 | 280.00
+IAH | SGU | Delta | 1 (ATL) | 10:45 | 14:10 | 320.00
+IAH | SGU | Southwest | 0 | 12:15 | 15:35 | 240.00
+IAH | SGU | United | 1 (ORD) | 14:00 | 17:25 | 300.00
+IAH | SGU | Alaska | 1 (SEA) | 15:30 | 18:55 | 330.00
+IAH | SGU | JetBlue | 0 | 16:45 | 20:10 | 260.00
+IAH | SGU | Spirit | 1 (LAS) | 18:00 | 21:25 | 290.00
+SGU | IAH | American | 0 | 06:00 | 09:20 | 270.00
+SGU | IAH | Delta | 1 (SFO) | 07:15 | 10:40 | 310.00
+SGU | IAH | United | 1 (DEN) | 08:30 | 11:55 | 290.00
+SGU | IAH | Southwest | 0 | 10:00 | 13:25 | 230.00
+SGU | IAH | Alaska | 1 (PDX) | 11:45 | 15:10 | 300.00
+SGU | IAH | JetBlue | 0 | 13:15 | 16:40 | 250.00
+SGU | IAH | Spirit | 1 (PHX) | 14:30 | 17:55 | 280.00
+SGU | IAH | Frontier | 1 (MCO) | 16:00 | 19:25 | 260.00
+
+
+Here are the 16 flight plans:
+
+IAH | LAS | United | 0 | 08:00 | 09:35 | 198.00
+IAH | LAS | American | 1 (DFW) | 09:15 | 12:05 | 220.00
+IAH | LAS | Delta | 0 | 10:45 | 12:20 | 180.00
+IAH | LAS | Southwest | 0 | 12:00 | 13:35 | 190.00
+IAH | LAS | United | 1 (DEN) | 13:30 | 16:20 | 240.00
+IAH | LAS | Frontier | 0 | 14:15 | 15:50 | 160.00
+IAH | LAS | Spirit | 1 (HOU) | 15:00 | 18:00 | 210.00
+IAH | LAS | Alaska | 0 | 16:30 | 18:05 | 200.00
+LAS | IAH | United | 0 | 08:30 | 12:05 | 210.00
+LAS | IAH | American | 1 (PHX) | 09:45 | 13:35 | 230.00
+LAS | IAH | Delta | 0 | 11:15 | 14:50 | 190.00
+LAS | IAH | Southwest | 0 | 12:45 | 16:20 | 200.00
+LAS | IAH | United | 1 (SFO) | 14:00 | 17:45 | 250.00
+LAS | IAH | Frontier | 0 | 15:30 | 18:05 | 180.00
+LAS | IAH | Spirit | 1 (LAX) | 16:15 | 19:55 | 220.00
+LAS | IAH | Alaska | 0 | 17:45 | 21:20 | 210.00
+
+
+Here are the 16 flight plans:
+
+IAH | AMS | UA | 1 (LHR) | 14:30 | 07:35 | 850.00
+IAH | AMS | KL | 0 | 16:45 | 09:50 | 950.00
+IAH | AMS | LH | 1 (FRA) | 18:00 | 11:20 | 1050.00
+IAH | AMS | AA | 1 (PHL) | 20:15 | 13:40 | 900.00
+IAH | AMS | BA | 1 (LHR) | 21:50 | 15:05 | 1000.00
+IAH | AMS | DL | 1 (ATL) | 08:00 | 19:25 | 1100.00
+IAH | AMS | AF | 1 (CDG) | 10:30 | 22:00 | 1200.00
+IAH | AMS | TK | 1 (IST) | 12:45 | 23:55 | 1300.00
+
+AMS | IAH | UA | 1 (EWR) | 09:00 | 13:40 | 800.00
+AMS | IAH | KL | 0 | 11:15 | 15:50 | 900.00
+AMS | IAH | LH | 1 (FRA) | 13:30 | 18:20 | 1000.00
+AMS | IAH | AA | 1 (PHL) | 15:45 | 20:40 | 950.00
+AMS | IAH | BA | 1 (LHR) | 17:10 | 22:35 | 1050.00
+AMS | IAH | DL | 1 (ATL) | 19:20 | 00:55 | 1100.00
+AMS | IAH | AF | 1 (CDG) | 21:40 | 03:15 | 1200.00
+AMS | IAH | TK | 1 (IST) | 23:55 | 05:30 | 1300.00
+
+
+Here are the 16 flight plans:
+
+IAH | AUA | United | 0 | 08:00 | 12:30 | 450.00
+IAH | AUA | American | 1 (MIA) | 09:30 | 15:45 | 520.00
+IAH | AUA | Delta | 0 | 11:15 | 15:40 | 480.00
+IAH | AUA | Spirit | 1 (FLL) | 12:45 | 18:00 | 400.00
+IAH | AUA | JetBlue | 0 | 14:00 | 18:20 | 510.00
+IAH | AUA | Frontier | 1 (ATL) | 15:30 | 20:45 | 440.00
+IAH | AUA | Southwest | 0 | 17:00 | 21:25 | 500.00
+IAH | AUA | Alaska | 1 (SFO) | 18:45 | 23:59 | 530.00
+
+AUA | IAH | United | 0 | 08:30 | 11:00 | 420.00
+AUA | IAH | American | 1 (CLT) | 09:45 | 14:10 | 490.00
+AUA | IAH | Delta | 0 | 11:20 | 14:40 | 450.00
+AUA | IAH | Spirit | 1 (BWI) | 12:50 | 17:15 | 380.00
+AUA | IAH | JetBlue | 0 | 14:10 | 17:30 | 460.00
+AUA | IAH | Frontier | 1 (DEN) | 15:35 | 20:00 | 410.00
+AUA | IAH | Southwest | 0 | 17:05 | 20:30 | 480.00
+AUA | IAH | Alaska | 1 (LAX) | 18:50 | 23:15 | 500.00
+
+
+Here are the 16 flight plans:
+
+IAH | ATH | United | 1 (LHR) | 08:00 | 18:30 | 850.00
+IAH | ATH | Lufthansa | 2 (FRA, MUC) | 10:00 | 21:00 | 1050.00
+IAH | ATH | Emirates | 1 (DXB) | 12:00 | 23:30 | 1200.00
+IAH | ATH | American | 0 | 14:00 | 08:00 (+1) | 900.00
+IAH | ATH | British Airways | 1 (LHR) | 16:00 | 10:30 (+1) | 1000.00
+IAH | ATH | Turkish | 1 (IST) | 18:00 | 12:30 (+1) | 1100.00
+IAH | ATH | Qatar | 1 (DOH) | 20:00 | 14:30 (+1) | 1300.00
+IAH | ATH | Delta | 2 (ATL, CDG) | 22:00 | 18:00 (+1) | 1250.00
+ATH | IAH | United | 1 (EWR) | 08:00 | 14:00 | 800.00
+ATH | IAH | Lufthansa | 2 (MUC, FRA) | 10:00 | 18:00 | 950.00
+ATH | IAH | Emirates | 1 (DXB) | 12:00 | 20:00 | 1100.00
+ATH | IAH | American | 0 | 14:00 | 08:00 | 850.00
+ATH | IAH | British Airways | 1 (LHR) | 16:00 | 10:00 | 900.00
+ATH | IAH | Turkish | 1 (IST) | 18:00 | 12:00 | 1000.00
+ATH | IAH | Qatar | 1 (DOH) | 20:00 | 14:00 | 1200.00
+ATH | IAH | Delta | 2 (CDG, ATL) | 22:00 | 18:00 | 1150.00
+ATH | IAH | KLM | 2 (AMS, SFO) | 00:00 (+1) | 10:00 | 1050.00
+
+
+Here are the 16 flight plans:
+
+IAH | AKL | NZ | 1 (LAX) | 09:00 | 06:30 | 1450.00
+IAH | AKL | UA | 2 (SFO, HNL) | 11:30 | 09:15 | 1700.00
+IAH | AKL | AA | 1 (DFW) | 13:45 | 11:20 | 1600.00
+IAH | AKL | QF | 2 (LAX, SYD) | 15:15 | 13:00 | 1800.00
+IAH | AKL | DL | 1 (ATL) | 17:00 | 14:40 | 1550.00
+IAH | AKL | NZ | 0 | 19:30 | 17:05 | 1900.00
+IAH | AKL | UA | 1 (SFO) | 21:15 | 19:00 | 1650.00
+IAH | AKL | AA | 2 (DFW, HNL) | 23:45 | 21:30 | 1750.00
+AKL | IAH | NZ | 1 (LAX) | 09:00 | 06:30 | 1450.00
+AKL | IAH | UA | 2 (HNL, SFO) | 11:30 | 09:15 | 1700.00
+AKL | IAH | AA | 1 (HNL) | 13:45 | 11:20 | 1600.00
+AKL | IAH | QF | 2 (SYD, LAX) | 15:15 | 13:00 | 1800.00
+AKL | IAH | DL | 1 (ATL) | 17:00 | 14:40 | 1550.00
+AKL | IAH | NZ | 0 | 19:30 | 17:05 | 1900.00
+AKL | IAH | UA | 1 (SFO) | 21:15 | 19:00 | 1650.00
+AKL | IAH | AA | 2 (HNL, DFW) | 23:45 | 21:30 | 1750.00
+
+
+Here are the 16 flight plans:
+
+IAH | DPS | United | 1 (NRT) | 09:00 | 20:30 | 850.00
+IAH | DPS | Singapore | 1 (SIN) | 11:00 | 22:30 | 900.00
+IAH | DPS | ANA | 2 (NRT, HKG) | 13:00 | 01:30 | 1100.00
+IAH | DPS | Qatar | 1 (DOH) | 15:00 | 04:30 | 1000.00
+IAH | DPS | Turkish | 2 (IST, DXB) | 17:00 | 07:30 | 1200.00
+IAH | DPS | Lufthansa | 1 (FRA) | 19:00 | 10:30 | 1050.00
+IAH | DPS | Emirates | 1 (DXB) | 21:00 | 12:30 | 950.00
+IAH | DPS | Cathay | 2 (HKG, SIN) | 23:00 | 15:30 | 1250.00
+
+DPS | IAH | United | 1 (NRT) | 08:00 | 19:30 | 800.00
+DPS | IAH | Singapore | 1 (SIN) | 10:00 | 21:30 | 850.00
+DPS | IAH | ANA | 2 (HKG, NRT) | 12:00 | 23:30 | 1050.00
+DPS | IAH | Qatar | 1 (DOH) | 14:00 | 02:30 | 950.00
+DPS | IAH | Turkish | 2 (DXB, IST) | 16:00 | 05:30 | 1150.00
+DPS | IAH | Lufthansa | 1 (FRA) | 18:00 | 08:30 | 1000.00
+DPS | IAH | Emirates | 1 (DXB) | 20:00 | 10:30 | 900.00
+DPS | IAH | Cathay | 2 (SIN, HKG) | 22:00 | 13:30 | 1200.00
+
+
+Here are the 16 flight plans:
+
+IAH | BCN | United | Non-stop | 08:00 | 18:30 | 849.00
+IAH | BCN | American | 1 stop (PHL) | 09:30 | 20:15 | 939.00
+IAH | BCN | Lufthansa | 1 stop (FRA) | 11:00 | 21:45 | 1049.00
+IAH | BCN | Delta | Non-stop | 12:30 | 22:15 | 899.00
+IAH | BCN | British Airways | 1 stop (LHR) | 13:45 | 23:20 | 1099.00
+IAH | BCN | Iberia | Non-stop | 15:00 | 23:45 | 949.00
+IAH | BCN | Turkish Airlines | 1 stop (IST) | 16:15 | 01:00 | 1149.00
+IAH | BCN | KLM | 1 stop (AMS) | 17:30 | 02:15 | 1199.00
+BCN | IAH | United | Non-stop | 09:00 | 13:30 | 879.00
+BCN | IAH | American | 1 stop (MIA) | 10:30 | 15:15 | 989.00
+BCN | IAH | Lufthansa | 1 stop (FRA) | 12:00 | 16:45 | 1099.00
+BCN | IAH | Delta | Non-stop | 13:30 | 18:15 | 929.00
+BCN | IAH | British Airways | 1 stop (LHR) | 14:45 | 19:20 | 1149.00
+BCN | IAH | Iberia | Non-stop | 16:00 | 20:45 | 999.00
+BCN | IAH | Turkish Airlines | 1 stop (IST) | 17:15 | 22:00 | 1249.00
+BCN | IAH | KLM | 1 stop (AMS) | 18:30 | 23:15 | 1299.00
+BCN | IAH | Air Europa | 1 stop (MAD) | 19:45 | 00:20 | 1199.00
+
+
+Here are the 16 flight plans:
+
+IAH | PEK | UA | 1 (NRT) | 10:30 | 14:45 | 850.00
+IAH | PEK | AA | 2 (DFW, HKG) | 09:15 | 16:10 | 1050.00
+IAH | PEK | CA | 0 | 11:45 | 15:50 | 700.00
+IAH | PEK | DL | 1 (LAX) | 08:00 | 14:20 | 900.00
+IAH | PEK | HU | 2 (ORD, ICN) | 12:30 | 18:40 | 1200.00
+IAH | PEK | MU | 1 (PVG) | 13:15 | 17:30 | 1000.00
+IAH | PEK | CZ | 2 (CAN, KMG) | 14:00 | 20:10 | 1100.00
+IAH | PEK | OZ | 1 (ICN) | 15:45 | 21:00 | 950.00
+PEK | IAH | UA | 1 (NRT) | 09:00 | 07:15 | 800.00
+PEK | IAH | AA | 2 (HKG, DFW) | 10:30 | 09:40 | 1000.00
+PEK | IAH | CA | 0 | 11:15 | 09:20 | 650.00
+PEK | IAH | DL | 1 (LAX) | 12:45 | 11:00 | 850.00
+PEK | IAH | HU | 2 (ICN, ORD) | 14:00 | 12:30 | 1150.00
+PEK | IAH | MU | 1 (PVG) | 15:30 | 13:50 | 950.00
+PEK | IAH | CZ | 2 (KMG, CAN) | 16:15 | 15:20 | 1050.00
+PEK | IAH | OZ | 1 (ICN) | 17:45 | 16:10 | 900.00
+
+
+Here are the 16 flight plans:
+
+IAH | BER | Lufthansa | 1 (FRA) | 08:00 | 18:30 | 850.00
+IAH | BER | United | 2 (EWR, FRA) | 10:00 | 20:30 | 1100.00
+IAH | BER | American | 1 (PHL) | 12:00 | 22:30 | 950.00
+IAH | BER | Delta | 1 (ATL) | 14:00 | 00:30 | 1050.00
+IAH | BER | Turkish | 2 (IST, MUC) | 16:00 | 02:30 | 1200.00
+IAH | BER | British Airways | 1 (LHR) | 18:00 | 04:30 | 1000.00
+IAH | BER | Iberia | 2 (MAD, FRA) | 20:00 | 06:30 | 1150.00
+IAH | BER | KLM | 1 (AMS) | 22:00 | 08:30 | 900.00
+
+BER | IAH | Lufthansa | 1 (FRA) | 08:00 | 18:30 | 850.00
+BER | IAH | United | 2 (FRA, EWR) | 10:00 | 20:30 | 1100.00
+BER | IAH | American | 1 (PHL) | 12:00 | 22:30 | 950.00
+BER | IAH | Delta | 1 (ATL) | 14:00 | 00:30 | 1050.00
+BER | IAH | Turkish | 2 (MUC, IST) | 16:00 | 02:30 | 1200.00
+BER | IAH | British Airways | 1 (LHR) | 18:00 | 04:30 | 1000.00
+BER | IAH | Iberia | 2 (FRA, MAD) | 20:00 | 06:30 | 1150.00
+BER | IAH | KLM | 1 (AMS) | 22:00 | 08:30 | 900.00
+
+
+Here are the 16 flight plans:
+
+IAH | EZE | American Airlines | 1 (GRU) | 08:00 | 22:30 | 850.00
+IAH | EZE | LATAM | 0 | 10:30 | 20:45 | 950.00
+IAH | EZE | Delta Air Lines | 1 (ATL) | 12:00 | 23:50 | 1,020.00
+IAH | EZE | United Airlines | 0 | 14:00 | 22:10 | 1,050.00
+IAH | EZE | Avianca | 1 (BOG) | 16:00 | 01:20 | 900.00
+IAH | EZE | Copa Airlines | 1 (PTY) | 18:00 | 02:30 | 980.00
+IAH | EZE | Aeromexico | 1 (MEX) | 20:00 | 04:00 | 1,100.00
+IAH | EZE | Turkish Airlines | 1 (IST) | 22:00 | 06:30 | 1,200.00
+EZE | IAH | American Airlines | 1 (GRU) | 08:30 | 18:00 | 900.00
+EZE | IAH | LATAM | 0 | 11:00 | 19:15 | 1,000.00
+EZE | IAH | Delta Air Lines | 1 (ATL) | 13:30 | 21:50 | 1,080.00
+EZE | IAH | United Airlines | 0 | 15:30 | 21:40 | 1,120.00
+EZE | IAH | Avianca | 1 (BOG) | 17:30 | 00:50 | 950.00
+EZE | IAH | Copa Airlines | 1 (PTY) | 19:30 | 02:00 | 1,030.00
+EZE | IAH | Aeromexico | 1 (MEX) | 21:30 | 04:30 | 1,150.00
+EZE | IAH | Turkish Airlines | 1 (IST) | 23:30 | 07:00 | 1,250.00
+
+
+Here are the 16 flight plans:
+
+IAH | SJD | United | 0 | 08:00 | 10:35 | 425.00
+IAH | SJD | American | 1 (DFW) | 09:15 | 12:50 | 550.00
+IAH | SJD | Delta | 0 | 10:45 | 13:20 | 475.00
+IAH | SJD | Frontier | 1 (DEN) | 11:30 | 15:05 | 400.00
+IAH | SJD | Spirit | 0 | 12:15 | 14:50 | 350.00
+IAH | SJD | Southwest | 1 (HOU) | 13:00 | 16:35 | 450.00
+IAH | SJD | Alaska | 0 | 14:45 | 17:20 | 500.00
+IAH | SJD | JetBlue | 1 (LAX) | 15:30 | 18:05 | 525.00
+SJD | IAH | United | 0 | 08:00 | 11:35 | 425.00
+SJD | IAH | American | 1 (PHX) | 09:15 | 12:50 | 575.00
+SJD | IAH | Delta | 0 | 10:45 | 13:20 | 475.00
+SJD | IAH | Frontier | 1 (DEN) | 11:30 | 14:05 | 425.00
+SJD | IAH | Spirit | 0 | 12:15 | 14:50 | 375.00
+SJD | IAH | Southwest | 1 (HOU) | 13:00 | 15:35 | 475.00
+SJD | IAH | Alaska | 0 | 14:45 | 17:20 | 525.00
+SJD | IAH | JetBlue | 1 (LAX) | 15:30 | 18:05 | 550.00
+
+
+Here are the 16 flight plans:
+
+IAH | CAI | EgyptAir | 1 (LHR) | 10:30 | 06:45 | 850.00
+IAH | CAI | Lufthansa | 2 (FRA, MXP) | 14:15 | 10:50 | 1100.00
+IAH | CAI | Turkish Airlines | 1 (IST) | 18:00 | 14:30 | 950.00
+IAH | CAI | Emirates | 1 (DXB) | 20:45 | 17:15 | 1000.00
+IAH | CAI | Qatar Airways | 1 (DOH) | 22:15 | 19:00 | 1050.00
+IAH | CAI | British Airways | 2 (LHR, FRA) | 08:00 | 05:30 | 1200.00
+IAH | CAI | KLM | 2 (AMS, CAI) | 12:30 | 09:15 | 1150.00
+IAH | CAI | Air France | 2 (CDG, FCO) | 16:45 | 13:20 | 1250.00
+
+CAI | IAH | EgyptAir | 1 (LHR) | 09:00 | 14:15 | 900.00
+CAI | IAH | Lufthansa | 2 (FRA, MXP) | 11:30 | 18:45 | 1150.00
+CAI | IAH | Turkish Airlines | 1 (IST) | 14:00 | 20:30 | 1000.00
+CAI | IAH | Emirates | 1 (DXB) | 16:15 | 22:45 | 1050.00
+CAI | IAH | Qatar Airways | 1 (DOH) | 18:30 | 01:15 | 1100.00
+CAI | IAH | British Airways | 2 (LHR, FRA) | 20:45 | 04:15 | 1250.00
+CAI | IAH | KLM | 2 (AMS, CAI) | 22:15 | 06:45 | 1200.00
+CAI | IAH | Air France | 2 (CDG, FCO) | 00:30 | 08:15 | 1300.00
+
+
+Here are the 16 flight plans:
+
+IAH | CUN | United | 0 | 08:00 | 11:15 | 450.00
+IAH | CUN | American | 1 (MIA) | 09:30 | 14:50 | 520.00
+IAH | CUN | Delta | 0 | 11:45 | 15:00 | 480.00
+IAH | CUN | Frontier | 1 (DEN) | 13:15 | 18:30 | 400.00
+IAH | CUN | Spirit | 0 | 15:00 | 18:15 | 380.00
+IAH | CUN | Southwest | 1 (HOU) | 16:30 | 21:45 | 440.00
+IAH | CUN | JetBlue | 0 | 18:00 | 21:15 | 420.00
+IAH | CUN | Alaska | 1 (SFO) | 20:00 | 01:20 | 500.00
+
+CUN | IAH | United | 0 | 08:30 | 11:45 | 460.00
+CUN | IAH | American | 1 (DFW) | 10:00 | 15:20 | 540.00
+CUN | IAH | Delta | 0 | 12:15 | 15:30 | 490.00
+CUN | IAH | Frontier | 1 (ATL) | 14:00 | 19:15 | 410.00
+CUN | IAH | Spirit | 0 | 15:45 | 19:00 | 390.00
+CUN | IAH | Southwest | 1 (BNA) | 17:15 | 22:30 | 450.00
+CUN | IAH | JetBlue | 0 | 19:00 | 22:15 | 430.00
+CUN | IAH | Alaska | 1 (LAX) | 21:00 | 02:20 | 510.00
+
+
+Here are the 16 flight plans:
+
+IAH | CPT | United | 1 (LHR) | 08:00 | 18:30 | 1200.00
+IAH | CPT | Lufthansa | 2 (FRA, JNB) | 10:30 | 22:15 | 1500.00
+IAH | CPT | Emirates | 1 (DXB) | 12:45 | 02:10 | 1800.00
+IAH | CPT | Qatar | 1 (DOH) | 15:00 | 04:30 | 1600.00
+IAH | CPT | South African | 0 | 18:00 | 14:00 | 1000.00
+IAH | CPT | Turkish | 1 (IST) | 20:15 | 16:45 | 1400.00
+IAH | CPT | KLM | 2 (AMS, JNB) | 21:30 | 18:00 | 1300.00
+IAH | CPT | Air France | 1 (CDG) | 22:45 | 19:15 | 1450.00
+
+CPT | IAH | United | 1 (LHR) | 08:00 | 18:30 | 1200.00
+CPT | IAH | Lufthansa | 2 (JNB, FRA) | 10:30 | 22:15 | 1500.00
+CPT | IAH | Emirates | 1 (DXB) | 12:45 | 02:10 | 1800.00
+CPT | IAH | Qatar | 1 (DOH) | 15:00 | 04:30 | 1600.00
+CPT | IAH | South African | 0 | 18:00 | 14:00 | 1000.00
+CPT | IAH | Turkish | 1 (IST) | 20:15 | 16:45 | 1400.00
+CPT | IAH | KLM | 2 (JNB, AMS) | 21:30 | 18:00 | 1300.00
+CPT | IAH | Air France | 1 (CDG) | 22:45 | 19:15 | 1450.00
+
+
+Here are the 16 flight plans:
+
+IAH | CPH | Lufthansa | 1 (FRA) | 14:30 | 06:30 | 850.00
+IAH | CPH | United | 0 | 16:45 | 08:15 | 950.00
+IAH | CPH | SAS | 1 (OSL) | 10:00 | 05:00 | 780.00
+IAH | CPH | American | 2 (PHL, AMS) | 12:15 | 09:30 | 1100.00
+IAH | CPH | British Airways | 1 (LHR) | 11:30 | 06:45 | 900.00
+IAH | CPH | Turkish Airlines | 1 (IST) | 13:45 | 08:00 | 1000.00
+IAH | CPH | KLM | 1 (AMS) | 09:00 | 04:30 | 850.00
+IAH | CPH | Delta | 0 | 15:15 | 07:45 | 1050.00
+CPH | IAH | SAS | 1 (OSL) | 12:30 | 16:30 | 820.00
+CPH | IAH | Lufthansa | 1 (FRA) | 09:45 | 14:15 | 930.00
+CPH | IAH | United | 0 | 11:00 | 15:30 | 980.00
+CPH | IAH | American | 2 (PHL, AMS) | 14:00 | 19:30 | 1200.00
+CPH | IAH | British Airways | 1 (LHR) | 10:15 | 15:45 | 960.00
+CPH | IAH | Turkish Airlines | 1 (IST) | 16:45 | 21:00 | 1100.00
+CPH | IAH | KLM | 1 (AMS) | 08:30 | 13:00 | 890.00
+CPH | IAH | Delta | 0 | 13:15 | 18:45 | 1080.00
+
+
+Here are the 16 flight plans:
+
+IAH | DXB | Emirates | Non-stop | 08:00 | 19:30 | 850.00
+IAH | DXB | Qatar Airways | 1 stop (DOH) | 09:15 | 21:45 | 950.00
+IAH | DXB | Lufthansa | 1 stop (FRA) | 10:30 | 22:15 | 1050.00
+IAH | DXB | Turkish Airlines | 1 stop (IST) | 11:45 | 23:00 | 900.00
+IAH | DXB | American Airlines | 2 stops (PHL, LHR) | 12:00 | 01:30 | 1200.00
+IAH | DXB | British Airways | 1 stop (LHR) | 13:15 | 00:45 | 1100.00
+IAH | DXB | KLM | 1 stop (AMS) | 14:30 | 02:15 | 1000.00
+IAH | DXB | United Airlines | Non-stop | 15:45 | 03:30 | 900.00
+DXB | IAH | Emirates | Non-stop | 02:00 | 08:30 | 800.00
+DXB | IAH | Qatar Airways | 1 stop (DOH) | 03:15 | 10:45 | 900.00
+DXB | IAH | Lufthansa | 1 stop (FRA) | 04:30 | 12:15 | 1000.00
+DXB | IAH | Turkish Airlines | 1 stop (IST) | 05:45 | 13:00 | 850.00
+DXB | IAH | American Airlines | 2 stops (LHR, PHL) | 06:00 | 14:30 | 1150.00
+DXB | IAH | British Airways | 1 stop (LHR) | 07:15 | 15:45 | 1050.00
+DXB | IAH | KLM | 1 stop (AMS) | 08:30 | 16:15 | 950.00
+DXB | IAH | United Airlines | Non-stop | 09:45 | 17:30 | 850.00
+
+
+Here are the 16 flight plans:
+
+IAH | DUB | United | 1 (LHR) | 14:30 | 06:15 | 850.00
+IAH | DUB | Lufthansa | 2 (FRA, MAN) | 10:45 | 08:50 | 1100.00
+IAH | DUB | American | 0 | 16:00 | 08:30 | 900.00
+IAH | DUB | Delta | 1 (AMS) | 18:15 | 10:20 | 950.00
+IAH | DUB | Aer Lingus | 0 | 12:30 | 06:00 | 800.00
+IAH | DUB | British Airways | 1 (LHR) | 15:45 | 07:10 | 1000.00
+IAH | DUB | KLM | 1 (AMS) | 11:50 | 06:40 | 1050.00
+IAH | DUB | Iberia | 2 (MAD, LHR) | 09:30 | 08:20 | 1200.00
+
+DUB | IAH | United | 1 (EWR) | 09:00 | 14:30 | 850.00
+DUB | IAH | Lufthansa | 2 (FRA, ORD) | 11:15 | 17:50 | 1100.00
+DUB | IAH | American | 0 | 13:30 | 18:00 | 900.00
+DUB | IAH | Delta | 1 (CDG) | 15:45 | 20:10 | 950.00
+DUB | IAH | Aer Lingus | 0 | 10:00 | 15:30 | 800.00
+DUB | IAH | British Airways | 1 (LHR) | 12:15 | 17:40 | 1000.00
+DUB | IAH | KLM | 1 (AMS) | 08:50 | 14:20 | 1050.00
+DUB | IAH | Iberia | 2 (MAD, JFK) | 14:30 | 20:50 | 1200.00
+
+
+Here are the 16 flight plans:
+
+IAH | EDI | United | 1 (LHR) | 08:00 | 18:30 | 850.00
+IAH | EDI | American | 2 (ORD, MAN) | 10:30 | 21:45 | 1050.00
+IAH | EDI | British Airways | 1 (LHR) | 12:00 | 22:15 | 1200.00
+IAH | EDI | Lufthansa | 2 (FRA, AMS) | 14:00 | 00:30 | 1300.00
+IAH | EDI | Delta | 1 (AMS) | 16:00 | 02:15 | 950.00
+IAH | EDI | KLM | 2 (AMS, MAN) | 18:00 | 04:30 | 1100.00
+IAH | EDI | Turkish Airlines | 2 (IST, AMS) | 20:00 | 06:45 | 1000.00
+IAH | EDI | Air France | 1 (CDG) | 22:00 | 08:15 | 1150.00
+
+EDI | IAH | United | 1 (LHR) | 08:30 | 13:45 | 900.00
+EDI | IAH | American | 2 (MAN, ORD) | 11:00 | 18:15 | 1100.00
+EDI | IAH | British Airways | 1 (LHR) | 13:30 | 20:45 | 1250.00
+EDI | IAH | Lufthansa | 2 (AMS, FRA) | 15:30 | 23:00 | 1350.00
+EDI | IAH | Delta | 1 (AMS) | 17:30 | 01:45 | 1000.00
+EDI | IAH | KLM | 2 (MAN, AMS) | 19:30 | 04:00 | 1050.00
+EDI | IAH | Turkish Airlines | 2 (AMS, IST) | 21:30 | 07:15 | 950.00
+EDI | IAH | Air France | 1 (CDG) | 23:30 | 09:45 | 1200.00
+
+
+Here are the 16 flight plans:
+
+IAH | HAN | VN | 1 (NRT) | 09:30 | 22:05 | 850.00
+IAH | HAN | SQ | 2 (NRT, SIN) | 11:15 | 01:20 | 1200.00
+IAH | HAN | UA | 1 (HKG) | 14:00 | 02:35 | 950.00
+IAH | HAN | CX | 1 (HKG) | 16:45 | 05:20 | 1050.00
+IAH | HAN | JL | 2 (NRT, KIX) | 18:30 | 07:05 | 1300.00
+IAH | HAN | AA | 1 (DFW) | 20:00 | 08:35 | 900.00
+IAH | HAN | QR | 1 (DOH) | 21:30 | 10:05 | 1000.00
+IAH | HAN | EK | 1 (DXB) | 22:15 | 11:40 | 1100.00
+
+HAN | IAH | VN | 1 (NRT) | 08:00 | 19:35 | 800.00
+HAN | IAH | SQ | 2 (SIN, HKG) | 10:45 | 22:20 | 1150.00
+HAN | IAH | UA | 1 (HKG) | 13:30 | 01:05 | 900.00
+HAN | IAH | CX | 1 (HKG) | 15:15 | 02:50 | 1000.00
+HAN | IAH | JL | 2 (KIX, NRT) | 17:00 | 04:35 | 1250.00
+HAN | IAH | AA | 1 (DFW) | 19:30 | 06:05 | 850.00
+HAN | IAH | QR | 1 (DOH) | 20:45 | 07:20 | 950.00
+HAN | IAH | EK | 1 (DXB) | 22:00 | 08:40 | 1050.00
+
+
+Here are the 16 flight plans:
+
+IAH | HKG | UA | 1 (NRT) | 08:30 | 22:05 | 850.00
+IAH | HKG | CX | 0 | 09:15 | 21:45 | 1200.00
+IAH | HKG | AA | 2 (DFW, NRT) | 10:00 | 23:30 | 950.00
+IAH | HKG | SQ | 1 (SIN) | 11:45 | 02:15 | 1000.00
+IAH | HKG | JL | 1 (NRT) | 13:00 | 03:30 | 900.00
+IAH | HKG | BR | 1 (TPE) | 14:30 | 04:00 | 1100.00
+IAH | HKG | KE | 1 (ICN) | 16:00 | 05:30 | 1050.00
+IAH | HKG | CA | 1 (PEK) | 17:45 | 06:15 | 1250.00
+HKG | IAH | UA | 1 (NRT) | 08:00 | 20:35 | 850.00
+HKG | IAH | CX | 0 | 09:45 | 21:15 | 1200.00
+HKG | IAH | AA | 2 (NRT, DFW) | 11:15 | 22:45 | 950.00
+HKG | IAH | SQ | 1 (SIN) | 12:50 | 00:20 | 1000.00
+HKG | IAH | JL | 1 (NRT) | 14:30 | 02:00 | 900.00
+HKG | IAH | BR | 1 (TPE) | 16:15 | 03:45 | 1100.00
+HKG | IAH | KE | 1 (ICN) | 18:00 | 05:30 | 1050.00
+HKG | IAH | CA | 1 (PEK) | 20:00 | 06:40 | 1250.00
+
+
+Here are the 16 flight plans:
+
+IAH | IST | Turkish Airlines | Non-stop | 10:30 | 06:30 | 850.00
+IAH | IST | Lufthansa | 1 stop (FRA) | 13:15 | 11:45 | 950.00
+IAH | IST | Emirates | 1 stop (DXB) | 15:45 | 14:15 | 1050.00
+IAH | IST | Qatar Airways | 1 stop (DOH) | 18:00 | 16:30 | 1000.00
+IAH | IST | American Airlines | 2 stops (PHL, AMS) | 08:00 | 22:15 | 1200.00
+IAH | IST | United Airlines | 2 stops (EWR, FRA) | 11:00 | 01:15 | 1300.00
+IAH | IST | Delta Air Lines | Non-stop | 14:30 | 10:30 | 900.00
+IAH | IST | KLM | 1 stop (AMS) | 16:15 | 14:45 | 1100.00
+
+IST | IAH | Turkish Airlines | Non-stop | 11:30 | 16:30 | 850.00
+IST | IAH | Lufthansa | 1 stop (FRA) | 14:15 | 20:45 | 950.00
+IST | IAH | Emirates | 1 stop (DXB) | 17:45 | 00:15 | 1050.00
+IST | IAH | Qatar Airways | 1 stop (DOH) | 20:00 | 02:30 | 1000.00
+IST | IAH | American Airlines | 2 stops (AMS, PHL) | 09:00 | 23:15 | 1200.00
+IST | IAH | United Airlines | 2 stops (FRA, EWR) | 12:00 | 02:15 | 1300.00
+IST | IAH | Delta Air Lines | Non-stop | 15:30 | 21:30 | 900.00
+IST | IAH | KLM | 1 stop (AMS) | 17:15 | 23:45 | 1100.00
+
+
+Here are the 16 flight plans:
+
+IAH | TLV | United | 1 (LHR) | 14:30 | 10:35 | 850.00
+IAH | TLV | El Al | 0 | 16:45 | 12:50 | 950.00
+IAH | TLV | Lufthansa | 1 (FRA) | 10:15 | 06:20 | 1,020.00
+IAH | TLV | American | 1 (PHL) | 12:50 | 09:05 | 900.00
+IAH | TLV | Turkish | 1 (IST) | 13:30 | 10:40 | 1,050.00
+IAH | TLV | Delta | 1 (CDG) | 15:45 | 12:00 | 1,100.00
+IAH | TLV | Austrian | 1 (VIE) | 11:20 | 07:30 | 1,080.00
+IAH | TLV | British Airways | 1 (LHR) | 17:00 | 13:10 | 1,020.00
+TLV | IAH | El Al | 0 | 08:30 | 14:40 | 900.00
+TLV | IAH | United | 1 (EWR) | 10:15 | 16:25 | 950.00
+TLV | IAH | Lufthansa | 1 (FRA) | 12:45 | 18:55 | 1,020.00
+TLV | IAH | American | 1 (PHL) | 14:20 | 20:30 | 1,000.00
+TLV | IAH | Turkish | 1 (IST) | 16:00 | 22:10 | 1,050.00
+TLV | IAH | Delta | 1 (CDG) | 17:45 | 23:55 | 1,100.00
+TLV | IAH | Austrian | 1 (VIE) | 19:20 | 01:30 | 1,080.00
+TLV | IAH | British Airways | 1 (LHR) | 20:30 | 02:40 | 1,020.00
+
+
+Here are the 16 flight plans:
+
+IAH | LIM | American Airlines | Non-stop | 08:00 | 18:35 | 849.00
+IAH | LIM | LATAM | 1 stop (SCL) | 09:15 | 20:50 | 929.00
+IAH | LIM | United Airlines | Non-stop | 10:30 | 21:05 | 899.00
+IAH | LIM | Avianca | 1 stop (BOG) | 11:45 | 22:20 | 959.00
+IAH | LIM | Copa Airlines | 1 stop (PTY) | 13:00 | 23:35 | 979.00
+IAH | LIM | Aeromexico | 1 stop (MEX) | 14:15 | 00:50 | 1009.00
+IAH | LIM | Delta Air Lines | Non-stop | 15:30 | 02:05 | 939.00
+IAH | LIM | Interjet | 1 stop (MEX) | 16:45 | 03:20 | 1029.00
+LIM | IAH | American Airlines | Non-stop | 08:00 | 14:35 | 849.00
+LIM | IAH | LATAM | 1 stop (SCL) | 09:15 | 16:50 | 929.00
+LIM | IAH | United Airlines | Non-stop | 10:30 | 18:05 | 899.00
+LIM | IAH | Avianca | 1 stop (BOG) | 11:45 | 19:20 | 959.00
+LIM | IAH | Copa Airlines | 1 stop (PTY) | 13:00 | 20:35 | 979.00
+LIM | IAH | Aeromexico | 1 stop (MEX) | 14:15 | 21:50 | 1009.00
+LIM | IAH | Delta Air Lines | Non-stop | 15:30 | 23:05 | 939.00
+LIM | IAH | Interjet | 1 stop (MEX) | 16:45 | 00:20 | 1029.00
+LIM | IAH | Spirit Airlines | 1 stop (FLL) | 18:00 | 01:35 | 1059.00
+
+
+Here are the 16 flight plans:
+
+IAH | LHR | United | 0 | 08:30 | 18:30 | 850.00
+IAH | LHR | British Airways | 1 (ORD) | 10:00 | 21:00 | 950.00
+IAH | LHR | American Airlines | 0 | 12:00 | 22:00 | 900.00
+IAH | LHR | Lufthansa | 1 (FRA) | 14:00 | 09:00 (+1) | 1100.00
+IAH | LHR | Delta | 0 | 16:00 | 02:00 (+1) | 1000.00
+IAH | LHR | Turkish Airlines | 1 (IST) | 18:00 | 14:00 (+1) | 1200.00
+IAH | LHR | Air France | 1 (CDG) | 20:00 | 16:00 (+1) | 1300.00
+IAH | LHR | KLM | 1 (AMS) | 22:00 | 18:00 (+1) | 1400.00
+
+LHR | IAH | United | 0 | 09:00 | 14:00 | 800.00
+LHR | IAH | British Airways | 1 (JFK) | 11:00 | 18:00 | 900.00
+LHR | IAH | American Airlines | 0 | 13:00 | 20:00 | 850.00
+LHR | IAH | Lufthansa | 1 (FRA) | 15:00 | 23:00 | 1050.00
+LHR | IAH | Delta | 0 | 17:00 | 02:00 (+1) | 950.00
+LHR | IAH | Turkish Airlines | 1 (IST) | 19:00 | 06:00 (+1) | 1150.00
+LHR | IAH | Air France | 1 (CDG) | 21:00 | 09:00 (+1) | 1250.00
+LHR | IAH | KLM | 1 (AMS) | 23:00 | 12:00 (+1) | 1350.00
+
+
+Here are the 16 flight plans:
+
+IAH | MAD | American Airlines | Non-stop | 08:00 | 18:30 | 850.00
+IAH | MAD | Iberia | 1 stop (LHR) | 09:30 | 20:15 | 950.00
+IAH | MAD | Lufthansa | 1 stop (FRA) | 10:45 | 21:50 | 1050.00
+IAH | MAD | United Airlines | Non-stop | 11:15 | 22:45 | 900.00
+IAH | MAD | British Airways | 1 stop (LHR) | 12:00 | 23:30 | 1000.00
+IAH | MAD | Turkish Airlines | 1 stop (IST) | 13:30 | 01:15 | 1100.00
+IAH | MAD | Delta Air Lines | Non-stop | 14:45 | 02:30 | 950.00
+IAH | MAD | Air Europa | 1 stop (MXP) | 15:50 | 03:40 | 1050.00
+MAD | IAH | Iberia | Non-stop | 08:30 | 13:15 | 900.00
+MAD | IAH | American Airlines | 1 stop (PHL) | 09:15 | 14:50 | 1000.00
+MAD | IAH | Lufthansa | 1 stop (FRA) | 10:00 | 16:30 | 1100.00
+MAD | IAH | United Airlines | Non-stop | 11:00 | 17:45 | 950.00
+MAD | IAH | British Airways | 1 stop (LHR) | 12:15 | 19:00 | 1050.00
+MAD | IAH | Turkish Airlines | 1 stop (IST) | 13:45 | 21:30 | 1150.00
+MAD | IAH | Delta Air Lines | Non-stop | 14:30 | 22:15 | 1000.00
+MAD | IAH | Air Europa | 1 stop (MXP) | 15:45 | 23:40 | 1100.00
+MAD | IAH | KLM Royal Dutch | 1 stop (AMS) | 16:50 | 01:30 | 1150.00
+
+
+Here are the 16 flight plans:
+
+IAH | MEX | United | Non-stop | 08:00 | 11:15 | 450.00
+IAH | MEX | Aeromexico | Non-stop | 10:30 | 13:45 | 520.00
+IAH | MEX | American | 1 stop (DFW) | 12:00 | 16:30 | 380.00
+IAH | MEX | Delta | Non-stop | 14:00 | 17:15 | 500.00
+IAH | MEX | Frontier | 1 stop (DEN) | 15:30 | 20:45 | 320.00
+IAH | MEX | Spirit | 1 stop (FLL) | 17:00 | 22:15 | 280.00
+IAH | MEX | LATAM | 2 stops (LAX, GDL) | 18:30 | 01:45 | 420.00
+IAH | MEX | VivaAerobus | Non-stop | 20:00 | 23:15 | 400.00
+MEX | IAH | United | Non-stop | 08:00 | 10:15 | 480.00
+MEX | IAH | Aeromexico | Non-stop | 10:30 | 12:45 | 550.00
+MEX | IAH | American | 1 stop (PHX) | 12:00 | 16:30 | 410.00
+MEX | IAH | Delta | Non-stop | 14:00 | 16:15 | 530.00
+MEX | IAH | Frontier | 1 stop (SAN) | 15:30 | 20:45 | 350.00
+MEX | IAH | Spirit | 1 stop (ORD) | 17:00 | 22:15 | 300.00
+MEX | IAH | LATAM | 2 stops (SCL, DFW) | 18:30 | 02:45 | 460.00
+MEX | IAH | VivaAerobus | Non-stop | 20:00 | 22:15 | 440.00
+
+
+Here are the 16 flight plans:
+
+IAH | MBJ | United | 1 (MIA) | 08:00 | 12:30 | 450.00
+IAH | MBJ | American | 0 | 10:30 | 15:00 | 380.00
+IAH | MBJ | Delta | 1 (ATL) | 12:00 | 17:00 | 420.00
+IAH | MBJ | Spirit | 1 (FLL) | 14:30 | 19:30 | 320.00
+IAH | MBJ | JetBlue | 0 | 16:00 | 20:30 | 400.00
+IAH | MBJ | Southwest | 1 (HOU) | 18:00 | 22:30 | 350.00
+IAH | MBJ | Frontier | 1 (MCO) | 20:00 | 00:30 | 300.00
+IAH | MBJ | Alaska | 1 (SFO) | 22:00 | 02:30 | 480.00
+
+MBJ | IAH | United | 1 (EWR) | 08:30 | 12:00 | 430.00
+MBJ | IAH | American | 0 | 11:00 | 14:30 | 410.00
+MBJ | IAH | Delta | 1 (JFK) | 13:00 | 17:30 | 450.00
+MBJ | IAH | Spirit | 1 (BWI) | 15:30 | 20:00 | 340.00
+MBJ | IAH | JetBlue | 0 | 17:30 | 21:00 | 390.00
+MBJ | IAH | Southwest | 1 (STL) | 19:30 | 23:30 | 360.00
+MBJ | IAH | Frontier | 1 (DEN) | 21:30 | 01:30 | 310.00
+MBJ | IAH | Alaska | 1 (LAX) | 23:30 | 03:30 | 490.00
+
+
+Here are the 16 flight plans:
+
+IAH | YUL | United | Non-stop | 08:00 | 13:15 | 450.00
+IAH | YUL | Air Canada | 1 stop (ORD) | 09:30 | 15:45 | 520.00
+IAH | YUL | American | Non-stop | 11:00 | 16:20 | 480.00
+IAH | YUL | Delta | 1 stop (ATL) | 12:30 | 18:50 | 550.00
+IAH | YUL | WestJet | Non-stop | 14:00 | 19:25 | 500.00
+IAH | YUL | Lufthansa | 1 stop (FRA) | 15:30 | 22:55 | 620.00
+IAH | YUL | Turkish Airlines | 1 stop (IST) | 17:00 | 01:25 | 650.00
+IAH | YUL | Air Transat | Non-stop | 19:00 | 00:25 | 530.00
+YUL | IAH | United | Non-stop | 08:00 | 11:15 | 420.00
+YUL | IAH | Air Canada | 1 stop (YYZ) | 09:30 | 13:45 | 490.00
+YUL | IAH | American | Non-stop | 11:00 | 14:20 | 450.00
+YUL | IAH | Delta | 1 stop (LGA) | 12:30 | 16:50 | 510.00
+YUL | IAH | WestJet | Non-stop | 14:00 | 17:25 | 480.00
+YUL | IAH | Lufthansa | 1 stop (MUC) | 15:30 | 20:55 | 590.00
+YUL | IAH | Turkish Airlines | 1 stop (IST) | 17:00 | 22:25 | 610.00
+YUL | IAH | Air Transat | Non-stop | 19:00 | 22:25 | 500.00
+
+
+Here are the 16 flight plans:
+
+IAH | BOM | United | 1 (LHR) | 10:30 | 14:45 | 850.00
+IAH | BOM | Emirates | 2 (DXB, DEL) | 14:15 | 20:00 | 1200.00
+IAH | BOM | Lufthansa | 1 (FRA) | 16:00 | 22:15 | 1100.00
+IAH | BOM | Qatar | 1 (DOH) | 18:45 | 00:50 | 1000.00
+IAH | BOM | American | 2 (PHL, LHR) | 20:30 | 02:45 | 1300.00
+IAH | BOM | Turkish | 1 (IST) | 22:15 | 04:30 | 900.00
+IAH | BOM | Delta | 2 (ATL, AMS) | 08:00 | 14:15 | 1400.00
+IAH | BOM | Air India | 0 | 12:00 | 18:15 | 800.00
+
+BOM | IAH | Air India | 0 | 02:30 | 08:45 | 750.00
+BOM | IAH | Emirates | 1 (DXB) | 05:00 | 11:15 | 1050.00
+BOM | IAH | Lufthansa | 1 (FRA) | 07:30 | 13:45 | 1000.00
+BOM | IAH | Qatar | 1 (DOH) | 10:00 | 16:15 | 950.00
+BOM | IAH | United | 2 (LHR, EWR) | 12:30 | 18:45 | 1250.00
+BOM | IAH | Turkish | 1 (IST) | 15:00 | 21:15 | 850.00
+BOM | IAH | American | 2 (LHR, PHL) | 18:00 | 00:15 | 1350.00
+BOM | IAH | Delta | 2 (AMS, ATL) | 21:30 | 03:45 | 1450.00
+
+
+Here are the 16 flight plans:
+
+IAH | OSL | United | 1 (LHR) | 08:00 | 18:30 | 850.00
+IAH | OSL | Lufthansa | 2 (FRA, CPH) | 10:30 | 21:45 | 1100.00
+IAH | OSL | American | 1 (PHL) | 12:00 | 22:15 | 900.00
+IAH | OSL | Delta | 0 | 14:30 | 06:00 | 1200.00
+IAH | OSL | British Airways | 1 (LHR) | 16:00 | 08:30 | 1000.00
+IAH | OSL | KLM | 2 (AMS, CPH) | 18:00 | 12:45 | 1300.00
+IAH | OSL | Turkish Airlines | 1 (IST) | 20:00 | 14:30 | 1050.00
+IAH | OSL | Iberia | 2 (MAD, LHR) | 22:00 | 18:15 | 1250.00
+OSL | IAH | United | 1 (LHR) | 08:30 | 18:00 | 850.00
+OSL | IAH | Lufthansa | 2 (FRA, PHL) | 10:45 | 22:10 | 1100.00
+OSL | IAH | American | 1 (PHL) | 12:45 | 23:15 | 900.00
+OSL | IAH | Delta | 0 | 14:45 | 06:30 | 1200.00
+OSL | IAH | British Airways | 1 (LHR) | 16:45 | 09:00 | 1000.00
+OSL | IAH | KLM | 2 (AMS, FRA) | 18:45 | 13:45 | 1300.00
+OSL | IAH | Turkish Airlines | 1 (IST) | 20:45 | 15:30 | 1050.00
+OSL | IAH | Iberia | 2 (MAD, PHL) | 22:45 | 19:15 | 1250.00
+
+
+Here are the 16 flight plans:
+
+IAH | PTY | United | 1 (MIA) | 08:00 | 13:30 | 450.00
+IAH | PTY | American | 0 | 10:30 | 15:45 | 520.00
+IAH | PTY | Copa | 1 (SJO) | 12:15 | 18:00 | 480.00
+IAH | PTY | Delta | 1 (ATL) | 14:00 | 20:15 | 500.00
+IAH | PTY | Spirit | 1 (FLL) | 16:45 | 22:50 | 380.00
+IAH | PTY | Avianca | 1 (BOG) | 18:30 | 00:45 | 420.00
+IAH | PTY | LATAM | 1 (LIM) | 20:15 | 02:30 | 440.00
+IAH | PTY | Aeromexico | 1 (MEX) | 21:50 | 04:05 | 460.00
+PTY | IAH | Copa | 0 | 08:00 | 11:30 | 400.00
+PTY | IAH | United | 1 (MIA) | 10:30 | 14:45 | 430.00
+PTY | IAH | American | 1 (CLT) | 12:15 | 16:30 | 450.00
+PTY | IAH | Delta | 1 (ATL) | 14:00 | 18:15 | 470.00
+PTY | IAH | Avianca | 1 (BOG) | 16:45 | 20:50 | 410.00
+PTY | IAH | LATAM | 1 (LIM) | 18:30 | 22:45 | 440.00
+PTY | IAH | Spirit | 1 (FLL) | 20:15 | 00:30 | 390.00
+PTY | IAH | Aeromexico | 1 (MEX) | 21:50 | 02:05 | 420.00
+
+
+Here are the 16 flight plans:
+
+IAH | CDG | United | Non-stop | 08:00 | 18:30 | 850.00
+IAH | CDG | Lufthansa | 1 stop (FRA) | 09:30 | 19:15 | 920.00
+IAH | CDG | Air France | Non-stop | 10:45 | 20:50 | 950.00
+IAH | CDG | American Airlines | 1 stop (PHL) | 11:15 | 21:40 | 980.00
+IAH | CDG | Delta | Non-stop | 12:00 | 22:20 | 1000.00
+IAH | CDG | KLM | 1 stop (AMS) | 13:30 | 23:45 | 1050.00
+IAH | CDG | British Airways | 1 stop (LHR) | 14:45 | 01:00 | 1100.00
+IAH | CDG | Turkish Airlines | 1 stop (IST) | 16:00 | 02:30 | 1150.00
+CDG | IAH | Air France | Non-stop | 09:00 | 13:30 | 900.00
+CDG | IAH | Lufthansa | 1 stop (FRA) | 10:15 | 15:45 | 970.00
+CDG | IAH | United | Non-stop | 11:30 | 16:50 | 1000.00
+CDG | IAH | American Airlines | 1 stop (PHL) | 12:45 | 18:15 | 1030.00
+CDG | IAH | Delta | Non-stop | 14:00 | 19:30 | 1060.00
+CDG | IAH | KLM | 1 stop (AMS) | 15:15 | 21:00 | 1100.00
+CDG | IAH | British Airways | 1 stop (LHR) | 16:30 | 22:45 | 1140.00
+CDG | IAH | Turkish Airlines | 1 stop (IST) | 18:00 | 00:30 | 1190.00
+CDG | IAH | Iberia | 1 stop (MAD) | 19:30 | 02:15 | 1220.00
+
+
+Here are the 16 flight plans:
+
+IAH | HKT | Thai Airways | 1 (NRT) | 10:30 | 07:15 | 850.00
+IAH | HKT | Singapore Airlines | 2 (SIN, BKK) | 14:00 | 11:45 | 1050.00
+IAH | HKT | Lufthansa | 1 (FRA) | 16:45 | 14:20 | 950.00
+IAH | HKT | Qatar Airways | 1 (DOH) | 18:30 | 16:05 | 900.00
+IAH | HKT | Emirates | 1 (DXB) | 20:15 | 17:50 | 1000.00
+IAH | HKT | Turkish Airlines | 1 (IST) | 21:50 | 19:25 | 850.00
+IAH | HKT | China Eastern | 2 (PVG, KMG) | 22:30 | 20:55 | 1100.00
+IAH | HKT | Japan Airlines | 1 (NRT) | 23:15 | 20:50 | 900.00
+HKT | IAH | Thai Airways | 1 (NRT) | 08:00 | 20:45 | 850.00
+HKT | IAH | Singapore Airlines | 2 (BKK, SIN) | 09:30 | 22:15 | 1050.00
+HKT | IAH | Lufthansa | 1 (FRA) | 11:00 | 23:40 | 950.00
+HKT | IAH | Qatar Airways | 1 (DOH) | 12:30 | 01:05 | 900.00
+HKT | IAH | Emirates | 1 (DXB) | 14:15 | 02:50 | 1000.00
+HKT | IAH | Turkish Airlines | 1 (IST) | 15:50 | 04:25 | 850.00
+HKT | IAH | China Eastern | 2 (KMG, PVG) | 17:30 | 06:05 | 1100.00
+HKT | IAH | Japan Airlines | 1 (NRT) | 19:15 | 07:50 | 900.00
+
+
+Here are the 16 flight plans:
+
+IAH | PRG | United | 1 (FRA) | 08:00 | 18:35 | 850.00
+IAH | PRG | Lufthansa | 1 (MUC) | 10:30 | 21:05 | 920.00
+IAH | PRG | American | 2 (PHL, AMS) | 12:00 | 23:50 | 1050.00
+IAH | PRG | Delta | 1 (CDG) | 14:15 | 02:40 | 1100.00
+IAH | PRG | Turkish | 1 (IST) | 16:00 | 04:25 | 1000.00
+IAH | PRG | KLM | 1 (AMS) | 18:30 | 06:55 | 950.00
+IAH | PRG | British Airways | 1 (LHR) | 20:45 | 09:10 | 1020.00
+IAH | PRG | Air France | 1 (CDG) | 22:15 | 10:40 | 980.00
+PRG | IAH | Czech Airlines | 1 (AMS) | 06:00 | 14:25 | 900.00
+PRG | IAH | Lufthansa | 1 (MUC) | 08:30 | 17:05 | 970.00
+PRG | IAH | United | 1 (FRA) | 11:00 | 19:35 | 930.00
+PRG | IAH | Delta | 1 (CDG) | 13:15 | 21:40 | 1000.00
+PRG | IAH | American | 2 (PHL, AMS) | 15:00 | 00:50 | 1080.00
+PRG | IAH | Turkish | 1 (IST) | 17:00 | 03:25 | 960.00
+PRG | IAH | KLM | 1 (AMS) | 19:30 | 06:55 | 940.00
+PRG | IAH | British Airways | 1 (LHR) | 21:45 | 08:10 | 990.00
+
+
+Here are the 16 flight plans:
+
+IAH | KEF | UA | 1 (LHR) | 08:00 | 18:30 | 850.00
+IAH | KEF | AA | 2 (JFK, LHR) | 10:30 | 20:45 | 950.00
+IAH | KEF | DL | 1 (ATL) | 12:15 | 22:40 | 780.00
+IAH | KEF | WN | 2 (DEN, ORD) | 14:00 | 00:20 | 650.00
+IAH | KEF | LH | 1 (FRA) | 16:00 | 02:25 | 900.00
+IAH | KEF | BA | 2 (LHR, GLA) | 18:30 | 04:50 | 1050.00
+IAH | KEF | AF | 1 (CDG) | 20:45 | 06:10 | 920.00
+IAH | KEF | KL | 2 (AMS, OSLO) | 22:15 | 08:35 | 1000.00
+
+KEF | IAH | UA | 1 (EWR) | 08:00 | 14:30 | 800.00
+KEF | IAH | AA | 2 (PHL, CLT) | 10:30 | 17:45 | 900.00
+KEF | IAH | DL | 1 (JFK) | 12:15 | 19:40 | 750.00
+KEF | IAH | WN | 2 (BWI, HOU) | 14:00 | 21:20 | 600.00
+KEF | IAH | LH | 1 (FRA) | 16:00 | 23:25 | 850.00
+KEF | IAH | BA | 2 (LHR, MAN) | 18:30 | 02:50 | 950.00
+KEF | IAH | AF | 1 (CDG) | 20:45 | 05:10 | 820.00
+KEF | IAH | KL | 2 (AMS, PAR) | 22:15 | 07:35 | 900.00
+
+
+Here are the 16 flight plans:
+
+IAH | GIG | United | 0 | 08:00 | 18:30 | 850.00
+IAH | GIG | American | 1 (MIA) | 09:15 | 20:45 | 950.00
+IAH | GIG | LATAM | 0 | 10:30 | 21:00 | 720.00
+IAH | GIG | Delta | 1 (ATL) | 11:45 | 22:15 | 820.00
+IAH | GIG | Avianca | 1 (BOG) | 13:00 | 23:30 | 900.00
+IAH | GIG | Copa | 1 (PTY) | 14:15 | 00:45 | 880.00
+IAH | GIG | Azul | 0 | 15:30 | 01:00 | 780.00
+IAH | GIG | Aeromexico | 1 (MEX) | 16:45 | 02:15 | 910.00
+GIG | IAH | United | 0 | 08:00 | 14:30 | 790.00
+GIG | IAH | American | 1 (MIA) | 09:15 | 16:45 | 890.00
+GIG | IAH | LATAM | 0 | 10:30 | 18:00 | 740.00
+GIG | IAH | Delta | 1 (ATL) | 11:45 | 19:15 | 810.00
+GIG | IAH | Avianca | 1 (BOG) | 13:00 | 20:30 | 930.00
+GIG | IAH | Copa | 1 (PTY) | 14:15 | 21:45 | 860.00
+GIG | IAH | Azul | 0 | 15:30 | 22:00 | 760.00
+GIG | IAH | Aeromexico | 1 (MEX) | 16:45 | 23:15 | 920.00
+
+
+Here are the 16 flight plans:
+
+IAH | FCO | American Airlines | Non-stop | 10:00 | 14:30 | 850.00
+IAH | FCO | Lufthansa | 1 stop (FRA) | 12:30 | 17:15 | 920.00
+IAH | FCO | United Airlines | Non-stop | 14:00 | 18:30 | 800.00
+IAH | FCO | British Airways | 1 stop (LHR) | 15:30 | 20:45 | 950.00
+IAH | FCO | Turkish Airlines | 1 stop (IST) | 16:00 | 22:00 | 980.00
+IAH | FCO | Delta Air Lines | Non-stop | 17:00 | 21:30 | 820.00
+IAH | FCO | Alitalia | Non-stop | 18:00 | 22:30 | 890.00
+IAH | FCO | Air France | 1 stop (CDG) | 19:00 | 23:45 | 930.00
+FCO | IAH | American Airlines | Non-stop | 09:00 | 13:30 | 850.00
+FCO | IAH | Lufthansa | 1 stop (FRA) | 11:30 | 16:15 | 920.00
+FCO | IAH | United Airlines | Non-stop | 13:00 | 17:30 | 800.00
+FCO | IAH | British Airways | 1 stop (LHR) | 14:30 | 19:45 | 950.00
+FCO | IAH | Turkish Airlines | 1 stop (IST) | 15:00 | 21:00 | 980.00
+FCO | IAH | Delta Air Lines | Non-stop | 16:00 | 20:30 | 820.00
+FCO | IAH | Alitalia | Non-stop | 17:00 | 21:30 | 890.00
+FCO | IAH | Air France | 1 stop (CDG) | 18:00 | 22:45 | 930.00
+
+
+Here are the 16 flight plans:
+
+IAH | SCL | LATAM | 1 (MIA) | 08:00 | 22:35 | 850.00
+IAH | SCL | American | 2 (DFW, LIM) | 10:30 | 02:10 | 1200.00
+IAH | SCL | United | Non-stop | 12:45 | 02:15 | 900.00
+IAH | SCL | Avianca | 1 (BOG) | 14:10 | 03:40 | 1100.00
+IAH | SCL | Delta | 1 (ATL) | 16:00 | 04:30 | 1000.00
+IAH | SCL | LATAM | 2 (MEX, LIM) | 18:30 | 06:10 | 1300.00
+IAH | SCL | Copa | 1 (PTY) | 20:45 | 07:20 | 1050.00
+IAH | SCL | Aeromexico | 2 (MEX, SJO) | 22:10 | 08:40 | 1250.00
+
+SCL | IAH | LATAM | 1 (LIM) | 09:00 | 19:35 | 800.00
+SCL | IAH | American | 2 (LIM, DFW) | 11:30 | 22:10 | 1150.00
+SCL | IAH | United | Non-stop | 13:45 | 00:15 | 850.00
+SCL | IAH | Avianca | 1 (BOG) | 15:10 | 02:40 | 1050.00
+SCL | IAH | Delta | 1 (ATL) | 17:00 | 04:30 | 950.00
+SCL | IAH | LATAM | 2 (MIA, MEX) | 19:30 | 06:10 | 1200.00
+SCL | IAH | Copa | 1 (PTY) | 21:45 | 07:20 | 1000.00
+SCL | IAH | Aeromexico | 2 (SJO, MEX) | 23:10 | 08:40 | 1150.00
+
+
+Here are the 16 flight plans:
+
+IAH | ICN | Korean Air | 1 (NRT) | 09:00 | 20:30 | 850.00
+IAH | ICN | United | 0 | 11:30 | 18:00 | 1200.00
+IAH | ICN | Lufthansa | 2 (FRA, HKG) | 14:00 | 22:30 | 1800.00
+IAH | ICN | American | 1 (DFW) | 16:00 | 21:30 | 1000.00
+IAH | ICN | Asiana | 0 | 18:00 | 01:30 | 900.00
+IAH | ICN | Delta | 1 (ATL) | 20:00 | 02:30 | 1100.00
+IAH | ICN | Singapore | 1 (SIN) | 22:00 | 04:30 | 1300.00
+IAH | ICN | Japan Airlines | 1 (NRT) | 23:59 | 06:30 | 1400.00
+ICN | IAH | Korean Air | 1 (HKG) | 09:00 | 20:30 | 850.00
+ICN | IAH | Asiana | 0 | 11:30 | 18:00 | 1200.00
+ICN | IAH | Lufthansa | 2 (FRA, JFK) | 14:00 | 22:30 | 1800.00
+ICN | IAH | United | 1 (SFO) | 16:00 | 21:30 | 1000.00
+ICN | IAH | American | 1 (DFW) | 18:00 | 01:30 | 900.00
+ICN | IAH | Delta | 1 (ATL) | 20:00 | 02:30 | 1100.00
+ICN | IAH | Singapore | 1 (SIN) | 22:00 | 04:30 | 1300.00
+ICN | IAH | Japan Airlines | 1 (NRT) | 23:59 | 06:30 | 1400.00
+ICN | IAH | China Eastern | 2 (PVG, LAX) | 01:00 | 07:30 | 1600.00
+
+
+Here are the 16 flight plans:
+
+IAH | PVG | United | 1 (NRT) | 10:30 | 15:45 | 850.00
+IAH | PVG | China Eastern | 2 (DFW, NKG) | 14:15 | 20:30 | 950.00
+IAH | PVG | Air China | 1 (PEK) | 16:00 | 22:15 | 780.00
+IAH | PVG | Lufthansa | 2 (FRA, HKG) | 18:45 | 01:00 | 1050.00
+IAH | PVG | American | 1 (DFW) | 20:00 | 02:20 | 920.00
+IAH | PVG | Delta | 2 (ATL, NGO) | 21:30 | 03:50 | 980.00
+IAH | PVG | Turkish | 2 (IST, BKK) | 22:15 | 04:35 | 1100.00
+IAH | PVG | Singapore | 1 (SIN) | 23:59 | 06:10 | 1000.00
+PVG | IAH | United | 1 (NRT) | 09:00 | 14:15 | 850.00
+PVG | IAH | China Eastern | 2 (NKG, DFW) | 11:30 | 17:45 | 950.00
+PVG | IAH | Air China | 1 (PEK) | 13:45 | 20:00 | 780.00
+PVG | IAH | Lufthansa | 2 (HKG, FRA) | 15:15 | 22:30 | 1050.00
+PVG | IAH | American | 1 (DFW) | 17:00 | 23:20 | 920.00
+PVG | IAH | Delta | 2 (NGO, ATL) | 18:30 | 01:50 | 980.00
+PVG | IAH | Turkish | 2 (BKK, IST) | 20:15 | 03:35 | 1100.00
+PVG | IAH | Singapore | 1 (SIN) | 21:59 | 05:10 | 1000.00
+
+
+Here are the 16 flight plans:
+
+IAH | SIN | Singapore Airlines | 1 (NRT) | 10:30 | 20:15 | 850.00
+IAH | SIN | United Airlines | 2 (LAX, HKG) | 14:00 | 23:45 | 1100.00
+IAH | SIN | Lufthansa | 1 (FRA) | 16:45 | 02:10 | 1250.00
+IAH | SIN | Turkish Airlines | 2 (IST, DXB) | 18:15 | 04:30 | 900.00
+IAH | SIN | Qatar Airways | 1 (DOH) | 20:00 | 05:50 | 1000.00
+IAH | SIN | American Airlines | 2 (DFW, NRT) | 21:30 | 07:10 | 1200.00
+IAH | SIN | Emirates | 1 (DXB) | 22:45 | 08:30 | 1150.00
+IAH | SIN | ANA | 1 (NRT) | 23:59 | 09:40 | 1050.00
+SIN | IAH | Singapore Airlines | 1 (NRT) | 09:00 | 19:45 | 850.00
+SIN | IAH | United Airlines | 2 (HKG, LAX) | 11:30 | 22:15 | 1100.00
+SIN | IAH | Lufthansa | 1 (FRA) | 13:15 | 00:40 | 1250.00
+SIN | IAH | Turkish Airlines | 2 (DXB, IST) | 15:00 | 02:45 | 900.00
+SIN | IAH | Qatar Airways | 1 (DOH) | 16:45 | 04:35 | 1000.00
+SIN | IAH | American Airlines | 2 (NRT, DFW) | 18:30 | 06:10 | 1200.00
+SIN | IAH | Emirates | 1 (DXB) | 20:15 | 07:50 | 1150.00
+SIN | IAH | ANA | 1 (NRT) | 21:50 | 09:30 | 1050.00
+SIN | IAH | Cathay Pacific | 1 (HKG) | 23:20 | 11:00 | 950.00
+
+
+Here are the 16 flight plans:
+
+IAH | SPU | UA | 0 | 08:00 | 14:30 | 850.00
+IAH | SPU | AA | 1 (MIA) | 09:30 | 17:15 | 720.00
+IAH | SPU | DL | 0 | 11:00 | 17:45 | 900.00
+IAH | SPU | WN | 1 (DAL) | 12:30 | 19:10 | 650.00
+IAH | SPU | F9 | 0 | 14:00 | 20:30 | 580.00
+IAH | SPU | B6 | 1 (JFK) | 15:30 | 22:15 | 780.00
+IAH | SPU | NK | 0 | 17:00 | 23:45 | 550.00
+IAH | SPU | AS | 1 (SEA) | 18:30 | 01:15 | 820.00
+SPU | IAH | UA | 0 | 06:00 | 12:30 | 850.00
+SPU | IAH | AA | 1 (CLT) | 07:30 | 14:15 | 720.00
+SPU | IAH | DL | 0 | 09:00 | 15:45 | 900.00
+SPU | IAH | WN | 1 (HOU) | 10:30 | 17:10 | 650.00
+SPU | IAH | F9 | 0 | 12:00 | 18:30 | 580.00
+SPU | IAH | B6 | 1 (BOS) | 13:30 | 20:15 | 780.00
+SPU | IAH | NK | 0 | 15:00 | 21:45 | 550.00
+SPU | IAH | AS | 1 (SFO) | 16:30 | 23:15 | 820.00
+
+
+Here are the 16 flight plans:
+
+IAH | ARN | United | 1 (LHR) | 08:00 | 18:30 | 850.00
+IAH | ARN | Lufthansa | 2 (FRA, CPH) | 10:30 | 21:15 | 1050.00
+IAH | ARN | American | 1 (PHL) | 12:45 | 22:50 | 900.00
+IAH | ARN | Delta | 0 | 14:00 | 20:30 | 750.00
+IAH | ARN | British Airways | 1 (LHR) | 16:15 | 00:45 | 950.00
+IAH | ARN | KLM | 2 (AMS, OSL) | 18:30 | 02:15 | 1100.00
+IAH | ARN | Air France | 1 (CDG) | 20:45 | 04:20 | 1000.00
+IAH | ARN | Turkish Airlines | 2 (IST, CPH) | 22:50 | 06:30 | 1150.00
+ARN | IAH | SAS | 1 (CPH) | 08:00 | 14:30 | 800.00
+ARN | IAH | Lufthansa | 2 (FRA, MIA) | 10:30 | 18:15 | 1050.00
+ARN | IAH | United | 1 (EWR) | 12:45 | 20:50 | 900.00
+ARN | IAH | Delta | 0 | 14:00 | 20:30 | 750.00
+ARN | IAH | British Airways | 1 (LHR) | 16:15 | 22:45 | 950.00
+ARN | IAH | KLM | 2 (AMS, PHL) | 18:30 | 02:15 | 1100.00
+ARN | IAH | Air France | 1 (CDG) | 20:45 | 04:20 | 1000.00
+ARN | IAH | Turkish Airlines | 2 (IST, EWR) | 22:50 | 06:30 | 1150.00
+
+
+Here are the 16 flight plans:
+
+IAH | SYD | Qantas | 1 (LAX) | 08:00 | 06:30 | 950.00
+IAH | SYD | American | 2 (DFW, AKL) | 10:30 | 09:15 | 1200.00
+IAH | SYD | United | 1 (SFO) | 14:00 | 11:45 | 1050.00
+IAH | SYD | Delta | 1 (LAX) | 16:30 | 14:15 | 1100.00
+IAH | SYD | Emirates | 2 (DXB, PER) | 18:00 | 17:30 | 1300.00
+IAH | SYD | Singapore | 1 (SIN) | 20:00 | 19:30 | 1250.00
+IAH | SYD | Air New Zealand | 1 (AKL) | 22:00 | 21:45 | 1150.00
+IAH | SYD | Virgin Australia | 1 (BNE) | 23:30 | 22:15 | 1000.00
+
+SYD | IAH | Qantas | 1 (LAX) | 08:30 | 06:00 | 980.00
+SYD | IAH | American | 2 (AKL, DFW) | 10:00 | 09:45 | 1250.00
+SYD | IAH | United | 1 (SFO) | 12:30 | 10:15 | 1090.00
+SYD | IAH | Delta | 1 (LAX) | 14:30 | 12:15 | 1140.00
+SYD | IAH | Emirates | 2 (PER, DXB) | 16:00 | 15:30 | 1350.00
+SYD | IAH | Singapore | 1 (SIN) | 18:30 | 17:15 | 1290.00
+SYD | IAH | Air New Zealand | 1 (AKL) | 20:30 | 19:15 | 1190.00
+SYD | IAH | Virgin Australia | 1 (BNE) | 22:30 | 21:15 | 1040.00
+
+
+Here are the 16 flight plans:
+
+IAH | NRT | ANA | 0 | 11:30 | 14:45 | 850.00
+IAH | NRT | United | 1 (HNL) | 08:00 | 17:30 | 1200.00
+IAH | NRT | Japan Airlines | 0 | 13:15 | 16:30 | 950.00
+IAH | NRT | American Airlines | 1 (DFW) | 09:45 | 19:15 | 1100.00
+IAH | NRT | Delta | 1 (LAX) | 10:30 | 20:00 | 1000.00
+IAH | NRT | Singapore Airlines | 1 (SIN) | 12:00 | 21:30 | 1300.00
+IAH | NRT | Korean Air | 1 (ICN) | 11:15 | 22:00 | 1250.00
+IAH | NRT | China Airlines | 1 (TPE) | 14:00 | 23:30 | 1050.00
+NRT | IAH | ANA | 0 | 09:00 | 06:30 | 900.00
+NRT | IAH | United | 1 (SFO) | 11:30 | 09:15 | 1150.00
+NRT | IAH | Japan Airlines | 0 | 13:45 | 11:15 | 1000.00
+NRT | IAH | American Airlines | 1 (ORD) | 15:15 | 12:45 | 1050.00
+NRT | IAH | Delta | 1 (ATL) | 16:30 | 14:15 | 1100.00
+NRT | IAH | Singapore Airlines | 1 (FRA) | 18:00 | 16:00 | 1300.00
+NRT | IAH | Korean Air | 1 (LAX) | 19:15 | 17:30 | 1200.00
+NRT | IAH | China Airlines | 1 (HKG) | 20:45 | 19:00 | 1150.00
+
+
+Here are the 16 flight plans:
+
+IAH | HND | ANA | 1 (NRT) | 09:00 | 11:45 | 850.00
+IAH | HND | UA | 1 (SFO) | 11:30 | 14:15 | 720.00
+IAH | HND | JL | 0 | 13:45 | 16:30 | 950.00
+IAH | HND | AA | 1 (DFW) | 15:00 | 17:45 | 790.00
+IAH | HND | DL | 1 (ATL) | 16:30 | 19:15 | 830.00
+IAH | HND | CX | 1 (HKG) | 18:00 | 20:45 | 900.00
+IAH | HND | SQ | 1 (SIN) | 19:30 | 22:15 | 980.00
+IAH | HND | LH | 1 (FRA) | 21:00 | 23:45 | 860.00
+HND | IAH | ANA | 1 (NRT) | 09:30 | 07:15 | 840.00
+HND | IAH | UA | 1 (SFO) | 11:00 | 08:45 | 700.00
+HND | IAH | JL | 0 | 12:15 | 09:50 | 920.00
+HND | IAH | AA | 1 (DFW) | 13:45 | 11:30 | 770.00
+HND | IAH | DL | 1 (ATL) | 15:15 | 12:55 | 800.00
+HND | IAH | CX | 1 (HKG) | 16:45 | 14:30 | 880.00
+HND | IAH | SQ | 1 (SIN) | 18:15 | 15:55 | 960.00
+HND | IAH | LH | 1 (FRA) | 19:45 | 17:30 | 850.00
+HND | IAH | KE | 1 (ICN) | 21:15 | 18:55 | 890.00
+
+
+Here are the 16 flight plans:
+
+IAH | YYZ | United | 0 | 08:00 | 13:35 | 420.00
+IAH | YYZ | Air Canada | 1 (ORD) | 09:15 | 16:50 | 450.00
+IAH | YYZ | American | 0 | 10:30 | 16:05 | 480.00
+IAH | YYZ | WestJet | 1 (DEN) | 11:45 | 18:20 | 500.00
+IAH | YYZ | Delta | 0 | 13:00 | 18:35 | 520.00
+IAH | YYZ | Lufthansa | 1 (FRA) | 14:15 | 21:50 | 600.00
+IAH | YYZ | Turkish Airlines | 1 (IST) | 15:30 | 23:05 | 650.00
+IAH | YYZ | Avianca | 1 (BOG) | 16:45 | 00:20 | 700.00
+YYZ | IAH | United | 0 | 08:00 | 10:35 | 420.00
+YYZ | IAH | Air Canada | 1 (YUL) | 09:15 | 12:50 | 450.00
+YYZ | IAH | American | 0 | 10:30 | 13:05 | 480.00
+YYZ | IAH | WestJet | 1 (YYC) | 11:45 | 15:20 | 500.00
+YYZ | IAH | Delta | 0 | 13:00 | 15:35 | 520.00
+YYZ | IAH | Lufthansa | 1 (FRA) | 14:15 | 18:50 | 600.00
+YYZ | IAH | Turkish Airlines | 1 (IST) | 15:30 | 20:05 | 650.00
+YYZ | IAH | Avianca | 1 (BOG) | 16:45 | 22:20 | 700.00
+
+
+Here are the 16 flight plans:
+
+IAH | YVR | United | 1 (DEN) | 08:00 | 10:30 | 450.00
+IAH | YVR | American | 1 (ORD) | 09:15 | 12:00 | 480.00
+IAH | YVR | Delta | 0 | 10:30 | 13:15 | 520.00
+IAH | YVR | WestJet | 1 (YYC) | 11:45 | 14:30 | 400.00
+IAH | YVR | Air Canada | 1 (YYZ) | 12:50 | 15:45 | 550.00
+IAH | YVR | United | 2 (DEN, SFO) | 14:00 | 17:30 | 620.00
+IAH | YVR | Alaska | 1 (SEA) | 15:15 | 18:00 | 500.00
+IAH | YVR | Spirit | 1 (LAS) | 16:30 | 19:15 | 380.00
+YVR | IAH | Air Canada | 1 (YYZ) | 08:00 | 14:30 | 580.00
+YVR | IAH | WestJet | 1 (YYC) | 09:15 | 15:45 | 420.00
+YVR | IAH | United | 1 (SFO) | 10:30 | 16:15 | 500.00
+YVR | IAH | American | 1 (ORD) | 11:45 | 17:30 | 520.00
+YVR | IAH | Delta | 0 | 12:50 | 18:45 | 600.00
+YVR | IAH | Alaska | 1 (SEA) | 14:00 | 19:30 | 480.00
+YVR | IAH | Spirit | 1 (LAS) | 15:15 | 20:45 | 400.00
+YVR | IAH | United | 2 (SFO, DEN) | 16:30 | 22:15 | 650.00
+YVR | IAH | WestJet | 2 (YYC, YEG) | 17:45 | 23:30 | 580.00
+
+
+Here are the 16 flight plans:
+
+IAH | VIE | Lufthansa | 1 (FRA) | 14:30 | 08:35 | 850.00
+IAH | VIE | United | 2 (EWR, FRA) | 10:15 | 11:20 | 1050.00
+IAH | VIE | Austrian | 0 | 16:45 | 10:50 | 950.00
+IAH | VIE | Turkish | 1 (IST) | 12:00 | 13:05 | 800.00
+IAH | VIE | American | 2 (PHL, CDG) | 08:00 | 09:05 | 1200.00
+IAH | VIE | Delta | 1 (AMS) | 15:30 | 09:35 | 1000.00
+IAH | VIE | British | 1 (LHR) | 11:45 | 12:50 | 1100.00
+IAH | VIE | Swiss | 1 (ZRH) | 13:15 | 14:20 | 900.00
+VIE | IAH | Lufthansa | 1 (FRA) | 09:30 | 14:35 | 850.00
+VIE | IAH | United | 2 (FRA, EWR) | 07:15 | 12:20 | 1050.00
+VIE | IAH | Austrian | 0 | 11:45 | 16:50 | 950.00
+VIE | IAH | Turkish | 1 (IST) | 10:00 | 15:05 | 800.00
+VIE | IAH | American | 2 (CDG, PHL) | 08:00 | 13:05 | 1200.00
+VIE | IAH | Delta | 1 (AMS) | 14:30 | 19:35 | 1000.00
+VIE | IAH | British | 1 (LHR) | 12:45 | 17:50 | 1100.00
+VIE | IAH | Swiss | 1 (ZRH) | 15:15 | 20:20 | 900.00
+
+
+Here are the 16 flight plans:
+
+IAH | ZRH | Lufthansa | Non-stop | 08:00 | 18:30 | 850.00
+IAH | ZRH | United | 1 stop (FRA) | 09:30 | 20:15 | 720.00
+IAH | ZRH | Swiss | Non-stop | 10:00 | 20:00 | 950.00
+IAH | ZRH | American | 1 stop (PHL) | 11:15 | 22:00 | 650.00
+IAH | ZRH | Delta | 2 stops (ATL, CDG) | 12:00 | 23:45 | 580.00
+IAH | ZRH | Turkish | 1 stop (IST) | 13:30 | 01:15 | 600.00
+IAH | ZRH | British Airways | 1 stop (LHR) | 14:45 | 02:30 | 750.00
+IAH | ZRH | KLM | 1 stop (AMS) | 16:00 | 03:45 | 680.00
+ZRH | IAH | Swiss | Non-stop | 09:00 | 13:30 | 900.00
+ZRH | IAH | Lufthansa | 1 stop (FRA) | 10:30 | 15:15 | 780.00
+ZRH | IAH | United | 1 stop (EWR) | 11:45 | 16:30 | 620.00
+ZRH | IAH | American | 1 stop (PHL) | 13:00 | 18:45 | 700.00
+ZRH | IAH | Delta | 2 stops (CDG, ATL) | 14:15 | 21:00 | 550.00
+ZRH | IAH | Turkish | 1 stop (IST) | 15:30 | 22:15 | 580.00
+ZRH | IAH | British Airways | 1 stop (LHR) | 16:45 | 23:30 | 820.00
+ZRH | IAH | KLM | 1 stop (AMS) | 18:00 | 00:45 | 650.00
