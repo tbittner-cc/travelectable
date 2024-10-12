@@ -3,9 +3,19 @@
 {% block content %}
 <div class="mx-4 py-8 flex flex-col md:flex-row">
     <div class="w-full md:w-1/4">
+        <div class="text-lg md:text-xl font-bold mb-4 md:mt-8">Filter by:</div>
+        <div class="font-bold text-lg mb-2">Stops</div>
+        <!-- Add checkboxes for each stop option  -->
+        <div class="flex flex-col mb-2">
+            <div class="text-lg">
+                <input type="checkbox" name="non-stop" value="0" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <label for="non-stop">Non-stop</label>
+                </div>
+        </div>
     </div>
 
-    <div class="w-full md:w-2/3">
+    <div class="w-full md:w-3/4">
         <h1 class="text-lg md:text-2xl font-bold mb-4">Flight Search Results for {{ origin_location }} to
             {{ destination_location }}
             ({{ start_date.strftime('%B %-d') }} - {{ end_date.strftime('%B %-d') }})</h1>
