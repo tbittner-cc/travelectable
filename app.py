@@ -236,6 +236,7 @@ def flight():
     origin_flights = flight_utilities.get_flight_search_results(session["origin"], session['destination'], session["dates"][0])
 
     flight_combos = origin_flights
+    flight_filters = flight_utilities.generate_filters(origin_flights)
 
     return render_template(
         "flight_search_results.html",
@@ -244,6 +245,7 @@ def flight():
         start_date=session["dates"][0],
         end_date=session["dates"][1],
         flight_combos=flight_combos,
+        flight_filters=flight_filters,
     )
 
 @app.route("/return-flight",methods=["GET", "POST"])

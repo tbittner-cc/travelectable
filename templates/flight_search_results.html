@@ -5,13 +5,94 @@
     <div class="w-full md:w-1/4">
         <div class="text-lg md:text-xl font-bold mb-4 md:mt-8">Filter by:</div>
         <div class="font-bold text-lg mb-2">Stops</div>
-        <!-- Add checkboxes for each stop option  -->
-        <div class="flex flex-col mb-2">
-            <div class="text-lg">
-                <input type="checkbox" name="non-stop" value="0" hx-post="/flight-amenity-results" hx-trigger="change"
+        <div class="flex flex-col text-sm mb-2">
+            {% for key, value in flight_filters["stops"].items()|sort %}
+            {% if key == 0 %}
+            <div class="flex items-center">
+                <input type="checkbox" name="non-stop" hx-post="/flight-amenity-results" hx-trigger="change"
                     hx-target="#flight-search-results">
-                <label for="non-stop">Non-stop</label>
-                </div>
+                <label class="ml-2" for="non-stop">Non-stop ({{value}})</label>
+            </div>
+            {% elif key == 1 %}
+            <div class="flex items-center">
+                <input type="checkbox" name="1-stop" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <label class="ml-2" for="1-stop">1 stop ({{value}})</label>
+            </div>
+            {% else %}
+            <div class="flex items-center">
+                <input type="checkbox" name="{{key}}-stops" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <label class="ml-2" for="{{key}}-stops">{{key}} stops ({{value}})</label>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="font-bold text-lg mb-2">Airlines</div>
+        <div class="flex flex-col mb-2 text-sm">
+            {% for key, value in flight_filters["airlines"].items()|sort %}
+            <div class="flex items-center">
+                <input type="checkbox" name="{{key}}" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <label class="ml-2" for="{{key}}">{{key}} ({{value}})</label>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="font-bold text-lg mb-2">Layover Airport</div>
+        <div class="flex flex-col text-sm mb-2">
+        {% for key, value in flight_filters["layover_airports"].items()|sort %}
+        <div class="flex items-center">
+            <input type="checkbox" name="{{key}}" hx-post="/flight-amenity-results" hx-trigger="change"
+                hx-target="#flight-search-results">
+            <label class="ml-2" for="{{key}}">{{key}} ({{value}})</label>
+        </div>
+        {% endfor %}
+        </div>
+
+        <div class="font-bold text-lg mb-2">Departure Time</div>
+        <div class="flex flex-col text-sm mb-2">
+            <div class="flex items-center">
+                <input type="checkbox" name="morning_departure" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <i class="ml-2 bi bi-sunrise-fill text-travelblue"></i>
+                <label class="ml-2" for="morning_departure"><span class ="font-bold">Morning</span> (05:00 AM - 11:59 AM)</label>
+            </div>
+            <div class="flex items-center">
+                <input type="checkbox" name="afternoon_departure" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <i class="ml-2 bi bi-sun-fill text-travelblue"></i>
+                <label class="ml-2" for="afternoon_departure"><span class ="font-bold">Afternoon</span> (12:00 PM - 05:59 PM)</label>
+            </div>
+            <div class="flex items-center">
+                <input type="checkbox" name="evening_departure" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <i class="ml-2 bi bi-moon-stars-fill text-travelblue"></i>
+                <label class="ml-2" for="evening_departure"><span class ="font-bold">Evening</span> (18:00 PM - 23:59 PM)</label>
+            </div>
+        </div>
+
+        <div class="font-bold text-lg mb-2">Arrival Time</div>
+        <div class="flex flex-col text-sm">
+            <div class="flex items-center">
+                <input type="checkbox" name="morning_arrival" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <i class="ml-2 bi bi-sunrise-fill text-travelblue"></i>
+                <label class="ml-2" for="morning_arrival"><span class ="font-bold">Morning</span> (05:00 AM - 11:59 AM)</label>
+            </div>
+            <div class="flex items-center">
+                <input type="checkbox" name="afternoon_arrival" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <i class="ml-2 bi bi-sun-fill text-travelblue"></i>
+                <label class="ml-2" for="afternoon_arrival"><span class ="font-bold">Afternoon</span> (12:00 PM - 05:59 PM)</label>
+            </div>
+            <div class="flex items-center">
+                <input type="checkbox" name="evening_arrival" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <i class="ml-2 bi bi-moon-stars-fill text-travelblue"></i>
+                <label class="ml-2" for="evening_arrival"><span class ="font-bold">Evening</span> (18:00 PM - 23:59 PM)</label>
+            </div>
         </div>
     </div>
 
