@@ -252,3 +252,7 @@ def flight():
 def return_flight():
     origin_flight = request.form["flight_id"]
     return origin_flight
+
+@app.route("/flight-amenity-results", methods=["GET", "POST"])
+def flight_amenity_results():
+    return request.form

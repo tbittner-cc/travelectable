@@ -2,27 +2,24 @@
 
 {% block content %}
 <div class="mx-4 py-8 flex flex-col md:flex-row">
-    <div class="w-full md:w-1/4">
+    <form class="w-full md:w-1/4" hx-post="/flight-amenity-results" hx-target="#flight-search-results" hx-trigger="change">
         <div class="text-lg md:text-xl font-bold mb-4 md:mt-8">Filter by:</div>
         <div class="font-bold text-lg mb-2">Stops</div>
         <div class="flex flex-col text-sm mb-2">
             {% for key, value in flight_filters["stops"].items()|sort %}
             {% if key == 0 %}
             <div class="flex items-center">
-                <input type="checkbox" name="non-stop" hx-post="/flight-amenity-results" hx-trigger="change"
-                    hx-target="#flight-search-results">
+                <input type="checkbox" name="0-stop" />
                 <label class="ml-2" for="non-stop">Non-stop ({{value}})</label>
             </div>
             {% elif key == 1 %}
             <div class="flex items-center">
-                <input type="checkbox" name="1-stop" hx-post="/flight-amenity-results" hx-trigger="change"
-                    hx-target="#flight-search-results">
+                <input type="checkbox" name="1-stop" />
                 <label class="ml-2" for="1-stop">1 stop ({{value}})</label>
             </div>
             {% else %}
             <div class="flex items-center">
-                <input type="checkbox" name="{{key}}-stops" hx-post="/flight-amenity-results" hx-trigger="change"
-                    hx-target="#flight-search-results">
+                <input type="checkbox" name="{{key}}-stop" />
                 <label class="ml-2" for="{{key}}-stops">{{key}} stops ({{value}})</label>
             </div>
             {% endif %}
@@ -33,7 +30,7 @@
         <div class="flex flex-col mb-2 text-sm">
             {% for key, value in flight_filters["airlines"].items()|sort %}
             <div class="flex items-center">
-                <input type="checkbox" name="{{key}}" hx-post="/flight-amenity-results" hx-trigger="change"
+                <input type="checkbox" name="{{key}}" hx-post="/flight-amenity-results" hx-trigger="click"
                     hx-target="#flight-search-results">
                 <label class="ml-2" for="{{key}}">{{key}} ({{value}})</label>
             </div>
@@ -94,9 +91,9 @@
                 <label class="ml-2" for="evening_arrival"><span class ="font-bold">Evening</span> (18:00 PM - 23:59 PM)</label>
             </div>
         </div>
-    </div>
+    </form>
 
-    <div class="w-full md:w-3/4">
+    <div class="w-full md:w-3/4" id="flight-search-results">
         <h1 class="text-lg md:text-2xl font-bold mb-4">Flight Search Results for {{ origin_location }} to
             {{ destination_location }}
             ({{ start_date.strftime('%B %-d') }} - {{ end_date.strftime('%B %-d') }})</h1>
