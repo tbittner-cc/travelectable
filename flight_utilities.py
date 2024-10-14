@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 import pytz
 import sqlite3
 
+airline_list = ["Aerius Global","Aurora Voyages","Celestial Wings","Horizon Connect","Skypath Airways"]
 
 def retrieve_airports(location):
     # (8, 'Boston', 'USA', '(BOS)') -> ["BOS"]
@@ -44,7 +45,7 @@ def get_flight_duration(flight_date, dep_time, arr_time, dep_tz, arr_tz):
     return f"{hours}h {minutes}m"
 
 
-def get_flight_search_results(origin, destination, flight_date):
+def get_all_flight_search_results(origin, destination, flight_date):
     origin_codes = retrieve_airports(origin)
     destination_codes = retrieve_airports(destination)
     search_results = []
@@ -131,5 +132,20 @@ def generate_filters(flight_search_results):
                 flight_filters["layover_airports"][layover_airport] = (
                     flight_filters["layover_airports"].get(layover_airport, 0) + 1
                 )
-                
+
     return flight_filters
+
+def filter_flights(flight_filters, flight_search_results):
+    # If there are no filters, return everything
+    if flight_filters == {}:
+        return flight_search_results
+
+    filtered_results = []
+    stops = [int(key.split('-')[0]) for key in flight_filters if 'stop' in key]
+    # If no stop filters, return all stop combinations
+    if stops == []:
+        stop_results = flight_search_results
+    else:
+        stop_results = [result for result in flight_search_results if result['num_stops'] in stops]
+
+    return stop_results

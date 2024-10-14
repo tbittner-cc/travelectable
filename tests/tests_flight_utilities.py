@@ -35,9 +35,9 @@ class TestGetFlightDuration(unittest.TestCase):
         self.assertEqual(result, "2h 0m")
 
 
-class TestGetFlightSearchResults(unittest.TestCase):
-    def test_get_flight_search_results(self):
-        result = flight_utilities.get_flight_search_results(
+class TestGetAllFlightSearchResults(unittest.TestCase):
+    def test_get_all_flight_search_results(self):
+        result = flight_utilities.get_all_flight_search_results(
             (1, "New York", "USA", "(JFK, LGA, EWR)"),
             (3, "Chicago", "USA", "(ORD,MDW)"),
             datetime(2024, 10, 10),
@@ -64,7 +64,7 @@ class TestGenerateFilters(unittest.TestCase):
         self.maxDiff = None
 
     def test_generate_filters(self):
-        flight_results = flight_utilities.get_flight_search_results(
+        flight_results = flight_utilities.get_all_flight_search_results(
             (1, "New York", "USA", "(JFK, LGA, EWR)"),
             (3, "Chicago", "USA", "(ORD,MDW)"),
             datetime(2024, 10, 10),
@@ -97,3 +97,25 @@ class TestGenerateFilters(unittest.TestCase):
                 },
             },
         )
+
+class TestFilterFlights(unittest.TestCase):
+    def test_filter_flights(self):
+        flight_results = flight_utilities.get_all_flight_search_results(
+            (1, "New York", "USA", "(JFK, LGA, EWR)"),
+            (3, "Chicago", "USA", "(ORD,MDW)"),
+           datetime(2024, 10, 10),)
+
+        flight_filters = {'0-stop':'on'}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result), 25)
+
+        flight_filters = {'0-stop':'on','1-stop':'on'}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result), 48)
+
+        flight_filters = {'STL':'on'}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result), 48)
