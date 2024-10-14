@@ -115,7 +115,17 @@ class TestFilterFlights(unittest.TestCase):
         result = flight_utilities.filter_flights(flight_filters, flight_results)
         self.assertEqual(len(result), 48)
 
-        flight_filters = {'STL':'on'}
+        flight_filters = {'airline-Aerius Global':'on'}
 
         result = flight_utilities.filter_flights(flight_filters, flight_results)
-        self.assertEqual(len(result), 48)
+        self.assertEqual(len(result), 6)
+
+        flight_filters = {'airport-BWI':'on'}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result), 4)
+
+        flight_filters = {'airport-BWI':'on','airline-Celestial Wings':'on'}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result), 3)
