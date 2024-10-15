@@ -173,3 +173,27 @@ def filter_flights(flight_filters, flight_search_results):
         ]
 
     return layover_results
+
+
+def get_flight_details(flight_id, flight_date):
+    with sqlite3.connect("travelectable.db") as conn:
+        curr = conn.cursor()
+        curr.execute(
+            """SELECT origin,destination,airline,departure_time,arrival_time, price
+            FROM flight_schedules WHERE id = ?""",
+            (flight_id,),
+        )
+        rows = curr.fetchone()
+
+        columns = [column[0] for column in curr.description]
+        flight_details = dict(zip(columns, rows))
+
+        flight_details["departure_time"] = datetime.strptime(
+            flight_details["departure_time"], "%H:%M"
+        )
+
+        flight_details["arrival_time"] = datetime.strptime(
+            flight_details["arrival_time"], "%H:%M"
+        )
+
+    return flight_details

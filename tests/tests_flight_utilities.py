@@ -98,34 +98,53 @@ class TestGenerateFilters(unittest.TestCase):
             },
         )
 
+
 class TestFilterFlights(unittest.TestCase):
     def test_filter_flights(self):
         flight_results = flight_utilities.get_all_flight_search_results(
             (1, "New York", "USA", "(JFK, LGA, EWR)"),
             (3, "Chicago", "USA", "(ORD,MDW)"),
-           datetime(2024, 10, 10),)
+            datetime(2024, 10, 10),
+        )
 
-        flight_filters = {'0-stop':'on'}
+        flight_filters = {"0-stop": "on"}
 
         result = flight_utilities.filter_flights(flight_filters, flight_results)
         self.assertEqual(len(result), 25)
 
-        flight_filters = {'0-stop':'on','1-stop':'on'}
+        flight_filters = {"0-stop": "on", "1-stop": "on"}
 
         result = flight_utilities.filter_flights(flight_filters, flight_results)
         self.assertEqual(len(result), 48)
 
-        flight_filters = {'airline-Aerius Global':'on'}
+        flight_filters = {"airline-Aerius Global": "on"}
 
         result = flight_utilities.filter_flights(flight_filters, flight_results)
         self.assertEqual(len(result), 6)
 
-        flight_filters = {'airport-BWI':'on'}
+        flight_filters = {"airport-BWI": "on"}
 
         result = flight_utilities.filter_flights(flight_filters, flight_results)
         self.assertEqual(len(result), 4)
 
-        flight_filters = {'airport-BWI':'on','airline-Celestial Wings':'on'}
+        flight_filters = {"airport-BWI": "on", "airline-Celestial Wings": "on"}
 
         result = flight_utilities.filter_flights(flight_filters, flight_results)
         self.assertEqual(len(result), 3)
+
+
+class TestGetFlightDetails(unittest.TestCase):
+    def test_get_flight_details(self):
+        result = flight_utilities.get_flight_details(1, datetime(2024, 10, 10))
+
+        self.assertEqual(
+            result,
+            {
+                "origin": "JFK",
+                "destination": "LAX",
+                "airline": "Celestial Wings",
+                "arrival_time": datetime(1900, 1, 1, 11, 30),
+                "departure_time": datetime(1900, 1, 1, 8, 0),
+                "price": "425.00",
+            },
+        )

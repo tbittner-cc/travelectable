@@ -2,13 +2,10 @@ from datetime import datetime
 from flask import Flask, make_response, request, redirect, render_template, session
 import flight_utilities
 import os
-import spacy
 import utilities
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("TRAVELECTABLE_FLASK_SECRET")
-
-nlp = spacy.load("en_core_web_sm")
 
 locations = utilities.get_all_locations()
 formatted_locations = [
@@ -229,42 +226,58 @@ def complete_booking():
 
 
 @app.route("/origin-flight")
-def flight():
-    origins = flight_utilities.retrieve_airports(session["origin"])
-    destinations = flight_utilities.retrieve_airports(session["destination"])
-
-    origin_flights = flight_utilities.get_all_flight_search_results(session["origin"], session['destination'], session["dates"][0])
-
-    flight_filters = flight_utilities.generate_filters(origin_flights)
-
-    return render_template(
-        "flight_search_results.html",
-        origin_location=session["origin"][1],
-        destination_location=session["destination"][1],
-        start_date=session["dates"][0],
-        end_date=session["dates"][1],
-        flight_combos=origin_flights,
-        flight_filters=flight_filters,
-    )
+def origin_flight():
+    return _flight(session["origin"], session["destination"], session["dates"][0])
 
 @app.route("/return-flight",methods=["GET", "POST"])
 def return_flight():
-    origin_flight = request.form["flight_id"]
-    return origin_flight
+    return _flight(session["destination"], session["origin"], session["dates"][1])
+
+def _flight(start_location, end_location, flight_date):
+    flights = flight_utilities.get_all_flight_search_results(start_location, end_location, flight_date)
+    flight_filters = flight_utilities.generate_filters(flights)
+
+    if request.form.get("flight_id"):
+        origin_flight = flight_utilities.get_flight_details(request.form.get("flight_id"),flight_date)
+    else:
+        origin_flight = None
+
+    return render_template(
+        "flight_search_results.html",
+        start_location=session["origin"][1],
+        end_location=session["destination"][1],
+        start_date=session["dates"][0],
+        end_date=session["dates"][1],
+        flight_combos=flights,
+        flight_filters=flight_filters,
+        origin_flight = origin_flight,
+    )
+
 
 @app.route("/flight-amenity-results", methods=["GET", "POST"])
 def flight_amenity_results():
-    origin_flights = flight_utilities.get_all_flight_search_results(session["origin"], session['destination'], session["dates"][0])
+    if request.form.get("flight_id"):
+        start_location = session["destination"]
+        end_location = session["origin"]
+        flight_date = session["dates"][1]
+        origin_flight = flight_utilities.get_flight_details(request.form.get("flight_id"),session["dates"][0])
+    else:
+        start_location = session["origin"]
+        end_location = session["destination"]
+        flight_date = session["dates"][0]
+        origin_flight = None
+
+    flights = flight_utilities.get_all_flight_search_results(start_location, end_location, flight_date)
 
     flight_filters = request.form
-    modified_origin_flights = flight_utilities.filter_flights(flight_filters, origin_flights)
-
+    modified_flights = flight_utilities.filter_flights(flight_filters, flights)
 
     return render_template(
         "flight_search_cards.html",
-        origin_location=session["origin"][1],
-        destination_location=session["destination"][1],
+        start_location=session["destination"][1],
+        end_location=session["origin"][1],
         start_date=session["dates"][0],
         end_date=session["dates"][1],
-        flight_combos=modified_origin_flights,
+        flight_combos=modified_flights,
+        origin_flight = origin_flight,
     )
