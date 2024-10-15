@@ -179,7 +179,7 @@ def get_flight_details(flight_id, flight_date):
     with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
         curr.execute(
-            """SELECT origin,destination,airline,departure_time,arrival_time, price
+            """SELECT id,origin,destination,airline,departure_time,arrival_time, price
             FROM flight_schedules WHERE id = ?""",
             (flight_id,),
         )

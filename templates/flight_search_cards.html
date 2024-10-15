@@ -4,8 +4,8 @@
     {% else %}
     Departing
     {% endif %}
-    Flight Search Results for {{ start_location }} to
-    {{ end_location }}
+    Flight Search Results for {{ session["origin"][1] }} to
+    {{ session["destination"][1] }}
     ({{ start_date.strftime('%B %-d') }} - {{ end_date.strftime('%B %-d') }})</h1>
 
     {% if origin_flight %}
@@ -14,7 +14,7 @@
         Departing Flight:
         </div>
         <div class="mr-2">
-        {{start_location}} ({{ origin_flight['origin'] }}) {{ origin_flight['departure_time'].strftime("%I:%M %p") }}
+        {{ session["origin"][1] }} ({{ origin_flight['origin'] }}) {{ origin_flight['departure_time'].strftime("%I:%M %p") }}
         </div>
         <hr class="hidden md:inline-block w-4 border border-travelnavy inline-block mr-1" />
         <div>
@@ -22,7 +22,7 @@
         </div>
         <hr class="hidden md:inline-block border border-travelnavy w-4 inline-block mr-2" />
         <div>
-        {{end_location}} ({{ origin_flight['destination'] }}) {{ origin_flight['arrival_time'].strftime("%I:%M %p") }}
+        {{session["destination"][1] }} ({{ origin_flight['destination'] }}) {{ origin_flight['arrival_time'].strftime("%I:%M %p") }}
         </div>
     </div>
     {% endif %}

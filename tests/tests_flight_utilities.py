@@ -140,6 +140,7 @@ class TestGetFlightDetails(unittest.TestCase):
         self.assertEqual(
             result,
             {
+                "id": 1,
                 "origin": "JFK",
                 "destination": "LAX",
                 "airline": "Celestial Wings",
