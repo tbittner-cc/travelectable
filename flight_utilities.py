@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 import pytz
 import sqlite3
 
+
 def retrieve_airports(location):
     # (8, 'Boston', 'USA', '(BOS)') -> ["BOS"]
     return [x.strip("(").strip(")").strip() for x in location[3].split(",")]
@@ -125,7 +126,10 @@ def generate_filters(flight_search_results):
         )
 
         if result["layover_airports"] != "":
-            layover_airports = [x.strip() for x in result["layover_airports"].strip('(').strip(')').split(",")]
+            layover_airports = [
+                x.strip()
+                for x in result["layover_airports"].strip("(").strip(")").split(",")
+            ]
             for layover_airport in layover_airports:
                 flight_filters["layover_airports"][layover_airport] = (
                     flight_filters["layover_airports"].get(layover_airport, 0) + 1
@@ -133,30 +137,39 @@ def generate_filters(flight_search_results):
 
     return flight_filters
 
+
 def filter_flights(flight_filters, flight_search_results):
     # If there are no filters, return everything
     if flight_filters == {}:
         return flight_search_results
 
-    stops = [int(key.split('-')[0]) for key in flight_filters if 'stop' in key]
+    stops = [int(key.split("-")[0]) for key in flight_filters if "stop" in key]
     # If no stop filters, return all stop combinations
     if stops == []:
         stop_results = flight_search_results
     else:
-        stop_results = [result for result in flight_search_results if result['num_stops'] in stops]
+        stop_results = [
+            result for result in flight_search_results if result["num_stops"] in stops
+        ]
 
-    airlines = [key.split('-')[1] for key in flight_filters if 'airline' in key]
+    airlines = [key.split("-")[1] for key in flight_filters if "airline" in key]
 
     if airlines == []:
         airline_results = stop_results
     else:
-        airline_results = [result for result in stop_results if result['airline'] in airlines]
+        airline_results = [
+            result for result in stop_results if result["airline"] in airlines
+        ]
 
-    layover_airports = [key.split('-')[1] for key in flight_filters if 'airport' in key]
+    layover_airports = [key.split("-")[1] for key in flight_filters if "airport" in key]
 
     if layover_airports == []:
         layover_results = airline_results
     else:
-        layover_results = [result for result in airline_results if any(s in result['layover_airports'] for s in layover_airports)]
+        layover_results = [
+            result
+            for result in airline_results
+            if any(s in result["layover_airports"] for s in layover_airports)
+        ]
 
     return layover_results

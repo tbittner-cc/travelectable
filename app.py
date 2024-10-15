@@ -68,7 +68,7 @@ def hotel_sort():
         hotels = sorted(hotels, key=lambda x: x["star_rating"], reverse=True)
 
     template = render_template(
-        "hotel_search_card.html",
+        "hotel_search_cards.html",
         hotel_location=session["destination"][1],
         hotels=hotels,
         start_date=session["dates"][0],
@@ -127,7 +127,7 @@ def hotel_amenity_results():
     add_lead_rates(hotels, session["dates"])
 
     template = render_template(
-        "hotel_search_card.html",
+        "hotel_search_cards.html",
         hotel_location=session["destination"][1],
         hotels=hotels,
         start_date=session["dates"][0],
@@ -235,7 +235,6 @@ def flight():
 
     origin_flights = flight_utilities.get_all_flight_search_results(session["origin"], session['destination'], session["dates"][0])
 
-    flight_combos = origin_flights
     flight_filters = flight_utilities.generate_filters(origin_flights)
 
     return render_template(
@@ -244,7 +243,7 @@ def flight():
         destination_location=session["destination"][1],
         start_date=session["dates"][0],
         end_date=session["dates"][1],
-        flight_combos=flight_combos,
+        flight_combos=origin_flights,
         flight_filters=flight_filters,
     )
 
@@ -255,4 +254,17 @@ def return_flight():
 
 @app.route("/flight-amenity-results", methods=["GET", "POST"])
 def flight_amenity_results():
-    return request.form
+    origin_flights = flight_utilities.get_all_flight_search_results(session["origin"], session['destination'], session["dates"][0])
+
+    flight_filters = request.form
+    modified_origin_flights = flight_utilities.filter_flights(flight_filters, origin_flights)
+
+
+    return render_template(
+        "flight_search_cards.html",
+        origin_location=session["origin"][1],
+        destination_location=session["destination"][1],
+        start_date=session["dates"][0],
+        end_date=session["dates"][1],
+        flight_combos=modified_origin_flights,
+    )
