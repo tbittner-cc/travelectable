@@ -2,7 +2,10 @@
 
 {% block content %}
 <div class="mx-4 py-8 flex flex-col md:flex-row">
-    <form class="w-full md:w-1/4" hx-post="/flight-amenity-results" hx-target="#flight-search-results" hx-trigger="change">
+    <button _="on click toggle .hidden on #flight-filters toggle .hidden on #flight-search-results" class="bg-travelblue text-white px-4 py-2 rounded-md md:hidden">
+        Filters
+    </button>
+    <form id="flight-filters" class="hidden md:block w-full md:w-1/4" hx-post="/flight-amenity-results" hx-target="#flight-search-results" hx-trigger="change">
         <div class="text-lg md:text-xl font-bold mb-4 md:mt-8">Filter by:</div>
         <div class="font-bold text-lg mb-2">Stops</div>
         <div class="flex flex-col text-sm mb-2">
@@ -91,6 +94,9 @@
                 <label class="ml-2" for="evening_arrival"><span class ="font-bold">Evening</span> (18:00 PM - 23:59 PM)</label>
             </div>
         </div>
+        <button _="on click toggle .hidden on #flight-filters toggle .hidden on #flight-search-results" class="bg-travelblue text-white px-4 py-2 rounded-md md:hidden max-w-fit">
+            Done
+        </button>
     </form>
 
     <div class="w-full md:w-3/4" id="flight-search-results">
