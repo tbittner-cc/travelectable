@@ -244,8 +244,8 @@ def _flight(start_location, end_location, flight_date):
 
     return render_template(
         "flight_search_results.html",
-        start_location=session["origin"][1],
-        end_location=session["destination"][1],
+        start_location=start_location[1],
+        end_location=end_location[1],
         start_date=session["dates"][0],
         end_date=session["dates"][1],
         flight_combos=flights,
@@ -274,10 +274,14 @@ def flight_amenity_results():
 
     return render_template(
         "flight_search_cards.html",
-        start_location=session["destination"][1],
-        end_location=session["origin"][1],
+        start_location=start_location[1],
+        end_location=end_location[1],
         start_date=session["dates"][0],
         end_date=session["dates"][1],
         flight_combos=modified_flights,
         origin_flight = origin_flight,
     )
+
+@app.route("/flight-details", methods=["GET", "POST"])
+def flight_details():
+    return f"""Flight Details: {request.form["origin_id"]}, {request.form["return_id"]}"""

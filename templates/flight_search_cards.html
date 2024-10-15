@@ -73,6 +73,17 @@
         </div>
     </div>
     <div class="basis-1/6 text-right flex flex-col justify-center items-center md:justify-start md:items-end pr-2">
+        {% if origin_flight %}
+        <div class="font-bold text-2xl">${{ combo['price'] | float | int }}</div>
+        <div class="text-xs">${{ origin_flight['price'] | float | int + combo['price'] | float | int }} total</div>
+        <form action="/flight-details" method="POST" class="max-w-fit mt-4">
+            <input type="hidden" name="origin_id" value="{{ origin_flight['id'] }}" />
+            <input type="hidden" name="return_id" value="{{ combo['id'] }}" />
+            <button type="submit" class="bg-travelblue text-white px-4 py-2 rounded-md">
+                Book Now
+            </button>
+        </form>
+        {% else %} 
         <div class="font-bold text-2xl">${{ combo['price'] | float | int }}</div>
         <div class="text-xs">per passenger</div>
         <form action="/return-flight" method="POST" class="max-w-fit mt-4">
@@ -81,6 +92,7 @@
                 Book Now
             </button>
         </form>
+        {% endif %}
     </div>
 </div>
 {% endfor %}
