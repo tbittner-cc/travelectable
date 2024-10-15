@@ -2,10 +2,13 @@
 
 {% block content %}
 <div class="mx-4 py-8 flex flex-col md:flex-row">
-    <button _="on click toggle .hidden on #flight-filters toggle .hidden on #flight-search-results" class="bg-travelblue text-white px-4 py-2 rounded-md md:hidden">
+    <button
+        _="on click toggle .hidden on #flight-filters toggle .hidden on #flight-search-results toggle .hidden on #done-filter-button"
+        class="bg-travelblue text-white px-4 py-2 mb-4 rounded-md md:hidden">
         Filters
     </button>
-    <form id="flight-filters" class="hidden md:block w-full md:w-1/4" hx-post="/flight-amenity-results" hx-target="#flight-search-results" hx-trigger="change">
+    <form id="flight-filters" class="hidden md:block w-full md:w-1/4" hx-post="/flight-amenity-results"
+        hx-target="#flight-search-results" hx-trigger="change">
         <div class="text-lg md:text-xl font-bold mb-4 md:mt-8">Filter by:</div>
         <div class="font-bold text-lg mb-2">Stops</div>
         <div class="flex flex-col text-sm mb-2">
@@ -42,13 +45,13 @@
 
         <div class="font-bold text-lg mb-2">Layover Airport</div>
         <div class="flex flex-col text-sm mb-2">
-        {% for key, value in flight_filters["layover_airports"].items()|sort %}
-        <div class="flex items-center">
-            <input type="checkbox" name="airport-{{key}}" hx-post="/flight-amenity-results" hx-trigger="change"
-                hx-target="#flight-search-results">
-            <label class="ml-2" for="airport-{{key}}">{{key}} ({{value}})</label>
-        </div>
-        {% endfor %}
+            {% for key, value in flight_filters["layover_airports"].items()|sort %}
+            <div class="flex items-center">
+                <input type="checkbox" name="airport-{{key}}" hx-post="/flight-amenity-results" hx-trigger="change"
+                    hx-target="#flight-search-results">
+                <label class="ml-2" for="airport-{{key}}">{{key}} ({{value}})</label>
+            </div>
+            {% endfor %}
         </div>
 
         <div class="font-bold text-lg mb-2">Departure Time</div>
@@ -57,19 +60,22 @@
                 <input type="checkbox" name="morning_departure" hx-post="/flight-amenity-results" hx-trigger="change"
                     hx-target="#flight-search-results">
                 <i class="ml-2 bi bi-sunrise-fill text-travelblue"></i>
-                <label class="ml-2" for="morning_departure"><span class ="font-bold">Morning</span> (05:00 AM - 11:59 AM)</label>
+                <label class="ml-2" for="morning_departure"><span class="font-bold">Morning</span> (05:00 AM - 11:59
+                    AM)</label>
             </div>
             <div class="flex items-center">
                 <input type="checkbox" name="afternoon_departure" hx-post="/flight-amenity-results" hx-trigger="change"
                     hx-target="#flight-search-results">
                 <i class="ml-2 bi bi-sun-fill text-travelblue"></i>
-                <label class="ml-2" for="afternoon_departure"><span class ="font-bold">Afternoon</span> (12:00 PM - 05:59 PM)</label>
+                <label class="ml-2" for="afternoon_departure"><span class="font-bold">Afternoon</span> (12:00 PM - 05:59
+                    PM)</label>
             </div>
             <div class="flex items-center">
                 <input type="checkbox" name="evening_departure" hx-post="/flight-amenity-results" hx-trigger="change"
                     hx-target="#flight-search-results">
                 <i class="ml-2 bi bi-moon-stars-fill text-travelblue"></i>
-                <label class="ml-2" for="evening_departure"><span class ="font-bold">Evening</span> (18:00 PM - 23:59 PM)</label>
+                <label class="ml-2" for="evening_departure"><span class="font-bold">Evening</span> (18:00 PM - 23:59
+                    PM)</label>
             </div>
         </div>
 
@@ -79,25 +85,29 @@
                 <input type="checkbox" name="morning_arrival" hx-post="/flight-amenity-results" hx-trigger="change"
                     hx-target="#flight-search-results">
                 <i class="ml-2 bi bi-sunrise-fill text-travelblue"></i>
-                <label class="ml-2" for="morning_arrival"><span class ="font-bold">Morning</span> (05:00 AM - 11:59 AM)</label>
+                <label class="ml-2" for="morning_arrival"><span class="font-bold">Morning</span> (05:00 AM - 11:59
+                    AM)</label>
             </div>
             <div class="flex items-center">
                 <input type="checkbox" name="afternoon_arrival" hx-post="/flight-amenity-results" hx-trigger="change"
                     hx-target="#flight-search-results">
                 <i class="ml-2 bi bi-sun-fill text-travelblue"></i>
-                <label class="ml-2" for="afternoon_arrival"><span class ="font-bold">Afternoon</span> (12:00 PM - 05:59 PM)</label>
+                <label class="ml-2" for="afternoon_arrival"><span class="font-bold">Afternoon</span> (12:00 PM - 05:59
+                    PM)</label>
             </div>
             <div class="flex items-center">
                 <input type="checkbox" name="evening_arrival" hx-post="/flight-amenity-results" hx-trigger="change"
                     hx-target="#flight-search-results">
                 <i class="ml-2 bi bi-moon-stars-fill text-travelblue"></i>
-                <label class="ml-2" for="evening_arrival"><span class ="font-bold">Evening</span> (18:00 PM - 23:59 PM)</label>
+                <label class="ml-2" for="evening_arrival"><span class="font-bold">Evening</span> (18:00 PM - 23:59
+                    PM)</label>
             </div>
         </div>
-        <button _="on click toggle .hidden on #flight-filters toggle .hidden on #flight-search-results" class="bg-travelblue text-white px-4 py-2 rounded-md md:hidden max-w-fit">
-            Done
-        </button>
     </form>
+    <button _="on click toggle .hidden on me toggle .hidden on #flight-filters toggle .hidden on #flight-search-results"
+        id="done-filter-button" class="hidden bg-travelblue text-white px-4 py-2 mt-4 rounded-md md:hidden w-full">
+        Done
+    </button>
 
     <div class="w-full md:w-3/4" id="flight-search-results">
         {% include "flight_search_cards.html" %}
