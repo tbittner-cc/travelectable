@@ -137,6 +137,26 @@ class TestFilterFlights(unittest.TestCase):
         result = flight_utilities.filter_flights(flight_filters, flight_results)
         self.assertEqual(len(result),21)
 
+        flight_filters = {'afternoon-departure': 'on'}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result),20)
+
+        flight_filters = {'evening-departure': 'on'}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result),7)
+
+        flight_filters = {'afternoon-departure': 'on','airport-BWI': 'on'}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result),3)
+
+        flight_filters = {'morning-departure': 'on','afternoon-arrival': 'on'}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result),7)
+
 
 class TestGetFlightDetails(unittest.TestCase):
     def test_get_flight_details(self):

@@ -138,6 +138,48 @@ def generate_filters(flight_search_results):
     return flight_filters
 
 
+def _time_flight_filter(flight_results, flight_filters, time_key):
+    times = [key.split("-")[0] for key in flight_filters if time_key in key]
+
+    if times == []:
+        time_results = flight_results
+    else:
+        time_results = []
+        if "morning" in times:
+            morning_results = [
+                result
+                for result in flight_results
+                if result[f"{ time_key }_time"].hour > 4
+                and result[f"{ time_key }_time"].hour < 12
+            ]
+        else:
+            morning_results = []
+        time_results.extend(morning_results)
+
+        if "afternoon" in times:
+            afternoon_results = [
+                result
+                for result in flight_results
+                if result[f"{ time_key }_time"].hour > 11
+                and result[f"{ time_key }_time"].hour < 18
+            ]
+        else:
+            afternoon_results = []
+        time_results.extend(afternoon_results)
+
+        if "evening" in times:
+            evening_results = [
+                result
+                for result in flight_results
+                if result[f"{ time_key }_time"].hour > 17
+            ]
+        else:
+            evening_results = []
+        time_results.extend(evening_results)
+
+    return time_results
+
+
 def filter_flights(flight_filters, flight_search_results):
     # If there are no filters, return everything
     if flight_filters == {}:
@@ -172,26 +214,15 @@ def filter_flights(flight_filters, flight_search_results):
             if any(s in result["layover_airports"] for s in layover_airports)
         ]
 
-    departure_times = [
-        key.split("-")[0] for key in flight_filters if "departure" in key
-    ]
+    departure_results = _time_flight_filter(
+        layover_results, flight_filters, "departure"
+    )
 
-    if departure_times == []:
-        departure_results = layover_results
-    else:
-        departure_results = []
-        if "morning" in departure_times:
-            morning_results = [
-                result
-                for result in layover_results
-                if result["departure_time"].hour > 4
-                and result["departure_time"].hour < 12
-            ]
-        else:
-            morning_results = []
-        departure_results.extend(morning_results)
+    arrival_results = _time_flight_filter(
+        departure_results, flight_filters, "arrival"
+    )
 
-    return departure_results
+    return arrival_results
 
 
 def get_flight_details(flight_id, flight_date):
