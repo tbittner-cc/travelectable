@@ -172,7 +172,26 @@ def filter_flights(flight_filters, flight_search_results):
             if any(s in result["layover_airports"] for s in layover_airports)
         ]
 
-    return layover_results
+    departure_times = [
+        key.split("-")[0] for key in flight_filters if "departure" in key
+    ]
+
+    if departure_times == []:
+        departure_results = layover_results
+    else:
+        departure_results = []
+        if "morning" in departure_times:
+            morning_results = [
+                result
+                for result in layover_results
+                if result["departure_time"].hour > 4
+                and result["departure_time"].hour < 12
+            ]
+        else:
+            morning_results = []
+        departure_results.extend(morning_results)
+
+    return departure_results
 
 
 def get_flight_details(flight_id, flight_date):
