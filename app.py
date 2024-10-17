@@ -284,4 +284,5 @@ def flight_amenity_results():
 
 @app.route("/flight-details", methods=["GET", "POST"])
 def flight_details():
-    return f"""Flight Details: {request.form["origin_id"]}, {request.form["return_id"]}"""
+    return render_template("seatmap.html")
+    #return f"""Flight Details: {request.form["origin_id"]}, {request.form["return_id"]}"""
