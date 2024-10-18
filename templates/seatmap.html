@@ -2,15 +2,28 @@
 
 {% block content %}
 <div class="mx-auto my-4 w-max border-8 border-travelnavy rounded-lg">
-<svg class="w-80 h-[700px]">
-  <path d="M10,275 Q155,-250 310,275" class="stroke-slate-300 fill-slate-300"  />
-  <path d="M12,275 12,375" class="stroke-slate-300 stroke-[4px]" />
-  <path d="M308,275 308,375" class="stroke-slate-300 stroke-[4px]" />
-  {% for i in range(5) %}
-  <a href="/">
-  <rect x="{{ 30 + i*35 }}" y="290" width="30" height="30" rx="5" class="stroke-travelnavy" />
-  <rect x="{{ 32 + i*35 }}" y="312" width="26" height="4"  rx="1" class="stroke-white fill-none" />
-  </a>
-  {% endfor %}
-</svg>
+    <svg class="w-80 h-[700px]">
+        <path d="M10,275 Q155,-250 310,275" class="stroke-slate-300 fill-slate-300" />
+        <path d="M12,275 12,375" class="stroke-slate-300 stroke-[4px]" />
+        <path d="M308,275 308,375" class="stroke-slate-300 stroke-[4px]" />
+
+        {% for i in range(10) %}
+        {% for j in range(6) %}
+        {% if j < 3 %}
+        <a href="/">
+            <rect x="{{ 30 + j*35 }}" y="{{ 290 + i*40 }}" width="30" height="30" rx="5"
+                class="fill-travelnavy hover:fill-travelblue" />
+            <text x="{{ 45 + j*35 }}" y="{{ 308 + i*40 }}" text-anchor="middle" class="stroke-white fill-white stroke-1">A</text>
+            <rect x="{{ 32 + j*35 }}" y="{{ 312 + i*40 }}" width="26" height="4" rx="1" class="stroke-white fill-none" />
+        </a>
+        {% else %}
+        <a href="/" class="inline-block">
+            <rect x="{{ 80 + j*35 }}" y="{{ 290 + i*40 }}" width="30" height="30" rx="5"
+                class="fill-travelnavy hover:fill-travelblue" />
+            <rect x="{{ 82 + j*35 }}" y="{{ 312 + i*40 }}" width="26" height="4" rx="1" class="stroke-white fill-none" />
+        </a>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+    </svg>
 {% endblock %}
