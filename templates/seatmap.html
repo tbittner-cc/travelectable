@@ -2,11 +2,28 @@
 
 {% block content %}
 <div class="mx-auto my-4 w-max border-8 border-travelnavy rounded-lg">
-    <svg class="w-80 h-[700px]">
+    <!--svg class="w-80 h-[700px]">
         <path d="M10,275 Q155,-250 310,275" class="stroke-slate-300 fill-slate-300" />
         <path d="M12,275 12,375" class="stroke-slate-300 stroke-[4px]" />
         <path d="M308,275 308,375" class="stroke-slate-300 stroke-[4px]" />
+    </svg -->
 
+    <div class="flex my-4 justify-center">
+        <div class="basis-1/3">
+        <svg class="inline-block"><rect x="0" y="0" width="30" height="30" rx="5" class="fill-travelnavy hover:fill-travelblue" /></svg>
+        <svg class="inline-block"><rect x="0" y="0" width="30" height="30" rx="5" class="fill-travelnavy hover:fill-travelblue" /></svg>
+        <svg class="inline-block"><rect x="0" y="0" width="30" height="30" rx="5" class="fill-travelnavy hover:fill-travelblue" /></svg>
+        </div>
+        <div class="basis-1/3">
+            </div>
+        <div class="basis-1/3">
+        <svg><rect x="0" y="0" width="30" height="30" rx="5" class="fill-travelnavy hover:fill-travelblue" /></svg>
+        <svg><rect x="0" y="0" width="30" height="30" rx="5" class="fill-travelnavy hover:fill-travelblue" /></svg>
+        <svg><rect x="0" y="0" width="30" height="30" rx="5" class="fill-travelnavy hover:fill-travelblue" /></svg>
+        </div>
+    </div>
+
+    <!--svg>
         {% for i in range(10) %}
         {% for j in range(6) %}
         {% if j < 3 %}
@@ -25,5 +42,5 @@
         {% endif %}
         {% endfor %}
         {% endfor %}
-    </svg>
+    </svg -->
 {% endblock %}
