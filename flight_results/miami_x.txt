@@ -1,0 +1,1740 @@
+
+
+Here are the 16 flight plans:
+
+MIA | LAS | AA | 0 | 08:00 | 10:30 | 280.00
+MIA | LAS | UA | 1 (DEN) | 09:15 | 12:45 | 320.00
+MIA | LAS | WN | 0 | 10:30 | 13:00 | 250.00
+MIA | LAS | DL | 1 (ATL) | 11:45 | 15:15 | 380.00
+MIA | LAS | AS | 0 | 13:00 | 15:30 | 300.00
+MIA | LAS | F9 | 1 (DEN) | 14:15 | 17:45 | 350.00
+MIA | LAS | B6 | 0 | 15:30 | 18:00 | 270.00
+MIA | LAS | NK | 1 (IAH) | 16:45 | 20:15 | 330.00
+LAS | MIA | AA | 0 | 08:00 | 14:30 | 280.00
+LAS | MIA | UA | 1 (SFO) | 09:15 | 16:45 | 350.00
+LAS | MIA | WN | 0 | 10:30 | 17:00 | 250.00
+LAS | MIA | DL | 1 (LAX) | 11:45 | 19:15 | 400.00
+LAS | MIA | AS | 0 | 13:00 | 19:30 | 320.00
+LAS | MIA | F9 | 1 (PHX) | 14:15 | 21:45 | 370.00
+LAS | MIA | B6 | 0 | 15:30 | 22:00 | 290.00
+LAS | MIA | NK | 1 (ORD) | 16:45 | 00:15 | 360.00
+
+
+Here are the 16 flight plans:
+
+MIA | MSY | AA | 0 | 06:00 | 07:30 | 150.00
+MIA | MSY | UA | 1 (ATL) | 08:15 | 11:45 | 220.00
+MIA | MSY | DL | 0 | 09:30 | 11:00 | 180.00
+MIA | MSY | WN | 1 (TPA) | 10:45 | 13:15 | 200.00
+MIA | MSY | B6 | 0 | 12:00 | 13:30 | 160.00
+MIA | MSY | AS | 1 (FLL) | 13:15 | 15:45 | 240.00
+MIA | MSY | F9 | 1 (JAX) | 14:30 | 16:55 | 210.00
+MIA | MSY | NK | 0 | 16:00 | 17:30 | 190.00
+MSY | MIA | AA | 0 | 07:00 | 08:30 | 140.00
+MSY | MIA | UA | 1 (IAH) | 08:45 | 11:15 | 230.00
+MSY | MIA | DL | 0 | 10:00 | 11:30 | 170.00
+MSY | MIA | WN | 1 (HOU) | 11:15 | 13:45 | 200.00
+MSY | MIA | B6 | 0 | 12:30 | 14:00 | 150.00
+MSY | MIA | AS | 1 (PBI) | 13:45 | 16:15 | 250.00
+MSY | MIA | F9 | 1 (BHM) | 15:00 | 17:25 | 220.00
+MSY | MIA | NK | 0 | 16:30 | 18:00 | 180.00
+
+
+Here are the 16 flight plans:
+
+MIA | MCO | American Airlines | Non-stop | 06:00 | 07:15 | 150.00
+MIA | MCO | Delta Air Lines | 1 stop (ATL) | 08:30 | 11:45 | 220.00
+MIA | MCO | United Airlines | Non-stop | 10:00 | 11:20 | 180.00
+MIA | MCO | Spirit Airlines | 1 stop (FLL) | 12:15 | 15:30 | 200.00
+MIA | MCO | JetBlue Airways | Non-stop | 14:00 | 15:25 | 190.00
+MIA | MCO | Frontier Airlines | 1 stop (TPA) | 16:30 | 20:45 | 230.00
+MIA | MCO | Southwest Airlines | Non-stop | 18:00 | 19:25 | 210.00
+MIA | MCO | Alaska Airlines | 1 stop (PBI) | 20:15 | 23:30 | 240.00
+
+MCO | MIA | American Airlines | Non-stop | 07:00 | 08:15 | 160.00
+MCO | MIA | Delta Air Lines | 1 stop (JAX) | 09:30 | 12:45 | 250.00
+MCO | MIA | United Airlines | Non-stop | 11:00 | 12:20 | 200.00
+MCO | MIA | Spirit Airlines | 1 stop (RSW) | 13:15 | 16:30 | 220.00
+MCO | MIA | JetBlue Airways | Non-stop | 15:00 | 16:25 | 210.00
+MCO | MIA | Frontier Airlines | 1 stop (SFB) | 17:30 | 21:45 | 260.00
+MCO | MIA | Southwest Airlines | Non-stop | 19:00 | 20:25 | 230.00
+MCO | MIA | Alaska Airlines | 1 stop (EYW) | 21:15 | 00:30 | 280.00
+
+
+Here are the 16 flight plans:
+
+MIA | TPA | AA | 0 | 06:00 | 07:30 | 120.00
+MIA | TPA | DL | 1 (ATL) | 08:15 | 11:45 | 180.00
+MIA | TPA | UA | 0 | 09:30 | 11:00 | 150.00
+MIA | TPA | WN | 1 (FLL) | 10:45 | 13:15 | 220.00
+MIA | TPA | B6 | 0 | 12:00 | 13:30 | 130.00
+MIA | TPA | AS | 1 (PBI) | 13:15 | 16:45 | 200.00
+MIA | TPA | NK | 0 | 14:30 | 16:00 | 140.00
+MIA | TPA | F9 | 1 (RSW) | 15:45 | 18:15 | 240.00
+TPA | MIA | AA | 0 | 07:00 | 08:30 | 120.00
+TPA | MIA | DL | 1 (JAX) | 09:15 | 12:45 | 190.00
+TPA | MIA | UA | 0 | 10:30 | 12:00 | 160.00
+TPA | MIA | WN | 1 (PBI) | 11:45 | 14:15 | 230.00
+TPA | MIA | B6 | 0 | 13:00 | 14:30 | 140.00
+TPA | MIA | AS | 1 (FLL) | 14:15 | 17:45 | 210.00
+TPA | MIA | NK | 0 | 15:30 | 17:00 | 150.00
+TPA | MIA | F9 | 1 (RSW) | 16:45 | 19:15 | 260.00
+
+
+Here are the 16 flight plans:
+
+MIA | ANC | AA | 1 (DFW) | 08:00 | 14:30 | 542.00
+MIA | ANC | UA | 2 (ORD, SFO) | 09:30 | 19:15 | 620.00
+MIA | ANC | DL | 1 (ATL) | 10:15 | 16:45 | 580.00
+MIA | ANC | WN | 2 (BNA, DEN) | 11:00 | 20:30 | 650.00
+MIA | ANC | AS | 1 (SEA) | 12:30 | 19:00 | 590.00
+MIA | ANC | B6 | 2 (JFK, PDX) | 13:45 | 22:15 | 680.00
+MIA | ANC | F9 | 1 (DEN) | 14:50 | 21:20 | 610.00
+MIA | ANC | NK | 2 (FLL, LAX) | 16:00 | 23:45 | 700.00
+ANC | MIA | AA | 1 (PHX) | 08:30 | 18:15 | 520.00
+ANC | MIA | UA | 2 (SFO, IAH) | 09:45 | 20:30 | 630.00
+ANC | MIA | DL | 1 (MSP) | 11:00 | 19:45 | 600.00
+ANC | MIA | WN | 2 (DEN, HOU) | 12:15 | 22:00 | 660.00
+ANC | MIA | AS | 1 (PDX) | 13:30 | 21:15 | 620.00
+ANC | MIA | B6 | 2 (LAX, JFK) | 14:45 | 23:30 | 690.00
+ANC | MIA | F9 | 1 (LAS) | 16:00 | 23:45 | 640.00
+ANC | MIA | NK | 2 (SJC, MCO) | 17:15 | 01:00 | 720.00
+
+
+Here are the 16 flight plans:
+
+MIA | SJU | American Airlines | Non-stop | 08:00 | 10:30 | 250.00
+MIA | SJU | Delta Air Lines | 1 stop (ATL) | 09:15 | 13:45 | 320.00
+MIA | SJU | JetBlue Airways | Non-stop | 10:45 | 13:15 | 280.00
+MIA | SJU | United Airlines | 1 stop (EWR) | 11:30 | 15:00 | 350.00
+MIA | SJU | Spirit Airlines | 1 stop (FLL) | 12:00 | 15:30 | 220.00
+MIA | SJU | Frontier Airlines | Non-stop | 13:15 | 15:45 | 240.00
+MIA | SJU | Southwest Airlines | 1 stop (TPA) | 14:00 | 17:30 | 300.00
+MIA | SJU | Alaska Airlines | Non-stop | 15:30 | 18:00 | 260.00
+SJU | MIA | American Airlines | Non-stop | 08:00 | 10:30 | 270.00
+SJU | MIA | Delta Air Lines | 1 stop (BOS) | 09:15 | 13:45 | 340.00
+SJU | MIA | JetBlue Airways | Non-stop | 10:45 | 13:15 | 290.00
+SJU | MIA | United Airlines | 1 stop (ORD) | 11:30 | 15:00 | 370.00
+SJU | MIA | Spirit Airlines | 1 stop (PBI) | 12:00 | 15:30 | 230.00
+SJU | MIA | Frontier Airlines | Non-stop | 13:15 | 15:45 | 250.00
+SJU | MIA | Southwest Airlines | 1 stop (RDU) | 14:00 | 17:30 | 310.00
+SJU | MIA | Alaska Airlines | Non-stop | 15:30 | 18:00 | 280.00
+
+
+Here are the 16 flight plans:
+
+MIA | BHB | AA | 0 | 06:00 | 08:30 | 250.00
+MIA | BHB | UA | 1 (CLT) | 08:00 | 12:30 | 320.00
+MIA | BHB | DL | 0 | 10:00 | 12:30 | 280.00
+MIA | BHB | WN | 1 (TPA) | 12:00 | 16:30 | 350.00
+MIA | BHB | AS | 0 | 14:00 | 16:30 | 300.00
+MIA | BHB | B6 | 1 (JFK) | 16:00 | 20:30 | 380.00
+MIA | BHB | F9 | 0 | 18:00 | 20:30 | 260.00
+MIA | BHB | NK | 1 (FLL) | 20:00 | 00:30 | 400.00
+BHB | MIA | AA | 0 | 06:00 | 08:30 | 270.00
+BHB | MIA | UA | 1 (EWR) | 08:00 | 12:30 | 340.00
+BHB | MIA | DL | 0 | 10:00 | 12:30 | 290.00
+BHB | MIA | WN | 1 (BWI) | 12:00 | 16:30 | 360.00
+BHB | MIA | AS | 0 | 14:00 | 16:30 | 310.00
+BHB | MIA | B6 | 1 (MCO) | 16:00 | 20:30 | 390.00
+BHB | MIA | F9 | 0 | 18:00 | 20:30 | 280.00
+BHB | MIA | NK | 1 (PBI) | 20:00 | 00:30 | 420.00
+
+
+Here are the 16 flight plans:
+
+MIA | MRY | AA | 1 (LAX) | 08:00 | 11:30 | 450.00
+MIA | MRY | UA | 0 | 10:30 | 13:45 | 520.00
+MIA | MRY | DL | 1 (SFO) | 12:00 | 15:20 | 480.00
+MIA | MRY | WN | 1 (PHX) | 14:00 | 17:10 | 420.00
+MIA | MRY | AS | 0 | 16:00 | 19:15 | 500.00
+MIA | MRY | F9 | 1 (DEN) | 18:00 | 21:20 | 440.00
+MIA | MRY | B6 | 1 (JFK) | 20:00 | 23:25 | 460.00
+MIA | MRY | NK | 0 | 22:00 | 01:15 | 400.00
+MRY | MIA | AA | 1 (LAX) | 06:00 | 13:30 | 470.00
+MRY | MIA | UA | 0 | 08:30 | 16:45 | 550.00
+MRY | MIA | DL | 1 (SFO) | 10:00 | 17:20 | 510.00
+MRY | MIA | WN | 1 (PHX) | 12:00 | 19:10 | 450.00
+MRY | MIA | AS | 0 | 14:00 | 21:15 | 530.00
+MRY | MIA | F9 | 1 (DEN) | 16:00 | 23:20 | 490.00
+MRY | MIA | B6 | 1 (JFK) | 18:00 | 01:25 | 500.00
+MRY | MIA | NK | 0 | 20:00 | 03:15 | 430.00
+
+
+Here are the 16 flight plans:
+
+MIA | SJC | AA | 0 | 08:00 | 11:15 | 450.00
+MIA | SJC | UA | 1 (DEN) | 09:30 | 14:45 | 520.00
+MIA | SJC | DL | 0 | 10:45 | 14:00 | 480.00
+MIA | SJC | WN | 1 (PHX) | 11:15 | 16:30 | 550.00
+MIA | SJC | AS | 0 | 12:00 | 15:15 | 500.00
+MIA | SJC | F9 | 1 (LAS) | 13:30 | 18:45 | 580.00
+MIA | SJC | B6 | 0 | 14:45 | 18:00 | 530.00
+MIA | SJC | NK | 1 (ORD) | 15:15 | 20:30 | 610.00
+
+SJC | MIA | AA | 0 | 06:00 | 13:15 | 420.00
+SJC | MIA | UA | 1 (SFO) | 07:30 | 15:45 | 490.00
+SJC | MIA | DL | 0 | 08:45 | 14:00 | 450.00
+SJC | MIA | WN | 1 (DAL) | 09:15 | 16:30 | 510.00
+SJC | MIA | AS | 0 | 10:00 | 14:15 | 480.00
+SJC | MIA | F9 | 1 (DEN) | 11:30 | 18:45 | 560.00
+SJC | MIA | B6 | 0 | 12:45 | 16:00 | 500.00
+SJC | MIA | NK | 1 (LAX) | 13:15 | 20:30 | 590.00
+
+
+Here are the 16 flight plans:
+
+MIA | EGE | AA | 1 (DEN) | 08:00 | 11:45 | 542.50
+MIA | EGE | UA | 1 (IAH) | 10:30 | 14:15 | 480.00
+MIA | EGE | DL | 0 | 12:00 | 15:30 | 620.00
+MIA | EGE | WN | 1 (DAL) | 14:00 | 17:45 | 550.00
+MIA | EGE | F9 | 1 (ATL) | 16:00 | 19:45 | 420.00
+MIA | EGE | B6 | 1 (JFK) | 18:00 | 21:45 | 580.00
+MIA | EGE | AS | 1 (SEA) | 20:00 | 23:45 | 650.00
+MIA | EGE | NK | 1 (ORD) | 22:00 | 01:45 | 500.00
+EGE | MIA | AA | 1 (DEN) | 08:00 | 14:15 | 540.00
+EGE | MIA | UA | 1 (IAH) | 10:30 | 16:45 | 520.00
+EGE | MIA | DL | 0 | 12:00 | 18:30 | 640.00
+EGE | MIA | WN | 1 (DAL) | 14:00 | 20:45 | 570.00
+EGE | MIA | F9 | 1 (ATL) | 16:00 | 22:45 | 440.00
+EGE | MIA | B6 | 1 (JFK) | 18:00 | 01:45 | 600.00
+EGE | MIA | AS | 1 (SEA) | 20:00 | 04:45 | 680.00
+EGE | MIA | NK | 1 (ORD) | 22:00 | 06:45 | 530.00
+
+
+Here are the 16 flight plans:
+
+MIA | CHS | AA | 0 | 06:00 | 08:35 | 198.00
+MIA | CHS | DL | 1 (ATL) | 08:15 | 12:10 | 230.00
+MIA | CHS | UA | 0 | 10:30 | 13:05 | 220.00
+MIA | CHS | WN | 1 (TPA) | 12:45 | 16:25 | 280.00
+MIA | CHS | B6 | 0 | 14:00 | 16:40 | 240.00
+MIA | CHS | F9 | 1 (CLT) | 16:15 | 20:05 | 210.00
+MIA | CHS | NK | 0 | 18:30 | 21:05 | 200.00
+MIA | CHS | SY | 1 (MCO) | 20:45 | 00:20 | 290.00
+CHS | MIA | AA | 0 | 06:00 | 08:35 | 198.00
+CHS | MIA | DL | 1 (ATL) | 08:15 | 12:10 | 230.00
+CHS | MIA | UA | 0 | 10:30 | 13:05 | 220.00
+CHS | MIA | WN | 1 (TPA) | 12:45 | 16:25 | 280.00
+CHS | MIA | B6 | 0 | 14:00 | 16:40 | 240.00
+CHS | MIA | F9 | 1 (CLT) | 16:15 | 20:05 | 210.00
+CHS | MIA | NK | 0 | 18:30 | 21:05 | 200.00
+CHS | MIA | SY | 1 (MCO) | 20:45 | 00:20 | 290.00
+
+
+Here are the 16 flight plans:
+
+MIA | RAP | AA | 0 | 08:00 | 11:30 | 450.00
+MIA | RAP | UA | 1 (DEN) | 09:15 | 13:45 | 520.00
+MIA | RAP | DL | 0 | 10:30 | 14:00 | 480.00
+MIA | RAP | WN | 1 (PHX) | 11:45 | 16:15 | 550.00
+MIA | RAP | AS | 0 | 13:00 | 16:30 | 500.00
+MIA | RAP | F9 | 1 (ORD) | 14:15 | 18:45 | 580.00
+MIA | RAP | B6 | 0 | 15:30 | 19:00 | 530.00
+MIA | RAP | NK | 1 (DFW) | 16:45 | 21:15 | 610.00
+RAP | MIA | AA | 0 | 08:00 | 12:30 | 470.00
+RAP | MIA | UA | 1 (IAH) | 09:15 | 14:45 | 540.00
+RAP | MIA | DL | 0 | 10:30 | 15:00 | 510.00
+RAP | MIA | WN | 1 (MDW) | 11:45 | 17:15 | 570.00
+RAP | MIA | AS | 0 | 13:00 | 16:30 | 520.00
+RAP | MIA | F9 | 1 (LAS) | 14:15 | 19:45 | 600.00
+RAP | MIA | B6 | 0 | 15:30 | 20:00 | 550.00
+RAP | MIA | NK | 1 (ATL) | 16:45 | 22:15 | 630.00
+
+
+Here are the 16 flight plans:
+
+MIA | FCA | American Airlines | Non-stop | 08:00 | 17:30 | 850.00
+MIA | FCA | Delta Air Lines | 1 stop (ATL) | 10:30 | 20:15 | 720.00
+MIA | FCA | United Airlines | 2 stops (ORD, IAD) | 12:00 | 23:45 | 980.00
+MIA | FCA | Lufthansa | Non-stop | 14:00 | 23:00 | 1,050.00
+MIA | FCA | British Airways | 1 stop (LHR) | 16:00 | 01:30 | 900.00
+MIA | FCA | Air France | 2 stops (CDG, AMS) | 18:00 | 03:15 | 1,200.00
+MIA | FCA | KLM | Non-stop | 20:00 | 03:00 | 1,100.00
+MIA | FCA | Swiss International | 1 stop (ZRH) | 22:00 | 05:30 | 1,050.00
+
+FCA | MIA | American Airlines | Non-stop | 09:00 | 18:30 | 900.00
+FCA | MIA | Delta Air Lines | 1 stop (ATL) | 11:30 | 21:15 | 780.00
+FCA | MIA | United Airlines | 2 stops (IAD, ORD) | 13:00 | 00:45 | 1,050.00
+FCA | MIA | Lufthansa | Non-stop | 15:00 | 22:00 | 1,100.00
+FCA | MIA | British Airways | 1 stop (LHR) | 17:00 | 02:30 | 950.00
+FCA | MIA | Air France | 2 stops (AMS, CDG) | 19:00 | 04:15 | 1,300.00
+FCA | MIA | KLM | Non-stop | 21:00 | 04:00 | 1,150.00
+FCA | MIA | Swiss International | 1 stop (ZRH) | 23:00 | 06:30 | 1,100.00
+
+
+Here are the 16 flight plans:
+
+MIA | FLG | AA | 0 | 08:00 | 10:30 | 250.00
+MIA | FLG | UA | 1 (TPA) | 09:15 | 12:45 | 280.00
+MIA | FLG | DL | 0 | 11:00 | 13:30 | 220.00
+MIA | FLG | WN | 1 (JAX) | 12:45 | 16:15 | 300.00
+MIA | FLG | B6 | 0 | 14:30 | 17:00 | 240.00
+MIA | FLG | AS | 1 (ATL) | 15:45 | 19:15 | 320.00
+MIA | FLG | F9 | 0 | 17:00 | 19:30 | 260.00
+MIA | FLG | NK | 1 (PBI) | 18:15 | 21:45 | 290.00
+FLG | MIA | AA | 0 | 08:00 | 10:30 | 250.00
+FLG | MIA | UA | 1 (PHX) | 09:15 | 12:45 | 280.00
+FLG | MIA | DL | 0 | 11:00 | 13:30 | 220.00
+FLG | MIA | WN | 1 (ABQ) | 12:45 | 16:15 | 300.00
+FLG | MIA | B6 | 0 | 14:30 | 17:00 | 240.00
+FLG | MIA | AS | 1 (DEN) | 15:45 | 19:15 | 320.00
+FLG | MIA | F9 | 0 | 17:00 | 19:30 | 260.00
+FLG | MIA | NK | 1 (MSY) | 18:15 | 21:45 | 290.00
+
+
+Here are the 16 flight plans:
+
+MIA | TYS | AA | Non-stop | 08:00 | 10:30 | 250.00
+MIA | TYS | DL | 1 (ATL) | 09:15 | 12:45 | 320.00
+MIA | TYS | WN | Non-stop | 10:45 | 13:15 | 280.00
+MIA | TYS | UA | 1 (ORD) | 11:30 | 15:00 | 350.00
+MIA | TYS | F9 | Non-stop | 12:15 | 14:45 | 220.00
+MIA | TYS | AS | 1 (CLT) | 13:00 | 16:30 | 300.00
+MIA | TYS | B6 | Non-stop | 14:30 | 17:00 | 240.00
+MIA | TYS | NK | 1 (TPA) | 15:45 | 19:15 | 330.00
+TYS | MIA | AA | Non-stop | 08:30 | 10:50 | 260.00
+TYS | MIA | DL | 1 (CVG) | 09:45 | 13:15 | 340.00
+TYS | MIA | WN | Non-stop | 11:15 | 13:45 | 290.00
+TYS | MIA | UA | 1 (IAH) | 12:00 | 15:30 | 360.00
+TYS | MIA | F9 | Non-stop | 13:30 | 16:00 | 230.00
+TYS | MIA | AS | 1 (BNA) | 14:45 | 18:15 | 310.00
+TYS | MIA | B6 | Non-stop | 15:15 | 17:45 | 250.00
+TYS | MIA | NK | 1 (JAX) | 16:30 | 20:00 | 350.00
+
+
+Here are the 16 flight plans:
+
+MIA | AVL | AA | 0 | 06:00 | 08:30 | 198.00
+MIA | AVL | DL | 1 (ATL) | 07:30 | 11:15 | 220.50
+MIA | AVL | UA | 0 | 09:15 | 11:45 | 208.00
+MIA | AVL | WN | 1 (TPA) | 10:00 | 13:30 | 235.00
+MIA | AVL | F9 | 0 | 11:45 | 14:15 | 192.00
+MIA | AVL | NK | 1 (FLL) | 12:30 | 15:45 | 242.50
+MIA | AVL | B6 | 0 | 13:15 | 15:45 | 215.00
+MIA | AVL | SY | 1 (PBI) | 14:30 | 17:15 | 260.00
+
+AVL | MIA | AA | 0 | 06:30 | 08:45 | 203.00
+AVL | MIA | DL | 1 (CLT) | 07:45 | 11:00 | 225.00
+AVL | MIA | UA | 0 | 09:30 | 11:55 | 210.50
+AVL | MIA | WN | 1 (BHM) | 10:45 | 14:15 | 240.00
+AVL | MIA | F9 | 0 | 12:00 | 14:25 | 195.00
+AVL | MIA | NK | 1 (JAX) | 13:15 | 16:30 | 248.50
+AVL | MIA | B6 | 0 | 14:00 | 16:25 | 220.00
+AVL | MIA | SY | 1 (TPA) | 15:30 | 18:15 | 265.00
+
+
+Here are the 16 flight plans:
+
+MIA | JAC | AA | 0 | 08:00 | 11:15 | 425.00
+MIA | JAC | DL | 1 (ATL) | 09:30 | 13:45 | 550.00
+MIA | JAC | UA | 0 | 10:45 | 14:00 | 475.00
+MIA | JAC | WN | 1 (DEN) | 12:00 | 16:30 | 600.00
+MIA | JAC | AS | 0 | 13:15 | 16:30 | 450.00
+MIA | JAC | F9 | 1 (DFW) | 14:30 | 18:45 | 525.00
+MIA | JAC | B6 | 0 | 15:45 | 19:00 | 400.00
+MIA | JAC | NK | 1 (IAH) | 17:00 | 21:15 | 575.00
+
+JAC | MIA | AA | 0 | 06:00 | 09:15 | 400.00
+JAC | MIA | DL | 1 (SLC) | 07:30 | 11:45 | 525.00
+JAC | MIA | UA | 0 | 09:00 | 12:15 | 425.00
+JAC | MIA | WN | 1 (PHX) | 10:30 | 14:45 | 600.00
+JAC | MIA | AS | 0 | 12:00 | 15:15 | 450.00
+JAC | MIA | F9 | 1 (ORD) | 13:30 | 17:45 | 550.00
+JAC | MIA | B6 | 0 | 15:00 | 18:15 | 400.00
+JAC | MIA | NK | 1 (LAX) | 16:30 | 20:45 | 575.00
+
+
+MIA | EYW | American Airlines | Non-Stop | 06:00 | 07:15 | 150.00
+MIA | EYW | Delta Air Lines | 1 Stop (TPA) | 08:30 | 11:45 | 220.00
+MIA | EYW | United Airlines | Non-Stop | 10:00 | 11:15 | 180.00
+MIA | EYW | JetBlue Airways | 1 Stop (FLL) | 12:00 | 15:20 | 200.00
+MIA | EYW | Spirit Airlines | Non-Stop | 14:00 | 15:15 | 120.00
+MIA | EYW | Frontier Airlines | 1 Stop (RSW) | 16:00 | 19:25 | 240.00
+MIA | EYW | Southwest Airlines | Non-Stop | 18:00 | 19:15 | 160.00
+MIA | EYW | Silver Airways | 1 Stop (FLL) | 20:00 | 23:20 | 280.00
+EYW | MIA | American Airlines | Non-Stop | 06:30 | 07:45 | 130.00
+EYW | MIA | Delta Air Lines | 1 Stop (TPA) | 09:00 | 12:15 | 250.00
+EYW | MIA | United Airlines | Non-Stop | 11:30 | 12:45 | 190.00
+EYW | MIA | JetBlue Airways | 1 Stop (FLL) | 13:30 | 16:45 | 230.00
+EYW | MIA | Spirit Airlines | Non-Stop | 15:30 | 16:45 | 140.00
+EYW | MIA | Frontier Airlines | 1 Stop (RSW) | 17:30 | 20:50 | 260.00
+EYW | MIA | Southwest Airlines | Non-Stop | 19:30 | 20:45 | 170.00
+EYW | MIA | Silver Airways | 1 Stop (FLL) | 21:30 | 00:50 | 290.00
+
+
+Here are the 16 flight plans:
+
+MIA | RNO | AA | 1 (DFW) | 08:00 | 11:15 | 542.50
+MIA | RNO | UA | 2 (IAH, SFO) | 09:30 | 14:50 | 625.00
+MIA | RNO | DL | 0 | 10:45 | 14:10 | 475.00
+MIA | RNO | WN | 1 (DAL) | 12:15 | 16:30 | 550.00
+MIA | RNO | AS | 2 (MCO, SEA) | 13:00 | 18:20 | 680.00
+MIA | RNO | F9 | 1 (DEN) | 14:30 | 18:50 | 520.00
+MIA | RNO | B6 | 0 | 15:45 | 20:05 | 510.00
+MIA | RNO | NK | 1 (LAX) | 17:00 | 21:25 | 580.00
+RNO | MIA | AA | 1 (PHX) | 06:30 | 14:50 | 570.00
+RNO | MIA | UA | 2 (SFO, IAH) | 08:00 | 17:20 | 720.00
+RNO | MIA | DL | 0 | 09:15 | 16:30 | 530.00
+RNO | MIA | WN | 1 (LAS) | 10:45 | 18:10 | 600.00
+RNO | MIA | AS | 2 (PDX, DFW) | 12:00 | 20:25 | 750.00
+RNO | MIA | F9 | 1 (DEN) | 13:30 | 20:55 | 590.00
+RNO | MIA | B6 | 0 | 15:00 | 22:20 | 560.00
+RNO | MIA | NK | 1 (LAX) | 16:15 | 23:40 | 620.00
+
+
+Here are the 16 flight plans:
+
+MIA | TVL | AA | 0 | 08:00 | 11:30 | 450.00
+MIA | TVL | UA | 1 (SFO) | 09:15 | 14:05 | 520.00
+MIA | TVL | DL | 0 | 10:45 | 14:15 | 480.00
+MIA | TVL | WN | 1 (DEN) | 11:50 | 16:20 | 550.00
+MIA | TVL | AS | 0 | 13:10 | 16:40 | 500.00
+MIA | TVL | F9 | 1 (LAS) | 14:25 | 18:50 | 580.00
+MIA | TVL | B6 | 0 | 15:35 | 19:05 | 530.00
+MIA | TVL | NK | 1 (ORD) | 16:40 | 21:10 | 610.00
+
+TVL | MIA | AA | 0 | 08:00 | 14:30 | 470.00
+TVL | MIA | UA | 1 (LAX) | 09:20 | 16:50 | 540.00
+TVL | MIA | DL | 0 | 10:50 | 15:20 | 510.00
+TVL | MIA | WN | 1 (PHX) | 12:05 | 17:35 | 570.00
+TVL | MIA | AS | 0 | 13:20 | 16:50 | 520.00
+TVL | MIA | F9 | 1 (IAH) | 14:35 | 19:05 | 590.00
+TVL | MIA | B6 | 0 | 15:45 | 20:15 | 550.00
+TVL | MIA | NK | 1 (DFW) | 16:50 | 21:20 | 630.00
+
+
+Here are the 16 flight plans:
+
+MIA | MCD | AA | 0 | 06:00 | 07:30 | 120.00
+MIA | MCD | DL | 1 (ATL) | 08:15 | 11:45 | 180.00
+MIA | MCD | UA | 0 | 10:00 | 11:30 | 150.00
+MIA | MCD | WN | 1 (TPA) | 12:30 | 15:00 | 220.00
+MIA | MCD | AA | 0 | 14:00 | 15:30 | 130.00
+MIA | MCD | DL | 1 (JAX) | 16:15 | 19:45 | 200.00
+MIA | MCD | UA | 0 | 18:00 | 19:30 | 160.00
+MIA | MCD | WN | 1 (FLL) | 20:30 | 23:00 | 240.00
+MCD | MIA | AA | 0 | 06:00 | 07:30 | 120.00
+MCD | MIA | DL | 1 (ATL) | 08:15 | 11:45 | 180.00
+MCD | MIA | UA | 0 | 10:00 | 11:30 | 150.00
+MCD | MIA | WN | 1 (TPA) | 12:30 | 15:00 | 220.00
+MCD | MIA | AA | 0 | 14:00 | 15:30 | 130.00
+MCD | MIA | DL | 1 (JAX) | 16:15 | 19:45 | 200.00
+MCD | MIA | UA | 0 | 18:00 | 19:30 | 160.00
+MCD | MIA | WN | 1 (FLL) | 20:30 | 23:00 | 240.00
+
+
+Here are the 16 flight plans:
+
+MIA | PLN | AA | Non-stop | 08:00 | 11:15 | 450.00
+MIA | PLN | DL | 1 stop (ATL) | 09:30 | 13:45 | 520.00
+MIA | PLN | UA | Non-stop | 10:45 | 14:00 | 480.00
+MIA | PLN | WN | 1 stop (TPA) | 12:00 | 16:20 | 550.00
+MIA | PLN | B6 | Non-stop | 13:15 | 16:30 | 510.00
+MIA | PLN | F9 | 1 stop (CLT) | 14:30 | 18:45 | 580.00
+MIA | PLN | NK | Non-stop | 15:45 | 19:00 | 530.00
+MIA | PLN | SY | 1 stop (MCO) | 17:00 | 21:15 | 600.00
+PLN | MIA | AA | Non-stop | 08:30 | 11:45 | 420.00
+PLN | MIA | DL | 1 stop (DTW) | 09:45 | 13:55 | 490.00
+PLN | MIA | UA | Non-stop | 11:00 | 14:15 | 450.00
+PLN | MIA | WN | 1 stop (STL) | 12:15 | 16:30 | 520.00
+PLN | MIA | B6 | Non-stop | 13:30 | 16:45 | 480.00
+PLN | MIA | F9 | 1 stop (BNA) | 14:45 | 18:55 | 550.00
+PLN | MIA | NK | Non-stop | 16:00 | 19:15 | 500.00
+PLN | MIA | SY | 1 stop (CHS) | 17:15 | 21:25 | 570.00
+
+
+Here are the 16 flight plans:
+
+MIA | OGG | American Airlines | Non-stop | 08:00 | 17:30 | 548.00
+MIA | OGG | Delta Air Lines | 1 stop (LAX) | 09:30 | 20:15 | 628.00
+MIA | OGG | United Airlines | Non-stop | 11:00 | 20:45 | 598.00
+MIA | OGG | Hawaiian Airlines | 1 stop (HNL) | 12:30 | 22:10 | 678.00
+MIA | OGG | Alaska Airlines | 1 stop (SEA) | 14:00 | 23:50 | 648.00
+MIA | OGG | Spirit Airlines | 1 stop (DFW) | 15:30 | 01:10 | 588.00
+MIA | OGG | JetBlue Airways | Non-stop | 17:00 | 02:40 | 568.00
+MIA | OGG | Frontier Airlines | 1 stop (DEN) | 19:00 | 04:30 | 608.00
+OGG | MIA | American Airlines | Non-stop | 08:00 | 17:30 | 548.00
+OGG | MIA | Delta Air Lines | 1 stop (LAX) | 09:30 | 20:15 | 628.00
+OGG | MIA | United Airlines | Non-stop | 11:00 | 20:45 | 598.00
+OGG | MIA | Hawaiian Airlines | 1 stop (HNL) | 12:30 | 22:10 | 678.00
+OGG | MIA | Alaska Airlines | 1 stop (SEA) | 14:00 | 23:50 | 648.00
+OGG | MIA | Spirit Airlines | 1 stop (DFW) | 15:30 | 01:10 | 588.00
+OGG | MIA | JetBlue Airways | Non-stop | 17:00 | 02:40 | 568.00
+OGG | MIA | Frontier Airlines | 1 stop (DEN) | 19:00 | 04:30 | 608.00
+
+
+Here are the 16 flight plans:
+
+MIA | RAP | AA | 0 | 08:00 | 11:15 | 450.00
+MIA | RAP | UA | 1 (DEN) | 09:30 | 13:45 | 520.00
+MIA | RAP | DL | 0 | 11:00 | 14:20 | 480.00
+MIA | RAP | WN | 1 (PHX) | 12:15 | 16:30 | 550.00
+MIA | RAP | AS | 0 | 13:45 | 17:05 | 510.00
+MIA | RAP | F9 | 1 (ORD) | 15:00 | 19:20 | 580.00
+MIA | RAP | B6 | 0 | 16:30 | 20:45 | 530.00
+MIA | RAP | NK | 1 (DFW) | 18:00 | 22:25 | 600.00
+RAP | MIA | AA | 0 | 08:00 | 12:20 | 420.00
+RAP | MIA | UA | 1 (IAH) | 09:30 | 14:45 | 500.00
+RAP | MIA | DL | 0 | 11:00 | 15:25 | 460.00
+RAP | MIA | WN | 1 (DAL) | 12:15 | 16:40 | 540.00
+RAP | MIA | AS | 0 | 13:45 | 18:05 | 490.00
+RAP | MIA | F9 | 1 (MSP) | 15:00 | 19:25 | 570.00
+RAP | MIA | B6 | 0 | 16:30 | 21:50 | 520.00
+RAP | MIA | NK | 1 (ATL) | 18:00 | 22:35 | 610.00
+
+
+Here are the 16 flight plans:
+
+MIA | MYR | AA | 0 | 06:00 | 08:35 | 178.00
+MIA | MYR | DL | 1 (ATL) | 08:15 | 12:10 | 220.00
+MIA | MYR | UA | 0 | 10:45 | 13:20 | 198.00
+MIA | MYR | WN | 1 (TPA) | 12:30 | 16:25 | 240.00
+MIA | MYR | AS | 0 | 14:00 | 16:45 | 210.00
+MIA | MYR | B6 | 1 (JFK) | 15:50 | 20:05 | 280.00
+MIA | MYR | NK | 0 | 17:15 | 19:50 | 190.00
+MIA | MYR | F9 | 1 (CLT) | 19:00 | 22:55 | 250.00
+MYR | MIA | AA | 0 | 06:30 | 08:05 | 185.00
+MYR | MIA | DL | 1 (CVG) | 08:50 | 12:40 | 230.00
+MYR | MIA | UA | 0 | 11:20 | 13:55 | 205.00
+MYR | MIA | WN | 1 (BHM) | 12:55 | 16:50 | 260.00
+MYR | MIA | AS | 0 | 14:30 | 17:05 | 225.00
+MYR | MIA | B6 | 1 (BOS) | 16:10 | 20:25 | 290.00
+MYR | MIA | NK | 0 | 17:45 | 20:20 | 200.00
+MYR | MIA | F9 | 1 (PBI) | 19:30 | 22:25 | 270.00
+
+
+Here are the 16 flight plans:
+
+MIA | OAK | American Airlines | Non-stop | 08:00 | 11:15 | 420.00
+MIA | OAK | Delta Air Lines | 1 stop (SFO) | 09:30 | 13:45 | 480.00
+MIA | OAK | United Airlines | Non-stop | 10:45 | 14:00 | 450.00
+MIA | OAK | Spirit Airlines | 1 stop (LAX) | 12:00 | 16:15 | 380.00
+MIA | OAK | JetBlue Airways | Non-stop | 13:15 | 16:30 | 410.00
+MIA | OAK | Alaska Airlines | 1 stop (SEA) | 14:30 | 18:45 | 500.00
+MIA | OAK | Frontier Airlines | 1 stop (DEN) | 15:45 | 20:00 | 430.00
+MIA | OAK | Southwest Airlines | Non-stop | 17:00 | 20:15 | 440.00
+
+OAK | MIA | American Airlines | Non-stop | 06:00 | 13:15 | 400.00
+OAK | MIA | Delta Air Lines | 1 stop (ATL) | 07:30 | 15:45 | 520.00
+OAK | MIA | United Airlines | Non-stop | 09:00 | 16:15 | 470.00
+OAK | MIA | Spirit Airlines | 1 stop (ORD) | 10:30 | 18:45 | 390.00
+OAK | MIA | JetBlue Airways | Non-stop | 12:00 | 19:15 | 420.00
+OAK | MIA | Alaska Airlines | 1 stop (SFO) | 13:30 | 21:45 | 510.00
+OAK | MIA | Frontier Airlines | 1 stop (MCO) | 15:00 | 23:15 | 450.00
+OAK | MIA | Southwest Airlines | Non-stop | 16:30 | 00:45 | 460.00
+
+
+Here are the 16 flight plans:
+
+MIA | SMF | AA | 0 | 08:00 | 11:15 | 350.00
+MIA | SMF | UA | 1 (DEN) | 09:30 | 14:45 | 420.00
+MIA | SMF | DL | 0 | 11:00 | 14:20 | 380.00
+MIA | SMF | WN | 1 (PHX) | 12:15 | 17:30 | 450.00
+MIA | SMF | AS | 0 | 13:30 | 16:50 | 400.00
+MIA | SMF | F9 | 1 (LAS) | 14:45 | 19:00 | 480.00
+MIA | SMF | B6 | 0 | 16:00 | 19:25 | 430.00
+MIA | SMF | NK | 1 (IAH) | 17:15 | 21:30 | 510.00
+SMF | MIA | AA | 0 | 06:00 | 13:15 | 320.00
+SMF | MIA | UA | 1 (SFO) | 07:30 | 15:45 | 390.00
+SMF | MIA | DL | 0 | 09:00 | 14:20 | 350.00
+SMF | MIA | WN | 1 (DAL) | 10:15 | 16:30 | 420.00
+SMF | MIA | AS | 0 | 11:30 | 15:50 | 370.00
+SMF | MIA | F9 | 1 (DEN) | 12:45 | 18:00 | 440.00
+SMF | MIA | B6 | 0 | 14:00 | 17:25 | 400.00
+SMF | MIA | NK | 1 (ORD) | 15:15 | 20:30 | 490.00
+
+
+Here are the 16 flight plans:
+
+MIA | SAF | AA | 0 | 08:00 | 10:30 | 450.00
+MIA | SAF | UA | 1 (DFW) | 09:15 | 12:45 | 520.00
+MIA | SAF | DL | 0 | 10:45 | 13:15 | 480.00
+MIA | SAF | WN | 1 (HOU) | 11:30 | 14:55 | 550.00
+MIA | SAF | F9 | 0 | 12:00 | 14:30 | 400.00
+MIA | SAF | NK | 1 (IAH) | 13:15 | 16:40 | 580.00
+MIA | SAF | B6 | 0 | 14:30 | 17:00 | 420.00
+MIA | SAF | SY | 1 (ATL) | 15:45 | 19:10 | 600.00
+SAF | MIA | AA | 0 | 08:00 | 10:30 | 450.00
+SAF | MIA | UA | 1 (DEN) | 09:15 | 12:45 | 520.00
+SAF | MIA | DL | 0 | 10:45 | 13:15 | 480.00
+SAF | MIA | WN | 1 (PHX) | 11:30 | 14:55 | 550.00
+SAF | MIA | F9 | 0 | 12:00 | 14:30 | 400.00
+SAF | MIA | NK | 1 (DAL) | 13:15 | 16:40 | 580.00
+SAF | MIA | B6 | 0 | 14:30 | 17:00 | 420.00
+SAF | MIA | SY | 1 (MSP) | 15:45 | 19:10 | 600.00
+
+
+Here are the 16 flight plans:
+
+MIA | ABQ | AA | Non-stop | 08:00 | 10:30 | 425.00
+MIA | ABQ | UA | 1 stop (DEN) | 09:15 | 12:45 | 550.00
+MIA | ABQ | WN | 1 stop (HOU) | 10:30 | 14:15 | 475.00
+MIA | ABQ | DL | Non-stop | 11:45 | 14:15 | 500.00
+MIA | ABQ | F9 | 1 stop (DAL) | 12:00 | 15:30 | 450.00
+MIA | ABQ | AS | 1 stop (LAX) | 13:15 | 16:45 | 525.00
+MIA | ABQ | B6 | Non-stop | 14:30 | 17:00 | 480.00
+MIA | ABQ | NK | 1 stop (ORD) | 15:45 | 19:15 | 400.00
+ABQ | MIA | AA | Non-stop | 06:00 | 10:30 | 425.00
+ABQ | MIA | UA | 1 stop (IAH) | 07:15 | 11:45 | 550.00
+ABQ | MIA | WN | 1 stop (PHX) | 08:30 | 13:15 | 475.00
+ABQ | MIA | DL | Non-stop | 09:45 | 13:15 | 500.00
+ABQ | MIA | F9 | 1 stop (ATL) | 10:00 | 14:30 | 450.00
+ABQ | MIA | AS | 1 stop (SFO) | 11:15 | 15:45 | 525.00
+ABQ | MIA | B6 | Non-stop | 12:30 | 16:00 | 480.00
+ABQ | MIA | NK | 1 stop (DFW) | 13:45 | 17:15 | 400.00
+
+
+Here are the 16 flight plans:
+
+MIA | SAV | AA | 0 | 06:00 | 08:35 | 198.00
+MIA | SAV | DL | 1 (ATL) | 07:30 | 11:15 | 225.00
+MIA | SAV | UA | 0 | 08:15 | 10:50 | 210.00
+MIA | SAV | WN | 1 (TPA) | 09:00 | 12:45 | 240.00
+MIA | SAV | B6 | 0 | 10:30 | 13:05 | 195.00
+MIA | SAV | F9 | 1 (CLT) | 11:45 | 15:30 | 265.00
+MIA | SAV | NK | 0 | 12:50 | 15:25 | 220.00
+MIA | SAV | SY | 1 (MCO) | 14:15 | 17:00 | 280.00
+SAV | MIA | AA | 0 | 06:30 | 08:05 | 200.00
+SAV | MIA | DL | 1 (JAX) | 07:00 | 10:45 | 230.00
+SAV | MIA | UA | 0 | 08:45 | 11:20 | 215.00
+SAV | MIA | WN | 1 (PBI) | 09:30 | 12:15 | 250.00
+SAV | MIA | B6 | 0 | 11:00 | 13:35 | 205.00
+SAV | MIA | F9 | 1 (RDU) | 12:00 | 15:45 | 270.00
+SAV | MIA | NK | 0 | 13:20 | 15:55 | 235.00
+SAV | MIA | SY | 1 (CHS) | 14:40 | 17:25 | 290.00
+
+
+Here are the 16 flight plans:
+
+MIA | JAX | AA | 0 | 08:00 | 09:30 | 150.00
+MIA | JAX | DL | 1 (ATL) | 09:15 | 12:05 | 220.00
+MIA | JAX | UA | 0 | 10:45 | 12:15 | 180.00
+MIA | JAX | WN | 1 (TPA) | 11:50 | 14:20 | 250.00
+MIA | JAX | B6 | 0 | 13:00 | 14:30 | 160.00
+MIA | JAX | F9 | 1 (CLT) | 14:20 | 16:50 | 280.00
+MIA | JAX | NK | 0 | 15:30 | 17:00 | 190.00
+MIA | JAX | SY | 1 (MCO) | 16:45 | 19:15 | 300.00
+JAX | MIA | AA | 0 | 08:30 | 10:00 | 140.00
+JAX | MIA | DL | 1 (ATL) | 09:45 | 12:35 | 240.00
+JAX | MIA | UA | 0 | 11:15 | 12:45 | 170.00
+JAX | MIA | WN | 1 (TPA) | 12:20 | 14:50 | 260.00
+JAX | MIA | B6 | 0 | 13:30 | 15:00 | 150.00
+JAX | MIA | F9 | 1 (CLT) | 14:50 | 17:20 | 290.00
+JAX | MIA | NK | 0 | 16:00 | 17:30 | 200.00
+JAX | MIA | SY | 1 (MCO) | 17:15 | 19:45 | 310.00
+
+
+Here are the 16 flight plans:
+
+MIA | SFB | AA | 0 | 08:00 | 09:30 | 150.00
+MIA | SFB | DL | 1 (ATL) | 09:15 | 12:45 | 220.00
+MIA | SFB | UA | 0 | 10:30 | 12:00 | 180.00
+MIA | SFB | WN | 0 | 12:45 | 14:15 | 120.00
+MIA | SFB | B6 | 1 (JFK) | 13:00 | 16:30 | 280.00
+MIA | SFB | F9 | 0 | 14:15 | 15:45 | 100.00
+MIA | SFB | NK | 1 (FLL) | 15:30 | 18:00 | 240.00
+MIA | SFB | SY | 0 | 17:00 | 18:30 | 160.00
+SFB | MIA | AA | 0 | 08:30 | 10:00 | 140.00
+SFB | MIA | DL | 1 (ATL) | 09:45 | 13:15 | 260.00
+SFB | MIA | UA | 0 | 11:00 | 12:30 | 200.00
+SFB | MIA | WN | 0 | 12:00 | 13:30 | 130.00
+SFB | MIA | B6 | 1 (JFK) | 13:30 | 17:00 | 300.00
+SFB | MIA | F9 | 0 | 14:45 | 16:15 | 110.00
+SFB | MIA | NK | 1 (FLL) | 16:00 | 18:30 | 270.00
+SFB | MIA | SY | 0 | 17:30 | 19:00 | 190.00
+
+
+Here are the 16 flight plans:
+
+MIA | MTJ | AA | 0 | 08:00 | 11:15 | 250.00
+MIA | MTJ | UA | 1 (DEN) | 09:30 | 13:45 | 320.00
+MIA | MTJ | DL | 0 | 11:00 | 14:15 | 280.00
+MIA | MTJ | WN | 1 (PHX) | 12:30 | 16:45 | 350.00
+MIA | MTJ | AS | 0 | 14:00 | 17:15 | 300.00
+MIA | MTJ | B6 | 1 (JFK) | 15:30 | 19:45 | 380.00
+MIA | MTJ | F9 | 0 | 17:00 | 20:15 | 260.00
+MIA | MTJ | NK | 1 (LAS) | 18:30 | 22:45 | 400.00
+MTJ | MIA | AA | 0 | 08:00 | 11:15 | 270.00
+MTJ | MIA | UA | 1 (SFO) | 09:30 | 13:45 | 340.00
+MTJ | MIA | DL | 0 | 11:00 | 14:15 | 290.00
+MTJ | MIA | WN | 1 (DAL) | 12:30 | 16:45 | 370.00
+MTJ | MIA | AS | 0 | 14:00 | 17:15 | 310.00
+MTJ | MIA | B6 | 1 (BOS) | 15:30 | 19:45 | 410.00
+MTJ | MIA | F9 | 0 | 17:00 | 20:15 | 280.00
+MTJ | MIA | NK | 1 (ORD) | 18:30 | 22:45 | 430.00
+
+
+Here are the 16 flight plans:
+
+MIA | DRO | AA | 1 (ATL) | 08:00 | 11:15 | 450.00
+MIA | DRO | UA | 0 | 09:30 | 12:45 | 520.00
+MIA | DRO | DL | 1 (DEN) | 10:45 | 14:00 | 480.00
+MIA | DRO | WN | 1 (HOU) | 12:00 | 15:15 | 420.00
+MIA | DRO | F9 | 1 (ORD) | 13:30 | 16:45 | 390.00
+MIA | DRO | B6 | 1 (JFK) | 14:45 | 18:00 | 460.00
+MIA | DRO | AS | 1 (SFO) | 16:00 | 19:15 | 500.00
+MIA | DRO | NK | 1 (LAX) | 17:15 | 20:30 | 440.00
+DRO | MIA | AA | 1 (DFW) | 08:00 | 11:15 | 470.00
+DRO | MIA | UA | 0 | 09:30 | 12:45 | 540.00
+DRO | MIA | DL | 1 (CVG) | 10:45 | 14:00 | 490.00
+DRO | MIA | WN | 1 (BNA) | 12:00 | 15:15 | 430.00
+DRO | MIA | F9 | 1 (CLT) | 13:30 | 16:45 | 410.00
+DRO | MIA | B6 | 1 (EWR) | 14:45 | 18:00 | 480.00
+DRO | MIA | AS | 1 (PDX) | 16:00 | 19:15 | 510.00
+DRO | MIA | NK | 1 (IAH) | 17:15 | 20:30 | 450.00
+
+
+Here are the 16 flight plans:
+
+MIA | BOZ | American Airlines | Non-stop | 08:00 | 11:15 | 450.00
+MIA | BOZ | Delta Air Lines | 1 stop (ATL) | 09:30 | 13:45 | 520.00
+MIA | BOZ | United Airlines | Non-stop | 10:45 | 14:00 | 480.00
+MIA | BOZ | Lufthansa | 1 stop (FRA) | 12:00 | 17:30 | 650.00
+MIA | BOZ | Air France | 1 stop (CDG) | 13:15 | 18:45 | 580.00
+MIA | BOZ | KLM Royal Dutch | 1 stop (AMS) | 14:30 | 20:00 | 610.00
+MIA | BOZ | Turkish Airlines | 1 stop (IST) | 15:45 | 21:15 | 630.00
+MIA | BOZ | Emirates | 1 stop (DXB) | 17:00 | 22:30 | 700.00
+BOZ | MIA | American Airlines | Non-stop | 08:00 | 11:15 | 420.00
+BOZ | MIA | Delta Air Lines | 1 stop (ATL) | 09:30 | 13:45 | 490.00
+BOZ | MIA | United Airlines | Non-stop | 10:45 | 14:00 | 450.00
+BOZ | MIA | Lufthansa | 1 stop (FRA) | 12:00 | 17:30 | 620.00
+BOZ | MIA | Air France | 1 stop (CDG) | 13:15 | 18:45 | 550.00
+BOZ | MIA | KLM Royal Dutch | 1 stop (AMS) | 14:30 | 20:00 | 580.00
+BOZ | MIA | Turkish Airlines | 1 stop (IST) | 15:45 | 21:15 | 600.00
+BOZ | MIA | Emirates | 1 stop (DXB) | 17:00 | 22:30 | 680.00
+
+
+Here are the 16 flight plans:
+
+MIA | FAT | AA | 1 (DFW) | 08:00 | 11:15 | 450.00
+MIA | FAT | UA | 1 (IAH) | 09:30 | 12:45 | 520.00
+MIA | FAT | DL | 1 (ATL) | 11:00 | 14:15 | 480.00
+MIA | FAT | WN | 1 (HOU) | 12:30 | 15:45 | 400.00
+MIA | FAT | AS | 1 (SEA) | 14:00 | 17:15 | 550.00
+MIA | FAT | B6 | 1 (LAX) | 15:30 | 18:45 | 500.00
+MIA | FAT | F9 | 1 (DEN) | 17:00 | 20:15 | 380.00
+MIA | FAT | NK | 1 (ORD) | 18:30 | 21:45 | 420.00
+FAT | MIA | AA | 1 (PHX) | 06:00 | 13:15 | 470.00
+FAT | MIA | UA | 1 (SFO) | 07:30 | 14:45 | 540.00
+FAT | MIA | DL | 1 (SLC) | 09:00 | 16:15 | 510.00
+FAT | MIA | WN | 1 (LAS) | 10:30 | 17:45 | 440.00
+FAT | MIA | AS | 1 (PDX) | 12:00 | 19:15 | 580.00
+FAT | MIA | B6 | 1 (JFK) | 13:30 | 20:45 | 560.00
+FAT | MIA | F9 | 1 (MCO) | 15:00 | 22:15 | 400.00
+FAT | MIA | NK | 1 (EWR) | 16:30 | 23:45 | 480.00
+
+
+Here are the 16 flight plans:
+
+MIA | SGU | American Airlines | Non-stop | 08:00 | 10:30 | 298.00
+MIA | SGU | Delta Air Lines | 1 stop (ATL) | 09:15 | 12:45 | 320.00
+MIA | SGU | United Airlines | Non-stop | 10:45 | 13:15 | 290.00
+MIA | SGU | Spirit Airlines | 1 stop (FLL) | 11:30 | 14:55 | 240.00
+MIA | SGU | JetBlue Airways | Non-stop | 12:15 | 14:45 | 310.00
+MIA | SGU | Frontier Airlines | 1 stop (DEN) | 13:00 | 16:30 | 270.00
+MIA | SGU | Southwest Airlines | Non-stop | 14:30 | 17:00 | 300.00
+MIA | SGU | Alaska Airlines | 1 stop (SEA) | 15:15 | 18:40 | 330.00
+
+SGU | MIA | American Airlines | Non-stop | 06:00 | 08:30 | 280.00
+SGU | MIA | Delta Air Lines | 1 stop (SLC) | 07:15 | 10:45 | 300.00
+SGU | MIA | United Airlines | Non-stop | 08:45 | 11:15 | 260.00
+SGU | MIA | Spirit Airlines | 1 stop (LAS) | 09:30 | 12:55 | 220.00
+SGU | MIA | JetBlue Airways | Non-stop | 10:15 | 12:45 | 280.00
+SGU | MIA | Frontier Airlines | 1 stop (ORD) | 11:00 | 14:25 | 250.00
+SGU | MIA | Southwest Airlines | Non-stop | 12:30 | 15:00 | 290.00
+SGU | MIA | Alaska Airlines | 1 stop (PDX) | 13:15 | 16:35 | 310.00
+
+
+Here are the 16 flight plans:
+
+MIA | AMS | AA | 0 | 08:00 | 17:30 | 450.00
+MIA | AMS | KL | 1 (CDG) | 09:15 | 19:45 | 520.00
+MIA | AMS | DL | 0 | 11:30 | 21:00 | 480.00
+MIA | AMS | UA | 1 (EWR) | 12:45 | 22:15 | 550.00
+MIA | AMS | AF | 1 (CDG) | 14:00 | 23:30 | 500.00
+MIA | AMS | LH | 1 (FRA) | 15:15 | 00:45 | 580.00
+MIA | AMS | IB | 1 (MAD) | 16:30 | 02:00 | 530.00
+MIA | AMS | VS | 1 (LHR) | 18:00 | 03:30 | 510.00
+AMS | MIA | KL | 0 | 09:00 | 13:30 | 420.00
+AMS | MIA | AA | 1 (PHL) | 10:15 | 15:45 | 490.00
+AMS | MIA | DL | 1 (ATL) | 11:30 | 17:00 | 460.00
+AMS | MIA | UA | 1 (EWR) | 12:45 | 18:15 | 500.00
+AMS | MIA | AF | 1 (CDG) | 14:00 | 19:30 | 480.00
+AMS | MIA | LH | 1 (FRA) | 15:15 | 20:45 | 520.00
+AMS | MIA | IB | 1 (MAD) | 16:30 | 22:00 | 510.00
+AMS | MIA | VS | 1 (LHR) | 18:00 | 23:30 | 490.00
+
+
+Here are the 16 flight plans:
+
+MIA | AUA | American Airlines | Non-stop | 08:00 | 11:15 | 425.00
+MIA | AUA | Delta Air Lines | 1 stop (SJU) | 09:30 | 13:45 | 495.00
+MIA | AUA | JetBlue Airways | Non-stop | 11:00 | 14:15 | 375.00
+MIA | AUA | United Airlines | 1 stop (EWR) | 12:30 | 17:00 | 525.00
+MIA | AUA | Spirit Airlines | 1 stop (FLL) | 14:00 | 18:15 | 450.00
+MIA | AUA | Copa Airlines | 1 stop (PTY) | 15:30 | 20:00 | 580.00
+MIA | AUA | Avianca | 1 stop (BOG) | 17:00 | 21:30 | 550.00
+MIA | AUA | LATAM | Non-stop | 19:00 | 22:15 | 500.00
+
+AUA | MIA | American Airlines | Non-stop | 08:30 | 11:45 | 450.00
+AUA | MIA | Delta Air Lines | 1 stop (ATL) | 10:00 | 14:15 | 520.00
+AUA | MIA | JetBlue Airways | Non-stop | 11:30 | 14:45 | 400.00
+AUA | MIA | United Airlines | 1 stop (IAH) | 13:00 | 17:15 | 540.00
+AUA | MIA | Spirit Airlines | 1 stop (TPA) | 14:30 | 18:45 | 480.00
+AUA | MIA | Copa Airlines | 1 stop (PTY) | 16:00 | 20:15 | 590.00
+AUA | MIA | Avianca | 1 stop (BOG) | 17:30 | 22:00 | 560.00
+AUA | MIA | LATAM | Non-stop | 19:30 | 22:45 | 510.00
+
+
+Here are the 16 flight plans:
+
+MIA | ATH | American Airlines | Non-stop | 08:00 | 17:30 | 850.00
+MIA | ATH | Lufthansa | 1 stop (FRA) | 09:30 | 19:45 | 950.00
+MIA | ATH | Delta Air Lines | Non-stop | 11:00 | 20:30 | 900.00
+MIA | ATH | British Airways | 1 stop (LHR) | 12:30 | 22:15 | 1050.00
+MIA | ATH | Iberia | 1 stop (MAD) | 14:00 | 23:45 | 1000.00
+MIA | ATH | Turkish Airlines | 1 stop (IST) | 15:30 | 01:15 | 1100.00
+MIA | ATH | Swiss International | 1 stop (ZRH) | 17:00 | 02:45 | 1150.00
+MIA | ATH | Emirates | 1 stop (DXB) | 19:30 | 05:15 | 1200.00
+
+ATH | MIA | Aegean Airlines | Non-stop | 08:00 | 14:30 | 800.00
+ATH | MIA | Olympic Air | 1 stop (CDG) | 09:30 | 16:45 | 900.00
+ATH | MIA | Alitalia | 1 stop (FCO) | 11:00 | 18:30 | 950.00
+ATH | MIA | KLM Royal Dutch | 1 stop (AMS) | 12:30 | 20:15 | 1000.00
+ATH | MIA | Austrian Airlines | 1 stop (VIE) | 14:00 | 21:45 | 1050.00
+ATH | MIA | Qatar Airways | 1 stop (DOH) | 15:30 | 23:15 | 1100.00
+ATH | MIA | United Airlines | 1 stop (EWR) | 17:00 | 00:45 | 1150.00
+ATH | MIA | Air France | 1 stop (CDG) | 19:30 | 02:15 | 1200.00
+
+
+Here are the 16 flight plans:
+
+MIA | AKL | AA | 1 (LAX) | 08:00 | 06:00 | 850.00
+MIA | AKL | NZ | 2 (LAX, HNL) | 10:00 | 08:00 | 950.00
+MIA | AKL | QF | 1 (SYD) | 12:00 | 10:00 | 1000.00
+MIA | AKL | LA | 2 (SCL, SYD) | 14:00 | 12:00 | 1100.00
+MIA | AKL | UA | 1 (SFO) | 16:00 | 14:00 | 900.00
+MIA | AKL | DL | 2 (ATL, LAX) | 18:00 | 16:00 | 1050.00
+MIA | AKL | AC | 1 (YYZ) | 20:00 | 18:00 | 980.00
+MIA | AKL | HA | 2 (HNL, SYD) | 22:00 | 20:00 | 1020.00
+
+AKL | MIA | NZ | 1 (LAX) | 08:00 | 06:00 | 950.00
+AKL | MIA | AA | 2 (HNL, DFW) | 10:00 | 08:00 | 1050.00
+AKL | MIA | QF | 1 (SYD) | 12:00 | 10:00 | 1000.00
+AKL | MIA | LA | 2 (SCL, GRU) | 14:00 | 12:00 | 1150.00
+AKL | MIA | UA | 1 (SFO) | 16:00 | 14:00 | 920.00
+AKL | MIA | DL | 2 (LAX, ATL) | 18:00 | 16:00 | 1080.00
+AKL | MIA | AC | 1 (YYZ) | 20:00 | 18:00 | 1008.00
+AKL | MIA | HA | 2 (HNL, LAX) | 22:00 | 20:00 | 1040.00
+
+
+Here are the 16 flight plans:
+
+MIA | DPS | AA | 1 (NRT) | 08:00 | 22:30 | 850.00
+MIA | DPS | JL | 1 (HND) | 09:30 | 23:50 | 920.00
+MIA | DPS | UA | 2 (SFO, HKG) | 10:15 | 02:45 | 1100.00
+MIA | DPS | SQ | 1 (SIN) | 11:00 | 01:15 | 1050.00
+MIA | DPS | CX | 1 (HKG) | 12:30 | 03:45 | 1000.00
+MIA | DPS | QF | 2 (LAX, SYD) | 13:45 | 05:50 | 1250.00
+MIA | DPS | EK | 1 (DXB) | 15:00 | 06:30 | 950.00
+MIA | DPS | TG | 1 (BKK) | 16:30 | 08:15 | 900.00
+DPS | MIA | AA | 1 (NRT) | 08:30 | 20:00 | 880.00
+DPS | MIA | JL | 1 (HND) | 09:50 | 21:20 | 950.00
+DPS | MIA | UA | 2 (HKG, SFO) | 11:15 | 23:40 | 1150.00
+DPS | MIA | SQ | 1 (SIN) | 12:45 | 02:00 | 1080.00
+DPS | MIA | CX | 1 (HKG) | 14:00 | 04:25 | 1030.00
+DPS | MIA | QF | 2 (SYD, LAX) | 15:30 | 06:45 | 1280.00
+DPS | MIA | EK | 1 (DXB) | 17:00 | 08:30 | 980.00
+DPS | MIA | TG | 1 (BKK) | 18:30 | 10:15 | 930.00
+
+
+Here are the 16 flight plans:
+
+MIA | BCN | Iberia | Non-stop | 08:00 | 18:30 | 450.00
+MIA | BCN | American | 1 (PHL) | 10:30 | 20:00 | 520.00
+MIA | BCN | LATAM | Non-stop | 12:00 | 22:30 | 480.00
+MIA | BCN | Delta | 1 (ATL) | 14:00 | 23:59 | 550.00
+MIA | BCN | Air Europa | Non-stop | 16:00 | 02:30 | 500.00
+MIA | BCN | Swiss | 1 (ZRH) | 18:00 | 04:00 | 580.00
+MIA | BCN | Lufthansa | 1 (FRA) | 20:00 | 05:30 | 610.00
+MIA | BCN | TAP Air Portugal | 1 (LIS) | 22:00 | 06:59 | 630.00
+BCN | MIA | Iberia | Non-stop | 09:00 | 13:30 | 420.00
+BCN | MIA | American | 1 (PHL) | 11:30 | 16:00 | 490.00
+BCN | MIA | LATAM | Non-stop | 13:30 | 18:00 | 450.00
+BCN | MIA | Delta | 1 (ATL) | 15:30 | 20:00 | 510.00
+BCN | MIA | Air Europa | Non-stop | 17:30 | 22:00 | 470.00
+BCN | MIA | Swiss | 1 (ZRH) | 19:30 | 00:59 | 540.00
+BCN | MIA | Lufthansa | 1 (FRA) | 21:30 | 02:30 | 570.00
+BCN | MIA | TAP Air Portugal | 1 (LIS) | 23:30 | 04:59 | 590.00
+
+
+Here are the 16 flight plans:
+
+MIA | PEK | AA | 1 (NRT) | 09:00 | 21:30 | 850.00
+MIA | PEK | UA | 2 (LAX, ICN) | 11:30 | 00:15 | 1200.00
+MIA | PEK | DL | 0 | 13:45 | 18:15 | 950.00
+MIA | PEK | CA | 1 (SFO) | 15:00 | 22:45 | 1050.00
+MIA | PEK | HU | 2 (ORD, SEA) | 17:15 | 02:30 | 1400.00
+MIA | PEK | MU | 1 (LAX) | 19:30 | 01:15 | 1250.00
+MIA | PEK | CZ | 2 (ATL, HKG) | 21:45 | 04:30 | 1600.00
+MIA | PEK | JL | 1 (NRT) | 23:59 | 06:30 | 1100.00
+PEK | MIA | AA | 1 (DFW) | 09:30 | 21:00 | 900.00
+PEK | MIA | UA | 2 (HKG, SFO) | 11:00 | 23:45 | 1300.00
+PEK | MIA | DL | 0 | 13:15 | 17:45 | 1000.00
+PEK | MIA | CA | 1 (CAN) | 15:30 | 21:15 | 1150.00
+PEK | MIA | HU | 2 (PVG, ORD) | 17:45 | 02:00 | 1450.00
+PEK | MIA | MU | 1 (PVG) | 19:00 | 01:30 | 1200.00
+PEK | MIA | CZ | 2 (XIAM, LAX) | 21:15 | 04:45 | 1650.00
+PEK | MIA | JL | 1 (NRT) | 23:30 | 06:00 | 1050.00
+
+
+Here are the 16 flight plans:
+
+MIA | BER | Lufthansa | 1 (FRA) | 08:00 | 18:30 | 850.00
+MIA | BER | American Airlines | 2 (JFK, CDG) | 10:00 | 22:00 | 1200.00
+MIA | BER | Iberia | 1 (MAD) | 12:00 | 00:30 | 900.00
+MIA | BER | United Airlines | 0 | 14:00 | 22:00 | 1000.00
+MIA | BER | Delta Air Lines | 1 (AMS) | 16:00 | 02:30 | 1100.00
+MIA | BER | Air Europa | 1 (MAD) | 18:00 | 04:30 | 950.00
+MIA | BER | Swiss International | 1 (ZRH) | 20:00 | 06:30 | 1050.00
+MIA | BER | TAP Air Portugal | 1 (LIS) | 22:00 | 08:30 | 1020.00
+BER | MIA | Lufthansa | 1 (FRA) | 08:00 | 18:30 | 850.00
+BER | MIA | American Airlines | 2 (CDG, JFK) | 10:00 | 22:00 | 1200.00
+BER | MIA | Iberia | 1 (MAD) | 12:00 | 00:30 | 900.00
+BER | MIA | United Airlines | 0 | 14:00 | 22:00 | 1000.00
+BER | MIA | Delta Air Lines | 1 (AMS) | 16:00 | 02:30 | 1100.00
+BER | MIA | Air Europa | 1 (MAD) | 18:00 | 04:30 | 950.00
+BER | MIA | Swiss International | 1 (ZRH) | 20:00 | 06:30 | 1050.00
+BER | MIA | TAP Air Portugal | 1 (LIS) | 22:00 | 08:30 | 1020.00
+
+
+Here are the 16 flight plans:
+
+MIA | EZE | AA | 0 | 08:00 | 18:30 | 850.00
+MIA | EZE | LATAM | 1 (LIM) | 09:30 | 21:15 | 720.00
+MIA | EZE | AVIANCA | 1 (BOG) | 11:00 | 22:45 | 950.00
+MIA | EZE | COPA | 1 (PTY) | 12:30 | 23:50 | 810.00
+MIA | EZE | DELTA | 0 | 14:00 | 01:20 | 990.00
+MIA | EZE | AMERICAN | 1 (GRU) | 15:30 | 02:50 | 870.00
+MIA | EZE | LATAM | 0 | 17:00 | 04:20 | 920.00
+MIA | EZE | UNITED | 1 (SCL) | 19:00 | 06:30 | 840.00
+EZE | MIA | AA | 0 | 08:30 | 17:00 | 820.00
+EZE | MIA | LATAM | 1 (SCL) | 10:00 | 19:30 | 780.00
+EZE | MIA | AVIANCA | 1 (BOG) | 11:30 | 21:00 | 900.00
+EZE | MIA | COPA | 1 (PTY) | 13:00 | 22:20 | 850.00
+EZE | MIA | DELTA | 0 | 14:30 | 01:50 | 960.00
+EZE | MIA | AMERICAN | 1 (GRU) | 16:00 | 03:20 | 890.00
+EZE | MIA | LATAM | 0 | 17:30 | 05:00 | 940.00
+EZE | MIA | UNITED | 1 (LIM) | 19:30 | 07:00 | 860.00
+
+
+Here are the 16 flight plans:
+
+MIA | SJD | AA | 1 (DFW) | 08:00 | 11:15 | 450.00
+MIA | SJD | UA | 0 | 10:30 | 13:45 | 520.00
+MIA | SJD | DL | 1 (ATL) | 12:15 | 15:30 | 480.00
+MIA | SJD | WN | 1 (HOU) | 14:00 | 17:15 | 420.00
+MIA | SJD | AS | 0 | 16:00 | 19:15 | 550.00
+MIA | SJD | B6 | 1 (LAX) | 18:30 | 21:45 | 500.00
+MIA | SJD | F9 | 1 (DEN) | 20:00 | 23:15 | 380.00
+MIA | SJD | NK | 1 (IAH) | 22:00 | 01:15 | 400.00
+SJD | MIA | AA | 1 (DFW) | 08:00 | 11:15 | 450.00
+SJD | MIA | UA | 0 | 10:30 | 13:45 | 520.00
+SJD | MIA | DL | 1 (ATL) | 12:15 | 15:30 | 480.00
+SJD | MIA | WN | 1 (HOU) | 14:00 | 17:15 | 420.00
+SJD | MIA | AS | 0 | 16:00 | 19:15 | 550.00
+SJD | MIA | B6 | 1 (LAX) | 18:30 | 21:45 | 500.00
+SJD | MIA | F9 | 1 (DEN) | 20:00 | 23:15 | 380.00
+SJD | MIA | NK | 1 (IAH) | 22:00 | 01:15 | 400.00
+SJD | MIA | SY | 0 | 23:59 | 03:14 | 480.00
+
+
+Here are the 16 flight plans:
+
+MIA | CAI | American Airlines | Non-stop | 08:00 | 18:30 | 850.00
+MIA | CAI | Lufthansa | 1 stop (FRA) | 10:30 | 21:15 | 950.00
+MIA | CAI | EgyptAir | Non-stop | 12:00 | 22:00 | 800.00
+MIA | CAI | Turkish Airlines | 1 stop (IST) | 14:00 | 00:30 | 1050.00
+MIA | CAI | British Airways | 1 stop (LHR) | 16:00 | 02:45 | 1200.00
+MIA | CAI | Emirates | 1 stop (DXB) | 18:00 | 04:30 | 1300.00
+MIA | CAI | Qatar Airways | 1 stop (DOH) | 20:00 | 06:15 | 1400.00
+MIA | CAI | Delta Air Lines | Non-stop | 22:00 | 08:00 | 1100.00
+CAI | MIA | EgyptAir | Non-stop | 09:00 | 16:00 | 850.00
+CAI | MIA | Lufthansa | 1 stop (FRA) | 11:30 | 19:15 | 950.00
+CAI | MIA | Turkish Airlines | 1 stop (IST) | 13:30 | 22:30 | 1050.00
+CAI | MIA | American Airlines | Non-stop | 15:30 | 00:30 | 800.00
+CAI | MIA | British Airways | 1 stop (LHR) | 17:30 | 03:45 | 1200.00
+CAI | MIA | Emirates | 1 stop (DXB) | 19:30 | 05:30 | 1300.00
+CAI | MIA | Qatar Airways | 1 stop (DOH) | 21:30 | 07:15 | 1400.00
+CAI | MIA | Delta Air Lines | Non-stop | 23:30 | 09:30 | 1100.00
+
+
+Here are the 16 flight plans:
+
+MIA | CUN | AA | 0 | 08:00 | 09:35 | 250.00
+MIA | CUN | DL | 1 (FLL) | 10:15 | 13:20 | 320.00
+MIA | CUN | UA | 0 | 12:00 | 13:45 | 280.00
+MIA | CUN | WN | 1 (TPA) | 14:30 | 17:15 | 350.00
+MIA | CUN | B6 | 0 | 16:00 | 17:35 | 220.00
+MIA | CUN | AS | 1 (PBI) | 18:15 | 21:00 | 380.00
+MIA | CUN | F9 | 0 | 20:00 | 21:35 | 200.00
+MIA | CUN | NK | 1 (RSW) | 22:15 | 01:00 | 400.00
+CUN | MIA | AA | 0 | 08:00 | 10:35 | 270.00
+CUN | MIA | DL | 1 (FLL) | 10:15 | 13:20 | 340.00
+CUN | MIA | UA | 0 | 12:00 | 14:45 | 300.00
+CUN | MIA | WN | 1 (TPA) | 14:30 | 17:15 | 370.00
+CUN | MIA | B6 | 0 | 16:00 | 18:35 | 240.00
+CUN | MIA | AS | 1 (PBI) | 18:15 | 21:00 | 390.00
+CUN | MIA | F9 | 0 | 20:00 | 22:35 | 230.00
+CUN | MIA | NK | 1 (RSW) | 22:15 | 01:00 | 420.00
+
+
+Here are the 16 flight plans:
+
+MIA | CPT | AA | 1 (JNB) | 08:00 | 20:30 | 850.00
+MIA | CPT | UA | 2 (EWR, LHR) | 10:30 | 22:50 | 1100.00
+MIA | CPT | DL | 0 | 12:00 | 06:00 | 1200.00
+MIA | CPT | BA | 1 (LHR) | 14:00 | 08:30 | 1000.00
+MIA | CPT | LH | 2 (FRA, JNB) | 16:00 | 10:30 | 1300.00
+MIA | CPT | KL | 1 (AMS) | 18:00 | 12:30 | 900.00
+MIA | CPT | QR | 1 (DOH) | 20:00 | 14:30 | 1050.00
+MIA | CPT | EK | 1 (DXB) | 22:00 | 16:30 | 1150.00
+CPT | MIA | AA | 1 (JNB) | 08:00 | 18:30 | 800.00
+CPT | MIA | UA | 2 (LHR, EWR) | 10:30 | 21:50 | 1000.00
+CPT | MIA | DL | 0 | 12:00 | 06:00 | 1100.00
+CPT | MIA | BA | 1 (LHR) | 14:00 | 08:30 | 950.00
+CPT | MIA | LH | 2 (JNB, FRA) | 16:00 | 10:30 | 1250.00
+CPT | MIA | KL | 1 (AMS) | 18:00 | 12:30 | 850.00
+CPT | MIA | QR | 1 (DOH) | 20:00 | 14:30 | 1000.00
+CPT | MIA | EK | 1 (DXB) | 22:00 | 16:30 | 1100.00
+
+
+Here are the 16 flight plans:
+
+MIA | CPH | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+MIA | CPH | BA | 2 (LHR, AMS) | 09:30 | 20:15 | 1200.00
+MIA | CPH | DL | 0 | 11:00 | 19:00 | 900.00
+MIA | CPH | UA | 1 (EWR) | 12:30 | 21:45 | 1100.00
+MIA | CPH | LH | 2 (FRA, HAM) | 14:00 | 23:59 | 1300.00
+MIA | CPH | AF | 1 (CDG) | 15:30 | 01:15 | 1000.00
+MIA | CPH | KL | 2 (AMS, OSLO) | 17:00 | 02:45 | 1400.00
+MIA | CPH | SK | 0 | 19:00 | 03:30 | 950.00
+CPH | MIA | AA | 1 (LHR) | 08:00 | 14:30 | 800.00
+CPH | MIA | BA | 2 (LHR, MAD) | 09:30 | 17:15 | 1100.00
+CPH | MIA | DL | 0 | 11:00 | 16:00 | 850.00
+CPH | MIA | UA | 1 (EWR) | 12:30 | 19:45 | 1000.00
+CPH | MIA | LH | 2 (FRA, MUC) | 14:00 | 22:59 | 1250.00
+CPH | MIA | AF | 1 (CDG) | 15:30 | 00:15 | 950.00
+CPH | MIA | KL | 2 (AMS, BCN) | 17:00 | 01:45 | 1350.00
+CPH | MIA | SK | 0 | 19:00 | 02:30 | 900.00
+
+
+Here are the 16 flight plans:
+
+MIA | DXB | Emirates | 1 (LHR) | 08:00 | 19:30 | 850.00
+MIA | DXB | Qatar Airways | 0 | 10:30 | 21:45 | 1200.00
+MIA | DXB | Lufthansa | 2 (FRA, IST) | 12:15 | 01:50 | 1100.00
+MIA | DXB | Turkish Airlines | 1 (IST) | 14:00 | 02:30 | 900.00
+MIA | DXB | American Airlines | 1 (LHR) | 16:00 | 04:30 | 1000.00
+MIA | DXB | Delta Air Lines | 0 | 18:00 | 06:30 | 1300.00
+MIA | DXB | British Airways | 1 (LHR) | 20:00 | 08:30 | 1050.00
+MIA | DXB | KLM | 2 (AMS, IST) | 22:00 | 10:30 | 1250.00
+DXB | MIA | Emirates | 1 (LHR) | 02:00 | 13:30 | 800.00
+DXB | MIA | Qatar Airways | 0 | 04:30 | 16:45 | 1150.00
+DXB | MIA | Lufthansa | 2 (FRA, IST) | 06:15 | 19:50 | 1050.00
+DXB | MIA | Turkish Airlines | 1 (IST) | 08:00 | 21:30 | 850.00
+DXB | MIA | American Airlines | 1 (LHR) | 10:00 | 23:30 | 950.00
+DXB | MIA | Delta Air Lines | 0 | 12:00 | 02:30 | 1200.00
+DXB | MIA | British Airways | 1 (LHR) | 14:00 | 04:30 | 1000.00
+DXB | MIA | KLM | 2 (AMS, IST) | 16:00 | 06:30 | 1100.00
+
+
+Here are the 16 flight plans:
+
+MIA | DUB | American Airlines | Non-stop | 08:00 | 17:30 | 450.00
+MIA | DUB | Iberia | 1 stop (MAD) | 09:30 | 18:45 | 520.00
+MIA | DUB | Aer Lingus | Non-stop | 11:00 | 20:30 | 480.00
+MIA | DUB | British Airways | 1 stop (LHR) | 12:30 | 22:00 | 550.00
+MIA | DUB | Lufthansa | 1 stop (FRA) | 14:00 | 23:30 | 580.00
+MIA | DUB | Swiss International | 1 stop (ZRH) | 15:30 | 01:00 | 610.00
+MIA | DUB | KLM | 1 stop (AMS) | 17:00 | 02:30 | 630.00
+MIA | DUB | Turkish Airlines | 1 stop (IST) | 19:00 | 04:00 | 650.00
+DUB | MIA | Aer Lingus | Non-stop | 08:30 | 13:00 | 420.00
+DUB | MIA | Iberia | 1 stop (MAD) | 10:00 | 15:30 | 500.00
+DUB | MIA | American Airlines | 1 stop (PHL) | 11:30 | 17:00 | 530.00
+DUB | MIA | British Airways | 1 stop (LHR) | 13:00 | 19:30 | 560.00
+DUB | MIA | Lufthansa | 1 stop (FRA) | 14:30 | 21:00 | 590.00
+DUB | MIA | Swiss International | 1 stop (ZRH) | 16:00 | 22:30 | 620.00
+DUB | MIA | KLM | 1 stop (AMS) | 17:30 | 00:00 | 640.00
+DUB | MIA | Turkish Airlines | 1 stop (IST) | 19:30 | 02:30 | 660.00
+
+
+Here are the 16 flight plans:
+
+MIA | EDI | American Airlines | Non-stop | 08:00 | 18:30 | 850.00
+MIA | EDI | British Airways | 1 stop (LHR) | 10:30 | 21:15 | 950.00
+MIA | EDI | Lufthansa | 1 stop (FRA) | 12:00 | 23:45 | 1050.00
+MIA | EDI | Iberia | 2 stops (MAD, LHR) | 14:00 | 02:00 | 1200.00
+MIA | EDI | Delta Air Lines | Non-stop | 16:00 | 02:30 | 900.00
+MIA | EDI | KLM | 1 stop (AMS) | 18:00 | 04:15 | 1000.00
+MIA | EDI | United Airlines | 2 stops (EWR, LHR) | 20:00 | 06:00 | 1300.00
+MIA | EDI | Air France | 1 stop (CDG) | 22:00 | 08:45 | 1100.00
+EDI | MIA | British Airways | Non-stop | 09:00 | 13:30 | 900.00
+EDI | MIA | American Airlines | 1 stop (PHL) | 11:30 | 17:15 | 1000.00
+EDI | MIA | Lufthansa | 2 stops (FRA, CLT) | 14:00 | 21:00 | 1200.00
+EDI | MIA | Iberia | 1 stop (MAD) | 16:30 | 22:45 | 1050.00
+EDI | MIA | Delta Air Lines | Non-stop | 19:00 | 00:30 | 850.00
+EDI | MIA | KLM | 2 stops (AMS, BOS) | 21:30 | 04:15 | 1300.00
+EDI | MIA | United Airlines | 1 stop (EWR) | 23:59 | 06:30 | 1100.00
+EDI | MIA | Air France | 2 stops (CDG, ATL) | 01:00 | 09:45 | 1250.00
+
+
+Here are the 16 flight plans:
+
+MIA | HAN | AA | 1 (NRT) | 09:00 | 20:30 | 850.00
+MIA | HAN | VN | 0 | 11:00 | 22:00 | 700.00
+MIA | HAN | JL | 1 (HKG) | 13:00 | 23:30 | 950.00
+MIA | HAN | UA | 1 (TPE) | 15:00 | 01:30 | 800.00
+MIA | HAN | CX | 1 (BKK) | 17:00 | 02:30 | 900.00
+MIA | HAN | SQ | 1 (SIN) | 19:00 | 03:30 | 1000.00
+MIA | HAN | BR | 1 (TPE) | 21:00 | 04:30 | 850.00
+MIA | HAN | KE | 1 (ICN) | 23:00 | 05:30 | 950.00
+HAN | MIA | AA | 1 (NRT) | 09:00 | 20:30 | 850.00
+HAN | MIA | VN | 0 | 11:00 | 22:00 | 700.00
+HAN | MIA | JL | 1 (HKG) | 13:00 | 23:30 | 950.00
+HAN | MIA | UA | 1 (TPE) | 15:00 | 01:30 | 800.00
+HAN | MIA | CX | 1 (BKK) | 17:00 | 02:30 | 900.00
+HAN | MIA | SQ | 1 (SIN) | 19:00 | 03:30 | 1000.00
+HAN | MIA | BR | 1 (TPE) | 21:00 | 04:30 | 850.00
+HAN | MIA | KE | 1 (ICN) | 23:00 | 05:30 | 950.00
+
+
+Here are the 16 flight plans:
+
+MIA | HKG | AA | 1 (NRT) | 08:00 | 21:30 | 850.00
+MIA | HKG | UA | 2 (SFO, TPE) | 10:30 | 23:50 | 1200.00
+MIA | HKG | CX | 0 | 12:00 | 19:00 | 900.00
+MIA | HKG | JL | 1 (HND) | 14:00 | 21:10 | 1000.00
+MIA | HKG | QR | 1 (DOH) | 16:00 | 22:20 | 1100.00
+MIA | HKG | BR | 2 (LAX, TPE) | 18:00 | 01:30 | 1300.00
+MIA | HKG | EK | 1 (DXB) | 20:00 | 23:40 | 1050.00
+MIA | HKG | SQ | 2 (IAH, SIN) | 22:00 | 02:50 | 1400.00
+HKG | MIA | AA | 1 (NRT) | 09:00 | 20:30 | 900.00
+HKG | MIA | UA | 2 (TPE, SFO) | 11:30 | 22:50 | 1250.00
+HKG | MIA | CX | 0 | 13:00 | 19:00 | 950.00
+HKG | MIA | JL | 1 (HND) | 15:00 | 21:10 | 1050.00
+HKG | MIA | QR | 1 (DOH) | 17:00 | 22:20 | 1150.00
+HKG | MIA | BR | 2 (TPE, LAX) | 19:00 | 01:30 | 1350.00
+HKG | MIA | EK | 1 (DXB) | 21:00 | 23:40 | 1100.00
+HKG | MIA | SQ | 2 (SIN, IAH) | 23:00 | 02:50 | 1450.00
+
+
+Here are the 16 flight plans:
+
+MIA | IST | Turkish Airlines | Non-stop | 09:00 | 17:30 | 850.00
+MIA | IST | Lufthansa | 1 stop (FRA) | 10:30 | 19:15 | 950.00
+MIA | IST | American Airlines | Non-stop | 11:45 | 20:10 | 800.00
+MIA | IST | Swiss International | 1 stop (ZRH) | 12:15 | 21:00 | 1050.00
+MIA | IST | Delta Air Lines | Non-stop | 13:00 | 21:40 | 900.00
+MIA | IST | KLM Royal Dutch | 1 stop (AMS) | 14:30 | 23:15 | 1100.00
+MIA | IST | Air Canada | 1 stop (YYZ) | 15:45 | 00:20 | 1000.00
+MIA | IST | United Airlines | Non-stop | 17:00 | 01:30 | 950.00
+IST | MIA | Turkish Airlines | Non-stop | 08:30 | 14:00 | 800.00
+IST | MIA | Lufthansa | 1 stop (FRA) | 09:45 | 16:10 | 900.00
+IST | MIA | American Airlines | Non-stop | 11:15 | 18:40 | 850.00
+IST | MIA | Swiss International | 1 stop (ZRH) | 12:30 | 20:15 | 1050.00
+IST | MIA | Delta Air Lines | Non-stop | 13:45 | 21:20 | 900.00
+IST | MIA | KLM Royal Dutch | 1 stop (AMS) | 15:00 | 23:45 | 1100.00
+IST | MIA | Air Canada | 1 stop (YYZ) | 16:15 | 01:00 | 1000.00
+IST | MIA | United Airlines | Non-stop | 17:30 | 02:00 | 950.00
+
+
+Here are the 16 flight plans:
+
+MIA | TLV | EL AL | 1 (AMS) | 08:00 | 18:30 | 850.00
+MIA | TLV | American | 1 (CDG) | 10:00 | 20:30 | 950.00
+MIA | TLV | Delta | 1 (IST) | 12:00 | 22:30 | 1050.00
+MIA | TLV | Lufthansa | 2 (FRA, AMS) | 14:00 | 08:00 (+1) | 1200.00
+MIA | TLV | United | 1 (EWR) | 16:00 | 02:30 (+1) | 1100.00
+MIA | TLV | Turkish | 1 (IST) | 18:00 | 04:30 (+1) | 1000.00
+MIA | TLV | Iberia | 2 (MAD, BCN) | 20:00 | 10:30 (+1) | 1300.00
+MIA | TLV | Swiss | 1 (ZRH) | 22:00 | 12:30 (+1) | 1250.00
+
+TLV | MIA | EL AL | 1 (AMS) | 08:00 | 14:30 | 900.00
+TLV | MIA | American | 1 (CDG) | 10:00 | 16:30 | 1000.00
+TLV | MIA | Delta | 1 (IST) | 12:00 | 18:30 | 1150.00
+TLV | MIA | Lufthansa | 2 (FRA, AMS) | 14:00 | 22:00 | 1350.00
+TLV | MIA | United | 1 (EWR) | 16:00 | 22:30 | 1250.00
+TLV | MIA | Turkish | 1 (IST) | 18:00 | 00:30 (+1) | 1100.00
+TLV | MIA | Iberia | 2 (MAD, BCN) | 20:00 | 06:30 (+1) | 1400.00
+TLV | MIA | Swiss | 1 (ZRH) | 22:00 | 08:30 (+1) | 1300.00
+
+
+Here are the 16 flight plans:
+
+MIA | LIM | American Airlines | Non-stop | 08:00 | 14:30 | 450.00
+MIA | LIM | LATAM | 1 stop (BOG) | 09:30 | 17:15 | 520.00
+MIA | LIM | Avianca | Non-stop | 11:00 | 17:00 | 480.00
+MIA | LIM | Copa Airlines | 1 stop (PTY) | 12:30 | 19:45 | 550.00
+MIA | LIM | Delta Air Lines | Non-stop | 14:00 | 20:00 | 500.00
+MIA | LIM | Aeromexico | 1 stop (MEX) | 15:30 | 22:15 | 580.00
+MIA | LIM | Spirit Airlines | 1 stop (FLL) | 17:00 | 23:45 | 420.00
+MIA | LIM | JetBlue | Non-stop | 19:00 | 00:30 | 460.00
+
+LIM | MIA | LATAM | Non-stop | 08:00 | 14:30 | 450.00
+LIM | MIA | American Airlines | 1 stop (BOG) | 09:30 | 17:15 | 520.00
+LIM | MIA | Avianca | Non-stop | 11:00 | 17:00 | 480.00
+LIM | MIA | Copa Airlines | 1 stop (PTY) | 12:30 | 19:45 | 550.00
+LIM | MIA | Delta Air Lines | Non-stop | 14:00 | 20:00 | 500.00
+LIM | MIA | Aeromexico | 1 stop (MEX) | 15:30 | 22:15 | 580.00
+LIM | MIA | Spirit Airlines | 1 stop (FLL) | 17:00 | 23:45 | 420.00
+LIM | MIA | JetBlue | Non-stop | 19:00 | 00:30 | 460.00
+
+
+Here are the 16 flight plans:
+
+MIA | LHR | American Airlines | Non-stop | 08:00 | 18:30 | 850.00
+MIA | LHR | British Airways | 1 stop (PHL) | 09:30 | 20:15 | 950.00
+MIA | LHR | Iberia | Non-stop | 11:00 | 21:30 | 780.00
+MIA | LHR | LATAM | 1 stop (MAD) | 12:30 | 23:45 | 820.00
+MIA | LHR | Delta Air Lines | Non-stop | 14:00 | 02:30 | 900.00
+MIA | LHR | Virgin Atlantic | 1 stop (JFK) | 15:30 | 04:15 | 860.00
+MIA | LHR | Air Europa | Non-stop | 17:00 | 05:30 | 840.00
+MIA | LHR | TAP Air Portugal | 1 stop (LIS) | 19:00 | 07:45 | 800.00
+
+LHR | MIA | British Airways | Non-stop | 08:00 | 11:30 | 930.00
+LHR | MIA | American Airlines | 1 stop (PHL) | 09:30 | 14:15 | 980.00
+LHR | MIA | Iberia | Non-stop | 11:00 | 14:30 | 810.00
+LHR | MIA | LATAM | 1 stop (MAD) | 12:30 | 17:45 | 850.00
+LHR | MIA | Delta Air Lines | Non-stop | 14:00 | 17:30 | 960.00
+LHR | MIA | Virgin Atlantic | 1 stop (JFK) | 15:30 | 20:15 | 890.00
+LHR | MIA | Air Europa | Non-stop | 17:00 | 20:30 | 870.00
+LHR | MIA | TAP Air Portugal | 1 stop (LIS) | 19:00 | 23:45 | 830.00
+
+
+Here are the 16 flight plans:
+
+MIA | MAD | AA | 0 | 08:00 | 15:30 | 450.00
+MIA | MAD | IBERIA | 1 (LHR) | 10:30 | 18:00 | 520.00
+MIA | MAD | LATAM | 0 | 12:00 | 19:30 | 480.00
+MIA | MAD | AVIANCA | 1 (BOG) | 14:00 | 21:30 | 550.00
+MIA | MAD | TAP | 1 (LIS) | 16:00 | 23:30 | 500.00
+MIA | MAD | SWISS | 1 (ZRH) | 18:00 | 01:30 | 530.00
+MIA | MAD | KLM | 1 (AMS) | 20:00 | 03:30 | 510.00
+MIA | MAD | UNITED | 0 | 22:00 | 05:30 | 490.00
+
+MAD | MIA | IBERIA | 0 | 08:00 | 13:30 | 420.00
+MAD | MIA | AA | 1 (PHL) | 10:00 | 16:00 | 540.00
+MAD | MIA | LATAM | 1 (GRU) | 12:00 | 18:30 | 560.00
+MAD | MIA | AVIANCA | 0 | 14:00 | 20:30 | 480.00
+MAD | MIA | TAP | 1 (OPO) | 16:00 | 22:30 | 500.00
+MAD | MIA | SWISS | 1 (GVA) | 18:00 | 01:00 | 530.00
+MAD | MIA | KLM | 1 (CDG) | 20:00 | 03:00 | 510.00
+MAD | MIA | UNITED | 0 | 22:00 | 05:00 | 490.00
+
+
+Here are the 16 flight plans:
+
+MIA | MEX | American Airlines | Non-stop | 08:00 | 10:30 | 450.00
+MIA | MEX | Delta Air Lines | 1 stop (ATL) | 09:15 | 12:45 | 520.00
+MIA | MEX | Aeromexico | Non-stop | 10:45 | 13:15 | 480.00
+MIA | MEX | LATAM | 1 stop (LIM) | 11:30 | 15:00 | 550.00
+MIA | MEX | United Airlines | Non-stop | 12:00 | 14:30 | 500.00
+MIA | MEX | Copa Airlines | 1 stop (PTY) | 13:15 | 16:45 | 580.00
+MIA | MEX | Avianca | 1 stop (BOG) | 14:30 | 18:00 | 600.00
+MIA | MEX | Interjet | Non-stop | 15:45 | 18:15 | 530.00
+MEX | MIA | American Airlines | Non-stop | 08:00 | 11:30 | 420.00
+MEX | MIA | Aeromexico | Non-stop | 09:15 | 12:45 | 450.00
+MEX | MIA | Delta Air Lines | 1 stop (ATL) | 10:45 | 14:15 | 500.00
+MEX | MIA | LATAM | 1 stop (LIM) | 11:30 | 15:00 | 530.00
+MEX | MIA | United Airlines | Non-stop | 12:00 | 14:30 | 480.00
+MEX | MIA | Copa Airlines | 1 stop (PTY) | 13:15 | 16:45 | 550.00
+MEX | MIA | Avianca | 1 stop (BOG) | 14:30 | 18:00 | 570.00
+MEX | MIA | Interjet | Non-stop | 15:45 | 18:15 | 510.00
+
+
+Here are the 16 flight plans:
+
+MIA | MBJ | American Airlines | Non-stop | 08:00 | 10:30 | 420.00
+MIA | MBJ | Delta Air Lines | Non-stop | 12:30 | 15:00 | 450.00
+MIA | MBJ | JetBlue Airways | 1 stop (FLL) | 14:00 | 17:30 | 380.00
+MIA | MBJ | Spirit Airlines | Non-stop | 16:00 | 18:30 | 320.00
+MIA | MBJ | United Airlines | 1 stop (EWR) | 18:00 | 21:30 | 400.00
+MIA | MBJ | Frontier Airlines | Non-stop | 20:00 | 22:30 | 350.00
+MIA | MBJ | Southwest Airlines | 1 stop (TPA) | 21:00 | 00:30 | 430.00
+MIA | MBJ | Alaska Airlines | Non-stop | 22:00 | 00:30 | 480.00
+
+MBJ | MIA | American Airlines | Non-stop | 08:30 | 11:00 | 440.00
+MBJ | MIA | Delta Air Lines | 1 stop (ATL) | 10:00 | 13:30 | 410.00
+MBJ | MIA | JetBlue Airways | Non-stop | 12:00 | 14:30 | 390.00
+MBJ | MIA | Spirit Airlines | 1 stop (FLL) | 14:30 | 17:00 | 360.00
+MBJ | MIA | United Airlines | Non-stop | 16:30 | 19:00 | 420.00
+MBJ | MIA | Frontier Airlines | 1 stop (PBI) | 18:30 | 21:00 | 400.00
+MBJ | MIA | Southwest Airlines | Non-stop | 20:30 | 23:00 | 450.00
+MBJ | MIA | Alaska Airlines | 1 stop (SJU) | 22:30 | 01:00 | 480.00
+
+
+Here are the 16 flight plans:
+
+MIA | YUL | AA | 1 (YYZ) | 08:00 | 12:30 | 450.00
+MIA | YUL | AC | 0 | 10:30 | 14:45 | 520.00
+MIA | YUL | WS | 1 (BOS) | 12:15 | 17:20 | 480.00
+MIA | YUL | DL | 0 | 14:00 | 18:15 | 550.00
+MIA | YUL | UA | 1 (EWR) | 15:45 | 20:50 | 500.00
+MIA | YUL | AS | 1 (FLL) | 17:30 | 22:35 | 460.00
+MIA | YUL | B6 | 0 | 19:15 | 23:20 | 530.00
+MIA | YUL | NK | 1 (TPA) | 20:50 | 01:55 | 490.00
+YUL | MIA | AC | 0 | 08:00 | 12:05 | 500.00
+YUL | MIA | WS | 1 (YYZ) | 09:30 | 14:35 | 470.00
+YUL | MIA | AA | 0 | 11:15 | 15:20 | 520.00
+YUL | MIA | DL | 1 (ATL) | 12:45 | 17:50 | 510.00
+YUL | MIA | UA | 0 | 14:30 | 18:35 | 550.00
+YUL | MIA | B6 | 1 (BOS) | 16:00 | 20:05 | 480.00
+YUL | MIA | AS | 0 | 17:45 | 22:00 | 530.00
+YUL | MIA | NK | 1 (FLL) | 19:20 | 23:25 | 490.00
+
+
+Here are the 16 flight plans:
+
+MIA | BOM | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+MIA | BOM | UA | 2 (EWR, FRA) | 10:30 | 22:15 | 1200.00
+MIA | BOM | DL | 1 (CDG) | 12:00 | 00:45 | 950.00
+MIA | BOM | QR | 0 | 14:30 | 04:15 | 1000.00
+MIA | BOM | BA | 1 (LHR) | 16:00 | 06:30 | 1100.00
+MIA | BOM | LH | 2 (FRA, IST) | 18:30 | 10:15 | 1300.00
+MIA | BOM | EK | 1 (DXB) | 20:00 | 12:30 | 900.00
+MIA | BOM | TK | 2 (IST, KWI) | 22:00 | 14:45 | 1400.00
+BOM | MIA | AI | 1 (LHR) | 02:00 | 14:30 | 1050.00
+BOM | MIA | UA | 2 (FRA, EWR) | 04:30 | 18:15 | 1250.00
+BOM | MIA | DL | 1 (CDG) | 06:00 | 20:45 | 1000.00
+BOM | MIA | QR | 0 | 08:30 | 22:15 | 950.00
+BOM | MIA | BA | 1 (LHR) | 10:00 | 00:30 | 1150.00
+BOM | MIA | LH | 2 (IST, FRA) | 12:30 | 04:15 | 1350.00
+BOM | MIA | EK | 1 (DXB) | 14:00 | 06:30 | 920.00
+BOM | MIA | TK | 2 (KWI, IST) | 16:00 | 08:45 | 1450.00
+
+
+Here are the 16 flight plans:
+
+MIA | OSL | Norwegian | 1 (LHR) | 08:00 | 18:30 | 550.00
+MIA | OSL | American | 2 (PHL, AMS) | 09:30 | 21:15 | 720.00
+MIA | OSL | Delta | 1 (CDG) | 11:45 | 22:50 | 650.00
+MIA | OSL | Lufthansa | 2 (FRA, CPH) | 13:00 | 00:30 | 850.00
+MIA | OSL | British Airways | 1 (LHR) | 14:30 | 01:15 | 600.00
+MIA | OSL | Iberia | 2 (MAD, HEL) | 16:00 | 03:45 | 780.00
+MIA | OSL | United | 1 (EWR) | 18:15 | 05:00 | 580.00
+MIA | OSL | Air France | 2 (MXP, ARN) | 20:00 | 07:30 | 750.00
+OSL | MIA | Norwegian | 1 (LHR) | 08:30 | 18:00 | 520.00
+OSL | MIA | American | 2 (AMS, PHL) | 10:00 | 21:45 | 700.00
+OSL | MIA | Delta | 1 (CDG) | 12:15 | 23:10 | 620.00
+OSL | MIA | Lufthansa | 2 (CPH, FRA) | 14:00 | 01:35 | 800.00
+OSL | MIA | British Airways | 1 (LHR) | 15:45 | 02:20 | 580.00
+OSL | MIA | Iberia | 2 (HEL, MAD) | 17:15 | 04:50 | 760.00
+OSL | MIA | United | 1 (EWR) | 19:00 | 06:40 | 560.00
+OSL | MIA | Air France | 2 (ARN, MXP) | 21:00 | 08:20 | 730.00
+
+
+Here are the 16 flight plans:
+
+MIA | PTY | AA | 0 | 08:00 | 10:35 | 450.00
+MIA | PTY | UA | 1 (SJU) | 09:15 | 12:50 | 520.00
+MIA | PTY | DL | 0 | 10:30 | 13:05 | 480.00
+MIA | PTY | AV | 1 (BOG) | 11:45 | 15:20 | 550.00
+MIA | PTY | CM | 0 | 13:00 | 15:35 | 500.00
+MIA | PTY | B6 | 1 (FLL) | 14:15 | 17:40 | 530.00
+MIA | PTY | WN | 1 (PBI) | 15:30 | 18:55 | 560.00
+MIA | PTY | LA | 0 | 17:00 | 19:35 | 490.00
+PTY | MIA | AA | 0 | 08:00 | 10:35 | 430.00
+PTY | MIA | UA | 1 (LIM) | 09:15 | 12:50 | 510.00
+PTY | MIA | DL | 0 | 10:30 | 13:05 | 460.00
+PTY | MIA | AV | 1 (BOG) | 11:45 | 15:20 | 540.00
+PTY | MIA | CM | 0 | 13:00 | 15:35 | 480.00
+PTY | MIA | B6 | 1 (FLL) | 14:15 | 17:40 | 520.00
+PTY | MIA | WN | 1 (PBI) | 15:30 | 18:55 | 580.00
+PTY | MIA | LA | 0 | 17:00 | 19:35 | 500.00
+
+
+MIA | CDG | American Airlines | Non-stop | 08:00 | 17:30 | 850.00
+MIA | CDG | Delta Air Lines | 1 stop (JFK) | 09:30 | 19:45 | 720.00
+MIA | CDG | Air France | Non-stop | 11:00 | 20:30 | 950.00
+MIA | CDG | LATAM | 2 stops (LIM, MAD) | 12:30 | 23:15 | 620.00
+MIA | CDG | Iberia | 1 stop (MAD) | 13:45 | 22:50 | 790.00
+MIA | CDG | Swiss International | 1 stop (ZRH) | 15:00 | 23:20 | 870.00
+MIA | CDG | KLM Royal Dutch | 1 stop (AMS) | 16:15 | 00:40 | 840.00
+MIA | CDG | Lufthansa | 1 stop (FRA) | 18:30 | 02:10 | 910.00
+CDG | MIA | Air France | Non-stop | 09:00 | 13:30 | 980.00
+CDG | MIA | American Airlines | 1 stop (PHL) | 10:30 | 15:45 | 760.00
+CDG | MIA | Delta Air Lines | 1 stop (ATL) | 12:00 | 17:20 | 820.00
+CDG | MIA | Iberia | 1 stop (MAD) | 13:15 | 18:35 | 890.00
+CDG | MIA | LATAM | 2 stops (GRU, LIM) | 14:30 | 21:15 | 680.00
+CDG | MIA | Swiss International | 1 stop (ZRH) | 15:45 | 20:50 | 930.00
+CDG | MIA | KLM Royal Dutch | 1 stop (AMS) | 17:00 | 22:25 | 860.00
+CDG | MIA | Lufthansa | 1 stop (FRA) | 19:15 | 00:45 | 960.00
+
+
+Here are the 16 flight plans:
+
+MIA | HKT | AA | 1 (NRT) | 08:00 | 19:30 | 850.00
+MIA | HKT | JL | 1 (HND) | 09:30 | 21:00 | 900.00
+MIA | HKT | UA | 1 (SIN) | 10:00 | 22:30 | 950.00
+MIA | HKT | SQ | 1 (SIN) | 11:00 | 23:30 | 1000.00
+MIA | HKT | TG | 1 (BKK) | 12:00 | 01:30 | 1050.00
+MIA | HKT | CX | 1 (HKG) | 13:00 | 02:30 | 1100.00
+MIA | HKT | EK | 1 (DXB) | 14:00 | 03:30 | 1150.00
+MIA | HKT | QR | 1 (DOH) | 15:00 | 04:30 | 1200.00
+HKT | MIA | AA | 1 (NRT) | 08:00 | 19:30 | 850.00
+HKT | MIA | JL | 1 (HND) | 09:30 | 21:00 | 900.00
+HKT | MIA | UA | 1 (SIN) | 10:00 | 22:30 | 950.00
+HKT | MIA | SQ | 1 (SIN) | 11:00 | 23:30 | 1000.00
+HKT | MIA | TG | 1 (BKK) | 12:00 | 01:30 | 1050.00
+HKT | MIA | CX | 1 (HKG) | 13:00 | 02:30 | 1100.00
+HKT | MIA | EK | 1 (DXB) | 14:00 | 03:30 | 1150.00
+HKT | MIA | QR | 1 (DOH) | 15:00 | 04:30 | 1200.00
+
+
+Here are the 16 flight plans:
+
+MIA | PRG | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+MIA | PRG | UA | 2 (EWR, FRA) | 10:30 | 20:45 | 1100.00
+MIA | PRG | DL | 0 | 12:00 | 18:00 | 900.00
+MIA | PRG | LH | 1 (FRA) | 14:00 | 22:15 | 1000.00
+MIA | PRG | KL | 2 (AMS, CDG) | 16:00 | 00:30 | 1200.00
+MIA | PRG | AZ | 1 (FCO) | 18:00 | 02:15 | 950.00
+MIA | PRG | TK | 1 (IST) | 20:00 | 04:30 | 1050.00
+MIA | PRG | IB | 2 (MAD, BCN) | 22:00 | 06:45 | 1300.00
+
+PRG | MIA | AA | 1 (LHR) | 08:30 | 18:00 | 800.00
+PRG | MIA | UA | 2 (FRA, EWR) | 10:00 | 20:15 | 1000.00
+PRG | MIA | DL | 0 | 11:30 | 17:30 | 850.00
+PRG | MIA | LH | 1 (FRA) | 13:30 | 21:45 | 950.00
+PRG | MIA | KL | 2 (CDG, AMS) | 15:30 | 23:45 | 1150.00
+PRG | MIA | AZ | 1 (FCO) | 17:30 | 01:45 | 900.00
+PRG | MIA | TK | 1 (IST) | 19:30 | 03:45 | 1000.00
+PRG | MIA | IB | 2 (BCN, MAD) | 21:30 | 06:00 | 1250.00
+
+
+Here are the 16 flight plans:
+
+MIA | KEF | AA | 1 (LHR) | 08:00 | 18:30 | 950.00
+MIA | KEF | BA | 2 (LHR, FRA) | 10:00 | 21:45 | 1050.00
+MIA | KEF | IB | 1 (MAD) | 12:00 | 22:15 | 980.00
+MIA | KEF | LH | 2 (FRA, HAM) | 14:00 | 23:50 | 1120.00
+MIA | KEF | UA | 1 (EWR) | 16:00 | 01:30 | 920.00
+MIA | KEF | DL | 2 (ATL, KEF) | 18:00 | 03:15 | 1020.00
+MIA | KEF | AC | 1 (YYZ) | 20:00 | 04:45 | 1000.00
+MIA | KEF | TK | 2 (IST, ARN) | 22:00 | 06:00 | 1100.00
+
+KEF | MIA | FI | 1 (OSL) | 08:00 | 16:30 | 850.00
+KEF | MIA | WW | 2 (REK, LGW) | 10:00 | 19:15 | 900.00
+KEF | MIA | DY | 1 (OSL) | 12:00 | 20:45 | 880.00
+KEF | MIA | SK | 2 (ARN, CPH) | 14:00 | 22:20 | 960.00
+KEF | MIA | AA | 1 (LHR) | 16:00 | 23:55 | 920.00
+KEF | MIA | UA | 2 (EWR, IAD) | 18:00 | 02:10 | 1000.00
+KEF | MIA | DL | 1 (JFK) | 20:00 | 04:35 | 940.00
+KEF | MIA | BA | 2 (LHR, MXP) | 22:00 | 06:50 | 1040.00
+
+
+Here are the 16 flight plans:
+
+MIA | GIG | LATAM | 1 (LIM) | 08:00 | 17:30 | 850.00
+MIA | GIG | American Airlines | 0 | 10:30 | 19:00 | 950.00
+MIA | GIG | Avianca | 1 (BOG) | 12:00 | 20:30 | 780.00
+MIA | GIG | Copa Airlines | 1 (PTY) | 14:00 | 22:00 | 820.00
+MIA | GIG | LATAM | 0 | 16:00 | 23:30 | 920.00
+MIA | GIG | Azul | 1 (CNF) | 18:00 | 01:00 | 900.00
+MIA | GIG | Delta Air Lines | 1 (ATL) | 20:00 | 02:30 | 980.00
+MIA | GIG | Gol Transportes Aéreos | 0 | 22:00 | 04:30 | 840.00
+GIG | MIA | LATAM | 1 (LIM) | 08:00 | 17:30 | 850.00
+GIG | MIA | American Airlines | 0 | 10:30 | 19:00 | 950.00
+GIG | MIA | Avianca | 1 (BOG) | 12:00 | 20:30 | 780.00
+GIG | MIA | Copa Airlines | 1 (PTY) | 14:00 | 22:00 | 820.00
+GIG | MIA | LATAM | 0 | 16:00 | 23:30 | 920.00
+GIG | MIA | Azul | 1 (CNF) | 18:00 | 01:00 | 900.00
+GIG | MIA | Delta Air Lines | 1 (ATL) | 20:00 | 02:30 | 980.00
+GIG | MIA | Gol Transportes Aéreos | 0 | 22:00 | 04:30 | 840.00
+
+
+Here are the 16 flight plans:
+
+MIA | FCO | American Airlines | Non-stop | 08:00 | 17:30 | 850.00
+MIA | FCO | Delta Air Lines | 1 stop (CDG) | 09:30 | 19:15 | 720.00
+MIA | FCO | Lufthansa | 1 stop (FRA) | 11:00 | 20:45 | 950.00
+MIA | FCO | Alitalia | Non-stop | 12:30 | 21:50 | 800.00
+MIA | FCO | British Airways | 1 stop (LHR) | 14:00 | 23:20 | 820.00
+MIA | FCO | Iberia | 1 stop (MAD) | 15:30 | 00:50 | 780.00
+MIA | FCO | United Airlines | 1 stop (EWR) | 17:00 | 02:15 | 750.00
+MIA | FCO | Turkish Airlines | 1 stop (IST) | 19:30 | 04:45 | 880.00
+FCO | MIA | Alitalia | Non-stop | 09:00 | 14:20 | 830.00
+FCO | MIA | American Airlines | 1 stop (PHL) | 11:30 | 17:50 | 790.00
+FCO | MIA | Lufthansa | 1 stop (FRA) | 13:00 | 20:25 | 920.00
+FCO | MIA | Delta Air Lines | 1 stop (JFK) | 15:00 | 22:35 | 810.00
+FCO | MIA | British Airways | 1 stop (LHR) | 17:00 | 00:20 | 840.00
+FCO | MIA | Iberia | 1 stop (MAD) | 19:30 | 02:50 | 770.00
+FCO | MIA | United Airlines | 1 stop (EWR) | 21:30 | 04:55 | 800.00
+FCO | MIA | Turkish Airlines | 1 stop (IST) | 23:30 | 07:00 | 900.00
+
+
+Here are the 16 flight plans:
+
+MIA | SCL | LATAM | 0 | 08:00 | 18:30 | 450.00
+MIA | SCL | American Airlines | 1 (LIM) | 09:30 | 21:15 | 520.00
+MIA | SCL | Avianca | 1 (BOG) | 10:45 | 22:20 | 480.00
+MIA | SCL | Copa Airlines | 1 (PTY) | 11:50 | 23:35 | 500.00
+MIA | SCL | LATAM | 0 | 13:00 | 23:30 | 420.00
+MIA | SCL | Delta Air Lines | 1 (ATL) | 14:15 | 01:05 | 550.00
+MIA | SCL | Aeromexico | 1 (MEX) | 15:30 | 02:10 | 530.00
+MIA | SCL | United Airlines | 1 (IAH) | 16:45 | 03:25 | 510.00
+SCL | MIA | LATAM | 0 | 09:00 | 19:30 | 430.00
+SCL | MIA | American Airlines | 1 (LIM) | 10:30 | 22:15 | 500.00
+SCL | MIA | Avianca | 1 (BOG) | 11:45 | 23:20 | 460.00
+SCL | MIA | Copa Airlines | 1 (PTY) | 13:00 | 00:35 | 490.00
+SCL | MIA | LATAM | 0 | 14:15 | 00:45 | 410.00
+SCL | MIA | Delta Air Lines | 1 (ATL) | 15:30 | 02:05 | 540.00
+SCL | MIA | Aeromexico | 1 (MEX) | 16:45 | 03:10 | 520.00
+SCL | MIA | United Airlines | 1 (IAH) | 18:00 | 04:25 | 500.00
+
+
+Here are the 16 flight plans:
+
+MIA | ICN | American Airlines | Non-stop | 09:00 | 22:30 | 850.00
+MIA | ICN | Delta Air Lines | 1 stop (NRT) | 11:30 | 00:15 | 920.00
+MIA | ICN | Korean Air | Non-stop | 13:00 | 02:30 | 900.00
+MIA | ICN | Japan Airlines | 1 stop (HND) | 15:00 | 04:15 | 980.00
+MIA | ICN | China Eastern | 2 stops (PEK, PVG) | 17:00 | 08:30 | 1100.00
+MIA | ICN | Asiana Airlines | Non-stop | 19:00 | 06:30 | 950.00
+MIA | ICN | United Airlines | 1 stop (SFO) | 21:00 | 10:15 | 1050.00
+MIA | ICN | ANA | 1 stop (NRT) | 23:00 | 12:30 | 1000.00
+
+ICN | MIA | Korean Air | Non-stop | 09:00 | 20:30 | 900.00
+ICN | MIA | Delta Air Lines | 1 stop (ATL) | 11:30 | 22:15 | 950.00
+ICN | MIA | American Airlines | Non-stop | 13:00 | 00:30 | 850.00
+ICN | MIA | Japan Airlines | 1 stop (HND) | 15:00 | 02:15 | 980.00
+ICN | MIA | China Southern | 2 stops (CAN, LAX) | 17:00 | 06:30 | 1150.00
+ICN | MIA | Asiana Airlines | Non-stop | 19:00 | 04:30 | 950.00
+ICN | MIA | United Airlines | 1 stop (SFO) | 21:00 | 08:15 | 1050.00
+ICN | MIA | ANA | 1 stop (NRT) | 23:00 | 10:30 | 1000.00
+
+
+Here are the 16 flight plans:
+
+MIA | PVG | American Airlines | 1 (NRT) | 09:00 | 14:30 | 850.00
+MIA | PVG | China Eastern | 0 | 11:30 | 16:45 | 700.00
+MIA | PVG | Delta Air Lines | 2 (ATL, ICN) | 08:15 | 19:50 | 950.00
+MIA | PVG | Japan Airlines | 1 (HND) | 10:45 | 17:10 | 900.00
+MIA | PVG | Korean Air | 1 (ICN) | 09:30 | 17:40 | 800.00
+MIA | PVG | LATAM | 2 (LIM, HKG) | 07:00 | 20:20 | 1100.00
+MIA | PVG | Qantas | 1 (SYD) | 12:00 | 19:30 | 1000.00
+MIA | PVG | United Airlines | 0 | 14:15 | 20:45 | 750.00
+PVG | MIA | Air China | 1 (PEK) | 09:30 | 20:10 | 800.00
+PVG | MIA | American Airlines | 0 | 11:45 | 22:20 | 900.00
+PVG | MIA | China Airlines | 1 (TPE) | 10:15 | 21:50 | 850.00
+PVG | MIA | Delta Air Lines | 2 (ICN, LAX) | 08:00 | 23:40 | 1050.00
+PVG | MIA | Japan Airlines | 1 (HND) | 12:30 | 23:10 | 950.00
+PVG | MIA | Korean Air | 1 (ICN) | 09:00 | 21:30 | 800.00
+PVG | MIA | LATAM | 2 (HKG, GRU) | 07:30 | 22:50 | 1150.00
+PVG | MIA | United Airlines | 0 | 14:30 | 23:15 | 850.00
+
+
+Here are the 16 flight plans:
+
+MIA | SIN | AA | 1 (NRT) | 08:00 | 19:30 | 850.00
+MIA | SIN | SQ | 0 | 10:00 | 06:00 | 1200.00
+MIA | SIN | UA | 2 (LAX, HKG) | 14:00 | 10:30 | 1100.00
+MIA | SIN | CX | 1 (HKG) | 16:00 | 12:30 | 1050.00
+MIA | SIN | JL | 1 (NRT) | 18:00 | 14:30 | 1000.00
+MIA | SIN | BR | 2 (LAX, TPE) | 20:00 | 16:30 | 950.00
+MIA | SIN | PR | 1 (MNL) | 22:00 | 18:30 | 900.00
+MIA | SIN | MH | 2 (KUL, BKK) | 00:00 | 20:30 | 850.00
+
+SIN | MIA | SQ | 0 | 09:00 | 09:00 | 1300.00
+SIN | MIA | UA | 1 (HKG) | 11:00 | 11:30 | 1250.00
+SIN | MIA | CX | 1 (HKG) | 13:00 | 13:30 | 1200.00
+SIN | MIA | AA | 2 (NRT, LAX) | 15:00 | 15:30 | 1150.00
+SIN | MIA | JL | 1 (NRT) | 17:00 | 17:30 | 1100.00
+SIN | MIA | BR | 2 (TPE, LAX) | 19:00 | 19:30 | 1050.00
+SIN | MIA | PR | 1 (MNL) | 21:00 | 21:30 | 1000.00
+SIN | MIA | MH | 2 (BKK, KUL) | 23:00 | 23:30 | 950.00
+
+
+Here are the 16 flight plans:
+
+MIA | SPU | AA | 0 | 08:00 | 14:30 | 450.00
+MIA | SPU | UA | 1 (LHR) | 10:30 | 19:15 | 520.00
+MIA | SPU | DL | 0 | 12:00 | 18:30 | 480.00
+MIA | SPU | WN | 1 (BOS) | 14:00 | 22:00 | 550.00
+MIA | SPU | AS | 0 | 16:00 | 22:30 | 500.00
+MIA | SPU | F9 | 1 (EWR) | 18:00 | 00:45 | 580.00
+MIA | SPU | B6 | 0 | 20:00 | 02:30 | 530.00
+MIA | SPU | NK | 1 (ORD) | 22:00 | 05:15 | 610.00
+
+SPU | MIA | AA | 0 | 06:00 | 12:30 | 420.00
+SPU | MIA | UA | 1 (CDG) | 08:30 | 16:15 | 490.00
+SPU | MIA | DL | 0 | 10:00 | 16:30 | 450.00
+SPU | MIA | WN | 1 (DFW) | 12:30 | 20:00 | 520.00
+SPU | MIA | AS | 0 | 14:30 | 20:30 | 470.00
+SPU | MIA | F9 | 1 (DEN) | 16:30 | 23:45 | 540.00
+SPU | MIA | B6 | 0 | 18:30 | 00:30 | 500.00
+SPU | MIA | NK | 1 (IAH) | 20:30 | 03:15 | 570.00
+
+
+Here are the 16 flight plans:
+
+MIA | ARN | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+MIA | ARN | BA | 1 (LHR) | 09:30 | 20:00 | 920.00
+MIA | ARN | IB | 1 (MAD) | 11:00 | 21:30 | 780.00
+MIA | ARN | LH | 1 (FRA) | 12:30 | 22:00 | 900.00
+MIA | ARN | SK | 0 | 14:00 | 06:00 | 1100.00
+MIA | ARN | UA | 1 (EWR) | 15:30 | 07:30 | 950.00
+MIA | ARN | DL | 1 (AMS) | 17:00 | 09:00 | 980.00
+MIA | ARN | AF | 1 (CDG) | 19:00 | 11:00 | 1000.00
+ARN | MIA | SK | 0 | 08:00 | 14:00 | 1050.00
+ARN | MIA | AA | 1 (LHR) | 09:30 | 16:30 | 870.00
+ARN | MIA | BA | 1 (LHR) | 11:00 | 18:00 | 940.00
+ARN | MIA | IB | 1 (MAD) | 12:30 | 20:30 | 790.00
+ARN | MIA | LH | 1 (FRA) | 14:00 | 22:00 | 910.00
+ARN | MIA | UA | 1 (EWR) | 15:30 | 07:30 | 960.00
+ARN | MIA | DL | 1 (AMS) | 17:00 | 09:00 | 990.00
+ARN | MIA | AF | 1 (CDG) | 19:00 | 11:00 | 1010.00
+
+
+Here are the 16 flight plans:
+
+MIA | SYD | Qantas | 1 (LAX) | 08:30 | 06:45 | 850.00
+MIA | SYD | American | 2 (DFW, HNL) | 10:15 | 09:20 | 1200.00
+MIA | SYD | Delta | 1 (ATL) | 13:45 | 11:50 | 950.00
+MIA | SYD | United | 2 (IAH, NRT) | 16:00 | 14:05 | 1300.00
+MIA | SYD | LATAM | 1 (SCL) | 18:30 | 16:35 | 1000.00
+MIA | SYD | Air Canada | 2 (YYZ, HKG) | 20:45 | 18:50 | 1400.00
+MIA | SYD | Emirates | 1 (DXB) | 22:15 | 20:20 | 1100.00
+MIA | SYD | Singapore | 2 (SIN, CGK) | 00:30 | 22:35 | 1250.00
+
+SYD | MIA | Qantas | 1 (LAX) | 09:00 | 07:15 | 900.00
+SYD | MIA | American | 2 (HNL, DFW) | 11:30 | 09:35 | 1150.00
+SYD | MIA | Delta | 1 (ATL) | 14:15 | 12:20 | 1050.00
+SYD | MIA | United | 2 (NRT, IAH) | 16:45 | 14:50 | 1200.00
+SYD | MIA | LATAM | 1 (SCL) | 19:00 | 17:05 | 950.00
+SYD | MIA | Air Canada | 2 (HKG, YYZ) | 21:30 | 19:35 | 1350.00
+SYD | MIA | Emirates | 1 (DXB) | 23:45 | 21:50 | 1000.00
+SYD | MIA | Singapore | 2 (CGK, SIN) | 02:00 | 00:05 | 1300.00
+
+
+Here are the 16 flight plans:
+
+MIA | NRT | AA | 0 | 08:00 | 10:30 | 850.00
+MIA | NRT | JL | 1 (HNL) | 09:30 | 12:15 | 950.00
+MIA | NRT | UA | 0 | 11:00 | 13:45 | 900.00
+MIA | NRT | NH | 1 (LAX) | 12:30 | 15:50 | 1000.00
+MIA | NRT | DL | 0 | 14:00 | 16:30 | 950.00
+MIA | NRT | HA | 1 (HNL) | 15:30 | 18:15 | 1050.00
+MIA | NRT | CX | 1 (LAX) | 17:00 | 20:20 | 1100.00
+MIA | NRT | AC | 0 | 19:00 | 21:45 | 1000.00
+NRT | MIA | AA | 0 | 09:00 | 06:30 | 850.00
+NRT | MIA | JL | 1 (HNL) | 10:30 | 08:15 | 950.00
+NRT | MIA | UA | 0 | 12:00 | 09:45 | 900.00
+NRT | MIA | NH | 1 (LAX) | 13:30 | 11:50 | 1000.00
+NRT | MIA | DL | 0 | 15:00 | 12:30 | 950.00
+NRT | MIA | HA | 1 (HNL) | 16:30 | 14:15 | 1050.00
+NRT | MIA | CX | 1 (LAX) | 18:00 | 15:20 | 1100.00
+NRT | MIA | AC | 0 | 20:00 | 16:45 | 1000.00
+
+
+Here are the 16 flight plans:
+
+MIA | HND | ANA | 1 (NRT) | 09:00 | 11:30 | 850.00
+MIA | HND | JAL | 0 | 11:00 | 14:30 | 1200.00
+MIA | HND | AA | 1 (DFW) | 13:00 | 16:30 | 950.00
+MIA | HND | UA | 1 (SFO) | 15:00 | 18:30 | 1000.00
+MIA | HND | DL | 1 (ATL) | 17:00 | 20:30 | 900.00
+MIA | HND | LH | 2 (FRA, HKG) | 19:00 | 23:30 | 1400.00
+MIA | HND | CX | 1 (HKG) | 21:00 | 00:30 | 1100.00
+MIA | HND | SQ | 1 (SIN) | 23:00 | 02:30 | 1300.00
+
+HND | MIA | ANA | 1 (NRT) | 09:00 | 07:30 | 800.00
+HND | MIA | JAL | 0 | 11:00 | 09:30 | 1100.00
+HND | MIA | AA | 1 (DFW) | 13:00 | 11:30 | 900.00
+HND | MIA | UA | 1 (SFO) | 15:00 | 13:30 | 950.00
+HND | MIA | DL | 1 (ATL) | 17:00 | 15:30 | 850.00
+HND | MIA | LH | 2 (FRA, MAD) | 19:00 | 17:30 | 1300.00
+HND | MIA | CX | 1 (HKG) | 21:00 | 19:30 | 1000.00
+HND | MIA | SQ | 1 (SIN) | 23:00 | 21:30 | 1200.00
+
+
+Here are the 16 flight plans:
+
+MIA | YYZ | AA | 0 | 08:00 | 11:30 | 420.00
+MIA | YYZ | WS | 1 (BOS) | 09:15 | 14:45 | 550.00
+MIA | YYZ | AC | 0 | 10:45 | 14:15 | 480.00
+MIA | YYZ | DL | 1 (ATL) | 11:30 | 16:00 | 620.00
+MIA | YYZ | UA | 0 | 12:15 | 15:45 | 500.00
+MIA | YYZ | B6 | 1 (JFK) | 13:00 | 17:30 | 580.00
+MIA | YYZ | AS | 1 (ORD) | 14:30 | 19:00 | 650.00
+MIA | YYZ | F9 | 0 | 15:45 | 19:15 | 450.00
+YYZ | MIA | WS | 0 | 08:00 | 11:30 | 400.00
+YYZ | MIA | AA | 1 (CLT) | 09:15 | 13:45 | 520.00
+YYZ | MIA | AC | 0 | 10:45 | 14:15 | 460.00
+YYZ | MIA | DL | 1 (DTW) | 11:30 | 15:00 | 590.00
+YYZ | MIA | UA | 0 | 12:15 | 15:45 | 480.00
+YYZ | MIA | B6 | 1 (EWR) | 13:00 | 16:30 | 560.00
+YYZ | MIA | AS | 1 (DEN) | 14:30 | 18:00 | 630.00
+YYZ | MIA | F9 | 0 | 15:45 | 19:15 | 420.00
+
+
+MIA | YVR | American Airlines | Non-stop | 08:00 | 11:30 | 450.00
+MIA | YVR | Delta Air Lines | 1 stop (LAX) | 09:15 | 13:45 | 520.00
+MIA | YVR | United Airlines | Non-stop | 10:30 | 14:00 | 480.00
+MIA | YVR | Air Canada | 1 stop (YYZ) | 11:45 | 16:15 | 500.00
+MIA | YVR | JetBlue Airways | Non-stop | 13:00 | 16:30 | 430.00
+MIA | YVR | WestJet | 1 stop (YYC) | 14:15 | 18:45 | 550.00
+MIA | YVR | Alaska Airlines | Non-stop | 15:30 | 19:00 | 490.00
+MIA | YVR | Sun Country Airlines | 1 stop (DEN) | 16:45 | 21:15 | 510.00
+YVR | MIA | Air Canada | Non-stop | 08:00 | 15:30 | 420.00
+YVR | MIA | WestJet | 1 stop (YYC) | 09:15 | 17:45 | 490.00
+YVR | MIA | United Airlines | Non-stop | 10:30 | 18:00 | 450.00
+YVR | MIA | American Airlines | 1 stop (LAX) | 11:45 | 20:15 | 520.00
+YVR | MIA | Delta Air Lines | Non-stop | 13:00 | 20:30 | 480.00
+YVR | MIA | Alaska Airlines | 1 stop (SEA) | 14:15 | 22:45 | 500.00
+YVR | MIA | JetBlue Airways | Non-stop | 15:30 | 23:00 | 430.00
+YVR | MIA | Sun Country Airlines | 1 stop (DEN) | 16:45 | 01:15 | 510.00
+
+
+Here are the 16 flight plans:
+
+MIA | VIE | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+MIA | VIE | UA | 2 (EWR, FRA) | 10:30 | 21:15 | 950.00
+MIA | VIE | LH | 1 (FRA) | 12:00 | 22:45 | 1100.00
+MIA | VIE | DL | 0 | 14:00 | 06:30 | 1200.00
+MIA | VIE | BA | 1 (LHR) | 16:00 | 09:15 | 1000.00
+MIA | VIE | TK | 1 (IST) | 18:00 | 11:45 | 1050.00
+MIA | VIE | KL | 1 (AMS) | 20:00 | 13:30 | 1150.00
+MIA | VIE | OS | 0 | 22:00 | 14:45 | 1300.00
+VIE | MIA | AA | 1 (LHR) | 08:00 | 18:30 | 850.00
+VIE | MIA | UA | 2 (FRA, EWR) | 10:30 | 21:15 | 950.00
+VIE | MIA | LH | 1 (FRA) | 12:00 | 22:45 | 1100.00
+VIE | MIA | DL | 0 | 14:00 | 06:30 | 1200.00
+VIE | MIA | BA | 1 (LHR) | 16:00 | 09:15 | 1000.00
+VIE | MIA | TK | 1 (IST) | 18:00 | 11:45 | 1050.00
+VIE | MIA | KL | 1 (AMS) | 20:00 | 13:30 | 1150.00
+VIE | MIA | OS | 0 | 22:00 | 14:45 | 1300.00
+VIE | MIA | AF | 1 (CDG) | 00:30 | 08:15 | 1250.00
+
+
+Here are the 16 flight plans:
+
+MIA | ZRH | Swiss | 1 (LHR) | 08:00 | 18:30 | 850.00
+MIA | ZRH | American | 2 (JFK, CDG) | 10:00 | 22:00 | 1200.00
+MIA | ZRH | Lufthansa | 1 (FRA) | 12:00 | 22:30 | 1000.00
+MIA | ZRH | Iberia | 2 (MAD, BCN) | 14:00 | 01:00 | 1100.00
+MIA | ZRH | Delta | 1 (ATL) | 16:00 | 02:30 | 900.00
+MIA | ZRH | United | 2 (EWR, BRU) | 18:00 | 04:00 | 1300.00
+MIA | ZRH | Air France | 1 (CDG) | 20:00 | 06:30 | 1050.00
+MIA | ZRH | Austrian | 2 (VIE, MUC) | 22:00 | 08:00 | 1250.00
+
+ZRH | MIA | Swiss | 1 (LHR) | 08:30 | 14:00 | 800.00
+ZRH | MIA | Lufthansa | 1 (FRA) | 10:30 | 16:00 | 950.00
+ZRH | MIA | American | 2 (JFK, PHL) | 12:30 | 20:00 | 1150.00
+ZRH | MIA | Iberia | 2 (MAD, LIS) | 14:30 | 22:30 | 1000.00
+ZRH | MIA | Delta | 1 (ATL) | 16:30 | 00:00 | 850.00
+ZRH | MIA | United | 2 (EWR, IAD) | 18:30 | 02:30 | 1200.00
+ZRH | MIA | Air France | 1 (CDG) | 20:30 | 04:00 | 950.00
+ZRH | MIA | Austrian | 2 (VIE, ZAG) | 22:30 | 06:00 | 1100.00
