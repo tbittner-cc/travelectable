@@ -1,0 +1,1619 @@
+
+
+Here are the 16 flight plans:
+
+TPA | ANC | AA | 1 (DFW) | 08:00 | 14:30 | 542.50
+TPA | ANC | UA | 2 (IAH, SFO) | 09:30 | 18:45 | 623.00
+TPA | ANC | DL | 1 (ATL) | 11:15 | 19:20 | 598.75
+TPA | ANC | WN | 2 (BNA, DEN) | 12:45 | 21:10 | 678.50
+TPA | ANC | AS | 1 (SEA) | 13:30 | 20:50 | 638.25
+TPA | ANC | F9 | 2 (DEN, PDX) | 14:15 | 22:35 | 718.00
+TPA | ANC | NK | 1 (ORD) | 15:00 | 22:20 | 698.75
+TPA | ANC | B6 | 2 (JFK, LAX) | 16:30 | 00:45 | 758.50
+
+ANC | TPA | AA | 1 (DFW) | 08:30 | 19:00 | 572.50
+ANC | TPA | UA | 2 (SFO, IAH) | 09:45 | 21:10 | 653.00
+ANC | TPA | DL | 1 (ATL) | 11:00 | 20:25 | 628.75
+ANC | TPA | WN | 2 (DEN, BNA) | 12:30 | 22:55 | 708.50
+ANC | TPA | AS | 1 (SEA) | 13:15 | 21:40 | 668.25
+ANC | TPA | F9 | 2 (PDX, DEN) | 14:00 | 23:20 | 738.00
+ANC | TPA | NK | 1 (ORD) | 15:15 | 23:40 | 728.75
+ANC | TPA | B6 | 2 (LAX, JFK) | 16:45 | 01:10 | 778.50
+
+
+Here are the 16 flight plans:
+
+TPA | SJU | AA | Non-stop | 08:00 | 10:30 | 250.00
+TPA | SJU | UA | 1 stop (MIA) | 09:15 | 12:45 | 280.00
+TPA | SJU | DL | Non-stop | 10:30 | 13:00 | 220.00
+TPA | SJU | WN | 1 stop (FLL) | 11:45 | 15:15 | 240.00
+TPA | SJU | B6 | Non-stop | 13:00 | 15:30 | 200.00
+TPA | SJU | AS | 1 stop (PBI) | 14:15 | 17:45 | 260.00
+TPA | SJU | F9 | 1 stop (ATL) | 15:30 | 19:00 | 230.00
+TPA | SJU | NK | Non-stop | 17:00 | 19:30 | 210.00
+SJU | TPA | AA | Non-stop | 08:30 | 11:00 | 270.00
+SJU | TPA | UA | 1 stop (EWR) | 09:45 | 13:15 | 300.00
+SJU | TPA | DL | Non-stop | 11:00 | 13:30 | 240.00
+SJU | TPA | WN | 1 stop (BWI) | 12:15 | 15:45 | 260.00
+SJU | TPA | B6 | Non-stop | 13:30 | 16:00 | 220.00
+SJU | TPA | AS | 1 stop (CLT) | 14:45 | 18:15 | 280.00
+SJU | TPA | F9 | 1 stop (MCO) | 16:00 | 19:30 | 250.00
+SJU | TPA | NK | Non-stop | 17:30 | 20:00 | 230.00
+
+
+TPA | BHB | American Airlines | 0 | 08:00 | 10:30 | 250.00
+TPA | BHB | Delta Air Lines | 1 (ATL) | 09:15 | 12:45 | 320.00
+TPA | BHB | United Airlines | 0 | 11:00 | 13:30 | 280.00
+TPA | BHB | JetBlue Airways | 1 (FLL) | 12:45 | 16:15 | 350.00
+TPA | BHB | Spirit Airlines | 0 | 14:30 | 17:00 | 220.00
+TPA | BHB | Frontier Airlines | 1 (MCO) | 15:45 | 19:15 | 300.00
+TPA | BHB | Southwest Airlines | 0 | 17:00 | 19:30 | 240.00
+TPA | BHB | Alaska Airlines | 1 (PBI) | 18:15 | 21:45 | 330.00
+BHB | TPA | American Airlines | 0 | 08:30 | 11:00 | 260.00
+BHB | TPA | Delta Air Lines | 1 (BOS) | 09:45 | 13:15 | 340.00
+BHB | TPA | United Airlines | 0 | 11:30 | 14:00 | 290.00
+BHB | TPA | JetBlue Airways | 1 (JFK) | 12:15 | 15:45 | 360.00
+BHB | TPA | Spirit Airlines | 0 | 13:45 | 16:15 | 230.00
+BHB | TPA | Frontier Airlines | 1 (EWR) | 15:00 | 18:30 | 310.00
+BHB | TPA | Southwest Airlines | 0 | 16:30 | 19:00 | 250.00
+BHB | TPA | Alaska Airlines | 1 (RDU) | 17:45 | 21:15 | 350.00
+
+
+Here are the 16 flight plans:
+
+TPA | MRY | American Airlines | 1 (DFW) | 08:00 | 11:35 | 542.00
+TPA | MRY | Delta Air Lines | 0 | 10:30 | 14:05 | 482.00
+TPA | MRY | United Airlines | 1 (IAH) | 12:45 | 16:20 | 512.00
+TPA | MRY | Southwest Airlines | 1 (DAL) | 14:00 | 17:35 | 452.00
+TPA | MRY | Alaska Airlines | 0 | 16:15 | 19:50 | 522.00
+TPA | MRY | JetBlue Airways | 1 (LAX) | 18:30 | 22:05 | 492.00
+TPA | MRY | Spirit Airlines | 1 (LAS) | 20:45 | 00:20 | 432.00
+TPA | MRY | Frontier Airlines | 0 | 22:00 | 01:35 | 472.00
+
+MRY | TPA | American Airlines | 1 (PHX) | 08:15 | 15:40 | 562.00
+MRY | TPA | Delta Air Lines | 0 | 10:50 | 18:15 | 502.00
+MRY | TPA | United Airlines | 1 (SFO) | 12:55 | 20:20 | 532.00
+MRY | TPA | Southwest Airlines | 1 (SAN) | 14:20 | 21:45 | 462.00
+MRY | TPA | Alaska Airlines | 0 | 16:35 | 22:50 | 542.00
+MRY | TPA | JetBlue Airways | 1 (JFK) | 18:50 | 00:15 | 492.00
+MRY | TPA | Spirit Airlines | 1 (ORD) | 20:55 | 02:20 | 442.00
+MRY | TPA | Frontier Airlines | 0 | 22:10 | 03:35 | 482.00
+
+
+Here are the 16 flight plans:
+
+TPA | SJC | AA | Non-stop | 06:00 | 09:35 | 425.00
+TPA | SJC | UA | 1 stop (DEN) | 07:30 | 11:45 | 495.00
+TPA | SJC | WN | Non-stop | 08:15 | 11:50 | 395.00
+TPA | SJC | DL | 1 stop (ATL) | 09:00 | 13:20 | 525.00
+TPA | SJC | AS | Non-stop | 10:45 | 14:10 | 455.00
+TPA | SJC | B6 | 1 stop (JFK) | 11:30 | 15:55 | 575.00
+TPA | SJC | F9 | Non-stop | 12:15 | 15:40 | 415.00
+TPA | SJC | NK | 1 stop (LAS) | 13:00 | 17:25 | 545.00
+SJC | TPA | AA | Non-stop | 06:30 | 14:05 | 450.00
+SJC | TPA | UA | 1 stop (ORD) | 07:45 | 15:10 | 520.00
+SJC | TPA | WN | Non-stop | 09:00 | 16:35 | 420.00
+SJC | TPA | DL | 1 stop (MSP) | 10:15 | 17:40 | 560.00
+SJC | TPA | AS | Non-stop | 11:30 | 19:05 | 480.00
+SJC | TPA | B6 | 1 stop (BOS) | 12:45 | 20:10 | 600.00
+SJC | TPA | F9 | Non-stop | 13:50 | 21:25 | 440.00
+SJC | TPA | NK | 1 stop (PHX) | 14:55 | 22:30 | 580.00
+
+
+Here are the 16 flight plans:
+
+TPA | EGE | American Airlines | 1 (DFW) | 08:00 | 12:45 | 543.00
+TPA | EGE | Delta Air Lines | 0 | 09:30 | 13:15 | 482.00
+TPA | EGE | United Airlines | 1 (IAH) | 10:15 | 14:50 | 512.00
+TPA | EGE | Frontier Airlines | 1 (DEN) | 11:45 | 16:20 | 428.00
+TPA | EGE | Southwest Airlines | 1 (DAL) | 12:30 | 17:05 | 495.00
+TPA | EGE | JetBlue Airways | 1 (JFK) | 13:15 | 18:00 | 558.00
+TPA | EGE | Spirit Airlines | 1 (LAS) | 14:00 | 18:45 | 388.00
+TPA | EGE | Alaska Airlines | 1 (SEA) | 15:45 | 20:30 | 598.00
+EGE | TPA | American Airlines | 1 (PHX) | 07:00 | 13:35 | 523.00
+EGE | TPA | Delta Air Lines | 0 | 08:30 | 14:15 | 492.00
+EGE | TPA | United Airlines | 1 (SFO) | 09:15 | 15:00 | 538.00
+EGE | TPA | Frontier Airlines | 1 (MCO) | 10:45 | 16:20 | 418.00
+EGE | TPA | Southwest Airlines | 1 (HOU) | 11:30 | 16:55 | 488.00
+EGE | TPA | JetBlue Airways | 1 (BOS) | 12:15 | 17:50 | 573.00
+EGE | TPA | Spirit Airlines | 1 (ORD) | 13:00 | 18:35 | 398.00
+EGE | TPA | Alaska Airlines | 1 (PDX) | 14:45 | 20:20 | 628.00
+
+
+Here are the 16 flight plans:
+
+TPA | CHS | AA | 0 | 08:00 | 09:35 | 198.00
+TPA | CHS | DL | 1 (ATL) | 09:30 | 12:05 | 220.00
+TPA | CHS | UA | 0 | 11:45 | 13:20 | 180.00
+TPA | CHS | WN | 1 (BHM) | 13:15 | 15:50 | 240.00
+TPA | CHS | AS | 0 | 14:50 | 16:25 | 200.00
+TPA | CHS | F9 | 1 (CLT) | 16:20 | 18:55 | 210.00
+TPA | CHS | NK | 0 | 17:40 | 19:15 | 190.00
+TPA | CHS | B6 | 1 (JFK) | 19:10 | 21:45 | 230.00
+CHS | TPA | AA | 0 | 06:30 | 08:05 | 185.00
+CHS | TPA | DL | 1 (ATL) | 08:00 | 10:35 | 225.00
+CHS | TPA | UA | 0 | 10:15 | 11:50 | 195.00
+CHS | TPA | WN | 1 (BHM) | 11:50 | 14:25 | 245.00
+CHS | TPA | AS | 0 | 13:25 | 15:00 | 205.00
+CHS | TPA | F9 | 1 (CLT) | 14:55 | 17:30 | 215.00
+CHS | TPA | NK | 0 | 16:15 | 17:50 | 205.00
+CHS | TPA | B6 | 1 (JFK) | 17:45 | 20:20 | 235.00
+
+
+Here are the 16 flight plans:
+
+TPA | RAP | AA | 0 | 08:00 | 11:15 | 425.00
+TPA | RAP | UA | 1 (DEN) | 09:30 | 14:05 | 550.00
+TPA | RAP | DL | 0 | 11:45 | 15:00 | 475.00
+TPA | RAP | WN | 1 (MDW) | 13:15 | 17:40 | 520.00
+TPA | RAP | AS | 0 | 15:00 | 18:20 | 450.00
+TPA | RAP | F9 | 1 (IAH) | 16:30 | 20:55 | 490.00
+TPA | RAP | NK | 1 (ORD) | 18:00 | 22:25 | 505.00
+TPA | RAP | B6 | 0 | 20:15 | 23:35 | 480.00
+RAP | TPA | AA | 0 | 08:30 | 12:45 | 440.00
+RAP | TPA | UA | 1 (SFO) | 10:00 | 15:25 | 570.00
+RAP | TPA | DL | 0 | 12:15 | 16:30 | 490.00
+RAP | TPA | WN | 1 (DAL) | 14:00 | 18:25 | 535.00
+RAP | TPA | AS | 0 | 15:45 | 20:00 | 460.00
+RAP | TPA | F9 | 1 (LAX) | 17:15 | 21:40 | 510.00
+RAP | TPA | NK | 1 (MCO) | 19:00 | 23:25 | 525.00
+RAP | TPA | B6 | 0 | 20:45 | 00:10 | 495.00
+
+
+Here are the 16 flight plans:
+
+TPA | FCA | AA | 1 (ORD) | 08:00 | 18:30 | 450.00
+TPA | FCA | UA | 2 (EWR, DEN) | 09:30 | 20:45 | 520.00
+TPA | FCA | DL | 0 | 11:15 | 19:50 | 380.00
+TPA | FCA | WN | 1 (MDW) | 12:45 | 21:10 | 420.00
+TPA | FCA | AS | 2 (SEA, PDX) | 14:00 | 23:20 | 580.00
+TPA | FCA | B6 | 1 (JFK) | 15:30 | 22:50 | 500.00
+TPA | FCA | F9 | 1 (DEN) | 17:00 | 00:30 | 480.00
+TPA | FCA | NK | 2 (FLL, LAS) | 19:15 | 02:40 | 550.00
+FCA | TPA | AA | 1 (DFW) | 06:00 | 16:20 | 420.00
+FCA | TPA | UA | 2 (SFO, IAH) | 07:30 | 18:50 | 520.00
+FCA | TPA | DL | 0 | 09:45 | 19:10 | 380.00
+FCA | TPA | WN | 1 (PHX) | 11:15 | 20:40 | 440.00
+FCA | TPA | AS | 2 (PDX, SEA) | 12:50 | 22:15 | 580.00
+FCA | TPA | B6 | 1 (BOS) | 14:20 | 23:45 | 500.00
+FCA | TPA | F9 | 1 (DEN) | 16:00 | 00:25 | 480.00
+FCA | TPA | NK | 2 (LAS, FLL) | 18:30 | 02:55 | 550.00
+
+
+Here are the 16 flight plans:
+
+TPA | FLG | American Airlines | Non-stop | 06:00 | 08:30 | 250.00
+TPA | FLG | Delta Air Lines | 1 stop (ATL) | 08:15 | 12:45 | 320.00
+TPA | FLG | United Airlines | Non-stop | 10:30 | 13:00 | 280.00
+TPA | FLG | Southwest Airlines | 1 stop (DAL) | 12:00 | 16:30 | 350.00
+TPA | FLG | Alaska Airlines | Non-stop | 14:45 | 17:15 | 300.00
+TPA | FLG | JetBlue Airways | 1 stop (BOS) | 16:30 | 20:45 | 380.00
+TPA | FLG | Spirit Airlines | Non-stop | 18:00 | 20:30 | 220.00
+TPA | FLG | Frontier Airlines | 1 stop (DEN) | 19:30 | 23:45 | 400.00
+FLG | TPA | American Airlines | Non-stop | 06:30 | 09:00 | 270.00
+FLG | TPA | Delta Air Lines | 1 stop (SFO) | 08:45 | 13:15 | 340.00
+FLG | TPA | United Airlines | Non-stop | 11:15 | 13:45 | 290.00
+FLG | TPA | Southwest Airlines | 1 stop (PHX) | 12:45 | 16:15 | 360.00
+FLG | TPA | Alaska Airlines | Non-stop | 15:00 | 17:30 | 310.00
+FLG | TPA | JetBlue Airways | 1 stop (JFK) | 16:45 | 20:15 | 390.00
+FLG | TPA | Spirit Airlines | Non-stop | 18:15 | 20:45 | 230.00
+FLG | TPA | Frontier Airlines | 1 stop (ORD) | 19:45 | 23:15 | 410.00
+
+
+TPA | TYS | American Airlines | 0 | 08:00 | 09:35 | 198.00
+TPA | TYS | Delta Air Lines | 1 (ATL) | 09:15 | 12:05 | 258.00
+TPA | TYS | United Airlines | 0 | 10:45 | 12:20 | 220.00
+TPA | TYS | Southwest Airlines | 1 (BNA) | 11:30 | 14:10 | 288.00
+TPA | TYS | JetBlue Airways | 0 | 13:00 | 14:35 | 240.00
+TPA | TYS | Spirit Airlines | 1 (FLL) | 14:15 | 16:50 | 198.00
+TPA | TYS | Frontier Airlines | 0 | 15:30 | 17:05 | 210.00
+TPA | TYS | Alaska Airlines | 1 (ORD) | 16:45 | 19:20 | 268.00
+TYS | TPA | American Airlines | 0 | 08:30 | 10:05 | 208.00
+TYS | TPA | Delta Air Lines | 1 (ATL) | 09:50 | 12:40 | 278.00
+TYS | TPA | United Airlines | 0 | 11:10 | 12:45 | 230.00
+TYS | TPA | Southwest Airlines | 1 (BNA) | 12:35 | 15:15 | 298.00
+TYS | TPA | JetBlue Airways | 0 | 14:00 | 15:35 | 250.00
+TYS | TPA | Spirit Airlines | 1 (FLL) | 15:20 | 17:55 | 218.00
+TYS | TPA | Frontier Airlines | 0 | 16:40 | 18:15 | 225.00
+TYS | TPA | Alaska Airlines | 1 (ORD) | 18:00 | 20:35 | 285.00
+
+
+TPA | AVL | AA | 0 | 09:00 | 11:30 | 250.00 
+TPA | AVL | AA | 0 | 10:00 | 12:30 | 270.00 
+TPA | AVL | UA | 0 | 11:00 | 12:00 | 280.00 
+TPA | AVL | UA | 0 | 12:00 | 13:00 | 290.00 
+TPA | AVL | DL | 0 | 09:30 | 11:00 | 260.00 
+TPA | AVL | DL | 0 | 10:30 | 12:00 | 270.00 
+TPA | AVL | WN | 0 | 11:30 | 12:30 | 280.00 
+TPA | AVL | WN | 0 | 12:30 | 13:30 | 290.00 
+AVL | TPA | AA | 0 | 09:00 | 10:30 | 250.00 
+AVL | TPA | AA | 0 | 10:00 | 11:30 | 270.00 
+AVL | TPA | UA | 0 | 09:30 | 10:30 | 260.00 
+AVL | TPA | UA | 0 | 10:30 | 11:30 | 280.00 
+AVL | TPA | DL | 0 | 09:00 | 10:00 | 250.00 
+AVL | TPA | DL | 0 | 10:00 | 11:00 | 270.00 
+AVL | TPA | WN | 0 | 09:30 | 10:30 | 260.00 
+AVL | TPA | WN | 0 | 10:30 | 11:30 | 280.00
+
+
+Here are the 16 flight plans:
+
+TPA | JAC | AA | 0 | 08:00 | 11:30 | 450.00
+TPA | JAC | UA | 1 (DEN) | 09:15 | 14:45 | 520.00
+TPA | JAC | DL | 0 | 10:30 | 14:00 | 480.00
+TPA | JAC | WN | 1 (DAL) | 11:45 | 16:15 | 550.00
+TPA | JAC | AS | 0 | 13:00 | 16:30 | 500.00
+TPA | JAC | F9 | 1 (MCO) | 14:15 | 18:45 | 580.00
+TPA | JAC | NK | 0 | 15:30 | 19:00 | 530.00
+TPA | JAC | B6 | 1 (JFK) | 16:45 | 21:15 | 610.00
+JAC | TPA | AA | 0 | 06:00 | 09:30 | 420.00
+JAC | TPA | UA | 1 (SFO) | 07:15 | 12:45 | 490.00
+JAC | TPA | DL | 0 | 08:30 | 12:00 | 460.00
+JAC | TPA | WN | 1 (PHX) | 09:45 | 14:15 | 510.00
+JAC | TPA | AS | 0 | 11:00 | 14:30 | 480.00
+JAC | TPA | F9 | 1 (ORD) | 12:15 | 16:45 | 540.00
+JAC | TPA | NK | 0 | 13:30 | 17:00 | 500.00
+JAC | TPA | B6 | 1 (LAX) | 14:45 | 19:15 | 570.00
+
+
+Here are the 16 flight plans:
+
+TPA | EYW | American Airlines | Non-stop | 08:00 | 09:30 | 198.00
+TPA | EYW | Delta Air Lines | 1 stop (MIA) | 09:15 | 12:45 | 258.00
+TPA | EYW | United Airlines | Non-stop | 10:30 | 12:00 | 220.00
+TPA | EYW | Spirit Airlines | 1 stop (FLL) | 11:45 | 15:15 | 178.00
+TPA | EYW | JetBlue Airways | Non-stop | 13:00 | 14:30 | 240.00
+TPA | EYW | Frontier Airlines | 1 stop (RSW) | 14:15 | 17:45 | 208.00
+TPA | EYW | Southwest Airlines | Non-stop | 15:30 | 17:00 | 230.00
+TPA | EYW | Allegiant Air | 1 stop (PGD) | 16:45 | 20:15 | 190.00
+EYW | TPA | American Airlines | Non-stop | 08:00 | 09:30 | 205.00
+EYW | TPA | Delta Air Lines | 1 stop (MIA) | 09:15 | 12:45 | 265.00
+EYW | TPA | United Airlines | Non-stop | 10:30 | 12:00 | 235.00
+EYW | TPA | Spirit Airlines | 1 stop (FLL) | 11:45 | 15:15 | 185.00
+EYW | TPA | JetBlue Airways | Non-stop | 13:00 | 14:30 | 250.00
+EYW | TPA | Frontier Airlines | 1 stop (RSW) | 14:15 | 17:45 | 220.00
+EYW | TPA | Southwest Airlines | Non-stop | 15:30 | 17:00 | 240.00
+EYW | TPA | Allegiant Air | 1 stop (PGD) | 16:45 | 20:15 | 200.00
+
+
+Here are the 16 flight plans:
+
+TPA | RNO | AA | 0 | 08:00 | 11:30 | 450.00
+TPA | RNO | UA | 1 (DEN) | 09:15 | 13:45 | 520.00
+TPA | RNO | WN | 0 | 10:30 | 14:00 | 480.00
+TPA | RNO | DL | 1 (ATL) | 11:45 | 16:15 | 550.00
+TPA | RNO | AS | 0 | 13:00 | 16:30 | 500.00
+TPA | RNO | F9 | 1 (IAH) | 14:15 | 18:45 | 580.00
+TPA | RNO | B6 | 0 | 15:30 | 19:00 | 530.00
+TPA | RNO | NK | 1 (ORD) | 16:45 | 21:15 | 610.00
+
+RNO | TPA | AA | 0 | 06:00 | 13:30 | 420.00
+RNO | TPA | UA | 1 (SFO) | 07:15 | 14:45 | 490.00
+RNO | TPA | WN | 0 | 08:30 | 15:00 | 450.00
+RNO | TPA | DL | 1 (LAX) | 09:45 | 16:15 | 510.00
+RNO | TPA | AS | 0 | 11:00 | 16:30 | 470.00
+RNO | TPA | F9 | 1 (PHX) | 12:15 | 18:45 | 540.00
+RNO | TPA | B6 | 0 | 13:30 | 19:00 | 500.00
+RNO | TPA | NK | 1 (DFW) | 14:45 | 21:15 | 570.00
+
+
+Here are the 16 flight plans:
+
+TPA | TVL | AA | 1 (DEN) | 08:00 | 11:30 | 425.00
+TPA | TVL | UA | 0 | 09:30 | 12:50 | 475.00
+TPA | TVL | DL | 1 (ATL) | 10:15 | 14:00 | 395.00
+TPA | TVL | WN | 1 (DAL) | 11:45 | 15:20 | 365.00
+TPA | TVL | AS | 1 (SEA) | 12:30 | 16:10 | 435.00
+TPA | TVL | B6 | 1 (JFK) | 13:15 | 16:50 | 405.00
+TPA | TVL | F9 | 1 (DEN) | 14:00 | 17:30 | 355.00
+TPA | TVL | NK | 1 (ORD) | 15:30 | 19:00 | 375.00
+
+TVL | TPA | AA | 1 (PHX) | 06:00 | 13:30 | 450.00
+TVL | TPA | UA | 0 | 07:30 | 14:50 | 500.00
+TVL | TPA | DL | 1 (SFO) | 08:15 | 15:40 | 420.00
+TVL | TPA | WN | 1 (LAS) | 09:45 | 16:20 | 385.00
+TVL | TPA | AS | 1 (PDX) | 10:30 | 17:10 | 445.00
+TVL | TPA | B6 | 1 (LAX) | 11:15 | 17:50 | 415.00
+TVL | TPA | F9 | 1 (IAH) | 12:00 | 18:30 | 345.00
+TVL | TPA | NK | 1 (MIA) | 13:30 | 20:00 | 365.00
+
+
+Here are the 16 flight plans:
+
+TPA | PLN | Delta | 1 (DTW) | 08:00 | 12:45 | 542.00
+TPA | PLN | American | 0 | 10:30 | 14:15 | 480.00
+TPA | PLN | United | 1 (ORD) | 12:15 | 17:00 | 510.00
+TPA | PLN | Frontier | 0 | 14:45 | 18:30 | 420.00
+TPA | PLN | Spirit | 1 (ATL) | 16:00 | 20:45 | 450.00
+TPA | PLN | JetBlue | 0 | 18:30 | 22:15 | 500.00
+TPA | PLN | Southwest | 1 (BNA) | 20:15 | 00:50 | 530.00
+TPA | PLN | Alaska | 0 | 22:00 | 02:45 | 550.00
+
+PLN | TPA | Delta | 1 (DTW) | 08:30 | 13:15 | 520.00
+PLN | TPA | American | 0 | 11:00 | 14:45 | 460.00
+PLN | TPA | United | 1 (ORD) | 13:45 | 18:30 | 490.00
+PLN | TPA | Frontier | 0 | 16:15 | 20:00 | 440.00
+PLN | TPA | Spirit | 1 (ATL) | 18:00 | 22:45 | 470.00
+PLN | TPA | JetBlue | 0 | 20:30 | 00:15 | 510.00
+PLN | TPA | Southwest | 1 (BNA) | 22:15 | 02:50 | 540.00
+PLN | TPA | Alaska | 0 | 23:45 | 04:30 | 560.00
+
+
+Here are the 16 flight plans:
+
+TPA | OGG | AA | 0 | 08:00 | 17:30 | 549.00
+TPA | OGG | UA | 1 (LAX) | 09:30 | 19:45 | 619.00
+TPA | OGG | DL | 0 | 11:00 | 20:15 | 599.00
+TPA | OGG | WN | 1 (DEN) | 12:30 | 22:00 | 649.00
+TPA | OGG | HA | 0 | 14:00 | 23:15 | 629.00
+TPA | OGG | AS | 1 (SEA) | 15:30 | 00:45 | 679.00
+TPA | OGG | B6 | 0 | 17:00 | 02:15 | 659.00
+TPA | OGG | F9 | 1 (PHX) | 18:30 | 04:00 | 699.00
+
+OGG | TPA | AA | 0 | 08:30 | 18:00 | 579.00
+OGG | TPA | UA | 1 (SFO) | 09:45 | 20:10 | 649.00
+OGG | TPA | DL | 0 | 11:15 | 21:30 | 629.00
+OGG | TPA | WN | 1 (LAX) | 12:45 | 23:05 | 699.00
+OGG | TPA | HA | 0 | 14:15 | 00:30 | 659.00
+OGG | TPA | AS | 1 (PDX) | 15:45 | 02:10 | 719.00
+OGG | TPA | B6 | 0 | 17:15 | 03:35 | 689.00
+OGG | TPA | F9 | 1 (DFW) | 18:45 | 05:05 | 739.00
+
+
+Here are the 16 flight plans:
+
+TPA | RAP | American Airlines | Non-stop | 06:00 | 08:30 | 450.00
+TPA | RAP | Delta Air Lines | 1 stop (DEN) | 08:30 | 12:45 | 520.00
+TPA | RAP | United Airlines | Non-stop | 10:00 | 12:30 | 480.00
+TPA | RAP | Southwest Airlines | 1 stop (ORD) | 12:00 | 16:15 | 550.00
+TPA | RAP | Alaska Airlines | Non-stop | 14:00 | 16:30 | 500.00
+TPA | RAP | JetBlue Airways | 1 stop (LAX) | 16:00 | 20:15 | 580.00
+TPA | RAP | Spirit Airlines | Non-stop | 18:00 | 20:30 | 420.00
+TPA | RAP | Frontier Airlines | 1 stop (MCO) | 20:00 | 00:15 | 600.00
+RAP | TPA | American Airlines | Non-stop | 06:00 | 08:30 | 450.00
+RAP | TPA | Delta Air Lines | 1 stop (ATL) | 08:30 | 12:45 | 520.00
+RAP | TPA | United Airlines | Non-stop | 10:00 | 12:30 | 480.00
+RAP | TPA | Southwest Airlines | 1 stop (DAL) | 12:00 | 16:15 | 550.00
+RAP | TPA | Alaska Airlines | Non-stop | 14:00 | 16:30 | 500.00
+RAP | TPA | JetBlue Airways | 1 stop (JFK) | 16:00 | 20:15 | 580.00
+RAP | TPA | Spirit Airlines | Non-stop | 18:00 | 20:30 | 420.00
+RAP | TPA | Frontier Airlines | 1 stop (DEN) | 20:00 | 00:15 | 600.00
+
+
+Here are the 16 flight plans:
+
+TPA | MYR | AA | 0 | 06:00 | 07:30 | 198.00
+TPA | MYR | DL | 1 (ATL) | 08:15 | 11:45 | 258.00
+TPA | MYR | UA | 0 | 10:30 | 12:00 | 220.00
+TPA | MYR | WN | 1 (BHM) | 12:45 | 16:15 | 288.00
+TPA | MYR | F9 | 0 | 14:00 | 15:30 | 180.00
+TPA | MYR | NK | 1 (EWR) | 16:15 | 20:45 | 308.00
+TPA | MYR | B6 | 0 | 18:30 | 20:00 | 240.00
+TPA | MYR | SY | 1 (MCO) | 20:45 | 00:15 | 320.00
+
+MYR | TPA | AA | 0 | 06:30 | 08:00 | 210.00
+MYR | TPA | DL | 1 (CLT) | 08:45 | 12:15 | 280.00
+MYR | TPA | UA | 0 | 11:00 | 12:30 | 230.00
+MYR | TPA | WN | 1 (JAX) | 13:15 | 16:45 | 300.00
+MYR | TPA | F9 | 0 | 14:30 | 16:00 | 190.00
+MYR | TPA | NK | 1 (PBI) | 16:45 | 21:15 | 330.00
+MYR | TPA | B6 | 0 | 18:00 | 19:30 | 250.00
+MYR | TPA | SY | 1 (RSW) | 20:00 | 23:30 | 350.00
+
+
+Here are the 16 flight plans:
+
+TPA | OAK | AA | 1 (DEN) | 08:00 | 11:30 | 450.00
+TPA | OAK | UA | 2 (IAH, SFO) | 09:15 | 14:45 | 520.00
+TPA | OAK | WN | 0 | 10:30 | 13:45 | 380.00
+TPA | OAK | DL | 1 (ATL) | 11:45 | 15:15 | 480.00
+TPA | OAK | AS | 1 (SEA) | 13:00 | 16:30 | 500.00
+TPA | OAK | F9 | 0 | 14:15 | 17:30 | 320.00
+TPA | OAK | B6 | 1 (JFK) | 15:30 | 19:00 | 550.00
+TPA | OAK | NK | 0 | 17:00 | 20:15 | 400.00
+OAK | TPA | AA | 1 (PHX) | 08:30 | 16:45 | 420.00
+OAK | TPA | UA | 2 (SFO, IAH) | 09:45 | 18:15 | 580.00
+OAK | TPA | WN | 0 | 11:00 | 18:15 | 360.00
+OAK | TPA | DL | 1 (LAX) | 12:15 | 20:30 | 500.00
+OAK | TPA | AS | 1 (PDX) | 13:30 | 21:45 | 520.00
+OAK | TPA | F9 | 0 | 14:45 | 22:00 | 340.00
+OAK | TPA | B6 | 1 (BOS) | 16:00 | 23:15 | 570.00
+OAK | TPA | NK | 0 | 17:15 | 23:30 | 440.00
+
+
+Here are the 16 flight plans:
+
+TPA | SMF | Delta | 1 (DEN) | 08:00 | 11:15 | 425.00
+TPA | SMF | American | 0 | 09:30 | 12:45 | 450.00
+TPA | SMF | United | 1 (IAH) | 10:45 | 14:00 | 395.00
+TPA | SMF | Southwest | 0 | 12:00 | 15:15 | 375.00
+TPA | SMF | Alaska | 1 (SEA) | 13:15 | 16:30 | 410.00
+TPA | SMF | JetBlue | 0 | 14:30 | 17:45 | 435.00
+TPA | SMF | Spirit | 1 (LAS) | 15:45 | 19:00 | 320.00
+TPA | SMF | Frontier | 0 | 17:00 | 20:15 | 355.00
+SMF | TPA | Delta | 1 (ATL) | 08:00 | 15:15 | 440.00
+SMF | TPA | American | 0 | 09:30 | 16:45 | 470.00
+SMF | TPA | United | 1 (SFO) | 10:45 | 18:00 | 420.00
+SMF | TPA | Southwest | 0 | 12:00 | 19:15 | 390.00
+SMF | TPA | Alaska | 1 (PDX) | 13:15 | 20:30 | 455.00
+SMF | TPA | JetBlue | 0 | 14:30 | 21:45 | 480.00
+SMF | TPA | Spirit | 1 (PHX) | 15:45 | 23:00 | 340.00
+SMF | TPA | Frontier | 0 | 17:00 | 00:15 | 365.00
+
+
+Here are the 16 flight plans:
+
+TPA | SAF | AA | 0 | 08:00 | 10:30 | 250.00
+TPA | SAF | UA | 1 (DEN) | 09:15 | 12:45 | 320.00
+TPA | SAF | WN | 0 | 10:45 | 13:15 | 220.00
+TPA | SAF | DL | 1 (ATL) | 11:30 | 15:00 | 350.00
+TPA | SAF | F9 | 0 | 12:00 | 14:30 | 280.00
+TPA | SAF | AS | 1 (SEA) | 13:15 | 16:45 | 380.00
+TPA | SAF | B6 | 0 | 14:30 | 17:00 | 240.00
+TPA | SAF | NK | 1 (MCO) | 15:45 | 19:15 | 300.00
+SAF | TPA | AA | 0 | 08:00 | 10:30 | 250.00
+SAF | TPA | UA | 1 (IAH) | 09:15 | 12:45 | 320.00
+SAF | TPA | WN | 0 | 10:45 | 13:15 | 220.00
+SAF | TPA | DL | 1 (LAX) | 11:30 | 15:00 | 350.00
+SAF | TPA | F9 | 0 | 12:00 | 14:30 | 280.00
+SAF | TPA | AS | 1 (ORD) | 13:15 | 16:45 | 380.00
+SAF | TPA | B6 | 0 | 14:30 | 17:00 | 240.00
+SAF | TPA | NK | 1 (DFW) | 15:45 | 19:15 | 300.00
+
+
+Here are the 16 flight plans:
+
+TPA | ABQ | American Airlines | Non-stop | 08:00 | 10:30 | 450.00
+TPA | ABQ | Delta Air Lines | 1 stop (DFW) | 09:15 | 12:45 | 520.00
+TPA | ABQ | United Airlines | Non-stop | 10:45 | 13:15 | 480.00
+TPA | ABQ | Southwest Airlines | 1 stop (HOU) | 11:30 | 15:00 | 550.00
+TPA | ABQ | Frontier Airlines | Non-stop | 12:15 | 14:45 | 400.00
+TPA | ABQ | JetBlue Airways | 1 stop (DEN) | 13:00 | 16:30 | 580.00
+TPA | ABQ | Spirit Airlines | 1 stop (LAS) | 14:45 | 18:15 | 620.00
+TPA | ABQ | Alaska Airlines | Non-stop | 15:30 | 18:00 | 500.00
+ABQ | TPA | American Airlines | Non-stop | 08:00 | 12:30 | 420.00
+ABQ | TPA | Delta Air Lines | 1 stop (ATL) | 09:15 | 14:45 | 540.00
+ABQ | TPA | United Airlines | Non-stop | 10:45 | 15:15 | 460.00
+ABQ | TPA | Southwest Airlines | 1 stop (DAL) | 11:30 | 16:00 | 570.00
+ABQ | TPA | Frontier Airlines | Non-stop | 12:15 | 16:45 | 380.00
+ABQ | TPA | JetBlue Airways | 1 stop (JFK) | 13:00 | 18:30 | 600.00
+ABQ | TPA | Spirit Airlines | 1 stop (ORD) | 14:45 | 20:15 | 650.00
+ABQ | TPA | Alaska Airlines | Non-stop | 15:30 | 20:00 | 520.00
+
+
+Here are the 16 flight plans:
+
+TPA | SAV | Delta | Non-stop | 06:00 | 07:30 | 198.00
+TPA | SAV | American | 1 stop (CLT) | 08:15 | 11:45 | 235.00
+TPA | SAV | United | Non-stop | 10:30 | 12:00 | 220.00
+TPA | SAV | JetBlue | 1 stop (FLL) | 12:45 | 16:15 | 255.00
+TPA | SAV | Spirit | 1 stop (ATL) | 14:00 | 17:30 | 180.00
+TPA | SAV | Delta | Non-stop | 16:15 | 17:45 | 210.00
+TPA | SAV | Frontier | 1 stop (MCO) | 18:30 | 21:45 | 190.00
+TPA | SAV | Southwest | Non-stop | 20:45 | 22:15 | 240.00
+
+SAV | TPA | American | Non-stop | 06:30 | 08:00 | 230.00
+SAV | TPA | Delta | 1 stop (ATL) | 08:45 | 12:15 | 250.00
+SAV | TPA | United | Non-stop | 10:00 | 11:30 | 200.00
+SAV | TPA | JetBlue | 1 stop (BOS) | 12:15 | 16:45 | 280.00
+SAV | TPA | Spirit | 1 stop (FLL) | 14:15 | 17:45 | 195.00
+SAV | TPA | Delta | Non-stop | 16:30 | 18:00 | 220.00
+SAV | TPA | Frontier | 1 stop (MIA) | 18:45 | 22:15 | 205.00
+SAV | TPA | Southwest | Non-stop | 20:00 | 21:30 | 260.00
+
+
+Here are the 16 flight plans:
+
+TPA | JAX | Delta | Non-stop | 06:00 | 07:15 | 150.00
+TPA | JAX | American | 1 stop (MIA) | 08:30 | 11:45 | 220.00
+TPA | JAX | United | Non-stop | 10:00 | 11:15 | 180.00
+TPA | JAX | Spirit | 1 stop (FLL) | 12:30 | 15:45 | 200.00
+TPA | JAX | Frontier | Non-stop | 14:00 | 15:15 | 160.00
+TPA | JAX | JetBlue | 1 stop (PBI) | 16:30 | 19:45 | 240.00
+TPA | JAX | Southwest | Non-stop | 18:00 | 19:15 | 190.00
+TPA | JAX | Allegiant | 1 stop (SFB) | 20:30 | 23:45 | 210.00
+
+JAX | TPA | Delta | Non-stop | 06:30 | 07:45 | 140.00
+JAX | TPA | American | 1 stop (ATL) | 09:00 | 12:15 | 230.00
+JAX | TPA | United | Non-stop | 11:30 | 12:45 | 170.00
+JAX | TPA | Spirit | 1 stop (RSW) | 13:00 | 16:15 | 200.00
+JAX | TPA | Frontier | Non-stop | 15:00 | 16:15 | 150.00
+JAX | TPA | JetBlue | 1 stop (MCO) | 17:00 | 20:15 | 250.00
+JAX | TPA | Southwest | Non-stop | 19:30 | 20:45 | 180.00
+JAX | TPA | Allegiant | 1 stop (PGD) | 21:30 | 00:45 | 220.00
+
+
+Here are the 16 flight plans:
+
+TPA | SFB | American Airlines | Non-stop | 06:00 | 07:15 | 120.00
+TPA | SFB | Delta Air Lines | 1 stop (ATL) | 08:30 | 11:45 | 180.00
+TPA | SFB | United Airlines | Non-stop | 10:00 | 11:15 | 150.00
+TPA | SFB | Spirit Airlines | 1 stop (FLL) | 12:45 | 15:50 | 220.00
+TPA | SFB | JetBlue Airways | Non-stop | 14:30 | 15:45 | 130.00
+TPA | SFB | Frontier Airlines | 1 stop (MCO) | 16:15 | 19:20 | 200.00
+TPA | SFB | Southwest Airlines | Non-stop | 18:00 | 19:15 | 140.00
+TPA | SFB | Alaska Airlines | 1 stop (JAX) | 20:45 | 23:50 | 240.00
+SFB | TPA | American Airlines | Non-stop | 07:30 | 08:45 | 110.00
+SFB | TPA | Delta Air Lines | 1 stop (ATL) | 09:45 | 13:00 | 190.00
+SFB | TPA | United Airlines | Non-stop | 11:15 | 12:30 | 160.00
+SFB | TPA | Spirit Airlines | 1 stop (FLL) | 13:50 | 16:55 | 230.00
+SFB | TPA | JetBlue Airways | Non-stop | 15:30 | 16:45 | 120.00
+SFB | TPA | Frontier Airlines | 1 stop (MCO) | 17:15 | 20:20 | 210.00
+SFB | TPA | Southwest Airlines | Non-stop | 19:00 | 20:15 | 130.00
+SFB | TPA | Alaska Airlines | 1 stop (JAX) | 21:45 | 00:50 | 250.00
+
+
+Here are the 16 flight plans:
+
+TPA | MTJ | AA | 1 (DEN) | 08:00 | 11:45 | 420.00
+TPA | MTJ | UA | 0 | 09:30 | 12:15 | 450.00
+TPA | MTJ | WN | 1 (DAL) | 10:15 | 14:00 | 380.00
+TPA | MTJ | DL | 0 | 11:00 | 13:45 | 500.00
+TPA | MTJ | F9 | 1 (IAH) | 12:30 | 16:15 | 350.00
+TPA | MTJ | AS | 0 | 13:45 | 16:30 | 480.00
+TPA | MTJ | B6 | 1 (MCO) | 15:00 | 18:45 | 410.00
+TPA | MTJ | NK | 0 | 16:15 | 19:00 | 440.00
+MTJ | TPA | AA | 1 (ORD) | 08:30 | 13:15 | 430.00
+MTJ | TPA | UA | 0 | 09:45 | 14:30 | 460.00
+MTJ | TPA | WN | 1 (PHX) | 11:00 | 15:45 | 390.00
+MTJ | TPA | DL | 0 | 12:15 | 15:00 | 520.00
+MTJ | TPA | F9 | 1 (LAS) | 13:30 | 17:15 | 360.00
+MTJ | TPA | AS | 0 | 14:45 | 17:30 | 490.00
+MTJ | TPA | B6 | 1 (JFK) | 16:00 | 20:45 | 420.00
+MTJ | TPA | NK | 0 | 17:15 | 20:00 | 450.00
+
+
+Here are the 16 flight plans:
+
+TPA | DRO | AA | 1 (DFW) | 08:00 | 11:30 | 450.00
+TPA | DRO | UA | 1 (IAH) | 09:30 | 13:00 | 520.00
+TPA | DRO | WN | 1 (HOU) | 11:00 | 14:30 | 480.00
+TPA | DRO | DL | 0 | 12:00 | 15:30 | 550.00
+TPA | DRO | F9 | 1 (DEN) | 13:30 | 17:00 | 400.00
+TPA | DRO | NK | 1 (LAS) | 15:00 | 18:30 | 420.00
+TPA | DRO | B6 | 1 (JFK) | 16:30 | 20:00 | 500.00
+TPA | DRO | AS | 1 (SEA) | 18:00 | 21:30 | 530.00
+DRO | TPA | AA | 1 (CLT) | 08:00 | 12:30 | 460.00
+DRO | TPA | UA | 1 (ORD) | 09:30 | 14:00 | 540.00
+DRO | TPA | WN | 1 (DAL) | 11:00 | 15:30 | 490.00
+DRO | TPA | DL | 0 | 12:00 | 16:30 | 570.00
+DRO | TPA | F9 | 1 (MCO) | 13:30 | 17:00 | 410.00
+DRO | TPA | NK | 1 (FLL) | 15:00 | 18:30 | 430.00
+DRO | TPA | B6 | 1 (BOS) | 16:30 | 20:00 | 510.00
+DRO | TPA | AS | 1 (SFO) | 18:00 | 21:30 | 550.00
+
+
+Here are the 16 flight plans:
+
+TPA | FAT | AA | 1 (DFW) | 08:00 | 11:30 | 425.00
+TPA | FAT | UA | 1 (ORD) | 09:30 | 13:00 | 450.00
+TPA | FAT | DL | 1 (ATL) | 10:00 | 13:30 | 480.00
+TPA | FAT | WN | 1 (DAL) | 11:00 | 14:30 | 395.00
+TPA | FAT | AS | 1 (SEA) | 12:00 | 15:30 | 520.00
+TPA | FAT | B6 | 1 (JFK) | 13:00 | 16:30 | 550.00
+TPA | FAT | F9 | 1 (DEN) | 14:00 | 17:30 | 380.00
+TPA | FAT | NK | 1 (LAS) | 15:00 | 18:30 | 410.00
+FAT | TPA | AA | 1 (PHX) | 08:00 | 15:30 | 440.00
+FAT | TPA | UA | 1 (SFO) | 09:00 | 16:30 | 470.00
+FAT | TPA | DL | 1 (LAX) | 10:00 | 17:30 | 500.00
+FAT | TPA | WN | 1 (SAN) | 11:00 | 18:30 | 420.00
+FAT | TPA | AS | 1 (PDX) | 12:00 | 19:30 | 540.00
+FAT | TPA | B6 | 1 (BOS) | 13:00 | 20:30 | 570.00
+FAT | TPA | F9 | 1 (MCO) | 14:00 | 21:30 | 400.00
+FAT | TPA | NK | 1 (IAH) | 15:00 | 22:30 | 430.00
+
+
+Here are the 16 flight plans:
+
+TPA | SGU | American Airlines | Non-stop | 08:00 | 10:30 | 250.00
+TPA | SGU | Delta Air Lines | 1 stop (ATL) | 09:15 | 12:45 | 320.00
+TPA | SGU | United Airlines | Non-stop | 10:45 | 13:15 | 280.00
+TPA | SGU | Southwest Airlines | 1 stop (DEN) | 11:30 | 15:00 | 350.00
+TPA | SGU | Alaska Airlines | Non-stop | 12:15 | 14:45 | 240.00
+TPA | SGU | JetBlue Airways | 1 stop (FLL) | 13:00 | 16:30 | 330.00
+TPA | SGU | Spirit Airlines | 1 stop (LAS) | 14:45 | 18:15 | 290.00
+TPA | SGU | Frontier Airlines | Non-stop | 15:30 | 18:00 | 260.00
+SGU | TPA | American Airlines | Non-stop | 08:00 | 10:30 | 270.00
+SGU | TPA | Delta Air Lines | 1 stop (SDF) | 09:15 | 12:45 | 340.00
+SGU | TPA | United Airlines | Non-stop | 10:45 | 13:15 | 300.00
+SGU | TPA | Southwest Airlines | 1 stop (PHX) | 11:30 | 15:00 | 360.00
+SGU | TPA | Alaska Airlines | Non-stop | 12:15 | 14:45 | 260.00
+SGU | TPA | JetBlue Airways | 1 stop (BOS) | 13:00 | 16:30 | 350.00
+SGU | TPA | Spirit Airlines | 1 stop (ORD) | 14:45 | 18:15 | 310.00
+SGU | TPA | Frontier Airlines | Non-stop | 15:30 | 18:00 | 280.00
+
+
+Here are the 16 flight plans:
+
+TPA | AMS | Delta | 1 (LHR) | 08:00 | 18:30 | 850.00
+TPA | AMS | KLM | 0 | 10:00 | 20:00 | 950.00
+TPA | AMS | American | 1 (PHL) | 12:00 | 22:30 | 800.00
+TPA | AMS | United | 1 (EWR) | 14:00 | 00:30 | 900.00
+TPA | AMS | Lufthansa | 1 (FRA) | 16:00 | 02:30 | 1000.00
+TPA | AMS | Air France | 1 (CDG) | 18:00 | 04:30 | 1100.00
+TPA | AMS | British Airways | 1 (LHR) | 20:00 | 06:30 | 1050.00
+TPA | AMS | Swiss | 1 (ZRH) | 22:00 | 08:30 | 1200.00
+AMS | TPA | KLM | 0 | 09:00 | 13:00 | 900.00
+AMS | TPA | Delta | 1 (ATL) | 11:00 | 15:30 | 850.00
+AMS | TPA | American | 1 (PHL) | 13:00 | 17:30 | 800.00
+AMS | TPA | United | 1 (EWR) | 15:00 | 19:30 | 900.00
+AMS | TPA | Lufthansa | 1 (FRA) | 17:00 | 21:30 | 1000.00
+AMS | TPA | Air France | 1 (CDG) | 19:00 | 23:30 | 1100.00
+AMS | TPA | British Airways | 1 (LHR) | 21:00 | 01:30 | 1050.00
+AMS | TPA | Swiss | 1 (ZRH) | 23:00 | 03:30 | 1200.00
+
+
+Here are the 16 flight plans:
+
+TPA | AUA | AA | 0 | 08:00 | 11:30 | 425.00
+TPA | AUA | DL | 1 (MIA) | 09:15 | 13:45 | 512.50
+TPA | AUA | UA | 0 | 10:30 | 14:00 | 475.00
+TPA | AUA | WN | 1 (FLL) | 11:45 | 16:15 | 542.00
+TPA | AUA | B6 | 0 | 13:00 | 16:30 | 498.00
+TPA | AUA | AS | 1 (MCO) | 14:15 | 18:45 | 562.50
+TPA | AUA | F9 | 0 | 15:30 | 18:00 | 450.00
+TPA | AUA | NK | 1 (PBI) | 16:45 | 20:15 | 525.00
+AUA | TPA | AA | 0 | 08:00 | 11:30 | 425.00
+AUA | TPA | DL | 1 (ATL) | 09:15 | 13:45 | 512.50
+AUA | TPA | UA | 0 | 10:30 | 14:00 | 475.00
+AUA | TPA | WN | 1 (BNA) | 11:45 | 16:15 | 542.00
+AUA | TPA | B6 | 0 | 13:00 | 16:30 | 498.00
+AUA | TPA | AS | 1 (CLT) | 14:15 | 18:45 | 562.50
+AUA | TPA | F9 | 0 | 15:30 | 18:00 | 450.00
+AUA | TPA | NK | 1 (EWR) | 16:45 | 20:15 | 525.00
+
+
+Here are the 16 flight plans:
+
+TPA | ATH | American Airlines | 1 (LHR) | 08:00 | 18:30 | 850.00
+TPA | ATH | Delta Air Lines | 2 (JFK, CDG) | 10:00 | 20:00 | 1200.00
+TPA | ATH | Lufthansa | 1 (FRA) | 12:00 | 22:00 | 900.00
+TPA | ATH | Emirates | 2 (DXB, IST) | 14:00 | 00:30 | 1500.00
+TPA | ATH | Turkish Airlines | 1 (IST) | 16:00 | 02:00 | 1000.00
+TPA | ATH | British Airways | 1 (LHR) | 18:00 | 04:00 | 1100.00
+TPA | ATH | KLM Royal Dutch | 2 (AMS, CDG) | 20:00 | 06:00 | 1300.00
+TPA | ATH | Air France | 1 (CDG) | 22:00 | 08:00 | 1200.00
+
+ATH | TPA | American Airlines | 1 (LHR) | 08:00 | 18:30 | 850.00
+ATH | TPA | Delta Air Lines | 2 (CDG, JFK) | 10:00 | 20:00 | 1200.00
+ATH | TPA | Lufthansa | 1 (FRA) | 12:00 | 22:00 | 900.00
+ATH | TPA | Emirates | 2 (IST, DXB) | 14:00 | 00:30 | 1500.00
+ATH | TPA | Turkish Airlines | 1 (IST) | 16:00 | 02:00 | 1000.00
+ATH | TPA | British Airways | 1 (LHR) | 18:00 | 04:00 | 1100.00
+ATH | TPA | KLM Royal Dutch | 2 (CDG, AMS) | 20:00 | 06:00 | 1300.00
+ATH | TPA | Air France | 1 (CDG) | 22:00 | 08:00 | 1200.00
+
+
+Here are the 16 flight plans:
+
+TPA | AKL | Qantas | 1 (LAX) | 08:00 | 06:30 (+1) | 950.00
+TPA | AKL | American Airlines | 2 (DFW, HNL) | 10:30 | 09:15 (+1) | 1200.00
+TPA | AKL | Delta | 1 (SFO) | 12:45 | 11:20 (+1) | 1050.00
+TPA | AKL | United | 2 (IAH, SYD) | 14:10 | 12:50 (+1) | 1300.00
+TPA | AKL | Air New Zealand | 0 | 16:00 | 14:30 (+1) | 900.00
+TPA | AKL | Emirates | 1 (DXB) | 18:30 | 17:00 (+1) | 1100.00
+TPA | AKL | Singapore Airlines | 1 (SIN) | 20:00 | 18:30 (+1) | 1250.00
+TPA | AKL | Lufthansa | 2 (FRA, HKG) | 21:45 | 20:20 (+1) | 1400.00
+
+AKL | TPA | Air New Zealand | 0 | 08:00 | 06:30 (-1) | 850.00
+AKL | TPA | Qantas | 1 (SYD) | 10:30 | 09:15 (-1) | 1000.00
+AKL | TPA | United | 2 (HNL, LAX) | 12:45 | 11:20 (-1) | 1150.00
+AKL | TPA | American Airlines | 1 (DFW) | 14:10 | 12:50 (-1) | 1050.00
+AKL | TPA | Delta | 2 (SFO, ATL) | 16:00 | 14:30 (-1) | 1200.00
+AKL | TPA | Emirates | 1 (DXB) | 18:30 | 17:00 (-1) | 1100.00
+AKL | TPA | Lufthansa | 2 (HKG, FRA) | 20:00 | 18:30 (-1) | 1300.00
+AKL | TPA | Singapore Airlines | 1 (SIN) | 21:45 | 20:20 (-1) | 1250.00
+
+
+Here are the 16 flight plans:
+
+TPA | DPS | American Airlines | 1 (LAX) | 08:00 | 22:45 | 850.00
+TPA | DPS | Delta Air Lines | 2 (ATL, NRT) | 09:30 | 01:15 | 1050.00
+TPA | DPS | United Airlines | Non-stop | 11:00 | 21:30 | 1200.00
+TPA | DPS | Emirates | 1 (DXB) | 13:00 | 23:59 | 1300.00
+TPA | DPS | Qatar Airways | 1 (DOH) | 14:30 | 01:45 | 1400.00
+TPA | DPS | Singapore Airlines | 1 (SIN) | 16:00 | 02:15 | 1500.00
+TPA | DPS | Lufthansa | 2 (FRA, BKK) | 17:30 | 03:45 | 1600.00
+TPA | DPS | Turkish Airlines | 1 (IST) | 19:00 | 04:30 | 1700.00
+DPS | TPA | Garuda Indonesia | 1 (CGK) | 08:00 | 20:30 | 900.00
+DPS | TPA | China Airlines | 2 (TPE, LAX) | 09:30 | 22:15 | 1000.00
+DPS | TPA | Japan Airlines | 1 (NRT) | 11:00 | 23:45 | 1100.00
+DPS | TPA | Korean Air | 1 (ICN) | 13:00 | 01:15 | 1200.00
+DPS | TPA | Asiana Airlines | 1 (ICN) | 14:30 | 02:45 | 1300.00
+DPS | TPA | Cathay Pacific | 1 (HKG) | 16:00 | 03:30 | 1400.00
+DPS | TPA | Malaysia Airlines | 1 (KUL) | 17:30 | 04:15 | 1500.00
+DPS | TPA | Thai Airways | 1 (BKK) | 19:00 | 05:00 | 1600.00
+
+
+Here are the 16 flight plans:
+
+TPA | BCN | American Airlines | 1 (MIA) | 08:00 | 18:30 | 849.00
+TPA | BCN | Iberia | 0 | 10:00 | 19:30 | 1099.00
+TPA | BCN | Delta Air Lines | 1 (JFK) | 12:00 | 22:00 | 899.00
+TPA | BCN | Lufthansa | 2 (FRA, MUC) | 14:00 | 10:30 | 1299.00
+TPA | BCN | United Airlines | 1 (EWR) | 16:00 | 02:30 | 999.00
+TPA | BCN | Air Europa | 0 | 18:00 | 05:30 | 1199.00
+TPA | BCN | LATAM | 1 (LIM) | 20:00 | 09:30 | 1399.00
+TPA | BCN | British Airways | 1 (LHR) | 22:00 | 11:30 | 1499.00
+
+BCN | TPA | American Airlines | 1 (MIA) | 08:00 | 18:30 | 849.00
+BCN | TPA | Iberia | 0 | 10:00 | 19:30 | 1099.00
+BCN | TPA | Delta Air Lines | 1 (JFK) | 12:00 | 22:00 | 899.00
+BCN | TPA | Lufthansa | 2 (FRA, MUC) | 14:00 | 10:30 | 1299.00
+BCN | TPA | United Airlines | 1 (EWR) | 16:00 | 02:30 | 999.00
+BCN | TPA | Air Europa | 0 | 18:00 | 05:30 | 1199.00
+BCN | TPA | LATAM | 1 (LIM) | 20:00 | 09:30 | 1399.00
+BCN | TPA | British Airways | 1 (LHR) | 22:00 | 11:30 | 1499.00
+
+
+TPA | PEK | China Eastern | 1 (NRT) | 14:30 | 18:45 | 850.00
+TPA | PEK | Delta | 2 (ATL, NRT) | 08:15 | 21:10 | 1050.00
+TPA | PEK | American Airlines | 1 (DFW) | 10:00 | 19:30 | 900.00
+TPA | PEK | United | 2 (IAH, HKG) | 12:45 | 22:50 | 1200.00
+TPA | PEK | China Southern | 1 (CAN) | 09:30 | 18:15 | 950.00
+TPA | PEK | Japan Airlines | 1 (NRT) | 13:00 | 19:20 | 1000.00
+TPA | PEK | Korean Air | 1 (ICN) | 11:15 | 20:00 | 1100.00
+TPA | PEK | ANA | 1 (NRT) | 15:45 | 21:50 | 1050.00
+PEK | TPA | China Eastern | 1 (NRT) | 09:00 | 14:15 | 850.00
+PEK | TPA | Delta | 2 (NRT, ATL) | 11:30 | 18:40 | 1050.00
+PEK | TPA | American Airlines | 1 (DFW) | 13:45 | 19:50 | 900.00
+PEK | TPA | United | 2 (HKG, IAH) | 15:15 | 22:20 | 1200.00
+PEK | TPA | China Southern | 1 (CAN) | 10:15 | 17:40 | 950.00
+PEK | TPA | Japan Airlines | 1 (NRT) | 12:00 | 18:25 | 1000.00
+PEK | TPA | Korean Air | 1 (ICN) | 14:30 | 20:45 | 1100.00
+PEK | TPA | ANA | 1 (NRT) | 16:45 | 22:50 | 1050.00
+
+
+Here are the 16 flight plans:
+
+TPA | BER | Lufthansa | 1 (FRA) | 08:00 | 18:30 | 850.00
+TPA | BER | American Airlines | 1 (PHL) | 10:30 | 21:00 | 950.00
+TPA | BER | Delta Air Lines | 1 (ATL) | 12:00 | 22:30 | 900.00
+TPA | BER | United Airlines | 1 (EWR) | 14:00 | 00:30 | 1000.00
+TPA | BER | British Airways | 2 (MIA, LHR) | 16:00 | 09:00 | 1200.00
+TPA | BER | Air Canada | 1 (YYZ) | 18:00 | 10:30 | 1100.00
+TPA | BER | Turkish Airlines | 1 (IST) | 20:00 | 12:30 | 1050.00
+TPA | BER | KLM Royal Dutch | 1 (AMS) | 22:00 | 14:00 | 1000.00
+
+BER | TPA | Lufthansa | 1 (FRA) | 08:00 | 18:30 | 850.00
+BER | TPA | American Airlines | 1 (PHL) | 10:30 | 21:00 | 950.00
+BER | TPA | Delta Air Lines | 1 (ATL) | 12:00 | 22:30 | 900.00
+BER | TPA | United Airlines | 1 (EWR) | 14:00 | 00:30 | 1000.00
+BER | TPA | British Airways | 2 (LHR, MIA) | 16:00 | 09:00 | 1200.00
+BER | TPA | Air Canada | 1 (YYZ) | 18:00 | 10:30 | 1100.00
+BER | TPA | Turkish Airlines | 1 (IST) | 20:00 | 12:30 | 1050.00
+BER | TPA | KLM Royal Dutch | 1 (AMS) | 22:00 | 14:00 | 1000.00
+
+
+Here are the 16 flight plans:
+
+TPA | EZE | American Airlines | 1 (MIA) | 08:00 | 22:35 | 945.00
+TPA | EZE | Delta Air Lines | 2 (ATL, GRU) | 09:30 | 01:15 | 1100.00
+TPA | EZE | LATAM | 0 | 11:15 | 21:30 | 850.00
+TPA | EZE | United Airlines | 1 (IAH) | 12:45 | 23:50 | 1020.00
+TPA | EZE | Avianca | 2 (BOG, LIM) | 14:00 | 02:20 | 1250.00
+TPA | EZE | Copa Airlines | 1 (PTY) | 15:30 | 01:45 | 950.00
+TPA | EZE | Aerolineas Argentinas | 0 | 17:00 | 02:00 | 900.00
+TPA | EZE | Turkish Airlines | 2 (IST, GRU) | 19:15 | 04:30 | 1300.00
+
+EZE | TPA | American Airlines | 1 (MIA) | 08:30 | 18:05 | 980.00
+EZE | TPA | Delta Air Lines | 2 (GRU, ATL) | 10:00 | 21:40 | 1150.00
+EZE | TPA | LATAM | 0 | 12:00 | 20:15 | 920.00
+EZE | TPA | United Airlines | 1 (IAH) | 13:45 | 22:55 | 1050.00
+EZE | TPA | Avianca | 2 (LIM, BOG) | 15:30 | 02:50 | 1280.00
+EZE | TPA | Copa Airlines | 1 (PTY) | 17:00 | 00:15 | 980.00
+EZE | TPA | Aerolineas Argentinas | 0 | 19:00 | 03:00 | 950.00
+EZE | TPA | Turkish Airlines | 2 (GRU, IST) | 21:15 | 05:30 | 1350.00
+
+
+Here are the 16 flight plans:
+
+TPA | SJD | American Airlines | 1 (MIA) | 08:00 | 11:30 | 450.00
+TPA | SJD | Delta Air Lines | 0 | 10:30 | 14:15 | 520.00
+TPA | SJD | United Airlines | 1 (IAH) | 12:45 | 16:20 | 480.00
+TPA | SJD | Spirit Airlines | 1 (FLL) | 14:00 | 17:45 | 380.00
+TPA | SJD | JetBlue Airways | 0 | 16:00 | 19:45 | 500.00
+TPA | SJD | Frontier Airlines | 1 (DEN) | 18:30 | 22:15 | 420.00
+TPA | SJD | Southwest Airlines | 1 (HOU) | 20:00 | 23:45 | 440.00
+TPA | SJD | Alaska Airlines | 0 | 22:00 | 01:45 | 550.00
+SJD | TPA | American Airlines | 1 (PHX) | 08:00 | 15:30 | 470.00
+SJD | TPA | Delta Air Lines | 0 | 10:30 | 17:15 | 540.00
+SJD | TPA | United Airlines | 1 (SFO) | 12:45 | 20:20 | 510.00
+SJD | TPA | Spirit Airlines | 1 (LAX) | 14:00 | 21:45 | 410.00
+SJD | TPA | JetBlue Airways | 0 | 16:00 | 22:45 | 530.00
+SJD | TPA | Frontier Airlines | 1 (LAS) | 18:30 | 01:15 | 450.00
+SJD | TPA | Southwest Airlines | 1 (DAL) | 20:00 | 02:45 | 480.00
+SJD | TPA | Alaska Airlines | 0 | 22:00 | 04:45 | 570.00
+
+
+Here are the 16 flight plans:
+
+TPA | CAI | EgyptAir | 1 (LHR) | 08:30 | 22:45 | 850.00
+TPA | CAI | Lufthansa | 2 (FRA, IST) | 10:15 | 02:20 | 1100.00
+TPA | CAI | Emirates | 1 (DXB) | 12:00 | 05:30 | 1200.00
+TPA | CAI | Turkish Airlines | 1 (IST) | 14:30 | 07:15 | 1000.00
+TPA | CAI | Qatar Airways | 1 (DOH) | 16:00 | 09:45 | 1300.00
+TPA | CAI | British Airways | 2 (LHR, AUH) | 18:15 | 11:50 | 1400.00
+TPA | CAI | KLM | 2 (AMS, IST) | 20:30 | 14:20 | 1200.00
+TPA | CAI | American Airlines | 1 (PHL) | 22:45 | 16:30 | 900.00
+
+CAI | TPA | EgyptAir | 1 (LHR) | 01:15 | 11:45 | 850.00
+CAI | TPA | Lufthansa | 2 (IST, FRA) | 03:30 | 17:20 | 1100.00
+CAI | TPA | Emirates | 1 (DXB) | 06:00 | 20:30 | 1200.00
+CAI | TPA | Turkish Airlines | 1 (IST) | 09:30 | 02:15 | 1000.00
+CAI | TPA | Qatar Airways | 1 (DOH) | 12:00 | 05:45 | 1300.00
+CAI | TPA | British Airways | 2 (AUH, LHR) | 15:15 | 09:50 | 1400.00
+CAI | TPA | KLM | 2 (IST, AMS) | 18:30 | 13:20 | 1200.00
+CAI | TPA | American Airlines | 1 (PHL) | 21:45 | 15:30 | 900.00
+
+
+Here are the 16 flight plans:
+
+TPA | CUN | AA | 0 | 08:00 | 10:30 | 250.00
+TPA | CUN | DL | 1 (MIA) | 09:15 | 12:45 | 280.00
+TPA | CUN | UA | 0 | 10:45 | 13:15 | 220.00
+TPA | CUN | WN | 1 (FLL) | 11:30 | 14:50 | 240.00
+TPA | CUN | B6 | 0 | 12:00 | 14:30 | 200.00
+TPA | CUN | AS | 1 (PBI) | 13:15 | 16:30 | 260.00
+TPA | CUN | F9 | 0 | 14:30 | 17:00 | 230.00
+TPA | CUN | NK | 1 (MCO) | 15:45 | 18:50 | 290.00
+CUN | TPA | AA | 0 | 08:30 | 11:00 | 270.00
+CUN | TPA | DL | 1 (ATL) | 09:45 | 13:10 | 300.00
+CUN | TPA | UA | 0 | 11:15 | 13:45 | 240.00
+CUN | TPA | WN | 1 (HOU) | 12:30 | 15:50 | 260.00
+CUN | TPA | B6 | 0 | 13:45 | 16:15 | 210.00
+CUN | TPA | AS | 1 (DFW) | 15:00 | 18:20 | 280.00
+CUN | TPA | F9 | 0 | 16:15 | 18:45 | 250.00
+CUN | TPA | NK | 1 (EWR) | 17:30 | 20:50 | 310.00
+
+
+Here are the 16 flight plans:
+
+TPA | CPT | AA | 1 (JNB) | 08:00 | 18:30 | 1200.00
+TPA | CPT | BA | 2 (LHR, JNB) | 10:00 | 21:00 | 1500.00
+TPA | CPT | SA | 0 | 12:00 | 22:30 | 1800.00
+TPA | CPT | UA | 1 (EWR) | 14:00 | 00:30 | 1100.00
+TPA | CPT | DL | 2 (ATL, JNB) | 16:00 | 02:30 | 1300.00
+TPA | CPT | LH | 1 (FRA) | 18:00 | 04:00 | 1400.00
+TPA | CPT | QR | 1 (DOH) | 20:00 | 06:00 | 1600.00
+TPA | CPT | TK | 2 (IST, JNB) | 22:00 | 08:00 | 1700.00
+
+CPT | TPA | AA | 1 (JNB) | 08:00 | 18:30 | 1200.00
+CPT | TPA | BA | 2 (LHR, JNB) | 10:00 | 21:00 | 1500.00
+CPT | TPA | SA | 0 | 12:00 | 22:30 | 1800.00
+CPT | TPA | UA | 1 (EWR) | 14:00 | 00:30 | 1100.00
+CPT | TPA | DL | 2 (ATL, JNB) | 16:00 | 02:30 | 1300.00
+CPT | TPA | LH | 1 (FRA) | 18:00 | 04:00 | 1400.00
+CPT | TPA | QR | 1 (DOH) | 20:00 | 06:00 | 1600.00
+CPT | TPA | TK | 2 (IST, JNB) | 22:00 | 08:00 | 1700.00
+
+
+Here are the 16 flight plans:
+
+TPA | CPH | American Airlines | 1 (LHR) | 08:00 | 18:30 | 850.00
+TPA | CPH | Delta Air Lines | 2 (JFK, AMS) | 10:30 | 20:15 | 1050.00
+TPA | CPH | Lufthansa | 1 (FRA) | 13:45 | 22:00 | 900.00
+TPA | CPH | United Airlines | 1 (EWR) | 15:00 | 23:30 | 950.00
+TPA | CPH | SAS | 0 | 17:15 | 06:00 | 1200.00
+TPA | CPH | British Airways | 1 (LHR) | 19:30 | 08:15 | 1100.00
+TPA | CPH | KLM | 1 (AMS) | 21:45 | 10:30 | 1000.00
+TPA | CPH | Air France | 1 (CDG) | 23:59 | 12:45 | 1150.00
+
+CPH | TPA | SAS | 0 | 08:00 | 14:30 | 1300.00
+CPH | TPA | Lufthansa | 1 (FRA) | 10:30 | 17:00 | 1000.00
+CPH | TPA | United Airlines | 1 (EWR) | 12:45 | 19:15 | 1050.00
+CPH | TPA | Delta Air Lines | 2 (AMS, JFK) | 15:00 | 22:45 | 1200.00
+CPH | TPA | American Airlines | 1 (LHR) | 17:15 | 00:30 | 950.00
+CPH | TPA | British Airways | 1 (LHR) | 19:30 | 03:15 | 1100.00
+CPH | TPA | KLM | 1 (AMS) | 21:45 | 06:00 | 1000.00
+CPH | TPA | Air France | 1 (CDG) | 23:59 | 09:45 | 1150.00
+
+
+Here are the 16 flight plans:
+
+TPA | DXB | Emirates | 1 (LHR) | 14:30 | 12:15 | 850.00
+TPA | DXB | Qatar Airways | 1 (DOH) | 16:00 | 13:45 | 920.00
+TPA | DXB | Turkish Airlines | 1 (IST) | 18:00 | 15:45 | 780.00
+TPA | DXB | Lufthansa | 2 (FRA, AUH) | 10:00 | 11:30 | 1050.00
+TPA | DXB | American Airlines | 1 (LHR) | 12:00 | 09:45 | 900.00
+TPA | DXB | Delta Air Lines | 1 (CDG) | 15:00 | 12:45 | 950.00
+TPA | DXB | United Airlines | 2 (EWR, FRA) | 08:00 | 10:30 | 1100.00
+TPA | DXB | KLM Royal Dutch | 1 (AMS) | 13:00 | 10:45 | 980.00
+
+DXB | TPA | Emirates | 1 (LHR) | 02:00 | 08:15 | 850.00
+DXB | TPA | Qatar Airways | 1 (DOH) | 04:00 | 10:45 | 920.00
+DXB | TPA | Turkish Airlines | 1 (IST) | 06:00 | 12:45 | 780.00
+DXB | TPA | Lufthansa | 2 (FRA, AUH) | 00:00 | 07:30 | 1050.00
+DXB | TPA | American Airlines | 1 (LHR) | 01:00 | 07:45 | 900.00
+DXB | TPA | Delta Air Lines | 1 (CDG) | 03:00 | 09:45 | 950.00
+DXB | TPA | United Airlines | 2 (EWR, FRA) | 23:00 | 06:30 | 1100.00
+DXB | TPA | KLM Royal Dutch | 1 (AMS) | 02:30 | 08:45 | 980.00
+
+
+Here are the 16 flight plans:
+
+TPA | DUB | American Airlines | Non-stop | 08:00 | 17:30 | 850.00
+TPA | DUB | Delta Air Lines | 1 stop (JFK) | 09:30 | 19:15 | 920.00
+TPA | DUB | United Airlines | Non-stop | 11:00 | 20:30 | 980.00
+TPA | DUB | Lufthansa | 1 stop (FRA) | 12:30 | 22:15 | 1050.00
+TPA | DUB | Aer Lingus | Non-stop | 14:00 | 23:30 | 1100.00
+TPA | DUB | British Airways | 1 stop (LHR) | 15:30 | 01:15 | 1150.00
+TPA | DUB | Iberia | 1 stop (MAD) | 17:00 | 02:45 | 1200.00
+TPA | DUB | KLM | 1 stop (AMS) | 18:30 | 04:15 | 1250.00
+DUB | TPA | American Airlines | Non-stop | 08:00 | 11:30 | 850.00
+DUB | TPA | Delta Air Lines | 1 stop (JFK) | 09:30 | 13:15 | 920.00
+DUB | TPA | United Airlines | Non-stop | 11:00 | 14:30 | 980.00
+DUB | TPA | Lufthansa | 1 stop (FRA) | 12:30 | 16:15 | 1050.00
+DUB | TPA | Aer Lingus | Non-stop | 14:00 | 17:30 | 1100.00
+DUB | TPA | British Airways | 1 stop (LHR) | 15:30 | 19:15 | 1150.00
+DUB | TPA | Iberia | 1 stop (MAD) | 17:00 | 20:45 | 1200.00
+DUB | TPA | KLM | 1 stop (AMS) | 18:30 | 22:15 | 1250.00
+
+
+Here are the 16 flight plans:
+
+TPA | EDI | American Airlines | Non-stop | 08:00 | 18:30 | 450.00
+TPA | EDI | British Airways | 1 stop (LHR) | 10:30 | 20:45 | 520.00
+TPA | EDI | Delta Air Lines | Non-stop | 12:00 | 22:20 | 480.00
+TPA | EDI | United Airlines | 1 stop (EWR) | 14:30 | 00:50 | 550.00
+TPA | EDI | Lufthansa | 2 stops (FRA, LHR) | 16:00 | 02:10 | 620.00
+TPA | EDI | Air France | 1 stop (CDG) | 18:30 | 04:45 | 590.00
+TPA | EDI | KLM Royal Dutch | 1 stop (AMS) | 20:00 | 06:20 | 570.00
+TPA | EDI | Iberia | 2 stops (MAD, LHR) | 22:00 | 08:30 | 650.00
+
+EDI | TPA | British Airways | Non-stop | 08:30 | 12:50 | 420.00
+EDI | TPA | American Airlines | 1 stop (PHL) | 10:00 | 16:20 | 490.00
+EDI | TPA | Delta Air Lines | Non-stop | 12:30 | 18:50 | 450.00
+EDI | TPA | United Airlines | 1 stop (EWR) | 14:00 | 20:20 | 520.00
+EDI | TPA | Lufthansa | 2 stops (FRA, MIA) | 16:30 | 02:50 | 640.00
+EDI | TPA | Air France | 1 stop (CDG) | 18:00 | 04:20 | 580.00
+EDI | TPA | KLM Royal Dutch | 1 stop (AMS) | 20:30 | 06:50 | 560.00
+EDI | TPA | Iberia | 2 stops (MAD, PHL) | 22:30 | 08:50 | 670.00
+
+
+Here are the 16 flight plans:
+
+TPA | HAN | Vietnam Airlines | 1 (NRT) | 08:00 | 20:30 | 850.00
+TPA | HAN | Japan Airlines | 1 (HND) | 09:30 | 22:00 | 920.00
+TPA | HAN | American Airlines | 2 (DFW, HKG) | 10:00 | 23:30 | 1050.00
+TPA | HAN | Delta Air Lines | 1 (ICN) | 11:00 | 00:30 | 980.00
+TPA | HAN | United Airlines | 1 (SIN) | 12:00 | 01:30 | 950.00
+TPA | HAN | Korean Air | 1 (ICN) | 13:00 | 02:30 | 1000.00
+TPA | HAN | Cathay Pacific | 1 (HKG) | 14:00 | 03:30 | 1020.00
+TPA | HAN | Qantas | 2 (LAX, SYD) | 15:00 | 05:30 | 1150.00
+HAN | TPA | Vietnam Airlines | 1 (NRT) | 08:00 | 20:30 | 850.00
+HAN | TPA | Japan Airlines | 1 (HND) | 09:30 | 22:00 | 920.00
+HAN | TPA | American Airlines | 2 (HKG, DFW) | 10:00 | 23:30 | 1050.00
+HAN | TPA | Delta Air Lines | 1 (ICN) | 11:00 | 00:30 | 980.00
+HAN | TPA | United Airlines | 1 (SIN) | 12:00 | 01:30 | 950.00
+HAN | TPA | Korean Air | 1 (ICN) | 13:00 | 02:30 | 1000.00
+HAN | TPA | Cathay Pacific | 1 (HKG) | 14:00 | 03:30 | 1020.00
+HAN | TPA | Qantas | 2 (SYD, LAX) | 15:00 | 05:30 | 1150.00
+HAN | TPA | China Eastern | 1 (PVG) | 16:00 | 04:30 | 1100.00
+
+
+Here are the 16 flight plans:
+
+TPA | HKG | AA | 1 (NRT) | 08:00 | 20:30 | 850.00
+TPA | HKG | UA | 2 (EWR, NRT) | 10:30 | 22:50 | 1100.00
+TPA | HKG | CX | 0 | 12:00 | 18:30 | 900.00
+TPA | HKG | DL | 1 (ATL) | 14:00 | 20:00 | 950.00
+TPA | HKG | SQ | 2 (IAH, SIN) | 16:00 | 22:20 | 1200.00
+TPA | HKG | JL | 1 (NRT) | 18:00 | 21:00 | 1000.00
+TPA | HKG | BR | 2 (MIA, TPE) | 20:00 | 23:40 | 1300.00
+TPA | HKG | KE | 1 (ICN) | 22:00 | 01:30 | 1050.00
+
+HKG | TPA | AA | 1 (NRT) | 08:00 | 20:30 | 900.00
+HKG | TPA | UA | 2 (SIN, EWR) | 10:30 | 22:50 | 1150.00
+HKG | TPA | CX | 0 | 12:00 | 18:30 | 850.00
+HKG | TPA | DL | 1 (ATL) | 14:00 | 20:00 | 950.00
+HKG | TPA | SQ | 2 (SIN, IAH) | 16:00 | 22:20 | 1250.00
+HKG | TPA | JL | 1 (NRT) | 18:00 | 21:00 | 1000.00
+HKG | TPA | BR | 2 (TPE, MIA) | 20:00 | 23:40 | 1350.00
+HKG | TPA | KE | 1 (ICN) | 22:00 | 01:30 | 1100.00
+
+
+Here are the 16 flight plans:
+
+TPA | IST | Turkish Airlines | Non-stop | 14:30 | 07:30 | 850.00
+TPA | IST | Lufthansa | 1 (FRA) | 10:00 | 06:00 | 950.00
+TPA | IST | American Airlines | 1 (PHL) | 08:00 | 05:00 | 870.00
+TPA | IST | Delta Air Lines | 1 (AMS) | 12:00 | 08:00 | 890.00
+TPA | IST | United Airlines | 2 (EWR, FRA) | 09:00 | 07:00 | 1020.00
+TPA | IST | Emirates | 1 (DXB) | 15:00 | 10:00 | 1080.00
+TPA | IST | Qatar Airways | 1 (DOH) | 11:00 | 07:00 | 940.00
+TPA | IST | British Airways | 1 (LHR) | 13:00 | 09:00 | 920.00
+
+IST | TPA | Turkish Airlines | Non-stop | 10:00 | 15:00 | 820.00
+IST | TPA | Lufthansa | 1 (FRA) | 07:00 | 12:00 | 910.00
+IST | TPA | American Airlines | 1 (PHL) | 09:00 | 14:00 | 840.00
+IST | TPA | Delta Air Lines | 1 (AMS) | 11:00 | 16:00 | 860.00
+IST | TPA | United Airlines | 2 (EWR, FRA) | 08:00 | 14:00 | 980.00
+IST | TPA | Emirates | 1 (DXB) | 14:00 | 19:00 | 1040.00
+IST | TPA | Qatar Airways | 1 (DOH) | 12:00 | 17:00 | 900.00
+IST | TPA | British Airways | 1 (LHR) | 15:00 | 20:00 | 930.00
+
+
+TPA | TLV | EL AL | 1 (AMS) | 10:00 | 19:35 | 850.00
+TPA | TLV | Lufthansa | 2 (FRA, MXP) | 13:45 | 22:10 | 1100.00
+TPA | TLV | American Airlines | 1 (PHL) | 08:30 | 18:50 | 900.00
+TPA | TLV | Delta Air Lines | 1 (CDG) | 11:15 | 20:40 | 1000.00
+TPA | TLV | United Airlines | 2 (EWR, FRA) | 14:50 | 23:20 | 1200.00
+TPA | TLV | Turkish Airlines | 1 (IST) | 09:00 | 19:20 | 950.00
+TPA | TLV | British Airways | 1 (LHR) | 12:30 | 21:55 | 1050.00
+TPA | TLV | Swiss International | 2 (ZRH, GVA) | 15:20 | 23:50 | 1250.00
+TLV | TPA | EL AL | 1 (AMS) | 08:00 | 17:35 | 800.00
+TLV | TPA | Lufthansa | 2 (MXP, FRA) | 11:45 | 21:10 | 1050.00
+TLV | TPA | American Airlines | 1 (PHL) | 10:30 | 20:50 | 850.00
+TLV | TPA | Delta Air Lines | 1 (CDG) | 13:15 | 22:40 | 950.00
+TLV | TPA | United Airlines | 2 (FRA, EWR) | 14:50 | 23:20 | 1150.00
+TLV | TPA | Turkish Airlines | 1 (IST) | 09:30 | 19:50 | 900.00
+TLV | TPA | British Airways | 1 (LHR) | 12:00 | 21:25 | 1000.00
+TLV | TPA | Swiss International | 2 (GVA, ZRH) | 15:00 | 23:30 | 1200.00
+
+
+Here are the 16 flight plans:
+
+TPA | LIM | LATAM | 0 | 08:00 | 17:30 | 540.00
+TPA | LIM | Avianca | 1 (BOG) | 09:15 | 19:45 | 620.00
+TPA | LIM | Copa | 0 | 10:30 | 20:00 | 580.00
+TPA | LIM | American | 1 (MIA) | 11:45 | 21:15 | 650.00
+TPA | LIM | Delta | 0 | 13:00 | 22:30 | 600.00
+TPA | LIM | LATAM | 1 (SCL) | 14:15 | 23:45 | 680.00
+TPA | LIM | Spirit | 1 (FLL) | 15:30 | 01:00 | 580.00
+TPA | LIM | JetBlue | 0 | 16:45 | 02:15 | 620.00
+LIM | TPA | LATAM | 0 | 08:00 | 17:30 | 540.00
+LIM | TPA | Avianca | 1 (BOG) | 09:15 | 19:45 | 620.00
+LIM | TPA | Copa | 0 | 10:30 | 20:00 | 580.00
+LIM | TPA | American | 1 (MIA) | 11:45 | 21:15 | 650.00
+LIM | TPA | Delta | 0 | 13:00 | 22:30 | 600.00
+LIM | TPA | LATAM | 1 (SCL) | 14:15 | 23:45 | 680.00
+LIM | TPA | Spirit | 1 (FLL) | 15:30 | 01:00 | 580.00
+LIM | TPA | JetBlue | 0 | 16:45 | 02:15 | 620.00
+LIM | TPA | United | 1 (IAH) | 18:00 | 03:30 | 640.00
+
+
+Here are the 16 flight plans:
+
+TPA | LHR | American Airlines | 1 (JFK) | 08:00 | 18:30 | 850.00
+TPA | LHR | British Airways | 0 | 10:30 | 20:00 | 1200.00
+TPA | LHR | Delta Air Lines | 1 (ATL) | 12:00 | 22:30 | 950.00
+TPA | LHR | United Airlines | 1 (EWR) | 14:00 | 00:30 | 1100.00
+TPA | LHR | Lufthansa | 1 (FRA) | 16:00 | 02:30 | 1050.00
+TPA | LHR | Air France | 1 (CDG) | 18:00 | 04:30 | 1000.00
+TPA | LHR | KLM Royal Dutch | 1 (AMS) | 20:00 | 06:30 | 900.00
+TPA | LHR | Iberia | 1 (MAD) | 22:00 | 08:30 | 950.00
+
+LHR | TPA | American Airlines | 1 (PHL) | 09:00 | 14:30 | 800.00
+LHR | TPA | British Airways | 0 | 11:30 | 17:00 | 1100.00
+LHR | TPA | Delta Air Lines | 1 (ATL) | 13:30 | 20:00 | 900.00
+LHR | TPA | United Airlines | 1 (EWR) | 15:30 | 22:00 | 1000.00
+LHR | TPA | Lufthansa | 1 (FRA) | 17:30 | 00:00 | 950.00
+LHR | TPA | Air France | 1 (CDG) | 19:30 | 02:00 | 900.00
+LHR | TPA | KLM Royal Dutch | 1 (AMS) | 21:30 | 04:00 | 850.00
+LHR | TPA | Iberia | 1 (MAD) | 23:30 | 06:00 | 900.00
+
+
+Here are the 16 flight plans:
+
+TPA | MAD | Iberia | Non-stop | 08:00 | 17:30 | 450.00
+TPA | MAD | American Airlines | 1 stop (PHL) | 09:30 | 19:15 | 520.00
+TPA | MAD | Delta | Non-stop | 11:00 | 20:30 | 480.00
+TPA | MAD | Lufthansa | 1 stop (FRA) | 12:30 | 22:15 | 550.00
+TPA | MAD | United | 1 stop (EWR) | 14:00 | 23:45 | 500.00
+TPA | MAD | British Airways | 1 stop (LHR) | 15:30 | 01:15 | 580.00
+TPA | MAD | Air Europa | Non-stop | 17:00 | 02:30 | 510.00
+TPA | MAD | Swiss International | 1 stop (ZRH) | 19:00 | 04:45 | 600.00
+
+MAD | TPA | Iberia | Non-stop | 09:30 | 14:00 | 420.00
+MAD | TPA | American Airlines | 1 stop (PHL) | 11:00 | 16:45 | 490.00
+MAD | TPA | Delta | Non-stop | 12:30 | 18:00 | 460.00
+MAD | TPA | Lufthansa | 1 stop (FRA) | 14:00 | 20:45 | 530.00
+MAD | TPA | United | 1 stop (EWR) | 15:30 | 22:15 | 500.00
+MAD | TPA | British Airways | 1 stop (LHR) | 17:00 | 00:45 | 560.00
+MAD | TPA | Air Europa | Non-stop | 18:30 | 02:00 | 480.00
+MAD | TPA | Swiss International | 1 stop (ZRH) | 20:00 | 04:45 | 610.00
+
+
+Here are the 16 flight plans:
+
+TPA | MEX | American Airlines | Non-stop | 08:00 | 10:35 | 450.00
+TPA | MEX | Delta Air Lines | 1 stop (ATL) | 09:15 | 12:50 | 520.00
+TPA | MEX | United Airlines | Non-stop | 10:30 | 13:05 | 480.00
+TPA | MEX | Aeromexico | 1 stop (HOU) | 11:45 | 15:20 | 550.00
+TPA | MEX | Frontier Airlines | 1 stop (DEN) | 12:00 | 16:35 | 400.00
+TPA | MEX | Spirit Airlines | 1 stop (FLL) | 13:15 | 17:50 | 380.00
+TPA | MEX | JetBlue Airways | Non-stop | 14:30 | 17:05 | 500.00
+TPA | MEX | Southwest Airlines | 1 stop (BNA) | 15:45 | 19:20 | 420.00
+MEX | TPA | American Airlines | Non-stop | 08:30 | 11:05 | 460.00
+MEX | TPA | Delta Air Lines | 1 stop (LAX) | 09:45 | 13:20 | 540.00
+MEX | TPA | United Airlines | Non-stop | 11:00 | 13:35 | 490.00
+MEX | TPA | Aeromexico | 1 stop (SFO) | 12:15 | 15:50 | 570.00
+MEX | TPA | Frontier Airlines | 1 stop (PHX) | 13:30 | 17:05 | 410.00
+MEX | TPA | Spirit Airlines | 1 stop (ORD) | 14:45 | 18:20 | 390.00
+MEX | TPA | JetBlue Airways | Non-stop | 16:00 | 18:35 | 510.00
+MEX | TPA | Southwest Airlines | 1 stop (DAL) | 17:15 | 20:50 | 430.00
+
+
+Here are the 16 flight plans:
+
+TPA | MBJ | AA | 0 | 08:00 | 10:30 | 450.00
+TPA | MBJ | DL | 1 (ATL) | 09:15 | 13:45 | 520.00
+TPA | MBJ | UA | 0 | 10:45 | 13:15 | 480.00
+TPA | MBJ | WN | 1 (FLL) | 11:30 | 15:00 | 550.00
+TPA | MBJ | B6 | 0 | 12:00 | 14:30 | 500.00
+TPA | MBJ | AS | 1 (MCO) | 13:15 | 16:45 | 580.00
+TPA | MBJ | F9 | 0 | 14:30 | 17:00 | 530.00
+TPA | MBJ | NK | 1 (PBI) | 15:45 | 19:15 | 610.00
+MBJ | TPA | AA | 0 | 08:30 | 11:00 | 420.00
+MBJ | TPA | DL | 1 (ATL) | 09:45 | 13:15 | 490.00
+MBJ | TPA | UA | 0 | 11:15 | 13:45 | 450.00
+MBJ | TPA | WN | 1 (FLL) | 12:00 | 14:30 | 510.00
+MBJ | TPA | B6 | 0 | 13:30 | 16:00 | 480.00
+MBJ | TPA | AS | 1 (MCO) | 14:45 | 17:15 | 540.00
+MBJ | TPA | F9 | 0 | 15:15 | 17:45 | 500.00
+MBJ | TPA | NK | 1 (PBI) | 16:30 | 19:00 | 570.00
+
+
+Here are the 16 flight plans:
+
+TPA | YUL | AC | 1 (YYZ) | 08:00 | 11:35 | 450.00
+TPA | YUL | WS | 1 (MCO) | 09:15 | 13:05 | 380.00
+TPA | YUL | DL | 2 (ATL, LGA) | 10:30 | 15:20 | 520.00
+TPA | YUL | UA | 1 (EWR) | 11:45 | 15:10 | 420.00
+TPA | YUL | AA | 2 (CLT, BOS) | 12:50 | 17:30 | 580.00
+TPA | YUL | B6 | 1 (JFK) | 14:05 | 17:45 | 480.00
+TPA | YUL | WN | 1 (BWI) | 15:20 | 19:00 | 400.00
+TPA | YUL | F9 | 2 (DEN, ORD) | 16:35 | 21:15 | 550.00
+YUL | TPA | AC | 1 (YYZ) | 08:00 | 11:35 | 420.00
+YUL | TPA | WS | 1 (MCO) | 09:15 | 13:05 | 350.00
+YUL | TPA | DL | 2 (LGA, ATL) | 10:30 | 15:20 | 500.00
+YUL | TPA | UA | 1 (EWR) | 11:45 | 15:10 | 400.00
+YUL | TPA | AA | 2 (BOS, CLT) | 12:50 | 17:30 | 560.00
+YUL | TPA | B6 | 1 (JFK) | 14:05 | 17:45 | 460.00
+YUL | TPA | WN | 1 (BWI) | 15:20 | 19:00 | 380.00
+YUL | TPA | F9 | 2 (ORD, DEN) | 16:35 | 21:15 | 530.00
+
+
+Here are the 16 flight plans:
+
+TPA | BOM | American Airlines | 1 (LHR) | 08:00 | 20:30 | 850.00
+TPA | BOM | Emirates | 2 (DXB, DEL) | 09:30 | 22:45 | 1100.00
+TPA | BOM | Lufthansa | 1 (FRA) | 10:15 | 21:00 | 1200.00
+TPA | BOM | Qatar Airways | 1 (DOH) | 11:00 | 22:15 | 1000.00
+TPA | BOM | British Airways | 1 (LHR) | 12:30 | 23:45 | 1300.00
+TPA | BOM | Turkish Airlines | 1 (IST) | 13:45 | 01:15 | 900.00
+TPA | BOM | KLM | 2 (AMS, DEL) | 15:00 | 02:30 | 1400.00
+TPA | BOM | Air France | 1 (CDG) | 16:15 | 03:30 | 1500.00
+BOM | TPA | Air India | 1 (DEL) | 02:00 | 12:30 | 800.00
+BOM | TPA | Emirates | 2 (DXB, JFK) | 03:30 | 14:45 | 1200.00
+BOM | TPA | Lufthansa | 1 (FRA) | 05:00 | 16:15 | 1300.00
+BOM | TPA | Qatar Airways | 1 (DOH) | 06:30 | 18:45 | 1100.00
+BOM | TPA | British Airways | 1 (LHR) | 08:00 | 20:15 | 1400.00
+BOM | TPA | Turkish Airlines | 1 (IST) | 09:45 | 22:00 | 1000.00
+BOM | TPA | KLM | 2 (AMS, LHR) | 11:15 | 00:30 | 1500.00
+BOM | TPA | Air France | 1 (CDG) | 12:45 | 02:00 | 1600.00
+BOM | TPA | United Airlines | 1 (EWR) | 14:00 | 03:15 | 1200.00
+
+
+Here are the 16 flight plans:
+
+TPA | OSL | Norwegian | 0 | 08:00 | 18:30 | 450.00
+TPA | OSL | Lufthansa | 1 (FRA) | 10:30 | 20:50 | 620.00
+TPA | OSL | American | 1 (PHL) | 12:00 | 22:20 | 550.00
+TPA | OSL | Delta | 1 (AMS) | 14:00 | 00:30 | 580.00
+TPA | OSL | KLM | 1 (AMS) | 15:30 | 02:00 | 520.00
+TPA | OSL | British Airways | 1 (LHR) | 17:00 | 03:30 | 600.00
+TPA | OSL | United | 2 (EWR, FRA) | 18:30 | 06:00 | 720.00
+TPA | OSL | Air France | 1 (CDG) | 20:00 | 07:30 | 650.00
+OSL | TPA | Norwegian | 0 | 09:00 | 19:30 | 420.00
+OSL | TPA | Lufthansa | 1 (FRA) | 11:30 | 22:50 | 590.00
+OSL | TPA | American | 1 (PHL) | 13:00 | 00:20 | 520.00
+OSL | TPA | Delta | 1 (AMS) | 15:00 | 02:30 | 540.00
+OSL | TPA | KLM | 1 (AMS) | 16:30 | 04:00 | 480.00
+OSL | TPA | British Airways | 1 (LHR) | 18:00 | 05:30 | 570.00
+OSL | TPA | United | 2 (EWR, FRA) | 19:30 | 07:00 | 690.00
+OSL | TPA | Air France | 1 (CDG) | 21:00 | 08:30 | 610.00
+
+
+Here are the 16 flight plans:
+
+TPA | PTY | AA | 1 (MIA) | 08:00 | 11:15 | 450.00
+TPA | PTY | UA | 0 | 10:30 | 13:45 | 520.00
+TPA | PTY | DL | 1 (ATL) | 12:45 | 16:00 | 480.00
+TPA | PTY | WN | 0 | 14:15 | 17:30 | 490.00
+TPA | PTY | B6 | 1 (FLL) | 16:00 | 19:15 | 510.00
+TPA | PTY | AS | 0 | 18:30 | 21:45 | 530.00
+TPA | PTY | F9 | 1 (MCO) | 20:45 | 23:59 | 460.00
+TPA | PTY | NK | 0 | 22:00 | 01:15 | 500.00
+PTY | TPA | AA | 1 (MIA) | 08:30 | 11:45 | 470.00
+PTY | TPA | UA | 0 | 11:00 | 14:15 | 550.00
+PTY | TPA | DL | 1 (ATL) | 13:15 | 16:30 | 500.00
+PTY | TPA | WN | 0 | 15:00 | 18:15 | 520.00
+PTY | TPA | B6 | 1 (FLL) | 17:00 | 20:15 | 540.00
+PTY | TPA | AS | 0 | 19:30 | 22:45 | 560.00
+PTY | TPA | F9 | 1 (MCO) | 21:45 | 00:59 | 490.00
+PTY | TPA | NK | 0 | 23:15 | 02:30 | 510.00
+
+
+Here are the 16 flight plans:
+
+TPA | CDG | American Airlines | Non-stop | 08:00 | 18:30 | 850.00
+TPA | CDG | Delta Air Lines | 1 stop (AMS) | 10:30 | 20:15 | 720.00
+TPA | CDG | Lufthansa | 1 stop (FRA) | 12:00 | 21:45 | 890.00
+TPA | CDG | Air France | Non-stop | 14:00 | 22:30 | 950.00
+TPA | CDG | KLM Royal Dutch | 1 stop (AMS) | 16:00 | 23:55 | 820.00
+TPA | CDG | Iberia | 1 stop (MAD) | 18:00 | 01:20 | 780.00
+TPA | CDG | British Airways | 1 stop (LHR) | 20:00 | 02:45 | 860.00
+TPA | CDG | Swiss International | 1 stop (ZRH) | 22:00 | 04:30 | 840.00
+
+CDG | TPA | Air France | Non-stop | 09:00 | 13:30 | 980.00
+CDG | TPA | Delta Air Lines | 1 stop (ATL) | 11:30 | 16:15 | 820.00
+CDG | TPA | American Airlines | 1 stop (PHL) | 13:30 | 18:15 | 860.00
+CDG | TPA | Lufthansa | 1 stop (FRA) | 15:30 | 20:45 | 930.00
+CDG | TPA | KLM Royal Dutch | 1 stop (AMS) | 17:30 | 22:55 | 840.00
+CDG | TPA | Iberia | 1 stop (MAD) | 19:30 | 01:20 | 800.00
+CDG | TPA | British Airways | 1 stop (LHR) | 21:30 | 03:45 | 900.00
+CDG | TPA | Swiss International | 1 stop (ZRH) | 23:30 | 05:30 | 920.00
+
+
+Here are the 16 flight plans:
+
+TPA | HKT | Thai Airways | 1 (NRT) | 08:30 | 21:45 | 850.00
+TPA | HKT | Japan Airlines | 1 (HND) | 10:15 | 23:59 | 920.00
+TPA | HKT | Korean Air | 2 (ICN, BKK) | 11:00 | 02:15 | 1050.00
+TPA | HKT | China Eastern | 1 (PVG) | 12:45 | 01:10 | 780.00
+TPA | HKT | ANA | 1 (NRT) | 14:00 | 03:20 | 950.00
+TPA | HKT | Asiana Airlines | 2 (ICN, HKG) | 15:30 | 04:45 | 1120.00
+TPA | HKT | Singapore Airlines | 1 (SIN) | 16:15 | 05:30 | 1000.00
+TPA | HKT | Cathay Pacific | 1 (HKG) | 17:45 | 06:50 | 1100.00
+HKT | TPA | Thai Airways | 1 (NRT) | 09:00 | 20:15 | 850.00
+HKT | TPA | Japan Airlines | 1 (HND) | 10:45 | 21:50 | 920.00
+HKT | TPA | Korean Air | 2 (BKK, ICN) | 11:30 | 23:40 | 1050.00
+HKT | TPA | China Eastern | 1 (PVG) | 13:15 | 01:30 | 780.00
+HKT | TPA | ANA | 1 (NRT) | 14:30 | 03:40 | 950.00
+HKT | TPA | Asiana Airlines | 2 (HKG, ICN) | 15:45 | 05:00 | 1120.00
+HKT | TPA | Singapore Airlines | 1 (SIN) | 16:30 | 06:05 | 1000.00
+HKT | TPA | Cathay Pacific | 1 (HKG) | 17:15 | 07:20 | 1100.00
+
+
+Here are the 16 flight plans:
+
+TPA | PRG | American Airlines | 1 (JFK) | 08:00 | 18:30 | 850.00
+TPA | PRG | Delta Air Lines | 2 (ATL, FRA) | 10:30 | 21:45 | 1050.00
+TPA | PRG | United Airlines | Non-stop | 12:00 | 18:00 | 950.00
+TPA | PRG | Lufthansa | 1 (FRA) | 14:30 | 21:15 | 1100.00
+TPA | PRG | Air Canada | 2 (YYZ, FRA) | 16:00 | 23:30 | 1200.00
+TPA | PRG | British Airways | 1 (LHR) | 18:30 | 22:45 | 1000.00
+TPA | PRG | KLM Royal Dutch | 2 (AMS, FRA) | 20:00 | 01:15 | 1150.00
+TPA | PRG | Swiss International | 1 (ZRH) | 21:30 | 01:00 | 1080.00
+PRG | TPA | Czech Airlines | Non-stop | 08:00 | 12:00 | 900.00
+PRG | TPA | American Airlines | 1 (JFK) | 10:30 | 16:30 | 950.00
+PRG | TPA | Delta Air Lines | 2 (FRA, ATL) | 12:30 | 19:45 | 1100.00
+PRG | TPA | United Airlines | 1 (EWR) | 14:30 | 18:30 | 980.00
+PRG | TPA | Lufthansa | 1 (FRA) | 16:30 | 20:15 | 1050.00
+PRG | TPA | Air Canada | 2 (FRA, YYZ) | 18:00 | 22:30 | 1150.00
+PRG | TPA | British Airways | 1 (LHR) | 20:00 | 23:45 | 1000.00
+PRG | TPA | KLM Royal Dutch | 2 (FRA, AMS) | 21:30 | 02:15 | 1180.00
+
+
+Here are the 16 flight plans:
+
+TPA | KEF | Icelandair | 1 (BOS) | 08:00 | 18:30 | 540.00
+TPA | KEF | Delta | 2 (ATL, JFK) | 10:00 | 21:45 | 620.00
+TPA | KEF | American | 1 (PHL) | 12:30 | 23:15 | 580.00
+TPA | KEF | Lufthansa | 2 (FRA, OSLO) | 14:00 | 01:20 | 750.00
+TPA | KEF | United | 1 (EWR) | 16:00 | 01:50 | 650.00
+TPA | KEF | Air Canada | 2 (YYZ, LHR) | 18:00 | 04:30 | 800.00
+TPA | KEF | KLM | 1 (AMS) | 20:00 | 06:00 | 700.00
+TPA | KEF | British Airways | 2 (LHR, MAN) | 22:00 | 08:30 | 850.00
+
+KEF | TPA | Icelandair | 1 (BOS) | 09:00 | 19:30 | 520.00
+KEF | TPA | Delta | 2 (JFK, ATL) | 11:00 | 22:45 | 600.00
+KEF | TPA | American | 1 (PHL) | 13:30 | 00:15 | 560.00
+KEF | TPA | Lufthansa | 2 (OSLO, FRA) | 15:00 | 02:20 | 730.00
+KEF | TPA | United | 1 (EWR) | 17:00 | 03:50 | 630.00
+KEF | TPA | Air Canada | 2 (LHR, YYZ) | 19:00 | 06:30 | 780.00
+KEF | TPA | KLM | 1 (AMS) | 21:00 | 08:00 | 680.00
+KEF | TPA | British Airways | 2 (MAN, LHR) | 23:00 | 10:30 | 820.00
+
+
+Here are the 16 flight plans:
+
+TPA | GIG | LATAM | 1 (MIA) | 08:00 | 17:30 | 542.00
+TPA | GIG | American | 0 | 10:30 | 19:00 | 620.00
+TPA | GIG | Delta | 1 (ATL) | 12:00 | 20:30 | 580.00
+TPA | GIG | Azul | 0 | 14:00 | 22:00 | 550.00
+TPA | GIG | Copa | 1 (PTY) | 16:00 | 00:30 | 630.00
+TPA | GIG | Avianca | 1 (BOG) | 18:00 | 02:30 | 650.00
+TPA | GIG | LATAM | 0 | 20:00 | 04:00 | 590.00
+TPA | GIG | United | 1 (IAH) | 22:00 | 06:30 | 610.00
+GIG | TPA | LATAM | 0 | 08:00 | 14:00 | 520.00
+GIG | TPA | American | 1 (MIA) | 10:00 | 16:30 | 600.00
+GIG | TPA | Delta | 0 | 12:00 | 18:00 | 570.00
+GIG | TPA | Azul | 1 (CNF) | 14:00 | 20:30 | 580.00
+GIG | TPA | Copa | 0 | 16:00 | 22:00 | 560.00
+GIG | TPA | Avianca | 1 (LIM) | 18:00 | 00:30 | 620.00
+GIG | TPA | LATAM | 1 (GRU) | 20:00 | 02:30 | 640.00
+GIG | TPA | United | 0 | 22:00 | 04:00 | 590.00
+
+
+Here are the 16 flight plans:
+
+TPA | FCO | American Airlines | Non-stop | 08:00 | 17:30 | 850.00
+TPA | FCO | Delta Air Lines | 1 stop (JFK) | 10:30 | 19:15 | 950.00
+TPA | FCO | Lufthansa | 1 stop (FRA) | 12:00 | 20:45 | 1050.00
+TPA | FCO | United Airlines | 2 stops (EWR, ZRH) | 13:45 | 22:30 | 1200.00
+TPA | FCO | Alitalia | Non-stop | 15:00 | 22:50 | 1100.00
+TPA | FCO | British Airways | 1 stop (LHR) | 16:30 | 23:59 | 1250.00
+TPA | FCO | Iberia | 1 stop (MAD) | 17:45 | 00:30 | 1150.00
+TPA | FCO | Turkish Airlines | 2 stops (IST, MXP) | 19:00 | 02:15 | 1300.00
+FCO | TPA | American Airlines | Non-stop | 09:00 | 14:30 | 900.00
+FCO | TPA | Delta Air Lines | 1 stop (CDG) | 11:30 | 16:15 | 1000.00
+FCO | TPA | Lufthansa | 1 stop (MUC) | 13:00 | 18:45 | 1100.00
+FCO | TPA | United Airlines | 2 stops (ZRH, EWR) | 14:45 | 20:30 | 1250.00
+FCO | TPA | Alitalia | Non-stop | 16:00 | 21:50 | 1050.00
+FCO | TPA | British Airways | 1 stop (LHR) | 17:30 | 22:59 | 1200.00
+FCO | TPA | Iberia | 1 stop (MAD) | 19:00 | 00:30 | 1150.00
+FCO | TPA | Turkish Airlines | 2 stops (MXP, IST) | 20:30 | 03:15 | 1350.00
+
+
+Here are the 16 flight plans:
+
+TPA | SCL | LATAM | 1 (MIA) | 08:00 | 22:45 | 850.00
+TPA | SCL | American Airlines | 2 (MIA, LIM) | 09:30 | 01:15 | 1100.00
+TPA | SCL | Delta | 1 (ATL) | 10:15 | 23:50 | 900.00
+TPA | SCL | Avianca | 2 (BOG, LIM) | 11:00 | 02:20 | 1200.00
+TPA | SCL | Copa Airlines | 1 (PTY) | 12:30 | 01:10 | 950.00
+TPA | SCL | United | 2 (IAH, LIM) | 13:45 | 03:35 | 1300.00
+TPA | SCL | LATAM | 1 (FLL) | 15:00 | 02:50 | 1000.00
+TPA | SCL | Aeromexico | 2 (MEX, LIM) | 16:15 | 04:45 | 1400.00
+
+SCL | TPA | LATAM | 1 (LIM) | 09:00 | 20:30 | 800.00
+SCL | TPA | American Airlines | 2 (LIM, MIA) | 10:30 | 22:15 | 1050.00
+SCL | TPA | Delta | 1 (ATL) | 11:45 | 23:20 | 850.00
+SCL | TPA | Avianca | 2 (BOG, MIA) | 13:00 | 01:40 | 1150.00
+SCL | TPA | Copa Airlines | 1 (PTY) | 14:15 | 00:50 | 900.00
+SCL | TPA | United | 2 (LIM, IAH) | 15:30 | 02:55 | 1250.00
+SCL | TPA | LATAM | 1 (FLL) | 16:45 | 03:25 | 950.00
+SCL | TPA | Aeromexico | 2 (LIM, MEX) | 18:00 | 05:10 | 1350.00
+
+
+Here are the 16 flight plans:
+
+TPA | ICN | Korean Air | 1 (NRT) | 10:30 | 14:45 | 850.00
+TPA | ICN | Delta | 2 (ATL, NRT) | 08:00 | 17:30 | 1200.00
+TPA | ICN | American Airlines | 1 (DFW) | 12:45 | 16:15 | 900.00
+TPA | ICN | Japan Airlines | 1 (HND) | 14:00 | 18:20 | 1000.00
+TPA | ICN | United | 2 (EWR, HKG) | 09:15 | 19:45 | 1300.00
+TPA | ICN | Asiana Airlines | 1 (ICN) | 11:30 | 15:50 | 950.00
+TPA | ICN | China Eastern | 2 (PVG, KIX) | 07:00 | 16:30 | 1100.00
+TPA | ICN | ANA | 1 (NRT) | 13:15 | 17:40 | 1050.00
+ICN | TPA | Korean Air | 1 (HND) | 09:00 | 08:20 | 900.00
+ICN | TPA | Delta | 2 (NRT, ATL) | 11:45 | 14:15 | 1250.00
+ICN | TPA | American Airlines | 1 (DFW) | 14:30 | 17:00 | 1000.00
+ICN | TPA | Japan Airlines | 1 (NRT) | 16:15 | 20:45 | 1150.00
+ICN | TPA | United | 2 (HKG, EWR) | 08:00 | 13:30 | 1400.00
+ICN | TPA | Asiana Airlines | 1 (ICN) | 10:45 | 14:10 | 1050.00
+ICN | TPA | China Eastern | 2 (KIX, PVG) | 12:00 | 16:30 | 1200.00
+ICN | TPA | ANA | 1 (HND) | 15:30 | 19:05 | 1100.00
+
+
+Here are the 16 flight plans:
+
+TPA | PVG | AA | 1 (NRT) | 08:00 | 22:30 | 850.00
+TPA | PVG | UA | 2 (SFO, HKG) | 10:30 | 01:15 | 1200.00
+TPA | PVG | DL | 1 (ATL) | 12:45 | 04:50 | 900.00
+TPA | PVG | CX | 1 (HKG) | 14:15 | 06:20 | 1100.00
+TPA | PVG | JL | 2 (MIA, NRT) | 16:00 | 08:40 | 1300.00
+TPA | PVG | AC | 1 (YYZ) | 18:30 | 11:10 | 1000.00
+TPA | PVG | SQ | 2 (IAH, SIN) | 20:45 | 13:25 | 1400.00
+TPA | PVG | LH | 1 (FRA) | 22:15 | 14:50 | 1050.00
+
+PVG | TPA | MU | 1 (NRT) | 09:00 | 21:30 | 800.00
+PVG | TPA | CZ | 2 (CAN, LAX) | 11:30 | 00:15 | 1150.00
+PVG | TPA | CA | 1 (PEK) | 13:45 | 03:50 | 950.00
+PVG | TPA | BR | 2 (TPE, SFO) | 15:15 | 06:20 | 1250.00
+PVG | TPA | HU | 1 (XIY) | 17:00 | 09:30 | 850.00
+PVG | TPA | OZ | 2 (ICN, JFK) | 19:30 | 12:10 | 1350.00
+PVG | TPA | KE | 1 (ICN) | 21:45 | 14:40 | 1000.00
+PVG | TPA | TG | 2 (BKK, FRA) | 23:15 | 16:50 | 1450.00
+
+
+TPA | SIN | SQ | 1 (DXB) | 09:30 | 07:45 | 850.00
+TPA | SIN | EK | 1 (DXB) | 11:15 | 09:30 | 920.00
+TPA | SIN | QR | 1 (DOH) | 14:00 | 12:15 | 980.00
+TPA | SIN | CX | 2 (HKG, BKK) | 16:45 | 15:00 | 1100.00
+TPA | SIN | JL | 1 (NRT) | 18:30 | 16:45 | 1050.00
+TPA | SIN | TG | 2 (BKK, KUL) | 20:15 | 18:30 | 1200.00
+TPA | SIN | UA | 1 (HKG) | 22:00 | 20:15 | 1000.00
+TPA | SIN | AA | 2 (DFW, NRT) | 23:45 | 22:00 | 1150.00
+SIN | TPA | SQ | 1 (DXB) | 09:00 | 06:15 | 900.00
+SIN | TPA | EK | 1 (DXB) | 11:45 | 09:00 | 970.00
+SIN | TPA | QR | 1 (DOH) | 14:30 | 12:45 | 1040.00
+SIN | TPA | CX | 2 (HKG, BKK) | 17:15 | 15:30 | 1160.00
+SIN | TPA | JL | 1 (NRT) | 19:00 | 16:15 | 1090.00
+SIN | TPA | TG | 2 (BKK, KUL) | 21:45 | 20:00 | 1250.00
+SIN | TPA | UA | 1 (HKG) | 23:30 | 21:45 | 1020.00
+SIN | TPA | AA | 2 (DFW, NRT) | 01:15 | 23:30 | 1180.00
+
+
+Here are the 16 flight plans:
+
+TPA | SPU | AA | 0 | 08:00 | 11:30 | 450.00
+TPA | SPU | UA | 1 (MIA) | 09:15 | 13:45 | 520.00
+TPA | SPU | DL | 0 | 10:30 | 14:00 | 480.00
+TPA | SPU | WN | 1 (FLL) | 11:45 | 16:15 | 550.00
+TPA | SPU | AS | 0 | 13:00 | 16:30 | 500.00
+TPA | SPU | B6 | 1 (JFK) | 14:15 | 18:45 | 580.00
+TPA | SPU | F9 | 0 | 15:30 | 18:50 | 530.00
+TPA | SPU | NK | 1 (EWR) | 16:45 | 21:15 | 610.00
+SPU | TPA | AA | 0 | 07:00 | 10:30 | 420.00
+SPU | TPA | UA | 1 (ORD) | 08:15 | 12:45 | 490.00
+SPU | TPA | DL | 0 | 09:30 | 13:00 | 450.00
+SPU | TPA | WN | 1 (DAL) | 10:45 | 14:15 | 510.00
+SPU | TPA | AS | 0 | 12:00 | 15:30 | 480.00
+SPU | TPA | B6 | 1 (BOS) | 13:15 | 17:45 | 560.00
+SPU | TPA | F9 | 0 | 14:30 | 17:50 | 520.00
+SPU | TPA | NK | 1 (MCO) | 15:45 | 20:15 | 590.00
+
+
+Here are the 16 flight plans:
+
+TPA | ARN | SAS | 1 (AMS) | 08:00 | 18:30 | 850.00
+TPA | ARN | Lufthansa | 2 (FRA, CPH) | 10:30 | 21:45 | 1050.00
+TPA | ARN | Delta | 1 (JFK) | 12:00 | 22:15 | 950.00
+TPA | ARN | KLM | 1 (AMS) | 14:30 | 00:45 | 900.00
+TPA | ARN | United | 2 (EWR, LHR) | 16:00 | 02:30 | 1100.00
+TPA | ARN | American | 1 (PHL) | 18:30 | 04:45 | 1000.00
+TPA | ARN | British Airways | 2 (MIA, LHR) | 20:00 | 06:15 | 1150.00
+TPA | ARN | Finnair | 1 (JFK) | 22:00 | 08:15 | 1020.00
+
+ARN | TPA | SAS | 1 (CPH) | 08:00 | 14:30 | 850.00
+ARN | TPA | Lufthansa | 2 (FRA, MIA) | 10:30 | 18:45 | 1050.00
+ARN | TPA | Delta | 1 (JFK) | 12:00 | 20:15 | 950.00
+ARN | TPA | KLM | 1 (AMS) | 14:30 | 22:45 | 900.00
+ARN | TPA | United | 2 (LHR, EWR) | 16:00 | 00:30 | 1100.00
+ARN | TPA | American | 1 (PHL) | 18:30 | 02:45 | 1000.00
+ARN | TPA | British Airways | 2 (LHR, MIA) | 20:00 | 04:15 | 1150.00
+ARN | TPA | Finnair | 1 (JFK) | 22:00 | 06:15 | 1020.00
+
+
+Here are the 16 flight plans:
+
+TPA | SYD | Qantas | 1 (LAX) | 08:00 | 07:30 | 1050.00
+TPA | SYD | American | 2 (DFW, HNL) | 09:30 | 11:15 | 1200.00
+TPA | SYD | Delta | 1 (ATL) | 11:00 | 10:30 | 1100.00
+TPA | SYD | United | 2 (IAH, SFO) | 12:30 | 14:45 | 1300.00
+TPA | SYD | Emirates | 1 (DXB) | 14:00 | 13:30 | 1400.00
+TPA | SYD | Virgin | 2 (JFK, LAX) | 15:30 | 18:15 | 1500.00
+TPA | SYD | Air New Zealand | 1 (AKL) | 17:00 | 16:30 | 1200.00
+TPA | SYD | Singapore | 2 (SIN, MEL) | 19:30 | 22:15 | 1600.00
+SYD | TPA | Qantas | 1 (LAX) | 08:00 | 07:30 | 1050.00
+SYD | TPA | American | 2 (HNL, DFW) | 09:30 | 11:15 | 1200.00
+SYD | TPA | Delta | 1 (ATL) | 11:00 | 10:30 | 1100.00
+SYD | TPA | United | 2 (SFO, IAH) | 12:30 | 14:45 | 1300.00
+SYD | TPA | Emirates | 1 (DXB) | 14:00 | 13:30 | 1400.00
+SYD | TPA | Virgin | 2 (LAX, JFK) | 15:30 | 18:15 | 1500.00
+SYD | TPA | Air New Zealand | 1 (AKL) | 17:00 | 16:30 | 1200.00
+SYD | TPA | Singapore | 2 (MEL, SIN) | 19:30 | 22:15 | 1600.00
+
+
+Here are the 16 flight plans:
+
+TPA | NRT | AA | 1 (DFW) | 08:00 | 11:30 | 850.00
+TPA | NRT | UA | 2 (IAH, SFO) | 09:30 | 14:45 | 1050.00
+TPA | NRT | JL | 0 | 11:00 | 14:30 | 1200.00
+TPA | NRT | DL | 1 (ATL) | 12:30 | 16:00 | 900.00
+TPA | NRT | NH | 1 (LAX) | 13:30 | 17:00 | 1100.00
+TPA | NRT | CX | 1 (HKG) | 14:30 | 18:30 | 1300.00
+TPA | NRT | BR | 1 (TPE) | 15:30 | 19:30 | 1000.00
+TPA | NRT | SQ | 1 (SIN) | 16:30 | 20:30 | 1400.00
+NRT | TPA | AA | 1 (DFW) | 08:00 | 19:30 | 900.00
+NRT | TPA | UA | 2 (SFO, IAH) | 09:30 | 21:45 | 1150.00
+NRT | TPA | JL | 0 | 11:00 | 22:30 | 1300.00
+NRT | TPA | DL | 1 (ATL) | 12:30 | 23:00 | 950.00
+NRT | TPA | NH | 1 (LAX) | 13:30 | 23:30 | 1200.00
+NRT | TPA | CX | 1 (HKG) | 14:30 | 00:30 | 1400.00
+NRT | TPA | BR | 1 (TPE) | 15:30 | 01:30 | 1100.00
+NRT | TPA | SQ | 1 (SIN) | 16:30 | 02:30 | 1500.00
+
+
+Here are the 16 flight plans:
+
+TPA | HND | JAL | 1 (LAX) | 08:00 | 21:30 | 850.00
+TPA | HND | ANA | 0 | 10:00 | 19:30 | 1200.00
+TPA | HND | AA | 2 (DFW, NRT) | 14:00 | 23:30 | 950.00
+TPA | HND | UA | 1 (SFO) | 16:00 | 22:30 | 1000.00
+TPA | HND | DL | 1 (ATL) | 18:00 | 23:59 | 900.00
+TPA | HND | JL | 0 | 20:00 | 20:30 | 1300.00
+TPA | HND | AC | 2 (YYZ, HKG) | 22:00 | 01:30 | 1100.00
+TPA | HND | CX | 1 (HKG) | 00:00 | 03:30 | 1050.00
+
+HND | TPA | JAL | 1 (LAX) | 09:00 | 20:30 | 800.00
+HND | TPA | ANA | 0 | 11:00 | 20:00 | 1100.00
+HND | TPA | AA | 2 (DFW, ORD) | 13:00 | 22:00 | 900.00
+HND | TPA | UA | 1 (SFO) | 15:00 | 21:30 | 950.00
+HND | TPA | DL | 1 (ATL) | 17:00 | 22:59 | 850.00
+HND | TPA | JL | 0 | 19:00 | 19:30 | 1200.00
+HND | TPA | AC | 2 (YYZ, LHR) | 21:00 | 00:30 | 1000.00
+HND | TPA | CX | 1 (HKG) | 23:00 | 02:30 | 1050.00
+
+
+Here are the 16 flight plans:
+
+TPA | YYZ | WestJet | 0 | 08:00 | 11:15 | 350.00
+TPA | YYZ | Air Canada | 1 (BOS) | 09:30 | 14:45 | 420.00
+TPA | YYZ | American Airlines | 0 | 10:45 | 14:00 | 380.00
+TPA | YYZ | Delta Air Lines | 1 (ATL) | 12:15 | 17:30 | 450.00
+TPA | YYZ | United Airlines | 0 | 13:30 | 16:45 | 410.00
+TPA | YYZ | WestJet | 1 (MCO) | 14:50 | 19:05 | 480.00
+TPA | YYZ | Air Canada | 0 | 16:00 | 19:15 | 390.00
+TPA | YYZ | American Airlines | 1 (CLT) | 17:20 | 21:35 | 510.00
+
+YYZ | TPA | WestJet | 0 | 08:30 | 11:45 | 360.00
+YYZ | TPA | Air Canada | 1 (YUL) | 09:50 | 14:05 | 440.00
+YYZ | TPA | American Airlines | 0 | 11:10 | 14:25 | 400.00
+YYZ | TPA | Delta Air Lines | 1 (DTW) | 12:35 | 16:50 | 470.00
+YYZ | TPA | United Airlines | 0 | 13:55 | 17:10 | 430.00
+YYZ | TPA | WestJet | 1 (BUF) | 15:15 | 18:30 | 500.00
+YYZ | TPA | Air Canada | 0 | 16:30 | 19:45 | 420.00
+YYZ | TPA | American Airlines | 1 (PHL) | 17:50 | 21:05 | 540.00
+
+
+Here are the 16 flight plans:
+
+TPA | YVR | AA | 1 (LAX) | 08:00 | 11:30 | 450.00
+TPA | YVR | UA | 2 (DEN, SFO) | 09:15 | 14:45 | 520.00
+TPA | YVR | DL | 0 | 10:30 | 14:00 | 380.00
+TPA | YVR | WN | 1 (PHX) | 11:45 | 16:15 | 420.00
+TPA | YVR | AS | 1 (SEA) | 12:00 | 16:30 | 400.00
+TPA | YVR | B6 | 2 (JFK, LAX) | 13:15 | 18:45 | 550.00
+TPA | YVR | F9 | 1 (DEN) | 14:30 | 19:00 | 480.00
+TPA | YVR | NK | 1 (LAX) | 15:45 | 20:15 | 500.00
+YVR | TPA | AA | 1 (DFW) | 08:00 | 16:30 | 460.00
+YVR | TPA | UA | 2 (SFO, IAH) | 09:15 | 18:45 | 540.00
+YVR | TPA | DL | 0 | 10:30 | 18:00 | 410.00
+YVR | TPA | WN | 1 (LAS) | 11:45 | 20:15 | 440.00
+YVR | TPA | AS | 1 (PDX) | 12:00 | 20:30 | 430.00
+YVR | TPA | B6 | 2 (LAX, JFK) | 13:15 | 22:45 | 570.00
+YVR | TPA | F9 | 1 (DEN) | 14:30 | 22:00 | 490.00
+YVR | TPA | NK | 1 (LAX) | 15:45 | 23:15 | 510.00
+
+
+Here are the 16 flight plans:
+
+TPA | VIE | Austrian Airlines | 1 (FRA) | 08:30 | 18:15 | 850.00
+TPA | VIE | Lufthansa | 1 (MUC) | 10:00 | 19:45 | 920.00
+TPA | VIE | Swiss International | 1 (ZRH) | 12:15 | 21:50 | 990.00
+TPA | VIE | KLM Royal Dutch | 1 (AMS) | 14:30 | 23:05 | 860.00
+TPA | VIE | Turkish Airlines | 1 (IST) | 16:00 | 00:35 | 950.00
+TPA | VIE | British Airways | 1 (LHR) | 18:15 | 02:50 | 980.00
+TPA | VIE | Iberia | 1 (MAD) | 20:30 | 05:05 | 910.00
+TPA | VIE | American Airlines | 1 (PHL) | 22:45 | 07:20 | 930.00
+VIE | TPA | Austrian Airlines | 1 (FRA) | 08:00 | 17:45 | 820.00
+VIE | TPA | Lufthansa | 1 (MUC) | 09:30 | 19:15 | 890.00
+VIE | TPA | Swiss International | 1 (ZRH) | 11:45 | 21:30 | 960.00
+VIE | TPA | KLM Royal Dutch | 1 (AMS) | 14:00 | 22:45 | 830.00
+VIE | TPA | Turkish Airlines | 1 (IST) | 15:30 | 00:05 | 900.00
+VIE | TPA | British Airways | 1 (LHR) | 17:45 | 02:30 | 940.00
+VIE | TPA | Iberia | 1 (MAD) | 20:00 | 04:35 | 870.00
+VIE | TPA | American Airlines | 1 (PHL) | 21:45 | 06:20 | 900.00
+
+
+TPA | ZRH | Swiss | 1 (AMS) | 08:00 | 18:30 | 850.00
+TPA | ZRH | Lufthansa | 2 (FRA, MUC) | 10:30 | 21:15 | 1050.00
+TPA | ZRH | American | 1 (PHL) | 13:45 | 23:50 | 900.00
+TPA | ZRH | Delta | 0 | 16:00 | 06:30 | 1100.00
+TPA | ZRH | United | 1 (EWR) | 18:15 | 08:00 | 950.00
+TPA | ZRH | KLM | 1 (AMS) | 20:30 | 10:15 | 1000.00
+TPA | ZRH | Air Canada | 2 (YYZ, FRA) | 22:00 | 12:45 | 1150.00
+TPA | ZRH | British Airways | 1 (LHR) | 23:50 | 13:30 | 1050.00
+ZRH | TPA | Swiss | 1 (FRA) | 08:30 | 16:15 | 850.00
+ZRH | TPA | Lufthansa | 2 (MUC, AMS) | 10:00 | 19:50 | 1100.00
+ZRH | TPA | American | 1 (PHL) | 12:15 | 21:00 | 900.00
+ZRH | TPA | Delta | 0 | 14:30 | 22:15 | 1150.00
+ZRH | TPA | United | 1 (EWR) | 16:45 | 01:30 | 950.00
+ZRH | TPA | KLM | 1 (AMS) | 19:00 | 05:45 | 1000.00
+ZRH | TPA | Air Canada | 2 (FRA, YYZ) | 21:15 | 09:00 | 1150.00
+ZRH | TPA | British Airways | 1 (LHR) | 23:20 | 11:15 | 1050.00
