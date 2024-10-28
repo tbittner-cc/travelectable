@@ -10,31 +10,72 @@
 
     <div class="w-[300px] ml-[10px] border-l-8 border-r-8 border-slate-300 pt-12 px-2">
         <div class="flex flex-col">
-        {% for i in range(1,11) %}
-        {% if i%7 == 0 %}
-        <div class="my-5"></div>
-        {% endif %}
-        <div class="flex">
-            <div class="w-24 flex justify-between mb-2">
-                <div class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue text-white">
-                    <div class="text-xs text-center pt-1">A</div>
-                    <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
+            {% if first_class %}
+            {% for i in range(1,airplane['seat_configuration'][0][-1]+1) %}
+            <div class="flex">
+                <div class="w-24 flex justify-between mb-4">
+                    {% for j in range(airplane['seat_configuration'][0][0]) %}
+                    <div class="bg-travelnavy w-9 h-9 rounded text-white">
+                        <div class="text-xs text-center pt-1">{{ seat_letters[j+1] }}</div>
+                        <div class="mx-auto mt-1 border-[0.25px] border-white w-7 h-2 rounded"></div>
+                    </div>
+                    {% endfor %}
                 </div>
-                <div class="bg-travelnavy w-7 h-7 rounded"></div>
-                <div class="bg-travelnavy w-7 h-7 rounded"></div>
-            </div>
 
-            <div class="flex-grow text-center">{{ i }}</div>
+                <div class="flex-grow text-center">{{ i }}</div>
 
-            <div class="w-24 flex justify-between">
-                <div class="bg-travelnavy w-7 h-7 rounded"></div>
-                <div class="bg-travelnavy w-7 h-7 rounded"></div>
-                <div class="bg-travelnavy w-7 h-7 rounded"></div>
+                <div class="w-24 flex justify-between">
+                    {% for j in range(airplane['seat_configuration'][0][1]) %}
+                    <div class="bg-travelnavy w-9 h-9 rounded text-white">
+                        <div class="text-xs text-center pt-1">{{ seat_letters[j+1 + airplane['seat_configuration'][0][0]] }}</div>
+                        <div class="mx-auto mt-1 border-[0.25px] border-white w-7 h-2 rounded"></div>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
+            {% endif %}
+
+            <div class="my-5"></div>
+
+            {% for i in range(airplane['seat_configuration'][0][-1] + 1,
+            airplane['seat_configuration'][1][-1] + airplane['seat_configuration'][0][-1] + 1) %}
+            <div class="flex">
+                <div class="w-24 flex justify-between mb-2">
+                    {% for j in range(airplane['seat_configuration'][1][0]) %}
+                    <div class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue text-white">
+                        <div class="text-xs text-center pt-1">{{ seat_letters[j+1] }}</div>
+                        <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="flex-grow text-center">{{ i }}</div>
+
+                {% if airplane['seat_configuration'][1][1] > 0 %}
+                <div class="w-24 flex justify-between">
+                    {% for j in range(airplane['seat_configuration'][1][1]) %}
+                    <div class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue text-white">
+                        <div class="text-xs text-center pt-1">{{ seat_letters[j+1 + airplane['seat_configuration'][1][0]] }}</div>
+                        <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="flex-grow text-center">{{ i }}</div>
+                {% endif %}
+
+                <div class="w-24 flex justify-between">
+                    {% for j in range(airplane['seat_configuration'][1][2]) %}
+                    <div class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue text-white">
+                        <div class="text-xs text-center pt-1">{{ seat_letters[j+1 + airplane['seat_configuration'][1][0] + airplane['seat_configuration'][1][1]] }}</div>
+                        <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
 </div>
-
-{% endblock %}
+    {% endblock %}

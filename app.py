@@ -284,5 +284,13 @@ def flight_amenity_results():
 
 @app.route("/flight-details", methods=["GET", "POST"])
 def flight_details():
-    return render_template("seatmap.html")
+    origin_id = request.form["origin_id"]
+
+    origin_details = flight_utilities.get_flight_details(1, session["dates"][0])
+    airplane = flight_utilities.get_flight_seat_configuration(origin_details["distances"][0])
+
+    first_class = len(airplane['seat_configuration']) > 1
+    seat_letters = {i: chr(64 + i) for i in range(1,27)}
+
+    return render_template("seatmap.html",first_class=first_class, airplane=airplane,seat_letters = seat_letters)
     #return f"""Flight Details: {request.form["origin_id"]}, {request.form["return_id"]}"""
