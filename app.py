@@ -3,6 +3,7 @@ from flask import Flask, make_response, request, redirect, render_template, sess
 import flight_utilities
 import os
 import utilities
+import random
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("TRAVELECTABLE_FLASK_SECRET")
@@ -229,16 +230,22 @@ def complete_booking():
 def origin_flight():
     return _flight(session["origin"], session["destination"], session["dates"][0])
 
-@app.route("/return-flight",methods=["GET", "POST"])
+
+@app.route("/return-flight", methods=["GET", "POST"])
 def return_flight():
     return _flight(session["destination"], session["origin"], session["dates"][1])
 
+
 def _flight(start_location, end_location, flight_date):
-    flights = flight_utilities.get_all_flight_search_results(start_location, end_location, flight_date)
+    flights = flight_utilities.get_all_flight_search_results(
+        start_location, end_location, flight_date
+    )
     flight_filters = flight_utilities.generate_filters(flights)
 
     if request.form.get("flight_id"):
-        origin_flight = flight_utilities.get_flight_details(request.form.get("flight_id"),flight_date)
+        origin_flight = flight_utilities.get_flight_details(
+            request.form.get("flight_id"), flight_date
+        )
     else:
         origin_flight = None
 
@@ -250,7 +257,7 @@ def _flight(start_location, end_location, flight_date):
         end_date=session["dates"][1],
         flight_combos=flights,
         flight_filters=flight_filters,
-        origin_flight = origin_flight,
+        origin_flight=origin_flight,
     )
 
 
@@ -260,14 +267,18 @@ def flight_amenity_results():
         start_location = session["destination"]
         end_location = session["origin"]
         flight_date = session["dates"][1]
-        origin_flight = flight_utilities.get_flight_details(request.form.get("flight_id"),session["dates"][0])
+        origin_flight = flight_utilities.get_flight_details(
+            request.form.get("flight_id"), session["dates"][0]
+        )
     else:
         start_location = session["origin"]
         end_location = session["destination"]
         flight_date = session["dates"][0]
         origin_flight = None
 
-    flights = flight_utilities.get_all_flight_search_results(start_location, end_location, flight_date)
+    flights = flight_utilities.get_all_flight_search_results(
+        start_location, end_location, flight_date
+    )
 
     flight_filters = request.form
     modified_flights = flight_utilities.filter_flights(flight_filters, flights)
@@ -279,18 +290,36 @@ def flight_amenity_results():
         start_date=session["dates"][0],
         end_date=session["dates"][1],
         flight_combos=modified_flights,
-        origin_flight = origin_flight,
+        origin_flight=origin_flight,
     )
+
 
 @app.route("/flight-details", methods=["GET", "POST"])
 def flight_details():
     origin_id = request.form["origin_id"]
 
     origin_details = flight_utilities.get_flight_details(1, session["dates"][0])
-    airplane = flight_utilities.get_flight_seat_configuration(origin_details["distances"][0])
+    airplane = flight_utilities.get_flight_seat_configuration(
+        origin_details["distances"][0]
+    )
 
-    first_class = len(airplane['seat_configuration']) > 1
-    seat_letters = {i: chr(64 + i) for i in range(1,27)}
+    first_class = len(airplane["seat_configuration"]) > 1
+    seat_letters = {i: chr(64 + i) for i in range(1, 27)}
 
-    return render_template("seatmap.html",first_class=first_class, airplane=airplane,seat_letters = seat_letters)
-    #return f"""Flight Details: {request.form["origin_id"]}, {request.form["return_id"]}"""
+    unavailable_seat_pct = random.randint(20, 80)
+
+    # First class seats are always unavailable in our simulation.
+
+    # seat_range = list(range((airplane['seat_configuration'][1][0] + 
+    #     airplane['seat_configuration'][1][1] + airplane['seat_configuration'][1][2])* airplane['seat_configuration'][-1][3]))
+    #unavailable_seats = sorted(random.sample(seat_range,int(len(seat_range)*unavailable_seat_pct/100)))
+    unavailable_seats = [x + 9 for x in [2, 3, 4, 10, 15, 18, 22]]
+    print(unavailable_seats)
+
+    return render_template(
+        "seatmap.html",
+        first_class=first_class,
+        airplane=airplane,
+        seat_letters=seat_letters,
+        unavailable_seats=unavailable_seats,
+    )

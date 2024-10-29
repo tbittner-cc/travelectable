@@ -218,9 +218,7 @@ def filter_flights(flight_filters, flight_search_results):
         layover_results, flight_filters, "departure"
     )
 
-    arrival_results = _time_flight_filter(
-        departure_results, flight_filters, "arrival"
-    )
+    arrival_results = _time_flight_filter(departure_results, flight_filters, "arrival")
 
     return arrival_results
 
@@ -229,7 +227,7 @@ def get_flight_details(flight_id, flight_date):
     with sqlite3.connect("travelectable.db") as conn:
         curr = conn.cursor()
         curr.execute(
-            """SELECT id,origin,destination,airline,departure_time,arrival_time, price
+            """SELECT id,origin,destination,airline,departure_time,arrival_time,price,num_stops,layover_airports,distances
             FROM flight_schedules WHERE id = ?""",
             (flight_id,),
         )
@@ -246,4 +244,35 @@ def get_flight_details(flight_id, flight_date):
             flight_details["arrival_time"], "%H:%M"
         )
 
+        flight_details["distances"] = [
+            int(x) for x in flight_details["distances"].strip("(").strip(")").split(",")
+        ]
+
     return flight_details
+
+
+def get_flight_seat_configuration(distance):
+    with sqlite3.connect("travelectable.db") as conn:
+        curr = conn.cursor()
+        curr.execute(
+            """SELECT * FROM airplanes""",
+        )
+        rows = curr.fetchall()
+
+        columns = [column[0] for column in curr.description]
+        airplanes = [dict(zip(columns, row)) for row in rows]
+
+        airplanes = sorted(airplanes, key=lambda airplane: airplane["range"])
+        airplanes = [
+            airplane for airplane in airplanes if airplane["range"] >= distance
+        ]
+
+        seats = {'first_class': [], 'economy_class': []}
+        for airplane in airplanes:
+            seat_configuration = [
+                tuple(map(int, x.split("-")))
+                for x in airplane["seat_configuration"].strip("(").strip(")").split(",")
+            ]
+
+            airplane["seat_configuration"] = [(2,2,2),(3,0,3,4)]
+    return airplanes[0]

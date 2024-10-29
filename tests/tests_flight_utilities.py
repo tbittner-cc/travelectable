@@ -172,5 +172,43 @@ class TestGetFlightDetails(unittest.TestCase):
                 "arrival_time": datetime(1900, 1, 1, 11, 30),
                 "departure_time": datetime(1900, 1, 1, 8, 0),
                 "price": "425.00",
+                "num_stops": 0,
+                "layover_airports": "",
+                "distances": [2469]
             },
         )
+
+        result = flight_utilities.get_flight_details(2, datetime(2024, 10, 10))
+
+        self.assertEqual(
+            result,
+            {
+                "id": 2,
+                "origin": "JFK",
+                "destination": "LAX",
+                "airline": "Skypath Airways",
+                "arrival_time": datetime(1900, 1, 1, 13, 45),
+                "departure_time": datetime(1900, 1, 1, 9, 15),
+                "price": "475.00",
+                "num_stops": 1,
+                "layover_airports": "(SFO)",
+                "distances": [2579,337]
+            },
+        )
+
+class TestGetFlightSeatConfiguration(unittest.TestCase):
+    def test_get_flight_seat_configuration(self):
+        result = flight_utilities.get_flight_seat_configuration(2469)
+        self.assertEqual(result['name'], 'Aurora A100 Narrow-Body Jet')
+        self.assertEqual(result['range'], 2500)
+        self.assertEqual(result['seat_configuration'], [(2,2,4),(2,2,26)])
+
+        result = flight_utilities.get_flight_seat_configuration(337)
+        self.assertEqual(result['name'], 'Pinnacle P50 Turboprop')
+        self.assertEqual(result['range'], 1000)
+        self.assertEqual(result['seat_configuration'], [(2,2,12)])
+
+        result = flight_utilities.get_flight_seat_configuration(2579)
+        self.assertEqual(result['name'], 'Clarion C200 Narrow-Body Jet')
+        self.assertEqual(result['range'], 3000)
+        self.assertEqual(result['seat_configuration'], [(2,2,8),(2,2,32)])
