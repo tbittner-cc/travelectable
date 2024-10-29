@@ -250,6 +250,26 @@ def get_flight_details(flight_id, flight_date):
 
     return flight_details
 
+def _get_seats_for_flight_class(flight_class,row_offset = 0):
+    seat_letters = {i: chr(64 + i) for i in range(1, 27)}
+    seat_list = []
+    for i in range(1, flight_class[-1] + 1):
+        aisle_offset = 0
+        aisle_list = []
+        for j in flight_class[:-1]:
+            sub_aisle_list = []
+            if j == 0:
+                continue
+            for k in range(aisle_offset + 1, aisle_offset + j + 1):
+                sub_aisle_list.append(f"{i+row_offset}{seat_letters[k]}")
+            aisle_offset += j
+            aisle_list.append(sub_aisle_list)
+            aisle_list.append([])
+        seat_list.append(aisle_list[:-1])
+
+    return seat_list
+
+    
 
 def get_flight_seat_configuration(distance):
     with sqlite3.connect("travelectable.db") as conn:
@@ -262,17 +282,27 @@ def get_flight_seat_configuration(distance):
         columns = [column[0] for column in curr.description]
         airplanes = [dict(zip(columns, row)) for row in rows]
 
-        airplanes = sorted(airplanes, key=lambda airplane: airplane["range"])
-        airplanes = [
-            airplane for airplane in airplanes if airplane["range"] >= distance
-        ]
+    airplanes = sorted(airplanes, key=lambda airplane: airplane["range"])
+    eligible_airplanes = [
+        airplane for airplane in airplanes if airplane["range"] >= distance
+    ]
 
-        seats = {'first_class': [], 'economy_class': []}
-        for airplane in airplanes:
-            seat_configuration = [
-                tuple(map(int, x.split("-")))
-                for x in airplane["seat_configuration"].strip("(").strip(")").split(",")
-            ]
+    if not eligible_airplanes:
+        airplane = airplanes[-1]
+    else:
+        airplane = eligible_airplanes[0]
 
-            airplane["seat_configuration"] = [(2,2,2),(3,0,3,4)]
-    return airplanes[0]
+    all_seats = {'first_class': [], 'economy_class': []}
+
+    raw_configuration = [
+        tuple(map(int, x.split("-")))
+        for x in airplane["seat_configuration"].strip("(").strip(")").split(",")
+    ]
+
+    if len(raw_configuration) > 1:
+        all_seats['first_class'] = _get_seats_for_flight_class(raw_configuration[0])
+
+    all_seats['economy_class'] = _get_seats_for_flight_class(raw_configuration[-1],len(all_seats['first_class']))
+    airplane['seat_configuration'] = all_seats
+
+    return airplane

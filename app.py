@@ -1,6 +1,7 @@
 from datetime import datetime
 from flask import Flask, make_response, request, redirect, render_template, session
 import flight_utilities
+import itertools
 import os
 import utilities
 import random
@@ -303,23 +304,22 @@ def flight_details():
         origin_details["distances"][0]
     )
 
-    first_class = len(airplane["seat_configuration"]) > 1
-    seat_letters = {i: chr(64 + i) for i in range(1, 27)}
-
     unavailable_seat_pct = random.randint(20, 80)
 
-    # First class seats are always unavailable in our simulation.
+    # First class seats are always unavailable in our simulation, so they
+    # aren't eligible to be randomized for availability
+    economy_seats = airplane['seat_configuration']['economy_class']
+    print(economy_seats)
 
-    # seat_range = list(range((airplane['seat_configuration'][1][0] + 
-    #     airplane['seat_configuration'][1][1] + airplane['seat_configuration'][1][2])* airplane['seat_configuration'][-1][3]))
-    #unavailable_seats = sorted(random.sample(seat_range,int(len(seat_range)*unavailable_seat_pct/100)))
-    unavailable_seats = [x + 9 for x in [2, 3, 4, 10, 15, 18, 22]]
-    print(unavailable_seats)
+    # The nesting for the seats is two deep, hence the double call to itertools.chain
+    merged_list = list(itertools.chain(*economy_seats))
+    random_eligible_seats = list(itertools.chain(*merged_list))
+    
+    unavailable_seats = sorted(random.sample(random_eligible_seats,int(len(random_eligible_seats)*unavailable_seat_pct/100)))
+    #print(unavailable_seats)
 
     return render_template(
         "seatmap.html",
-        first_class=first_class,
         airplane=airplane,
-        seat_letters=seat_letters,
         unavailable_seats=unavailable_seats,
     )

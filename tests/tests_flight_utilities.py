@@ -132,30 +132,30 @@ class TestFilterFlights(unittest.TestCase):
         result = flight_utilities.filter_flights(flight_filters, flight_results)
         self.assertEqual(len(result), 3)
 
-        flight_filters = {'morning-departure': 'on'}
+        flight_filters = {"morning-departure": "on"}
 
         result = flight_utilities.filter_flights(flight_filters, flight_results)
-        self.assertEqual(len(result),21)
+        self.assertEqual(len(result), 21)
 
-        flight_filters = {'afternoon-departure': 'on'}
-
-        result = flight_utilities.filter_flights(flight_filters, flight_results)
-        self.assertEqual(len(result),20)
-
-        flight_filters = {'evening-departure': 'on'}
+        flight_filters = {"afternoon-departure": "on"}
 
         result = flight_utilities.filter_flights(flight_filters, flight_results)
-        self.assertEqual(len(result),7)
+        self.assertEqual(len(result), 20)
 
-        flight_filters = {'afternoon-departure': 'on','airport-BWI': 'on'}
-
-        result = flight_utilities.filter_flights(flight_filters, flight_results)
-        self.assertEqual(len(result),3)
-
-        flight_filters = {'morning-departure': 'on','afternoon-arrival': 'on'}
+        flight_filters = {"evening-departure": "on"}
 
         result = flight_utilities.filter_flights(flight_filters, flight_results)
-        self.assertEqual(len(result),7)
+        self.assertEqual(len(result), 7)
+
+        flight_filters = {"afternoon-departure": "on", "airport-BWI": "on"}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result), 3)
+
+        flight_filters = {"morning-departure": "on", "afternoon-arrival": "on"}
+
+        result = flight_utilities.filter_flights(flight_filters, flight_results)
+        self.assertEqual(len(result), 7)
 
 
 class TestGetFlightDetails(unittest.TestCase):
@@ -174,7 +174,7 @@ class TestGetFlightDetails(unittest.TestCase):
                 "price": "425.00",
                 "num_stops": 0,
                 "layover_airports": "",
-                "distances": [2469]
+                "distances": [2469],
             },
         )
 
@@ -192,23 +192,57 @@ class TestGetFlightDetails(unittest.TestCase):
                 "price": "475.00",
                 "num_stops": 1,
                 "layover_airports": "(SFO)",
-                "distances": [2579,337]
+                "distances": [2579, 337],
             },
         )
+
 
 class TestGetFlightSeatConfiguration(unittest.TestCase):
     def test_get_flight_seat_configuration(self):
         result = flight_utilities.get_flight_seat_configuration(2469)
-        self.assertEqual(result['name'], 'Aurora A100 Narrow-Body Jet')
-        self.assertEqual(result['range'], 2500)
-        self.assertEqual(result['seat_configuration'], [(2,2,4),(2,2,26)])
+        self.assertEqual(result["name"], "Aurora A100 Narrow-Body Jet")
+        self.assertEqual(result["range"], 2500)
+        first_class = result["seat_configuration"]["first_class"]
+        self.assertEqual(len(first_class), 4)
+        self.assertEqual(
+            first_class[0],
+            [
+                ["1A","1B"],
+                [],
+                ["1C", "1D"],
+            ],
+        )
+        economy_class = result["seat_configuration"]["economy_class"]
+        self.assertEqual(len(economy_class), 17)
+        self.assertEqual(
+            economy_class[-1], [["21A", "21B", "21C"], [], ["21D", "21E", "21F"]]
+        )
 
         result = flight_utilities.get_flight_seat_configuration(337)
-        self.assertEqual(result['name'], 'Pinnacle P50 Turboprop')
-        self.assertEqual(result['range'], 1000)
-        self.assertEqual(result['seat_configuration'], [(2,2,12)])
+        self.assertEqual(result["name"], "Pinnacle P50 Turboprop")
+        self.assertEqual(result["range"], 1000)
+        self.assertEqual(result["seat_configuration"]["first_class"], [])
+        economy_class = result["seat_configuration"]["economy_class"]
+        self.assertEqual(len(economy_class), 12)
+        self.assertEqual(economy_class[-1], [["12A", "12B"], [], ["12C", "12D"]])
 
-        result = flight_utilities.get_flight_seat_configuration(2579)
-        self.assertEqual(result['name'], 'Clarion C200 Narrow-Body Jet')
-        self.assertEqual(result['range'], 3000)
-        self.assertEqual(result['seat_configuration'], [(2,2,8),(2,2,32)])
+        result = flight_utilities.get_flight_seat_configuration(8499)
+        self.assertEqual(result["name"], "Aurora A980 Jumbo Jet")
+        self.assertEqual(result["range"], 8500)
+        first_class = result["seat_configuration"]["first_class"]
+        self.assertEqual(len(first_class), 10)
+        economy_class = result["seat_configuration"]["economy_class"]
+        self.assertEqual(len(economy_class), 40)
+        self.assertEqual(
+            economy_class[20],
+            [
+                ["31A", "31B", "31C"],
+                [],
+                ["31D", "31E", "31F", "31G", "31H", "31I"],
+                [],
+                ["31J", "31K", "31L"],
+            ],
+        )
+        
+        result = flight_utilities.get_flight_seat_configuration(8501)
+        self.assertEqual(result["name"], "Aurora A980 Jumbo Jet")

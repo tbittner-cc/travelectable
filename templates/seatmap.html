@@ -10,92 +10,53 @@
 
     <div class="w-[300px] ml-[10px] border-l-8 border-r-8 border-slate-300 pt-12 px-2">
         <div class="flex flex-col">
-            {% if first_class %}
-            {% for i in range(1,airplane['seat_configuration'][0][-1]+1) %}
+            {% set first_class_row_length = airplane['seat_configuration']['first_class'] | length %}
+            {% for row in airplane['seat_configuration']['first_class'] %}
+            {% set row_loop = loop %}
             <div class="flex">
+                {% for aisle in row %}
+                {% if aisle | length > 0 %}
                 <div class="w-24 flex justify-between mb-4">
-                    {% for j in range(airplane['seat_configuration'][0][0]) %}
+                    {% for j in aisle %}
                     <div class="bg-slate-400 w-9 h-9 rounded text-white">
-                        <div class="text-xs text-center pt-1">{{ seat_letters[j+1] }}</div>
+                        <div class="text-xs text-center pt-1">{{ j }}</div>
                         <div class="mx-auto mt-1 border-[0.25px] border-white w-7 h-2 rounded"></div>
                     </div>
                     {% endfor %}
                 </div>
-
-                <div class="flex-grow text-center">{{ i }}</div>
-
-                <div class="w-24 flex justify-between">
-                    {% for j in range(airplane['seat_configuration'][0][1]) %}
-                    <div class="bg-slate-400 w-9 h-9 rounded text-white">
-                        <div class="text-xs text-center pt-1">{{ seat_letters[j+1 +
-                            airplane['seat_configuration'][0][0]] }}</div>
-                        <div class="mx-auto mt-1 border-[0.25px] border-white w-7 h-2 rounded"></div>
-                    </div>
-                    {% endfor %}
-                </div>
+                {% else %}
+                <div class="flex-grow text-center">{{ row_loop.index }}</div>
+                {% endif %}
+                {% endfor %}
             </div>
             {% endfor %}
-            {% endif %}
 
             <div class="my-5"></div>
-
-            {% for i in range(airplane['seat_configuration'][0][-1] + 1,
-            airplane['seat_configuration'][-1][-1] + airplane['seat_configuration'][0][-1] + 1) %}
-            <div class="flex">
-                <div class="w-24 flex justify-between mb-2">
-                    {% for j in range(airplane['seat_configuration'][1][0]) %}
-                    {% if (airplane['seat_configuration'][0][0] + airplane['seat_configuration'][0][1]) *airplane['seat_configuration'][0][2] + 1 + j + (i-airplane['seat_configuration'][0][-1]-1)*(airplane['seat_configuration'][1][0] + airplane['seat_configuration'][1][2]) in unavailable_seats %}
+            
+            {% for row in airplane['seat_configuration']['economy_class'] %}
+            {% set row_loop = loop %}
+            <div class ="flex">
+                {% for aisle in row %}
+                {% if aisle | length > 0 %}
+                <div class="w-24 flex justify-between mb-4">
+                    {% for j in aisle %}
+                    {% if j in unavailable_seats %}
                     <div class="w-7 h-7 rounded bg-slate-400 text-white">
-                        {% else %}
-                        <div class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue hover:cursor-pointer text-white">
-                            {% endif %}
-                            <div class="text-xs text-center pt-1">
-                                {{ (airplane['seat_configuration'][0][0] + airplane['seat_configuration'][0][1]) *airplane['seat_configuration'][0][2] + 1 + j + (i-airplane['seat_configuration'][0][-1]-1)*(airplane['seat_configuration'][1][0] + airplane['seat_configuration'][1][2]) }}
-                            </div>
-                            <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
-                        </div>
-                        {% endfor %}
+                    {% else %}
+                    <div class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue hover:cursor-pointer text-white">
+                    {% endif %}
+                        <div class="text-xs text-center pt-1">{{ j }}</div>
+                        <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
                     </div>
-
-                    <div class="flex-grow text-center">{{ i }}</div>
-
-                    {% if airplane['seat_configuration'][1][1] > 0 %}
-                    <div class="w-24 flex justify-between">
-                        {% for j in range(airplane['seat_configuration'][-1][1]) %}
-                        {% if i*airplane['seat_configuration'][-1][-1]+j+airplane['seat_configuration'][-1][0] in
-                        unavailable_seats %}
-                        <div class="w-7 h-7 rounded bg-slate-400 text-white">
-                            {% else %}
-                            <div
-                                class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue hover:cursor-pointer text-white">
-                                {% endif %}
-                                <div class="text-xs text-center pt-1">{{ seat_letters[j+1 +
-                                    airplane['seat_configuration'][-1][0]] }}</div>
-                                <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
-                            </div>
-                            {% endfor %}
-                        </div>
-
-                        <div class="flex-grow text-center">{{ i }}</div>
-                        {% endif %}
-
-                        <div class="w-24 flex justify-between">
-                            {% for j in range(airplane['seat_configuration'][-1][2]) %}
-                            {% if (airplane['seat_configuration'][0][0] + airplane['seat_configuration'][0][1]) *airplane['seat_configuration'][0][2] + 1 + j + airplane['seat_configuration'][1][0] + airplane['seat_configuration'][1][1] + (i-airplane['seat_configuration'][0][-1]-1)*(airplane['seat_configuration'][1][0] + airplane['seat_configuration'][1][2]) in
-                            unavailable_seats %}
-                            <div class="w-7 h-7 rounded bg-slate-400 text-white">
-                                {% else %}
-                                <div
-                                    class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue hover:cursor-pointer text-white">
-                                    {% endif %}
-                                    <div class="text-xs text-center pt-1">{{ (airplane['seat_configuration'][0][0] + airplane['seat_configuration'][0][1]) *airplane['seat_configuration'][0][2] + 1 + j + airplane['seat_configuration'][1][0] + airplane['seat_configuration'][1][1] + (i-airplane['seat_configuration'][0][-1]-1)*(airplane['seat_configuration'][1][0] + airplane['seat_configuration'][1][2]) }}</div>
-                                    <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
-                                </div>
-                                {% endfor %}
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
+                    {% endfor %} 
                 </div>
+                {% else %}
+                <div class="flex-grow text-center">{{  first_class_row_length + row_loop.index }}</div>
+                {% endif %}
+                {% endfor %}
             </div>
-            {% endblock %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
