@@ -65,3 +65,7 @@ The total number of tokens will be somewhere around 3M.
 
 [A less restrictive airport distance API](https://airportgap.com/docs)
 
+[A download of airports and their locations](https://openflights.org/data.php)
+
+[Using this as the seat map guide.](https://www.seatguru.com/airlines/United_Airlines/United_Airlines_Boeing_777-200_6.php)
+
