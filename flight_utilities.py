@@ -288,6 +288,7 @@ def get_flight_seat_configuration(distance):
     ]
 
     if not eligible_airplanes:
+        # Get the one with the longest range
         airplane = airplanes[-1]
     else:
         airplane = eligible_airplanes[0]

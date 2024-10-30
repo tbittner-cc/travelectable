@@ -3,13 +3,28 @@
 {% block content %}
 
 <div class="mx-auto my-4 w-max border-8 border-travelnavy rounded-lg">
+    <h1 class="text-2xl font-bold mt-4 text-center">Select Your Seats</h1>
+    <div class="flex text-sm justify-center">
+        <div>{{ airplane['manufacturer'] }}</div>
+        <div>{{ airplane['name'] }}</div>
+    </div>
 
     <svg class="w-80 h-[275px]">
         <path d="M10,275 Q155,-250 310,275" class="stroke-slate-300 fill-slate-300" />
     </svg>
 
-    <div class="w-[300px] ml-[10px] border-l-8 border-r-8 border-slate-300 pt-12 px-2">
+    <div class="w-[300px] ml-[10px] border-l-8 border-r-8 border-slate-300 pt-4 px-2">
         <div class="flex flex-col">
+            <div class="flex justify-between">
+                <div>
+                    <div class="text-red-500 text-center">Exit</div>
+                    <i class="text-3xl bi bi-box-arrow-left text-red-500"></i>
+                </div>
+                <div>
+                    <div class="text-red-500 text-center">Exit</div>
+                    <i class="text-3xl bi bi-box-arrow-right text-red-500"></i>
+                </div>
+            </div>
             {% set first_class_row_length = airplane['seat_configuration']['first_class'] | length %}
             {% for row in airplane['seat_configuration']['first_class'] %}
             {% set row_loop = loop %}
@@ -31,32 +46,53 @@
             </div>
             {% endfor %}
 
-            <div class="my-5"></div>
-            
+            {% if airplane['seat_configuration']['first_class'] | length > 0 %}
+            <div class="flex mb-4">
+                <div class="border-2 border-slate-300 w-24"></div>
+                <div class="flex-grow"></div>
+                <div class="border-2 border-slate-300 w-24"></div>
+            </div>
+            {% endif %}
+
             {% for row in airplane['seat_configuration']['economy_class'] %}
             {% set row_loop = loop %}
-            <div class ="flex">
+            <div class="flex">
                 {% for aisle in row %}
                 {% if aisle | length > 0 %}
                 <div class="w-24 flex justify-between mb-4">
                     {% for j in aisle %}
                     {% if j in unavailable_seats %}
                     <div class="w-7 h-7 rounded bg-slate-400 text-white">
-                    {% else %}
-                    <div class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue hover:cursor-pointer text-white">
-                    {% endif %}
-                        <div class="text-xs text-center pt-1">{{ j }}</div>
-                        <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
+                        {% else %}
+                        <div name={{ j }}
+                            class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue hover:cursor-pointer text-white">
+                            {% endif %}
+                            <div class="text-xs text-center pt-1">{{ j }}</div>
+                            <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
+                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %} 
+                    {% else %}
+                    <div class="flex-grow text-center">{{ first_class_row_length + row_loop.index }}</div>
+                    {% endif %}
+                    {% endfor %}
                 </div>
-                {% else %}
-                <div class="flex-grow text-center">{{  first_class_row_length + row_loop.index }}</div>
-                {% endif %}
                 {% endfor %}
             </div>
-            {% endfor %}
-        </div>
+            <div class="flex justify-between">
+                <div>
+                    <div class="text-red-500 text-center">Exit</div>
+                    <i class="text-3xl bi bi-box-arrow-left text-red-500"></i>
+                </div>
+                <div>
+                    <div class="text-red-500 text-center">Exit</div>
+                    <i class="text-3xl bi bi-box-arrow-right text-red-500"></i>
+                </div>
+            </div>            
+        </div>        
+
+        <svg class="w-80 h-[150px]">
+            <path d="M10,0 Q155,250 310,0" class="stroke-slate-300 fill-slate-300" />
+        </svg>
     </div>
-</div>
-{% endblock %}
+    {% endblock %}
