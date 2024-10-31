@@ -297,15 +297,19 @@ def get_flight_seat_configuration(distance):
 
     all_seats = {'first_class': [], 'economy_class': []}
 
-    raw_configuration = [
+    raw_seat_configuration = [
         tuple(map(int, x.split("-")))
         for x in airplane["seat_configuration"].strip("(").strip(")").split(",")
     ]
 
-    if len(raw_configuration) > 1:
-        all_seats['first_class'] = _get_seats_for_flight_class(raw_configuration[0])
+    if len(raw_seat_configuration) > 1:
+        all_seats['first_class'] = _get_seats_for_flight_class(raw_seat_configuration[0])
 
-    all_seats['economy_class'] = _get_seats_for_flight_class(raw_configuration[-1],len(all_seats['first_class']))
+    all_seats['economy_class'] = _get_seats_for_flight_class(raw_seat_configuration[-1],len(all_seats['first_class']))
     airplane['seat_configuration'] = all_seats
+
+    exit_configuration = [int(x) for x in airplane["exit_rows"].strip("(").strip(")").split(",")]
+    print("Exit Configuration: ",exit_configuration)
+    airplane["exit_rows"] = exit_configuration
 
     return airplane
