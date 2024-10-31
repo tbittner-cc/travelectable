@@ -1,6 +1,7 @@
 import base64
 from datetime import datetime, timedelta
 import pytz
+import random
 import sqlite3
 
 
@@ -287,11 +288,12 @@ def get_flight_seat_configuration(distance):
         airplane for airplane in airplanes if airplane["range"] >= distance
     ]
 
+    # Choose randomly from eligible planes with the same distance capability 
     if not eligible_airplanes:
         # Get the one with the longest range
-        airplane = airplanes[-1]
+        airplane = random.choice([airplanes[-1], airplanes[-2]])
     else:
-        airplane = eligible_airplanes[0]
+        airplane = random.choice([eligible_airplanes[0], eligible_airplanes[1]])
 
     all_seats = {'first_class': [], 'economy_class': []}
 

@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<div class="mx-auto my-4 w-max border-8 border-travelnavy rounded-lg">
+<div class="mx-auto my-4 w-max md:border-8 border-travelnavy rounded-lg">
     <h1 class="text-2xl font-bold mt-4 text-center">Select Your Seats</h1>
     <div class="mx-8 font-bold mt-4">Legend</div>
     <div class="flex flex-col mx-8 mt-2">
@@ -24,11 +24,19 @@
         <div>{{ airplane['name'] }}</div>
     </div>
 
-    <svg class="w-80 h-[275px]">
-        <path d="M10,275 Q155,-250 310,275" class="stroke-slate-300 fill-slate-300" />
-    </svg>
 
+    {% if airplane['wide_body'] %}
+    <svg class="w-[370px] h-[275px]">
+        <path d="M10,275 Q175,-250 360,275" class="stroke-slate-300 fill-slate-300" />
+    </svg>
+    <div class="w-[350px] ml-[10px] border-l-8 border-r-8 border-slate-300 pt-4 px-2">
+
+    {% else %}
+    <svg class="w-[320px] h-[275px]">
+        <path d="M10,275 Q155,-250 310,275" class="stroke-slate-300 fill-slate-300" />
+    </svg>    
     <div class="w-[300px] ml-[10px] border-l-8 border-r-8 border-slate-300 pt-4 px-2">
+    {% endif %}
         <div class="flex flex-col">
             <div class="flex justify-between">
                 <div>
@@ -42,7 +50,6 @@
             </div>
             {% set first_class_row_length = airplane['seat_configuration']['first_class'] | length %}
             {% for row in airplane['seat_configuration']['first_class'] %}
-            {% set row_loop = loop %}
             <div class="flex">
                 {% for aisle in row %}
                 {% if aisle | length > 0 %}
@@ -55,7 +62,7 @@
                     {% endfor %}
                 </div>
                 {% else %}
-                <div class="flex-grow text-center">{{ row_loop.index }}</div>
+                <div class="flex-grow text-center"></div>
                 {% endif %}
                 {% endfor %}
             </div>
@@ -65,12 +72,15 @@
             <div class="flex mb-4">
                 <div class="border-2 border-slate-300 w-24"></div>
                 <div class="flex-grow"></div>
+                {% if airplane['wide_body'] %}
+                <div class="border-2 border-slate-300 w-24"></div>
+                <div class="flex-grow"></div>
+                {% endif %}
                 <div class="border-2 border-slate-300 w-24"></div>
             </div>
             {% endif %}
 
             {% for row in airplane['seat_configuration']['economy_class'] %}
-            {% set row_loop = loop %}
             <div class="flex">
                 {% for aisle in row %}
                 {% if aisle | length > 0 %}
@@ -88,7 +98,7 @@
                         {% endfor %}
                     </div>
                     {% else %}
-                    <div class="flex-grow text-center">{{ first_class_row_length + row_loop.index }}</div>
+                    <div class="flex-grow text-center text-xs"></div>
                     {% endif %}
                     {% endfor %}
                 </div>
@@ -105,9 +115,14 @@
                 </div>
             </div>            
         </div>        
-
-        <svg class="w-80 h-[150px]">
+        {% if airplane['wide_body'] %}
+        <svg class="w-[370px] h-[150px]">
+            <path d="M10,0 Q175,250 360,0" class="stroke-slate-300 fill-slate-300" />
+        </svg>
+        {% else %}
+        <svg class="w-[320px] h-[150px]">
             <path d="M10,0 Q155,250 310,0" class="stroke-slate-300 fill-slate-300" />
         </svg>
+        {% endif %}
     </div>
     {% endblock %}

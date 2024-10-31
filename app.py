@@ -298,8 +298,9 @@ def flight_amenity_results():
 @app.route("/flight-details", methods=["GET", "POST"])
 def flight_details():
     origin_id = request.form["origin_id"]
+    return_id = request.form["return_id"]
 
-    origin_details = flight_utilities.get_flight_details(1, session["dates"][0])
+    origin_details = flight_utilities.get_flight_details(origin_id, session["dates"][0])
     airplane = flight_utilities.get_flight_seat_configuration(
         origin_details["distances"][0]
     )
@@ -309,14 +310,12 @@ def flight_details():
     # First class seats are always unavailable in our simulation, so they
     # aren't eligible to be randomized for availability
     economy_seats = airplane['seat_configuration']['economy_class']
-    print(economy_seats)
 
     # The nesting for the seats is two deep, hence the double call to itertools.chain
     merged_list = list(itertools.chain(*economy_seats))
     random_eligible_seats = list(itertools.chain(*merged_list))
     
     unavailable_seats = sorted(random.sample(random_eligible_seats,int(len(random_eligible_seats)*unavailable_seat_pct/100)))
-    #print(unavailable_seats)
 
     return render_template(
         "seatmap.html",
