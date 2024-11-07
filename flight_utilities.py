@@ -309,7 +309,6 @@ def get_flight_seat_configuration(distance):
     airplane['seat_configuration'] = all_seats
 
     exit_configuration = [int(x) for x in airplane["exit_rows"].strip("(").strip(")").split(",") if x != ""]
-    print("Exit Configuration: ",exit_configuration)
     airplane["exit_rows"] = exit_configuration
 
     return airplane
