@@ -344,7 +344,7 @@ def flight_details():
         return_flight=return_flight,
         airplane=airplane,
         unavailable_seats=unavailable_seats,
-        flight_pair=flight_pair,
+        flight_pairs=flight_pairs,
         flight_leg=flight_leg,
         trip=trip,
     )
