@@ -19,7 +19,37 @@
             <div class="ml-1 text-sm">Unavailable</div>
         </div>
     </div>
-    <div class="flex text-sm justify-center mt-4">
+    <div class="flex text-sm mt-4 justify-center">
+        <div class="mr-1">
+        {% if trip == 0 %}
+        {{ session["origin"][1] }} ({{ origin_flight['origin'] }})
+        {% else %}
+        {{ session["destination"][1] }} ({{ return_flight['origin'] }})
+        {% endif %}
+        </div>
+        <div class="mr-1">to</div>
+        <div>
+        {% if trip == 0 %}
+        {{session["destination"][1] }} ({{ origin_flight['destination'] }}) 
+        {% else %}
+        {{session["origin"][1] }} ({{ return_flight['destination'] }})
+        {% endif %}
+        </div>
+    </div>
+    <div class="flex text-sm justify-center mt-2 font-bold">
+        {% if flight_leg != 0 and trip != 0 %}
+        <div class="mr-2 text-travelblue"><<</div>
+        {% endif %}
+        <div class="mr-1">Flight {{ flight_leg + 1 }} of 
+        {% if trip == 0 %}
+        {{ origin_flight['flight_pairs'] | length -1 }}
+        {% else %}
+        {{ return_flight['flight_pairs'] | length -1 }}
+        {% endif %}: </div>
+        <div>{{ flight_pair[0] }} - {{ flight_pair[1] }}</div>
+        <div class="ml-2 text-travelblue"><a href="{{ url_for('flight_details')}}">>></a></div>
+    </div>
+    <div class="flex text-sm justify-center mt-2">
         <div class="mr-1">{{ airplane['manufacturer'] }}</div>
         <div>{{ airplane['name'] }}</div>
     </div>

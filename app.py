@@ -229,11 +229,14 @@ def complete_booking():
 
 @app.route("/origin-flight")
 def origin_flight():
+    session['origin_id'] = None
+    session['return_id'] = None
     return _flight(session["origin"], session["destination"], session["dates"][0])
 
 
 @app.route("/return-flight", methods=["GET", "POST"])
 def return_flight():
+    session['return_id'] = None
     return _flight(session["destination"], session["origin"], session["dates"][1])
 
 
@@ -297,13 +300,31 @@ def flight_amenity_results():
 
 @app.route("/flight-details", methods=["GET", "POST"])
 def flight_details():
-    origin_id = request.form["origin_id"]
-    return_id = request.form["return_id"]
+    is_return_flight = request.args.get("return")
+    print("Return flight: ", is_return_flight)
+    if session.get('origin_id') == None:
+        session['origin_id'] = request.form["origin_id"]
+    if session.get('return_id') == None:
+        session['return_id'] = request.form["return_id"]
 
-    origin_details = flight_utilities.get_flight_details(origin_id, session["dates"][0])
+    origin_flight = flight_utilities.get_flight_details(session['origin_id'], session["dates"][0])
+    return_flight = flight_utilities.get_flight_details(session['return_id'], session["dates"][1])
+
+    flight_pairs = [origin_flight['flight_pairs'], return_flight['flight_pairs']]
+
+    flight_leg = request.args.get("flight_leg")
+    if flight_leg == None:
+        flight_leg = 0
+
+    trip = request.args.get("trip")
+    if trip == None:
+        trip = 0
+    
     airplane = flight_utilities.get_flight_seat_configuration(
-        origin_details["distances"][0]
+        origin_flight["distances"][0]
     )
+
+    flight_pair = origin_flight['flight_pairs'][flight_leg:flight_leg+2] 
 
     unavailable_seat_pct = random.randint(20, 80)
 
@@ -319,6 +340,11 @@ def flight_details():
 
     return render_template(
         "seatmap.html",
+        origin_flight=origin_flight,
+        return_flight=return_flight,
         airplane=airplane,
         unavailable_seats=unavailable_seats,
+        flight_pair=flight_pair,
+        flight_leg=flight_leg,
+        trip=trip,
     )

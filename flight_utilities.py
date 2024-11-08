@@ -249,9 +249,24 @@ def get_flight_details(flight_id, flight_date):
             int(x) for x in flight_details["distances"].strip("(").strip(")").split(",")
         ]
 
+        flight_pairs = (
+            [flight_details["origin"]]
+            + [
+                x
+                for x in flight_details["layover_airports"]
+                .strip("(")
+                .strip(")")
+                .split(",") if x != ""
+            ]
+            + [flight_details["destination"]]
+        )
+
+        flight_details['flight_pairs'] = flight_pairs
+
     return flight_details
 
-def _get_seats_for_flight_class(flight_class,row_offset = 0):
+
+def _get_seats_for_flight_class(flight_class, row_offset=0):
     seat_letters = {i: chr(64 + i) for i in range(1, 27)}
     seat_list = []
     for i in range(1, flight_class[-1] + 1):
@@ -270,7 +285,6 @@ def _get_seats_for_flight_class(flight_class,row_offset = 0):
 
     return seat_list
 
-    
 
 def get_flight_seat_configuration(distance):
     with sqlite3.connect("travelectable.db") as conn:
@@ -288,14 +302,14 @@ def get_flight_seat_configuration(distance):
         airplane for airplane in airplanes if airplane["range"] >= distance
     ]
 
-    # Choose randomly from eligible planes with the same distance capability 
+    # Choose randomly from eligible planes with the same distance capability
     if not eligible_airplanes:
         # Get the one with the longest range
         airplane = random.choice([airplanes[-1], airplanes[-2]])
     else:
         airplane = random.choice([eligible_airplanes[0], eligible_airplanes[1]])
 
-    all_seats = {'first_class': [], 'economy_class': []}
+    all_seats = {"first_class": [], "economy_class": []}
 
     raw_seat_configuration = [
         tuple(map(int, x.split("-")))
@@ -303,12 +317,20 @@ def get_flight_seat_configuration(distance):
     ]
 
     if len(raw_seat_configuration) > 1:
-        all_seats['first_class'] = _get_seats_for_flight_class(raw_seat_configuration[0])
+        all_seats["first_class"] = _get_seats_for_flight_class(
+            raw_seat_configuration[0]
+        )
 
-    all_seats['economy_class'] = _get_seats_for_flight_class(raw_seat_configuration[-1],len(all_seats['first_class']))
-    airplane['seat_configuration'] = all_seats
+    all_seats["economy_class"] = _get_seats_for_flight_class(
+        raw_seat_configuration[-1], len(all_seats["first_class"])
+    )
+    airplane["seat_configuration"] = all_seats
 
-    exit_configuration = [int(x) for x in airplane["exit_rows"].strip("(").strip(")").split(",") if x != ""]
+    exit_configuration = [
+        int(x)
+        for x in airplane["exit_rows"].strip("(").strip(")").split(",")
+        if x != ""
+    ]
     airplane["exit_rows"] = exit_configuration
 
     return airplane

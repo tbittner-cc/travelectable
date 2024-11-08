@@ -175,6 +175,7 @@ class TestGetFlightDetails(unittest.TestCase):
                 "num_stops": 0,
                 "layover_airports": "",
                 "distances": [2469],
+                "flight_pairs": ["JFK", "LAX"],
             },
         )
 
@@ -193,6 +194,7 @@ class TestGetFlightDetails(unittest.TestCase):
                 "num_stops": 1,
                 "layover_airports": "(SFO)",
                 "distances": [2579, 337],
+                "flight_pairs": ["JFK", "SFO", "LAX"],
             },
         )
 
