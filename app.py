@@ -230,17 +230,18 @@ def complete_booking():
 @app.route("/origin-flight")
 def origin_flight():
     session["origin_id"] = None
-    session["return_id"] = None
     return _flight(session["origin"], session["destination"], session["dates"][0])
-
 
 @app.route("/return-flight", methods=["GET", "POST"])
 def return_flight():
-    session["return_id"] = None
     return _flight(session["destination"], session["origin"], session["dates"][1])
 
-
 def _flight(start_location, end_location, flight_date):
+    session["return_id"] = None
+    session["seat_selections"] = None
+    session['trip'] = None
+    session['leg'] = None
+
     flights = flight_utilities.get_all_flight_search_results(
         start_location, end_location, flight_date
     )
@@ -304,6 +305,10 @@ def flight_details():
         session["origin_id"] = request.form["origin_id"]
     if session.get("return_id") == None:
         session["return_id"] = request.form["return_id"]
+    if session.get("trip") == None:
+        session['trip'] = 0
+    if session.get('leg') == None:
+        session['leg'] = 0
 
     origin_flight = flight_utilities.get_flight_details(
         session["origin_id"], session["dates"][0]
@@ -311,57 +316,54 @@ def flight_details():
     return_flight = flight_utilities.get_flight_details(
         session["return_id"], session["dates"][1]
     )
+    trip = session['trip']
+    leg = session['leg']
 
-    flight_pairs = {
-        0: [(a, b) for a, b in itertools.pairwise(origin_flight["flight_pairs"])],
-        1: [(a, b) for a, b in itertools.pairwise(return_flight["flight_pairs"])],
-    }
+    flight_pairs = [(a, b) for a, b in itertools.pairwise(origin_flight["flight_pairs"])]
+    airplanes = [flight_utilities.get_flight_seat_configuration(dist) for dist in origin_flight["distances"]]
+    origin_flight_pairs = list(zip(flight_pairs,airplanes))
 
-    flight_leg = request.args.get("flight_leg")
-    if flight_leg == None:
-        flight_leg = 0
-    else:
-        flight_leg = int(flight_leg)
+    flight_pairs = [(a, b) for a, b in itertools.pairwise(return_flight["flight_pairs"])]
+    airplanes = [flight_utilities.get_flight_seat_configuration(dist) for dist in return_flight["distances"]]
+    return_flight_pairs = list(zip(flight_pairs, airplanes))
 
-    trip = request.args.get("trip")
-    if trip == None:
-        trip = 0
-    else:
-        trip = int(trip)
+    flight_pairs = [origin_flight_pairs, return_flight_pairs]
 
-    # We're at the beginning of the seat selection - go back to flight details
-    if trip == 0 and flight_leg == -1:
-        print ("Redirecting to origin flight")
-        return redirect("/origin-flight")
-    # We're at the end of the first trip, go to the next one.
-    elif trip == 0 and flight_leg == len(flight_pairs[trip]):
-        trip = 1
-        flight_leg = 0
-    # We're at the beginning of the return trip, go back to the origin trip
-    elif trip == 1 and flight_leg == -1:
-        trip = 0
-        flight_leg = len(flight_pairs[trip]) - 1
-    # We're at the end of all trips.  Move on.
-    elif trip == 1 and flight_leg == len(flight_pairs[trip]):
-        return "foo"
+    if session.get("seat_selections") == None:
+        origin_selections = ['0' for a,b in itertools.pairwise(origin_flight["flight_pairs"])]
+        return_selections = ['0' for a,b in itertools.pairwise(return_flight["flight_pairs"])]
+        session["seat_selections"] = [origin_selections, return_selections]
 
-    prev_flight_leg = flight_leg - 1
-    next_flight_leg = flight_leg + 1
+    seat_selections = session["seat_selections"]
 
-    if trip == 0:
-        airplane = flight_utilities.get_flight_seat_configuration(
-            origin_flight["distances"][flight_leg]
-        )
-    else:
-        airplane = flight_utilities.get_flight_seat_configuration(
-            return_flight["distances"][flight_leg]
-        )
+    trip = session['trip']
+    leg = session['leg']
+
+    seat = request.args.get("seat")
+    flight = request.args.get("flight")
+
+    if seat != None:
+        print("Data: ",session["seat_selections"])
+        seat_selections[trip][leg] = seat
+        session["seat_selections"] = seat_selections
+        print("Data: ",session["seat_selections"])
+
+    if flight == "next":
+        if leg + 1 == len(flight_pairs[trip]):
+            leg = 0
+            trip += 1
+        else:
+            leg += 1
+        if trip == len(flight_pairs):
+            return 'foo'
+        session['trip'] = trip
+        session['leg'] = leg
 
     unavailable_seat_pct = random.randint(20, 80)
 
     # First class seats are always unavailable in our simulation, so they
     # aren't eligible to be randomized for availability
-    economy_seats = airplane["seat_configuration"]["economy_class"]
+    economy_seats = flight_pairs[trip][leg][1]["seat_configuration"]["economy_class"]
 
     # The nesting for the seats is two deep, hence the double call to itertools.chain
     merged_list = list(itertools.chain(*economy_seats))
@@ -378,11 +380,9 @@ def flight_details():
         "seatmap.html",
         origin_flight=origin_flight,
         return_flight=return_flight,
-        airplane=airplane,
         unavailable_seats=unavailable_seats,
+        seat_selections=seat_selections,
         flight_pairs=flight_pairs,
-        trip=trip,
-        flight_leg=flight_leg,        
-        prev_flight_leg=prev_flight_leg,
-        next_flight_leg=next_flight_leg,
+        trip = session["trip"],
+        leg = session["leg"],
     )

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-
+{% set airplane = flight_pairs[trip][leg][1] %}
 <div class="mx-auto my-4 w-max md:border-8 border-travelnavy rounded-lg">
     <h1 class="text-2xl font-bold mt-4 text-center">Select Your Seats</h1>
     <div class="mx-8 font-bold mt-4">Legend</div>
@@ -38,24 +38,23 @@
     </div>
     <div class="flex text-sm justify-center mt-2 font-bold">
         <div class="mr-2 text-travelblue">
-            <a href="{{ url_for('flight_details') }}?trip={{trip}}&flight_leg={{prev_flight_leg}}"><<</a>
+            <a href="{{ url_for('flight_details') }}?flight=prev"><<</a>
         </div>
-        <div class="mr-1">Flight {{ flight_leg + 1 }} of 
+        <div class="mr-1">Flight {{ leg + 1 }} of 
         {% if trip == 0 %}
         {{ origin_flight['flight_pairs'] | length - 1 }}
         {% else %}
         {{ return_flight['flight_pairs'] | length - 1 }}
         {% endif %}: </div>
-        <div>{{ flight_pairs[trip][flight_leg][0] }} - {{ flight_pairs[trip][flight_leg][1] }}</div>
+        <div>{{ flight_pairs[trip][leg][0][0] }} - {{ flight_pairs[trip][leg][0][1] }}</div>
         <div class="ml-2 text-travelblue">
-            <a href="{{ url_for('flight_details') }}?trip={{trip}}&flight_leg={{next_flight_leg}}">>></a>
+            <a href="{{ url_for('flight_details') }}?flight=next">>></a>
         </div>
     </div>
     <div class="flex text-sm justify-center mt-2">
         <div class="mr-1">{{ airplane['manufacturer'] }}</div>
         <div>{{ airplane['name'] }}</div>
     </div>
-
 
     {% if airplane['wide_body'] %}
     <svg class="w-[370px] h-[275px]">
@@ -131,21 +130,29 @@
                 {% if aisle | length > 0 %}
                 <div class="w-24 flex justify-between mb-4">
                     {% for j in aisle %}
-                    {% if j in unavailable_seats %}
-                    <div class="w-7 h-7 rounded bg-slate-400 text-white">
+                    {% if j not in unavailable_seats or seat_selections[trip][leg] == j %}
+                        {% if seat_selections[trip][leg] == j %}
+                        <a href="{{ url_for('flight_details') }}?flight=next&}&seat={{ j }}" 
+                            class="w-7 h-7 rounded bg-travelblue hover:cursor-pointer text-white block">
                         {% else %}
-                        <div name={{ j }}
-                            class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue hover:cursor-pointer text-white">
-                            {% endif %}
-                            <div class="text-xs text-center pt-1">{{ j }}</div>
-                            <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
-                        </div>
-                        {% endfor %}
-                    </div>
+                        <a href="{{ url_for('flight_details') }}?flight=next&&seat={{ j }}" 
+                        class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue hover:cursor-pointer text-white block">
+                        {% endif %}
+                            <span class="text-xs text-center pt-1 block">{{ j }}</span>
+                            <span class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded block"></span>
+                        </a>
                     {% else %}
-                    <div class="flex-grow text-center text-xs"></div>
+                    <div class="w-7 h-7 rounded bg-slate-400 text-white">
+                        <div class="text-xs text-center pt-1">{{ j }}</div>
+                        <div class="mx-auto mt-[1px] border-[0.25px] border-white w-6 h-1 rounded"></div>
+                    </div>                        
                     {% endif %}
                     {% endfor %}
+                </div>
+                {% else %}
+                <div class="flex-grow text-center text-xs"></div>
+                {% endif %}
+                {% endfor %}
                 </div>
                 {% endfor %}
             </div>
