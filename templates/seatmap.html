@@ -132,10 +132,10 @@
                     {% for j in aisle %}
                     {% if j not in unavailable_seats or seat_selections[trip][leg] == j %}
                         {% if seat_selections[trip][leg] == j %}
-                        <a href="{{ url_for('flight_details') }}?flight=next&}&seat={{ j }}" 
+                        <a href="{{ url_for('flight_details') }}?flight=next&seat={{ j }}" 
                             class="w-7 h-7 rounded bg-travelblue hover:cursor-pointer text-white block">
                         {% else %}
-                        <a href="{{ url_for('flight_details') }}?flight=next&&seat={{ j }}" 
+                        <a href="{{ url_for('flight_details') }}?flight=next&seat={{ j }}" 
                         class="w-7 h-7 rounded bg-travelnavy hover:bg-travelblue hover:cursor-pointer text-white block">
                         {% endif %}
                             <span class="text-xs text-center pt-1 block">{{ j }}</span>

@@ -343,10 +343,8 @@ def flight_details():
     flight = request.args.get("flight")
 
     if seat != None:
-        print("Data: ",session["seat_selections"])
         seat_selections[trip][leg] = seat
         session["seat_selections"] = seat_selections
-        print("Data: ",session["seat_selections"])
 
     if flight == "next":
         if leg + 1 == len(flight_pairs[trip]):
@@ -356,8 +354,18 @@ def flight_details():
             leg += 1
         if trip == len(flight_pairs):
             return 'foo'
-        session['trip'] = trip
-        session['leg'] = leg
+
+    if flight == "prev":
+        if leg == 0:
+            trip -= 1
+            leg = len(flight_pairs[trip]) - 1
+        else:
+            leg -= 1
+        if trip == -1:
+            return redirect("/origin-flight")
+
+    session['trip'] = trip
+    session['leg'] = leg
 
     unavailable_seat_pct = random.randint(20, 80)
 
