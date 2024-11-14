@@ -238,6 +238,7 @@ def return_flight():
 
 def _flight(start_location, end_location, flight_date):
     session["return_id"] = None
+    session["flight_pairs"] = None
     session["seat_selections"] = None
     session['trip'] = None
     session['leg'] = None
@@ -319,15 +320,18 @@ def flight_details():
     trip = session['trip']
     leg = session['leg']
 
-    flight_pairs = [(a, b) for a, b in itertools.pairwise(origin_flight["flight_pairs"])]
-    airplanes = [flight_utilities.get_flight_seat_configuration(dist) for dist in origin_flight["distances"]]
-    origin_flight_pairs = list(zip(flight_pairs,airplanes))
+    if session.get("flight_pairs") == None:
+        flight_pairs = [(a, b) for a, b in itertools.pairwise(origin_flight["flight_pairs"])]
+        airplanes = [flight_utilities.get_flight_seat_configuration(dist) for dist in origin_flight["distances"]]
+        origin_flight_pairs = list(zip(flight_pairs,airplanes))
 
-    flight_pairs = [(a, b) for a, b in itertools.pairwise(return_flight["flight_pairs"])]
-    airplanes = [flight_utilities.get_flight_seat_configuration(dist) for dist in return_flight["distances"]]
-    return_flight_pairs = list(zip(flight_pairs, airplanes))
+        flight_pairs = [(a, b) for a, b in itertools.pairwise(return_flight["flight_pairs"])]
+        airplanes = [flight_utilities.get_flight_seat_configuration(dist) for dist in return_flight["distances"]]
+        return_flight_pairs = list(zip(flight_pairs, airplanes))
 
-    flight_pairs = [origin_flight_pairs, return_flight_pairs]
+        session["flight_pairs"] = [origin_flight_pairs, return_flight_pairs]
+
+    flight_pairs = session["flight_pairs"]
 
     if session.get("seat_selections") == None:
         origin_selections = ['0' for a,b in itertools.pairwise(origin_flight["flight_pairs"])]
