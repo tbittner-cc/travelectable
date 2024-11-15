@@ -2,18 +2,17 @@
 
 {% block content %}
 <div class="font-comfortaa font-bold text-4xl mt-4 mx-2">checkout</div>
-<div class="text-2xl font-bold mt-2 md:mt-8 mx-2">Hotel Room Information</div>
-<div class="font-bold text-xl mt-2 mx-2 md:mx-4">{{ hotel['name'] }}</div>
-<div class="mt-2 mx-2 md:mx-4">{{ session['dates'][0].strftime('%B %-d') }} - {{ session['dates'][1].strftime('%B %-d') }}</div>
-<div class="mt-2 mx-2 md:mx-4">{{ hotel['rate']['room_type'] }}</div>
-<div class="mt-2 mx-2 md:mx-4">
-    {% if hotel['rate']['is_winter_rate'] %}
-      <p>${{ hotel['rate']['winter_rate'] }}/night&nbsp;<span class="text-xs mb-2">(${{ hotel['rate']['winter_total'] }} total)</span></p>
-    {% else %}
-      <p>${{ hotel['rate']['summer_rate'] }}/night&nbsp;<span class="text-xs mb-2">(${{ hotel['rate']['summer_total'] }} total)</span></p>
-    {% endif %}
-</div>
+{% if hotel %}
+{% include "hotel_checkout_details.html" %}
+{% else %}
+{% include "flight_checkout_details.html" %}
+{% endif %}
+
+{% if hotel %}
 <div class="text-2xl font-bold mt-2 mx-2">Guest Information</div>
+{% else %}
+<div class="text-2xl font-bold mt-2 mx-2">Passenger Information</div>
+{% endif %}
 <section class="personal-info md:ml-4 mt-2">
       <div class = "flex flex-col md:flex-row md:items-center mt-2 mx-2">
         <div class="md:basis-1/12">
@@ -99,6 +98,7 @@
         <button type="submit" name="action" value = "cancel" class="bg-red-500 text-white px-4 py-2 rounded-md">
             Cancel
         </button>
+        <input type="hidden" name="is_hotel" value="{{ hotel }}">
       </form>
 </section>
 {% endblock %}

@@ -1,0 +1,58 @@
+<div class="text-2xl font-bold mt-2 md:mt-8 mx-2">Flight Information</div>
+<div class="font-bold text-xl mt-2 mx-2 md:mx-4">{{ origin_flight['origin'] }} to {{ origin_flight['destination'] }}</div>
+<div class="mt-2 mx-2 md:mx-4">{{ session['dates'][0].strftime('%B %-d') }}</div>
+{% for pair in flight_pairs[0] %}
+  <div class="flex items-center text-sm mt-2">
+    <div class="ml-2 md:ml-4 mr-1">{{ pair[0][0] }}</div>
+    <hr class="inline-block w-4 border border-travelnavy inline-block mr-1" />
+    <div>
+      <i class="bi bi-airplane-fill inline-block text-travelnavy rotate-90 mr-1" role="presentation"></i>
+    </div>
+    <hr class="inline-block border border-travelnavy w-4 inline-block ml-1 mr-2" />
+    <div class="mr-2">{{ pair[0][1] }}</div>
+    <div class="mr-1">Seat:</div>
+    {% if seat_selections[0][loop.index0] == '0' %}
+    <div class="font-bold">Assigned at check-in.</div>
+    {% else %}
+    <div class="font-bold">{{ seat_selections[0][loop.index0]}}</div>
+    <div class="ml-1 text-green-600">
+      <i class="bi bi-check-circle-fill"></i>
+    </div>
+    {% endif %}
+  </div>
+{% endfor %}
+<div class="flex items-center mt-2 ml-2 md:ml-4">
+  <div class="mr-1">Price:</div>
+  <div class="font-bold">${{ origin_flight['price'] | int }}</div>
+</div>
+<div class="font-bold text-xl mt-4 mx-2 md:mx-4">{{ return_flight['origin'] }} to {{ return_flight['destination'] }}</div>
+<div class="mt-2 mx-2 md:mx-4">{{ session['dates'][1].strftime('%B %-d') }}</div>
+{% for pair in flight_pairs[1] %}
+  <div class="flex items-center text-sm mt-2">
+    <div class="ml-2 md:ml-4 mr-1">{{ pair[0][0] }}</div>
+    <hr class="inline-block w-4 border border-travelnavy inline-block mr-1" />
+    <div>
+      <i class="bi bi-airplane-fill inline-block text-travelnavy rotate-90 mr-1" role="presentation"></i>
+    </div>
+    <hr class="inline-block border border-travelnavy w-4 inline-block ml-1 mr-2" />
+    <div class="mr-2">{{ pair[0][1] }}</div>
+    <div class="mr-1">Seat:</div>
+    {% if seat_selections[1][loop.index0] == '0' %}
+    <div class="font-bold">Assigned at check-in.</div>
+    {% else %}
+    <div class="font-bold">{{ seat_selections[1][loop.index0]}}</div>
+    <div class="ml-1 text-green-600">
+      <i class="bi bi-check-circle-fill"></i>
+    </div>
+    {% endif %}
+  </div>
+{% endfor %}
+<div class="flex items-center mt-2 ml-2 md:ml-4">
+  <div class="mr-1">Price:</div>
+  <div class="font-bold">${{ return_flight['price'] | int }}</div>
+</div>
+
+<div class="flex font-bold items-center mt-4 mb-4 ml-2 md:ml-4">
+<div>Total Price:</div>
+<div class="ml-1">${{ return_flight['price'] | int  + origin_flight['price'] | int}}</div>
+</div>

@@ -206,25 +206,41 @@ def _filter_locations(form_value):
 
 @app.route("/checkout", methods=["GET", "POST"])
 def checkout():
-    rate_id = request.form["rate_id"]
-    hotel_id = request.form["hotel_id"]
+    rate_id = request.form.get("rate_id")
+    hotel_id = request.form.get("hotel_id")
 
-    is_winter_rate = utilities.is_winter_rate(session["dates"][0])
+    if rate_id and hotel_id:
+        is_winter_rate = utilities.is_winter_rate(session["dates"][0])
 
-    hotel = utilities.get_hotel_checkout_details(
-        rate_id, session["dates"], is_winter_rate
-    )
-    return render_template("checkout.html", hotel=hotel)
+        hotel = utilities.get_hotel_checkout_details(
+            rate_id, session["dates"], is_winter_rate
+        )
+
+        return render_template("checkout.html", hotel=hotel)
+    else:
+        origin_flight = flight_utilities.get_flight_details(
+        session["origin_id"], session["dates"][0]
+        )
+        return_flight = flight_utilities.get_flight_details(
+        session["return_id"], session["dates"][1]
+         )
+        return render_template("checkout.html", origin_flight=origin_flight, return_flight=return_flight,
+        flight_pairs=session["flight_pairs"], seat_selections=session["seat_selections"])
 
 
 @app.route("/complete-booking", methods=["GET", "POST"])
 def complete_booking():
     action = request.form["action"]
+    print(request.form)
+    is_hotel = request.form["is_hotel"]
 
     if action == "book":
+        session.clear()
         return render_template("finished.html")
-    elif action == "cancel":
+    elif action == "cancel" and is_hotel != '':
         return redirect("/hotels")
+    else:
+        return redirect("/origin-flight")
 
 
 @app.route("/origin-flight")
@@ -357,7 +373,7 @@ def flight_details():
         else:
             leg += 1
         if trip == len(flight_pairs):
-            return 'foo'
+            return redirect("/checkout")
 
     if flight == "prev":
         if leg == 0:
